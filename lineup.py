@@ -35,6 +35,7 @@ from elo import (
     fit_elo,
     load_games,
     outcomes,
+    race_win_probability,
 )
 
 DISCIPLINES = ("14/1e", "8-Ball", "9-Ball", "10-Ball")
@@ -216,11 +217,45 @@ def player_rating(
     return PRIOR_RATING, 0, "none"
 
 
+def infer_race_targets(
+    played: list[tuple[str, str, dict[str, str], float]],
+    names: list[str],
+) -> tuple[str, dict[str, int]]:
+    """Race length for the league our players mostly appear in."""
+    league_weight: dict[str, float] = defaultdict(float)
+    winner_scores: dict[tuple[str, str], dict[int, int]] = defaultdict(lambda: defaultdict(int))
+    wanted = set(names)
+    defaults = {"8-Ball": 5, "9-Ball": 7, "10-Ball": 5, "14/1e": 70}
+    for winner, loser, row, weight in played:
+        league = row.get("league", "").strip()
+        discipline = row.get("discipline", "").strip()
+        if winner in wanted or loser in wanted:
+            league_weight[league] += weight
+        text = row.get("straight_pool_punkte", "") if discipline == "14/1e" else row.get("frame_score", "")
+        if ":" not in text:
+            continue
+        try:
+            home_score, away_score = (int(part) for part in text.split(":", 1))
+        except ValueError:
+            continue
+        target = max(home_score, away_score)
+        floor = 40 if discipline == "14/1e" else 4
+        if target >= floor:
+            winner_scores[(league, discipline)][target] += 1
+    league = max(league_weight, key=league_weight.get) if league_weight else ""
+    targets = {}
+    for discipline in DISCIPLINES:
+        bucket = winner_scores.get((league, discipline), {})
+        targets[discipline] = max(bucket, key=bucket.get) if bucket else defaults[discipline]
+    return league, targets
+
+
 def win_probabilities(
     us: list[str],
     them: list[str],
     elo: dict[str, dict[str, float]],
     games: dict[str, dict[str, int]],
+    targets: dict[str, int],
 ) -> dict[tuple[int, int, str], float]:
     table: dict[tuple[int, int, str], float] = {}
     our_ratings = {
@@ -236,10 +271,13 @@ def win_probabilities(
     for our_index in range(len(us)):
         for their_index in range(len(them)):
             for disc in DISCIPLINES:
-                table[our_index, their_index, disc] = expected_score(
+                rack_chance = expected_score(
                     our_ratings[our_index, disc],
                     their_ratings[their_index, disc],
                     SCALE,
+                )
+                table[our_index, their_index, disc] = race_win_probability(
+                    rack_chance, targets[disc]
                 )
     return table
 
@@ -383,49 +421,157 @@ def scheduled_win_chance(
 
 
 def format_percent(value: float) -> str:
-    return f"{100.0 * value:.1f}%"
+    return f"{100.0 * value:.0f}%"
 
 
-def print_rounds(
+SPECIALIST_GAP = 100
+SPECIALIST_GAMES = 4
+
+
+def discipline_cells(
+    name: str,
+    elo: dict[str, dict[str, float]],
+    games: dict[str, dict[str, int]],
+) -> list[tuple[str, float | None, int]]:
+    cells = []
+    for disc in DISCIPLINES:
+        rating, played, source = player_rating(elo, games, name, disc)
+        if source == disc:
+            cells.append((disc, rating, played))
+        else:
+            cells.append((disc, None, played if source == "all" else 0))
+    return cells
+
+
+def specialist_label(cells: list[tuple[str, float | None, int]]) -> str:
+    """Flag a real gap between disciplines, not a thin sample."""
+    rated = [(disc, rating, played) for disc, rating, played in cells if rating is not None and played >= SPECIALIST_GAMES]
+    if len(rated) < 2:
+        return ""
+    best = max(rated, key=lambda item: item[1])
+    worst = min(rated, key=lambda item: item[1])
+    if best[1] - worst[1] < SPECIALIST_GAP:
+        return ""
+    return f"{best[0]} specialist, avoid {worst[0]}"
+
+
+def print_roster(
+    title: str,
+    names: list[str],
+    elo: dict[str, dict[str, float]],
+    games: dict[str, dict[str, int]],
+) -> None:
+    print(title)
+    header = f"  {'Player':<28}"
+    for disc in DISCIPLINES:
+        header += f" {disc:>10}"
+    header += "  Flag"
+    print(header)
+    for name in names:
+        cells = discipline_cells(name, elo, games)
+        overall = elo.get("all", {}).get(name)
+        line = f"  {name:<28}"
+        for _disc, rating, played in cells:
+            if rating is None:
+                line += f" {'—':>10}"
+            else:
+                line += f" {f'{rating:.0f} ({played})':>10}"
+        note = specialist_label(cells)
+        if overall is not None and not note:
+            line += f"  overall {overall:.0f}"
+        else:
+            line += f"  {note}"
+        print(line)
+    print("  Elo (games in that discipline). A dash means too little there to rate it on its own.")
+
+
+GIVE_UP_BELOW = 0.45
+LOCK_ABOVE = 0.58
+
+
+def strongest_opponent(
+    discipline: str,
+    names: list[str],
+    elo: dict[str, dict[str, float]],
+    games: dict[str, dict[str, int]],
+) -> str:
+    best_name = ""
+    best_rating = -1.0
+    for name in names:
+        rating, played, source = player_rating(elo, games, name, discipline)
+        if source == discipline and played >= SPECIALIST_GAMES and rating > best_rating:
+            best_rating = rating
+            best_name = name
+    if not best_name:
+        return ""
+    return f"{best_name} ({best_rating:.0f})"
+
+
+def print_match_plan(
     names: list[str],
     rounds: tuple[dict[str, int], dict[str, int]],
     their_schedules: list[tuple[tuple[dict[str, int], dict[str, int]], float]],
     chances: dict[tuple[int, int, str], float],
     elo: dict[str, dict[str, float]],
     games: dict[str, dict[str, int]],
+    opponents: list[str],
 ) -> None:
+    """Show the two rounds, and say when one table is conceded to lock the other three."""
+    any_sacrifice = False
     for number, pairing in enumerate(rounds, start=1):
-        print(f"Runde {number}")
+        slots = []
         for disc in DISCIPLINES:
             index = pairing[disc]
-            rating, played, source = player_rating(elo, games, names[index], disc)
-            chance = scheduled_win_chance(
-                index, disc, number - 1, their_schedules, chances
-            )
-            game_word = "game" if played == 1 else "games"
-            if source == disc:
-                source_note = f"{played} {game_word}"
-            elif source == "all":
-                source_note = f"overall Elo, {played} {game_word}"
+            chance = scheduled_win_chance(index, disc, number - 1, their_schedules, chances)
+            slots.append((disc, index, chance))
+        weakest = min(chance for _disc, _index, chance in slots)
+        locked = sum(chance >= LOCK_ABOVE for _disc, _index, chance in slots)
+        sacrifice = weakest <= GIVE_UP_BELOW and locked >= 3
+        any_sacrifice = any_sacrifice or sacrifice
+        print(f"Runde {number}")
+        for disc, index, chance in slots:
+            if sacrifice and chance <= GIVE_UP_BELOW:
+                tag = "GIVE UP"
+            elif sacrifice and chance >= LOCK_ABOVE:
+                tag = "LOCK"
+            elif chance <= GIVE_UP_BELOW:
+                tag = "WEAK"
             else:
-                source_note = "no games, default 1500"
+                tag = ""
+            rating, played, source = player_rating(elo, games, names[index], disc)
+            if source == disc:
+                detail = f"{rating:.0f} from {played} games"
+            elif source == "all":
+                detail = f"overall {rating:.0f}"
+            else:
+                detail = "no rating"
             print(
-                f"  {disc:<8} {names[index]:<28} "
-                f"Elo {rating:4.0f} ({source_note})  "
-                f"win {format_percent(chance)}"
+                f"  {tag:<7} {disc:<8} {names[index]:<28} "
+                f"win {format_percent(chance):>4}  {detail}"
             )
-
-
-def print_tendencies(
-    names: list[str],
-    counts: dict[str, dict[str, float]],
-) -> None:
-    header = "  " + " ".join(f"{disc:>8}" for disc in DISCIPLINES)
-    print(header)
-    for name in names:
-        raw = history_counts(counts, name)
-        cells = " ".join(f"{raw[disc]:8.1f}" for disc in DISCIPLINES)
-        print(f"  {name:<28} {cells}")
+        if sacrifice:
+            given = [slot for slot in slots if slot[2] <= GIVE_UP_BELOW]
+            held = [slot for slot in slots if slot[2] >= LOCK_ABOVE]
+            for disc, index, chance in given:
+                threat = strongest_opponent(disc, opponents, elo, games)
+                threat_note = f" Their strongest there is {threat}." if threat else ""
+                print(
+                    f"  Concede {disc} ({names[index]}, {format_percent(chance)})."
+                    f"{threat_note}"
+                )
+            held_text = ", ".join(f"{disc} {format_percent(chance)}" for disc, _index, chance in held)
+            print(f"  The other three tables are the ones to win: {held_text}.")
+        elif weakest <= GIVE_UP_BELOW:
+            soft = ", ".join(
+                f"{disc} {format_percent(chance)}"
+                for disc, _index, chance in slots
+                if chance <= GIVE_UP_BELOW
+            )
+            print(f"  Likely loss: {soft}. The other tables in this round are not safe enough to give it away on purpose.")
+        print()
+    if not any_sacrifice:
+        print("No table is given away. The eight games are close enough that conceding one does not help.")
+        print()
 
 
 def print_assignment(names: list[str], assignment: tuple[frozenset[str], ...]) -> None:
@@ -447,7 +593,8 @@ def run(args: argparse.Namespace) -> None:
 
     elo, games = fit_ratings(played)
     counts = preference_table(played)
-    chances = win_probabilities(us_names, them_names, elo, games)
+    league, targets = infer_race_targets(played, us_names)
+    chances = win_probabilities(us_names, them_names, elo, games, targets)
     # Our search keeps every legal lineup. The opponent mixture keeps the
     # likely ones; four-player sides are small enough that this is all of them.
     our_assignments = enumerate_assignments(len(us_names))
@@ -466,6 +613,8 @@ def run(args: argparse.Namespace) -> None:
         f"Best chance of winning the match, ratings as of {as_of_text}. "
         f"A win is {WIN_POINTS} or more points out of 8."
     )
+    lengths = ", ".join(f"{disc} to {targets[disc]}" for disc in DISCIPLINES)
+    print(f"Race lengths from {league}: {lengths}.")
     print(
         f"Win {format_percent(best.win)}   "
         f"draw {format_percent(best.draw)}   "
@@ -478,19 +627,26 @@ def run(args: argparse.Namespace) -> None:
             f"({format_percent(their_side.coverage)} of the probability)."
         )
     print()
-    print_rounds(us_names, schedule, their_schedules, chances, elo, games)
+    print_roster("Us", us_names, elo, games)
     print()
-    print("Who plays which disciplines")
-    print_assignment(us_names, best.assignment)
+    print_roster("Them", them_names, elo, games)
     print()
+    print("Plan")
+    print_match_plan(
+        us_names,
+        schedule,
+        their_schedules,
+        chances,
+        elo,
+        games,
+        them_names,
+    )
     print(
         "Most likely opponent lineup "
         f"({format_percent(their_side.probabilities[modal_index])} of their weighted lineups)"
     )
     print_assignment(them_names, their_side.assignments[modal_index])
     print()
-    print("Opponent discipline history, in time-weighted games")
-    print_tendencies(them_names, counts)
     thin = []
     for disc in DISCIPLINES:
         for index, picks in enumerate(best.assignment):

@@ -2,13 +2,16 @@
 """Calibrated Elo ratings from scraped BVBW game results.
 
 Each rating is the Bradley–Terry / Elo maximum-likelihood value for that
-player. Fitting stops when every player's expected wins match their actual
-wins, aside from a small pull toward 1500. A single pass with a K-factor
-does not have that property, so those ratings are not calibrated.
+player. Fitting stops when every player's expected share of racks and balls
+matches the share they actually took, aside from a small pull toward 1500.
+A single pass with a K-factor does not have that property, so those ratings
+are not calibrated.
 
-The scale is classical Elo: 400 points is 10:1 odds on one game. Ratings
-describe only the games in the input file. They are not FargoRate scores
-and they are not a BVBW or DBU ranking.
+The scale is classical Elo: 400 points is 10:1 odds on one rack, or on one
+ball in 14/1. A 5:0 is every rack; a 5:4 is five racks out of nine. A
+60:30 in straight pool is a larger share than 60:52. Ratings describe only
+the games in the input file. They are not FargoRate scores and they are not
+a BVBW or DBU ranking.
 
 elo_low and elo_high are a 95% interval around elo. elo_se is the typical
 error, one standard deviation. Both come from the curvature of the fit.
@@ -58,8 +61,84 @@ def expected_score(rating: float, opponent: float, scale: float = SCALE) -> floa
 
 
 def load_games(path: Path) -> list[dict[str, str]]:
+    """Load a results file, plus data/inhouse.csv when loading games.csv.
+
+    The inhouse file is the hand-edited club list. Its columns are
+    date, player, opponent, score, discipline.
+    """
     with path.open(newline="", encoding="utf-8-sig") as handle:
-        return list(csv.DictReader(handle))
+        rows = list(csv.DictReader(handle))
+    extra = path.parent / "inhouse.csv"
+    if path.name == "games.csv" and extra.exists():
+        rows.extend(_inhouse_games(extra))
+    return rows
+
+
+def _inhouse_games(path: Path) -> list[dict[str, str]]:
+    games: list[dict[str, str]] = []
+    with path.open(newline="", encoding="utf-8-sig") as handle:
+        for index, row in enumerate(csv.DictReader(handle), start=2):
+            player = (row.get("player") or "").strip()
+            opponent = (row.get("opponent") or "").strip()
+            score = (row.get("score") or "").strip().replace(" ", "")
+            discipline = (row.get("discipline") or "").strip()
+            date = (row.get("date") or "").strip()
+            if not player and not opponent and not score:
+                continue
+            if not player or not opponent or ":" not in score:
+                raise SystemExit(f"{path}:{index}: need player, opponent, and a score like 5:3")
+            left, right = score.split(":", 1)
+            try:
+                taken, conceded = int(left), int(right)
+            except ValueError:
+                raise SystemExit(f"{path}:{index}: score {score!r} is not two numbers") from None
+            if taken == conceded:
+                continue
+            winner, loser = (player, opponent) if taken > conceded else (opponent, player)
+            when = parse_match_date(date)
+            if when is None:
+                season = ""
+            elif when.month >= 9:
+                season = f"{when.year}/{when.year + 1}"
+            else:
+                season = f"{when.year - 1}/{when.year}"
+            if discipline in {"8", "8-Ball", "8-ball"}:
+                discipline = "8-Ball"
+            elif discipline in {"9", "9-Ball", "9-ball"}:
+                discipline = "9-Ball"
+            elif discipline.lower().startswith("14"):
+                discipline = "14/1e"
+            straight = score if discipline == "14/1e" else ""
+            games.append(
+                {
+                    "season": season,
+                    "league": "Intern",
+                    "staffel": "Tübinger BC",
+                    "spieltag": str(index - 1),
+                    "match_date": date,
+                    "match_time": "",
+                    "home_team": "Tübinger BC",
+                    "away_team": "Tübinger BC",
+                    "match_score": score,
+                    "round": "",
+                    "game_no": "1",
+                    "discipline": discipline,
+                    "home_player": player,
+                    "away_player": opponent,
+                    "frame_score": score,
+                    "home_points": "1" if winner == player else "0",
+                    "away_points": "1" if winner == opponent else "0",
+                    "winner": winner,
+                    "loser": loser,
+                    "winner_side": "home" if winner == player else "away",
+                    "straight_pool_punkte": straight,
+                    "straight_pool_aufnahmen": "",
+                    "straight_pool_hs": "",
+                    "straight_pool_gd": "",
+                    "report_url": f"internal://tbc/{date}/{index - 1}",
+                }
+            )
+    return games
 
 
 def outcomes(rows: list[dict[str, str]]) -> list[tuple[str, str, dict[str, str]]]:
@@ -120,9 +199,47 @@ def assign_weights(
     return weighted, as_of
 
 
+def _score_pair(text: str) -> tuple[int, int] | None:
+    if ":" not in text:
+        return None
+    left, right = text.split(":", 1)
+    try:
+        home_score, away_score = int(left), int(right)
+    except ValueError:
+        return None
+    if home_score < 0 or away_score < 0 or home_score + away_score == 0:
+        return None
+    return home_score, away_score
+
+
+def winner_share(row: dict[str, str]) -> float:
+    """Fraction of racks or balls taken by the winner.
+
+    5:0 is 1.00, 5:4 is 5/9, 60:30 is 60/90, 60:52 is 60/112. A game with
+    no usable score stays a plain win.
+    """
+    discipline = row.get("discipline", "").strip()
+    text = row.get("straight_pool_punkte", "") if discipline == "14/1e" else ""
+    parsed = _score_pair(text.strip()) or _score_pair(row.get("frame_score", "").strip())
+    if parsed is None:
+        return 1.0
+    home_score, away_score = parsed
+    winner = row.get("winner", "").strip()
+    if winner == row.get("home_player", "").strip():
+        taken, conceded = home_score, away_score
+    elif winner == row.get("away_player", "").strip():
+        taken, conceded = away_score, home_score
+    else:
+        return 1.0
+    if taken < conceded or taken + conceded <= 0:
+        return 1.0
+    return taken / (taken + conceded)
+
+
 def collect(played: list[Game]) -> dict[str, PlayerRecord]:
     players: dict[str, PlayerRecord] = defaultdict(PlayerRecord)
     for winner, loser, row, weight in played:
+        share = winner_share(row)
         for name, won in ((winner, True), (loser, False)):
             record = players[name]
             record.games += 1
@@ -136,9 +253,32 @@ def collect(played: list[Game]) -> dict[str, PlayerRecord]:
                 record.leagues.add(row["league"].strip())
             if row.get("staffel"):
                 record.staffeln.add(row["staffel"].strip())
-        players[winner].opponents.append((loser, 1.0, weight))
-        players[loser].opponents.append((winner, 0.0, weight))
+        players[winner].opponents.append((loser, share, weight))
+        players[loser].opponents.append((winner, 1.0 - share, weight))
     return players
+
+
+def race_win_probability(unit_probability: float, target: int) -> float:
+    """Chance of reaching `target` racks or balls before the opponent.
+
+    `unit_probability` is the Elo chance of winning one rack, or one ball
+    in 14/1. The match ends when either player reaches the target.
+    """
+    if target <= 1:
+        return min(1.0, max(0.0, unit_probability))
+    if unit_probability <= 0.0:
+        return 0.0
+    if unit_probability >= 1.0:
+        return 1.0
+    log_term = target * math.log(unit_probability)
+    total = math.exp(log_term)
+    log_opponent = math.log(1.0 - unit_probability)
+    for lost in range(1, target):
+        log_term += log_opponent + math.log(target - 1 + lost) - math.log(lost)
+        if log_term < -700:
+            continue
+        total += math.exp(log_term)
+    return min(1.0, max(0.0, total))
 
 
 def fit_elo(
@@ -150,7 +290,7 @@ def fit_elo(
     max_iter: int = 300,
     tol: float = 0.01,
 ) -> dict[str, float]:
-    """Newton updates until expected wins match actual wins.
+    """Newton updates until expected score share matches the score taken.
 
     `prior_games` is a fractional draw against `prior_rating`. It keeps an
     undefeated player with one or two games from running off to infinity,
@@ -282,7 +422,7 @@ def reliability(
     rating: dict[str, float],
     scale: float,
 ) -> list[tuple[str, float, float]]:
-    """Home win rate against predicted probability, with older games down-weighted."""
+    """Home score share against predicted rack or ball probability."""
     edges = [index / 10 for index in range(0, 11)]
     counts = [0.0] * (len(edges) - 1)
     wins = [0.0] * (len(edges) - 1)
@@ -290,10 +430,11 @@ def reliability(
         home = row["home_player"].strip()
         away = row["away_player"].strip()
         chance = expected_score(rating[home], rating[away], scale)
-        won = 1.0 if home == winner else 0.0
+        share = winner_share(row)
+        home_share = share if home == winner else 1.0 - share
         index = min(int(chance * 10), 9)
         counts[index] += weight
-        wins[index] += weight * won
+        wins[index] += weight * home_share
     table: list[tuple[str, float, float]] = []
     for index, (count, won) in enumerate(zip(counts, wins)):
         low = edges[index]
@@ -383,7 +524,7 @@ def run(args: argparse.Namespace) -> None:
             f"(oldest game in this file counts as {oldest_weight:.0%})."
         )
     print(
-        "Mean |weighted wins − expected wins| on all games: "
+        "Mean |score share − expected share| on all games: "
         f"{mean_abs_residual(all_rows, 'all'):.3f}"
     )
     print(
@@ -400,8 +541,8 @@ def run(args: argparse.Namespace) -> None:
             f"{record:>7}  {row['player']} ({row['team']})"
         )
     print()
-    print("Calibration of predicted win probabilities (all games):")
-    print(f"{'P(win)':>8}  {'games':>6}  {'observed':>8}")
+    print("Calibration of predicted rack/ball share (all games):")
+    print(f"{'P(unit)':>8}  {'games':>6}  {'taken':>8}")
     for label, count, observed in reliability(played, fitted["all"], args.scale):
         if count == 0:
             continue

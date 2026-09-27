@@ -28,8 +28,16 @@ from selenium.webdriver.support.ui import WebDriverWait
 
 BASE_URL = "https://billard-bvbw.de/"
 START_URL = urljoin(BASE_URL, "sb_spielplan.php")
-TARGET_LEAGUES = ("Kreisliga A", "Bezirksliga", "Landesliga")
-STAFFEL_PREFIXES = ("ost", "west", "east")
+TARGET_LEAGUES = (
+    "Kreisliga A",
+    "Bezirksliga",
+    "Landesliga",
+    "Verbandsliga Nord-West",
+    "Verbandsliga Mitte-Ost",
+    # 2026/2027 renamed the two Verbandsliga divisions.
+    "Verbandsliga Nord",
+    "Verbandsliga Süd",
+)
 SCORE_RE = re.compile(r"^\d+:\d+$")
 SKIP_SCORES = {"0:0", ":"}
 CSV_FIELDS = [
@@ -156,7 +164,7 @@ class StepScraper:
     def human_wait(self, extra: float = 0.0) -> None:
         delay = random.uniform(self.min_wait, self.max_wait) + extra
         if not self.quiet:
-            print(f"    waiting {delay:.1f}s (bot-protection delay)")
+            print(f"    waiting {delay:.1f}s")
         time.sleep(delay)
 
     def _progress_line(self) -> str:
@@ -283,11 +291,14 @@ class StepScraper:
 
     def click_league(self, name: str) -> None:
         assert self.driver is not None
-        link = WebDriverWait(self.driver, 15).until(
-            EC.element_to_be_clickable(
-                (By.XPATH, f"//a[contains(@class,'cc_bluelink') and normalize-space()='{name}']")
-            )
+        matches = self.driver.find_elements(
+            By.XPATH,
+            f"//a[contains(@class,'cc_bluelink') and normalize-space()='{name}']",
         )
+        if not matches:
+            print(f"    no '{name}' in {self.state.season}, skipping")
+            return
+        link = matches[0]
         self.driver.execute_script("arguments[0].scrollIntoView({block:'center'});", link)
         time.sleep(0.4)
         link.click()
@@ -301,37 +312,47 @@ class StepScraper:
         self.state.staffel = ""
         self.show_progress(newline=True)
         self.enqueue_front(
-            [(f"Collect Ost/West staffeln in {name}", lambda n=name: self.collect_staffeln(n))]
+            [(f"Collect all staffeln in {name}", lambda n=name: self.collect_staffeln(n))]
         )
 
     def collect_staffeln(self, league: str) -> None:
         assert self.driver is not None
+        # The Staffel strip is Ost/West/Mitte/Nord/Süd and numbered groups.
+        # Sport tabs live in a different strip, so every link here is a region.
         tabs = self.driver.find_elements(
             By.XPATH,
             "//td[normalize-space()='Staffel']/following-sibling::td[1]"
             "//ul[contains(@class,'tabstrip')]//a",
         )
         staffeln: list[tuple[str, str]] = []
+        seen: set[str] = set()
         for tab in tabs:
-            title = (tab.get_attribute("title") or tab.text or "").strip()
-            if self._is_east_west(title):
-                staffeln.append((title, tab.get_attribute("href") or ""))
-        # Keep only the staffel tabstrip (Ost/West/Nord...), not sport tabs.
-        staffeln = [(name, href) for name, href in staffeln if name]
+            title = " ".join((tab.get_attribute("title") or tab.text or "").split())
+            href = tab.get_attribute("href") or ""
+            if not title or title in seen:
+                continue
+            seen.add(title)
+            staffeln.append((title, href))
+        if not staffeln:
+            # Verbandsliga has one group and no Staffel strip; the Spielplan is on this page.
+            self.state.staffel = league
+            self.progress.staffel_total = 1
+            self.progress.staffel_index = 1
+            if not self.quiet:
+                print(f"    no staffel tabs; reading the Spielplan for {league}")
+            self.enqueue_front(
+                [(f"Open Spielplan tab for {league}", self.open_spielplan_tab)]
+            )
+            return
         self.progress.staffel_total = len(staffeln)
         self.progress.staffel_index = 0
         if not self.quiet:
-            print(f"    found staffeln: {[name for name, _ in staffeln] or 'none'}")
+            print(f"    found staffeln: {[name for name, _ in staffeln]}")
         items = [
             (f"Open {league} / {name}", lambda n=name, h=href: self.open_staffel(n, h))
             for name, href in staffeln
         ]
         self.enqueue_front(items)
-
-    @staticmethod
-    def _is_east_west(name: str) -> bool:
-        first = name.strip().split()[0].lower() if name.strip() else ""
-        return first in STAFFEL_PREFIXES
 
     def open_staffel(self, name: str, href: str = "") -> None:
         assert self.driver is not None
@@ -788,6 +809,8 @@ def run_auto(scraper: StepScraper) -> None:
     print(f"Auto-run started. Writing {scraper.csv_path}")
     print(f"Seasons: {seasons}")
     print(f"Leagues: {leagues}")
+    print("Staffeln: every region on the Staffel strip (Ost, West, Mitte, Nord, Süd, …)")
+    print(f"Skipping {len(scraper.state.seen_reports)} report URLs already in the CSV")
     try:
         while scraper.queue:
             label = scraper.current_label()
@@ -854,8 +877,8 @@ def main() -> None:
         type=Path,
         help="CSV output path",
     )
-    parser.add_argument("--min-wait", type=float, default=2.5)
-    parser.add_argument("--max-wait", type=float, default=5.0)
+    parser.add_argument("--min-wait", type=float, default=0.4)
+    parser.add_argument("--max-wait", type=float, default=0.8)
     parser.add_argument(
         "--cli",
         action="store_true",
@@ -870,7 +893,7 @@ def main() -> None:
         "--leagues",
         nargs="+",
         default=list(TARGET_LEAGUES),
-        help="Leagues to scrape, e.g. 'Kreisliga A' Bezirksliga Landesliga",
+        help="Leagues to scrape. Default includes Verbandsliga Nord-West and Mitte-Ost",
     )
     parser.add_argument(
         "--seasons",
