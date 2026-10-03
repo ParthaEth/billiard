@@ -1,0 +1,495 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+            "http://www.w3.org/TR/1999/REC-html401-19991224/loose.dtd">
+
+<html>
+
+
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=8"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>BillardArea - Spielergebnisse</title>
+<link rel="stylesheet" type="text/css" href="/css/style.css" />
+<link rel="stylesheet" type="text/css" href="/css/jquery.jgrowl.css" /><link rel="stylesheet" type="text/css" href="/css/jquery.asmselect.css" /><link rel="stylesheet" type="text/css" href="/css/jquery-impromptu.css" />
+<script type="text/javascript" src="/js/jquery.js"></script>	<link rel="stylesheet" type="text/css" href="/css/smoothness/jquery-ui-1.7.1.custom.css" />	<script type="text/javascript" src="/js/jquery-ui-1.7.1.custom.min.js"></script>
+<link rel="stylesheet" type="text/css" href="/css/live-search.css" /><link rel="stylesheet" type="text/css" href="/css/dhtmlxgrid.css" /><link rel="stylesheet" type="text/css" href="/css/nav.css" />
+<link rel="stylesheet" type="text/css" href="/css/validationEngine.jquery.css" /><link rel="stylesheet" type="text/css" href="/css/ui.selectmenu.css" /><link rel="stylesheet" type="text/css" href="/css/dhtmlxcombo.css" /><link rel="stylesheet" type="text/css" href="/css/form.css" />
+<script type="text/javascript" src="/js/jquery.asmselect.js"></script><script type="text/javascript" src="/js/jquery-impromptu.js"></script><script type="text/javascript" src="/js/jquery.autogrow.js"></script>
+<script type="text/javascript" src="/js/jquery.datepicker.german.js"></script><script type="text/javascript" src="/js/jquery.dimensions.js"></script><script type="text/javascript" src="/js/jquery.liveSearch.js"></script><script type="text/javascript" src="/js/dhtmlxcommon.js"></script><script type="text/javascript" src="/js/dhtmlxgrid.js"></script><script type="text/javascript" src="/js/ext/dhtmlxgrid_srnd.js"></script><script type="text/javascript" src="/js/ext/dhtmlxgrid_filter.js"></script><script type="text/javascript" src="/js/pir/jquery.pir.js"></script>
+<script type="text/javascript" src="/js/ui.selectmenu.js"></script><script type="text/javascript" src="/js/dhtmlxgridcell.js"></script>
+<script type="text/javascript" src="/js/ext/dhtmlxgrid_excell_link.js"></script>
+<script type="text/javascript" src="/js/jquery.jgrowl.js"></script>
+<script type="text/javascript" src="/js/dhtmlxgrid_start.js"></script>
+<script type="text/javascript" src="/js/dhtmlxcombo.js"></script><script type="text/javascript" src="/js/jquery.validationEngine.js"></script>
+<script type="text/javascript" src="/js/dhtmlxGrid/dhtmlxGrid/codebase/ext/dhtmlxgrid_ssc.js"></script><script type="text/javascript" src="/js/jquery.cookie.js"></script>
+<script type="text/javascript">
+
+$(document).ready(function() {
+//$('.nice_select').selectmenu();
+// replace “success: false,” by: success : function() { callSuccessFunction() },
+
+// Tabs
+				$('#tabs').tabs();
+				//$('#tabs').tabs({ event, 'mouseover' });
+				//hover states on the static widgets
+				$('#dialog_link, ul#icons li').hover(
+					function() { $(this).addClass('ui-state-hover'); },
+					function() { $(this).removeClass('ui-state-hover'); }
+				);
+
+
+		$("#accordion").accordion({ active:false, collapsible:true, autoHeight:false });
+
+$('textarea.normal').autogrow();
+  $('#slickbox').hide();
+
+  $('a#slick-toggle').click(function() {
+ $('#slickbox').toggle(0);
+ return false;
+  });
+
+
+
+});
+</script> <script type="text/javascript">
+//<![CDATA[
+	// When DOM loads, init the page.
+		$( InitPage );
+		var cur = 0;
+		var save = 0;
+		var clubchange = 0;
+		var inhalt = '';
+
+		var grid = 0;
+
+		// Init the page.
+		function InitPage(){
+			var jInput = $( ":input:not(.nochangealert)" );
+if(grid!=1){
+
+			jInput.change(
+
+
+				function( objEvent ){
+
+					$( this ).css( "border", "1px inset #F8B018", "border-right", "1px inset #CC8506",  "border-top", "1px inset #CC8506");
+					if(clubchange==0){
+					$("#changes").css("display", "block");
+					cur = cur + 1;
+					if(cur==1){ inhalt = "Ungespeicherte Änderungen"; }
+					else {  inhalt = "Ungespeicherte Änderungen"; }
+					$("#changes").text(inhalt);
+
+
+					window.onbeforeunload = function () {
+					if(cur>0){
+					if(save==0){
+					return "Bitte beachten Sie, dass Sie ungespeicherte Änderungen auf dieser Seite haben.";
+					}}
+					}
+
+					}
+				}
+				);
+				}
+		}
+
+
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}  //]]>
+</script>
+
+<script type="text/javascript">
+//<![CDATA[
+
+  jQuery(document).ready(function() {
+  jQuery("#dialog_information").dialog({
+
+      bgiframe: true,
+	  autoOpen: false,
+	  height: 'auto',
+	  width: 380,
+	  resizable: false,
+	  closeonEscape: true,
+	  modal: true,
+	  draggable: false,
+	  position: ['center',250],
+	  overlay: {
+		backgroundColor: '#ffffff',
+		opacity: 0.7
+	  },
+
+	  buttons: {
+
+
+
+				'Hilfe schließen': function() {
+					$(this).dialog('close');
+				}
+		}
+
+    });
+  });
+  //]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+
+  jQuery(document).ready(function() {
+	  jQuery("#dialog_information").dialog({
+
+	      bgiframe: true,
+		  autoOpen: false,
+		  height: 'auto',
+		  width: 380,
+		  resizable: false,
+		  closeonEscape: true,
+		  modal: true,
+		  draggable: false,
+		  position: ['center',250],
+		  overlay: {
+			backgroundColor: '#ffffff',
+			opacity: 0.7
+		  },
+
+		  buttons: {
+
+
+
+					'Hilfe schließen': function() {
+						$(this).dialog('close');
+					}
+			}
+
+	    });
+  });
+  //]]>
+</script>
+
+</head>
+
+<body onLoad="MM_preloadImages('/app/webroot/img/all/main/nav/items/start_active.png')" >
+<style>
+#fb-banner {
+position: fixed;
+right: 0px;
+top: 35%;
+}
+</style>
+<div id="fb-banner">
+<a href="https://www.facebook.com/billardarea" target="_blank"><img src="/img/fb_banner.png"></a>
+</div>
+<div id="dialog_information" title="Hilfe" style="display:none">
+<p></p>
+</div>
+
+
+
+<div id="mainbody"><div id="logoarea"><div id="logo"><a href="/" target="_self"><img src="/img/all/main/logo.png" height="171" width="307" border="0" alt="BillardArea - Deutschlandweites Billardportal"></a></div>
+<div id="federation_sign"><img src='/img/headers/header_1/-.png')' width='8px'></div></div><div class="clearfloat"></div>
+<table class="navtable" cellpadding="0" cellspacing="0"><tr><td width="10"><img src="/img/all/main/nav/navtable_left.png" height="34" width="10" alt="navl"></td><td height="34" width="930" style="background-image:url('/img/all/main/nav/navtable_bg.png'); background-repeat:repeat-x;">
+
+
+</td><td width="10"><img src="/img/all/main/nav/navtable_right.png" height="34" width="10" alt="navr"></td></tr></table>
+
+<script type="text/javascript">  
+$(document).ready(function() {
+	$('#tabs').tabs();
+})
+</script>
+<div id="content_fullwidth">
+<img src="/img/cms/taboben_right3.jpg" width="795" height="6" alt="Tab unten" border="0">
+<div style="background-color:white" class="padding">
+<!--<a href="/cms_leagues/plan/">Zurück</a>-->
+<a href="/cms_leagues/plan//"><img src="/img/cms/buttons/dynamic/zurueck-zur-ligatabelle_aktiv.png" border="0" style="float:right;"/></a><div class="clearfloat"></div><br />
+<br />
+<h4 style="background-image:url('/img/cms/headers/spielergebnisse---spieltagsansichth4.png');">VSpielergebnisse  </h4><br />
+
+
+<!-- 
+**********************************************
+******  Billardarea.de
+******  // Clubs 
+**********************************************
+-->
+
+<!-- Javascript-Includes -->
+<!-- /Javascript-Includes -->
+
+<!-- Page Inner Content -->
+    <div class="page_margins"><div class="page">
+
+
+
+
+	<!-- Teaser -->
+      <div id="teaser">
+      	<!-- Header -->
+            	  </div>
+	<!-- Teaser -->      
+
+    
+    
+    
+    <!-- Beginn Main Area -->
+      <div id="main_frontend">
+<div class="left">
+      		<fieldset>
+
+            <div class="element medium"><label>Sparte</label> <div class="nochange field"><br />
+		                  </div></div>
+            <div class="element medium"><label>Liga (Saison)</label> <div class="nochange field"><br /> ()</div></div>
+            
+            <div class="element medium"><label>Partie-Nr.</label> <div class="nochange field"></div></div>
+            </fieldset>
+            </div>
+            <div class="right">
+            <fieldset>
+
+            <div class="element medium"><label>Datum</label> <div class="nochange field"> </div></div>
+            <div class="element medium"><label>Spiellokal</label> <div class="nochange field">
+             <br />                        </div></div>
+                        </fieldset>
+       </div>
+       <div class="clearfloat"></div><br />
+<br />
+
+        
+            <h4 style="background-image:url('/img/cms/headers/spielergebnisse---ergebnisuebersichth4.png');">VSpielergebnisse  </h4><br />
+                        <div id="tabs-1">
+         <fieldset>
+ 
+     
+
+            <table width="100%" border="0" cellspacing="0" cellpadding="0" class="score_table">
+              <tr>
+                <td width="23" colspan="3" nowrap valign="middle"></td>
+                <td colspan="6" valign="top" class="home"><b>Heim</b>:<br /> </td>
+                <td colspan="5" valign="top" class="visitor"><b>Gast</b>:<br /> </td><td></td>
+                </tr> <tr><td colspan="16" class="line" style="height:10px;"></td></tr>
+               
+          
+                                  </table>
+            <div align="right"><br /><b>Endstand: 
+             : </b>&nbsp;&nbsp;&nbsp;</div>
+        
+         
+              </fieldset>
+              </div>
+			  			  			     
+    
+    </div>
+    </div>
+    </div>
+
+
+</div><img src="/img/cms/tabunten_right3.jpg" width="795" height="6" alt="Tab unten" border="0"></div><center><img src="/img/all/border_bottom.png" height="9" width="950" alt="navr"></center>
+
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$( "#tabs" ).bind( "tabsshow", function(event, ui) {
+		//var id = "tabs";
+		var id = $(this).attr('id');
+		var $tabs = $('#'+id).tabs();
+		var selected = $tabs.tabs('option', 'selected'); // => 0
+		var url = "cms_leagues___2Fmatchday___2F301168";
+		$.ajax({url: "/session/active_tab/url:"+url+"/selected:"+selected+"/id:"+id});
+	});
+});
+$(document).ready(function() {
+	});
+</script>
+
+<script>
+	if(typeof mygrid != "undefined"){
+		mygrid.attachEvent("onXLS", function(sub_grid_obj,rId,rInd){ $('#loading').show();});
+		mygrid.attachEvent("onXLE", function(sub_grid_obj,rId,rInd){ $('#loading').hide();});
+	}
+</script>
+
+<!-- default -->
+<script type="text/javascript">
+var trackingCodes = ["UA-2214945-8","UA-2214945-9"];
+var disableStr = [];
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,"script","//www.google-analytics.com/analytics.js","ga");
+for ( i=0; i<trackingCodes.length; i++ ) {
+disableStr[i] = "ga-disable-" + trackingCodes[i];
+if ( document.cookie.indexOf( disableStr[i] + "=true" ) > -1 ) {
+window[disableStr[i]] = true;
+}
+ga( "create", trackingCodes[i], "auto", { "name": "t"+i });
+ga( "t"+i+".require", "displayfeatures" );
+ga( "t"+i+".set", "anonymizeIp", true );
+ga( "t"+i+".set", "forceSSL", true );
+ga( "t"+i+".send", "pageview" );
+}
+function gaOptout() {
+for ( i = 0; i < disableStr.length; i++ ) {
+document.cookie = disableStr[i] + "=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/";
+window[disableStr[i]] = true;
+}
+}
+function EnableEventTracking() {
+if ( typeof jQuery != "undefined" ) {
+jQuery( document ).ready( function( $ ) {
+var filetypes = /\.(zip|exe|pdf|doc*|xls*|ppt*|mp3|wmv|png|jp[e]*g)$/i;
+var baseHref = "";
+if ( jQuery( "base" ).attr( "href" ) != undefined ) {
+baseHref = jQuery( "base" ).attr( "href" );
+}
+jQuery( "a" ).each( function() {
+var href = jQuery( this ).attr( "href" );
+if ( href && ( href.match( /^https?\:/i )) && ( !href.match( document.domain ))) {
+jQuery( this ).click( function( event ) {
+var extLink  = href.replace( /^https?\:\/\//i, "" );
+var hitCount = trackingCodes.length;
+var result   = true;
+var gaParams = {
+"hitType"      : "event",
+"eventCategory": "External",
+"eventAction"  : "Click",
+"eventLabel"   : extLink
+};
+if (( jQuery( this ).attr( "target" ) == undefined ) || ( jQuery( this ).attr( "target" ).toLowerCase() != "_blank" )) {
+gaParams["hitCallback"] = function() {
+hitCount--;
+if ( hitCount <= 0 ) {
+location.href = href;
+}
+}
+result = false;
+}
+for ( i=0; i<trackingCodes.length; i++ ) {
+ga( "t"+i+".send", gaParams );
+}
+return result;
+});
+} else if ( href && href.match( /^mailto\:/i )) {
+jQuery( this ).click( function( event ) {
+var mailLink = href.replace( /^mailto\:/i, "" );
+for ( i=0; i<trackingCodes.length; i++ ) {
+ga( "t"+i+".send", "event", "Email", "Click", mailLink );
+}
+});
+} else if ( href && href.match( filetypes )) {
+jQuery( this ).click( function( event ) {
+var extension = ( /[.]/.exec( href )) ? /[^.]+$/.exec( href ) : undefined;
+var hitCount  = trackingCodes.length;
+var result    = true;
+var gaParams  = {
+"hitType"      : "event",
+"eventCategory": "Download",
+"eventAction"  : "Click-" + extension,
+"eventLabel"   : href
+};
+if (( jQuery( this ).attr( "target" ) == undefined ) || ( jQuery( this ).attr( "target" ).toLowerCase() != "_blank" )) {
+gaParams["hitCallback"] = function() {
+hitCount--;
+if ( hitCount <= 0 ) {
+location.href = baseHref + href;
+}
+}
+result = false;
+}
+for ( i=0; i<trackingCodes.length; i++ ) {
+ga( "t"+i+".send", gaParams );
+}
+return result;
+});
+} else if ( href && jQuery( this ).hasClass( "download" )) {
+jQuery( this ).click( function( event ) {
+var hitCount = trackingCodes.length;
+var result   = true;
+var gaParams = {
+"hitType"      : "event",
+"eventCategory": "Download",
+"eventAction"  : "Document",
+"eventLabel"   : href
+};
+if (( jQuery( this ).attr( "target" ) == undefined ) || ( jQuery( this ).attr( "target" ).toLowerCase() != "_blank" )) {
+gaParams["hitCallback"] = function() {
+hitCount--;
+if ( hitCount <= 0 ) {
+location.href = baseHref + href;
+}
+}
+result = false;
+}
+for ( i=0; i<trackingCodes.length; i++ ) {
+ga( "t"+i+".send", gaParams );
+}
+return result;
+});
+} else if ( href && href.match( /^javascript\:linkTo_UnCryptMailto/i ) && decryptString ) {
+jQuery( this ).click( function( event ) {
+var mailLink = decryptString( href.substring( href.indexOf( "'" ) + 1, href.lastIndexOf( "'" )), -2 ).replace( /^mailto\:/i, "" );
+var hitCount = trackingCodes.length;
+for ( i=0; i<trackingCodes.length; i++ ) {
+ga( "t"+i+".send", {
+"hitType"      : "event",
+"eventCategory": "Email",
+"eventAction"  : "Click",
+"eventLabel"   : mailLink,
+"hitCallback"  : function() {
+hitCount--;
+if ( hitCount <= 0 ) {
+location.href = "mailto:" + mailLink;
+}
+}
+});
+}
+return false;
+});
+}
+});
+});
+} else if ( typeof console != "undefined" ) {
+ console.log( "No jQuery found. No tracking of links." );
+}
+}
+function WaitForJQueryLoad() {
+if ( typeof jQuery == "undefined" ) {
+window.setTimeout( WaitForJQueryLoad, 100 );
+} else {
+EnableEventTracking();
+}
+}
+if ( typeof jQuery == "undefined" ) {
+var a = document.createElement( "script" );
+var m = document.getElementsByTagName( "script" )[0];
+m.parentNode.insertBefore( a, m );
+<!--[if lte IE 8]>var isIE8 = true;<![endif]-->
+if ( typeof isIE8 == "undefined" ) {
+a.onload = EnableEventTracking;
+} else {
+window.setTimeout( WaitForJQueryLoad, 100 );
+}
+a.src = "https://code.jquery.com/jquery-1.11.2.min.js";
+} else {
+EnableEventTracking();
+}
+</script>
+</body>
+</html>

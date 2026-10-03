@@ -1,0 +1,438 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+            "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<title>BillardArea: Spielergebnisse</title>
+<meta name="description" content="Deutschlandweites Billardportal - Billardsport in einer neuen Dimension: News und Artikel, Spielbetrieb, Lokalsuche und Community für Pool Billard, Snooker, Karambol und Kegel">
+<link rel="stylesheet" type="text/css" href="/css/frontend_final.css">
+<link rel="stylesheet" type="text/css" href="/css/jquery.lightbox-0.5.css">
+<link rel="stylesheet" type="text/css" href="/css/colorpicker/layout.css">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+<meta content="107551009272344" property="fb:page_id">
+
+<script type="text/javascript" src="/js/jquery.js"></script>
+<script type="text/javascript" src="/js/jquery-ui-1.7.1.custom.min.js"></script>
+<script type="text/javascript" src="/js/rot13.js"></script>
+<script type="text/javascript" src="/js/swfobject.js"></script>
+<script type="text/javascript" src="/js/jquery.tablesorter.js"></script>
+<script type="text/javascript" src="/js/jquery.lightbox-0.5.js"></script>
+
+<link rel="stylesheet" type="text/css" href="/css/cms/clients/3/styles.css" >
+<link rel="stylesheet" type="text/css" href="/css/cms/clients/3/nav_styles_1.css" >
+
+
+<!--[if lte IE 7]>
+<link href="css/patches/patch.css" rel="stylesheet" type="text/css" >
+<script type="text/javascript" src="/js/ie7.js"></script><![endif]-->
+
+
+
+<script type="text/javascript"><!--
+
+var hex=0;
+function MM_swapImgRestore()
+ { //v3.0
+  var i,x,a = document.MM_sr;
+  for(i=0; a && i < a.length && (x = a[i]) && x.oSrc; ++i)
+   {
+    x.src = x.oSrc;
+   }
+ }
+
+ function MM_findObj(n, d)
+ { //v3.0
+  var p,i,x;
+  if (!d)
+   {
+    d = document;
+   }
+  if ((p = n.indexOf("?")) > 0 && parent.frames.length)
+   {
+    d = parent.frames[n.substring(p+1)].document;
+    n = n.substring(0,p);
+   }
+  if (!(x = d[n]) && d.all)
+   {
+    x = d.all[n];
+   }
+  for (i=0; !x && i < d.forms.length; ++i)
+   {
+    x = d.forms[i][n];
+   }
+  for (i=0; !x && d.layers && i < d.layers.length; ++i)
+   {
+    x = MM_findObj(n,d.layers[i].document);
+   }
+  return(x);
+}
+
+
+function MM_swapImage()
+ { //v3.0
+  var i,j=0,x,a = MM_swapImage.arguments;
+  document.MM_sr = new Array;
+
+  for(i=0; i < (a.length-2); i += 3)
+   {
+    if ((x = MM_findObj(a[i])) != null)
+     {
+      document.MM_sr[j++] = x;
+      if (!x.oSrc)
+        x.oSrc = x.src;
+      x.src = a[i+2];
+     }
+   }
+ }
+
+
+
+$(document).ready(function() {
+	$(function() {
+		$('#gallery a').lightBox();
+		$('a.lightbox').lightBox();
+	});
+});
+
+--></script>
+
+
+
+
+</head>
+
+<body class="text">
+<style>
+#fb-banner {
+position: fixed;
+right: 0px;
+top: 35%;
+opacity: 0.8;
+transition: opacity 0.3s ease;
+}
+#fb-banner:hover {
+opacity: 1;
+}
+</style>
+<div id="fb-banner">
+<a href="https://www.facebook.com/billardarea" target="_blank"><img src="/img/fb_banner.png"></a>
+</div>
+
+
+	<!-- Wallpaper oben -->
+	<div id="page">&nbsp;
+    <div id="ad2"><!-- Wallpaper rechts -->
+    </div>
+	<div id="logoarea">
+<!-- DSB BANNER
+<style>
+#dsb-banner {
+position: absolute;
+top: -16px;
+right: 24px;
+}
+#dsb-banner img {
+height: 180px;
+}
+</style>
+<div id="dsb-banner">
+<a href="http://portal.billardarea.de/cms_blog/dsb/uebersicht"><img src="/img/dsb.png"></a>
+</div-->
+<!-- / DSB BANNER -->
+    <div id="logoarea_left">
+    <a href="http://portal.billardarea.de"><img src="/img/logo.png" width="307" height="73" alt="BillardArea - Deutschlandweites Billardportal" id="logo" border="0"></a>
+    </div><div id="logoarea_right"><div class="logo_image"></div>
+    </div>
+    </div>
+
+	<div id="main">
+    
+
+    <div id="ebene1">
+	
+	<ul id="nav_ebene1">
+   	<li class="inaktiv  first" id="das-billardportal"><a href="/frontend">Das Billardportal</a></li><li class="aktiv " id="der-spielbetrieb"><a href="/cms_leagues">Der Spielbetrieb</a></li><li class="inaktiv " id="billard-verband-baden-württemberg"><a href="/content">Billard-Verband Baden-Württemberg</a></li><li class="inaktiv  last" id="meine-billardarea"><a href="http://admin.billardarea.de">Meine Billardarea</a></li>    </ul>
+	    </div>
+    <div id="ebene2">
+    	<ul id="nav_ebene2">
+   	<li class="aktiv  first" id="mannschaft"><a href="/cms_leagues">Mannschaft</a></li><li class="inaktiv " id="einzel"><a href="/cms_single">Einzel</a></li><li class="inaktiv " id="vereine--mitglieder"><a href="/cms_clubs">Vereine &amp; Mitglieder</a></li><li class="inaktiv " id="kalender"><a href="/cms_calendar">Kalender</a></li><li class="inaktiv " id="auswertungen"><a href="/cms_evaluations">Auswertungen</a></li><!--li class="inaktiv" id="dsb" ><a href="http://portal.billardarea.de/cms_blog/dsb/uebersicht" style="">Deutschland spielt Billard</a></li-->    </ul>
+
+
+    </div>
+    <div id="ebene3">
+    <!-- <div id="breadcrumb">Sie befinden sich hier: <a href="/cms_leagues">Der Spielbetrieb</a>	&raquo; <a href="/cms_leagues">Mannschaft</a>        	</div> -->       </div><img src="/img/cms/tabunten.jpg" width="795" height="6" alt="Tab unten" border="0" style="padding:0px"><div id="maininner" style="width:795px">
+<br>    
+<div style="width:790px;text-align:center">
+<!--<a href="http://www.epresia.de/?ref=billardarea" target="_blank"><img src="/img/superbanner_breit.gif" alt="epresia.de - Finde jetzt passende Geschenkes"></a>-->
+
+
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-0068043095147503";
+
+google_ad_slot = "7353751266";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>
+<br>
+
+
+<br>
+
+<script type="text/javascript">  
+$(document).ready(function() {
+	$('#tabs').tabs();
+})
+</script>
+<div id="content_fullwidth">
+<img src="/img/cms/taboben_right3.jpg" width="795" height="6" alt="Tab unten" border="0">
+<div style="background-color:white" class="padding">
+<!--<a href="/cms_leagues/plan/3942/5807">Zurück</a>-->
+<a href="/cms_leagues/plan/3942/5807"><img src="/img/cms/buttons/dynamic/zurueck-zur-ligatabelle_aktiv.png" border="0" style="float:right;"/></a><div class="clearfloat"></div><br />
+<br />
+<h4 style="background-image:url('/img/cms/headers/spielergebnisse---spieltagsansichth4.png');">VSpielergebnisse  </h4><br />
+
+
+<!-- 
+**********************************************
+******  Billardarea.de
+******  // Clubs 
+**********************************************
+-->
+
+<!-- Javascript-Includes -->
+<!-- /Javascript-Includes -->
+
+<!-- Page Inner Content -->
+    <div class="page_margins"><div class="page">
+
+
+
+
+	<!-- Teaser -->
+      <div id="teaser">
+      	<!-- Header -->
+            	  </div>
+	<!-- Teaser -->      
+
+    
+    
+    
+    <!-- Beginn Main Area -->
+      <div id="main_frontend">
+<div class="left">
+      		<fieldset>
+
+            <div class="element medium"><label>Sparte</label> <div class="nochange field">Pool: <br />
+		                Kombi-Mannschaft  </div></div>
+            <div class="element medium"><label>Liga (Saison)</label> <div class="nochange field">Bezirksliga<br />2 - Mitte (2015/2016)</div></div>
+            
+            <div class="element medium"><label>Partie-Nr.</label> <div class="nochange field">217915</div></div>
+            </fieldset>
+            </div>
+            <div class="right">
+            <fieldset>
+
+            <div class="element medium"><label>Datum</label> <div class="nochange field">24.04.2016 11:00</div></div>
+            <div class="element medium"><label>Spiellokal</label> <div class="nochange field">
+            PBC Backnang <br />            <a href="/cms_pubs/show/3374">Billard-Café Mocca</a><br />Schorndorfer Straße 1<br />73642 Welzheim<br /><br />            </div></div>
+                        </fieldset>
+       </div>
+       <div class="clearfloat"></div><br />
+<br />
+
+        
+            <h4 style="background-image:url('/img/cms/headers/spielergebnisse---ergebnisuebersichth4.png');">VSpielergebnisse  </h4><br />
+                        <div id="tabs-1">
+         <fieldset>
+ 
+     
+
+            <table width="100%" border="0" cellspacing="0" cellpadding="0" class="score_table">
+              <tr>
+                <td width="23" colspan="3" nowrap valign="middle"></td>
+                <td colspan="6" valign="top" class="home"><b>Heim</b>:<br />PBC Backnang </td>
+                <td colspan="5" valign="top" class="visitor"><b>Gast</b>:<br />PBC Schwäbisch-Gmünd </td><td></td>
+                </tr> <tr><td colspan="16" class="line" style="height:10px;"></td></tr>
+               
+              <tr>
+                <td width="100"  rowspan="2" colspan="3" nowrap><b>
+                                Spiel 1<br />14.1 endlos                </b>
+                                </td>
+                <td colspan="6" valign="top" class="home up">Freilos</td>
+                <td colspan="7" valign="top" class="visitor up">Freilos</td>
+                </tr>
+                          
+               
+                
+              <tr>
+              	                <td width="44" valign="top" colspan="2" class="home down">
+                	Bälle:
+                <br />
+                	0                	</td>
+                <td width="34" valign="top" colspan="2" class="home down">Aufn.:<br />
+                	0                	</td>
+                <td width="28" valign="top" colspan="2" class="home down">HS:<br />
+                	0                	</td>
+                    
+                <td width="42" valign="top" colspan="2" class="visitor down">Bälle<br />
+                	0                	</td>
+                <td width="29" valign="top" colspan="2" class="visitor down">Aufn.:<br />
+                	0</td>
+        
+                <td width="32" valign="top" colspan="2" class="visitor down">HS:<br />
+                	0                	</td>
+                </tr><tr><td colspan="16" class="line" style="height:10px;"></td></tr>
+                
+                            <tr>
+              	<td width="100"  rowspan="2" colspan="3" nowrap><b>
+              	                Spiel 2<br />8-Ball              	</b>
+              	                
+              	</td>
+                <td colspan="6" valign="top" class="home up">Freilos</td>
+                <td colspan="7" valign="top" class="visitor up">Freilos</td>
+                </tr>
+                              
+      	              <tr>
+                                <td colspan="6" valign="top" class="home down">0</td>
+                <td colspan="7" valign="top" class="visitor down">0</td>
+                </tr><tr><td colspan="16" class="line" style="height:10px;"></td></tr>
+      	              <tr>
+              	<td width="100"  rowspan="2" colspan="3" nowrap><b>
+              	                Spiel 3<br />9-Ball              	</b>
+              	                
+              	</td>
+                <td colspan="6" valign="top" class="home up">Freilos</td>
+                <td colspan="7" valign="top" class="visitor up">Freilos</td>
+                </tr>
+                              
+      	              <tr>
+                                <td colspan="6" valign="top" class="home down">0</td>
+                <td colspan="7" valign="top" class="visitor down">0</td>
+                </tr><tr><td colspan="16" class="line" style="height:10px;"></td></tr>
+      	              <tr>
+              	<td width="100"  rowspan="2" colspan="3" nowrap><b>
+              	                Spiel 4<br />10-Ball              	</b>
+              	                
+              	</td>
+                <td colspan="6" valign="top" class="home up">Freilos</td>
+                <td colspan="7" valign="top" class="visitor up">Freilos</td>
+                </tr>
+                              
+      	              <tr>
+                                <td colspan="6" valign="top" class="home down">0</td>
+                <td colspan="7" valign="top" class="visitor down">0</td>
+                </tr><tr><td colspan="16" class="line" style="height:10px;"></td></tr>
+      	              <tr>
+                <td width="100"  rowspan="2" colspan="3" nowrap><b>
+                                Spiel 5<br />14.1 endlos                </b>
+                                </td>
+                <td colspan="6" valign="top" class="home up">Freilos</td>
+                <td colspan="7" valign="top" class="visitor up">Freilos</td>
+                </tr>
+                          
+               
+                
+              <tr>
+              	                <td width="44" valign="top" colspan="2" class="home down">
+                	Bälle:
+                <br />
+                	0                	</td>
+                <td width="34" valign="top" colspan="2" class="home down">Aufn.:<br />
+                	0                	</td>
+                <td width="28" valign="top" colspan="2" class="home down">HS:<br />
+                	0                	</td>
+                    
+                <td width="42" valign="top" colspan="2" class="visitor down">Bälle<br />
+                	0                	</td>
+                <td width="29" valign="top" colspan="2" class="visitor down">Aufn.:<br />
+                	0</td>
+        
+                <td width="32" valign="top" colspan="2" class="visitor down">HS:<br />
+                	0                	</td>
+                </tr><tr><td colspan="16" class="line" style="height:10px;"></td></tr>
+                
+                            <tr>
+              	<td width="100"  rowspan="2" colspan="3" nowrap><b>
+              	                Spiel 6<br />8-Ball              	</b>
+              	                
+              	</td>
+                <td colspan="6" valign="top" class="home up">Freilos</td>
+                <td colspan="7" valign="top" class="visitor up">Freilos</td>
+                </tr>
+                              
+      	              <tr>
+                                <td colspan="6" valign="top" class="home down">0</td>
+                <td colspan="7" valign="top" class="visitor down">0</td>
+                </tr><tr><td colspan="16" class="line" style="height:10px;"></td></tr>
+      	              <tr>
+              	<td width="100"  rowspan="2" colspan="3" nowrap><b>
+              	                Spiel 7<br />9-Ball              	</b>
+              	                
+              	</td>
+                <td colspan="6" valign="top" class="home up">Freilos</td>
+                <td colspan="7" valign="top" class="visitor up">Freilos</td>
+                </tr>
+                              
+      	              <tr>
+                                <td colspan="6" valign="top" class="home down">0</td>
+                <td colspan="7" valign="top" class="visitor down">0</td>
+                </tr><tr><td colspan="16" class="line" style="height:10px;"></td></tr>
+      	              <tr>
+              	<td width="100"  rowspan="2" colspan="3" nowrap><b>
+              	                Spiel 8<br />10-Ball              	</b>
+              	                
+              	</td>
+                <td colspan="6" valign="top" class="home up">Freilos</td>
+                <td colspan="7" valign="top" class="visitor up">Freilos</td>
+                </tr>
+                              
+      	              <tr>
+                                <td colspan="6" valign="top" class="home down">0</td>
+                <td colspan="7" valign="top" class="visitor down">0</td>
+                </tr><tr><td colspan="16" class="line" style="height:10px;"></td></tr>
+      	          
+                                  </table>
+            <div align="right"><br /><b>Endstand: 
+            0 : 0</b>&nbsp;&nbsp;&nbsp;</div>
+        
+         
+              </fieldset>
+              </div>
+			  			  			     
+    
+    </div>
+    </div>
+    </div>
+
+
+</div><img src="/img/cms/tabunten_right3.jpg" width="795" height="6" alt="Tab unten" border="0"></div>	</div><div class="clearfloat"></div></div>
+
+
+</div><div class="clearfloat"></div><div id="footerlinks"><div id="footerlinks_inner"><a href="http://portal.billardarea.de/content/impressum" title="Impressum">Impressum</a><br>
+</div></div>
+
+<!-- JavaScript Includes -->
+<script type="text/javascript">
+$(document).ready(function() {
+	$( "#tabs" ).bind( "tabsshow", function(event, ui) {
+		var id = $(this).attr('id');
+		var $tabs = $('#'+id).tabs();
+		var selected = $tabs.tabs('option', 'selected');
+		var url = "cms_leagues___2Fmatchday___2F217915";
+		$.ajax({url: "/session/active_tab/url:"+url+"/selected:"+selected+"/id:"+id});
+	});
+});
+$(document).ready(function() {
+	});
+</script>
+<!-- cms/default -->
+<script type="text/javascript" src="http://reporting.exudev.de/tracking.js.php?df=1&tc1=UA-2214945-6&tc2=UA-2214945-9"></script>
+<!-- End of JavaScript Includes -->
+
+<a href="https://plus.google.com/104343624092678514347" rel="publisher"></a>
+</body>
+</html>

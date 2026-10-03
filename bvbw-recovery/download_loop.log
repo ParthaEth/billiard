@@ -1,0 +1,62 @@
+2026-10-02T13:34:06+02:00 starting retry loop workers=4
+2026-10-02T13:34:06+02:00 === pass 1 ===
+to download 1932 / 4104  workers=4
+progress 50/1932 {'ok': 45, 'fail': 5, 'skip': 0}
+progress 100/1932 {'ok': 92, 'fail': 8, 'skip': 0}
+progress 150/1932 {'ok': 137, 'fail': 13, 'skip': 0}
+progress 200/1932 {'ok': 183, 'fail': 17, 'skip': 0}
+progress 250/1932 {'ok': 229, 'fail': 21, 'skip': 0}
+progress 300/1932 {'ok': 275, 'fail': 26, 'skip': 0}
+progress 350/1932 {'ok': 319, 'fail': 32, 'skip': 0}
+progress 400/1932 {'ok': 364, 'fail': 36, 'skip': 0}
+progress 450/1932 {'ok': 409, 'fail': 42, 'skip': 0}
+progress 500/1932 {'ok': 454, 'fail': 46, 'skip': 0}
+progress 550/1932 {'ok': 500, 'fail': 50, 'skip': 0}
+progress 600/1932 {'ok': 546, 'fail': 54, 'skip': 0}
+progress 650/1932 {'ok': 590, 'fail': 60, 'skip': 0}
+progress 700/1932 {'ok': 637, 'fail': 64, 'skip': 0}
+progress 750/1932 {'ok': 682, 'fail': 68, 'skip': 0}
+progress 800/1932 {'ok': 726, 'fail': 74, 'skip': 0}
+progress 850/1932 {'ok': 771, 'fail': 79, 'skip': 0}
+progress 900/1932 {'ok': 818, 'fail': 83, 'skip': 0}
+progress 950/1932 {'ok': 863, 'fail': 87, 'skip': 0}
+progress 1000/1932 {'ok': 908, 'fail': 93, 'skip': 0}
+progress 1050/1932 {'ok': 954, 'fail': 97, 'skip': 0}
+progress 1100/1932 {'ok': 1000, 'fail': 101, 'skip': 0}
+progress 1150/1932 {'ok': 1045, 'fail': 105, 'skip': 0}
+progress 1200/1932 {'ok': 1091, 'fail': 109, 'skip': 0}
+progress 1250/1932 {'ok': 1138, 'fail': 113, 'skip': 0}
+progress 1300/1932 {'ok': 1182, 'fail': 118, 'skip': 0}
+progress 1350/1932 {'ok': 1228, 'fail': 122, 'skip': 0}
+progress 1400/1932 {'ok': 1277, 'fail': 124, 'skip': 0}
+progress 1450/1932 {'ok': 1324, 'fail': 126, 'skip': 0}
+progress 1500/1932 {'ok': 1368, 'fail': 132, 'skip': 0}
+progress 1550/1932 {'ok': 1414, 'fail': 136, 'skip': 0}
+progress 1600/1932 {'ok': 1458, 'fail': 142, 'skip': 0}
+progress 1650/1932 {'ok': 1506, 'fail': 144, 'skip': 0}
+progress 1700/1932 {'ok': 1553, 'fail': 148, 'skip': 0}
+progress 1750/1932 {'ok': 1597, 'fail': 153, 'skip': 0}
+progress 1800/1932 {'ok': 1645, 'fail': 155, 'skip': 0}
+progress 1850/1932 {'ok': 1689, 'fail': 161, 'skip': 0}
+progress 1900/1932 {'ok': 1735, 'fail': 165, 'skip': 0}
+DONE {'ok': 1762, 'fail': 170, 'skip': 0}
+2026-10-02T15:15:19+02:00 have ~3934/4104  missing=170
+2026-10-02T15:15:19+02:00 sleeping 20s before retry...
+2026-10-02T15:15:39+02:00 === pass 2 ===
+to download 170 / 4104  workers=4
+progress 50/170 {'ok': 45, 'fail': 5, 'skip': 0}
+progress 100/170 {'ok': 88, 'fail': 12, 'skip': 0}
+progress 150/170 {'ok': 134, 'fail': 16, 'skip': 0}
+DONE {'ok': 152, 'fail': 18, 'skip': 0}
+2026-10-02T15:24:17+02:00 have ~4086/4104  missing=18
+2026-10-02T15:24:17+02:00 sleeping 20s before retry...
+2026-10-02T15:24:37+02:00 === pass 3 ===
+to download 18 / 4104  workers=4
+DONE {'ok': 17, 'fail': 1, 'skip': 0}
+2026-10-02T15:25:31+02:00 have ~4103/4104  missing=1
+2026-10-02T15:25:31+02:00 sleeping 20s before retry...
+2026-10-02T15:25:51+02:00 === pass 4 ===
+to download 1 / 4104  workers=4
+DONE {'ok': 1, 'fail': 0, 'skip': 0}
+2026-10-02T15:25:53+02:00 have ~4104/4104  missing=0
+2026-10-02T15:25:53+02:00 DONE — nothing left to download

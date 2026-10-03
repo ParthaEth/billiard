@@ -1,0 +1,916 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+            "https://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<title>BillardArea: Vereine & Mitglieder</title>
+<meta name="description" content="Deutschlandweites Billardportal - Billardsport in einer neuen Dimension: News und Artikel, Spielbetrieb, Lokalsuche und Community für Pool Billard, Snooker, Karambol und Kegel">
+<link rel="stylesheet" type="text/css" href="/css/frontend_final.css">
+<link rel="stylesheet" type="text/css" href="/css/jquery.lightbox-0.5.css">
+<link rel="stylesheet" type="text/css" href="/css/colorpicker/layout.css">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+<meta content="107551009272344" property="fb:page_id">
+
+<script type="text/javascript" src="/js/jquery.js"></script>
+<script type="text/javascript" src="/js/jquery-ui-1.7.1.custom.min.js"></script>
+<script type="text/javascript" src="/js/rot13.js"></script>
+<script type="text/javascript" src="/js/swfobject.js"></script>
+<script type="text/javascript" src="/js/jquery.tablesorter.js"></script>
+<script type="text/javascript" src="/js/jquery.lightbox-0.5.js"></script>
+
+    <!-- Cookie Meldung -->
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+    <script>
+        window.addEventListener("load", function(){
+            window.cookieconsent.initialise({
+                "palette": {
+                    "popup": {
+                        "background": "#ffffff"
+                    },
+                    "button": {
+                        "background": "#d99214"
+                    }
+                },
+                "theme": "edgeless",
+                "position": "bottom-left",
+                "content": {
+                    "message": "Die Seite billardarea.de verwendet Cookies, um Ihnen den bestmöglichen Service auf dieser Seite zu gewährleisten. Weitere Informationen erhalten Sie in unserer Datenschutzerklärung.",
+                    "dismiss": "OK",
+                    "link": "Weiterlesen",
+                    "href": "https://portal.billardarea.de/content/datenschutz"
+                }
+            })});
+    </script>
+
+<link rel="stylesheet" type="text/css" href="/css/cms/clients/3/styles.css" >
+<link rel="stylesheet" type="text/css" href="/css/cms/clients/3/nav_styles_1.css" >
+
+
+<!--[if lte IE 7]>
+<link href="css/patches/patch.css" rel="stylesheet" type="text/css" >
+<script type="text/javascript" src="/js/ie7.js"></script><![endif]-->
+
+
+
+<script type="text/javascript"><!--
+
+var hex=0;
+function MM_swapImgRestore()
+ { //v3.0
+  var i,x,a = document.MM_sr;
+  for(i=0; a && i < a.length && (x = a[i]) && x.oSrc; ++i)
+   {
+    x.src = x.oSrc;
+   }
+ }
+
+ function MM_findObj(n, d)
+ { //v3.0
+  var p,i,x;
+  if (!d)
+   {
+    d = document;
+   }
+  if ((p = n.indexOf("?")) > 0 && parent.frames.length)
+   {
+    d = parent.frames[n.substring(p+1)].document;
+    n = n.substring(0,p);
+   }
+  if (!(x = d[n]) && d.all)
+   {
+    x = d.all[n];
+   }
+  for (i=0; !x && i < d.forms.length; ++i)
+   {
+    x = d.forms[i][n];
+   }
+  for (i=0; !x && d.layers && i < d.layers.length; ++i)
+   {
+    x = MM_findObj(n,d.layers[i].document);
+   }
+  return(x);
+}
+
+
+function MM_swapImage()
+ { //v3.0
+  var i,j=0,x,a = MM_swapImage.arguments;
+  document.MM_sr = new Array;
+
+  for(i=0; i < (a.length-2); i += 3)
+   {
+    if ((x = MM_findObj(a[i])) != null)
+     {
+      document.MM_sr[j++] = x;
+      if (!x.oSrc)
+        x.oSrc = x.src;
+      x.src = a[i+2];
+     }
+   }
+ }
+
+
+
+$(document).ready(function() {
+	$(function() {
+		$('#gallery a').lightBox();
+		$('a.lightbox').lightBox();
+	});
+});
+
+--></script>
+
+
+
+
+</head>
+
+<body class="text">
+<style>
+#fb-banner {
+position: fixed;
+right: 0px;
+top: 35%;
+opacity: 0.8;
+transition: opacity 0.3s ease;
+}
+#fb-banner:hover {
+opacity: 1;
+}
+</style>
+<div id="fb-banner">
+<a href="https://www.facebook.com/billardarea" target="_blank"><img src="/img/fb_banner.png"></a>
+</div>
+
+
+	<!-- Wallpaper oben -->
+	<div id="page">&nbsp;
+    <div id="ad2"><!-- Wallpaper rechts -->
+    </div>
+	<div id="logoarea">
+
+    <div id="logoarea_left" style="width:795px">
+    <a href="https://portal.billardarea.de"><img src="/img/logo.png" width="307" height="73" alt="BillardArea - Deutschlandweites Billardportal" id="logo" border="0"></a>
+  <a href="https://www.germantour.net/touch-presseagentur/2019/dm/index.asp" target="_blank" style="float:right"><img src="/img/dm_header.jpg" style="margin-top:0px" height="130"></a>
+    </div><div id="logoarea_right"> <div class="logo_image"></div>
+    </div>
+    </div>
+
+	<div id="main">
+    
+
+    <div id="ebene1">
+	
+	<ul id="nav_ebene1">
+   	<li class="inaktiv  first" id="das-billardportal"><a href="/frontend">Das Billardportal</a></li><li class="aktiv " id="der-spielbetrieb"><a href="/cms_leagues">Der Spielbetrieb</a></li><li class="inaktiv " id="billard-verband-baden-württemberg"><a href="/content">Billard-Verband Baden-Württemberg</a></li><li class="inaktiv  last" id="meine-billardarea"><a href="http://admin.billardarea.de">Meine Billardarea</a></li>    </ul>
+	    </div>
+    <div id="ebene2">
+    	<ul id="nav_ebene2">
+   	<li class="inaktiv  first" id="mannschaft"><a href="/cms_leagues">Mannschaft</a></li><li class="inaktiv " id="einzel"><a href="/cms_single">Einzel</a></li><li class="aktiv " id="vereine--mitglieder"><a href="/cms_clubs">Vereine &amp; Mitglieder</a></li><li class="inaktiv " id="kalender"><a href="/cms_calendar">Kalender</a></li><li class="inaktiv " id="auswertungen"><a href="/cms_evaluations">Auswertungen</a></li>    </ul>
+
+
+    </div>
+    <div id="ebene3">
+    <!-- <div id="breadcrumb">Sie befinden sich hier: <a href="/cms_leagues">Der Spielbetrieb</a>	&raquo; <a href="/cms_clubs">Vereine & Mitglieder</a>        	</div> -->       </div><img src="/img/cms/tabunten.jpg" width="795" height="6" alt="Tab unten" border="0" style="padding:0px"><div id="maininner" style="width:795px">
+<br>    
+<div style="width:790px;text-align:center">
+<!--<a href="https://www.epresia.de/?ref=billardarea" target="_blank"><img src="/img/superbanner_breit.gif" alt="epresia.de - Finde jetzt passende Geschenkes"></a>-->
+
+
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-0068043095147503";
+
+google_ad_slot = "7353751266";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>
+<br>
+
+
+<br>
+
+<script type="text/javascript">  
+$(document).ready(function() {
+	//$('#tabs-style').tabs(); 
+	$('#tabs').tabs();
+})
+</script>
+
+<script type="text/javascript">  
+//$(function() {
+//	 $("#players").tablesorter();
+ //    });
+ </script>
+<div id="content"><img src="/img/cms/taboben_right.jpg" width="499" height="6" alt="Tab unten" border="0"><div id="left_area_inner">    <h4 style="background-image:url('/img/cms/headers/einzelansicht-verein-1-billard-club-weingarten-evh4.png');">Vereine & Mitglieder</h4><a href="/cms_clubs"><img src="/img/cms/buttons/dynamic/zurueck_aktiv.png" border="0" style="float:right;margin-top:10px"/></a>
+    <div class="clearfloat"></div>
+			<div id="tabs" style="margin-top:10px;" >
+            <!-- Tab Navigation --> 
+			<ul>
+				<li><a href="#tabs-1">Daten</a></li>
+				<li><a href="#tabs-2">Vorstände</a></li>
+				<li><a href="#tabs-3">Mitglieder</a></li>
+				<li><a href="#tabs-4">Teams</a></li>
+				<li><a href="#tabs-5">Ranglisten</a></li>
+				<li><a href="#tabs-6">Turniere</a></li>
+			</ul>
+            <!-- /Tab Navigation --> 
+            
+            
+                   
+            <!-- Tab 1 -->            
+			<div id="tabs-1" >   
+<div class="left">
+	<fieldset>
+		<legend>Vereinsname</legend>
+		<div class="element">1. Billard-Club Weingarten e.V.</div>
+	</fieldset>
+		<fieldset>
+		<legend>Kurzform</legend>
+		<div class="element">BC Weingarten</div>
+	</fieldset>	<fieldset>
+		<legend>Vereinsanschrift</legend>
+		<div class="element">BC Weingarten Vereinsheim<br />Hähnlehofstrasse 5<br />88250 Weingarten<br /></div>
+	</fieldset>
+	<fieldset>
+		<legend>Homepage</legend>
+				<div class="element"><a href="http://www.billardclub-weingarten.de" target="_blank">http://www.billardclub-weingarten.de</a></div>
+	</fieldset>
+	<fieldset>
+		<legend>Email</legend>
+		<div class="element">
+		<script type="text/javascript">Rot13.write('<n uers="znvygb:vasb@ovyyneqpyho-jrvatnegra.qr">vasb@ovyyneqpyho-jrvatnegra.qr</n>');</script><noscript><span style="unicode-bidi:bidi-override;direction:rtl;">< ed.netragniew-bulcdrallib@ofni > ed.netragniew-bulcdrallib@ofni</span></noscript>		</div>
+	</fieldset></div><div class="right">
+	<fieldset>
+		<legend>Status</legend>
+		<div class="element">aktiv</div>
+	</fieldset>
+	<fieldset>
+		<legend>Gründungsjahr</legend>
+		<div class="element">1963</div>
+	</fieldset>
+	<fieldset>
+		<legend>DBU-Eintrittsjahr</legend>
+		<div class="element">0000</div>
+	</fieldset></div>
+    <div class="clearfloat">
+	<fieldset>
+		<legend>Mitgliedsbeitrag</legend>
+		<div class="element"><pre>40 € /Monat (Flatrate alle Tische Pool und Snooker)
++ 90€ Jahresbeitrag</pre></div>
+	</fieldset></div>
+	
+	
+	
+	<fieldset>		
+		<legend>Bild</legend>
+		<div>
+			<div align="center"><img src="/img/bms/uploads/clubs/tn/tn_300_300_1458667121723646865.jpg" alt="" ></div>
+		</div>
+	</fieldset>
+
+</div><div id="tabs-2" >		<fieldset>
+		<legend>1. Vorstand</legend>
+        <div style="float:left;margin:15px;">	<img src="/img/bms/uploads/boards/tn_10254268671846830885.gif" style="max-height:76px;max-width:60px;"></div>
+		 <div class="element" style="margin-top:15px;"><label>Verantwortlicher</label> <div class="field"><a href="/cms_clubs/playerdetails/2403/102115">Lutz Jeschke</a></div></div>
+         <div class="element"><label>Aufgaben</label> <div class="field">-	</div></div>
+		<div> 
+		</div>
+	</fieldset>
+		<fieldset>
+		<legend>Kassier</legend>
+        <div style="float:left;margin:15px;">	<img src="/img/bms/uploads/boards/tn_18169143651468748527.gif" style="max-height:76px;max-width:60px;"></div>
+		 <div class="element" style="margin-top:15px;"><label>Verantwortliche</label> <div class="field"><a href="/cms_clubs/playerdetails/2403/101545">Sabine Günter</a></div></div>
+         <div class="element"><label>Aufgaben</label> <div class="field">-	</div></div>
+		<div> 
+		</div>
+	</fieldset>
+		<fieldset>
+		<legend>Sportwart</legend>
+        <div style="float:left;margin:15px;">	<img src="/img/cms/no_picture.png" alt="Kein Bild vorhanden" style="height:76px;width:60px;"></div>
+		 <div class="element" style="margin-top:15px;"><label>Verantwortlicher</label> <div class="field"><a href="/cms_clubs/playerdetails/2403/104910">Marc Wegenast</a></div></div>
+         <div class="element"><label>Aufgaben</label> <div class="field">-	</div></div>
+		<div> 
+		</div>
+	</fieldset>
+	</div>
+    
+    
+    
+<div id="tabs-3" >
+<div class="changeseason"><form method="post" action="/cms_clubs/details/2403"><fieldset style="display:none;"><input type="hidden" name="_method" value="POST" /></fieldset><input type="hidden" name="data[Season][check]" value="87gdsjk8734tkfdl" id="SeasonCheck" /><div class="input select"><label for="SeasonSeasonId">Wählen Sie eine Saison</label><select name="data[Season][season_id]" onchange="this.form.submit();" id="SeasonSeasonId">
+<option value="12" selected="selected">2020/2021</option>
+<option value="11">2019/2020</option>
+<option value="10">2018/2019</option>
+<option value="9">2017/2018</option>
+<option value="8">2016/2017</option>
+<option value="7">2015/2016</option>
+<option value="6">2014/2015</option>
+<option value="5">2013/2014</option>
+<option value="4">2012/2013</option>
+<option value="3">2011/2012</option>
+<option value="2">2010/2011</option>
+<option value="1">2009/2010</option>
+</select></div></form></div><div class="clearfloat"></div><table id="clubs_table" class="tablesorter">
+<thead><tr>
+<th>Name</th>
+<th>Profillink</th></tr>
+</thead>
+<tbody>
+	<tr>
+	
+	
+		<td>
+		Bolduan, Patrick		</td>
+		<td>
+			<a href="/cms_clubs/playerdetails/2403/100447">Details</a>		</td>
+	</tr>
+	<tr>
+	
+	
+		<td>
+		Jeschke, Lutz		</td>
+		<td>
+			<a href="/cms_clubs/playerdetails/2403/102115">Details</a>		</td>
+	</tr>
+	<tr>
+	
+	
+		<td>
+		Leupolz, Michael		</td>
+		<td>
+			<a href="/cms_clubs/playerdetails/2403/240013">Details</a>		</td>
+	</tr>
+	<tr>
+	
+	
+		<td>
+		Thoma-Schuck, Fabian		</td>
+		<td>
+			<a href="/cms_clubs/playerdetails/2403/104617">Details</a>		</td>
+	</tr>
+	<tr>
+	
+	
+		<td>
+		Wegenast, Marc		</td>
+		<td>
+			<a href="/cms_clubs/playerdetails/2403/104910">Details</a>		</td>
+	</tr>
+</tbody>
+</table>
+
+</div>
+<div id="tabs-4" >  
+<div class="changeseason"><form method="post" action="/cms_clubs/details/2403"><fieldset style="display:none;"><input type="hidden" name="_method" value="POST" /></fieldset><input type="hidden" name="data[Season][check]" value="87gdsjk8734tkfdl" id="SeasonCheck" /><div class="input select"><label for="SeasonSeasonId">Wählen Sie eine Saison</label><select name="data[Season][season_id]" onchange="this.form.submit();" id="SeasonSeasonId">
+<option value="12" selected="selected">2020/2021</option>
+<option value="11">2019/2020</option>
+<option value="10">2018/2019</option>
+<option value="9">2017/2018</option>
+<option value="8">2016/2017</option>
+<option value="7">2015/2016</option>
+<option value="6">2014/2015</option>
+<option value="5">2013/2014</option>
+<option value="4">2012/2013</option>
+<option value="3">2011/2012</option>
+<option value="2">2010/2011</option>
+<option value="1">2009/2010</option>
+</select></div></form></div><div class="clearfloat"></div><!--<a href="../teamsets/2403"><img src="/img/cms/buttons/dynamic/einsaetze_inaktiv.png" border="0" style="float:right;margin-top:10px;margin-right:5px;"/></a>-->
+
+<table id="clubs_table2" class="tablesorter">
+<thead><tr>
+<th>Wettbewerb</th>
+<th>Mannschaftsname</th>
+<th>Details</th></tr>
+</thead>
+<tbody>
+	<tr>
+		<td>
+			Kombi-Mannschaft		</td>
+		<td>
+			BC Weingarten 		</td>
+		<td>
+			<a href="/cms_clubs/teamdetails/2403/48864">Details</a>		</td>
+	</tr>
+</tbody>
+</table>
+<a href="../teampass/2403"><img src="/img/cms/buttons/dynamic/mannschaftspass_inaktiv.png" border="0" style="float:right;margin-top:10px"/></a> <br /><br /><br />
+<a href="../teamsets/2403"><img src="/img/cms/buttons/dynamic/einsaetze_inaktiv.png" border="0" style="float:right;margin-top:10px"/></a> <br /><br /><br />
+<a href="../hostdates/2403"><img src="/img/cms/buttons/dynamic/heimspieltage_inaktiv.png" border="0" style="float:right;margin-top:10px"/></a><br /><br /><br /><br /><br /><br /> 
+</div>
+
+<div id="tabs-5">
+<div class="changeseason"><form method="post" action="/cms_clubs/details/2403"><fieldset style="display:none;"><input type="hidden" name="_method" value="POST" /></fieldset><input type="hidden" name="data[Season][check]" value="87gdsjk8734tkfdl" id="SeasonCheck" /><div class="input select"><label for="SeasonSeasonId">Wählen Sie eine Saison</label><select name="data[Season][season_id]" onchange="this.form.submit();" id="SeasonSeasonId">
+<option value="12" selected="selected">2020/2021</option>
+<option value="11">2019/2020</option>
+<option value="10">2018/2019</option>
+<option value="9">2017/2018</option>
+<option value="8">2016/2017</option>
+<option value="7">2015/2016</option>
+<option value="6">2014/2015</option>
+<option value="5">2013/2014</option>
+<option value="4">2012/2013</option>
+<option value="3">2011/2012</option>
+<option value="2">2010/2011</option>
+<option value="1">2009/2010</option>
+</select></div></form></div><div class="clearfloat"></div><form id="BranchAddForm" method="post" action="/cms_clubs/details/2403"><fieldset style="display:none;"><input type="hidden" name="_method" value="POST" /></fieldset><div class="input select"><label for="BranchDisciplineId">Disziplin wählen</label><select name="data[Branch][discipline_id]" onchange="this.form.submit();" id="BranchDisciplineId">
+<option value="0" selected="selected">Bitte wählen</option>
+</select></div></form></div>
+
+<div id="tabs-6">
+<table class="tablesorter">
+	<thead>
+	<tr>
+		<th>Bezeichnung</th>
+		<th>Datum</th>
+		<th></th>
+	</tr>
+	</thead>
+	<tbody>
+		<tr>
+		<td>7. Stadtmeisterschaft</td>
+		<td>10.09.2016</td>
+		<td><a href="/cms_calendar/show/6351">Anzeigen</a></td>
+	</tr>
+			<tr>
+		<td>Neujahrsturnier</td>
+		<td>04.01.2020</td>
+		<td><a href="/cms_calendar/show/8443">Anzeigen</a></td>
+	</tr>
+			<tr>
+		<td>Jedermann-Turnierserie</td>
+		<td>Turnierserie</td>
+		<td><a href="/cms_calendar/show/7701">Anzeigen</a></td>
+	</tr>
+			<tr>
+		<td>Jedermann-Turnierserie</td>
+		<td>Turnierserie</td>
+		<td><a href="/cms_calendar/show/7700">Anzeigen</a></td>
+	</tr>
+			<tr>
+		<td>Benefiz - Turnier</td>
+		<td>19.12.2015</td>
+		<td><a href="/cms_calendar/show/6524">Anzeigen</a></td>
+	</tr>
+			<tr>
+		<td>Jedermann Turnierserie</td>
+		<td>24.02.2017</td>
+		<td><a href="/cms_calendar/show/7028">Anzeigen</a></td>
+	</tr>
+			<tr>
+		<td>Jedermann Turnierserie</td>
+		<td>10.02.2017</td>
+		<td><a href="/cms_calendar/show/7027">Anzeigen</a></td>
+	</tr>
+			<tr>
+		<td>Jedermann Turnierserie</td>
+		<td>27.01.2017</td>
+		<td><a href="/cms_calendar/show/7026">Anzeigen</a></td>
+	</tr>
+			<tr>
+		<td>Jedermann-Turnierserie</td>
+		<td>Turnierserie</td>
+		<td><a href="/cms_calendar/show/7707">Anzeigen</a></td>
+	</tr>
+			<tr>
+		<td>Jedermann-Turnierserie</td>
+		<td>Turnierserie</td>
+		<td><a href="/cms_calendar/show/7702">Anzeigen</a></td>
+	</tr>
+			<tr>
+		<td>Jedermann-Turnierserie</td>
+		<td>Turnierserie</td>
+		<td><a href="/cms_calendar/show/7703">Anzeigen</a></td>
+	</tr>
+			<tr>
+		<td>Jedermann-Turnierserie</td>
+		<td>Turnierserie</td>
+		<td><a href="/cms_calendar/show/7704">Anzeigen</a></td>
+	</tr>
+			<tr>
+		<td>Jedermann-Turnierserie</td>
+		<td>Turnierserie</td>
+		<td><a href="/cms_calendar/show/7705">Anzeigen</a></td>
+	</tr>
+			<tr>
+		<td>Jedermann-Turnierserie</td>
+		<td>Turnierserie</td>
+		<td><a href="/cms_calendar/show/7706">Anzeigen</a></td>
+	</tr>
+			<tr>
+		<td>Alex Krüger-Cup 2018/2019</td>
+		<td>Turnierserie</td>
+		<td><a href="/cms_calendar/show/6915">Anzeigen</a></td>
+	</tr>
+		<tr>
+		<td>Alex Krüger-Cup 2016/2017</td>
+		<td>01.12.2018 - 27.09.2016</td>
+		<td><a href="/cms_calendar/show/6915">Anzeigen</a></td>	
+	</tr>
+		<tr>
+		<td>Alex Krüger-Cup 2016/2017</td>
+		<td>26.11.2016 - 27.09.2016</td>
+		<td><a href="/cms_calendar/show/6915">Anzeigen</a></td>	
+	</tr>
+		<tr>
+		<td>Alex Krüger-Cup 2016/2017</td>
+		<td>21.01.2017 - 27.09.2016</td>
+		<td><a href="/cms_calendar/show/6915">Anzeigen</a></td>	
+	</tr>
+		<tr>
+		<td>Alex Krüger-Cup 2016/2017</td>
+		<td>18.02.2017 - 27.09.2016</td>
+		<td><a href="/cms_calendar/show/6915">Anzeigen</a></td>	
+	</tr>
+		<tr>
+		<td>Alex Krüger-Cup 2016/2017</td>
+		<td>11.03.2017 - 27.09.2016</td>
+		<td><a href="/cms_calendar/show/6915">Anzeigen</a></td>	
+	</tr>
+		<tr>
+		<td>Alex Krüger-Cup 2016/2017</td>
+		<td>22.04.2017 - 27.09.2016</td>
+		<td><a href="/cms_calendar/show/6915">Anzeigen</a></td>	
+	</tr>
+		<tr>
+		<td>Alex Krüger-Cup 2016/2017</td>
+		<td>13.05.2017 - 28.09.2016</td>
+		<td><a href="/cms_calendar/show/6915">Anzeigen</a></td>	
+	</tr>
+		<tr>
+		<td>Alex Krüger-Cup 2016/2017</td>
+		<td>27.05.2017 - 29.09.2016</td>
+		<td><a href="/cms_calendar/show/6915">Anzeigen</a></td>	
+	</tr>
+		<tr>
+		<td>Alex Krüger-Cup 2016/2017</td>
+		<td>10.06.2017 - 29.09.2016</td>
+		<td><a href="/cms_calendar/show/6915">Anzeigen</a></td>	
+	</tr>
+			<tr>
+		<td>Jedermann Turnierserie</td>
+		<td>13.01.2017</td>
+		<td><a href="/cms_calendar/show/7014">Anzeigen</a></td>
+	</tr>
+			<tr>
+		<td>Jedermann Turnier</td>
+		<td>10.03.2017</td>
+		<td><a href="/cms_calendar/show/7051">Anzeigen</a></td>
+	</tr>
+			<tr>
+		<td>Jedermann Turnier</td>
+		<td>24.03.2017</td>
+		<td><a href="/cms_calendar/show/7052">Anzeigen</a></td>
+	</tr>
+			<tr>
+		<td>Jedermann Turnier</td>
+		<td>07.04.2017</td>
+		<td><a href="/cms_calendar/show/7053">Anzeigen</a></td>
+	</tr>
+			<tr>
+		<td>Jedermann Turnier</td>
+		<td>21.04.2017</td>
+		<td><a href="/cms_calendar/show/7054">Anzeigen</a></td>
+	</tr>
+			<tr>
+		<td>Jedermann Turnier</td>
+		<td>05.05.2017</td>
+		<td><a href="/cms_calendar/show/7055">Anzeigen</a></td>
+	</tr>
+			<tr>
+		<td>Jedermann Turnier</td>
+		<td>19.05.2017</td>
+		<td><a href="/cms_calendar/show/7056">Anzeigen</a></td>
+	</tr>
+			<tr>
+		<td>Jedermann Turnier</td>
+		<td>02.06.2017</td>
+		<td><a href="/cms_calendar/show/7057">Anzeigen</a></td>
+	</tr>
+			<tr>
+		<td>Jedermann Turnier</td>
+		<td>16.06.2017</td>
+		<td><a href="/cms_calendar/show/7058">Anzeigen</a></td>
+	</tr>
+			<tr>
+		<td>Jedermann Turnier</td>
+		<td>30.06.2017</td>
+		<td><a href="/cms_calendar/show/7059">Anzeigen</a></td>
+	</tr>
+			<tr>
+		<td>Stadtmeisterschaft BC Weingarten</td>
+		<td>09.09.2017</td>
+		<td><a href="/cms_calendar/show/7214">Anzeigen</a></td>
+	</tr>
+			<tr>
+		<td>Jedermann Turnier</td>
+		<td>22.09.2017</td>
+		<td><a href="/cms_calendar/show/7351">Anzeigen</a></td>
+	</tr>
+			<tr>
+		<td>Jedermann Turnier</td>
+		<td>06.10.2017</td>
+		<td><a href="/cms_calendar/show/7352">Anzeigen</a></td>
+	</tr>
+			<tr>
+		<td>Jedermann Turnier</td>
+		<td>20.10.2017</td>
+		<td><a href="/cms_calendar/show/7353">Anzeigen</a></td>
+	</tr>
+			<tr>
+		<td>Jedermann Turnier</td>
+		<td>03.11.2017</td>
+		<td><a href="/cms_calendar/show/7354">Anzeigen</a></td>
+	</tr>
+			<tr>
+		<td>Jedermann Turnier</td>
+		<td>17.11.2017</td>
+		<td><a href="/cms_calendar/show/7355">Anzeigen</a></td>
+	</tr>
+			<tr>
+		<td>Jedermann Turnier</td>
+		<td>01.12.2017</td>
+		<td><a href="/cms_calendar/show/7356">Anzeigen</a></td>
+	</tr>
+			<tr>
+		<td>Jedermann Turnier</td>
+		<td>15.12.2017</td>
+		<td><a href="/cms_calendar/show/7357">Anzeigen</a></td>
+	</tr>
+			<tr>
+		<td>Jedermann Turnier</td>
+		<td>29.12.2017</td>
+		<td><a href="/cms_calendar/show/7358">Anzeigen</a></td>
+	</tr>
+			<tr>
+		<td>Alex Krüger-Cup 2017/2018</td>
+		<td>21.10.2017</td>
+		<td><a href="/cms_calendar/show/7369">Anzeigen</a></td>
+	</tr>
+			<tr>
+		<td>Alex Krüger-Cup 2017/2018</td>
+		<td>11.11.2017</td>
+		<td><a href="/cms_calendar/show/7370">Anzeigen</a></td>
+	</tr>
+			<tr>
+		<td>Alex Krüger-Cup 2018/2019</td>
+		<td>03.11.2018</td>
+		<td><a href="/cms_calendar/show/7371">Anzeigen</a></td>
+	</tr>
+			<tr>
+		<td>Alex Krüger-Cup 2017/2018</td>
+		<td>03.03.2018</td>
+		<td><a href="/cms_calendar/show/7374">Anzeigen</a></td>
+	</tr>
+			<tr>
+		<td>Alex Krüger-Cup 2017/2018</td>
+		<td>07.04.2018</td>
+		<td><a href="/cms_calendar/show/7375">Anzeigen</a></td>
+	</tr>
+			<tr>
+		<td>Alex Krüger-Cup 2017/2018</td>
+		<td>12.05.2018</td>
+		<td><a href="/cms_calendar/show/7376">Anzeigen</a></td>
+	</tr>
+			<tr>
+		<td>Alex Krüger-Cup 2017/2018</td>
+		<td>09.06.2018</td>
+		<td><a href="/cms_calendar/show/7377">Anzeigen</a></td>
+	</tr>
+			<tr>
+		<td>Alex Krüger-Cup 2017/2018 PlayOff</td>
+		<td>23.06.2018</td>
+		<td><a href="/cms_calendar/show/7378">Anzeigen</a></td>
+	</tr>
+			<tr>
+		<td>Alex Krüger-Cup 2017/2018</td>
+		<td>30.12.2017</td>
+		<td><a href="/cms_calendar/show/7379">Anzeigen</a></td>
+	</tr>
+			<tr>
+		<td>Alex Krüger-Cup 2017/2018</td>
+		<td>27.01.2018</td>
+		<td><a href="/cms_calendar/show/7380">Anzeigen</a></td>
+	</tr>
+			<tr>
+		<td>Jedermann Turnier</td>
+		<td>26.01.2018</td>
+		<td><a href="/cms_calendar/show/7434">Anzeigen</a></td>
+	</tr>
+			<tr>
+		<td>Jedermann Turnier</td>
+		<td>09.02.2018</td>
+		<td><a href="/cms_calendar/show/7435">Anzeigen</a></td>
+	</tr>
+			<tr>
+		<td>Jedermann Turnier</td>
+		<td>23.02.2018</td>
+		<td><a href="/cms_calendar/show/7436">Anzeigen</a></td>
+	</tr>
+			<tr>
+		<td>Jedermann Turnier</td>
+		<td>09.03.2018</td>
+		<td><a href="/cms_calendar/show/7437">Anzeigen</a></td>
+	</tr>
+			<tr>
+		<td>Jedermann Turnier</td>
+		<td>23.03.2018</td>
+		<td><a href="/cms_calendar/show/7438">Anzeigen</a></td>
+	</tr>
+			<tr>
+		<td>Jedermann Turnier</td>
+		<td>06.04.2018</td>
+		<td><a href="/cms_calendar/show/7473">Anzeigen</a></td>
+	</tr>
+			<tr>
+		<td>Jedermann Turnier</td>
+		<td>20.04.2018</td>
+		<td><a href="/cms_calendar/show/7474">Anzeigen</a></td>
+	</tr>
+			<tr>
+		<td>Jedermann Turnier</td>
+		<td>04.05.2018</td>
+		<td><a href="/cms_calendar/show/7475">Anzeigen</a></td>
+	</tr>
+			<tr>
+		<td>Jedermann Turnier</td>
+		<td>18.05.2018</td>
+		<td><a href="/cms_calendar/show/7476">Anzeigen</a></td>
+	</tr>
+			<tr>
+		<td>Jedermann Turnier</td>
+		<td>01.06.2018</td>
+		<td><a href="/cms_calendar/show/7477">Anzeigen</a></td>
+	</tr>
+			<tr>
+		<td>Jedermann Turnier</td>
+		<td>15.06.2018</td>
+		<td><a href="/cms_calendar/show/7478">Anzeigen</a></td>
+	</tr>
+			<tr>
+		<td>Jedermann Turnier</td>
+		<td>29.06.2018</td>
+		<td><a href="/cms_calendar/show/7479">Anzeigen</a></td>
+	</tr>
+			<tr>
+		<td>Jedermann Turnier</td>
+		<td>13.07.2018</td>
+		<td><a href="/cms_calendar/show/7480">Anzeigen</a></td>
+	</tr>
+			<tr>
+		<td>Jedermann Turnier</td>
+		<td>27.07.2018</td>
+		<td><a href="/cms_calendar/show/7481">Anzeigen</a></td>
+	</tr>
+			<tr>
+		<td>Alex Krüger-Cup 2018/2019</td>
+		<td>Turnierserie</td>
+		<td><a href="/cms_calendar/show/7824">Anzeigen</a></td>
+	</tr>
+			<tr>
+		<td>Alex Krüger-Cup 2018/2019</td>
+		<td>01.12.2018</td>
+		<td><a href="/cms_calendar/show/7825">Anzeigen</a></td>
+	</tr>
+			<tr>
+		<td>Alex Krüger-Cup 2018/2019</td>
+		<td>Turnierserie</td>
+		<td><a href="/cms_calendar/show/7826">Anzeigen</a></td>
+	</tr>
+			<tr>
+		<td>Alex Krüger-Cup 2018/2019</td>
+		<td>Turnierserie</td>
+		<td><a href="/cms_calendar/show/7827">Anzeigen</a></td>
+	</tr>
+			<tr>
+		<td>Alex Krüger-Cup 2018/2019</td>
+		<td>Turnierserie</td>
+		<td><a href="/cms_calendar/show/7828">Anzeigen</a></td>
+	</tr>
+			<tr>
+		<td>Alex Krüger-Cup 2018/2019</td>
+		<td>Turnierserie</td>
+		<td><a href="/cms_calendar/show/7829">Anzeigen</a></td>
+	</tr>
+			<tr>
+		<td>Alex Krüger-Cup 2018/2019</td>
+		<td>Turnierserie</td>
+		<td><a href="/cms_calendar/show/7830">Anzeigen</a></td>
+	</tr>
+			<tr>
+		<td>Alex Krüger-Cup 2018/2019</td>
+		<td>Turnierserie</td>
+		<td><a href="/cms_calendar/show/7831">Anzeigen</a></td>
+	</tr>
+			<tr>
+		<td>Alex Krüger-Cup 2018/2019 PlayOff</td>
+		<td>Turnierserie</td>
+		<td><a href="/cms_calendar/show/7832">Anzeigen</a></td>
+	</tr>
+			<tr>
+		<td>Jugendturnier </td>
+		<td>29.06.2019</td>
+		<td><a href="/cms_calendar/show/8128">Anzeigen</a></td>
+	</tr>
+			<tr>
+		<td>Stadtmeisterschaft Weingarten</td>
+		<td>07.09.2019</td>
+		<td><a href="/cms_calendar/show/8185">Anzeigen</a></td>
+	</tr>
+			<tr>
+		<td>Alex Krüger-Cup 2019/2020</td>
+		<td>02.11.2019</td>
+		<td><a href="/cms_calendar/show/8424">Anzeigen</a></td>
+	</tr>
+			<tr>
+		<td>Alex Krüger-Cup 2019/2020</td>
+		<td>16.11.2019</td>
+		<td><a href="/cms_calendar/show/8425">Anzeigen</a></td>
+	</tr>
+			<tr>
+		<td>Alex Krüger-Cup 2019/2020</td>
+		<td>30.11.2019</td>
+		<td><a href="/cms_calendar/show/8426">Anzeigen</a></td>
+	</tr>
+			<tr>
+		<td>Alex Krüger-Cup 2019/2020</td>
+		<td>28.12.2019</td>
+		<td><a href="/cms_calendar/show/8427">Anzeigen</a></td>
+	</tr>
+			<tr>
+		<td>Alex Krüger-Cup 2019/2020</td>
+		<td>25.01.2020</td>
+		<td><a href="/cms_calendar/show/8428">Anzeigen</a></td>
+	</tr>
+			<tr>
+		<td>Alex Krüger-Cup 2019/2020</td>
+		<td>08.02.2020</td>
+		<td><a href="/cms_calendar/show/8429">Anzeigen</a></td>
+	</tr>
+			<tr>
+		<td>Alex Krüger-Cup 2019/2020</td>
+		<td>29.02.2020</td>
+		<td><a href="/cms_calendar/show/8430">Anzeigen</a></td>
+	</tr>
+			</tbody>
+</table>
+
+</div>
+
+</div>
+<br /></div>
+
+
+<img src="/img/cms/tabunten_right.jpg" width="499" height="6" alt="Tab unten" border="0"></div>
+<div id="right_area"><img src="/img/cms/taboben_right2.jpg" width="289" height="6" alt="Tab unten" border="0"><div id="right_area_inner"><h5 style="background-image:url('/img/cms/headers/spiellokale-des-vereinsh5.png');">Spiellokale des Vereins</h5><table class="line_bg"><tr><td>
+<div class="fieldset" align="center">    <script type="text/javascript">
+		window.onDomReady = DomReady;
+		function DomReady(func) { 
+		if(document.addEventListener) { 
+		document.addEventListener("DOMContentLoaded", func, false); } else { 
+		document.onreadystatechange = function() { readyState(func) } } }
+		function readyState(func) { if(
+		document.readyState == "complete") { func(); } }
+	</script>
+<script src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAAKXchJgzAaKVhht2RsXW33hRfN9NldWDO3VeYCBcQR4JW32fSTxS-ruWzE77ceOLLNJKdHNjqqLPOkw" type="text/javascript"></script> 
+<fieldset>
+		<legend>Spiellokale</legend>
+				
+                <br /><br /><div> Vereinsheim BC Weingarten<br /><a href="/cms_pubs/show/3432">Weitere Informationen aufrufen</a></div>
+        			</fieldset></div></td></tr></table>
+    
+
+<br /></div><img src="/img/cms/tabunten_right2.jpg" width="289" height="6" alt="Tab unten" border="0"></div><div class="clearfloat"></div>
+
+
+	</div><div class="clearfloat"></div></div>
+
+
+</div><div class="clearfloat"></div><div id="footerlinks"><div id="footerlinks_inner"><a href="https://portal.billardarea.de/content/datenschutz" title="Datenschutz">Datenschutz</a> - <a href="https://portal.billardarea.de/content/impressum" title="Impressum">Impressum</a><br>
+</div></div>
+
+<!-- JavaScript Includes -->
+<script type="text/javascript">
+$(document).ready(function() {
+	$( "#tabs" ).bind( "tabsshow", function(event, ui) {
+		var id = $(this).attr('id');
+		var $tabs = $('#'+id).tabs();
+		var selected = $tabs.tabs('option', 'selected');
+		var url = "cms_clubs___2Fdetails___2F2403";
+		$.ajax({url: "/session/active_tab/url:"+url+"/selected:"+selected+"/id:"+id});
+	});
+});
+$(document).ready(function() {
+	});
+</script>
+<!-- cms/default -->
+<script type="text/javascript" src="https://reporting.exudev.de/tracking.js.php?df=1&tc1=UA-2214945-6&tc2=UA-2214945-9"></script>
+<!-- End of JavaScript Includes -->
+
+<a href="https://plus.google.com/104343624092678514347" rel="publisher"></a>
+</body>
+</html>

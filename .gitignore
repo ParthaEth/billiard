@@ -3,3 +3,4 @@ __pycache__/
 *.pyc
 .chrome-profile/
 *.png
+data/identity_cache/

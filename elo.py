@@ -25,6 +25,7 @@ a recent one.
 from __future__ import annotations
 
 import argparse
+import configparser
 import csv
 import math
 from collections import defaultdict
@@ -44,6 +45,7 @@ class PlayerRecord:
     games: int = 0
     wins: int = 0
     weighted_games: float = 0.0
+    pass_nr: str = ""
     teams: set[str] = field(default_factory=set)
     leagues: set[str] = field(default_factory=set)
     staffeln: set[str] = field(default_factory=set)
@@ -64,18 +66,26 @@ def load_games(path: Path) -> list[dict[str, str]]:
     """Load a results file, plus data/inhouse.csv when loading games.csv.
 
     The inhouse file is the hand-edited club list. Its columns are
-    date, player, opponent, score, discipline.
+    date, player, opponent, score, discipline. Single frames (1:0 or 0:1)
+    between the same two players, on the same day and in the same discipline,
+    are added into one score. A short club set is weighted by club_sets.cfg:
+    racks out of 5, 7 or 5, and 14/1 balls out of 70. League rows are left
+    as scraped.
     """
     with path.open(newline="", encoding="utf-8-sig") as handle:
         rows = list(csv.DictReader(handle))
     extra = path.parent / "inhouse.csv"
     if path.name == "games.csv" and extra.exists():
         rows.extend(_inhouse_games(extra))
+    if path.name == "games.csv":
+        from identity import apply_identities
+
+        apply_identities(rows, identity_path=path.parent / "player_identity.csv")
     return rows
 
 
 def _inhouse_games(path: Path) -> list[dict[str, str]]:
-    games: list[dict[str, str]] = []
+    pending: list[dict] = []
     with path.open(newline="", encoding="utf-8-sig") as handle:
         for index, row in enumerate(csv.DictReader(handle), start=2):
             player = (row.get("player") or "").strip()
@@ -94,7 +104,6 @@ def _inhouse_games(path: Path) -> list[dict[str, str]]:
                 raise SystemExit(f"{path}:{index}: score {score!r} is not two numbers") from None
             if taken == conceded:
                 continue
-            winner, loser = (player, opponent) if taken > conceded else (opponent, player)
             when = parse_match_date(date)
             if when is None:
                 season = ""
@@ -106,39 +115,131 @@ def _inhouse_games(path: Path) -> list[dict[str, str]]:
                 discipline = "8-Ball"
             elif discipline in {"9", "9-Ball", "9-ball"}:
                 discipline = "9-Ball"
+            elif discipline in {"10", "10-Ball", "10-ball"}:
+                discipline = "10-Ball"
             elif discipline.lower().startswith("14"):
                 discipline = "14/1e"
-            straight = score if discipline == "14/1e" else ""
-            games.append(
+            pending.append(
                 {
-                    "season": season,
-                    "league": "Intern",
-                    "staffel": "Tübinger BC",
-                    "spieltag": str(index - 1),
-                    "match_date": date,
-                    "match_time": "",
-                    "home_team": "Tübinger BC",
-                    "away_team": "Tübinger BC",
-                    "match_score": score,
-                    "round": "",
-                    "game_no": "1",
+                    "index": index,
+                    "player": player,
+                    "opponent": opponent,
+                    "taken": taken,
+                    "conceded": conceded,
                     "discipline": discipline,
-                    "home_player": player,
-                    "away_player": opponent,
-                    "frame_score": score,
-                    "home_points": "1" if winner == player else "0",
-                    "away_points": "1" if winner == opponent else "0",
-                    "winner": winner,
-                    "loser": loser,
-                    "winner_side": "home" if winner == player else "away",
-                    "straight_pool_punkte": straight,
-                    "straight_pool_aufnahmen": "",
-                    "straight_pool_hs": "",
-                    "straight_pool_gd": "",
-                    "report_url": f"internal://tbc/{date}/{index - 1}",
+                    "date": date,
+                    "season": season,
                 }
             )
-    return games
+    return [_inhouse_row(item) for item in _aggregate_single_frames(pending)]
+
+
+def _aggregate_single_frames(rows: list[dict]) -> list[dict]:
+    """Add same-day 1:0 and 0:1 rows between one pair into a single score."""
+    groups: dict[tuple, list[dict]] = defaultdict(list)
+    order: list[tuple] = []
+    for row in rows:
+        if row["taken"] + row["conceded"] == 1:
+            key = ("frame", row["date"], row["discipline"], frozenset((row["player"], row["opponent"])))
+        else:
+            key = ("row", row["index"])
+        if key not in groups:
+            order.append(key)
+        groups[key].append(row)
+    merged: list[dict] = []
+    for key in order:
+        group = groups[key]
+        if key[0] != "frame" or len(group) == 1:
+            merged.extend(group)
+            continue
+        player = group[0]["player"]
+        taken = conceded = 0
+        for item in group:
+            if item["player"] == player:
+                taken += item["taken"]
+                conceded += item["conceded"]
+            else:
+                taken += item["conceded"]
+                conceded += item["taken"]
+        if taken == conceded:
+            continue
+        combined = dict(group[0])
+        combined["taken"] = taken
+        combined["conceded"] = conceded
+        merged.append(combined)
+    return merged
+
+
+def _inhouse_row(item: dict) -> dict[str, str]:
+    player = item["player"]
+    opponent = item["opponent"]
+    taken = item["taken"]
+    conceded = item["conceded"]
+    score = f"{taken}:{conceded}"
+    discipline = item["discipline"]
+    date = item["date"]
+    index = item["index"]
+    winner, loser = (player, opponent) if taken > conceded else (opponent, player)
+    straight = score if discipline == "14/1e" else ""
+    return {
+        "season": item["season"],
+        "league": "Intern",
+        "staffel": "Tübinger BC",
+        "spieltag": str(index - 1),
+        "match_date": date,
+        "match_time": "",
+        "home_team": "Tübinger BC",
+        "away_team": "Tübinger BC",
+        "match_score": score,
+        "round": "",
+        "game_no": "1",
+        "discipline": discipline,
+        "home_player": player,
+        "away_player": opponent,
+        "frame_score": score,
+        "home_points": "1" if winner == player else "0",
+        "away_points": "1" if winner == opponent else "0",
+        "winner": winner,
+        "loser": loser,
+        "winner_side": "home" if winner == player else "away",
+        "straight_pool_punkte": straight,
+        "straight_pool_aufnahmen": "",
+        "straight_pool_hs": "",
+        "straight_pool_gd": "",
+        "report_url": f"internal://tbc/{date}/{index - 1}",
+        "game_weight": f"{_set_weight(discipline, taken, conceded):.4f}",
+    }
+
+
+def load_set_lengths(path: Path | None = None) -> dict[str, float]:
+    """Read full-set lengths from club_sets.cfg. Keys are discipline names."""
+    path = path or Path(__file__).with_name("club_sets.cfg")
+    parser = configparser.ConfigParser()
+    if not parser.read(path, encoding="utf-8"):
+        raise SystemExit(f"missing club set lengths: {path}")
+    if "full_set" not in parser:
+        raise SystemExit(f"{path}: need a [full_set] section")
+    lengths: dict[str, float] = {}
+    for name, text in parser["full_set"].items():
+        try:
+            length = float(text)
+        except ValueError:
+            raise SystemExit(f"{path}: {name} = {text!r} is not a number") from None
+        if length <= 0:
+            raise SystemExit(f"{path}: {name} must be greater than 0")
+        lengths[name] = length
+    return lengths
+
+
+def _set_weight(discipline: str, taken: int, conceded: int) -> float:
+    """Short club sets count as the fraction of club_sets.cfg they filled."""
+    length = SET_LENGTHS.get(discipline.lower())
+    if not length:
+        return 1.0
+    return min(1.0, (taken + conceded) / length)
+
+
+SET_LENGTHS = load_set_lengths()
 
 
 def outcomes(rows: list[dict[str, str]]) -> list[tuple[str, str, dict[str, str]]]:
@@ -165,6 +266,40 @@ def parse_match_date(text: str) -> datetime | None:
         except ValueError:
             continue
     return None
+
+
+def alex_time_weight(age_days: float) -> float:
+    """Alex's curve: 1 now, 0.75 after a year, 0.20 after two years, then 0.
+
+    The three points (0, 2), (1, 1.5), (2, 0.4) divided by 2. The quadratic
+    through them reaches 0 at about 2.3 years.
+    """
+    if age_days <= 0:
+        return 1.0
+    years = age_days / 365.25
+    return max(0.0, 1.0 - 0.1 * years - 0.15 * years * years)
+
+
+def assign_alex_weights(
+    played: list[tuple[str, str, dict[str, str]]],
+) -> tuple[list[Game], datetime | None]:
+    """Weight each game with Alex's curve, then by the club set length."""
+    dated = [
+        (winner, loser, row, parse_match_date(row.get("match_date", "")))
+        for winner, loser, row in played
+    ]
+    known = [when for *_rest, when in dated if when is not None]
+    as_of = max(known) if known else None
+    weighted: list[Game] = []
+    for winner, loser, row, when in dated:
+        if as_of is None or when is None:
+            decay = 1.0
+        else:
+            decay = alex_time_weight((as_of - when).days)
+        weight = decay * _row_weight(row)
+        if weight > 0:
+            weighted.append((winner, loser, row, weight))
+    return weighted, as_of
 
 
 def time_weight(when: datetime | None, as_of: datetime, half_life_days: float) -> float:
@@ -195,8 +330,18 @@ def assign_weights(
             weight = 1.0
         else:
             weight = time_weight(when, as_of, half_life_days)
-        weighted.append((winner, loser, row, weight))
+        weighted.append((winner, loser, row, weight * _row_weight(row)))
     return weighted, as_of
+
+
+def _row_weight(row: dict[str, str]) -> float:
+    text = (row.get("game_weight") or "").strip()
+    if not text:
+        return 1.0
+    try:
+        return float(text)
+    except ValueError:
+        return 1.0
 
 
 def _score_pair(text: str) -> tuple[int, int] | None:
@@ -247,8 +392,12 @@ def collect(played: list[Game]) -> dict[str, PlayerRecord]:
             record.weighted_games += weight
             if name == row["home_player"].strip():
                 record.teams.add(row["home_team"].strip())
+                if row.get("home_pass"):
+                    record.pass_nr = row["home_pass"]
             else:
                 record.teams.add(row["away_team"].strip())
+                if row.get("away_pass"):
+                    record.pass_nr = row["away_pass"]
             if row.get("league"):
                 record.leagues.add(row["league"].strip())
             if row.get("staffel"):
@@ -386,6 +535,7 @@ def calibration_rows(
             {
                 "scope": scope,
                 "player": name,
+                "pass_nr": record.pass_nr,
                 "team": " | ".join(sorted(record.teams)),
                 "league": " | ".join(sorted(record.leagues)),
                 "staffel": " | ".join(sorted(record.staffeln)),
@@ -449,6 +599,7 @@ def write_csv(path: Path, rows: list[dict[str, str]]) -> None:
     fields = [
         "scope",
         "player",
+        "pass_nr",
         "team",
         "league",
         "staffel",

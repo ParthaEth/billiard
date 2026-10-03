@@ -1,0 +1,601 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+            "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>     
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<title>BillardArea: Spielplan</title>
+<meta name="description" content="Deutschlandweites Billardportal - Billardsport in einer neuen Dimension: News und Artikel, Spielbetrieb, Lokalsuche und Community für Pool Billard, Snooker, Karambol und Kegel">
+<link rel="stylesheet" type="text/css" href="/css/frontend_final.css">
+<link rel="stylesheet" type="text/css" href="/css/jquery.lightbox-0.5.css"> 
+<link rel="stylesheet" type="text/css" href="/css/colorpicker/layout.css">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+<meta content="107551009272344" property="fb:page_id">
+
+<script type="text/javascript" src="/js/jquery.js"></script> 
+<script type="text/javascript" src="/js/jquery-ui-1.7.1.custom.min.js"></script> 
+<script type="text/javascript" src="/js/rot13.js"></script> 
+<script type="text/javascript" src="/js/swfobject.js"></script> 
+<script type="text/javascript" src="/js/jquery.tablesorter.js"></script> 
+<script type="text/javascript" src="/js/jquery.lightbox-0.5.js"></script> 
+	
+<link rel="stylesheet" type="text/css" href="/css/cms/clients/3/styles.css" > 
+<link rel="stylesheet" type="text/css" href="/css/cms/clients/3/nav_styles_1.css" > 
+
+
+<!--[if lte IE 7]>
+<link href="css/patches/patch.css" rel="stylesheet" type="text/css" >
+<script type="text/javascript" src="/js/ie7.js"></script> 
+<![endif]-->
+
+
+
+<script type="text/javascript"><!--  
+
+var hex=0;
+function MM_swapImgRestore()
+ { //v3.0
+  var i,x,a = document.MM_sr;
+  for(i=0; a && i < a.length && (x = a[i]) && x.oSrc; ++i)
+   {
+    x.src = x.oSrc;
+   }
+ }
+ 
+ function MM_findObj(n, d)
+ { //v3.0
+  var p,i,x;
+  if (!d)
+   {
+    d = document;
+   }
+  if ((p = n.indexOf("?")) > 0 && parent.frames.length)
+   {
+    d = parent.frames[n.substring(p+1)].document;
+    n = n.substring(0,p);
+   }
+  if (!(x = d[n]) && d.all)
+   {
+    x = d.all[n];
+   }
+  for (i=0; !x && i < d.forms.length; ++i)
+   {
+    x = d.forms[i][n];
+   }
+  for (i=0; !x && d.layers && i < d.layers.length; ++i)
+   {
+    x = MM_findObj(n,d.layers[i].document);
+   }
+  return(x);
+}
+
+
+function MM_swapImage()
+ { //v3.0
+  var i,j=0,x,a = MM_swapImage.arguments;
+  document.MM_sr = new Array;
+
+  for(i=0; i < (a.length-2); i += 3)
+   {
+    if ((x = MM_findObj(a[i])) != null)
+     {
+      document.MM_sr[j++] = x;
+      if (!x.oSrc)
+        x.oSrc = x.src;
+      x.src = a[i+2];
+     }
+   }
+ }
+
+
+
+$(document).ready(function() {
+	$(function() {
+		$('#gallery a').lightBox();
+		$('a.lightbox').lightBox();
+	});
+});
+
+--></script>
+
+
+
+
+</head>
+
+<body class="text">
+
+
+	<!-- Wallpaper oben -->
+	<div id="page">&nbsp;
+    <div id="ad2"><!-- Wallpaper rechts -->
+    </div>
+	<div id="logoarea">
+    <div id="logoarea_left">
+    <a href="http://portal.billardarea.de"><img src="/img/logo.png" width="307" height="73" alt="BillardArea - Deutschlandweites Billardportal" id="logo" border="0"></a>
+    </div><div id="logoarea_right"><div class="logo_image"></div>
+    </div>
+    </div>
+	
+	<div id="main">
+        
+    
+    <div id="ebene1">
+	
+	<ul id="nav_ebene1">
+   	<li class="inaktiv  first" id="das-billardportal"><a href="/frontend">Das Billardportal</a></li><li class="aktiv " id="der-spielbetrieb"><a href="/cms_leagues">Der Spielbetrieb</a></li><li class="inaktiv " id="billard-verband-baden-württemberg"><a href="/content">Billard-Verband Baden-Württemberg</a></li><li class="inaktiv  last" id="meine-billardarea"><a href="http://admin.billardarea.de">Meine Billardarea</a></li>    </ul>
+	    </div>
+    <div id="ebene2">
+    	<ul id="nav_ebene2">
+   	<li class="aktiv  first" id="mannschaft"><a href="/cms_leagues">Mannschaft</a></li><li class="inaktiv " id="einzel"><a href="/cms_single">Einzel</a></li><li class="inaktiv " id="vereine--mitglieder"><a href="/cms_clubs">Vereine &amp; Mitglieder</a></li><li class="inaktiv " id="kalender"><a href="/cms_calendar">Kalender</a></li><li class="inaktiv " id="auswertungen"><a href="/cms_evaluations">Auswertungen</a></li><li class="inaktiv" id="djm2013"><a href="http://portal.billardarea.de/cms_single/dm">DM 2014 Special</a></li>    </ul>
+
+    
+    </div>
+    <div id="ebene3">
+    <!-- <div id="breadcrumb">Sie befinden sich hier: <a href="/cms_leagues">Der Spielbetrieb</a>	&raquo; <a href="/cms_leagues">Mannschaft</a>        	</div> -->       </div><img src="/img/cms/tabunten.jpg" width="795" height="6" alt="Tab unten" border="0" style="padding:0px"><div id="maininner" style="width:795px">
+<br>    
+<div style="width:790px;text-align:center">
+<!--<a href="http://www.epresia.de/?ref=billardarea" target="_blank"><img src="/img/superbanner_breit.gif" alt="epresia.de - Finde jetzt passende Geschenkes"></a>-->
+
+
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-0068043095147503";
+
+google_ad_slot = "7353751266";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>
+<br>
+
+
+<br>
+	
+<script type="text/javascript">  
+$(document).ready(function() {
+	$('#tabs').tabs();
+})
+</script>
+
+<div id="content_fullwidth">
+<img src="/img/cms/taboben_right3.jpg" width="795" height="6" alt="Tab unten" border="0">
+<div style="background-color:white;" class="padding">
+<form id="LeagueAddForm" method="post" action="/cms_leagues/plan/3324"><fieldset style="display:none;"><input type="hidden" name="_method" value="POST" /></fieldset>
+
+
+<!-- 
+**********************************************
+******  Billardarea.de
+******  // Clubs 
+**********************************************
+-->
+
+<div style="float:left"><div class="input select"><label for="LeagueSeriesId">Staffel wählen&nbsp;&nbsp;&nbsp;</label><select name="data[League][series_id]" onchange="this.form.submit()" id="LeagueSeriesId">
+<option value="4652">Bodensee</option>
+<option value="4653" selected="selected">Hohenzollern-Hochrhein</option>
+<option value="4654">Kraichgau</option>
+<option value="4655">Neckar-Odenwald</option>
+<option value="4656">Nordschwarzwald</option>
+<option value="4657">Ortenau-Breisgau</option>
+<option value="4658">Rhein-Neckar</option>
+<option value="4659">Stuttgart-Ostalb</option>
+</select></div></div></form>
+<div style="float:right">
+
+<a href="/cms_leagues">
+<img src="/img/cms/buttons/dynamic/zurueck-zur-Uebersicht_aktiv.png" border="0" style="float:right;"/></a>
+<a href="/cms_leagues/playerlist/4653"><img src="/img/cms/buttons/dynamic/spielerliste_inaktiv.png" border="0" style="float:right;;margin-right:5px;"/></a>
+
+<form target="_blank" id="PrintForm" method="post" action="/cms_leagues/plan/3324/4653"><fieldset style="display:none;"><input type="hidden" name="_method" value="POST" /></fieldset>
+
+<select name="data[Print][matchdaynr]" onchange="$(&#039;#PrintPrintview&#039;).val(&#039;&#039;);$(&#039;#PrintPrintmode&#039;).val(0);$(&#039;#PrintForm&#039;).attr(&#039;target&#039;, &#039;_self&#039;);this.form.submit();" style="float:right;margin-right:5px;" id="PrintMatchdaynr">
+<option value="0" selected="selected">Alle Spieltage</option>
+<option value="1">1. Spieltag</option>
+<option value="2">2. Spieltag</option>
+<option value="3">3. Spieltag</option>
+<option value="4">4. Spieltag</option>
+<option value="5">5. Spieltag</option>
+<option value="6">6. Spieltag</option>
+<option value="7">7. Spieltag</option>
+<option value="8">8. Spieltag</option>
+<option value="9">9. Spieltag</option>
+<option value="10">10. Spieltag</option>
+<option value="11">11. Spieltag</option>
+<option value="12">12. Spieltag</option>
+<option value="13">13. Spieltag</option>
+<option value="14">14. Spieltag</option>
+</select>
+<div style="clear:both;float:none;"></div>
+
+
+<input type="hidden" name="data[Print][printmode]" value="1" id="PrintPrintmode" />	
+<input type="image" src="/img/cms/buttons/dynamic/druckvorschau-anzeigen_inaktiv.png" name="print_preview" style="float:right;margin-left:5px;margin-top:5px;" onclick="if($('#PrintPrintview').val() == '') { alert('Bitte wählen Sie eine Druckvorschau.'); return false; }"/>
+<select name="data[Print][printview]" style="margin-top:5px;margin-right:5px;; float:right;" id="PrintPrintview">
+<option value="">Bitte Druckvorschau wählen...</option>
+<option value="print_plan">Spielplan</option>
+<option value="print_table_only">gewählter Spieltag</option>
+<option value="print_table">gewählter Spieltag mit Einzelergebnissen</option>
+<option value="print_matchday_singleresults_compact">Spieltag mit Einzelergebnissen (kompakt)</option>
+<option value="print_table_playerlist_compact">Tabelle und Spielerliste (kompakt)</option>
+</select>
+
+
+</div>
+
+<div class="clearfloat"></div>
+
+</form>
+<br />
+<h4 style="background-image:url('/img/cms/headers/spielergebnisse-bezirksliga-hohenzollern-hochrhein-pool-kombi-mannschafth4.png');">VSpielergebnisse Bezirksliga Hohenzollern-Hochrhein</h4><br />
+
+
+<!-- Javascript-Includes -->
+<!-- /Javascript-Includes -->
+
+<!-- Page Inner Content -->
+    <div class="page_margins"><div class="page">
+
+
+
+
+	<!-- Teaser -->
+      <div id="teaser">
+      	<!-- Header -->
+              
+	  </div>
+	<!-- Teaser -->      
+
+    
+    
+    
+    <!-- Beginn Main Area -->
+      <div id="main_frontend">
+   <div id="tabs">
+    <ul>
+    <li><a href="#tabs-1">Ligatabelle Bezirksliga Hohenzollern-Hochrhein</a></li>
+          
+               <li><a href="#tabs-2">Spielplan Hinrunde</a></li>
+
+     <li><a href="#tabs-3">Spielplan Rückrunde</a></li>
+
+      </ul>    
+      
+      <div id="tabs-1">
+<fieldset>
+<!--<legend>Ligatabelle Bezirksliga Hohenzollern-Hochrhein</legend>-->
+
+            <table  border="0" cellspacing="5" cellpadding="5" id="table-1" class="matchday_table" width="100%" align="center">
+            	<tr class="nodrop">
+            		<th>
+            			Platz            		</th>
+            		<th>
+            			Mannschaft            		</th>
+            		<th>
+            			S            		</th>
+            		<th>
+            			G            		</th>
+            		<th>
+            			U            		</th>
+            		<th>
+            			V            		</th>
+            		<th>
+            			Punkte            		</th>
+            		 
+            		<th>
+            			Diff            		</th>
+            		<th>
+            			Partien            		</th>
+            		            		            						 	            	</tr>
+            	            	<tr id="1">
+            		<td>
+            			1	
+            		</td>
+            		<td>
+            			<a href="/cms_teams/show/28758">PBC Reutlingen </a>            		</td>
+            		<td>
+            			6            		</td>
+            		<td>
+            			4            		</td>
+            		<td>
+            			2            		</td>
+            		<td>
+            			0            		</td>
+            		<td>
+            			            				14            			            		</td>
+					 
+            		<td>
+            			+14            		</td>
+            		<td>
+            			31:17            		</td>
+            		            		            		 					            		
+            	</tr>
+            	            	<tr id="2">
+            		<td>
+            			2	
+            		</td>
+            		<td>
+            			<a href="/cms_teams/show/28753">BSV Filderstadt 2</a>            		</td>
+            		<td>
+            			6            		</td>
+            		<td>
+            			4            		</td>
+            		<td>
+            			1            		</td>
+            		<td>
+            			1            		</td>
+            		<td>
+            			            				13            			            		</td>
+					 
+            		<td>
+            			+16            		</td>
+            		<td>
+            			32:16            		</td>
+            		            		            		 					            		
+            	</tr>
+            	            	<tr id="3">
+            		<td>
+            			3	
+            		</td>
+            		<td>
+            			<a href="/cms_teams/show/28756">BSV Pfullingen 2</a>            		</td>
+            		<td>
+            			6            		</td>
+            		<td>
+            			3            		</td>
+            		<td>
+            			1            		</td>
+            		<td>
+            			2            		</td>
+            		<td>
+            			            				10            			            		</td>
+					 
+            		<td>
+            			+4            		</td>
+            		<td>
+            			26:22            		</td>
+            		            		            		 					            		
+            	</tr>
+            	            	<tr id="4">
+            		<td>
+            			4	
+            		</td>
+            		<td>
+            			<a href="/cms_teams/show/28752">BSC St. Georgen </a>            		</td>
+            		<td>
+            			6            		</td>
+            		<td>
+            			3            		</td>
+            		<td>
+            			1            		</td>
+            		<td>
+            			2            		</td>
+            		<td>
+            			            				10            			            		</td>
+					 
+            		<td>
+            			-6            		</td>
+            		<td>
+            			21:27            		</td>
+            		            		            		 					            		
+            	</tr>
+            	            	<tr id="5">
+            		<td>
+            			5	
+            		</td>
+            		<td>
+            			<a href="/cms_teams/show/28757">BSV Tiengen 3</a>            		</td>
+            		<td>
+            			6            		</td>
+            		<td>
+            			2            		</td>
+            		<td>
+            			2            		</td>
+            		<td>
+            			2            		</td>
+            		<td>
+            			            				8            			            		</td>
+					 
+            		<td>
+            			+2            		</td>
+            		<td>
+            			25:23            		</td>
+            		            		            		 					            		
+            	</tr>
+            	            	<tr id="6">
+            		<td>
+            			6	
+            		</td>
+            		<td>
+            			<a href="/cms_teams/show/28754">BSV Nürtingen 2</a>            		</td>
+            		<td>
+            			6            		</td>
+            		<td>
+            			1            		</td>
+            		<td>
+            			3            		</td>
+            		<td>
+            			2            		</td>
+            		<td>
+            			            				6            			            		</td>
+					 
+            		<td>
+            			+0            		</td>
+            		<td>
+            			24:24            		</td>
+            		            		            		 					            		
+            	</tr>
+            	            	<tr id="7">
+            		<td>
+            			7	
+            		</td>
+            		<td>
+            			<a href="/cms_teams/show/28759">BSC Waldshut </a>            		</td>
+            		<td>
+            			6            		</td>
+            		<td>
+            			1            		</td>
+            		<td>
+            			2            		</td>
+            		<td>
+            			3            		</td>
+            		<td>
+            			            				5            			            		</td>
+					 
+            		<td>
+            			-8            		</td>
+            		<td>
+            			20:28            		</td>
+            		            		            		 					            		
+            	</tr>
+            	            	<tr id="8">
+            		<td>
+            			8	
+            		</td>
+            		<td>
+            			<a href="/cms_teams/show/28755">BSV Nürtingen </a>            		</td>
+            		<td>
+            			6            		</td>
+            		<td>
+            			0            		</td>
+            		<td>
+            			0            		</td>
+            		<td>
+            			6            		</td>
+            		<td>
+            			            				0            			            		</td>
+					 
+            		<td>
+            			-22            		</td>
+            		<td>
+            			13:35            		</td>
+            		            		            		 					            		
+            	</tr>
+            	            </table>
+
+      </fieldset></div>
+    
+<!--       <fieldset>
+<legend>Spieltage Bezirksliga Hohenzollern-Hochrhein</legend>
+  -->         
+           
+           
+           
+            
+            
+                        		<div id="tabs-2">
+<!--<legend>Hinrunde</legend>-->
+            <fieldset>
+            <table width="100%" border="0" cellspacing="5" cellpadding="5" class="matchday_table" align="center" >
+	
+<tr><th>Spt.</th> <th>Termin</th> <th>Zeit</th> <th>Heim</th> <th>Gast</th> <th>Erg.</th> <th>Gastgeber</th> <th></th> <th></th></tr><tr><td>1</td><td>14.09.2014</td><td>12:30</td><td><b>BSV Filderstadt 2</b></td><td>BSC Waldshut </td><td>7:1</td><td>BSV Filderstadt 2</td><td></td><td><a href="/cms_leagues/matchday/186816">Info</a></td></tr><tr><td>1</td><td>14.09.2014</td><td>12:30</td><td><b>BSV Nürtingen </b></td><td>BSV Nürtingen 2</td><td>1:7</td><td>BSV Nürtingen </td><td></td><td><a href="/cms_leagues/matchday/186814">Info</a></td></tr><tr><td>1</td><td>14.09.2014</td><td>12:30</td><td><b>BSV Pfullingen 2</b></td><td>BSV Tiengen 3</td><td>5:3</td><td>BSV Pfullingen 2</td><td></td><td><a href="/cms_leagues/matchday/186817">Info</a></td></tr><tr><td>1</td><td>14.09.2014</td><td>13:00</td><td><b>PBC Reutlingen </b></td><td>BSC St. Georgen </td><td>7:1</td><td>PBC Reutlingen </td><td></td><td><a href="/cms_leagues/matchday/186815">Info</a></td></tr><tr class="alt"><td>2</td><td>28.09.2014</td><td>12:30</td><td><b>BSV Tiengen 3</b></td><td>BSV Filderstadt 2</td><td>4:4</td><td>BSV Tiengen 3</td><td></td><td><a href="/cms_leagues/matchday/186821">Info</a></td></tr><tr class="alt"><td>2</td><td>05.10.2014</td><td>12:30</td><td><b>BSC St. Georgen </b></td><td>BSV Nürtingen </td><td>5:3</td><td>BSC St. Georgen </td><td></td><td><a href="/cms_leagues/matchday/186818">Info</a></td></tr><tr class="alt"><td>2</td><td>05.10.2014</td><td>12:30</td><td><b>BSV Nürtingen 2</b></td><td>PBC Reutlingen </td><td>4:4</td><td>BSV Nürtingen 2</td><td></td><td><a href="/cms_leagues/matchday/186819">Info</a></td></tr><tr class="alt"><td>2</td><td>05.10.2014</td><td>14:00</td><td><b>BSC Waldshut </b></td><td>BSV Pfullingen 2</td><td>4:4</td><td>BSC Waldshut </td><td></td><td><a href="/cms_leagues/matchday/186820">Info</a></td></tr><tr><td>3</td><td>19.10.2014</td><td>12:30</td><td><b>BSV Tiengen 3</b></td><td>BSC Waldshut </td><td>5:3</td><td>BSV Tiengen 3</td><td></td><td><a href="/cms_leagues/matchday/186824">Info</a></td></tr><tr><td>3</td><td>26.10.2014</td><td>12:30</td><td><b>BSC St. Georgen </b></td><td>BSV Nürtingen 2</td><td>4:4</td><td>BSC St. Georgen </td><td></td><td><a href="/cms_leagues/matchday/186823">Info</a></td></tr><tr><td>3</td><td>26.10.2014</td><td>12:30</td><td><b>BSV Filderstadt 2</b></td><td>BSV Pfullingen 2</td><td>6:2</td><td>BSV Filderstadt 2</td><td></td><td><a href="/cms_leagues/matchday/186825">Info</a></td></tr><tr><td>3</td><td>26.10.2014</td><td>12:30</td><td><b>BSV Nürtingen </b></td><td>PBC Reutlingen </td><td>3:5</td><td>BSV Nürtingen </td><td></td><td><a href="/cms_leagues/matchday/186822">Info</a></td></tr><tr class="alt"><td>4</td><td>02.11.2014</td><td>12:30</td><td><b>BSV Nürtingen 2</b></td><td>BSV Filderstadt 2</td><td>3:5</td><td>BSV Nürtingen 2</td><td></td><td><a href="/cms_leagues/matchday/186827">Info</a></td></tr><tr class="alt"><td>4</td><td>02.11.2014</td><td>12:30</td><td><b>BSV Pfullingen 2</b></td><td>BSC St. Georgen </td><td>7:1</td><td>BSV Pfullingen 2</td><td></td><td><a href="/cms_leagues/matchday/186828">Info</a></td></tr><tr class="alt"><td>4</td><td>02.11.2014</td><td>13:00</td><td><b>PBC Reutlingen </b></td><td>BSV Tiengen 3</td><td>4:4</td><td>PBC Reutlingen </td><td></td><td><a href="/cms_leagues/matchday/186829">Info</a></td></tr><tr class="alt"><td>4</td><td>02.11.2014</td><td>14:00</td><td><b>BSC Waldshut </b></td><td>BSV Nürtingen </td><td>5:3</td><td>BSC Waldshut </td><td></td><td><a href="/cms_leagues/matchday/186826">Info</a></td></tr><tr><td>5</td><td>30.11.2014</td><td>12:30</td><td><b>BSV Nürtingen </b></td><td>BSV Filderstadt 2</td><td>1:7</td><td>BSV Nürtingen </td><td></td><td><a href="/cms_leagues/matchday/186830">Info</a></td></tr><tr><td>5</td><td>30.11.2014</td><td>12:30</td><td><b>BSV Tiengen 3</b></td><td>BSC St. Georgen </td><td>3:5</td><td>BSV Tiengen 3</td><td></td><td><a href="/cms_leagues/matchday/186832">Info</a></td></tr><tr><td>5</td><td>30.11.2014</td><td>13:00</td><td><b>PBC Reutlingen </b></td><td>BSV Pfullingen 2</td><td>6:2</td><td>PBC Reutlingen </td><td></td><td><a href="/cms_leagues/matchday/186833">Info</a></td></tr><tr><td>5</td><td>30.11.2014</td><td>14:00</td><td><b>BSC Waldshut </b></td><td>BSV Nürtingen 2</td><td>4:4</td><td>BSC Waldshut </td><td></td><td><a href="/cms_leagues/matchday/186831">Info</a></td></tr><tr class="alt"><td>6</td><td>07.12.2014</td><td>12:30</td><td><b>BSC St. Georgen </b></td><td>BSC Waldshut </td><td>5:3</td><td>BSC St. Georgen </td><td></td><td><a href="/cms_leagues/matchday/186836">Info</a></td></tr><tr class="alt"><td>6</td><td>07.12.2014</td><td>12:30</td><td><b>BSV Filderstadt 2</b></td><td>PBC Reutlingen </td><td>3:5</td><td>BSV Filderstadt 2</td><td></td><td><a href="/cms_leagues/matchday/186837">Info</a></td></tr><tr class="alt"><td>6</td><td>07.12.2014</td><td>12:30</td><td><b>BSV Nürtingen 2</b></td><td>BSV Tiengen 3</td><td>2:6</td><td>BSV Nürtingen 2</td><td></td><td><a href="/cms_leagues/matchday/186835">Info</a></td></tr><tr class="alt"><td>6</td><td>07.12.2014</td><td>12:30</td><td><b>BSV Pfullingen 2</b></td><td>BSV Nürtingen </td><td>6:2</td><td>BSV Pfullingen 2</td><td></td><td><a href="/cms_leagues/matchday/186834">Info</a></td></tr><tr><td>7</td><td>18.01.2015</td><td>11:00</td><td><b>BSV Filderstadt 2</b></td><td>BSC St. Georgen </td><td>0:0</td><td>BSV Filderstadt 2</td><td></td><td><a href="/cms_leagues/matchday/186840">Info</a></td></tr><tr><td>7</td><td>18.01.2015</td><td>12:30</td><td><b>BSV Nürtingen </b></td><td>BSV Tiengen 3</td><td>0:0</td><td>BSV Nürtingen </td><td></td><td><a href="/cms_leagues/matchday/186838">Info</a></td></tr><tr><td>7</td><td>18.01.2015</td><td>12:30</td><td><b>BSV Pfullingen 2</b></td><td>BSV Nürtingen 2</td><td>0:0</td><td>BSV Pfullingen 2</td><td></td><td><a href="/cms_leagues/matchday/186839">Info</a></td></tr><tr><td>7</td><td>18.01.2015</td><td>13:00</td><td><b>PBC Reutlingen </b></td><td>BSC Waldshut </td><td>0:0</td><td>PBC Reutlingen </td><td></td><td><a href="/cms_leagues/matchday/186841">Info</a></td></tr></table></fieldset></div>            		<div id="tabs-3">
+<!--<legend>Rückrunde</legend>-->
+            <fieldset>
+            <table width="100%" border="0" cellspacing="5" cellpadding="5" class="matchday_table" align="center" >
+	
+<tr><th>Spt.</th> <th>Termin</th> <th>Zeit</th> <th>Heim</th> <th>Gast</th> <th>Erg.</th> <th>Gastgeber</th> <th></th> <th></th></tr><tr class="alt"><td>8</td><td>08.02.2015</td><td>12:30</td><td><b>BSC St. Georgen </b></td><td>PBC Reutlingen </td><td>0:0</td><td>BSC St. Georgen </td><td></td><td><a href="/cms_leagues/matchday/186843">Info</a></td></tr><tr class="alt"><td>8</td><td>08.02.2015</td><td>12:30</td><td><b>BSV Nürtingen 2</b></td><td>BSV Nürtingen </td><td>0:0</td><td>BSV Nürtingen 2</td><td></td><td><a href="/cms_leagues/matchday/186842">Info</a></td></tr><tr class="alt"><td>8</td><td>08.02.2015</td><td>12:30</td><td><b>BSV Tiengen 3</b></td><td>BSV Pfullingen 2</td><td>0:0</td><td>BSV Tiengen 3</td><td></td><td><a href="/cms_leagues/matchday/186845">Info</a></td></tr><tr class="alt"><td>8</td><td>08.02.2015</td><td>14:00</td><td><b>BSC Waldshut </b></td><td>BSV Filderstadt 2</td><td>0:0</td><td>BSC Waldshut </td><td></td><td><a href="/cms_leagues/matchday/186844">Info</a></td></tr><tr><td>9</td><td>01.03.2015</td><td>12:30</td><td><b>BSV Filderstadt 2</b></td><td>BSV Tiengen 3</td><td>0:0</td><td>BSV Filderstadt 2</td><td></td><td><a href="/cms_leagues/matchday/186849">Info</a></td></tr><tr><td>9</td><td>01.03.2015</td><td>12:30</td><td><b>BSV Nürtingen </b></td><td>BSC St. Georgen </td><td>0:0</td><td>BSV Nürtingen </td><td></td><td><a href="/cms_leagues/matchday/186846">Info</a></td></tr><tr><td>9</td><td>01.03.2015</td><td>12:30</td><td><b>BSV Pfullingen 2</b></td><td>BSC Waldshut </td><td>0:0</td><td>BSV Pfullingen 2</td><td></td><td><a href="/cms_leagues/matchday/186848">Info</a></td></tr><tr><td>9</td><td>01.03.2015</td><td>13:00</td><td><b>PBC Reutlingen </b></td><td>BSV Nürtingen 2</td><td>0:0</td><td>PBC Reutlingen </td><td></td><td><a href="/cms_leagues/matchday/186847">Info</a></td></tr><tr class="alt"><td>10</td><td>22.03.2015</td><td>12:30</td><td><b>BSV Nürtingen 2</b></td><td>BSC St. Georgen </td><td>0:0</td><td>BSV Nürtingen 2</td><td></td><td><a href="/cms_leagues/matchday/186851">Info</a></td></tr><tr class="alt"><td>10</td><td>22.03.2015</td><td>12:30</td><td><b>BSV Pfullingen 2</b></td><td>BSV Filderstadt 2</td><td>0:0</td><td>BSV Pfullingen 2</td><td></td><td><a href="/cms_leagues/matchday/186853">Info</a></td></tr><tr class="alt"><td>10</td><td>22.03.2015</td><td>13:00</td><td><b>PBC Reutlingen </b></td><td>BSV Nürtingen </td><td>0:0</td><td>PBC Reutlingen </td><td></td><td><a href="/cms_leagues/matchday/186850">Info</a></td></tr><tr class="alt"><td>10</td><td>22.03.2015</td><td>14:00</td><td><b>BSC Waldshut </b></td><td>BSV Tiengen 3</td><td>0:0</td><td>BSC Waldshut </td><td></td><td><a href="/cms_leagues/matchday/186852">Info</a></td></tr><tr><td>11</td><td>12.04.2015</td><td>12:30</td><td><b>BSC St. Georgen </b></td><td>BSV Pfullingen 2</td><td>0:0</td><td>BSC St. Georgen </td><td></td><td><a href="/cms_leagues/matchday/186856">Info</a></td></tr><tr><td>11</td><td>12.04.2015</td><td>12:30</td><td><b>BSV Filderstadt 2</b></td><td>BSV Nürtingen 2</td><td>0:0</td><td>BSV Filderstadt 2</td><td></td><td><a href="/cms_leagues/matchday/186855">Info</a></td></tr><tr><td>11</td><td>12.04.2015</td><td>12:30</td><td><b>BSV Nürtingen </b></td><td>BSC Waldshut </td><td>0:0</td><td>BSV Nürtingen </td><td></td><td><a href="/cms_leagues/matchday/186854">Info</a></td></tr><tr><td>11</td><td>12.04.2015</td><td>12:30</td><td><b>BSV Tiengen 3</b></td><td>PBC Reutlingen </td><td>0:0</td><td>BSV Tiengen 3</td><td></td><td><a href="/cms_leagues/matchday/186857">Info</a></td></tr><tr class="alt"><td>12</td><td>26.04.2015</td><td>11:00</td><td><b>BSV Filderstadt 2</b></td><td>BSV Nürtingen </td><td>0:0</td><td>BSV Filderstadt 2</td><td></td><td><a href="/cms_leagues/matchday/186858">Info</a></td></tr><tr class="alt"><td>12</td><td>26.04.2015</td><td>12:30</td><td><b>BSC St. Georgen </b></td><td>BSV Tiengen 3</td><td>0:0</td><td>BSC St. Georgen </td><td></td><td><a href="/cms_leagues/matchday/186860">Info</a></td></tr><tr class="alt"><td>12</td><td>26.04.2015</td><td>12:30</td><td><b>BSV Nürtingen 2</b></td><td>BSC Waldshut </td><td>0:0</td><td>BSV Nürtingen 2</td><td></td><td><a href="/cms_leagues/matchday/186859">Info</a></td></tr><tr class="alt"><td>12</td><td>26.04.2015</td><td>12:30</td><td><b>BSV Pfullingen 2</b></td><td>PBC Reutlingen </td><td>0:0</td><td>BSV Pfullingen 2</td><td></td><td><a href="/cms_leagues/matchday/186861">Info</a></td></tr><tr><td>13</td><td>16.05.2015</td><td>15:00</td><td><b>BSV Tiengen 3</b></td><td>BSV Nürtingen 2</td><td>0:0</td><td>BSV Tiengen 3</td><td></td><td><a href="/cms_leagues/matchday/186863">Info</a></td></tr><tr><td>13</td><td>17.05.2015</td><td>12:30</td><td><b>BSV Nürtingen </b></td><td>BSV Pfullingen 2</td><td>0:0</td><td>BSV Nürtingen </td><td></td><td><a href="/cms_leagues/matchday/186862">Info</a></td></tr><tr><td>13</td><td>17.05.2015</td><td>13:00</td><td><b>PBC Reutlingen </b></td><td>BSV Filderstadt 2</td><td>0:0</td><td>PBC Reutlingen </td><td></td><td><a href="/cms_leagues/matchday/186865">Info</a></td></tr><tr><td>13</td><td>17.05.2015</td><td>14:00</td><td><b>BSC Waldshut </b></td><td>BSC St. Georgen </td><td>0:0</td><td>BSC Waldshut </td><td></td><td><a href="/cms_leagues/matchday/186864">Info</a></td></tr><tr class="alt"><td>14</td><td>31.05.2015</td><td>12:30</td><td><b>BSC St. Georgen </b></td><td>BSV Filderstadt 2</td><td>0:0</td><td>BSC St. Georgen </td><td></td><td><a href="/cms_leagues/matchday/186868">Info</a></td></tr><tr class="alt"><td>14</td><td>31.05.2015</td><td>12:30</td><td><b>BSV Nürtingen 2</b></td><td>BSV Pfullingen 2</td><td>0:0</td><td>BSV Nürtingen 2</td><td></td><td><a href="/cms_leagues/matchday/186867">Info</a></td></tr><tr class="alt"><td>14</td><td>31.05.2015</td><td>12:30</td><td><b>BSV Tiengen 3</b></td><td>BSV Nürtingen </td><td>0:0</td><td>BSV Tiengen 3</td><td></td><td><a href="/cms_leagues/matchday/186866">Info</a></td></tr><tr class="alt"><td>14</td><td>31.05.2015</td><td>14:00</td><td><b>BSC Waldshut </b></td><td>PBC Reutlingen </td><td>0:0</td><td>BSC Waldshut </td><td></td><td><a href="/cms_leagues/matchday/186869">Info</a></td></tr></table></fieldset></div></div>
+    </div>
+  </div>
+  </div>
+</div>
+<img src="/img/cms/tabunten_right3.jpg" width="795" height="6" alt="Tab unten" border="0"></div>
+
+
+
+
+
+
+
+	</div><div class="clearfloat"></div></div> 
+
+
+</div><div class="clearfloat"></div><div id="footerlinks"><div id="footerlinks_inner"><a href="http://portal.billardarea.de/content/impressum" title="Impressum">Impressum</a><br>
+</div></div>
+
+<!-- JavaScript Includes -->
+<script type="text/javascript">
+$(document).ready(function() {    
+	$( "#tabs" ).bind( "tabsshow", function(event, ui) {
+		var id = $(this).attr('id'); 
+		var $tabs = $('#'+id).tabs();
+		var selected = $tabs.tabs('option', 'selected');
+		var url = "cms_leagues___2Fplan___2F3324___2F4653";
+		$.ajax({url: "/session/active_tab/url:"+url+"/selected:"+selected+"/id:"+id});
+	});
+});
+$(document).ready(function() {
+	});			
+</script>
+    <script type="text/javascript">
+      (function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,"script","//www.google-analytics.com/analytics.js","ga");
+     
+      ga( "create", "UA-2214945-6", "auto", { "name": "t0" });
+      ga( "t0.require", "displayfeatures" );
+      ga( "t0.set", "anonymizeIp", true );
+      ga( "t0.set", "forceSSL", true );
+      ga( "t0.send", "pageview" );
+     
+      ga( "create", "UA-2214945-8", "auto", { "name": "t1" });
+      ga( "t1.require", "displayfeatures" );
+      ga( "t1.set", "anonymizeIp", true );
+      ga( "t1.set", "forceSSL", true );
+      ga( "t1.send", "pageview" );
+     
+      ga( "create", "UA-2214945-9", "auto", { "name": "t2" });
+      ga( "t2.require", "displayfeatures" );
+      ga( "t2.set", "anonymizeIp", true );
+      ga( "t2.set", "forceSSL", true );
+      ga( "t2.send", "pageview" );
+     
+      if (typeof jQuery != "undefined") {
+        jQuery(document).ready(function($) {
+          var filetypes = /\.(zip|exe|pdf|doc*|xls*|ppt*|mp3)$/i;
+          var baseHref = "";
+          if (jQuery("base").attr("href") != undefined)
+            baseHref = jQuery("base").attr("href");
+          jQuery("a").each(function() {
+            var href = jQuery(this).attr("href");
+            if (href && (href.match(/^https?\:/i)) && (!href.match(document.domain))) {
+              jQuery(this).click(function() {
+                var extLink = href.replace(/^https?\:\/\//i, "");
+                ga( "t0.send", "event", "External", "Click", extLink );
+                ga( "t1.send", "event", "External", "Click", extLink );
+                ga( "t2.send", "event", "External", "Click", extLink );
+                if (jQuery(this).attr("target") != undefined && jQuery(this).attr("target").toLowerCase() != "_blank") {
+                  setTimeout(function() { location.href = href; }, 200);
+                  return false;
+                }
+              });
+            } else if (href && href.match(/^mailto\:/i)) {
+              jQuery(this).click(function() {
+                var mailLink = href.replace(/^mailto\:/i, "");
+                ga( "t0.send", "event", "Email", "Click", mailLink );
+                ga( "t1.send", "event", "Email", "Click", mailLink );
+                ga( "t2.send", "event", "Email", "Click", mailLink );
+              });
+            } else if (href && href.match(filetypes)) {
+              jQuery(this).click(function() {
+                var extension = (/[.]/.exec(href)) ? /[^.]+$/.exec(href) : undefined;
+                var filePath = href;
+                ga( "t0.send", "event", "Download", "Click-" + extension, filePath );
+                ga( "t1.send", "event", "Download", "Click-" + extension, filePath );
+                ga( "t2.send", "event", "Download", "Click-" + extension, filePath );
+                if (jQuery(this).attr("target") != undefined && jQuery(this).attr("target").toLowerCase() != "_blank") {
+                  setTimeout(function() { location.href = baseHref + href; }, 200);
+                  return false;
+                }
+              });
+            }
+          });
+        });
+      }
+    </script>
+<!-- End of JavaScript Includes -->
+
+<a href="https://plus.google.com/104343624092678514347" rel="publisher"></a>
+</body>
+</html>

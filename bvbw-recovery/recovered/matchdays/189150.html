@@ -1,0 +1,1625 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+            "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<title>BillardArea: Spielergebnisse</title>
+<meta name="description" content="Deutschlandweites Billardportal - Billardsport in einer neuen Dimension: News und Artikel, Spielbetrieb, Lokalsuche und Community für Pool Billard, Snooker, Karambol und Kegel">
+<link rel="stylesheet" type="text/css" href="/css/frontend_final.css">
+<link rel="stylesheet" type="text/css" href="/css/jquery.lightbox-0.5.css">
+<link rel="stylesheet" type="text/css" href="/css/colorpicker/layout.css">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+<meta content="107551009272344" property="fb:page_id">
+
+<script type="text/javascript" src="/js/jquery.js"></script>
+<script type="text/javascript" src="/js/jquery-ui-1.7.1.custom.min.js"></script>
+<script type="text/javascript" src="/js/rot13.js"></script>
+<script type="text/javascript" src="/js/swfobject.js"></script>
+<script type="text/javascript" src="/js/jquery.tablesorter.js"></script>
+<script type="text/javascript" src="/js/jquery.lightbox-0.5.js"></script>
+
+<link rel="stylesheet" type="text/css" href="/css/cms/clients/3/styles.css" >
+<link rel="stylesheet" type="text/css" href="/css/cms/clients/3/nav_styles_1.css" >
+
+
+<!--[if lte IE 7]>
+<link href="css/patches/patch.css" rel="stylesheet" type="text/css" >
+<script type="text/javascript" src="/js/ie7.js"></script><![endif]-->
+
+
+
+<script type="text/javascript"><!--
+
+var hex=0;
+function MM_swapImgRestore()
+ { //v3.0
+  var i,x,a = document.MM_sr;
+  for(i=0; a && i < a.length && (x = a[i]) && x.oSrc; ++i)
+   {
+    x.src = x.oSrc;
+   }
+ }
+
+ function MM_findObj(n, d)
+ { //v3.0
+  var p,i,x;
+  if (!d)
+   {
+    d = document;
+   }
+  if ((p = n.indexOf("?")) > 0 && parent.frames.length)
+   {
+    d = parent.frames[n.substring(p+1)].document;
+    n = n.substring(0,p);
+   }
+  if (!(x = d[n]) && d.all)
+   {
+    x = d.all[n];
+   }
+  for (i=0; !x && i < d.forms.length; ++i)
+   {
+    x = d.forms[i][n];
+   }
+  for (i=0; !x && d.layers && i < d.layers.length; ++i)
+   {
+    x = MM_findObj(n,d.layers[i].document);
+   }
+  return(x);
+}
+
+
+function MM_swapImage()
+ { //v3.0
+  var i,j=0,x,a = MM_swapImage.arguments;
+  document.MM_sr = new Array;
+
+  for(i=0; i < (a.length-2); i += 3)
+   {
+    if ((x = MM_findObj(a[i])) != null)
+     {
+      document.MM_sr[j++] = x;
+      if (!x.oSrc)
+        x.oSrc = x.src;
+      x.src = a[i+2];
+     }
+   }
+ }
+
+
+
+$(document).ready(function() {
+	$(function() {
+		$('#gallery a').lightBox();
+		$('a.lightbox').lightBox();
+	});
+});
+
+--></script>
+
+
+
+
+</head>
+
+<body class="text">
+<style>
+#fb-banner {
+position: fixed;
+right: 0px;
+top: 35%;
+opacity: 0.8;
+transition: opacity 0.3s ease;
+}
+#fb-banner:hover {
+opacity: 1;
+}
+</style>
+<div id="fb-banner">
+<a href="https://www.facebook.com/billardarea" target="_blank"><img src="/img/fb_banner.png"></a>
+</div>
+
+
+	<!-- Wallpaper oben -->
+	<div id="page">&nbsp;
+    <div id="ad2"><!-- Wallpaper rechts -->
+    </div>
+	<div id="logoarea">
+<!-- DSB BANNER  -->
+<style>
+#dsb-banner {
+position: absolute;
+top: -16px;
+right: 24px;
+}
+#dsb-banner img {
+height: 140px;
+margin-top:15px;
+}
+</style>
+<div id="dsb-banner">
+<a href="http://portal.billardarea.de/cms_blog/dsb"><img src="/img/dsb_banner_oben.jpg"></a>
+</div>
+<!-- / DSB BANNER -->
+    <div id="logoarea_left" style="width:795px">
+    <a href="http://portal.billardarea.de"><img src="/img/logo.png" width="307" height="73" alt="BillardArea - Deutschlandweites Billardportal" id="logo" border="0"></a>
+   <!--<a href="http://viersen.billiard-worldchampionship.org/" target="_blank" style="float:right"><img src="/img/viersen.png" style="margin-top:10px"></a>-->
+    </div><div id="logoarea_right"> <div class="logo_image"></div>
+    </div>
+    </div>
+
+	<div id="main">
+    
+
+    <div id="ebene1">
+	
+	<ul id="nav_ebene1">
+   	<li class="inaktiv  first" id="das-billardportal"><a href="/frontend">Das Billardportal</a></li><li class="aktiv " id="der-spielbetrieb"><a href="/cms_leagues">Der Spielbetrieb</a></li><li class="inaktiv " id="billard-verband-baden-württemberg"><a href="/content">Billard-Verband Baden-Württemberg</a></li><li class="inaktiv  last" id="meine-billardarea"><a href="http://admin.billardarea.de">Meine Billardarea</a></li>    </ul>
+	    </div>
+    <div id="ebene2">
+    	<ul id="nav_ebene2">
+   	<li class="aktiv  first" id="mannschaft"><a href="/cms_leagues">Mannschaft</a></li><li class="inaktiv " id="einzel"><a href="/cms_single">Einzel</a></li><li class="inaktiv " id="vereine--mitglieder"><a href="/cms_clubs">Vereine &amp; Mitglieder</a></li><li class="inaktiv " id="kalender"><a href="/cms_calendar">Kalender</a></li><li class="inaktiv " id="auswertungen"><a href="/cms_evaluations">Auswertungen</a></li><li class="inaktiv" id="dsb" ><a href="http://portal.billardarea.de/cms_single/dm" style="">DM 2015</a></li>    </ul>
+
+
+    </div>
+    <div id="ebene3">
+    <!-- <div id="breadcrumb">Sie befinden sich hier: <a href="/cms_leagues">Der Spielbetrieb</a>	&raquo; <a href="/cms_leagues">Mannschaft</a>        	</div> -->       </div><img src="/img/cms/tabunten.jpg" width="795" height="6" alt="Tab unten" border="0" style="padding:0px"><div id="maininner" style="width:795px">
+<br>    
+<div style="width:790px;text-align:center">
+<!--<a href="http://www.epresia.de/?ref=billardarea" target="_blank"><img src="/img/superbanner_breit.gif" alt="epresia.de - Finde jetzt passende Geschenkes"></a>-->
+
+
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-0068043095147503";
+
+google_ad_slot = "7353751266";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>
+<br>
+
+
+<br>
+
+<script type="text/javascript">  
+$(document).ready(function() {
+	$('#tabs').tabs();
+})
+</script>
+<div id="content_fullwidth">
+<img src="/img/cms/taboben_right3.jpg" width="795" height="6" alt="Tab unten" border="0">
+<div style="background-color:white" class="padding">
+<!--<a href="/cms_leagues/plan/3325/4660">Zurück</a>-->
+<a href="/cms_leagues/plan/3325/4660"><img src="/img/cms/buttons/dynamic/zurueck-zur-ligatabelle_aktiv.png" border="0" style="float:right;"/></a><div class="clearfloat"></div><br />
+<br />
+<h4 style="background-image:url('/img/cms/headers/spielergebnisse---spieltagsansichth4.png');">VSpielergebnisse  </h4><br />
+
+
+<!-- 
+**********************************************
+******  Billardarea.de
+******  // Clubs 
+**********************************************
+-->
+
+<!-- Javascript-Includes -->
+<!-- /Javascript-Includes -->
+
+<!-- Page Inner Content -->
+    <div class="page_margins"><div class="page">
+
+
+
+
+	<!-- Teaser -->
+      <div id="teaser">
+      	<!-- Header -->
+            	  </div>
+	<!-- Teaser -->      
+
+    
+    
+    
+    <!-- Beginn Main Area -->
+      <div id="main_frontend">
+<div class="left">
+      		<fieldset>
+
+            <div class="element medium"><label>Sparte</label> <div class="nochange field">Snooker: <br />
+		                Mannschaft  </div></div>
+            <div class="element medium"><label>Liga (Saison)</label> <div class="nochange field">Oberliga<br /> (2014/2015)</div></div>
+            
+            <div class="element medium"><label>Partie-Nr.</label> <div class="nochange field">189150</div></div>
+            </fieldset>
+            </div>
+            <div class="right">
+            <fieldset>
+
+            <div class="element medium"><label>Datum</label> <div class="nochange field">13.12.2014 12:30</div></div>
+            <div class="element medium"><label>Spiellokal</label> <div class="nochange field">
+            BC Stuttgart 1891 2<br />            <a href="/cms_pubs/show/3488">Snooker Vereinsheim</a><br />Breslauer Str. 2<br />71638 Ludwigsburg<br /><br />            </div></div>
+                        <div class="element medium"><label>Erfasst von</label> <div class="nochange field">Erik  Harbich  <br />(13.12.2014 21:32 Uhr)</div></div>
+                        </fieldset>
+       </div>
+       <div class="clearfloat"></div><br />
+<br />
+
+        
+            <h4 style="background-image:url('/img/cms/headers/spielergebnisse---ergebnisuebersichth4.png');">VSpielergebnisse  </h4><br />
+                        <div id="tabs-1">
+         <fieldset>
+ 
+     
+
+            <table width="100%" border="0" cellspacing="0" cellpadding="0" class="score_table">
+              <tr>
+                <td width="23" colspan="3" nowrap valign="middle"></td>
+                <td colspan="6" valign="top" class="home"><b>Heim</b>:<br />BC Stuttgart 1891 2</td>
+                <td colspan="5" valign="top" class="visitor"><b>Gast</b>:<br />BV Villingen-Schwenningen 2</td><td></td>
+                </tr> <tr><td colspan="16" class="line" style="height:10px;"></td></tr>
+               
+              <tr>
+                <td width="100"  rowspan="2" colspan="3" nowrap><b>
+                                Spiel 1<br />Snooker                </b>
+              	                
+              	</td>
+                <td colspan="6" valign="top" class="home">Alexander  Srp </td>
+                <td colspan="7" valign="top" class="visitor">Andreas Greitmann</td>
+                </tr>
+              
+                              
+              <tr>
+              	<td colspan="6" valign="top" class="home"><b>2</b></td>
+                <td colspan="7" valign="top" class="home"><b>0</b></td>
+                </tr>
+                             
+      	              <tr>
+              	              	<td colspan="3"></td>
+              	              	<td valign="top">
+                	Frames                </td>
+                <td valign="top">76                </td>
+                <td valign="top">
+                	HB                </td>
+                <td valign="top">
+									35                	
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">
+                	Frames                </td>
+                <td>
+									21                
+                </td>
+                <td valign="top">									
+                	HB								</td>
+                <td valign="top">									
+                	0								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                </tr>
+      	              <tr>
+              	              	<td colspan="3"></td>
+              	              	<td valign="top">
+                	Frames                </td>
+                <td valign="top">63                </td>
+                <td valign="top">
+                	HB                </td>
+                <td valign="top">
+									0                	
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">
+                	Frames                </td>
+                <td>
+									38                
+                </td>
+                <td valign="top">									
+                	HB								</td>
+                <td valign="top">									
+                	0								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                </tr>
+      	              <tr>
+              	              	<td colspan="3"></td>
+              	              	<td valign="top">
+                	Frames                </td>
+                <td valign="top">0                </td>
+                <td valign="top">
+                	HB                </td>
+                <td valign="top">
+									0                	
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">
+                	Frames                </td>
+                <td>
+									0                
+                </td>
+                <td valign="top">									
+                	HB								</td>
+                <td valign="top">									
+                	0								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                </tr>
+      	              <tr>
+              	              	<td colspan="3"></td>
+              	              	<td valign="top">
+                	Frames                </td>
+                <td valign="top">0                </td>
+                <td valign="top">
+                	HB                </td>
+                <td valign="top">
+									0                	
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">
+                	Frames                </td>
+                <td>
+									0                
+                </td>
+                <td valign="top">									
+                	HB								</td>
+                <td valign="top">									
+                	0								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                </tr>
+      	              <tr>
+              	              	<td colspan="3"></td>
+              	              	<td valign="top">
+                	Frames                </td>
+                <td valign="top">0                </td>
+                <td valign="top">
+                	HB                </td>
+                <td valign="top">
+									0                	
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">
+                	Frames                </td>
+                <td>
+									0                
+                </td>
+                <td valign="top">									
+                	HB								</td>
+                <td valign="top">									
+                	0								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                </tr>
+      	              <tr>
+                <td width="100"  rowspan="2" colspan="3" nowrap><b>
+                                Spiel 2<br />Snooker                </b>
+              	                
+              	</td>
+                <td colspan="6" valign="top" class="home">Angelo Tursi</td>
+                <td colspan="7" valign="top" class="visitor">Stefan Weiner</td>
+                </tr>
+              
+                              
+              <tr>
+              	<td colspan="6" valign="top" class="home"><b>0</b></td>
+                <td colspan="7" valign="top" class="home"><b>2</b></td>
+                </tr>
+                             
+      	              <tr>
+              	              	<td colspan="3"></td>
+              	              	<td valign="top">
+                	Frames                </td>
+                <td valign="top">5                </td>
+                <td valign="top">
+                	HB                </td>
+                <td valign="top">
+									0                	
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">
+                	Frames                </td>
+                <td>
+									64                
+                </td>
+                <td valign="top">									
+                	HB								</td>
+                <td valign="top">									
+                	16								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                </tr>
+      	              <tr>
+              	              	<td colspan="3"></td>
+              	              	<td valign="top">
+                	Frames                </td>
+                <td valign="top">26                </td>
+                <td valign="top">
+                	HB                </td>
+                <td valign="top">
+									0                	
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">
+                	Frames                </td>
+                <td>
+									60                
+                </td>
+                <td valign="top">									
+                	HB								</td>
+                <td valign="top">									
+                	23								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                </tr>
+      	              <tr>
+              	              	<td colspan="3"></td>
+              	              	<td valign="top">
+                	Frames                </td>
+                <td valign="top">0                </td>
+                <td valign="top">
+                	HB                </td>
+                <td valign="top">
+									0                	
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">
+                	Frames                </td>
+                <td>
+									0                
+                </td>
+                <td valign="top">									
+                	HB								</td>
+                <td valign="top">									
+                	0								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                </tr>
+      	              <tr>
+              	              	<td colspan="3"></td>
+              	              	<td valign="top">
+                	Frames                </td>
+                <td valign="top">0                </td>
+                <td valign="top">
+                	HB                </td>
+                <td valign="top">
+									0                	
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">
+                	Frames                </td>
+                <td>
+									0                
+                </td>
+                <td valign="top">									
+                	HB								</td>
+                <td valign="top">									
+                	0								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                </tr>
+      	              <tr>
+              	              	<td colspan="3"></td>
+              	              	<td valign="top">
+                	Frames                </td>
+                <td valign="top">0                </td>
+                <td valign="top">
+                	HB                </td>
+                <td valign="top">
+									0                	
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">
+                	Frames                </td>
+                <td>
+									0                
+                </td>
+                <td valign="top">									
+                	HB								</td>
+                <td valign="top">									
+                	0								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                </tr>
+      	              <tr>
+                <td width="100"  rowspan="2" colspan="3" nowrap><b>
+                                Spiel 3<br />Snooker                </b>
+              	                
+              	</td>
+                <td colspan="6" valign="top" class="home">Andreas Stiefel</td>
+                <td colspan="7" valign="top" class="visitor">Steffen Graf</td>
+                </tr>
+              
+                              
+              <tr>
+              	<td colspan="6" valign="top" class="home"><b>2</b></td>
+                <td colspan="7" valign="top" class="home"><b>0</b></td>
+                </tr>
+                             
+      	              <tr>
+              	              	<td colspan="3"></td>
+              	              	<td valign="top">
+                	Frames                </td>
+                <td valign="top">48                </td>
+                <td valign="top">
+                	HB                </td>
+                <td valign="top">
+									18                	
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">
+                	Frames                </td>
+                <td>
+									34                
+                </td>
+                <td valign="top">									
+                	HB								</td>
+                <td valign="top">									
+                	0								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                </tr>
+      	              <tr>
+              	              	<td colspan="3"></td>
+              	              	<td valign="top">
+                	Frames                </td>
+                <td valign="top">60                </td>
+                <td valign="top">
+                	HB                </td>
+                <td valign="top">
+									0                	
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">
+                	Frames                </td>
+                <td>
+									32                
+                </td>
+                <td valign="top">									
+                	HB								</td>
+                <td valign="top">									
+                	0								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                </tr>
+      	              <tr>
+              	              	<td colspan="3"></td>
+              	              	<td valign="top">
+                	Frames                </td>
+                <td valign="top">0                </td>
+                <td valign="top">
+                	HB                </td>
+                <td valign="top">
+									0                	
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">
+                	Frames                </td>
+                <td>
+									0                
+                </td>
+                <td valign="top">									
+                	HB								</td>
+                <td valign="top">									
+                	0								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                </tr>
+      	              <tr>
+              	              	<td colspan="3"></td>
+              	              	<td valign="top">
+                	Frames                </td>
+                <td valign="top">0                </td>
+                <td valign="top">
+                	HB                </td>
+                <td valign="top">
+									0                	
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">
+                	Frames                </td>
+                <td>
+									0                
+                </td>
+                <td valign="top">									
+                	HB								</td>
+                <td valign="top">									
+                	0								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                </tr>
+      	              <tr>
+              	              	<td colspan="3"></td>
+              	              	<td valign="top">
+                	Frames                </td>
+                <td valign="top">0                </td>
+                <td valign="top">
+                	HB                </td>
+                <td valign="top">
+									0                	
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">
+                	Frames                </td>
+                <td>
+									0                
+                </td>
+                <td valign="top">									
+                	HB								</td>
+                <td valign="top">									
+                	0								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                </tr>
+      	              <tr>
+                <td width="100"  rowspan="2" colspan="3" nowrap><b>
+                                Spiel 4<br />Snooker                </b>
+              	                
+              	</td>
+                <td colspan="6" valign="top" class="home">Alexander  Srp </td>
+                <td colspan="7" valign="top" class="visitor">Stefan Weiner</td>
+                </tr>
+              
+                              
+              <tr>
+              	<td colspan="6" valign="top" class="home"><b>1</b></td>
+                <td colspan="7" valign="top" class="home"><b>2</b></td>
+                </tr>
+                             
+      	              <tr>
+              	              	<td colspan="3"></td>
+              	              	<td valign="top">
+                	Frames                </td>
+                <td valign="top">37                </td>
+                <td valign="top">
+                	HB                </td>
+                <td valign="top">
+									0                	
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">
+                	Frames                </td>
+                <td>
+									52                
+                </td>
+                <td valign="top">									
+                	HB								</td>
+                <td valign="top">									
+                	23								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                </tr>
+      	              <tr>
+              	              	<td colspan="3"></td>
+              	              	<td valign="top">
+                	Frames                </td>
+                <td valign="top">71                </td>
+                <td valign="top">
+                	HB                </td>
+                <td valign="top">
+									22                	
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">
+                	Frames                </td>
+                <td>
+									20                
+                </td>
+                <td valign="top">									
+                	HB								</td>
+                <td valign="top">									
+                	0								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                </tr>
+      	              <tr>
+              	              	<td colspan="3"></td>
+              	              	<td valign="top">
+                	Frames                </td>
+                <td valign="top">25                </td>
+                <td valign="top">
+                	HB                </td>
+                <td valign="top">
+									0                	
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">
+                	Frames                </td>
+                <td>
+									50                
+                </td>
+                <td valign="top">									
+                	HB								</td>
+                <td valign="top">									
+                	0								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                </tr>
+      	              <tr>
+              	              	<td colspan="3"></td>
+              	              	<td valign="top">
+                	Frames                </td>
+                <td valign="top">0                </td>
+                <td valign="top">
+                	HB                </td>
+                <td valign="top">
+									0                	
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">
+                	Frames                </td>
+                <td>
+									0                
+                </td>
+                <td valign="top">									
+                	HB								</td>
+                <td valign="top">									
+                	0								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                </tr>
+      	              <tr>
+              	              	<td colspan="3"></td>
+              	              	<td valign="top">
+                	Frames                </td>
+                <td valign="top">0                </td>
+                <td valign="top">
+                	HB                </td>
+                <td valign="top">
+									0                	
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">
+                	Frames                </td>
+                <td>
+									0                
+                </td>
+                <td valign="top">									
+                	HB								</td>
+                <td valign="top">									
+                	0								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                </tr>
+      	              <tr>
+                <td width="100"  rowspan="2" colspan="3" nowrap><b>
+                                Spiel 5<br />Snooker                </b>
+              	                
+              	</td>
+                <td colspan="6" valign="top" class="home">Angelo Tursi</td>
+                <td colspan="7" valign="top" class="visitor">Steffen Graf</td>
+                </tr>
+              
+                              
+              <tr>
+              	<td colspan="6" valign="top" class="home"><b>1</b></td>
+                <td colspan="7" valign="top" class="home"><b>2</b></td>
+                </tr>
+                             
+      	              <tr>
+              	              	<td colspan="3"></td>
+              	              	<td valign="top">
+                	Frames                </td>
+                <td valign="top">59                </td>
+                <td valign="top">
+                	HB                </td>
+                <td valign="top">
+									0                	
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">
+                	Frames                </td>
+                <td>
+									38                
+                </td>
+                <td valign="top">									
+                	HB								</td>
+                <td valign="top">									
+                	0								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                </tr>
+      	              <tr>
+              	              	<td colspan="3"></td>
+              	              	<td valign="top">
+                	Frames                </td>
+                <td valign="top">36                </td>
+                <td valign="top">
+                	HB                </td>
+                <td valign="top">
+									0                	
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">
+                	Frames                </td>
+                <td>
+									56                
+                </td>
+                <td valign="top">									
+                	HB								</td>
+                <td valign="top">									
+                	0								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                </tr>
+      	              <tr>
+              	              	<td colspan="3"></td>
+              	              	<td valign="top">
+                	Frames                </td>
+                <td valign="top">22                </td>
+                <td valign="top">
+                	HB                </td>
+                <td valign="top">
+									0                	
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">
+                	Frames                </td>
+                <td>
+									53                
+                </td>
+                <td valign="top">									
+                	HB								</td>
+                <td valign="top">									
+                	0								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                </tr>
+      	              <tr>
+              	              	<td colspan="3"></td>
+              	              	<td valign="top">
+                	Frames                </td>
+                <td valign="top">0                </td>
+                <td valign="top">
+                	HB                </td>
+                <td valign="top">
+									0                	
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">
+                	Frames                </td>
+                <td>
+									0                
+                </td>
+                <td valign="top">									
+                	HB								</td>
+                <td valign="top">									
+                	0								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                </tr>
+      	              <tr>
+              	              	<td colspan="3"></td>
+              	              	<td valign="top">
+                	Frames                </td>
+                <td valign="top">0                </td>
+                <td valign="top">
+                	HB                </td>
+                <td valign="top">
+									0                	
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">
+                	Frames                </td>
+                <td>
+									0                
+                </td>
+                <td valign="top">									
+                	HB								</td>
+                <td valign="top">									
+                	0								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                </tr>
+      	              <tr>
+                <td width="100"  rowspan="2" colspan="3" nowrap><b>
+                                Spiel 6<br />Snooker                </b>
+              	                
+              	</td>
+                <td colspan="6" valign="top" class="home">Andreas Stiefel</td>
+                <td colspan="7" valign="top" class="visitor">Andreas Greitmann</td>
+                </tr>
+              
+                              
+              <tr>
+              	<td colspan="6" valign="top" class="home"><b>1</b></td>
+                <td colspan="7" valign="top" class="home"><b>2</b></td>
+                </tr>
+                             
+      	              <tr>
+              	              	<td colspan="3"></td>
+              	              	<td valign="top">
+                	Frames                </td>
+                <td valign="top">46                </td>
+                <td valign="top">
+                	HB                </td>
+                <td valign="top">
+									0                	
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">
+                	Frames                </td>
+                <td>
+									69                
+                </td>
+                <td valign="top">									
+                	HB								</td>
+                <td valign="top">									
+                	0								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                </tr>
+      	              <tr>
+              	              	<td colspan="3"></td>
+              	              	<td valign="top">
+                	Frames                </td>
+                <td valign="top">58                </td>
+                <td valign="top">
+                	HB                </td>
+                <td valign="top">
+									0                	
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">
+                	Frames                </td>
+                <td>
+									46                
+                </td>
+                <td valign="top">									
+                	HB								</td>
+                <td valign="top">									
+                	0								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                </tr>
+      	              <tr>
+              	              	<td colspan="3"></td>
+              	              	<td valign="top">
+                	Frames                </td>
+                <td valign="top">25                </td>
+                <td valign="top">
+                	HB                </td>
+                <td valign="top">
+									0                	
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">
+                	Frames                </td>
+                <td>
+									50                
+                </td>
+                <td valign="top">									
+                	HB								</td>
+                <td valign="top">									
+                	0								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                </tr>
+      	              <tr>
+              	              	<td colspan="3"></td>
+              	              	<td valign="top">
+                	Frames                </td>
+                <td valign="top">0                </td>
+                <td valign="top">
+                	HB                </td>
+                <td valign="top">
+									0                	
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">
+                	Frames                </td>
+                <td>
+									0                
+                </td>
+                <td valign="top">									
+                	HB								</td>
+                <td valign="top">									
+                	0								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                </tr>
+      	              <tr>
+              	              	<td colspan="3"></td>
+              	              	<td valign="top">
+                	Frames                </td>
+                <td valign="top">0                </td>
+                <td valign="top">
+                	HB                </td>
+                <td valign="top">
+									0                	
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">
+                	Frames                </td>
+                <td>
+									0                
+                </td>
+                <td valign="top">									
+                	HB								</td>
+                <td valign="top">									
+                	0								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                </tr>
+      	              <tr>
+                <td width="100"  rowspan="2" colspan="3" nowrap><b>
+                                Spiel 7<br />Snooker                </b>
+              	                
+              	</td>
+                <td colspan="6" valign="top" class="home">Alexander  Srp </td>
+                <td colspan="7" valign="top" class="visitor">Steffen Graf</td>
+                </tr>
+              
+                              
+              <tr>
+              	<td colspan="6" valign="top" class="home"><b>2</b></td>
+                <td colspan="7" valign="top" class="home"><b>0</b></td>
+                </tr>
+                             
+      	              <tr>
+              	              	<td colspan="3"></td>
+              	              	<td valign="top">
+                	Frames                </td>
+                <td valign="top">61                </td>
+                <td valign="top">
+                	HB                </td>
+                <td valign="top">
+									0                	
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">
+                	Frames                </td>
+                <td>
+									29                
+                </td>
+                <td valign="top">									
+                	HB								</td>
+                <td valign="top">									
+                	0								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                </tr>
+      	              <tr>
+              	              	<td colspan="3"></td>
+              	              	<td valign="top">
+                	Frames                </td>
+                <td valign="top">46                </td>
+                <td valign="top">
+                	HB                </td>
+                <td valign="top">
+									0                	
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">
+                	Frames                </td>
+                <td>
+									17                
+                </td>
+                <td valign="top">									
+                	HB								</td>
+                <td valign="top">									
+                	0								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                </tr>
+      	              <tr>
+              	              	<td colspan="3"></td>
+              	              	<td valign="top">
+                	Frames                </td>
+                <td valign="top">0                </td>
+                <td valign="top">
+                	HB                </td>
+                <td valign="top">
+									0                	
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">
+                	Frames                </td>
+                <td>
+									0                
+                </td>
+                <td valign="top">									
+                	HB								</td>
+                <td valign="top">									
+                	0								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                </tr>
+      	              <tr>
+              	              	<td colspan="3"></td>
+              	              	<td valign="top">
+                	Frames                </td>
+                <td valign="top">0                </td>
+                <td valign="top">
+                	HB                </td>
+                <td valign="top">
+									0                	
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">
+                	Frames                </td>
+                <td>
+									0                
+                </td>
+                <td valign="top">									
+                	HB								</td>
+                <td valign="top">									
+                	0								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                </tr>
+      	              <tr>
+              	              	<td colspan="3"></td>
+              	              	<td valign="top">
+                	Frames                </td>
+                <td valign="top">0                </td>
+                <td valign="top">
+                	HB                </td>
+                <td valign="top">
+									0                	
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">
+                	Frames                </td>
+                <td>
+									0                
+                </td>
+                <td valign="top">									
+                	HB								</td>
+                <td valign="top">									
+                	0								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                </tr>
+      	              <tr>
+                <td width="100"  rowspan="2" colspan="3" nowrap><b>
+                                Spiel 8<br />Snooker                </b>
+              	                
+              	</td>
+                <td colspan="6" valign="top" class="home">Angelo Tursi</td>
+                <td colspan="7" valign="top" class="visitor">Andreas Greitmann</td>
+                </tr>
+              
+                              
+              <tr>
+              	<td colspan="6" valign="top" class="home"><b>0</b></td>
+                <td colspan="7" valign="top" class="home"><b>2</b></td>
+                </tr>
+                             
+      	              <tr>
+              	              	<td colspan="3"></td>
+              	              	<td valign="top">
+                	Frames                </td>
+                <td valign="top">28                </td>
+                <td valign="top">
+                	HB                </td>
+                <td valign="top">
+									0                	
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">
+                	Frames                </td>
+                <td>
+									42                
+                </td>
+                <td valign="top">									
+                	HB								</td>
+                <td valign="top">									
+                	0								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                </tr>
+      	              <tr>
+              	              	<td colspan="3"></td>
+              	              	<td valign="top">
+                	Frames                </td>
+                <td valign="top">11                </td>
+                <td valign="top">
+                	HB                </td>
+                <td valign="top">
+									0                	
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">
+                	Frames                </td>
+                <td>
+									37                
+                </td>
+                <td valign="top">									
+                	HB								</td>
+                <td valign="top">									
+                	0								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                </tr>
+      	              <tr>
+              	              	<td colspan="3"></td>
+              	              	<td valign="top">
+                	Frames                </td>
+                <td valign="top">0                </td>
+                <td valign="top">
+                	HB                </td>
+                <td valign="top">
+									0                	
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">
+                	Frames                </td>
+                <td>
+									0                
+                </td>
+                <td valign="top">									
+                	HB								</td>
+                <td valign="top">									
+                	0								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                </tr>
+      	              <tr>
+              	              	<td colspan="3"></td>
+              	              	<td valign="top">
+                	Frames                </td>
+                <td valign="top">0                </td>
+                <td valign="top">
+                	HB                </td>
+                <td valign="top">
+									0                	
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">
+                	Frames                </td>
+                <td>
+									0                
+                </td>
+                <td valign="top">									
+                	HB								</td>
+                <td valign="top">									
+                	0								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                </tr>
+      	              <tr>
+              	              	<td colspan="3"></td>
+              	              	<td valign="top">
+                	Frames                </td>
+                <td valign="top">0                </td>
+                <td valign="top">
+                	HB                </td>
+                <td valign="top">
+									0                	
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">
+                	Frames                </td>
+                <td>
+									0                
+                </td>
+                <td valign="top">									
+                	HB								</td>
+                <td valign="top">									
+                	0								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                <td valign="top">									
+								</td>
+                </tr>
+      	          
+                                  </table>
+            <div align="right"><br /><b>Endstand: 
+            3 : 5</b>&nbsp;&nbsp;&nbsp;</div>
+        
+         
+              </fieldset>
+              </div>
+			  			  			     
+    
+    </div>
+    </div>
+    </div>
+
+
+</div><img src="/img/cms/tabunten_right3.jpg" width="795" height="6" alt="Tab unten" border="0"></div>	</div><div class="clearfloat"></div></div>
+
+
+</div><div class="clearfloat"></div><div id="footerlinks"><div id="footerlinks_inner"><a href="http://portal.billardarea.de/content/impressum" title="Impressum">Impressum</a><br>
+</div></div>
+
+<!-- JavaScript Includes -->
+<script type="text/javascript">
+$(document).ready(function() {
+	$( "#tabs" ).bind( "tabsshow", function(event, ui) {
+		var id = $(this).attr('id');
+		var $tabs = $('#'+id).tabs();
+		var selected = $tabs.tabs('option', 'selected');
+		var url = "cms_leagues___2Fmatchday___2F189150";
+		$.ajax({url: "/session/active_tab/url:"+url+"/selected:"+selected+"/id:"+id});
+	});
+});
+$(document).ready(function() {
+	});
+</script>
+<!-- cms/default -->
+<script type="text/javascript" src="http://reporting.exudev.de/tracking.js.php?df=1&tc1=UA-2214945-6&tc2=UA-2214945-9"></script>
+<!-- End of JavaScript Includes -->
+
+<a href="https://plus.google.com/104343624092678514347" rel="publisher"></a>
+</body>
+</html>

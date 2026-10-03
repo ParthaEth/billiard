@@ -1,0 +1,425 @@
+match_id,date,league_season,home_team,away_team,round,discipline,home_player,away_player,home_score,away_score,match_home_mp,match_away_mp
+219908,20.09.2015,Bezirksliga 2 - Ost (2015/2016),BSC Göppingen 2,Tübinger BC,1,14.1 endlos,Jürgen  Wilke,Orhan Cetin,66,80,5,3
+219908,20.09.2015,Bezirksliga 2 - Ost (2015/2016),BSC Göppingen 2,Tübinger BC,2,8-Ball,Gerold Konnerth,Konrad Bau,5,3,5,3
+219908,20.09.2015,Bezirksliga 2 - Ost (2015/2016),BSC Göppingen 2,Tübinger BC,3,9-Ball,Hans Altenhofen,Simon Theodoropoulos,2,7,5,3
+219908,20.09.2015,Bezirksliga 2 - Ost (2015/2016),BSC Göppingen 2,Tübinger BC,4,10-Ball,Norbert Mallin,Johannes Lange,5,3,5,3
+219908,20.09.2015,Bezirksliga 2 - Ost (2015/2016),BSC Göppingen 2,Tübinger BC,5,14.1 endlos,Hans Altenhofen,Simon Theodoropoulos,80,68,5,3
+219908,20.09.2015,Bezirksliga 2 - Ost (2015/2016),BSC Göppingen 2,Tübinger BC,6,8-Ball,Norbert Mallin,Orhan Cetin,2,5,5,3
+219908,20.09.2015,Bezirksliga 2 - Ost (2015/2016),BSC Göppingen 2,Tübinger BC,7,9-Ball,Gerold Konnerth,Johannes Lange,7,3,5,3
+219908,20.09.2015,Bezirksliga 2 - Ost (2015/2016),BSC Göppingen 2,Tübinger BC,8,10-Ball,Jürgen  Wilke,Konrad Bau,5,3,5,3
+219916,25.10.2015,Bezirksliga 2 - Ost (2015/2016),BSV Pfullingen 3,Tübinger BC,1,14.1 endlos,Marcus Trumpp,Orhan Cetin,57,80,4,4
+219916,25.10.2015,Bezirksliga 2 - Ost (2015/2016),BSV Pfullingen 3,Tübinger BC,2,8-Ball,Alexander Wibisono,Konrad Bau,1,5,4,4
+219916,25.10.2015,Bezirksliga 2 - Ost (2015/2016),BSV Pfullingen 3,Tübinger BC,3,9-Ball,Fabian Rapp,Thomas Schöpfer,7,4,4,4
+219916,25.10.2015,Bezirksliga 2 - Ost (2015/2016),BSV Pfullingen 3,Tübinger BC,4,10-Ball,Marcel Biegler,Johannes Lange,5,4,4,4
+219916,25.10.2015,Bezirksliga 2 - Ost (2015/2016),BSV Pfullingen 3,Tübinger BC,5,14.1 endlos,Alexander Wibisono,Thomas Schöpfer,80,47,4,4
+219916,25.10.2015,Bezirksliga 2 - Ost (2015/2016),BSV Pfullingen 3,Tübinger BC,6,8-Ball,Fabian Rapp,Orhan Cetin,0,5,4,4
+219916,25.10.2015,Bezirksliga 2 - Ost (2015/2016),BSV Pfullingen 3,Tübinger BC,7,9-Ball,Marcel Biegler,Johannes Lange,5,7,4,4
+219916,25.10.2015,Bezirksliga 2 - Ost (2015/2016),BSV Pfullingen 3,Tübinger BC,8,10-Ball,Marcus Trumpp,Konrad Bau,5,1,4,4
+243298,18.09.2016,Bezirksliga 1 - Ost (2016/2017),Tübinger BC,BF Bronnen,1,14.1 endlos,Orhan Cetin,Thomas Drey,56,80,1,7
+243298,18.09.2016,Bezirksliga 1 - Ost (2016/2017),Tübinger BC,BF Bronnen,2,8-Ball,Thomas Schöpfer,Nico Gehring,5,4,1,7
+243298,18.09.2016,Bezirksliga 1 - Ost (2016/2017),Tübinger BC,BF Bronnen,3,9-Ball,Simon Theodoropoulos,Andreas Gorisek,3,7,1,7
+243298,18.09.2016,Bezirksliga 1 - Ost (2016/2017),Tübinger BC,BF Bronnen,4,10-Ball,Johannes Lange,Holger Mayer,1,5,1,7
+243298,18.09.2016,Bezirksliga 1 - Ost (2016/2017),Tübinger BC,BF Bronnen,5,14.1 endlos,Simon Theodoropoulos,Holger Mayer,57,80,1,7
+243298,18.09.2016,Bezirksliga 1 - Ost (2016/2017),Tübinger BC,BF Bronnen,6,8-Ball,Orhan Cetin,Andreas Gorisek,3,5,1,7
+243298,18.09.2016,Bezirksliga 1 - Ost (2016/2017),Tübinger BC,BF Bronnen,7,9-Ball,Johannes Lange,Nico Gehring,6,7,1,7
+243298,18.09.2016,Bezirksliga 1 - Ost (2016/2017),Tübinger BC,BF Bronnen,8,10-Ball,Thomas Schöpfer,Thomas Drey,3,5,1,7
+243303,25.09.2016,Bezirksliga 1 - Ost (2016/2017),BC Weingarten 3,Tübinger BC,1,14.1 endlos,Fabian Thoma-Schuck,Orhan Cetin,34,80,4,4
+243303,25.09.2016,Bezirksliga 1 - Ost (2016/2017),BC Weingarten 3,Tübinger BC,2,8-Ball,Pietro Calo,Konrad Bau,2,5,4,4
+243303,25.09.2016,Bezirksliga 1 - Ost (2016/2017),BC Weingarten 3,Tübinger BC,3,9-Ball,Lutz Jeschke,Simon Theodoropoulos,7,6,4,4
+243303,25.09.2016,Bezirksliga 1 - Ost (2016/2017),BC Weingarten 3,Tübinger BC,4,10-Ball,Harald Schwarz,Thomas Schöpfer,1,5,4,4
+243303,25.09.2016,Bezirksliga 1 - Ost (2016/2017),BC Weingarten 3,Tübinger BC,5,14.1 endlos,Pietro Calo,Simon Theodoropoulos,80,52,4,4
+243303,25.09.2016,Bezirksliga 1 - Ost (2016/2017),BC Weingarten 3,Tübinger BC,6,8-Ball,Fabian Thoma-Schuck,Orhan Cetin,5,4,4,4
+243303,25.09.2016,Bezirksliga 1 - Ost (2016/2017),BC Weingarten 3,Tübinger BC,7,9-Ball,Harald Schwarz,Thomas Schöpfer,7,2,4,4
+243303,25.09.2016,Bezirksliga 1 - Ost (2016/2017),BC Weingarten 3,Tübinger BC,8,10-Ball,Lutz Jeschke,Konrad Bau,2,5,4,4
+243307,09.10.2016,Bezirksliga 1 - Ost (2016/2017),Tübinger BC,PBC Reutlingen,1,14.1 endlos,Orhan Cetin,Peter Lotterer,64,80,3,5
+243307,09.10.2016,Bezirksliga 1 - Ost (2016/2017),Tübinger BC,PBC Reutlingen,2,8-Ball,Konrad Bau,Andreas Kunellis,5,1,3,5
+243307,09.10.2016,Bezirksliga 1 - Ost (2016/2017),Tübinger BC,PBC Reutlingen,3,9-Ball,Thomas Dieckmann,Adrian Mernik,7,1,3,5
+243307,09.10.2016,Bezirksliga 1 - Ost (2016/2017),Tübinger BC,PBC Reutlingen,4,10-Ball,Simon Theodoropoulos,Roland Wacker,1,5,3,5
+243307,09.10.2016,Bezirksliga 1 - Ost (2016/2017),Tübinger BC,PBC Reutlingen,5,14.1 endlos,Konrad Bau,Adrian Mernik,80,74,3,5
+243307,09.10.2016,Bezirksliga 1 - Ost (2016/2017),Tübinger BC,PBC Reutlingen,6,8-Ball,Orhan Cetin,Roland Wacker,2,5,3,5
+243307,09.10.2016,Bezirksliga 1 - Ost (2016/2017),Tübinger BC,PBC Reutlingen,7,9-Ball,Simon Theodoropoulos,Peter Lotterer,1,7,3,5
+243307,09.10.2016,Bezirksliga 1 - Ost (2016/2017),Tübinger BC,PBC Reutlingen,8,10-Ball,Thomas Dieckmann,Andreas Kunellis,1,5,3,5
+243309,05.11.2016,Bezirksliga 1 - Ost (2016/2017),BSV Pfullingen 3,Tübinger BC,1,14.1 endlos,Mike White,Orhan Cetin,55,80,3,5
+243309,05.11.2016,Bezirksliga 1 - Ost (2016/2017),BSV Pfullingen 3,Tübinger BC,2,8-Ball,Peter Restle,Konrad Bau,2,5,3,5
+243309,05.11.2016,Bezirksliga 1 - Ost (2016/2017),BSV Pfullingen 3,Tübinger BC,3,9-Ball,Andre Schwenzfeier,Dietmar Karoli,7,6,3,5
+243309,05.11.2016,Bezirksliga 1 - Ost (2016/2017),BSV Pfullingen 3,Tübinger BC,4,10-Ball,Joao Rodrigues,Johannes Lange,2,5,3,5
+243309,05.11.2016,Bezirksliga 1 - Ost (2016/2017),BSV Pfullingen 3,Tübinger BC,5,14.1 endlos,Peter Restle,Konrad Bau,47,80,3,5
+243309,05.11.2016,Bezirksliga 1 - Ost (2016/2017),BSV Pfullingen 3,Tübinger BC,6,8-Ball,Andre Schwenzfeier,Orhan Cetin,3,5,3,5
+243309,05.11.2016,Bezirksliga 1 - Ost (2016/2017),BSV Pfullingen 3,Tübinger BC,7,9-Ball,Cyrus Naimi,Johannes Lange,7,4,3,5
+243309,05.11.2016,Bezirksliga 1 - Ost (2016/2017),BSV Pfullingen 3,Tübinger BC,8,10-Ball,Mike White,Dietmar Karoli,5,4,3,5
+243312,20.11.2016,Bezirksliga 1 - Ost (2016/2017),BSV Pfullingen 2,Tübinger BC,1,14.1 endlos,Bernd Dorenburg,Orhan Cetin,80,61,5,3
+243312,20.11.2016,Bezirksliga 1 - Ost (2016/2017),BSV Pfullingen 2,Tübinger BC,2,8-Ball,Denis Dimster,Konrad Bau,5,0,5,3
+243312,20.11.2016,Bezirksliga 1 - Ost (2016/2017),BSV Pfullingen 2,Tübinger BC,3,9-Ball,Daniel Hertl,Wadea Al Mahamid,7,4,5,3
+243312,20.11.2016,Bezirksliga 1 - Ost (2016/2017),BSV Pfullingen 2,Tübinger BC,4,10-Ball,Marcel Biegler,Dietmar Karoli,4,5,5,3
+243312,20.11.2016,Bezirksliga 1 - Ost (2016/2017),BSV Pfullingen 2,Tübinger BC,5,14.1 endlos,Alexander Wibisono,Konrad Bau,80,68,5,3
+243312,20.11.2016,Bezirksliga 1 - Ost (2016/2017),BSV Pfullingen 2,Tübinger BC,6,8-Ball,Daniel Hertl,Dietmar Karoli,5,0,5,3
+243312,20.11.2016,Bezirksliga 1 - Ost (2016/2017),BSV Pfullingen 2,Tübinger BC,7,9-Ball,Marcel Biegler,Johannes Lange,4,7,5,3
+243312,20.11.2016,Bezirksliga 1 - Ost (2016/2017),BSV Pfullingen 2,Tübinger BC,8,10-Ball,Denis Dimster,Orhan Cetin,2,5,5,3
+243319,04.12.2016,Bezirksliga 1 - Ost (2016/2017),Tübinger BC,PBC Bad Saulgau 3,1,14.1 endlos,Konrad Bau,Thomas Metzler,71,80,1,7
+243319,04.12.2016,Bezirksliga 1 - Ost (2016/2017),Tübinger BC,PBC Bad Saulgau 3,2,8-Ball,Wadea Al Mahamid,Franz Meschenmoser,5,2,1,7
+243319,04.12.2016,Bezirksliga 1 - Ost (2016/2017),Tübinger BC,PBC Bad Saulgau 3,3,9-Ball,Johannes Lange,Manfred Rauch,6,7,1,7
+243319,04.12.2016,Bezirksliga 1 - Ost (2016/2017),Tübinger BC,PBC Bad Saulgau 3,4,10-Ball,Orhan Cetin,Tobias Hirt,1,5,1,7
+243319,04.12.2016,Bezirksliga 1 - Ost (2016/2017),Tübinger BC,PBC Bad Saulgau 3,5,14.1 endlos,Orhan Cetin,Franz Meschenmoser,72,80,1,7
+243319,04.12.2016,Bezirksliga 1 - Ost (2016/2017),Tübinger BC,PBC Bad Saulgau 3,6,8-Ball,Konrad Bau,Thomas Metzler,2,5,1,7
+243319,04.12.2016,Bezirksliga 1 - Ost (2016/2017),Tübinger BC,PBC Bad Saulgau 3,7,9-Ball,Wadea Al Mahamid,Tobias Hirt,1,7,1,7
+243319,04.12.2016,Bezirksliga 1 - Ost (2016/2017),Tübinger BC,PBC Bad Saulgau 3,8,10-Ball,Simon Theodoropoulos,Manfred Rauch,1,5,1,7
+243322,29.01.2017,Bezirksliga 1 - Ost (2016/2017),Tübinger BC,PBC Ochsenhausen 2,1,14.1 endlos,Freilos,Freilos,0,0,0,0
+243322,29.01.2017,Bezirksliga 1 - Ost (2016/2017),Tübinger BC,PBC Ochsenhausen 2,2,8-Ball,Freilos,Freilos,0,0,0,0
+243322,29.01.2017,Bezirksliga 1 - Ost (2016/2017),Tübinger BC,PBC Ochsenhausen 2,3,9-Ball,Freilos,Freilos,0,0,0,0
+243322,29.01.2017,Bezirksliga 1 - Ost (2016/2017),Tübinger BC,PBC Ochsenhausen 2,4,10-Ball,Freilos,Freilos,0,0,0,0
+243322,29.01.2017,Bezirksliga 1 - Ost (2016/2017),Tübinger BC,PBC Ochsenhausen 2,5,14.1 endlos,Freilos,Freilos,0,0,0,0
+243322,29.01.2017,Bezirksliga 1 - Ost (2016/2017),Tübinger BC,PBC Ochsenhausen 2,6,8-Ball,Freilos,Freilos,0,0,0,0
+243322,29.01.2017,Bezirksliga 1 - Ost (2016/2017),Tübinger BC,PBC Ochsenhausen 2,7,9-Ball,Freilos,Freilos,0,0,0,0
+243322,29.01.2017,Bezirksliga 1 - Ost (2016/2017),Tübinger BC,PBC Ochsenhausen 2,8,10-Ball,Freilos,Freilos,0,0,0,0
+243326,12.02.2017,Bezirksliga 1 - Ost (2016/2017),BF Bronnen,Tübinger BC,1,14.1 endlos,Freilos,Freilos,0,0,0,0
+243326,12.02.2017,Bezirksliga 1 - Ost (2016/2017),BF Bronnen,Tübinger BC,2,8-Ball,Freilos,Freilos,0,0,0,0
+243326,12.02.2017,Bezirksliga 1 - Ost (2016/2017),BF Bronnen,Tübinger BC,3,9-Ball,Freilos,Freilos,0,0,0,0
+243326,12.02.2017,Bezirksliga 1 - Ost (2016/2017),BF Bronnen,Tübinger BC,4,10-Ball,Freilos,Freilos,0,0,0,0
+243326,12.02.2017,Bezirksliga 1 - Ost (2016/2017),BF Bronnen,Tübinger BC,5,14.1 endlos,Freilos,Freilos,0,0,0,0
+243326,12.02.2017,Bezirksliga 1 - Ost (2016/2017),BF Bronnen,Tübinger BC,6,8-Ball,Freilos,Freilos,0,0,0,0
+243326,12.02.2017,Bezirksliga 1 - Ost (2016/2017),BF Bronnen,Tübinger BC,7,9-Ball,Freilos,Freilos,0,0,0,0
+243326,12.02.2017,Bezirksliga 1 - Ost (2016/2017),BF Bronnen,Tübinger BC,8,10-Ball,Freilos,Freilos,0,0,0,0
+243331,19.02.2017,Bezirksliga 1 - Ost (2016/2017),Tübinger BC,BC Weingarten 3,1,14.1 endlos,Freilos,Freilos,0,0,0,0
+243331,19.02.2017,Bezirksliga 1 - Ost (2016/2017),Tübinger BC,BC Weingarten 3,2,8-Ball,Freilos,Freilos,0,0,0,0
+243331,19.02.2017,Bezirksliga 1 - Ost (2016/2017),Tübinger BC,BC Weingarten 3,3,9-Ball,Freilos,Freilos,0,0,0,0
+243331,19.02.2017,Bezirksliga 1 - Ost (2016/2017),Tübinger BC,BC Weingarten 3,4,10-Ball,Freilos,Freilos,0,0,0,0
+243331,19.02.2017,Bezirksliga 1 - Ost (2016/2017),Tübinger BC,BC Weingarten 3,5,14.1 endlos,Freilos,Freilos,0,0,0,0
+243331,19.02.2017,Bezirksliga 1 - Ost (2016/2017),Tübinger BC,BC Weingarten 3,6,8-Ball,Freilos,Freilos,0,0,0,0
+243331,19.02.2017,Bezirksliga 1 - Ost (2016/2017),Tübinger BC,BC Weingarten 3,7,9-Ball,Freilos,Freilos,0,0,0,0
+243331,19.02.2017,Bezirksliga 1 - Ost (2016/2017),Tübinger BC,BC Weingarten 3,8,10-Ball,Freilos,Freilos,0,0,0,0
+243335,19.03.2017,Bezirksliga 1 - Ost (2016/2017),PBC Reutlingen,Tübinger BC,1,14.1 endlos,Freilos,Freilos,0,0,0,0
+243335,19.03.2017,Bezirksliga 1 - Ost (2016/2017),PBC Reutlingen,Tübinger BC,2,8-Ball,Freilos,Freilos,0,0,0,0
+243335,19.03.2017,Bezirksliga 1 - Ost (2016/2017),PBC Reutlingen,Tübinger BC,3,9-Ball,Freilos,Freilos,0,0,0,0
+243335,19.03.2017,Bezirksliga 1 - Ost (2016/2017),PBC Reutlingen,Tübinger BC,4,10-Ball,Freilos,Freilos,0,0,0,0
+243335,19.03.2017,Bezirksliga 1 - Ost (2016/2017),PBC Reutlingen,Tübinger BC,5,14.1 endlos,Freilos,Freilos,0,0,0,0
+243335,19.03.2017,Bezirksliga 1 - Ost (2016/2017),PBC Reutlingen,Tübinger BC,6,8-Ball,Freilos,Freilos,0,0,0,0
+243335,19.03.2017,Bezirksliga 1 - Ost (2016/2017),PBC Reutlingen,Tübinger BC,7,9-Ball,Freilos,Freilos,0,0,0,0
+243335,19.03.2017,Bezirksliga 1 - Ost (2016/2017),PBC Reutlingen,Tübinger BC,8,10-Ball,Freilos,Freilos,0,0,0,0
+243337,02.04.2017,Bezirksliga 1 - Ost (2016/2017),Tübinger BC,BSV Pfullingen 3,1,14.1 endlos,Freilos,Freilos,0,0,0,0
+243337,02.04.2017,Bezirksliga 1 - Ost (2016/2017),Tübinger BC,BSV Pfullingen 3,2,8-Ball,Freilos,Freilos,0,0,0,0
+243337,02.04.2017,Bezirksliga 1 - Ost (2016/2017),Tübinger BC,BSV Pfullingen 3,3,9-Ball,Freilos,Freilos,0,0,0,0
+243337,02.04.2017,Bezirksliga 1 - Ost (2016/2017),Tübinger BC,BSV Pfullingen 3,4,10-Ball,Freilos,Freilos,0,0,0,0
+243337,02.04.2017,Bezirksliga 1 - Ost (2016/2017),Tübinger BC,BSV Pfullingen 3,5,14.1 endlos,Freilos,Freilos,0,0,0,0
+243337,02.04.2017,Bezirksliga 1 - Ost (2016/2017),Tübinger BC,BSV Pfullingen 3,6,8-Ball,Freilos,Freilos,0,0,0,0
+243337,02.04.2017,Bezirksliga 1 - Ost (2016/2017),Tübinger BC,BSV Pfullingen 3,7,9-Ball,Freilos,Freilos,0,0,0,0
+243337,02.04.2017,Bezirksliga 1 - Ost (2016/2017),Tübinger BC,BSV Pfullingen 3,8,10-Ball,Freilos,Freilos,0,0,0,0
+243340,23.04.2017,Bezirksliga 1 - Ost (2016/2017),Tübinger BC,BSV Pfullingen 2,1,14.1 endlos,Freilos,Freilos,0,0,0,0
+243340,23.04.2017,Bezirksliga 1 - Ost (2016/2017),Tübinger BC,BSV Pfullingen 2,2,8-Ball,Freilos,Freilos,0,0,0,0
+243340,23.04.2017,Bezirksliga 1 - Ost (2016/2017),Tübinger BC,BSV Pfullingen 2,3,9-Ball,Freilos,Freilos,0,0,0,0
+243340,23.04.2017,Bezirksliga 1 - Ost (2016/2017),Tübinger BC,BSV Pfullingen 2,4,10-Ball,Freilos,Freilos,0,0,0,0
+243340,23.04.2017,Bezirksliga 1 - Ost (2016/2017),Tübinger BC,BSV Pfullingen 2,5,14.1 endlos,Freilos,Freilos,0,0,0,0
+243340,23.04.2017,Bezirksliga 1 - Ost (2016/2017),Tübinger BC,BSV Pfullingen 2,6,8-Ball,Freilos,Freilos,0,0,0,0
+243340,23.04.2017,Bezirksliga 1 - Ost (2016/2017),Tübinger BC,BSV Pfullingen 2,7,9-Ball,Freilos,Freilos,0,0,0,0
+243340,23.04.2017,Bezirksliga 1 - Ost (2016/2017),Tübinger BC,BSV Pfullingen 2,8,10-Ball,Freilos,Freilos,0,0,0,0
+243350,21.05.2017,Bezirksliga 1 - Ost (2016/2017),PBC Ochsenhausen 2,Tübinger BC,1,14.1 endlos,Freilos,Freilos,0,0,0,0
+243350,21.05.2017,Bezirksliga 1 - Ost (2016/2017),PBC Ochsenhausen 2,Tübinger BC,2,8-Ball,Freilos,Freilos,0,0,0,0
+243350,21.05.2017,Bezirksliga 1 - Ost (2016/2017),PBC Ochsenhausen 2,Tübinger BC,3,9-Ball,Freilos,Freilos,0,0,0,0
+243350,21.05.2017,Bezirksliga 1 - Ost (2016/2017),PBC Ochsenhausen 2,Tübinger BC,4,10-Ball,Freilos,Freilos,0,0,0,0
+243350,21.05.2017,Bezirksliga 1 - Ost (2016/2017),PBC Ochsenhausen 2,Tübinger BC,5,14.1 endlos,Freilos,Freilos,0,0,0,0
+243350,21.05.2017,Bezirksliga 1 - Ost (2016/2017),PBC Ochsenhausen 2,Tübinger BC,6,8-Ball,Freilos,Freilos,0,0,0,0
+243350,21.05.2017,Bezirksliga 1 - Ost (2016/2017),PBC Ochsenhausen 2,Tübinger BC,7,9-Ball,Freilos,Freilos,0,0,0,0
+243350,21.05.2017,Bezirksliga 1 - Ost (2016/2017),PBC Ochsenhausen 2,Tübinger BC,8,10-Ball,Freilos,Freilos,0,0,0,0
+270863,17.09.2017,Kreisliga A Ost - Staffel 2 (2017/2018),BSV Pfullingen 4,Tübinger BC 3,1,14.1 endlos,Joao Rodrigues,Dennis Göricke,60,38,8,0
+270863,17.09.2017,Kreisliga A Ost - Staffel 2 (2017/2018),BSV Pfullingen 4,Tübinger BC 3,2,8-Ball,Guido Ulmer,Dominik Kant,5,3,8,0
+270863,17.09.2017,Kreisliga A Ost - Staffel 2 (2017/2018),BSV Pfullingen 4,Tübinger BC 3,3,9-Ball,Andre Schwenzfeier,Anita Massow,6,3,8,0
+270863,17.09.2017,Kreisliga A Ost - Staffel 2 (2017/2018),BSV Pfullingen 4,Tübinger BC 3,4,10-Ball,Mike White,Jonas Entenmann,5,1,8,0
+270863,17.09.2017,Kreisliga A Ost - Staffel 2 (2017/2018),BSV Pfullingen 4,Tübinger BC 3,5,14.1 endlos,Guido Ulmer,Dominik Kant,60,17,8,0
+270863,17.09.2017,Kreisliga A Ost - Staffel 2 (2017/2018),BSV Pfullingen 4,Tübinger BC 3,6,8-Ball,Andre Schwenzfeier,Jonas Entenmann,5,0,8,0
+270863,17.09.2017,Kreisliga A Ost - Staffel 2 (2017/2018),BSV Pfullingen 4,Tübinger BC 3,7,9-Ball,Mike White,Dennis Göricke,6,3,8,0
+270863,17.09.2017,Kreisliga A Ost - Staffel 2 (2017/2018),BSV Pfullingen 4,Tübinger BC 3,8,10-Ball,Joao Rodrigues,Anita Massow,5,1,8,0
+270867,15.10.2017,Kreisliga A Ost - Staffel 2 (2017/2018),Tübinger BC 3,PBC Ochsenhausen 2,1,14.1 endlos,Dennis Göricke,Frank Flach,49,60,6,2
+270867,15.10.2017,Kreisliga A Ost - Staffel 2 (2017/2018),Tübinger BC 3,PBC Ochsenhausen 2,2,8-Ball,Dietmar Karoli,Werner Schmidberger,5,3,6,2
+270867,15.10.2017,Kreisliga A Ost - Staffel 2 (2017/2018),Tübinger BC 3,PBC Ochsenhausen 2,3,9-Ball,Wahib Jaradat,Soydan Cetin,6,3,6,2
+270867,15.10.2017,Kreisliga A Ost - Staffel 2 (2017/2018),Tübinger BC 3,PBC Ochsenhausen 2,4,10-Ball,Jonas Entenmann,Hakan Öz,5,1,6,2
+270867,15.10.2017,Kreisliga A Ost - Staffel 2 (2017/2018),Tübinger BC 3,PBC Ochsenhausen 2,5,14.1 endlos,Dietmar Karoli,Hakan Öz,60,27,6,2
+270867,15.10.2017,Kreisliga A Ost - Staffel 2 (2017/2018),Tübinger BC 3,PBC Ochsenhausen 2,6,8-Ball,Dennis Göricke,Soydan Cetin,5,3,6,2
+270867,15.10.2017,Kreisliga A Ost - Staffel 2 (2017/2018),Tübinger BC 3,PBC Ochsenhausen 2,7,9-Ball,Jonas Entenmann,Frank Flach,4,6,6,2
+270867,15.10.2017,Kreisliga A Ost - Staffel 2 (2017/2018),Tübinger BC 3,PBC Ochsenhausen 2,8,10-Ball,Wahib Jaradat,Werner Schmidberger,5,4,6,2
+270870,26.11.2017,Kreisliga A Ost - Staffel 2 (2017/2018),PBC Ochsenhausen 3,Tübinger BC 3,1,14.1 endlos,Nikolaus Blum,Freilos,0,0,8,0
+270870,26.11.2017,Kreisliga A Ost - Staffel 2 (2017/2018),PBC Ochsenhausen 3,Tübinger BC 3,2,8-Ball,Raimund Wanner,Freilos,0,0,8,0
+270870,26.11.2017,Kreisliga A Ost - Staffel 2 (2017/2018),PBC Ochsenhausen 3,Tübinger BC 3,3,9-Ball,Anton Schubert,Freilos,0,0,8,0
+270870,26.11.2017,Kreisliga A Ost - Staffel 2 (2017/2018),PBC Ochsenhausen 3,Tübinger BC 3,4,10-Ball,Lothar Ring,Freilos,0,0,8,0
+270870,26.11.2017,Kreisliga A Ost - Staffel 2 (2017/2018),PBC Ochsenhausen 3,Tübinger BC 3,5,14.1 endlos,Anton Schubert,Freilos,0,0,8,0
+270870,26.11.2017,Kreisliga A Ost - Staffel 2 (2017/2018),PBC Ochsenhausen 3,Tübinger BC 3,6,8-Ball,Lothar Ring,Freilos,0,0,8,0
+270870,26.11.2017,Kreisliga A Ost - Staffel 2 (2017/2018),PBC Ochsenhausen 3,Tübinger BC 3,7,9-Ball,Nikolaus Blum,Freilos,0,0,8,0
+270870,26.11.2017,Kreisliga A Ost - Staffel 2 (2017/2018),PBC Ochsenhausen 3,Tübinger BC 3,8,10-Ball,Raimund Wanner,Freilos,0,0,8,0
+270873,17.12.2017,Kreisliga A Ost - Staffel 2 (2017/2018),Tübinger BC 3,BF Bronnen 2,1,14.1 endlos,Dietmar Karoli,Tobias Schneider,60,51,5,3
+270873,17.12.2017,Kreisliga A Ost - Staffel 2 (2017/2018),Tübinger BC 3,BF Bronnen 2,2,8-Ball,Dennis Göricke,Manuela Schmid,5,0,5,3
+270873,17.12.2017,Kreisliga A Ost - Staffel 2 (2017/2018),Tübinger BC 3,BF Bronnen 2,3,9-Ball,Jonas Entenmann,Stefan Neuß,6,4,5,3
+270873,17.12.2017,Kreisliga A Ost - Staffel 2 (2017/2018),Tübinger BC 3,BF Bronnen 2,4,10-Ball,Dominik Kant,Erich Wohllaib,4,5,5,3
+270873,17.12.2017,Kreisliga A Ost - Staffel 2 (2017/2018),Tübinger BC 3,BF Bronnen 2,5,14.1 endlos,Dennis Göricke,Erich Wohllaib,60,16,5,3
+270873,17.12.2017,Kreisliga A Ost - Staffel 2 (2017/2018),Tübinger BC 3,BF Bronnen 2,6,8-Ball,Dietmar Karoli,Stefan Neuß,5,0,5,3
+270873,17.12.2017,Kreisliga A Ost - Staffel 2 (2017/2018),Tübinger BC 3,BF Bronnen 2,7,9-Ball,Dominik Kant,Manuela Schmid,3,6,5,3
+270873,17.12.2017,Kreisliga A Ost - Staffel 2 (2017/2018),Tübinger BC 3,BF Bronnen 2,8,10-Ball,Jonas Entenmann,Tobias Schneider,2,5,5,3
+270876,14.01.2018,Kreisliga A Ost - Staffel 2 (2017/2018),PBC Reutlingen 3,Tübinger BC 3,1,14.1 endlos,Fabian Danner,Dietmar Karoli,42,60,4,4
+270876,14.01.2018,Kreisliga A Ost - Staffel 2 (2017/2018),PBC Reutlingen 3,Tübinger BC 3,2,8-Ball,Bernhard Gneiting,Dennis Göricke,5,3,4,4
+270876,14.01.2018,Kreisliga A Ost - Staffel 2 (2017/2018),PBC Reutlingen 3,Tübinger BC 3,3,9-Ball,Felix Fabry,Wahib Jaradat,6,4,4,4
+270876,14.01.2018,Kreisliga A Ost - Staffel 2 (2017/2018),PBC Reutlingen 3,Tübinger BC 3,4,10-Ball,Kathrin Karwath,Dominik Kant,2,5,4,4
+270876,14.01.2018,Kreisliga A Ost - Staffel 2 (2017/2018),PBC Reutlingen 3,Tübinger BC 3,5,14.1 endlos,Bernhard Gneiting,Dennis Göricke,60,43,4,4
+270876,14.01.2018,Kreisliga A Ost - Staffel 2 (2017/2018),PBC Reutlingen 3,Tübinger BC 3,6,8-Ball,Adrian Weller,Dietmar Karoli,0,5,4,4
+270876,14.01.2018,Kreisliga A Ost - Staffel 2 (2017/2018),PBC Reutlingen 3,Tübinger BC 3,7,9-Ball,Kathrin Karwath,Anita Massow,6,0,4,4
+270876,14.01.2018,Kreisliga A Ost - Staffel 2 (2017/2018),PBC Reutlingen 3,Tübinger BC 3,8,10-Ball,Felix Fabry,Wahib Jaradat,1,5,4,4
+270881,04.02.2018,Kreisliga A Ost - Staffel 2 (2017/2018),BSV Filderstadt 7,Tübinger BC 3,1,14.1 endlos,Norbert Reges,Dominik Kant,60,10,5,3
+270881,04.02.2018,Kreisliga A Ost - Staffel 2 (2017/2018),BSV Filderstadt 7,Tübinger BC 3,2,8-Ball,Björn Marschner,Dietmar Karoli,2,5,5,3
+270881,04.02.2018,Kreisliga A Ost - Staffel 2 (2017/2018),BSV Filderstadt 7,Tübinger BC 3,3,9-Ball,Jörg Schabirosky,Wahib Jaradat,6,3,5,3
+270881,04.02.2018,Kreisliga A Ost - Staffel 2 (2017/2018),BSV Filderstadt 7,Tübinger BC 3,4,10-Ball,Dietmar Lübke,Jonas Entenmann,3,5,5,3
+270881,04.02.2018,Kreisliga A Ost - Staffel 2 (2017/2018),BSV Filderstadt 7,Tübinger BC 3,5,14.1 endlos,Jörg Schabirosky,Daniel Göricke,60,57,5,3
+270881,04.02.2018,Kreisliga A Ost - Staffel 2 (2017/2018),BSV Filderstadt 7,Tübinger BC 3,6,8-Ball,Dietmar Lübke,Wahib Jaradat,5,1,5,3
+270881,04.02.2018,Kreisliga A Ost - Staffel 2 (2017/2018),BSV Filderstadt 7,Tübinger BC 3,7,9-Ball,Norbert Reges,Jonas Entenmann,6,0,5,3
+270881,04.02.2018,Kreisliga A Ost - Staffel 2 (2017/2018),BSV Filderstadt 7,Tübinger BC 3,8,10-Ball,Björn Marschner,Dietmar Karoli,4,5,5,3
+270885,25.02.2018,Kreisliga A Ost - Staffel 2 (2017/2018),Tübinger BC 3,BSV Pfullingen 4,1,14.1 endlos,Dietmar Karoli,Joao Rodrigues,36,60,4,4
+270885,25.02.2018,Kreisliga A Ost - Staffel 2 (2017/2018),Tübinger BC 3,BSV Pfullingen 4,2,8-Ball,Dennis Göricke,Mike White,5,3,4,4
+270885,25.02.2018,Kreisliga A Ost - Staffel 2 (2017/2018),Tübinger BC 3,BSV Pfullingen 4,3,9-Ball,Jonas Entenmann,Andre Schwenzfeier,3,6,4,4
+270885,25.02.2018,Kreisliga A Ost - Staffel 2 (2017/2018),Tübinger BC 3,BSV Pfullingen 4,4,10-Ball,Dominik Kant,Peter Restle,1,5,4,4
+270885,25.02.2018,Kreisliga A Ost - Staffel 2 (2017/2018),Tübinger BC 3,BSV Pfullingen 4,5,14.1 endlos,Jonas Entenmann,Peter Restle,60,50,4,4
+270885,25.02.2018,Kreisliga A Ost - Staffel 2 (2017/2018),Tübinger BC 3,BSV Pfullingen 4,6,8-Ball,Dietmar Karoli,Andre Schwenzfeier,5,2,4,4
+270885,25.02.2018,Kreisliga A Ost - Staffel 2 (2017/2018),Tübinger BC 3,BSV Pfullingen 4,7,9-Ball,Wahib Jaradat,Joao Rodrigues,4,6,4,4
+270885,25.02.2018,Kreisliga A Ost - Staffel 2 (2017/2018),Tübinger BC 3,BSV Pfullingen 4,8,10-Ball,Dennis Göricke,Mike White,5,4,4,4
+270889,11.03.2018,Kreisliga A Ost - Staffel 2 (2017/2018),PBC Ochsenhausen 2,Tübinger BC 3,1,14.1 endlos,Frank Flach,Dietmar Karoli,57,60,3,5
+270889,11.03.2018,Kreisliga A Ost - Staffel 2 (2017/2018),PBC Ochsenhausen 2,Tübinger BC 3,2,8-Ball,Glen Corcoran,Dennis Göricke,2,5,3,5
+270889,11.03.2018,Kreisliga A Ost - Staffel 2 (2017/2018),PBC Ochsenhausen 2,Tübinger BC 3,3,9-Ball,Jörg Lingl,Freilos,0,0,3,5
+270889,11.03.2018,Kreisliga A Ost - Staffel 2 (2017/2018),PBC Ochsenhausen 2,Tübinger BC 3,4,10-Ball,Soydan Cetin,Jonas Entenmann,5,4,3,5
+270889,11.03.2018,Kreisliga A Ost - Staffel 2 (2017/2018),PBC Ochsenhausen 2,Tübinger BC 3,5,14.1 endlos,Jörg Lingl,Dennis Göricke,21,60,3,5
+270889,11.03.2018,Kreisliga A Ost - Staffel 2 (2017/2018),PBC Ochsenhausen 2,Tübinger BC 3,6,8-Ball,Frank Flach,Jonas Entenmann,2,5,3,5
+270889,11.03.2018,Kreisliga A Ost - Staffel 2 (2017/2018),PBC Ochsenhausen 2,Tübinger BC 3,7,9-Ball,Soydan Cetin,Dietmar Karoli,1,6,3,5
+270889,11.03.2018,Kreisliga A Ost - Staffel 2 (2017/2018),PBC Ochsenhausen 2,Tübinger BC 3,8,10-Ball,Glen Corcoran,Freilos,0,0,3,5
+270892,25.03.2018,Kreisliga A Ost - Staffel 2 (2017/2018),Tübinger BC 3,PBC Ochsenhausen 3,1,14.1 endlos,Dietmar Karoli,Nikolaus Blum,45,60,3,5
+270892,25.03.2018,Kreisliga A Ost - Staffel 2 (2017/2018),Tübinger BC 3,PBC Ochsenhausen 3,2,8-Ball,Goran Antunovic,Werner Schmidberger,5,4,3,5
+270892,25.03.2018,Kreisliga A Ost - Staffel 2 (2017/2018),Tübinger BC 3,PBC Ochsenhausen 3,3,9-Ball,Jonas Entenmann,Anton Schubert,4,6,3,5
+270892,25.03.2018,Kreisliga A Ost - Staffel 2 (2017/2018),Tübinger BC 3,PBC Ochsenhausen 3,4,10-Ball,Dennis Göricke,Lothar Ring,5,4,3,5
+270892,25.03.2018,Kreisliga A Ost - Staffel 2 (2017/2018),Tübinger BC 3,PBC Ochsenhausen 3,5,14.1 endlos,Dennis Göricke,Anton Schubert,37,60,3,5
+270892,25.03.2018,Kreisliga A Ost - Staffel 2 (2017/2018),Tübinger BC 3,PBC Ochsenhausen 3,6,8-Ball,Jonas Entenmann,Lothar Ring,4,5,3,5
+270892,25.03.2018,Kreisliga A Ost - Staffel 2 (2017/2018),Tübinger BC 3,PBC Ochsenhausen 3,7,9-Ball,Dietmar Karoli,Nikolaus Blum,6,3,3,5
+270892,25.03.2018,Kreisliga A Ost - Staffel 2 (2017/2018),Tübinger BC 3,PBC Ochsenhausen 3,8,10-Ball,Goran Antunovic,Werner Schmidberger,3,5,3,5
+270894,15.04.2018,Kreisliga A Ost - Staffel 2 (2017/2018),BF Bronnen 2,Tübinger BC 3,1,14.1 endlos,Erich Wohllaib,Dietmar Karoli,43,60,3,5
+270894,15.04.2018,Kreisliga A Ost - Staffel 2 (2017/2018),BF Bronnen 2,Tübinger BC 3,2,8-Ball,Wolfgang Flöter,Dennis Göricke,5,4,3,5
+270894,15.04.2018,Kreisliga A Ost - Staffel 2 (2017/2018),BF Bronnen 2,Tübinger BC 3,3,9-Ball,Tobias Schneider,Daniel Göricke,6,5,3,5
+270894,15.04.2018,Kreisliga A Ost - Staffel 2 (2017/2018),BF Bronnen 2,Tübinger BC 3,4,10-Ball,Stefan Neuß,Goran Antunovic,4,5,3,5
+270894,15.04.2018,Kreisliga A Ost - Staffel 2 (2017/2018),BF Bronnen 2,Tübinger BC 3,5,14.1 endlos,Wolfgang Flöter,Dennis Göricke,60,44,3,5
+270894,15.04.2018,Kreisliga A Ost - Staffel 2 (2017/2018),BF Bronnen 2,Tübinger BC 3,6,8-Ball,Erich Wohllaib,Goran Antunovic,3,5,3,5
+270894,15.04.2018,Kreisliga A Ost - Staffel 2 (2017/2018),BF Bronnen 2,Tübinger BC 3,7,9-Ball,Stefan Neuß,Dietmar Karoli,2,6,3,5
+270894,15.04.2018,Kreisliga A Ost - Staffel 2 (2017/2018),BF Bronnen 2,Tübinger BC 3,8,10-Ball,Tobias Schneider,Daniel Göricke,4,5,3,5
+270897,29.04.2018,Kreisliga A Ost - Staffel 2 (2017/2018),Tübinger BC 3,PBC Reutlingen 3,1,14.1 endlos,Dietmar Karoli,Bernhard Gneiting,60,50,7,1
+270897,29.04.2018,Kreisliga A Ost - Staffel 2 (2017/2018),Tübinger BC 3,PBC Reutlingen 3,2,8-Ball,Jonas Entenmann,Fabian Danner,5,4,7,1
+270897,29.04.2018,Kreisliga A Ost - Staffel 2 (2017/2018),Tübinger BC 3,PBC Reutlingen 3,3,9-Ball,Dominik Kant,Adrian Weller,6,2,7,1
+270897,29.04.2018,Kreisliga A Ost - Staffel 2 (2017/2018),Tübinger BC 3,PBC Reutlingen 3,4,10-Ball,Dennis Göricke,Felix Fabry,5,2,7,1
+270897,29.04.2018,Kreisliga A Ost - Staffel 2 (2017/2018),Tübinger BC 3,PBC Reutlingen 3,5,14.1 endlos,Dennis Göricke,Felix Fabry,60,45,7,1
+270897,29.04.2018,Kreisliga A Ost - Staffel 2 (2017/2018),Tübinger BC 3,PBC Reutlingen 3,6,8-Ball,Dominik Kant,Bernhard Gneiting,2,5,7,1
+270897,29.04.2018,Kreisliga A Ost - Staffel 2 (2017/2018),Tübinger BC 3,PBC Reutlingen 3,7,9-Ball,Dietmar Karoli,Fabian Danner,6,1,7,1
+270897,29.04.2018,Kreisliga A Ost - Staffel 2 (2017/2018),Tübinger BC 3,PBC Reutlingen 3,8,10-Ball,Jonas Entenmann,Adrian Weller,5,1,7,1
+270902,27.05.2018,Kreisliga A Ost - Staffel 2 (2017/2018),Tübinger BC 3,BSV Filderstadt 7,1,14.1 endlos,Dietmar Karoli,Norbert Reges,56,60,4,4
+270902,27.05.2018,Kreisliga A Ost - Staffel 2 (2017/2018),Tübinger BC 3,BSV Filderstadt 7,2,8-Ball,Goran Antunovic,Dietmar Lübke,2,5,4,4
+270902,27.05.2018,Kreisliga A Ost - Staffel 2 (2017/2018),Tübinger BC 3,BSV Filderstadt 7,3,9-Ball,Wahib Jaradat,Eicke Täufert,6,5,4,4
+270902,27.05.2018,Kreisliga A Ost - Staffel 2 (2017/2018),Tübinger BC 3,BSV Filderstadt 7,4,10-Ball,Jonas Entenmann,Björn Bester,3,5,4,4
+270902,27.05.2018,Kreisliga A Ost - Staffel 2 (2017/2018),Tübinger BC 3,BSV Filderstadt 7,5,14.1 endlos,Jonas Entenmann,Eicke Täufert,50,60,4,4
+270902,27.05.2018,Kreisliga A Ost - Staffel 2 (2017/2018),Tübinger BC 3,BSV Filderstadt 7,6,8-Ball,Dietmar Karoli,Björn Bester,5,4,4,4
+270902,27.05.2018,Kreisliga A Ost - Staffel 2 (2017/2018),Tübinger BC 3,BSV Filderstadt 7,7,9-Ball,Goran Antunovic,Jörg Schabirosky,6,0,4,4
+270902,27.05.2018,Kreisliga A Ost - Staffel 2 (2017/2018),Tübinger BC 3,BSV Filderstadt 7,8,10-Ball,Wahib Jaradat,Dietmar Lübke,5,4,4,4
+318256,15.09.2019,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC 2,Tübinger BC,1,14.1 endlos,Matthias Ludersdorfer,Dominik Kant,80,3,8,0
+318256,15.09.2019,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC 2,Tübinger BC,2,8-Ball,Uwe Cordes,Rüdiger Theis,5,0,8,0
+318256,15.09.2019,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC 2,Tübinger BC,3,9-Ball,Wadea Al Mahamid,Dennis Göricke,7,2,8,0
+318256,15.09.2019,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC 2,Tübinger BC,4,10-Ball,Konrad Bau,Christoph Jung,5,1,8,0
+318256,15.09.2019,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC 2,Tübinger BC,5,14.1 endlos,Wadea Al Mahamid,Christoph Jung,80,51,8,0
+318256,15.09.2019,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC 2,Tübinger BC,6,8-Ball,Konrad Bau,Dennis Göricke,5,1,8,0
+318256,15.09.2019,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC 2,Tübinger BC,7,9-Ball,Johannes Lange,Dominik Kant,7,4,8,0
+318256,15.09.2019,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC 2,Tübinger BC,8,10-Ball,Matthias Ludersdorfer,Rüdiger Theis,5,0,8,0
+318260,06.10.2019,Bezirksliga Ost - Staffel 1 (2019/2020),BSV Pfullingen 4,Tübinger BC 2,1,14.1 endlos,Michael Grad,Matthias Ludersdorfer,27,80,2,6
+318260,06.10.2019,Bezirksliga Ost - Staffel 1 (2019/2020),BSV Pfullingen 4,Tübinger BC 2,2,8-Ball,Randi Ramzi ya´da,Konrad Bau,4,5,2,6
+318260,06.10.2019,Bezirksliga Ost - Staffel 1 (2019/2020),BSV Pfullingen 4,Tübinger BC 2,3,9-Ball,Sebastian Oswald,Wadea Al Mahamid,6,7,2,6
+318260,06.10.2019,Bezirksliga Ost - Staffel 1 (2019/2020),BSV Pfullingen 4,Tübinger BC 2,4,10-Ball,Marco Bunke,Johannes Lange,5,3,2,6
+318260,06.10.2019,Bezirksliga Ost - Staffel 1 (2019/2020),BSV Pfullingen 4,Tübinger BC 2,5,14.1 endlos,Marco Bunke,Wadea Al Mahamid,52,80,2,6
+318260,06.10.2019,Bezirksliga Ost - Staffel 1 (2019/2020),BSV Pfullingen 4,Tübinger BC 2,6,8-Ball,Sebastian Oswald,Matthias Ludersdorfer,3,5,2,6
+318260,06.10.2019,Bezirksliga Ost - Staffel 1 (2019/2020),BSV Pfullingen 4,Tübinger BC 2,7,9-Ball,Randi Ramzi ya´da,Johannes Lange,7,0,2,6
+318260,06.10.2019,Bezirksliga Ost - Staffel 1 (2019/2020),BSV Pfullingen 4,Tübinger BC 2,8,10-Ball,Michael Grad,Konrad Bau,4,5,2,6
+318261,06.10.2019,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC,BSV Pfullingen 3,1,14.1 endlos,Goran Antunovic,Bernd Dorenburg,35,80,3,5
+318261,06.10.2019,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC,BSV Pfullingen 3,2,8-Ball,Dennis Göricke,Joao Rodrigues,5,3,3,5
+318261,06.10.2019,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC,BSV Pfullingen 3,3,9-Ball,Jonas Entenmann,Andre Schwenzfeier,7,6,3,5
+318261,06.10.2019,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC,BSV Pfullingen 3,4,10-Ball,Christoph Jung,Mike White,5,3,3,5
+318261,06.10.2019,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC,BSV Pfullingen 3,5,14.1 endlos,Rüdiger Theis,Joao Rodrigues,49,80,3,5
+318261,06.10.2019,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC,BSV Pfullingen 3,6,8-Ball,Jonas Entenmann,Andre Schwenzfeier,1,5,3,5
+318261,06.10.2019,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC,BSV Pfullingen 3,7,9-Ball,Christoph Jung,Mike White,2,7,3,5
+318261,06.10.2019,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC,BSV Pfullingen 3,8,10-Ball,Dennis Göricke,Bernd Dorenburg,0,5,3,5
+318264,27.10.2019,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC 2,BSV Pfullingen 3,1,14.1 endlos,Freilos,Freilos,0,0,0,0
+318264,27.10.2019,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC 2,BSV Pfullingen 3,2,8-Ball,Freilos,Freilos,0,0,0,0
+318264,27.10.2019,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC 2,BSV Pfullingen 3,3,9-Ball,Freilos,Freilos,0,0,0,0
+318264,27.10.2019,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC 2,BSV Pfullingen 3,4,10-Ball,Freilos,Freilos,0,0,0,0
+318264,27.10.2019,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC 2,BSV Pfullingen 3,5,14.1 endlos,Freilos,Freilos,0,0,0,0
+318264,27.10.2019,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC 2,BSV Pfullingen 3,6,8-Ball,Freilos,Freilos,0,0,0,0
+318264,27.10.2019,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC 2,BSV Pfullingen 3,7,9-Ball,Freilos,Freilos,0,0,0,0
+318264,27.10.2019,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC 2,BSV Pfullingen 3,8,10-Ball,Freilos,Freilos,0,0,0,0
+318265,27.10.2019,Bezirksliga Ost - Staffel 1 (2019/2020),BSV Pfullingen 4,Tübinger BC,1,14.1 endlos,Freilos,Freilos,0,0,0,0
+318265,27.10.2019,Bezirksliga Ost - Staffel 1 (2019/2020),BSV Pfullingen 4,Tübinger BC,2,8-Ball,Freilos,Freilos,0,0,0,0
+318265,27.10.2019,Bezirksliga Ost - Staffel 1 (2019/2020),BSV Pfullingen 4,Tübinger BC,3,9-Ball,Freilos,Freilos,0,0,0,0
+318265,27.10.2019,Bezirksliga Ost - Staffel 1 (2019/2020),BSV Pfullingen 4,Tübinger BC,4,10-Ball,Freilos,Freilos,0,0,0,0
+318265,27.10.2019,Bezirksliga Ost - Staffel 1 (2019/2020),BSV Pfullingen 4,Tübinger BC,5,14.1 endlos,Freilos,Freilos,0,0,0,0
+318265,27.10.2019,Bezirksliga Ost - Staffel 1 (2019/2020),BSV Pfullingen 4,Tübinger BC,6,8-Ball,Freilos,Freilos,0,0,0,0
+318265,27.10.2019,Bezirksliga Ost - Staffel 1 (2019/2020),BSV Pfullingen 4,Tübinger BC,7,9-Ball,Freilos,Freilos,0,0,0,0
+318265,27.10.2019,Bezirksliga Ost - Staffel 1 (2019/2020),BSV Pfullingen 4,Tübinger BC,8,10-Ball,Freilos,Freilos,0,0,0,0
+318268,17.11.2019,Bezirksliga Ost - Staffel 1 (2019/2020),PBC Reutlingen 2,Tübinger BC 2,1,14.1 endlos,Freilos,Freilos,0,0,0,0
+318268,17.11.2019,Bezirksliga Ost - Staffel 1 (2019/2020),PBC Reutlingen 2,Tübinger BC 2,2,8-Ball,Freilos,Freilos,0,0,0,0
+318268,17.11.2019,Bezirksliga Ost - Staffel 1 (2019/2020),PBC Reutlingen 2,Tübinger BC 2,3,9-Ball,Freilos,Freilos,0,0,0,0
+318268,17.11.2019,Bezirksliga Ost - Staffel 1 (2019/2020),PBC Reutlingen 2,Tübinger BC 2,4,10-Ball,Freilos,Freilos,0,0,0,0
+318268,17.11.2019,Bezirksliga Ost - Staffel 1 (2019/2020),PBC Reutlingen 2,Tübinger BC 2,5,14.1 endlos,Freilos,Freilos,0,0,0,0
+318268,17.11.2019,Bezirksliga Ost - Staffel 1 (2019/2020),PBC Reutlingen 2,Tübinger BC 2,6,8-Ball,Freilos,Freilos,0,0,0,0
+318268,17.11.2019,Bezirksliga Ost - Staffel 1 (2019/2020),PBC Reutlingen 2,Tübinger BC 2,7,9-Ball,Freilos,Freilos,0,0,0,0
+318268,17.11.2019,Bezirksliga Ost - Staffel 1 (2019/2020),PBC Reutlingen 2,Tübinger BC 2,8,10-Ball,Freilos,Freilos,0,0,0,0
+318269,17.11.2019,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC,BBC Plochingen,1,14.1 endlos,Freilos,Freilos,0,0,0,0
+318269,17.11.2019,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC,BBC Plochingen,2,8-Ball,Freilos,Freilos,0,0,0,0
+318269,17.11.2019,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC,BBC Plochingen,3,9-Ball,Freilos,Freilos,0,0,0,0
+318269,17.11.2019,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC,BBC Plochingen,4,10-Ball,Freilos,Freilos,0,0,0,0
+318269,17.11.2019,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC,BBC Plochingen,5,14.1 endlos,Freilos,Freilos,0,0,0,0
+318269,17.11.2019,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC,BBC Plochingen,6,8-Ball,Freilos,Freilos,0,0,0,0
+318269,17.11.2019,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC,BBC Plochingen,7,9-Ball,Freilos,Freilos,0,0,0,0
+318269,17.11.2019,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC,BBC Plochingen,8,10-Ball,Freilos,Freilos,0,0,0,0
+318272,24.11.2019,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC 2,BBC Plochingen,1,14.1 endlos,Freilos,Freilos,0,0,0,0
+318272,24.11.2019,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC 2,BBC Plochingen,2,8-Ball,Freilos,Freilos,0,0,0,0
+318272,24.11.2019,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC 2,BBC Plochingen,3,9-Ball,Freilos,Freilos,0,0,0,0
+318272,24.11.2019,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC 2,BBC Plochingen,4,10-Ball,Freilos,Freilos,0,0,0,0
+318272,24.11.2019,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC 2,BBC Plochingen,5,14.1 endlos,Freilos,Freilos,0,0,0,0
+318272,24.11.2019,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC 2,BBC Plochingen,6,8-Ball,Freilos,Freilos,0,0,0,0
+318272,24.11.2019,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC 2,BBC Plochingen,7,9-Ball,Freilos,Freilos,0,0,0,0
+318272,24.11.2019,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC 2,BBC Plochingen,8,10-Ball,Freilos,Freilos,0,0,0,0
+318273,24.11.2019,Bezirksliga Ost - Staffel 1 (2019/2020),PBC Reutlingen 2,Tübinger BC,1,14.1 endlos,Freilos,Freilos,0,0,0,0
+318273,24.11.2019,Bezirksliga Ost - Staffel 1 (2019/2020),PBC Reutlingen 2,Tübinger BC,2,8-Ball,Freilos,Freilos,0,0,0,0
+318273,24.11.2019,Bezirksliga Ost - Staffel 1 (2019/2020),PBC Reutlingen 2,Tübinger BC,3,9-Ball,Freilos,Freilos,0,0,0,0
+318273,24.11.2019,Bezirksliga Ost - Staffel 1 (2019/2020),PBC Reutlingen 2,Tübinger BC,4,10-Ball,Freilos,Freilos,0,0,0,0
+318273,24.11.2019,Bezirksliga Ost - Staffel 1 (2019/2020),PBC Reutlingen 2,Tübinger BC,5,14.1 endlos,Freilos,Freilos,0,0,0,0
+318273,24.11.2019,Bezirksliga Ost - Staffel 1 (2019/2020),PBC Reutlingen 2,Tübinger BC,6,8-Ball,Freilos,Freilos,0,0,0,0
+318273,24.11.2019,Bezirksliga Ost - Staffel 1 (2019/2020),PBC Reutlingen 2,Tübinger BC,7,9-Ball,Freilos,Freilos,0,0,0,0
+318273,24.11.2019,Bezirksliga Ost - Staffel 1 (2019/2020),PBC Reutlingen 2,Tübinger BC,8,10-Ball,Freilos,Freilos,0,0,0,0
+318276,12.01.2020,Bezirksliga Ost - Staffel 1 (2019/2020),BSC Göppingen 2,Tübinger BC 2,1,14.1 endlos,Silvestar Smokovic,Matthias Ludersdorfer,69,80,3,5
+318276,12.01.2020,Bezirksliga Ost - Staffel 1 (2019/2020),BSC Göppingen 2,Tübinger BC 2,2,8-Ball,Thomas  Haas,Wadea Al Mahamid,5,3,3,5
+318276,12.01.2020,Bezirksliga Ost - Staffel 1 (2019/2020),BSC Göppingen 2,Tübinger BC 2,3,9-Ball,Sebastiano Ratto,Simon Theodoropoulos,3,7,3,5
+318276,12.01.2020,Bezirksliga Ost - Staffel 1 (2019/2020),BSC Göppingen 2,Tübinger BC 2,4,10-Ball,Vincenzo Murano,Konrad Bau,5,2,3,5
+318276,12.01.2020,Bezirksliga Ost - Staffel 1 (2019/2020),BSC Göppingen 2,Tübinger BC 2,5,14.1 endlos,Sebastiano Ratto,Wadea Al Mahamid,52,80,3,5
+318276,12.01.2020,Bezirksliga Ost - Staffel 1 (2019/2020),BSC Göppingen 2,Tübinger BC 2,6,8-Ball,Vincenzo Murano,Konrad Bau,5,1,3,5
+318276,12.01.2020,Bezirksliga Ost - Staffel 1 (2019/2020),BSC Göppingen 2,Tübinger BC 2,7,9-Ball,Thomas  Haas,Matthias Ludersdorfer,0,7,3,5
+318276,12.01.2020,Bezirksliga Ost - Staffel 1 (2019/2020),BSC Göppingen 2,Tübinger BC 2,8,10-Ball,Silvestar Smokovic,Simon Theodoropoulos,4,5,3,5
+318277,12.01.2020,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC,BSV Filderstadt 4,1,14.1 endlos,Freilos,Freilos,0,0,0,0
+318277,12.01.2020,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC,BSV Filderstadt 4,2,8-Ball,Freilos,Freilos,0,0,0,0
+318277,12.01.2020,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC,BSV Filderstadt 4,3,9-Ball,Freilos,Freilos,0,0,0,0
+318277,12.01.2020,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC,BSV Filderstadt 4,4,10-Ball,Freilos,Freilos,0,0,0,0
+318277,12.01.2020,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC,BSV Filderstadt 4,5,14.1 endlos,Freilos,Freilos,0,0,0,0
+318277,12.01.2020,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC,BSV Filderstadt 4,6,8-Ball,Freilos,Freilos,0,0,0,0
+318277,12.01.2020,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC,BSV Filderstadt 4,7,9-Ball,Freilos,Freilos,0,0,0,0
+318277,12.01.2020,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC,BSV Filderstadt 4,8,10-Ball,Freilos,Freilos,0,0,0,0
+318280,26.01.2020,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC 2,BSV Filderstadt 4,1,14.1 endlos,Freilos,Freilos,0,0,0,0
+318280,26.01.2020,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC 2,BSV Filderstadt 4,2,8-Ball,Freilos,Freilos,0,0,0,0
+318280,26.01.2020,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC 2,BSV Filderstadt 4,3,9-Ball,Freilos,Freilos,0,0,0,0
+318280,26.01.2020,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC 2,BSV Filderstadt 4,4,10-Ball,Freilos,Freilos,0,0,0,0
+318280,26.01.2020,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC 2,BSV Filderstadt 4,5,14.1 endlos,Freilos,Freilos,0,0,0,0
+318280,26.01.2020,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC 2,BSV Filderstadt 4,6,8-Ball,Freilos,Freilos,0,0,0,0
+318280,26.01.2020,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC 2,BSV Filderstadt 4,7,9-Ball,Freilos,Freilos,0,0,0,0
+318280,26.01.2020,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC 2,BSV Filderstadt 4,8,10-Ball,Freilos,Freilos,0,0,0,0
+318281,26.01.2020,Bezirksliga Ost - Staffel 1 (2019/2020),BSC Göppingen 2,Tübinger BC,1,14.1 endlos,Freilos,Freilos,0,0,0,0
+318281,26.01.2020,Bezirksliga Ost - Staffel 1 (2019/2020),BSC Göppingen 2,Tübinger BC,2,8-Ball,Freilos,Freilos,0,0,0,0
+318281,26.01.2020,Bezirksliga Ost - Staffel 1 (2019/2020),BSC Göppingen 2,Tübinger BC,3,9-Ball,Freilos,Freilos,0,0,0,0
+318281,26.01.2020,Bezirksliga Ost - Staffel 1 (2019/2020),BSC Göppingen 2,Tübinger BC,4,10-Ball,Freilos,Freilos,0,0,0,0
+318281,26.01.2020,Bezirksliga Ost - Staffel 1 (2019/2020),BSC Göppingen 2,Tübinger BC,5,14.1 endlos,Freilos,Freilos,0,0,0,0
+318281,26.01.2020,Bezirksliga Ost - Staffel 1 (2019/2020),BSC Göppingen 2,Tübinger BC,6,8-Ball,Freilos,Freilos,0,0,0,0
+318281,26.01.2020,Bezirksliga Ost - Staffel 1 (2019/2020),BSC Göppingen 2,Tübinger BC,7,9-Ball,Freilos,Freilos,0,0,0,0
+318281,26.01.2020,Bezirksliga Ost - Staffel 1 (2019/2020),BSC Göppingen 2,Tübinger BC,8,10-Ball,Freilos,Freilos,0,0,0,0
+318284,09.02.2020,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC,Tübinger BC 2,1,14.1 endlos,Dennis Göricke,Matthias Ludersdorfer,21,80,2,6
+318284,09.02.2020,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC,Tübinger BC 2,2,8-Ball,Goran Antunovic,Wadea Al Mahamid,5,3,2,6
+318284,09.02.2020,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC,Tübinger BC 2,3,9-Ball,Christoph Jung,Uwe Cordes,7,3,2,6
+318284,09.02.2020,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC,Tübinger BC 2,4,10-Ball,Jonas Entenmann,Konrad Bau,2,5,2,6
+318284,09.02.2020,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC,Tübinger BC 2,5,14.1 endlos,Jonas Entenmann,Wadea Al Mahamid,59,80,2,6
+318284,09.02.2020,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC,Tübinger BC 2,6,8-Ball,Dennis Göricke,Konrad Bau,2,5,2,6
+318284,09.02.2020,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC,Tübinger BC 2,7,9-Ball,Goran Antunovic,Johannes Lange,6,7,2,6
+318284,09.02.2020,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC,Tübinger BC 2,8,10-Ball,Christoph Jung,Matthias Ludersdorfer,1,5,2,6
+318288,01.03.2020,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC 2,BSV Pfullingen 4,1,14.1 endlos,Matthias Ludersdorfer,Michael Martini,80,27,6,2
+318288,01.03.2020,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC 2,BSV Pfullingen 4,2,8-Ball,Konrad Bau,Marco Bunke,5,1,6,2
+318288,01.03.2020,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC 2,BSV Pfullingen 4,3,9-Ball,Johannes Lange,Michael Grad,0,7,6,2
+318288,01.03.2020,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC 2,BSV Pfullingen 4,4,10-Ball,Wadea Al Mahamid,Sebastian Oswald,5,3,6,2
+318288,01.03.2020,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC 2,BSV Pfullingen 4,5,14.1 endlos,Wadea Al Mahamid,Michael Grad,80,47,6,2
+318288,01.03.2020,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC 2,BSV Pfullingen 4,6,8-Ball,Johannes Lange,Sebastian Oswald,2,5,6,2
+318288,01.03.2020,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC 2,BSV Pfullingen 4,7,9-Ball,Konrad Bau,Marco Bunke,7,4,6,2
+318288,01.03.2020,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC 2,BSV Pfullingen 4,8,10-Ball,Matthias Ludersdorfer,Michael Martini,5,1,6,2
+318289,01.03.2020,Bezirksliga Ost - Staffel 1 (2019/2020),BSV Pfullingen 3,Tübinger BC,1,14.1 endlos,Freilos,Freilos,0,0,0,0
+318289,01.03.2020,Bezirksliga Ost - Staffel 1 (2019/2020),BSV Pfullingen 3,Tübinger BC,2,8-Ball,Freilos,Freilos,0,0,0,0
+318289,01.03.2020,Bezirksliga Ost - Staffel 1 (2019/2020),BSV Pfullingen 3,Tübinger BC,3,9-Ball,Freilos,Freilos,0,0,0,0
+318289,01.03.2020,Bezirksliga Ost - Staffel 1 (2019/2020),BSV Pfullingen 3,Tübinger BC,4,10-Ball,Freilos,Freilos,0,0,0,0
+318289,01.03.2020,Bezirksliga Ost - Staffel 1 (2019/2020),BSV Pfullingen 3,Tübinger BC,5,14.1 endlos,Freilos,Freilos,0,0,0,0
+318289,01.03.2020,Bezirksliga Ost - Staffel 1 (2019/2020),BSV Pfullingen 3,Tübinger BC,6,8-Ball,Freilos,Freilos,0,0,0,0
+318289,01.03.2020,Bezirksliga Ost - Staffel 1 (2019/2020),BSV Pfullingen 3,Tübinger BC,7,9-Ball,Freilos,Freilos,0,0,0,0
+318289,01.03.2020,Bezirksliga Ost - Staffel 1 (2019/2020),BSV Pfullingen 3,Tübinger BC,8,10-Ball,Freilos,Freilos,0,0,0,0
+318292,15.03.2020,Bezirksliga Ost - Staffel 1 (2019/2020),BSV Pfullingen 3,Tübinger BC 2,1,14.1 endlos,Freilos,Freilos,0,0,0,0
+318292,15.03.2020,Bezirksliga Ost - Staffel 1 (2019/2020),BSV Pfullingen 3,Tübinger BC 2,2,8-Ball,Freilos,Freilos,0,0,0,0
+318292,15.03.2020,Bezirksliga Ost - Staffel 1 (2019/2020),BSV Pfullingen 3,Tübinger BC 2,3,9-Ball,Freilos,Freilos,0,0,0,0
+318292,15.03.2020,Bezirksliga Ost - Staffel 1 (2019/2020),BSV Pfullingen 3,Tübinger BC 2,4,10-Ball,Freilos,Freilos,0,0,0,0
+318292,15.03.2020,Bezirksliga Ost - Staffel 1 (2019/2020),BSV Pfullingen 3,Tübinger BC 2,5,14.1 endlos,Freilos,Freilos,0,0,0,0
+318292,15.03.2020,Bezirksliga Ost - Staffel 1 (2019/2020),BSV Pfullingen 3,Tübinger BC 2,6,8-Ball,Freilos,Freilos,0,0,0,0
+318292,15.03.2020,Bezirksliga Ost - Staffel 1 (2019/2020),BSV Pfullingen 3,Tübinger BC 2,7,9-Ball,Freilos,Freilos,0,0,0,0
+318292,15.03.2020,Bezirksliga Ost - Staffel 1 (2019/2020),BSV Pfullingen 3,Tübinger BC 2,8,10-Ball,Freilos,Freilos,0,0,0,0
+318293,15.03.2020,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC,BSV Pfullingen 4,1,14.1 endlos,Freilos,Freilos,0,0,0,0
+318293,15.03.2020,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC,BSV Pfullingen 4,2,8-Ball,Freilos,Freilos,0,0,0,0
+318293,15.03.2020,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC,BSV Pfullingen 4,3,9-Ball,Freilos,Freilos,0,0,0,0
+318293,15.03.2020,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC,BSV Pfullingen 4,4,10-Ball,Freilos,Freilos,0,0,0,0
+318293,15.03.2020,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC,BSV Pfullingen 4,5,14.1 endlos,Freilos,Freilos,0,0,0,0
+318293,15.03.2020,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC,BSV Pfullingen 4,6,8-Ball,Freilos,Freilos,0,0,0,0
+318293,15.03.2020,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC,BSV Pfullingen 4,7,9-Ball,Freilos,Freilos,0,0,0,0
+318293,15.03.2020,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC,BSV Pfullingen 4,8,10-Ball,Freilos,Freilos,0,0,0,0
+318296,29.03.2020,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC 2,PBC Reutlingen 2,1,14.1 endlos,Freilos,Freilos,0,0,0,0
+318296,29.03.2020,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC 2,PBC Reutlingen 2,2,8-Ball,Freilos,Freilos,0,0,0,0
+318296,29.03.2020,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC 2,PBC Reutlingen 2,3,9-Ball,Freilos,Freilos,0,0,0,0
+318296,29.03.2020,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC 2,PBC Reutlingen 2,4,10-Ball,Freilos,Freilos,0,0,0,0
+318296,29.03.2020,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC 2,PBC Reutlingen 2,5,14.1 endlos,Freilos,Freilos,0,0,0,0
+318296,29.03.2020,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC 2,PBC Reutlingen 2,6,8-Ball,Freilos,Freilos,0,0,0,0
+318296,29.03.2020,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC 2,PBC Reutlingen 2,7,9-Ball,Freilos,Freilos,0,0,0,0
+318296,29.03.2020,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC 2,PBC Reutlingen 2,8,10-Ball,Freilos,Freilos,0,0,0,0
+318297,29.03.2020,Bezirksliga Ost - Staffel 1 (2019/2020),BBC Plochingen,Tübinger BC,1,14.1 endlos,Freilos,Freilos,0,0,0,0
+318297,29.03.2020,Bezirksliga Ost - Staffel 1 (2019/2020),BBC Plochingen,Tübinger BC,2,8-Ball,Freilos,Freilos,0,0,0,0
+318297,29.03.2020,Bezirksliga Ost - Staffel 1 (2019/2020),BBC Plochingen,Tübinger BC,3,9-Ball,Freilos,Freilos,0,0,0,0
+318297,29.03.2020,Bezirksliga Ost - Staffel 1 (2019/2020),BBC Plochingen,Tübinger BC,4,10-Ball,Freilos,Freilos,0,0,0,0
+318297,29.03.2020,Bezirksliga Ost - Staffel 1 (2019/2020),BBC Plochingen,Tübinger BC,5,14.1 endlos,Freilos,Freilos,0,0,0,0
+318297,29.03.2020,Bezirksliga Ost - Staffel 1 (2019/2020),BBC Plochingen,Tübinger BC,6,8-Ball,Freilos,Freilos,0,0,0,0
+318297,29.03.2020,Bezirksliga Ost - Staffel 1 (2019/2020),BBC Plochingen,Tübinger BC,7,9-Ball,Freilos,Freilos,0,0,0,0
+318297,29.03.2020,Bezirksliga Ost - Staffel 1 (2019/2020),BBC Plochingen,Tübinger BC,8,10-Ball,Freilos,Freilos,0,0,0,0
+318300,19.04.2020,Bezirksliga Ost - Staffel 1 (2019/2020),BBC Plochingen,Tübinger BC 2,1,14.1 endlos,Freilos,Freilos,0,0,0,0
+318300,19.04.2020,Bezirksliga Ost - Staffel 1 (2019/2020),BBC Plochingen,Tübinger BC 2,2,8-Ball,Freilos,Freilos,0,0,0,0
+318300,19.04.2020,Bezirksliga Ost - Staffel 1 (2019/2020),BBC Plochingen,Tübinger BC 2,3,9-Ball,Freilos,Freilos,0,0,0,0
+318300,19.04.2020,Bezirksliga Ost - Staffel 1 (2019/2020),BBC Plochingen,Tübinger BC 2,4,10-Ball,Freilos,Freilos,0,0,0,0
+318300,19.04.2020,Bezirksliga Ost - Staffel 1 (2019/2020),BBC Plochingen,Tübinger BC 2,5,14.1 endlos,Freilos,Freilos,0,0,0,0
+318300,19.04.2020,Bezirksliga Ost - Staffel 1 (2019/2020),BBC Plochingen,Tübinger BC 2,6,8-Ball,Freilos,Freilos,0,0,0,0
+318300,19.04.2020,Bezirksliga Ost - Staffel 1 (2019/2020),BBC Plochingen,Tübinger BC 2,7,9-Ball,Freilos,Freilos,0,0,0,0
+318300,19.04.2020,Bezirksliga Ost - Staffel 1 (2019/2020),BBC Plochingen,Tübinger BC 2,8,10-Ball,Freilos,Freilos,0,0,0,0
+318301,19.04.2020,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC,PBC Reutlingen 2,1,14.1 endlos,Freilos,Freilos,0,0,0,0
+318301,19.04.2020,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC,PBC Reutlingen 2,2,8-Ball,Freilos,Freilos,0,0,0,0
+318301,19.04.2020,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC,PBC Reutlingen 2,3,9-Ball,Freilos,Freilos,0,0,0,0
+318301,19.04.2020,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC,PBC Reutlingen 2,4,10-Ball,Freilos,Freilos,0,0,0,0
+318301,19.04.2020,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC,PBC Reutlingen 2,5,14.1 endlos,Freilos,Freilos,0,0,0,0
+318301,19.04.2020,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC,PBC Reutlingen 2,6,8-Ball,Freilos,Freilos,0,0,0,0
+318301,19.04.2020,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC,PBC Reutlingen 2,7,9-Ball,Freilos,Freilos,0,0,0,0
+318301,19.04.2020,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC,PBC Reutlingen 2,8,10-Ball,Freilos,Freilos,0,0,0,0
+318304,03.05.2020,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC 2,BSC Göppingen 2,1,14.1 endlos,Freilos,Freilos,0,0,0,0
+318304,03.05.2020,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC 2,BSC Göppingen 2,2,8-Ball,Freilos,Freilos,0,0,0,0
+318304,03.05.2020,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC 2,BSC Göppingen 2,3,9-Ball,Freilos,Freilos,0,0,0,0
+318304,03.05.2020,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC 2,BSC Göppingen 2,4,10-Ball,Freilos,Freilos,0,0,0,0
+318304,03.05.2020,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC 2,BSC Göppingen 2,5,14.1 endlos,Freilos,Freilos,0,0,0,0
+318304,03.05.2020,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC 2,BSC Göppingen 2,6,8-Ball,Freilos,Freilos,0,0,0,0
+318304,03.05.2020,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC 2,BSC Göppingen 2,7,9-Ball,Freilos,Freilos,0,0,0,0
+318304,03.05.2020,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC 2,BSC Göppingen 2,8,10-Ball,Freilos,Freilos,0,0,0,0
+318305,03.05.2020,Bezirksliga Ost - Staffel 1 (2019/2020),BSV Filderstadt 4,Tübinger BC,1,14.1 endlos,Freilos,Freilos,0,0,0,0
+318305,03.05.2020,Bezirksliga Ost - Staffel 1 (2019/2020),BSV Filderstadt 4,Tübinger BC,2,8-Ball,Freilos,Freilos,0,0,0,0
+318305,03.05.2020,Bezirksliga Ost - Staffel 1 (2019/2020),BSV Filderstadt 4,Tübinger BC,3,9-Ball,Freilos,Freilos,0,0,0,0
+318305,03.05.2020,Bezirksliga Ost - Staffel 1 (2019/2020),BSV Filderstadt 4,Tübinger BC,4,10-Ball,Freilos,Freilos,0,0,0,0
+318305,03.05.2020,Bezirksliga Ost - Staffel 1 (2019/2020),BSV Filderstadt 4,Tübinger BC,5,14.1 endlos,Freilos,Freilos,0,0,0,0
+318305,03.05.2020,Bezirksliga Ost - Staffel 1 (2019/2020),BSV Filderstadt 4,Tübinger BC,6,8-Ball,Freilos,Freilos,0,0,0,0
+318305,03.05.2020,Bezirksliga Ost - Staffel 1 (2019/2020),BSV Filderstadt 4,Tübinger BC,7,9-Ball,Freilos,Freilos,0,0,0,0
+318305,03.05.2020,Bezirksliga Ost - Staffel 1 (2019/2020),BSV Filderstadt 4,Tübinger BC,8,10-Ball,Freilos,Freilos,0,0,0,0
+318308,17.05.2020,Bezirksliga Ost - Staffel 1 (2019/2020),BSV Filderstadt 4,Tübinger BC 2,1,14.1 endlos,Freilos,Freilos,0,0,0,0
+318308,17.05.2020,Bezirksliga Ost - Staffel 1 (2019/2020),BSV Filderstadt 4,Tübinger BC 2,2,8-Ball,Freilos,Freilos,0,0,0,0
+318308,17.05.2020,Bezirksliga Ost - Staffel 1 (2019/2020),BSV Filderstadt 4,Tübinger BC 2,3,9-Ball,Freilos,Freilos,0,0,0,0
+318308,17.05.2020,Bezirksliga Ost - Staffel 1 (2019/2020),BSV Filderstadt 4,Tübinger BC 2,4,10-Ball,Freilos,Freilos,0,0,0,0
+318308,17.05.2020,Bezirksliga Ost - Staffel 1 (2019/2020),BSV Filderstadt 4,Tübinger BC 2,5,14.1 endlos,Freilos,Freilos,0,0,0,0
+318308,17.05.2020,Bezirksliga Ost - Staffel 1 (2019/2020),BSV Filderstadt 4,Tübinger BC 2,6,8-Ball,Freilos,Freilos,0,0,0,0
+318308,17.05.2020,Bezirksliga Ost - Staffel 1 (2019/2020),BSV Filderstadt 4,Tübinger BC 2,7,9-Ball,Freilos,Freilos,0,0,0,0
+318308,17.05.2020,Bezirksliga Ost - Staffel 1 (2019/2020),BSV Filderstadt 4,Tübinger BC 2,8,10-Ball,Freilos,Freilos,0,0,0,0
+318309,17.05.2020,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC,BSC Göppingen 2,1,14.1 endlos,Freilos,Freilos,0,0,0,0
+318309,17.05.2020,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC,BSC Göppingen 2,2,8-Ball,Freilos,Freilos,0,0,0,0
+318309,17.05.2020,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC,BSC Göppingen 2,3,9-Ball,Freilos,Freilos,0,0,0,0
+318309,17.05.2020,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC,BSC Göppingen 2,4,10-Ball,Freilos,Freilos,0,0,0,0
+318309,17.05.2020,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC,BSC Göppingen 2,5,14.1 endlos,Freilos,Freilos,0,0,0,0
+318309,17.05.2020,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC,BSC Göppingen 2,6,8-Ball,Freilos,Freilos,0,0,0,0
+318309,17.05.2020,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC,BSC Göppingen 2,7,9-Ball,Freilos,Freilos,0,0,0,0
+318309,17.05.2020,Bezirksliga Ost - Staffel 1 (2019/2020),Tübinger BC,BSC Göppingen 2,8,10-Ball,Freilos,Freilos,0,0,0,0

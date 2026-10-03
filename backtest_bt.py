@@ -19,7 +19,7 @@ from datetime import datetime
 from pathlib import Path
 
 from bt_elo import fit_joint_bt
-from elo import collect, load_games, outcomes, parse_match_date, time_weight
+from elo import collect, load_games, outcomes, parse_match_date, time_weight, _row_weight
 
 TEST_SEASONS = ("2023/2024", "2024/2025", "2025/2026")
 
@@ -35,7 +35,7 @@ def weighted(played, half_life_years: float):
     as_of = max(game_date(row) for _w, _l, row in played)
     days = half_life_years * 365.25
     return [
-        (w, l, row, 1.0 if half_life_years <= 0 else time_weight(game_date(row), as_of, days))
+        (w, l, row, (1.0 if half_life_years <= 0 else time_weight(game_date(row), as_of, days)) * _row_weight(row))
         for w, l, row in played
     ]
 

@@ -1,0 +1,738 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+            "https://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<title>BillardArea: Vereine & Mitglieder</title>
+<meta name="description" content="Deutschlandweites Billardportal - Billardsport in einer neuen Dimension: News und Artikel, Spielbetrieb, Lokalsuche und Community für Pool Billard, Snooker, Karambol und Kegel">
+<link rel="stylesheet" type="text/css" href="/css/frontend_final.css">
+<link rel="stylesheet" type="text/css" href="/css/jquery.lightbox-0.5.css">
+<link rel="stylesheet" type="text/css" href="/css/colorpicker/layout.css">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+<meta content="107551009272344" property="fb:page_id">
+
+<script type="text/javascript" src="/js/jquery.js"></script>
+<script type="text/javascript" src="/js/jquery-ui-1.7.1.custom.min.js"></script>
+<script type="text/javascript" src="/js/rot13.js"></script>
+<script type="text/javascript" src="/js/swfobject.js"></script>
+<script type="text/javascript" src="/js/jquery.tablesorter.js"></script>
+<script type="text/javascript" src="/js/jquery.lightbox-0.5.js"></script>
+
+    <!-- Cookie Meldung -->
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+    <script>
+        window.addEventListener("load", function(){
+            window.cookieconsent.initialise({
+                "palette": {
+                    "popup": {
+                        "background": "#ffffff"
+                    },
+                    "button": {
+                        "background": "#d99214"
+                    }
+                },
+                "theme": "edgeless",
+                "position": "bottom-left",
+                "content": {
+                    "message": "Die Seite billardarea.de verwendet Cookies, um Ihnen den bestmöglichen Service auf dieser Seite zu gewährleisten. Weitere Informationen erhalten Sie in unserer Datenschutzerklärung.",
+                    "dismiss": "OK",
+                    "link": "Weiterlesen",
+                    "href": "https://portal.billardarea.de/content/datenschutz"
+                }
+            })});
+    </script>
+
+<link rel="stylesheet" type="text/css" href="/css/cms/clients/3/styles.css" >
+<link rel="stylesheet" type="text/css" href="/css/cms/clients/3/nav_styles_1.css" >
+
+
+<!--[if lte IE 7]>
+<link href="css/patches/patch.css" rel="stylesheet" type="text/css" >
+<script type="text/javascript" src="/js/ie7.js"></script><![endif]-->
+
+
+
+<script type="text/javascript"><!--
+
+var hex=0;
+function MM_swapImgRestore()
+ { //v3.0
+  var i,x,a = document.MM_sr;
+  for(i=0; a && i < a.length && (x = a[i]) && x.oSrc; ++i)
+   {
+    x.src = x.oSrc;
+   }
+ }
+
+ function MM_findObj(n, d)
+ { //v3.0
+  var p,i,x;
+  if (!d)
+   {
+    d = document;
+   }
+  if ((p = n.indexOf("?")) > 0 && parent.frames.length)
+   {
+    d = parent.frames[n.substring(p+1)].document;
+    n = n.substring(0,p);
+   }
+  if (!(x = d[n]) && d.all)
+   {
+    x = d.all[n];
+   }
+  for (i=0; !x && i < d.forms.length; ++i)
+   {
+    x = d.forms[i][n];
+   }
+  for (i=0; !x && d.layers && i < d.layers.length; ++i)
+   {
+    x = MM_findObj(n,d.layers[i].document);
+   }
+  return(x);
+}
+
+
+function MM_swapImage()
+ { //v3.0
+  var i,j=0,x,a = MM_swapImage.arguments;
+  document.MM_sr = new Array;
+
+  for(i=0; i < (a.length-2); i += 3)
+   {
+    if ((x = MM_findObj(a[i])) != null)
+     {
+      document.MM_sr[j++] = x;
+      if (!x.oSrc)
+        x.oSrc = x.src;
+      x.src = a[i+2];
+     }
+   }
+ }
+
+
+
+$(document).ready(function() {
+	$(function() {
+		$('#gallery a').lightBox();
+		$('a.lightbox').lightBox();
+	});
+});
+
+--></script>
+
+
+
+
+</head>
+
+<body class="text">
+<style>
+#fb-banner {
+position: fixed;
+right: 0px;
+top: 35%;
+opacity: 0.8;
+transition: opacity 0.3s ease;
+}
+#fb-banner:hover {
+opacity: 1;
+}
+</style>
+<div id="fb-banner">
+<a href="https://www.facebook.com/billardarea" target="_blank"><img src="/img/fb_banner.png"></a>
+</div>
+
+
+	<!-- Wallpaper oben -->
+	<div id="page">&nbsp;
+    <div id="ad2"><!-- Wallpaper rechts -->
+    </div>
+	<div id="logoarea">
+
+    <div id="logoarea_left" style="width:795px">
+    <a href="https://portal.billardarea.de"><img src="/img/logo.png" width="307" height="73" alt="BillardArea - Deutschlandweites Billardportal" id="logo" border="0"></a>
+  <a href="https://www.germantour.net/touch-presseagentur/2019/dm/index.asp" target="_blank" style="float:right"><img src="/img/dm_header.jpg" style="margin-top:0px" height="130"></a>
+    </div><div id="logoarea_right"> <div class="logo_image"></div>
+    </div>
+    </div>
+
+	<div id="main">
+    
+
+    <div id="ebene1">
+	
+	<ul id="nav_ebene1">
+   	<li class="inaktiv  first" id="das-billardportal"><a href="/frontend">Das Billardportal</a></li><li class="aktiv " id="der-spielbetrieb"><a href="/cms_leagues">Der Spielbetrieb</a></li><li class="inaktiv " id="billard-verband-baden-württemberg"><a href="/content">Billard-Verband Baden-Württemberg</a></li><li class="inaktiv  last" id="meine-billardarea"><a href="http://admin.billardarea.de">Meine Billardarea</a></li>    </ul>
+	    </div>
+    <div id="ebene2">
+    	<ul id="nav_ebene2">
+   	<li class="inaktiv  first" id="mannschaft"><a href="/cms_leagues">Mannschaft</a></li><li class="inaktiv " id="einzel"><a href="/cms_single">Einzel</a></li><li class="aktiv " id="vereine--mitglieder"><a href="/cms_clubs">Vereine &amp; Mitglieder</a></li><li class="inaktiv " id="kalender"><a href="/cms_calendar">Kalender</a></li><li class="inaktiv " id="auswertungen"><a href="/cms_evaluations">Auswertungen</a></li>    </ul>
+
+
+    </div>
+    <div id="ebene3">
+    <!-- <div id="breadcrumb">Sie befinden sich hier: <a href="/cms_leagues">Der Spielbetrieb</a>	&raquo; <a href="/cms_clubs">Vereine & Mitglieder</a>        	</div> -->       </div><img src="/img/cms/tabunten.jpg" width="795" height="6" alt="Tab unten" border="0" style="padding:0px"><div id="maininner" style="width:795px">
+<br>    
+<div style="width:790px;text-align:center">
+<!--<a href="https://www.epresia.de/?ref=billardarea" target="_blank"><img src="/img/superbanner_breit.gif" alt="epresia.de - Finde jetzt passende Geschenkes"></a>-->
+
+
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-0068043095147503";
+
+google_ad_slot = "7353751266";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>
+<br>
+
+
+<br>
+
+<script type="text/javascript">  
+$(document).ready(function() {
+	//$('#tabs-style').tabs(); 
+	$('#tabs').tabs();
+})
+</script>
+
+<script type="text/javascript">  
+//$(function() {
+//	 $("#players").tablesorter();
+ //    });
+ </script>
+<div id="content"><img src="/img/cms/taboben_right.jpg" width="499" height="6" alt="Tab unten" border="0"><div id="left_area_inner">    <h4 style="background-image:url('/img/cms/headers/einzelansicht-verein-1-pool-billard-club-bad-saulgau-evh4.png');">Vereine & Mitglieder</h4><a href="/cms_clubs"><img src="/img/cms/buttons/dynamic/zurueck_aktiv.png" border="0" style="float:right;margin-top:10px"/></a>
+    <div class="clearfloat"></div>
+			<div id="tabs" style="margin-top:10px;" >
+            <!-- Tab Navigation --> 
+			<ul>
+				<li><a href="#tabs-1">Daten</a></li>
+				<li><a href="#tabs-2">Vorstände</a></li>
+				<li><a href="#tabs-3">Mitglieder</a></li>
+				<li><a href="#tabs-4">Teams</a></li>
+				<li><a href="#tabs-5">Ranglisten</a></li>
+				<li><a href="#tabs-6">Turniere</a></li>
+			</ul>
+            <!-- /Tab Navigation --> 
+            
+            
+                   
+            <!-- Tab 1 -->            
+			<div id="tabs-1" >   
+<div class="left">
+	<fieldset>
+		<legend>Vereinsname</legend>
+		<div class="element">1. Pool-Billard-Club Bad Saulgau e.V.</div>
+	</fieldset>
+		<fieldset>
+		<legend>Kurzform</legend>
+		<div class="element">PBC Bad Saulgau</div>
+	</fieldset>	<fieldset>
+		<legend>Vereinsanschrift</legend>
+		<div class="element">1. Pool-Billard-Club Bad Saulgau e.V.<br />Koppelweg 103<br />88348 Bad Saulgau <br /></div>
+	</fieldset>
+	<fieldset>
+		<legend>Homepage</legend>
+				<div class="element"><a href="http://" target="_blank">http://</a></div>
+	</fieldset>
+	<fieldset>
+		<legend>Email</legend>
+		<div class="element">
+		<script type="text/javascript">Rot13.write('<n uers="znvygb:ovyyneq@cop-onq-fnhytnh.qr">ovyyneq@cop-onq-fnhytnh.qr</n>');</script><noscript><span style="unicode-bidi:bidi-override;direction:rtl;">< ed.uagluas-dab-cbp@drallib > ed.uagluas-dab-cbp@drallib</span></noscript>		</div>
+	</fieldset></div><div class="right">
+	<fieldset>
+		<legend>Status</legend>
+		<div class="element">aktiv</div>
+	</fieldset>
+	<fieldset>
+		<legend>Gründungsjahr</legend>
+		<div class="element">1991</div>
+	</fieldset>
+	<fieldset>
+		<legend>DBU-Eintrittsjahr</legend>
+		<div class="element">1991</div>
+	</fieldset></div>
+    <div class="clearfloat">
+	<fieldset>
+		<legend>Mitgliedsbeitrag</legend>
+		<div class="element"><pre>15 Euro pro Monat (aktives Mitglied)</pre></div>
+	</fieldset></div>
+	
+	
+	
+	<fieldset>		
+		<legend>Bild</legend>
+		<div>
+			<div align="center"><img src="/img/bms/uploads/clubs/tn/tn_300_300_9355579141169395815.jpg" alt="" ></div>
+		</div>
+	</fieldset>
+
+</div><div id="tabs-2" >		<fieldset>
+		<legend>1.Vorstand</legend>
+        <div style="float:left;margin:15px;">	<img src="/img/cms/no_picture.png" alt="Kein Bild vorhanden" style="height:76px;width:60px;"></div>
+		 <div class="element" style="margin-top:15px;"><label>Verantwortlicher</label> <div class="field"><a href="/cms_clubs/playerdetails/2411/353736">Dario Dakovic</a></div></div>
+         <div class="element"><label>Aufgaben</label> <div class="field">-	</div></div>
+		<div> 
+		</div>
+	</fieldset>
+		<fieldset>
+		<legend>2.Vorstand</legend>
+        <div style="float:left;margin:15px;">	<img src="/img/cms/no_picture.png" alt="Kein Bild vorhanden" style="height:76px;width:60px;"></div>
+		 <div class="element" style="margin-top:15px;"><label>Verantwortlicher</label> <div class="field"><a href="/cms_clubs/playerdetails/2411/252672">Hartmut Jäggle</a></div></div>
+         <div class="element"><label>Aufgaben</label> <div class="field">-	</div></div>
+		<div> 
+		</div>
+	</fieldset>
+		<fieldset>
+		<legend>Kassier</legend>
+        <div style="float:left;margin:15px;">	<img src="/img/cms/no_picture.png" alt="Kein Bild vorhanden" style="height:76px;width:60px;"></div>
+		 <div class="element" style="margin-top:15px;"><label>Verantwortlicher</label> <div class="field"><a href="/cms_clubs/playerdetails/2411/101095">Oliver Fechter</a></div></div>
+         <div class="element"><label>Aufgaben</label> <div class="field">-	</div></div>
+		<div> 
+		</div>
+	</fieldset>
+		<fieldset>
+		<legend>Sportwart</legend>
+        <div style="float:left;margin:15px;">	<img src="/img/cms/no_picture.png" alt="Kein Bild vorhanden" style="height:76px;width:60px;"></div>
+		 <div class="element" style="margin-top:15px;"><label>Verantwortlicher</label> <div class="field"><a href="/cms_clubs/playerdetails/2411/228904">Tobias Hirt</a></div></div>
+         <div class="element"><label>Aufgaben</label> <div class="field">-	</div></div>
+		<div> 
+		</div>
+	</fieldset>
+	</div>
+    
+    
+    
+<div id="tabs-3" >
+<div class="changeseason"><form method="post" action="/cms_clubs/details/2411"><fieldset style="display:none;"><input type="hidden" name="_method" value="POST" /></fieldset><input type="hidden" name="data[Season][check]" value="87gdsjk8734tkfdl" id="SeasonCheck" /><div class="input select"><label for="SeasonSeasonId">Wählen Sie eine Saison</label><select name="data[Season][season_id]" onchange="this.form.submit();" id="SeasonSeasonId">
+<option value="12" selected="selected">2020/2021</option>
+<option value="11">2019/2020</option>
+<option value="10">2018/2019</option>
+<option value="9">2017/2018</option>
+<option value="8">2016/2017</option>
+<option value="7">2015/2016</option>
+<option value="6">2014/2015</option>
+<option value="5">2013/2014</option>
+<option value="4">2012/2013</option>
+<option value="3">2011/2012</option>
+<option value="2">2010/2011</option>
+<option value="1">2009/2010</option>
+</select></div></form></div><div class="clearfloat"></div><table id="clubs_table" class="tablesorter">
+<thead><tr>
+<th>Name</th>
+<th>Profillink</th></tr>
+</thead>
+<tbody>
+	<tr>
+	
+	
+		<td>
+		Abt, Tobias		</td>
+		<td>
+			<a href="/cms_clubs/playerdetails/2411/355824">Details</a>		</td>
+	</tr>
+	<tr>
+	
+	
+		<td>
+		Akinci, Erdal		</td>
+		<td>
+			<a href="/cms_clubs/playerdetails/2411/100039">Details</a>		</td>
+	</tr>
+	<tr>
+	
+	
+		<td>
+		Akinci, Umut		</td>
+		<td>
+			<a href="/cms_clubs/playerdetails/2411/253468">Details</a>		</td>
+	</tr>
+	<tr>
+	
+	
+		<td>
+		Aschenbrenner, Manuel		</td>
+		<td>
+			<a href="/cms_clubs/playerdetails/2411/353844">Details</a>		</td>
+	</tr>
+	<tr>
+	
+	
+		<td>
+		Auer, Steffen		</td>
+		<td>
+			<a href="/cms_clubs/playerdetails/2411/242806">Details</a>		</td>
+	</tr>
+	<tr>
+	
+	
+		<td>
+		Baur, Alexander		</td>
+		<td>
+			<a href="/cms_clubs/playerdetails/2411/100243">Details</a>		</td>
+	</tr>
+	<tr>
+	
+	
+		<td>
+		Bruggesser, Aaron		</td>
+		<td>
+			<a href="/cms_clubs/playerdetails/2411/351225">Details</a>		</td>
+	</tr>
+	<tr>
+	
+	
+		<td>
+		Bruggesser, Joachim		</td>
+		<td>
+			<a href="/cms_clubs/playerdetails/2411/351227">Details</a>		</td>
+	</tr>
+	<tr>
+	
+	
+		<td>
+		Butscher, Thomas		</td>
+		<td>
+			<a href="/cms_clubs/playerdetails/2411/245601">Details</a>		</td>
+	</tr>
+	<tr>
+	
+	
+		<td>
+		Dakovic, Dario		</td>
+		<td>
+			<a href="/cms_clubs/playerdetails/2411/353736">Details</a>		</td>
+	</tr>
+	<tr>
+	
+	
+		<td>
+		Fölker, Rudi		</td>
+		<td>
+			<a href="/cms_clubs/playerdetails/2411/245485">Details</a>		</td>
+	</tr>
+	<tr>
+	
+	
+		<td>
+		Haberkorn, Dieter		</td>
+		<td>
+			<a href="/cms_clubs/playerdetails/2411/101588">Details</a>		</td>
+	</tr>
+	<tr>
+	
+	
+		<td>
+		Hirt, Tobias		</td>
+		<td>
+			<a href="/cms_clubs/playerdetails/2411/228904">Details</a>		</td>
+	</tr>
+	<tr>
+	
+	
+		<td>
+		Hops, Rainer		</td>
+		<td>
+			<a href="/cms_clubs/playerdetails/2411/101984">Details</a>		</td>
+	</tr>
+	<tr>
+	
+	
+		<td>
+		Jäggle, Hartmut		</td>
+		<td>
+			<a href="/cms_clubs/playerdetails/2411/252672">Details</a>		</td>
+	</tr>
+	<tr>
+	
+	
+		<td>
+		König, Markus		</td>
+		<td>
+			<a href="/cms_clubs/playerdetails/2411/102497">Details</a>		</td>
+	</tr>
+	<tr>
+	
+	
+		<td>
+		Laurano, Michelangelo		</td>
+		<td>
+			<a href="/cms_clubs/playerdetails/2411/102746">Details</a>		</td>
+	</tr>
+	<tr>
+	
+	
+		<td>
+		Lepir, Sascha		</td>
+		<td>
+			<a href="/cms_clubs/playerdetails/2411/353342">Details</a>		</td>
+	</tr>
+	<tr>
+	
+	
+		<td>
+		Löhle, Max		</td>
+		<td>
+			<a href="/cms_clubs/playerdetails/2411/351228">Details</a>		</td>
+	</tr>
+	<tr>
+	
+	
+		<td>
+		Memeyagi, Damir		</td>
+		<td>
+			<a href="/cms_clubs/playerdetails/2411/355243">Details</a>		</td>
+	</tr>
+	<tr>
+	
+	
+		<td>
+		Meschenmoser, Franz		</td>
+		<td>
+			<a href="/cms_clubs/playerdetails/2411/103094">Details</a>		</td>
+	</tr>
+	<tr>
+	
+	
+		<td>
+		Metzler, Thomas		</td>
+		<td>
+			<a href="/cms_clubs/playerdetails/2411/103112">Details</a>		</td>
+	</tr>
+	<tr>
+	
+	
+		<td>
+		Neglein, Fabian		</td>
+		<td>
+			<a href="/cms_clubs/playerdetails/2411/103306">Details</a>		</td>
+	</tr>
+	<tr>
+	
+	
+		<td>
+		Nyffeler, Sascha		</td>
+		<td>
+			<a href="/cms_clubs/playerdetails/2411/228632">Details</a>		</td>
+	</tr>
+	<tr>
+	
+	
+		<td>
+		Oreskovic, Donald		</td>
+		<td>
+			<a href="/cms_clubs/playerdetails/2411/351258">Details</a>		</td>
+	</tr>
+	<tr>
+	
+	
+		<td>
+		Rasoli, Arman		</td>
+		<td>
+			<a href="/cms_clubs/playerdetails/2411/253515">Details</a>		</td>
+	</tr>
+	<tr>
+	
+	
+		<td>
+		Restner, Joachim		</td>
+		<td>
+			<a href="/cms_clubs/playerdetails/2411/251854">Details</a>		</td>
+	</tr>
+	<tr>
+	
+	
+		<td>
+		Steinhauer, Andrew		</td>
+		<td>
+			<a href="/cms_clubs/playerdetails/2411/354666">Details</a>		</td>
+	</tr>
+	<tr>
+	
+	
+		<td>
+		Stier, Florian		</td>
+		<td>
+			<a href="/cms_clubs/playerdetails/2411/104494">Details</a>		</td>
+	</tr>
+	<tr>
+	
+	
+		<td>
+		Weber, Jan		</td>
+		<td>
+			<a href="/cms_clubs/playerdetails/2411/246408">Details</a>		</td>
+	</tr>
+	<tr>
+	
+	
+		<td>
+		Weiß, Rudolf		</td>
+		<td>
+			<a href="/cms_clubs/playerdetails/2411/240041">Details</a>		</td>
+	</tr>
+	<tr>
+	
+	
+		<td>
+		Zobrekis, Klaus		</td>
+		<td>
+			<a href="/cms_clubs/playerdetails/2411/105241">Details</a>		</td>
+	</tr>
+</tbody>
+</table>
+
+</div>
+<div id="tabs-4" >  
+<div class="changeseason"><form method="post" action="/cms_clubs/details/2411"><fieldset style="display:none;"><input type="hidden" name="_method" value="POST" /></fieldset><input type="hidden" name="data[Season][check]" value="87gdsjk8734tkfdl" id="SeasonCheck" /><div class="input select"><label for="SeasonSeasonId">Wählen Sie eine Saison</label><select name="data[Season][season_id]" onchange="this.form.submit();" id="SeasonSeasonId">
+<option value="12" selected="selected">2020/2021</option>
+<option value="11">2019/2020</option>
+<option value="10">2018/2019</option>
+<option value="9">2017/2018</option>
+<option value="8">2016/2017</option>
+<option value="7">2015/2016</option>
+<option value="6">2014/2015</option>
+<option value="5">2013/2014</option>
+<option value="4">2012/2013</option>
+<option value="3">2011/2012</option>
+<option value="2">2010/2011</option>
+<option value="1">2009/2010</option>
+</select></div></form></div><div class="clearfloat"></div><!--<a href="../teamsets/2411"><img src="/img/cms/buttons/dynamic/einsaetze_inaktiv.png" border="0" style="float:right;margin-top:10px;margin-right:5px;"/></a>-->
+
+<table id="clubs_table2" class="tablesorter">
+<thead><tr>
+<th>Wettbewerb</th>
+<th>Mannschaftsname</th>
+<th>Details</th></tr>
+</thead>
+<tbody>
+	<tr>
+		<td>
+			Kombi-Mannschaft		</td>
+		<td>
+			PBC Bad Saulgau 3		</td>
+		<td>
+			<a href="/cms_clubs/teamdetails/2411/48815">Details</a>		</td>
+	</tr>
+	<tr>
+		<td>
+			Kombi-Mannschaft		</td>
+		<td>
+			PBC Bad Saulgau 4		</td>
+		<td>
+			<a href="/cms_clubs/teamdetails/2411/48867">Details</a>		</td>
+	</tr>
+	<tr>
+		<td>
+			Kombi-Mannschaft		</td>
+		<td>
+			PBC Bad Saulgau 5		</td>
+		<td>
+			<a href="/cms_clubs/teamdetails/2411/48866">Details</a>		</td>
+	</tr>
+	<tr>
+		<td>
+			Kombi-Mannschaft		</td>
+		<td>
+			PBC Bad Saulgau 7		</td>
+		<td>
+			<a href="/cms_clubs/teamdetails/2411/48929">Details</a>		</td>
+	</tr>
+</tbody>
+</table>
+<a href="../teampass/2411"><img src="/img/cms/buttons/dynamic/mannschaftspass_inaktiv.png" border="0" style="float:right;margin-top:10px"/></a> <br /><br /><br />
+<a href="../teamsets/2411"><img src="/img/cms/buttons/dynamic/einsaetze_inaktiv.png" border="0" style="float:right;margin-top:10px"/></a> <br /><br /><br />
+<a href="../hostdates/2411"><img src="/img/cms/buttons/dynamic/heimspieltage_inaktiv.png" border="0" style="float:right;margin-top:10px"/></a><br /><br /><br /><br /><br /><br /> 
+</div>
+
+<div id="tabs-5">
+<div class="changeseason"><form method="post" action="/cms_clubs/details/2411"><fieldset style="display:none;"><input type="hidden" name="_method" value="POST" /></fieldset><input type="hidden" name="data[Season][check]" value="87gdsjk8734tkfdl" id="SeasonCheck" /><div class="input select"><label for="SeasonSeasonId">Wählen Sie eine Saison</label><select name="data[Season][season_id]" onchange="this.form.submit();" id="SeasonSeasonId">
+<option value="12" selected="selected">2020/2021</option>
+<option value="11">2019/2020</option>
+<option value="10">2018/2019</option>
+<option value="9">2017/2018</option>
+<option value="8">2016/2017</option>
+<option value="7">2015/2016</option>
+<option value="6">2014/2015</option>
+<option value="5">2013/2014</option>
+<option value="4">2012/2013</option>
+<option value="3">2011/2012</option>
+<option value="2">2010/2011</option>
+<option value="1">2009/2010</option>
+</select></div></form></div><div class="clearfloat"></div><form id="BranchAddForm" method="post" action="/cms_clubs/details/2411"><fieldset style="display:none;"><input type="hidden" name="_method" value="POST" /></fieldset><div class="input select"><label for="BranchDisciplineId">Disziplin wählen</label><select name="data[Branch][discipline_id]" onchange="this.form.submit();" id="BranchDisciplineId">
+<option value="0" selected="selected">Bitte wählen</option>
+</select></div></form></div>
+
+<div id="tabs-6">
+<table class="tablesorter">
+	<thead>
+	<tr>
+		<th>Bezeichnung</th>
+		<th>Datum</th>
+		<th></th>
+	</tr>
+	</thead>
+	<tbody>
+		</tbody>
+</table>
+
+</div>
+
+</div>
+<br /></div>
+
+
+<img src="/img/cms/tabunten_right.jpg" width="499" height="6" alt="Tab unten" border="0"></div>
+<div id="right_area"><img src="/img/cms/taboben_right2.jpg" width="289" height="6" alt="Tab unten" border="0"><div id="right_area_inner"><h5 style="background-image:url('/img/cms/headers/spiellokale-des-vereinsh5.png');">Spiellokale des Vereins</h5><table class="line_bg"><tr><td>
+<div class="fieldset" align="center">    <script type="text/javascript">
+		window.onDomReady = DomReady;
+		function DomReady(func) { 
+		if(document.addEventListener) { 
+		document.addEventListener("DOMContentLoaded", func, false); } else { 
+		document.onreadystatechange = function() { readyState(func) } } }
+		function readyState(func) { if(
+		document.readyState == "complete") { func(); } }
+	</script>
+<script src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAAKXchJgzAaKVhht2RsXW33hRfN9NldWDO3VeYCBcQR4JW32fSTxS-ruWzE77ceOLLNJKdHNjqqLPOkw" type="text/javascript"></script> 
+<fieldset>
+		<legend>Spiellokale</legend>
+				
+                <br /><br /><div> Billard Akademie Bad Saulgau<br /><a href="/cms_pubs/show/3924">Weitere Informationen aufrufen</a></div>
+        			</fieldset></div></td></tr></table>
+    
+
+<br /></div><img src="/img/cms/tabunten_right2.jpg" width="289" height="6" alt="Tab unten" border="0"></div><div class="clearfloat"></div>
+
+
+	</div><div class="clearfloat"></div></div>
+
+
+</div><div class="clearfloat"></div><div id="footerlinks"><div id="footerlinks_inner"><a href="https://portal.billardarea.de/content/datenschutz" title="Datenschutz">Datenschutz</a> - <a href="https://portal.billardarea.de/content/impressum" title="Impressum">Impressum</a><br>
+</div></div>
+
+<!-- JavaScript Includes -->
+<script type="text/javascript">
+$(document).ready(function() {
+	$( "#tabs" ).bind( "tabsshow", function(event, ui) {
+		var id = $(this).attr('id');
+		var $tabs = $('#'+id).tabs();
+		var selected = $tabs.tabs('option', 'selected');
+		var url = "cms_clubs___2Fdetails___2F2411";
+		$.ajax({url: "/session/active_tab/url:"+url+"/selected:"+selected+"/id:"+id});
+	});
+});
+$(document).ready(function() {
+	});
+</script>
+<!-- cms/default -->
+<script type="text/javascript" src="https://reporting.exudev.de/tracking.js.php?df=1&tc1=UA-2214945-6&tc2=UA-2214945-9"></script>
+<!-- End of JavaScript Includes -->
+
+<a href="https://plus.google.com/104343624092678514347" rel="publisher"></a>
+</body>
+</html>
