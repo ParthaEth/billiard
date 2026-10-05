@@ -18,8 +18,9 @@ error, one standard deviation. Both come from the curvature of the fit.
 
 Older games count less. Weight halves every three years, measured back
 from the newest match in the file, which is the same decay FargoRate uses.
-Adding an older season therefore moves current ratings less than adding
-a recent one.
+The one virtual draw against 1500 is dated on each player's last match and
+ages on that same clock. After a player stops, the rating stays where the
+results left it and the error bar grows.
 """
 
 from __future__ import annotations
@@ -50,6 +51,24 @@ class PlayerRecord:
     leagues: set[str] = field(default_factory=set)
     staffeln: set[str] = field(default_factory=set)
     opponents: list[tuple[str, float, float]] = field(default_factory=list)
+    last_played: datetime | None = None
+    open_result: bool = False
+
+
+def scale_offset(path: Path | None = None) -> float:
+    """Frozen shift from fitted Elo to the published scale.
+
+    The fit still uses a ghost at 1500. This constant was measured once,
+    when the higher BW leagues were added, and is not recomputed.
+    """
+    path = path or Path(__file__).with_name("scale.cfg")
+    parser = configparser.ConfigParser()
+    if not parser.read(path, encoding="utf-8"):
+        return 0.0
+    try:
+        return float(parser["scale"]["offset"])
+    except (KeyError, ValueError):
+        return 0.0
 
 
 def expected_score(rating: float, opponent: float, scale: float = SCALE) -> float:
@@ -312,6 +331,24 @@ def time_weight(when: datetime | None, as_of: datetime, half_life_days: float) -
     return 0.5 ** (age_days / half_life_days)
 
 
+def ghost_weight(
+    record: PlayerRecord,
+    prior_games: float,
+    as_of: datetime | None,
+    half_life_years: float,
+) -> float:
+    """Virtual draw against 1500, played on the player's last match day.
+
+    It then ages with the same half-life as a real result. An undated result
+    counts as current, so the draw stays at full weight too.
+    """
+    if prior_games <= 0:
+        return 0.0
+    if record.open_result or as_of is None or half_life_years <= 0:
+        return prior_games
+    return prior_games * time_weight(record.last_played, as_of, half_life_years * 365.25)
+
+
 def assign_weights(
     played: list[tuple[str, str, dict[str, str]]],
     half_life_years: float,
@@ -385,11 +422,16 @@ def collect(played: list[Game]) -> dict[str, PlayerRecord]:
     players: dict[str, PlayerRecord] = defaultdict(PlayerRecord)
     for winner, loser, row, weight in played:
         share = winner_share(row)
+        when = parse_match_date(row.get("match_date", ""))
         for name, won in ((winner, True), (loser, False)):
             record = players[name]
             record.games += 1
             record.wins += int(won)
             record.weighted_games += weight
+            if when is None:
+                record.open_result = True
+            elif record.last_played is None or when > record.last_played:
+                record.last_played = when
             if name == row["home_player"].strip():
                 record.teams.add(row["home_team"].strip())
                 if row.get("home_pass"):
@@ -438,12 +480,15 @@ def fit_elo(
     scale: float = SCALE,
     max_iter: int = 300,
     tol: float = 0.01,
+    as_of: datetime | None = None,
+    half_life_years: float = 0.0,
 ) -> dict[str, float]:
     """Newton updates until expected score share matches the score taken.
 
-    `prior_games` is a fractional draw against `prior_rating`. It keeps an
-    undefeated player with one or two games from running off to infinity,
-    which is what unregularized Elo does on this league graph.
+    `prior_games` is a fractional draw against `prior_rating`, dated on each
+    player's last match. It keeps an undefeated player with one or two games
+    from running off to infinity, which is what unregularized Elo does on
+    this league graph. Once those matches age, the draw ages with them.
     """
     rating = {name: prior_rating for name in players}
     slope = LN10 / scale
@@ -453,14 +498,15 @@ def fit_elo(
             current = rating[name]
             gradient = 0.0
             curvature = 0.0
+            draw = ghost_weight(record, prior_games, as_of, half_life_years)
             for opponent, outcome, weight in record.opponents:
                 chance = expected_score(current, rating[opponent], scale)
                 gradient += weight * (outcome - chance) * slope
                 curvature += weight * chance * (1.0 - chance) * slope * slope
-            if prior_games > 0:
+            if draw > 0:
                 chance = expected_score(current, prior_rating, scale)
-                gradient += prior_games * (0.5 - chance) * slope
-                curvature += prior_games * chance * (1.0 - chance) * slope * slope
+                gradient += draw * (0.5 - chance) * slope
+                curvature += draw * chance * (1.0 - chance) * slope * slope
             if curvature <= 1e-12:
                 continue
             step = gradient / curvature
@@ -492,17 +538,20 @@ def rating_se(
     prior_rating: float,
     prior_games: float,
     scale: float,
+    as_of: datetime | None = None,
+    half_life_years: float = 0.0,
 ) -> float:
     """One standard deviation for this player's rating at the fitted point."""
     slope = LN10 / scale
     current = rating[name]
     curvature = 0.0
+    draw = ghost_weight(record, prior_games, as_of, half_life_years)
     for opponent, _outcome, weight in record.opponents:
         chance = expected_score(current, rating[opponent], scale)
         curvature += weight * chance * (1.0 - chance) * slope * slope
-    if prior_games > 0:
+    if draw > 0:
         chance = expected_score(current, prior_rating, scale)
-        curvature += prior_games * chance * (1.0 - chance) * slope * slope
+        curvature += draw * chance * (1.0 - chance) * slope * slope
     if curvature <= 1e-12:
         return float("inf")
     return 1.0 / math.sqrt(curvature)
@@ -516,13 +565,16 @@ def calibration_rows(
     *,
     prior_rating: float,
     prior_games: float,
+    as_of: datetime | None = None,
+    half_life_years: float = 0.0,
+    offset: float = 0.0,
 ) -> list[dict[str, str]]:
     rows: list[dict[str, str]] = []
     for name, record in players.items():
         expected = player_expected(name, record, rating, scale)
         weighted_wins = sum(weight * outcome for _opponent, outcome, weight in record.opponents)
         residual = weighted_wins - expected
-        elo = rating[name]
+        elo = rating[name] + offset
         se = rating_se(
             name,
             record,
@@ -530,6 +582,8 @@ def calibration_rows(
             prior_rating=prior_rating,
             prior_games=prior_games,
             scale=scale,
+            as_of=as_of,
+            half_life_years=half_life_years,
         )
         rows.append(
             {
@@ -629,12 +683,52 @@ def is_tbc_team(team_field: str) -> bool:
     return False
 
 
-def tbc_markdown(rows: list[dict[str, str]]) -> str:
-    """Markdown table of the overall rating for every Tübinger BC player."""
-    club = [row for row in rows if row["scope"] == "all" and is_tbc_team(row["team"])]
+def season_of(when: datetime) -> str:
+    """BVBW season. September opens the new year."""
+    if when.month >= 9:
+        return f"{when.year}/{when.year + 1}"
+    return f"{when.year - 1}/{when.year}"
+
+
+def recent_seasons(as_of: datetime, count: int = 2) -> list[str]:
+    """The season of `as_of` and the ones just before it, oldest first."""
+    current = season_of(as_of)
+    year = int(current.split("/", 1)[0])
+    return [f"{year - i}/{year - i + 1}" for i in range(count - 1, -1, -1)]
+
+
+def active_tbc_players(rows: list[dict[str, str]], seasons: set[str]) -> set[str]:
+    """Tübinger BC players with a game in one of `seasons`.
+
+    Club membership is a seat on a Tübinger BC team. A championship game has
+    no team, so a recent Einzel result still counts once the player has
+    represented the club.
+    """
+    members: set[str] = set()
+    played: set[str] = set()
+    for row in rows:
+        season = (row.get("season") or "").strip()
+        for side in ("home", "away"):
+            name = (row.get(f"{side}_player") or "").strip()
+            if not name:
+                continue
+            team = (row.get(f"{side}_team") or "").strip()
+            if is_tbc_team(team):
+                members.add(name)
+            if season in seasons:
+                played.add(name)
+    return members & played
+
+
+def tbc_markdown(rows: list[dict[str, str]], active: set[str], seasons: list[str]) -> str:
+    """Markdown table of active Tübinger BC players, highest Elo first."""
+    club = [row for row in rows if row["scope"] == "all" and row["player"] in active]
     club.sort(key=lambda row: (-int(row["elo"]), row["player"]))
+    window = " and ".join(seasons)
     lines = [
         "## Tübinger BC",
+        "",
+        f"Players with a game in {window}.",
         "",
         "| Elo | ± | 95% | W-L | Games | Player |",
         "|---:|---:|---|---:|---:|---|",
@@ -645,7 +739,7 @@ def tbc_markdown(rows: list[dict[str, str]]) -> str:
             f"| {row['elo']} | {row['elo_se']} | {row['elo_low']}–{row['elo_high']} | "
             f"{row['wins']}-{row['losses']} | {row['games']} | {player} |"
         )
-    if len(lines) == 4:
+    if len(lines) == 6:
         lines.append("| | | | | | |")
     return "\n".join(lines)
 
@@ -673,6 +767,8 @@ def run(args: argparse.Namespace) -> None:
             prior_rating=args.prior_rating,
             prior_games=args.prior_games,
             scale=args.scale,
+            as_of=as_of,
+            half_life_years=args.half_life_years,
         )
         fitted[scope] = rating
         all_rows.extend(
@@ -683,6 +779,9 @@ def run(args: argparse.Namespace) -> None:
                 args.scale,
                 prior_rating=args.prior_rating,
                 prior_games=args.prior_games,
+                as_of=as_of,
+                half_life_years=args.half_life_years,
+                offset=scale_offset(),
             )
         )
 
@@ -702,7 +801,9 @@ def run(args: argparse.Namespace) -> None:
         print(
             f"Ratings as of {as_of:%d.%m.%Y}. "
             f"A game loses half its weight every {args.half_life_years:g} years "
-            f"(oldest game in this file counts as {oldest_weight:.0%})."
+            f"(oldest game in this file counts as {oldest_weight:.0%}). "
+            f"The virtual draw ages from each player's last match. "
+            f"Published ratings add the frozen offset of {scale_offset():+.2f}."
         )
     print(
         "Mean |score share − expected share| on all games: "
@@ -729,7 +830,9 @@ def run(args: argparse.Namespace) -> None:
             continue
         print(f"{label:>8}  {count:6.0f}  {observed:8.2f}")
     tbc_path = Path(__file__).resolve().parent / "tbc players.md"
-    tbc_path.write_text(tbc_markdown(all_rows) + "\n", encoding="utf-8")
+    seasons = recent_seasons(as_of) if as_of is not None else recent_seasons(datetime.now())
+    active = active_tbc_players(source, set(seasons))
+    tbc_path.write_text(tbc_markdown(all_rows, active, seasons) + "\n", encoding="utf-8")
     print(f"\nWrote {tbc_path.name}")
 
 
@@ -759,7 +862,7 @@ def parse_args() -> argparse.Namespace:
         "--half-life-years",
         type=float,
         default=HALF_LIFE_YEARS,
-        help="Age at which a game keeps half its weight. 0 disables decay (default: 3)",
+        help="Age at which a game, and the virtual draw, keep half their weight. 0 disables decay (default: 3)",
     )
     parser.add_argument(
         "--top",

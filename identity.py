@@ -32,6 +32,7 @@ import urllib.error
 import urllib.request
 from collections import Counter, defaultdict
 from concurrent.futures import ThreadPoolExecutor, as_completed
+from datetime import datetime
 from pathlib import Path
 from urllib.parse import urljoin
 
@@ -46,14 +47,17 @@ GAMES_PATH = DATA / "games.csv"
 BASE = "https://billard-bvbw.de/"
 UA = "billiard-identity/1.0 (club rating research)"
 CTX = ssl.create_default_context()
-SEASONS = (
-    "2021/2022",
-    "2022/2023",
-    "2023/2024",
-    "2024/2025",
-    "2025/2026",
-    "2026/2027",
-)
+FIRST_SEASON_YEAR = 2021
+
+
+def live_seasons(today: datetime | None = None) -> tuple[str, ...]:
+    """2021/2022 through the season containing today. September opens a season."""
+    today = today or datetime.now()
+    last = today.year if today.month >= 9 else today.year - 1
+    return tuple(f"{year}/{year + 1}" for year in range(FIRST_SEASON_YEAR, last + 1))
+
+
+SEASONS = live_seasons()
 
 ROSTER_FIELDS = (
     "season",
@@ -74,6 +78,9 @@ TRAILING_TEAM_NO = re.compile(r"\s+\d+$")
 
 _RATE_LOCK = threading.Lock()
 _NEXT_REQUEST = 0.0
+# Squad pages of a running season gain players, so these seasons bypass the cache once per run.
+_REFRESH_SEASONS: frozenset[str] = frozenset()
+_REFRESHED: set[str] = set()
 
 
 def norm_name(name: str) -> str:
@@ -113,8 +120,10 @@ def _rate_limit() -> None:
 
 def fetch(url: str, retries: int = 4) -> str:
     dest = _cache_path(url)
-    if dest.exists() and dest.stat().st_size > 1000:
+    stale = url not in _REFRESHED and any(season in url for season in _REFRESH_SEASONS)
+    if not stale and dest.exists() and dest.stat().st_size > 1000:
         return dest.read_text(encoding="utf-8", errors="replace")
+    _REFRESHED.add(url)
     dest.parent.mkdir(parents=True, exist_ok=True)
     last_error: Exception | None = None
     for attempt in range(retries):
@@ -132,6 +141,8 @@ def fetch(url: str, retries: int = 4) -> str:
             last_error = exc
             time.sleep(1.5 * (attempt + 1))
     print(f"  fetch failed {url} ({last_error})")
+    if dest.exists() and dest.stat().st_size > 1000:
+        return dest.read_text(encoding="utf-8", errors="replace")
     return ""
 
 
@@ -573,7 +584,12 @@ def write_identity(people: dict[str, dict], labels: dict[str, str], path: Path) 
         writer.writerows(records)
 
 
-def cmd_fetch() -> None:
+def cmd_fetch(refresh: tuple[str, ...] = ()) -> None:
+    """Download squads for every live season. Pages of ``refresh`` seasons are fetched anew."""
+    global _REFRESH_SEASONS
+    _REFRESH_SEASONS = frozenset(refresh)
+    if refresh:
+        print(f"Re-downloading squad pages for {', '.join(refresh)}")
     roster: list[dict[str, str]] = []
     team_keys_found: set[str] = set()
     for season in SEASONS:

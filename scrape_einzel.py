@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+import csv
 import random
 import re
 import time
@@ -34,6 +35,9 @@ STATS_RE = re.compile(
     re.I,
 )
 NAME_SUFFIX_RE = re.compile(r"\s*\((?:Gewinner|Verlierer)\s+Partie\s*\d+\)", re.I)
+DATE_RE = re.compile(r"(\d{2}\.\d{2}\.\d{4})")
+CLOCK_RE = re.compile(r"(\d{2}:\d{2})")
+ZERO_DATE_RE = re.compile(r"^00\.00\.00")
 DEFAULT_SEASONS = (
     "2026/2027",
     "2025/2026",
@@ -91,6 +95,51 @@ def list_tournaments(html: str) -> list[tuple[str, str]]:
     return found
 
 
+def blank_date(text: str) -> bool:
+    """True when the results page left the planned time empty or zero."""
+    text = (text or "").strip()
+    return not text or ZERO_DATE_RE.match(text) is not None
+
+
+def tournament_when(soup: BeautifulSoup) -> tuple[str, str]:
+    """Start date and clock from the tournament header, not the match row.
+
+    The per-game Planzeit is often ``00.00.0000``. The header still says
+    ``Datum 09.10.2022 - 09.10.2022`` and when play started.
+    """
+    heading = soup.select_one("h6")
+    if heading is None:
+        return "", ""
+    texts: list[str] = []
+    for element in heading.next_elements:
+        if getattr(element, "name", None) == "table":
+            break
+        if isinstance(element, str):
+            text = element.strip()
+            if text:
+                texts.append(text)
+    date = ""
+    clock = ""
+    seen_datum = False
+    for text in texts:
+        if text == "Datum":
+            seen_datum = True
+            continue
+        if not seen_datum:
+            continue
+        if not date:
+            found = DATE_RE.search(text)
+            if found:
+                date = found.group(1)
+        if "Spielbeginn" in text:
+            found_clock = CLOCK_RE.search(text)
+            if found_clock:
+                clock = found_clock.group(1)
+        if date and text == "Location":
+            break
+    return date, clock
+
+
 def parse_results(
     html: str,
     season: str,
@@ -103,6 +152,7 @@ def parse_results(
     if title is not None and title.get_text(strip=True):
         tournament = title.get_text(strip=True)
         discipline = discipline or discipline_from_name(tournament)
+    event_date, event_time = tournament_when(soup)
 
     rows: list[dict[str, str]] = []
     for table in soup.find_all("table"):
@@ -134,6 +184,12 @@ def parse_results(
             winner_side = _winner_side(home_points, away_points)
             winner, loser = _winner_loser_names(home_player, away_player, winner_side)
             termin = tds[4].get_text("\n", strip=True).splitlines()
+            match_date = termin[0].strip() if termin else ""
+            match_time = termin[1].strip() if len(termin) > 1 else ""
+            if blank_date(match_date):
+                match_date = event_date
+                if blank_date(match_time) or match_time.startswith("00:00"):
+                    match_time = f"{event_time} Uhr" if event_time else ""
             report_url = f"{results_url}#{current_round}-{partie}"
             stats = _pair_stats(home_raw, away_raw, score)
             rows.append(
@@ -142,8 +198,8 @@ def parse_results(
                     "league": "Einzel",
                     "staffel": tournament,
                     "spieltag": partie,
-                    "match_date": termin[0].strip() if termin else "",
-                    "match_time": termin[1].strip() if len(termin) > 1 else "",
+                    "match_date": match_date,
+                    "match_time": match_time,
                     "home_team": "",
                     "away_team": "",
                     "match_score": score,
@@ -249,6 +305,62 @@ def scrape_seasons(
     print(f"Finished. Added {saved} individual games -> {csv_path}")
 
 
+def repair_dates(csv_path: Path, min_wait: float, max_wait: float) -> None:
+    """Fill Einzel rows whose Planzeit is empty or 00.00.0000 from the tournament header."""
+    with csv_path.open(encoding="utf-8-sig", newline="") as handle:
+        reader = csv.DictReader(handle)
+        fieldnames = list(reader.fieldnames or [])
+        rows = list(reader)
+    if not fieldnames:
+        raise SystemExit(f"No header in {csv_path}")
+
+    pending: dict[str, list[int]] = {}
+    for index, row in enumerate(rows):
+        if row.get("league") != "Einzel" or not blank_date(row.get("match_date", "")):
+            continue
+        url = (row.get("report_url") or "").split("#", 1)[0]
+        if url:
+            pending.setdefault(url, []).append(index)
+
+    games = sum(len(indexes) for indexes in pending.values())
+    print(f"{games} games across {len(pending)} tournaments")
+    filled = 0
+    missed = 0
+    for number, (url, indexes) in enumerate(pending.items(), start=1):
+        try:
+            html = fetch(url)
+        except urllib.error.URLError as exc:
+            print(f"  skip {url}: {exc}")
+            missed += len(indexes)
+            wait(min_wait, max_wait)
+            continue
+        soup = BeautifulSoup(html, "lxml")
+        event_date, event_time = tournament_when(soup)
+        if blank_date(event_date):
+            print(f"  no header date {url}")
+            missed += len(indexes)
+        else:
+            clock = f"{event_time} Uhr" if event_time else ""
+            for index in indexes:
+                rows[index]["match_date"] = event_date
+                current = rows[index].get("match_time") or ""
+                if blank_date(current) or current.startswith("00:00"):
+                    rows[index]["match_time"] = clock
+            filled += len(indexes)
+            title = soup.select_one("h6")
+            name = title.get_text(strip=True) if title else url
+            print(f"  {number}/{len(pending)} {event_date}  {len(indexes):4d}  {name}", flush=True)
+        wait(min_wait, max_wait)
+
+    temporary = csv_path.with_suffix(".csv.tmp")
+    with temporary.open("w", encoding="utf-8", newline="") as handle:
+        writer = csv.DictWriter(handle, fieldnames=fieldnames, extrasaction="ignore")
+        writer.writeheader()
+        writer.writerows(rows)
+    temporary.replace(csv_path)
+    print(f"Filled {filled}, still missing {missed} -> {csv_path}")
+
+
 def test_parse(html_path: Path) -> None:
     html = html_path.read_text(encoding="utf-8", errors="replace")
     rows = parse_results(html, "2025/2026", "test", "local")
@@ -267,9 +379,17 @@ def main() -> None:
     parser.add_argument("--min-wait", type=float, default=1.5)
     parser.add_argument("--max-wait", type=float, default=3.0)
     parser.add_argument("--test-parse", type=Path)
+    parser.add_argument(
+        "--repair-dates",
+        action="store_true",
+        help="Fill Einzel dates that are empty or 00.00.0000 from each tournament header",
+    )
     args = parser.parse_args()
     if args.test_parse:
         test_parse(args.test_parse)
+        return
+    if args.repair_dates:
+        repair_dates(args.csv, args.min_wait, args.max_wait)
         return
     scrape_seasons(tuple(args.seasons), args.csv, args.min_wait, args.max_wait)
 

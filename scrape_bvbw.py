@@ -29,6 +29,17 @@ from selenium.webdriver.support.ui import WebDriverWait
 BASE_URL = "https://billard-bvbw.de/"
 START_URL = urljoin(BASE_URL, "sb_spielplan.php")
 TARGET_LEAGUES = (
+    # Names are the exact Pool links on the Spielplan. A season that does
+    # not have one of them is skipped.
+    "1. Bundesliga",
+    "2. Bundesliga Süd",
+    "Regionalliga Mitte",
+    "Regionalliga Süd",
+    "Oberliga",
+    "Pokal-Mannschaft",
+    "Relegation Oberliga",
+    "Relagation Verbandsliga M-O",
+    "Relagation Verbandsliga N_W",
     "Kreisliga A",
     "Bezirksliga",
     "Landesliga",

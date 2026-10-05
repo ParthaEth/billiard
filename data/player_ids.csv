@@ -20,6 +20,7 @@ player_id,pass_nr,name
 368865,368865,Ahmad Nassar
 368550,368550,Ahmet Bumin
 105133,105133,Ahmet Yazici
+105142,105142,Ahmet Yilmaz
 368352,368352,Aleksander Diachkov
 368558,368558,Alen Mulaosmanovic
 243479,243479,Alen Salic
@@ -254,6 +255,7 @@ player_id,pass_nr,name
 103820,103820,Christian Rossa
 369282,369282,Christian Rundel
 368299,368299,Christian Schaber
+104092,104092,Christian Schmidt
 251152,251152,Christian Schuler
 350617,350617,Christian Späthe
 368557,368557,Christian Süß
@@ -309,6 +311,7 @@ player_id,pass_nr,name
 246933,246933,Daniel Nieter
 103907,103907,Daniel Sanchez Goncalves
 367937,367937,Daniel Schmid
+171709,171709,Daniel Vidackovic
 105234,105234,Daniel Zmalec
 353387,353387,Daniela Behrend
 369092,369092,Daniela Heide
@@ -336,6 +339,7 @@ player_id,pass_nr,name
 369054,369054,Dennis Knoblauch
 369112,369112,Dennis Rhein
 103842,103842,Dennis Rothaug
+104848,104848,Dennis Waldecker
 246672,246672,Dennis Wörthmüller
 103617,103617,Detlef Ratz
 248594,248594,Diana Schäfauer
@@ -536,6 +540,7 @@ player_id,pass_nr,name
 368025,368025,Halil Seker
 369171,369171,Hamza Benslimane
 368517,368517,Hannes Reißner
+112875,112875,Hanno Bröcker
 228708,228708,Hans Heuschmid
 369206,369206,Hans Müller
 249433,249433,Hans Rothas
@@ -605,6 +610,7 @@ player_id,pass_nr,name
 368905,368905,Irina Wörle
 368897,368897,Isabelle Hülskötter
 368511,368511,Ismail Hileh
+103044,103044,Ismet Mehmeti
 248468,248468,Ivan Franz
 101912,101912,Ivan Hodzic
 240239,240239,Ivan Mikulic
@@ -740,7 +746,9 @@ player_id,pass_nr,name
 103273,103273,Klaus Mutenzer
 368969,368969,Klaus Mülbert
 355793,355793,Klaus Woehrlin
+105241,105241,Klaus Zobrekis
 240143,240143,Konrad Bau
+227705,227705,Konstantin Miric
 100903,100903,Krischan Dostal
 369147,369147,Kristan Bailey
 242885,242885,Kristian Kolthoff
@@ -1053,6 +1061,7 @@ player_id,pass_nr,name
 240293,240293,Niklas Vogel
 368538,368538,Niklas Weiß
 102600,102600,Nikola Kremer
+369254,369254,Nikola Mitrovic
 102627,102627,Nikolai Kruhm
 369024,369024,Nikolai Lupena
 368003,368003,Nikolaos Michailidis
@@ -1265,6 +1274,7 @@ player_id,pass_nr,name
 351689,351689,Sander Damrau
 101958,101958,Sandra Höll
 368442,368442,Sandra Lutz
+368973,368973,Sandra Ortner
 369067,369067,Sasa Kikic
 369085,369085,Sascha Baltschukat
 368253,368253,Sascha Hiller
@@ -1323,6 +1333,8 @@ player_id,pass_nr,name
 249083,249083,Simon Theodoropoulos
 100229,100229,Simone Ganß
 368302,368302,Simone Künzl
+368033,368033,Sina Yüksel
+104715,104715,Soner Ulucanli
 100362,100362,Sonja Bieser
 104902,104902,Sonny Weber
 102603,102603,Stanislaw Kretz
@@ -1530,6 +1542,7 @@ player_id,pass_nr,name
 354615,354615,Virginia Eisen
 368136,368136,Vithyea Thorn
 369104,369104,Vladimir Poplakov
+101723,101723,Vladislav Hebel
 101573,101573,Volker Gutzeit
 104775,104775,Volker Vögele
 151697,151697,Volkmar Lorenz
@@ -2605,7 +2618,6 @@ local:matthias blech|PBV Schwetzingen,,Matthias Blech
 local:matthias frank|PBC Schwäbisch Gmünd,,Matthias Frank
 local:matthias frank|PBC Schwäbisch-Gmünd,,Matthias Frank
 local:matthias hardtke|BC Aalen,,Matthias Hardtke
-local:matthias ludersdorfer|Tübinger BC,,Matthias Ludersdorfer
 local:matthias maier|PBC Bräunlingen,,Matthias Maier
 local:matthias orth|BC Dreiländereck,,Matthias Orth
 local:matthias pujic|Jump Shot Mingolsheim,,Matthias Pujic
@@ -2739,7 +2751,6 @@ local:nicole hummel|BSC St. Georgen,,Nicole Hummel
 local:nicole riedl|BC Fellbach,,Nicole Riedl
 local:niklas vogel|BULL Leonberg-Höfingen,,Niklas Vogel
 local:nikola kremer|Poolsharks Bruchsal,,Nikola Kremer
-local:nikola mitrovic|unassigned,,Nikola Mitrovic
 local:nikolai kruhm|PBC Fr. Lampertheim,,Nikolai Kruhm
 local:nikolaus blum|PBC Ochsenhausen,,Nikolaus Blum
 local:nikolaus deckers|P&S Denzlingen,,Nikolaus Deckers
@@ -3061,7 +3072,6 @@ local:steffen säubert|PBC Waghäusel,,Steffen Säubert
 local:steffen wanner|PBC Trossingen,,Steffen Wanner
 local:stephan huber|BSV Konstanz,,Stephan Huber
 local:stephan huber|CC Karlsruhe,,Stephan Huber
-local:stephan huber|unassigned,,Stephan Huber
 local:stephan mahler|PBC Aalen,,Stephan Mahler
 local:stephan maier|TV Cannstatt,,Stephan Maier
 local:stephan moser|BV Villingen-Schwenningen,,Stephan Moser

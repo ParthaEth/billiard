@@ -6,6 +6,9 @@ season that contains today. A BVBW season starts in September. Older
 seasons are not opened. Reports already in the file are skipped by the
 league and Einzel scrapers.
 
+Afterwards the squad lists of the synced seasons are downloaded again and
+every game gets its Pass-Nr. (identity.py fetch + attach).
+
     python sync.py
     python sync.py --leagues-only
     python sync.py --einzel-only
@@ -20,6 +23,7 @@ import csv
 from datetime import datetime
 from pathlib import Path
 
+import identity
 from elo import parse_match_date
 from scrape_bvbw import TARGET_LEAGUES, StepScraper, run_auto
 from scrape_einzel import scrape_seasons
@@ -90,6 +94,11 @@ def main() -> None:
     parser.add_argument("--max-wait", type=float, default=0.8)
     parser.add_argument("--einzel-min-wait", type=float, default=1.5)
     parser.add_argument("--einzel-max-wait", type=float, default=3.0)
+    parser.add_argument(
+        "--skip-ids",
+        action="store_true",
+        help="leave Pass-Nr. unattached (normally squads are refreshed and attached)",
+    )
     args = parser.parse_args()
     if args.leagues_only and args.einzel_only:
         parser.error("choose one of --leagues-only and --einzel-only")
@@ -102,9 +111,19 @@ def main() -> None:
     if do_leagues:
         league_seasons = seasons_to_sync(args.csv, einzel=False, today=today)
         sync_leagues(args.csv, league_seasons, args.min_wait, args.max_wait)
+    synced: set[str] = set()
+    if do_leagues:
+        synced.update(league_seasons)
     if do_einzel:
         einzel_seasons = seasons_to_sync(args.csv, einzel=True, today=today)
         scrape_seasons(einzel_seasons, args.csv, args.einzel_min_wait, args.einzel_max_wait)
+        synced.update(einzel_seasons)
+
+    if args.skip_ids:
+        return
+    print("Attaching Pass-Nr. to players")
+    identity.cmd_fetch(refresh=tuple(sorted(synced)))
+    identity.attach_ids()
 
 
 if __name__ == "__main__":
