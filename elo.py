@@ -60,6 +60,7 @@ def scale_offset(path: Path | None = None) -> float:
 
     The fit still uses a ghost at 1500. This constant was measured once,
     when the higher BW leagues were added, and is not recomputed.
+    The +4.30 offset in scale.cfg stays fixed, so leave that file alone.
     """
     path = path or Path(__file__).with_name("scale.cfg")
     parser = configparser.ConfigParser()

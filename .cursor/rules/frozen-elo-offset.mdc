@@ -1,0 +1,21 @@
+---
+description: The published Elo offset in scale.cfg is frozen
+alwaysApply: true
+---
+
+# Frozen Elo offset
+
+`scale.cfg` holds `offset = 4.3031`. It is frozen. Leave that file alone.
+
+- Never edit, recompute, re-measure, round, or reset the offset. This holds after new games, new leagues, a sync, a refit, or a model change.
+- Never overwrite `data/scale_reference.csv`. It is the snapshot the offset was measured from.
+- Published Elo = fitted Elo + offset. `elo.py` adds it through `scale_offset()`. Keep that call in place.
+- Plots add the same offset to every Elo point and to the prior line.
+- If ratings look shifted, report it to the user and keep the offset as it is. Only the user may change it, and only when they ask for that explicitly.
+
+Routine update is two commands and nothing else:
+
+```bash
+.venv/bin/python sync.py
+.venv/bin/python elo.py --half-life-years .67
+```

@@ -1,0 +1,21 @@
+---
+description: Style for a player's Elo-over-time chart
+alwaysApply: true
+---
+
+# Elo progress plot
+
+When asked for a player's Elo over time, match this chart. Do not switch to a filled 95% band or a year-only axis.
+
+- Fit with `elo.fit_elo` and `elo.rating_se`. Half-life is 8/12 years unless another length is named. Pass `as_of` and `half_life_years` so the virtual draw ages from each player's last match.
+- Add the frozen `offset` from `scale.cfg` to every plotted Elo and to the prior line. The prior label stays `prior`. The +4.30 offset in `scale.cfg` stays fixed, so leave that file alone.
+- Use the identity display name, the same string as `tbc players.md`.
+- One point per calendar month the player has a dated game. The as-of date is the last day of that month. Include only dated games on or before that day.
+- Error bars are ±1 standard error. Colour `#1f77b4`, `fmt="-o"`, markersize 4.5, linewidth 1.6, capsize 3.
+- Dashed grey line at 1500, labelled `1500 prior`. Grid on. Legend `loc="best"`.
+- Annotate the last point `"{elo:.0f} ± {se:.0f}"`, offset about (-36, 12).
+- Title: `{Name} — Elo over time (8-month half-life, joint fit)`. Change the half-life text if a different one was requested.
+- X label: `As of (month of {Name}'s games)`. Y label: `Elo`.
+- X ticks are months, not years. Span of 24 months or less: every month. Longer: every 2 months. Format `%b %Y`, rotate 30°, right-aligned. Figure size `(11, 5.2)`.
+- Save `data/{slug}_elo.png` at 140 dpi. `slug` is the lower-case first name (`partha_elo.png`).
+- Matplotlib is on `python3`, not `.venv`.

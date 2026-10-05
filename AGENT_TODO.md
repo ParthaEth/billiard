@@ -1,5 +1,7 @@
 # Agent todo
 
+The +4.30 offset in `scale.cfg` stays fixed, so leave that file alone. Never recompute it and never overwrite `data/scale_reference.csv`.
+
 After a scrape of `data/games.csv`, try again to map each open name below to an official league name. These are club-internal names in `data/inhouse.csv` that have no last name, or no confirmed full name.
 
 Replace the short name in `data/inhouse.csv` only when a new roster entry makes the match clear. Leave the row on this list if it is still ambiguous. Do not guess among several people who share a first name.

@@ -20,6 +20,8 @@ If Einzel rows are dated `00.00.0000`, fill them from the tournament header:
 .venv/bin/python scrape_einzel.py --repair-dates
 ```
 
+The +4.30 offset in `scale.cfg` stays fixed, so leave that file alone. Published Elo is the fitted Elo plus that offset. Never recompute it and never overwrite `data/scale_reference.csv`.
+
 Refit ratings after new games:
 
 ```bash
