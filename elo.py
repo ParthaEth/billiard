@@ -620,6 +620,36 @@ def write_csv(path: Path, rows: list[dict[str, str]]) -> None:
         writer.writerows(rows)
 
 
+def is_tbc_team(team_field: str) -> bool:
+    """True when any of the player's teams is Tübinger BC."""
+    for part in team_field.split("|"):
+        name = part.strip()
+        if name == "Tübinger BC" or name.startswith("Tübinger BC "):
+            return True
+    return False
+
+
+def tbc_markdown(rows: list[dict[str, str]]) -> str:
+    """Markdown table of the overall rating for every Tübinger BC player."""
+    club = [row for row in rows if row["scope"] == "all" and is_tbc_team(row["team"])]
+    club.sort(key=lambda row: (-int(row["elo"]), row["player"]))
+    lines = [
+        "## Tübinger BC",
+        "",
+        "| Elo | ± | 95% | W-L | Games | Player |",
+        "|---:|---:|---|---:|---:|---|",
+    ]
+    for row in club:
+        player = row["player"].replace("|", "\\|")
+        lines.append(
+            f"| {row['elo']} | {row['elo_se']} | {row['elo_low']}–{row['elo_high']} | "
+            f"{row['wins']}-{row['losses']} | {row['games']} | {player} |"
+        )
+    if len(lines) == 4:
+        lines.append("| | | | | | |")
+    return "\n".join(lines)
+
+
 def mean_abs_residual(rows: list[dict[str, str]], scope: str) -> float:
     scoped = [row for row in rows if row["scope"] == scope]
     if not scoped:
@@ -698,6 +728,9 @@ def run(args: argparse.Namespace) -> None:
         if count == 0:
             continue
         print(f"{label:>8}  {count:6.0f}  {observed:8.2f}")
+    tbc_path = Path(__file__).resolve().parent / "tbc players.md"
+    tbc_path.write_text(tbc_markdown(all_rows) + "\n", encoding="utf-8")
+    print(f"\nWrote {tbc_path.name}")
 
 
 def parse_args() -> argparse.Namespace:

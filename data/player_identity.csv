@@ -29,10 +29,10 @@ p:242971,242971,Selim Güzel,Selim Güzel,PP Böblingen,PP Böblingen 1 | PP Bö
 n:freilos|BC Weingarten,,Freilos (BC Weingarten),Freilos,BC Weingarten,BC Weingarten | BC Weingarten 2 | BC Weingarten 3 | BC Weingarten 4,220
 n:freilos|BSV Weinheim,,Freilos (BSV Weinheim),Freilos,BSV Weinheim,BSV Weinheim | BSV Weinheim 2 | BSV Weinheim 3 | BSV Weinheim 4 | BSV Weinheim 5 | BSV Weinheim 6,220
 p:368015,368015,Stefan Sock,Stefan Sock,BC Bad Schussenried,BC Bad Schussenried 1,219
+p:100972,100972,Benjamin Eiberger,Benjamin Eiberger,BV Pforzheim,BV Pforzheim 1 | BV Pforzheim 2,218
 n:freilos|BBV Mannheim,,Freilos (BBV Mannheim),Freilos,BBV Mannheim,BBV Mannheim | BBV Mannheim 2 | BBV Mannheim 3 | BBV Mannheim 4 | BBV Mannheim 5,218
 p:249145,249145,Drazen Smolcic,Drazen Smolcic,PBC Sand,PBC Sand 1,217
 p:101289,101289,Thomas Gäckle,Thomas Gäckle,PF Calw,PF Calw 1 | PF Calw 2,213
-p:100972,100972,Benjamin Eiberger,Benjamin Eiberger,BV Pforzheim,BV Pforzheim 1 | BV Pforzheim 2,210
 p:104844,104844,Rolf Waible,Rolf Waible,PBC Bruchsal,PBC Bruchsal 1,210
 p:367934,367934,Andreas Loderer,Andreas Loderer,BC Bad Schussenried,BC Bad Schussenried 1,208
 p:101476,101476,Christian Gremmelspacher,Christian Gremmelspacher,PBC Sand,PBC Sand 1,208
@@ -42,6 +42,7 @@ n:freilos|Fastbreakers Karlsruhe,,Freilos (Fastbreakers Karlsruhe),Freilos,Fastb
 n:freilos|PBC Schwäbisch Gmünd,,Freilos (PBC Schwäbisch Gmünd),Freilos,PBC Schwäbisch Gmünd,PBC Schwäbisch Gmünd | PBC Schwäbisch Gmünd 2 | PBC Schwäbisch Gmünd 3,200
 p:104767,104767,Celina Visconti,Celina Visconti,PBV Schwetzingen,PBV Schwetzingen 3 | PBV Schwetzingen 4,199
 p:246024,246024,Denis Mnich,Denis Mnich,BC Sindelfingen,BC Sindelfingen 2 | BC Sindelfingen 3 | BC Sindelfingen 4 | BC Sindelfingen 5,199
+p:101192,101192,Ronny Frank,Ronny Frank,BSV Tiengen,BSV Tiengen 2 | BSV Tiengen 3,198
 p:101803,101803,Michael Heneka,Michael Heneka,PBC Bruchsal,PBC Bruchsal 1,197
 n:freilos|PBC Offenburg,,Freilos (PBC Offenburg),Freilos,PBC Offenburg,PBC Offenburg | PBC Offenburg 2 | PBC Offenburg 3 | PBC Offenburg 4,196
 n:freilos|Jump Shot Mingolsheim,,Freilos (Jump Shot Mingolsheim),Freilos,Jump Shot Mingolsheim,Jump Shot Mingolsheim | Jump Shot Mingolsheim 2 | Jump Shot Mingolsheim 3,194
@@ -49,65 +50,68 @@ p:367988,367988,Markus Wörner,Markus Wörner,JS Mingolsheim,JS Mingolsheim 2 | 
 p:104309,104309,Carmen Leiser,Carmen Leiser,Mannheimer BF | PBC Bruchsal,Mannheimer BF 1 | Mannheimer BF 2 | PBC Bruchsal 1 | PBC Bruchsal 3,193
 n:freilos|PBC Fr. Lampertheim,,Freilos (PBC Fr. Lampertheim),Freilos,PBC Fr. Lampertheim,PBC Fr. Lampertheim | PBC Fr. Lampertheim 2 | PBC Fr. Lampertheim 3,192
 n:freilos|PBC Ochsenhausen,,Freilos (PBC Ochsenhausen),Freilos,PBC Ochsenhausen,PBC Ochsenhausen | PBC Ochsenhausen 2 | PBC Ochsenhausen 3,192
-p:101192,101192,Ronny Frank,Ronny Frank,BSV Tiengen,BSV Tiengen 2 | BSV Tiengen 3,192
+p:240510,240510,Sven Wezstein,Sven Wezstein,PBC Bietigheim-Bissingen,PBC Bietigheim-Bissingen 1 | PBC Bietigheim-Bissingen 2 | PBC Bietigheim-Bissingen 3,191
 p:240155,240155,Andreas Wittmeier,Andreas Wittmeier,BV Pforzheim,BV Pforzheim 1 | BV Pforzheim 2,190
 p:103183,103183,Berthold Moser,Berthold Moser,PBC Bräunlingen,PBC Bräunlingen 1,190
 p:247955,247955,David Galwas,David Galwas,PBC Freudenstadt,PBC Freudenstadt 1 | PBC Freudenstadt 2,188
 n:freilos|BV Pforzheim,,Freilos (BV Pforzheim),Freilos,BV Pforzheim,BV Pforzheim | BV Pforzheim 2 | BV Pforzheim 3 | BV Pforzheim 4,188
-p:240510,240510,Sven Wezstein,Sven Wezstein,PBC Bietigheim-Bissingen,PBC Bietigheim-Bissingen 1 | PBC Bietigheim-Bissingen 2 | PBC Bietigheim-Bissingen 3,188
 p:368474,368474,Dieter Neumann,Dieter Neumann,Pool Knights Bensheim,Pool Knights Bensheim 1 | Pool Knights Bensheim 2,184
+p:104109,104109,Uwe Schmidt,Uwe Schmidt,BC Stuttgart 1891 | BF Bruchsal | BV Pforzheim,BC Stuttgart 1891 3 | BF Bruchsal 1 | BV Pforzheim 1 | BV Pforzheim 2 | BV Pforzheim 4,184
 p:111963,111963,Bernd Woitanowski,Bernd Woitanowski,JS Mingolsheim | PBC Waghäusel,JS Mingolsheim 1 | PBC Waghäusel 2,183
+p:103925,103925,Sascha Sauer,Sascha Sauer,BSV Filderstadt,BSV Filderstadt 1 | BSV Filderstadt 2 | BSV Filderstadt 3 | BSV Filderstadt 4,183
 p:103617,103617,Detlef Ratz,Detlef Ratz,PBDC Kämpfelbach | Poolsharks Bruchsal,PBDC Kämpfelbach 1 | Poolsharks Bruchsal 1,182
 p:244727,244727,Fabian Snijder,Fabian Snijder,Mannheimer BF,Mannheimer BF 1,182
 p:100039,100039,Erdal Akinci,Erdal Akinci,PBC Bad Saulgau,PBC Bad Saulgau 1,181
-p:103925,103925,Sascha Sauer,Sascha Sauer,BSV Filderstadt,BSV Filderstadt 1 | BSV Filderstadt 2 | BSV Filderstadt 3 | BSV Filderstadt 4,180
-p:104109,104109,Uwe Schmidt,Uwe Schmidt,BC Stuttgart 1891 | BF Bruchsal | BV Pforzheim,BC Stuttgart 1891 3 | BF Bruchsal 1 | BV Pforzheim 1 | BV Pforzheim 2 | BV Pforzheim 4,179
 p:103634,103634,Stephan Rech-Linker,Stephan Rech-Linker,BC Sindelfingen,BC Sindelfingen 3 | BC Sindelfingen 4 | BC Sindelfingen 5,177
+p:252010,252010,Long Werner,Long Werner,BF Bruchsal | BV Pforzheim | CC Karlsruhe,BF Bruchsal 1 | BV Pforzheim 1 | BV Pforzheim 2 | CC Karlsruhe 1 | CC Karlsruhe 3,176
+p:368381,368381,Pavlos Dadakos,Pavlos Dadakos,PBC Reutlingen,PBC Reutlingen 1,176
+p:100904,100904,Martin Doster,Martin Doster,BSC Göppingen,BSC Göppingen 1 | BSC Göppingen 2,175
 p:354558,354558,Angelika Kaune,Angelika Kaune,Mannheimer BF,Mannheimer BF 3 | Mannheimer BF 4,174
 p:101114,101114,Gordon Fenske,Gordon Fenske,PBDC Kämpfelbach | PP Karlsbad,PBDC Kämpfelbach 1 | PP Karlsbad 1,174
 p:240239,240239,Ivan Mikulic,Ivan Mikulic,PBC Waghäusel,PBC Waghäusel 2 | PBC Waghäusel 3,174
+p:101745,101745,Rainer Heilmann,Rainer Heilmann,BSV Tiengen,BSV Tiengen 3 | BSV Tiengen 4,174
 p:242787,242787,Rainer Hermann,Rainer Hermann,BSC Göppingen,BSC Göppingen 1 | BSC Göppingen 2,174
+p:368093,368093,Andreas Zillmann,Andreas Zillmann,PP Böblingen,PP Böblingen 1 | PP Böblingen 2 | PP Böblingen 3,173
 p:104206,104206,Anton Schubert,Anton Schubert,PBC Ochsenhausen,PBC Ochsenhausen 1 | PBC Ochsenhausen 2 | PBC Ochsenhausen 3,172
 n:freilos|PBC Schwäbisch-Hall,,Freilos (PBC Schwäbisch-Hall),Freilos,PBC Schwäbisch-Hall,PBC Schwäbisch-Hall | PBC Schwäbisch-Hall 2,172
 p:368224,368224,Hakan Söyler,Hakan Söyler,BC Sindelfingen | PBC Nagoldtal,BC Sindelfingen 7 | PBC Nagoldtal 1 | PBC Nagoldtal 2,172
-p:252010,252010,Long Werner,Long Werner,BF Bruchsal | BV Pforzheim | CC Karlsruhe,BF Bruchsal 1 | BV Pforzheim 1 | BV Pforzheim 2 | CC Karlsruhe 1 | CC Karlsruhe 3,172
 p:101390,101390,Marco Giusa,Marco Giusa,PBC Bietigheim-Bissingen | TV Cannstatt,PBC Bietigheim-Bissingen 1 | PBC Bietigheim-Bissingen 2 | TV Cannstatt 1 | TV Cannstatt 2,172
-p:101745,101745,Rainer Heilmann,Rainer Heilmann,BSV Tiengen,BSV Tiengen 3 | BSV Tiengen 4,172
+p:252039,252039,Dany Baron,Dany Baron,PP Böblingen | TV Cannstatt,PP Böblingen 1 | TV Cannstatt 1 | TV Cannstatt 2,171
 p:249124,249124,Joshua Armbruster,Joshua Armbruster,PBC Freudenstadt,PBC Freudenstadt 1 | PBC Freudenstadt 2,171
-p:368381,368381,Pavlos Dadakos,Pavlos Dadakos,PBC Reutlingen,PBC Reutlingen 1,171
 n:freilos|PBC Bruchsal,,Freilos (PBC Bruchsal),Freilos,PBC Bruchsal,PBC Bruchsal | PBC Bruchsal 2 | PBC Bruchsal 3,170
-p:100904,100904,Martin Doster,Martin Doster,BSC Göppingen,BSC Göppingen 1 | BSC Göppingen 2,169
+p:157455,157455,Norbert Rollbühler,Norbert Rollbühler,BC Aalen | PBC Schwäbisch Hall,BC Aalen 2 | PBC Schwäbisch Hall 1,170
 p:101485,101485,Ralf Grießhaber,Ralf Grießhaber,BV Villingen-Schwenningen,BV Villingen-Schwenningen 1,169
 p:367987,367987,Mike Walter,Mike Walter,JS Mingolsheim,JS Mingolsheim 2 | JS Mingolsheim 3,168
-p:368093,368093,Andreas Zillmann,Andreas Zillmann,PP Böblingen,PP Böblingen 1 | PP Böblingen 2 | PP Böblingen 3,167
+p:100638,100638,Adrian Cabanillas Lora,Adrian Cabanillas Lora,BSV Shooters Fellbach | PBC Aalen | TV Cannstatt,BSV Shooters Fellbach 1 | PBC Aalen 1 | TV Cannstatt 1 | TV Cannstatt 2,167
+p:353408,353408,Christopher Hopp,Christopher Hopp,BC Sindelfingen,BC Sindelfingen 2 | BC Sindelfingen 3 | BC Sindelfingen 4 | BC Sindelfingen 5,166
 p:104376,104376,Darius Skowronek,Darius Skowronek,BF Bruchsal | CC Karlsruhe,BF Bruchsal 1 | CC Karlsruhe 1 | CC Karlsruhe 3,166
 n:freilos|PBC Waldbronn-Karlsbad,,Freilos (PBC Waldbronn-Karlsbad),Freilos,PBC Waldbronn-Karlsbad,PBC Waldbronn-Karlsbad | PBC Waldbronn-Karlsbad 2 | PBC Waldbronn-Karlsbad 3 | PBC Waldbronn-Karlsbad 4,166
-p:252039,252039,Dany Baron,Dany Baron,PP Böblingen | TV Cannstatt,PP Böblingen 1 | TV Cannstatt 1 | TV Cannstatt 2,165
+p:101671,101671,Markus Hardtke,Markus Hardtke,,,166
 p:103930,103930,Eberhard Sauter,Eberhard Sauter,PBC Freudenstadt,PBC Freudenstadt 1 | PBC Freudenstadt 2 | PBC Freudenstadt 3,165
 p:355803,355803,Randee Ramzi Yalda,Randee Ramzi Yalda,BSV Pfullingen,BSV Pfullingen 1,165
-p:353408,353408,Christopher Hopp,Christopher Hopp,BC Sindelfingen,BC Sindelfingen 2 | BC Sindelfingen 3 | BC Sindelfingen 4 | BC Sindelfingen 5,164
-p:157455,157455,Norbert Rollbühler,Norbert Rollbühler,BC Aalen | PBC Schwäbisch Hall,BC Aalen 2 | PBC Schwäbisch Hall 1,164
 p:250878,250878,Patrick Mungiuri,Patrick Mungiuri,BULL Leonberg-Höfingen | BV Pforzheim,BULL Leonberg-Höfingen 1 | BV Pforzheim 1 | BV Pforzheim 2,163
 p:367986,367986,Vanja Nikolic,Vanja Nikolic,BC Sindelfingen,BC Sindelfingen 2 | BC Sindelfingen 3 | BC Sindelfingen 5,163
+p:105043,105043,Dirk Windecker,Dirk Windecker,BBV Mannheim,BBV Mannheim 1 | BBV Mannheim 2 | BBV Mannheim 3,162
+p:351635,351635,Robert Klinec,Robert Klinec,Mannheimer BF,Mannheimer BF 2 | Mannheimer BF 3,162
 p:101994,101994,Gerd Hörrmann,Gerd Hörrmann,PBC Rastatt | PP Karlsbad,PBC Rastatt 1 | PP Karlsbad 1,161
-p:100638,100638,Adrian Cabanillas Lora,Adrian Cabanillas Lora,BSV Shooters Fellbach | PBC Aalen | TV Cannstatt,BSV Shooters Fellbach 1 | PBC Aalen 1 | TV Cannstatt 1 | TV Cannstatt 2,160
+p:101538,101538,Bülent Güler,Bülent Güler,BBV Mannheim,BBV Mannheim 1 | BBV Mannheim 2,160
+p:252901,252901,Evi Leder,Evi Leder,CC Karlsruhe | PBC Bruchsal | PP Karlsbad,CC Karlsruhe 3 | PBC Bruchsal 3 | PP Karlsbad 1 | PP Karlsbad 2,160
 n:freilos|BSV Nürtingen,,Freilos (BSV Nürtingen),Freilos,BSV Nürtingen,BSV Nürtingen | BSV Nürtingen 2 | BSV Nürtingen 3 | BSV Nürtingen 4 | BSV Nürtingen 5 | BSV Nürtingen 6,160
 p:356369,356369,Alexander Fischer,Alexander Fischer,Tübinger BC,Tübinger BC | Tübinger BC 1 | Tübinger BC 2,159
-p:105043,105043,Dirk Windecker,Dirk Windecker,BBV Mannheim,BBV Mannheim 1 | BBV Mannheim 2 | BBV Mannheim 3,159
 p:356371,356371,Jonny Knapp,Jonny Knapp,BC Neckarsulm,BC Neckarsulm 2 | BC Neckarsulm 3,159
-p:101671,101671,Markus Hardtke,Markus Hardtke,,,159
 p:123146,123146,Markus Rütten,Markus Rütten,BC Dreiländereck,BC Dreiländereck 1,159
-p:101538,101538,Bülent Güler,Bülent Güler,BBV Mannheim,BBV Mannheim 1 | BBV Mannheim 2,158
-p:252901,252901,Evi Leder,Evi Leder,PBC Bruchsal | PP Karlsbad,PBC Bruchsal 3 | PP Karlsbad 1 | PP Karlsbad 2,158
 p:104635,104635,Raphael Titzmann,Raphael Titzmann,BSV Filderstadt,BSV Filderstadt 1 | BSV Filderstadt 2 | BSV Filderstadt 3 | BSV Filderstadt 4,158
 p:101672,101672,Matthias Hardtke,Matthias Hardtke,,,157
+p:367912,367912,Nikolaos Seristatidis,Nikolaos Seristatidis,PP Böblingen | Tübinger BC,PP Böblingen 2 | Tübinger BC | Tübinger BC 1 | Tübinger BC 2,157
 p:252214,252214,Pascal Sanna,Pascal Sanna,PBC Freudenstadt,PBC Freudenstadt 1 | PBC Freudenstadt 3,157
-p:351635,351635,Robert Klinec,Robert Klinec,Mannheimer BF,Mannheimer BF 2 | Mannheimer BF 3,156
+p:102759,102759,Harald Leder,Harald Leder,CC Karlsruhe | PBC Bruchsal | PP Karlsbad,CC Karlsruhe 3 | PBC Bruchsal 3 | PP Karlsbad 1 | PP Karlsbad 2,156
+p:249310,249310,Nic Woywodt,Nic Woywodt,PBC Nagoldtal,PBC Nagoldtal 1,156
+p:121877,121877,Peter Link,Peter Link,BC Feuersee | BSV Shooters Fellbach | TV Cannstatt,BC Feuersee 1 | BC Feuersee 2 | BSV Shooters Fellbach 2 | TV Cannstatt 1,156
 p:105193,105193,Marco Zieger,Marco Zieger,PBC Waghäusel,PBC Waghäusel 2 | PBC Waghäusel 3,155
+p:349790,349790,Wadea Al Mahamid,Wadea Al Mahamid,Tübinger BC,Tübinger BC | Tübinger BC 1 | Tübinger BC 2,155
 p:368079,368079,Christian Würthwein,Christian Würthwein,PBV Schwetzingen,PBV Schwetzingen 4 | PBV Schwetzingen 5,154
-p:102759,102759,Harald Leder,Harald Leder,CC Karlsruhe | PBC Bruchsal | PP Karlsbad,CC Karlsruhe 3 | PBC Bruchsal 3 | PP Karlsbad 1 | PP Karlsbad 2,154
-p:367912,367912,Nikolaos Seristatidis,Nikolaos Seristatidis,PP Böblingen | Tübinger BC,PP Böblingen 2 | Tübinger BC | Tübinger BC 1 | Tübinger BC 2,154
-p:121877,121877,Peter Link,Peter Link,BC Feuersee | BSV Shooters Fellbach | TV Cannstatt,BC Feuersee 1 | BC Feuersee 2 | BSV Shooters Fellbach 2 | TV Cannstatt 1,154
+p:102694,102694,Daniel La Cognata,Daniel La Cognata,BC Sindelfingen | PBC Nagoldtal,BC Sindelfingen 4 | BC Sindelfingen 5 | PBC Nagoldtal 2,154
+p:248769,248769,Marius-Daniel Grigore-Martini,Marius-Daniel Grigore-Martini,BSV Pfullingen | PBC Reutlingen,BSV Pfullingen 1 | PBC Reutlingen 1 | PBC Reutlingen 2 | PBC Reutlingen 3,154
 p:103479,103479,Andreas Pauling,Andreas Pauling,BC Stuttgart 1891,BC Stuttgart 1891 2,153
 p:245948,245948,Aryan Dayyani,Aryan Dayyani,BC Dätzingen | PF Calw,BC Dätzingen 1 | PF Calw 2,152
 p:105234,105234,Daniel Zmalec,Daniel Zmalec,PBC Bietigheim-Bissingen,PBC Bietigheim-Bissingen 1 | PBC Bietigheim-Bissingen 2,152
@@ -115,36 +119,34 @@ p:100791,100791,Giuseppe Dellaquercia,Giuseppe Dellaquercia,PBC Bietigheim-Bissi
 p:240242,240242,Mirsad Sabic,Mirsad Sabic,PBC Waghäusel,PBC Waghäusel 2 | PBC Waghäusel 3 | PBC Waghäusel 4,152
 p:100124,100124,Ottmar Auzinger,Ottmar Auzinger,PBC Ochsenhausen,PBC Ochsenhausen 1,152
 p:253141,253141,Timur Susuz,Timur Susuz,BC Aalen | PBC Aalen,BC Aalen 3 | BC Aalen 4 | PBC Aalen 2,152
-p:102694,102694,Daniel La Cognata,Daniel La Cognata,BC Sindelfingen | PBC Nagoldtal,BC Sindelfingen 4 | BC Sindelfingen 5 | PBC Nagoldtal 2,151
 p:100773,100773,Fiorenzo De Nuzzo,Fiorenzo De Nuzzo,BV Pforzheim,BV Pforzheim 1 | BV Pforzheim 2,151
-p:249310,249310,Nic Woywodt,Nic Woywodt,PBC Nagoldtal,PBC Nagoldtal 1,150
+p:350683,350683,Kevin Wetzel,Kevin Wetzel,BC Dallau,BC Dallau 1 | BC Dallau 2,151
+p:103143,103143,Benny-Michel Mildenberger,Benny-Michel Mildenberger,BF Bruchsal,BF Bruchsal 1,150
 p:239646,239646,Susanne Schweter,Susanne Schweter,BBV Mannheim,BBV Mannheim 1 | BBV Mannheim 2 | BBV Mannheim 3,150
 p:242976,242976,Anastasios Kagelidis,Anastasios Kagelidis,PP Böblingen,PP Böblingen 1 | PP Böblingen 2,149
-p:248769,248769,Marius-Daniel Grigore-Martini,Marius-Daniel Grigore-Martini,BSV Pfullingen | PBC Reutlingen,BSV Pfullingen 1 | PBC Reutlingen 1 | PBC Reutlingen 2 | PBC Reutlingen 3,149
 p:102502,102502,Viktor König,Viktor König,BF Weinheim-Viernheim,BF Weinheim-Viernheim 1 | BF Weinheim-Viernheim 2 | BF Weinheim-Viernheim 3,149
 p:104101,104101,Peter Schmidt,Peter Schmidt,BSV Tiengen,BSV Tiengen 2 | BSV Tiengen 3 | BSV Tiengen 4,148
 p:101550,101550,Christoph Günthner,Christoph Günthner,CC Karlsruhe | PBC Bruchsal,CC Karlsruhe 1 | CC Karlsruhe 2 | PBC Bruchsal 1,147
 p:105103,105103,Dieter Wolk,Dieter Wolk,BF Weinheim-Viernheim,BF Weinheim-Viernheim 1 | BF Weinheim-Viernheim 2 | BF Weinheim-Viernheim 3 | BF Weinheim-Viernheim 4,147
+p:367913,367913,Jürgen Baumgärtner,Jürgen Baumgärtner,BC Aalen,BC Aalen 2,147
 p:103444,103444,Sercan Özdemir,Sercan Özdemir,PP Böblingen,PP Böblingen 1,147
 p:100945,100945,Stefan Duttlinger,Stefan Duttlinger,BSV Tiengen,BSV Tiengen 1 | BSV Tiengen 2,147
 p:104541,104541,Alexander Striker,Alexander Striker,BC Sindelfingen | PF Calw,BC Sindelfingen 3 | PF Calw 1,146
 p:104803,104803,Frank Vorauer,Frank Vorauer,PBC Nagoldtal,PBC Nagoldtal 1,146
 n:freilos|CC Karlsruhe,,Freilos (CC Karlsruhe),Freilos,CC Karlsruhe,CC Karlsruhe | CC Karlsruhe 2 | CC Karlsruhe 4,146
-p:350683,350683,Kevin Wetzel,Kevin Wetzel,BC Dallau,BC Dallau 1 | BC Dallau 2,146
 p:242963,242963,Marco Warlies,Marco Warlies,PF Calw,PF Calw 1,146
-p:103143,103143,Benny-Michel Mildenberger,Benny-Michel Mildenberger,BF Bruchsal,BF Bruchsal 1,144
 p:101317,101317,Frank Gebert,Frank Gebert,BC Blaustein | BSV Filderstadt,BC Blaustein 1 | BSV Filderstadt 2 | BSV Filderstadt 3,144
+p:228904,228904,Tobias Hirt,Tobias Hirt,BC Sindelfingen | PBC Bad Saulgau,BC Sindelfingen 3 | BC Sindelfingen 4 | BC Sindelfingen 5 | PBC Bad Saulgau 2,144
 p:252865,252865,Axel Eberle,Axel Eberle,PBDC Kämpfelbach | Poolsharks Bruchsal,PBDC Kämpfelbach 1 | Poolsharks Bruchsal 1,143
 p:368044,368044,Jörg Wolf,Jörg Wolf,BC Dreiländereck | PBC Offenburg,BC Dreiländereck 2 | PBC Offenburg 3 | PBC Offenburg 4 | PBC Offenburg 6,143
-p:367913,367913,Jürgen Baumgärtner,Jürgen Baumgärtner,BC Aalen,BC Aalen 2,142
+p:251815,251815,Kevin Adamczyk,Kevin Adamczyk,BC Aalen,BC Aalen 2 | BC Aalen 3 | BC Aalen 4 | BC Aalen 5,142
 p:101574,101574,Michael Haag,Michael Haag,PBC Nagoldtal,PBC Nagoldtal 1 | PBC Nagoldtal 2 | PBC Nagoldtal 3 | PBC Nagoldtal 4,142
-p:228904,228904,Tobias Hirt,Tobias Hirt,BC Sindelfingen | PBC Bad Saulgau,BC Sindelfingen 3 | BC Sindelfingen 4 | BC Sindelfingen 5 | PBC Bad Saulgau 2,142
 p:228713,228713,Erich Wohllaib,Erich Wohllaib,PBC Ochsenhausen,PBC Ochsenhausen 1 | PBC Ochsenhausen 2 | PBC Ochsenhausen 3,141
 p:101737,101737,Svenja Schwarzkopf,Svenja Schwarzkopf,BV Villingen-Schwenningen,BV Villingen-Schwenningen 1 | BV Villingen-Schwenningen 2,141
 p:103858,103858,Dieter Ruck,Dieter Ruck,BSF Kurpfalz,BSF Kurpfalz 2 | BSF Kurpfalz 3,139
+p:354685,354685,Joachim Luft,Joachim Luft,PBC Bietigheim-Bissingen,PBC Bietigheim-Bissingen 2 | PBC Bietigheim-Bissingen 3 | PBC Bietigheim-Bissingen 4,139
 n:freilos|BC Neckarsulm,,Freilos (BC Neckarsulm),Freilos,BC Neckarsulm,BC Neckarsulm | BC Neckarsulm 2 | BC Neckarsulm 3,138
 n:freilos|BSV Tiengen,,Freilos (BSV Tiengen),Freilos,BSV Tiengen,BSV Tiengen | BSV Tiengen 3 | BSV Tiengen 4 | BSV Tiengen 5,138
-p:251815,251815,Kevin Adamczyk,Kevin Adamczyk,BC Aalen,BC Aalen 2 | BC Aalen 3 | BC Aalen 4 | BC Aalen 5,138
 p:102294,102294,Ralf Kempermann,Ralf Kempermann,JS Mingolsheim | PBV Schwetzingen,JS Mingolsheim 1 | PBV Schwetzingen 3 | PBV Schwetzingen 4,138
 p:355824,355824,Tobias Abt,Tobias Abt,BC Bad Schussenried | PBC Bad Saulgau,BC Bad Schussenried 2 | BC Bad Schussenried 3 | BC Bad Schussenried 4 | BC Bad Schussenried 5 | PBC Bad Saulgau 2 | PBC Bad Saulgau 3,138
 p:368490,368490,Alexander Kocher,Alexander Kocher,PBV Schwetzingen | Pool Knights Bensheim,PBV Schwetzingen 4 | Pool Knights Bensheim 1,137
@@ -154,7 +156,7 @@ p:104507,104507,Florian Stojanoski,Florian Stojanoski,PBV Schwetzingen,PBV Schwe
 p:104761,104761,Goncalo Vieira Manies,Goncalo Vieira Manies,PF Calw,PF Calw 1,137
 p:242747,242747,Thomas Mooshammer,Thomas Mooshammer,PP Böblingen,PP Böblingen 1 | PP Böblingen 2,137
 n:freilos|unassigned,,Freilos (unassigned),Freilos,,,136
-p:354685,354685,Joachim Luft,Joachim Luft,PBC Bietigheim-Bissingen,PBC Bietigheim-Bissingen 2 | PBC Bietigheim-Bissingen 3 | PBC Bietigheim-Bissingen 4,136
+p:245692,245692,Harun Ahmadi,Harun Ahmadi,PP Karlsbad,PP Karlsbad 1 | PP Karlsbad 2,136
 p:102013,102013,Marco Huber,Marco Huber,BV Pforzheim,BV Pforzheim 1 | BV Pforzheim 2 | BV Pforzheim 3,136
 p:253265,253265,Simon Kemmerling,Simon Kemmerling,PBC Bräunlingen,PBC Bräunlingen 1 | PBC Bräunlingen 2,136
 p:102603,102603,Stanislaw Kretz,Stanislaw Kretz,BV Pforzheim,BV Pforzheim 1,136
@@ -164,35 +166,37 @@ p:242731,242731,Dirk Schäfauer,Dirk Schäfauer,BC Dallau | BC Neckarsulm,BC Dal
 p:355791,355791,Fabian Durst,Fabian Durst,P&S Denzlingen | PBC Offenburg,P&S Denzlingen 1 | PBC Offenburg 3 | PBC Offenburg 5,134
 p:239637,239637,Irina Killian,Irina Killian,BBV Mannheim,BBV Mannheim 2 | BBV Mannheim 3,134
 p:367989,367989,Martin Reinhardt,Martin Reinhardt,PBC Ochsenhausen,PBC Ochsenhausen 1 | PBC Ochsenhausen 2,134
+p:366767,366767,Miodrag Adrian Caravila,Miodrag Adrian Caravila,BSV Pfullingen | PBC Reutlingen,BSV Pfullingen 1 | BSV Pfullingen 2 | PBC Reutlingen 1 | PBC Reutlingen 2,134
 p:101556,101556,Bülent Gürkan,Bülent Gürkan,BBV Mannheim,BBV Mannheim 1 | BBV Mannheim 2,133
 p:244943,244943,Peggy Eisele,Peggy Eisele,BC Sindelfingen | BSV Filderstadt | PBC Reutlingen,BC Sindelfingen 5 | BC Sindelfingen 6 | BSV Filderstadt 3 | PBC Reutlingen 2,133
-p:245692,245692,Harun Ahmadi,Harun Ahmadi,PP Karlsbad,PP Karlsbad 1 | PP Karlsbad 2,132
+p:368579,368579,Sebastian Scherbinin,Sebastian Scherbinin,PBC Freudenstadt,PBC Freudenstadt 1 | PBC Freudenstadt 2 | PBC Freudenstadt 3,133
+p:101654,101654,Thomas Handler,Thomas Handler,BC Feuersee | BV Leonberg,BC Feuersee 1 | BC Feuersee 2 | BV Leonberg 1,133
 p:240240,240240,Hassan Najjar,Hassan Najjar,PBC Waghäusel,PBC Waghäusel 2 | PBC Waghäusel 3,132
-p:366767,366767,Miodrag Adrian Caravila,Miodrag Adrian Caravila,BSV Pfullingen | PBC Reutlingen,BSV Pfullingen 1 | BSV Pfullingen 2 | PBC Reutlingen 1 | PBC Reutlingen 2,132
 p:102948,102948,Rolf Mangelsdorf,Rolf Mangelsdorf,BSV Tiengen,BSV Tiengen 1,132
 p:100616,100616,Zeljko Burmazovic,Zeljko Burmazovic,PBC Schwäbisch Hall,PBC Schwäbisch Hall 1,132
 p:367948,367948,Flaviano Gabriele,Flaviano Gabriele,BC Bad Schussenried,BC Bad Schussenried 1 | BC Bad Schussenried 2,131
 p:353633,353633,Jürgen Götting,Jürgen Götting,BF Bruchsal | JS Mingolsheim,BF Bruchsal 1 | BF Bruchsal 2 | JS Mingolsheim 2 | JS Mingolsheim 3,131
 p:103087,103087,Markus Merz,Markus Merz,BSF Kurpfalz,BSF Kurpfalz 2 | BSF Kurpfalz 3,131
+p:239641,239641,Sascha Pick,Sascha Pick,BBV Mannheim,BBV Mannheim 1 | BBV Mannheim 2 | BBV Mannheim 3,131
 p:368207,368207,Calvin Waldecker,Calvin Waldecker,CC Karlsruhe | PBC Rastatt,CC Karlsruhe 1 | CC Karlsruhe 2 | PBC Rastatt 1,130
 p:353143,353143,Martin Repp,Martin Repp,BC Sindelfingen,BC Sindelfingen 5 | BC Sindelfingen 6,130
 p:239638,239638,Michael Killian,Michael Killian,BBV Mannheim,BBV Mannheim 2 | BBV Mannheim 3,130
-p:101654,101654,Thomas Handler,Thomas Handler,BC Feuersee | BV Leonberg,BC Feuersee 1 | BC Feuersee 2 | BV Leonberg 1,130
 p:353889,353889,Bruno Miletic,Bruno Miletic,BC Dreiländereck,BC Dreiländereck 1,129
 p:368051,368051,Edin Porcic,Edin Porcic,BC Feuersee | BULL Leonberg-Höfingen,BC Feuersee 1 | BC Feuersee 2 | BULL Leonberg-Höfingen 1,129
 p:240243,240243,Andree Säubert,Andree Säubert,PBC Waghäusel,PBC Waghäusel 1 | PBC Waghäusel 2 | PBC Waghäusel 3 | PBC Waghäusel 4,128
+p:104971,104971,Björn Welte,Björn Welte,PBC Bräunlingen,PBC Bräunlingen 1 | PBC Bräunlingen 2,128
 p:368540,368540,Haydar Chehade,Haydar Chehade,BBV Mannheim | Mannheimer BF,BBV Mannheim 1 | BBV Mannheim 2 | Mannheimer BF 2,128
 p:103573,103573,Marc Proissl,Marc Proissl,PBV Schwetzingen | Pool Knights Bensheim,PBV Schwetzingen 3 | Pool Knights Bensheim 1,128
 p:242907,242907,Patrick Lauinger,Patrick Lauinger,PBC Rastatt,PBC Rastatt 1 | PBC Rastatt 2 | PBC Rastatt 3,128
 p:250899,250899,Rouven Elischer,Rouven Elischer,BC Neckarsulm,BC Neckarsulm 1 | BC Neckarsulm 2,128
 p:104607,104607,Steven Thieltges,Steven Thieltges,PBC Bietigheim-Bissingen,PBC Bietigheim-Bissingen 1 | PBC Bietigheim-Bissingen 2,128
+p:242808,242808,Thorsten Mohr,Thorsten Mohr,BSV Konstanz,BSV Konstanz 1,128
 p:104746,104746,Alexandros Vassiliadis,Alexandros Vassiliadis,PBC Aalen,PBC Aalen 1 | PBC Aalen 2,127
 p:356203,356203,Ali Tinoush,Ali Tinoush,PBV Schwetzingen,PBV Schwetzingen 5 | PBV Schwetzingen 6 | PBV Schwetzingen 7,127
 p:366458,366458,Besim Rama,Besim Rama,BC Neckarsulm,BC Neckarsulm 2 | BC Neckarsulm 3,127
 p:245260,245260,Necmi Kolbasar,Necmi Kolbasar,PBC Bietigheim-Bissingen | PP Böblingen,PBC Bietigheim-Bissingen 1 | PBC Bietigheim-Bissingen 2 | PP Böblingen 1,127
 p:103076,103076,Ralf Mergel,Ralf Mergel,BF Bruchsal,BF Bruchsal 1 | BF Bruchsal 2,127
-p:239641,239641,Sascha Pick,Sascha Pick,BBV Mannheim,BBV Mannheim 1 | BBV Mannheim 2 | BBV Mannheim 3,127
-p:368579,368579,Sebastian Scherbinin,Sebastian Scherbinin,PBC Freudenstadt,PBC Freudenstadt 1 | PBC Freudenstadt 2 | PBC Freudenstadt 3,127
+p:102645,102645,Stefan Künzl,Stefan Künzl,BC Sindelfingen | BSV Shooters Fellbach,BC Sindelfingen 2 | BC Sindelfingen 3 | BC Sindelfingen 4 | BSV Shooters Fellbach 1,127
 p:368423,368423,Stefanie Brakopp,Stefanie Brakopp,PBC Nagoldtal,PBC Nagoldtal 1 | PBC Nagoldtal 2 | PBC Nagoldtal 3,127
 p:367853,367853,Jörg Leiser,Jörg Leiser,Mannheimer BF | PBC Bruchsal,Mannheimer BF 2 | Mannheimer BF 3 | PBC Bruchsal 1 | PBC Bruchsal 2,126
 p:104742,104742,Luis Varon Marques,Luis Varon Marques,TV Cannstatt,TV Cannstatt 1 | TV Cannstatt 3 | TV Cannstatt 4,126
@@ -200,10 +204,9 @@ p:105122,105122,Michael Würz,Michael Würz,BC Dallau,BC Dallau 1 | BC Dallau 2,
 p:104625,104625,Peter Thurm,Peter Thurm,PBC Bruchsal,PBC Bruchsal 2,126
 p:103558,103558,Benjamin Pran,Benjamin Pran,BC Neckarsulm,BC Neckarsulm 1,125
 p:350617,350617,Christian Späthe,Christian Späthe,PBC Langenargen,PBC Langenargen 1 | PBC Langenargen 2 | PBC Langenargen 3,125
+p:104287,104287,Oliver Schwertschlager,Oliver Schwertschlager,BC Stuttgart 1891,BC Stuttgart 1891 2,125
 p:368127,368127,Stefan Weiß,Stefan Weiß,BC Dreiländereck,BC Dreiländereck 1 | BC Dreiländereck 2,125
-p:242808,242808,Thorsten Mohr,Thorsten Mohr,BSV Konstanz,BSV Konstanz 1,125
 p:101284,101284,Alexander Gabat,Alexander Gabat,BSF Kurpfalz,BSF Kurpfalz 2 | BSF Kurpfalz 3,124
-p:104971,104971,Björn Welte,Björn Welte,PBC Bräunlingen,PBC Bräunlingen 1 | PBC Bräunlingen 2,124
 n:freilos|PBC Freudenstadt,,Freilos (PBC Freudenstadt),Freilos,PBC Freudenstadt,PBC Freudenstadt | PBC Freudenstadt 2 | PBC Freudenstadt 3 | PBC Freudenstadt 4,124
 p:228696,228696,Gerald Ströbele,Gerald Ströbele,PBC Langenargen,PBC Langenargen 1 | PBC Langenargen 2 | PBC Langenargen 3,124
 p:101724,101724,Robin Heber,Robin Heber,BC Sindelfingen,BC Sindelfingen 2,124
@@ -221,13 +224,11 @@ n:freilos|BC Stuttgart 1891,,Freilos (BC Stuttgart 1891),Freilos,BC Stuttgart 18
 n:freilos|BF Bronnen,,Freilos (BF Bronnen),Freilos,BF Bronnen,BF Bronnen | BF Bronnen 2,122
 n:freilos|PBSC Pforzheim,,Freilos (PBSC Pforzheim),Freilos,PBSC Pforzheim,PBSC Pforzheim,122
 p:368447,368447,Svetlana Hetjens,Svetlana Hetjens,Pool Knights Bensheim,Pool Knights Bensheim 2,122
-p:349790,349790,Wadea Al Mahamid,Wadea Al Mahamid,Tübinger BC,Tübinger BC | Tübinger BC 1,122
 p:104434,104434,Armin Stauß,Armin Stauß,PBC Freudenstadt,PBC Freudenstadt 1 | PBC Freudenstadt 2,121
 p:101426,101426,Boris Golic,Boris Golic,PBC Ochsenhausen,PBC Ochsenhausen 1 | PBC Ochsenhausen 2,121
 p:100670,100670,Efendi Cekerek,Efendi Cekerek,Mannheimer BF,Mannheimer BF 1 | Mannheimer BF 2,121
 p:104610,104610,Erwin Thoma,Erwin Thoma,BC Bad Schussenried | PBC Ochsenhausen,BC Bad Schussenried 3 | BC Bad Schussenried 4 | PBC Ochsenhausen 1 | PBC Ochsenhausen 2,121
 p:368042,368042,Haci Eymir,Haci Eymir,BC Aalen | PBC Aalen,BC Aalen 3 | BC Aalen 4 | PBC Aalen 2,121
-p:104287,104287,Oliver Schwertschlager,Oliver Schwertschlager,BC Stuttgart 1891,BC Stuttgart 1891 2,121
 p:367990,367990,Raimund Wanner,Raimund Wanner,BC Bad Schussenried | PBC Ochsenhausen,BC Bad Schussenried 1 | BC Bad Schussenried 2 | BC Bad Schussenried 3 | PBC Ochsenhausen 1,121
 p:100122,100122,Andreas Augustin,Andreas Augustin,BC Aalen,BC Aalen 2,120
 p:100434,100434,Andreas Böhme,Andreas Böhme,PBC Waghäusel,PBC Waghäusel 3 | PBC Waghäusel 4,120
@@ -239,7 +240,6 @@ p:104642,104642,Dominik Tonn,Dominik Tonn,BV Pforzheim,BV Pforzheim 1 | BV Pforz
 p:104258,104258,Florian Schwägler,Florian Schwägler,PBC Freudenstadt,PBC Freudenstadt 3,120
 p:248622,248622,Frank Diedrich,Frank Diedrich,PBC Sand,PBC Sand 1 | PBC Sand 2,120
 p:351926,351926,Lucia Birsner,Lucia Birsner,BSV Tiengen,BSV Tiengen 3 | BSV Tiengen 4,120
-p:102645,102645,Stefan Künzl,Stefan Künzl,BC Sindelfingen | BSV Shooters Fellbach,BC Sindelfingen 2 | BC Sindelfingen 3 | BC Sindelfingen 4 | BSV Shooters Fellbach 1,120
 p:355901,355901,Alexandar Stankovic,Alexandar Stankovic,PBC Bietigheim-Bissingen | PBC Pfedelbach | PBC Schwäbisch Hall | TV Cannstatt,PBC Bietigheim-Bissingen 1 | PBC Bietigheim-Bissingen 2 | PBC Pfedelbach 1 | PBC Schwäbisch Hall 1 | TV Cannstatt 2,119
 p:368107,368107,Benjamin Hirschberger,Benjamin Hirschberger,BC Sindelfingen | BC Stuttgart 1891,BC Sindelfingen 4 | BC Sindelfingen 6 | BC Sindelfingen 8 | BC Stuttgart 1891 2,119
 p:100092,100092,Charalampos Antonogiorgakis,Charalampos Antonogiorgakis,BULL Leonberg-Höfingen,BULL Leonberg-Höfingen 2 | BULL Leonberg-Höfingen 3,119
@@ -276,19 +276,22 @@ p:251824,251824,Senol Sengün,Senol Sengün,BBV Mannheim,BBV Mannheim 2 | BBV Ma
 p:100941,100941,Thomas Durst,Thomas Durst,BC Stuttgart 1891,BC Stuttgart 1891 2,114
 p:102381,102381,Manuel Klappstein,Manuel Klappstein,PBC Rastatt,PBC Rastatt 1 | PBC Rastatt 2 | PBC Rastatt 3,113
 p:368193,368193,Marius Witt,Marius Witt,PBC Bruchsal,PBC Bruchsal 2 | PBC Bruchsal 3,113
+p:368292,368292,Matthias Grgic,Matthias Grgic,BC Sindelfingen,BC Sindelfingen 5 | BC Sindelfingen 6,113
 p:101984,101984,Rainer Hops,Rainer Hops,BV Markdorf | PBC Bad Saulgau,BV Markdorf 2 | BV Markdorf 3 | PBC Bad Saulgau 2,113
+p:104752,104752,Zehrudin Vereget,Zehrudin Vereget,PBV Schwetzingen,PBV Schwetzingen 3,113
 n:freilos|PBC Backnang,,Freilos (PBC Backnang),Freilos,PBC Backnang,PBC Backnang,112
 p:104021,104021,Jörg Schick-Bringer,Jörg Schick-Bringer,BC Neckarsulm,BC Neckarsulm 1 | BC Neckarsulm 2,112
 p:352494,352494,Jürgen Klatt,Jürgen Klatt,BC Feuersee | BV Leonberg,BC Feuersee 3 | BC Feuersee 4 | BV Leonberg 1,112
 p:105209,105209,Marvin Zimmer,Marvin Zimmer,BSC Lions Bietigheim,BSC Lions Bietigheim 1 | BSC Lions Bietigheim 2,112
 p:368475,368475,Michael Schneider,Michael Schneider,Pool Knights Bensheim,Pool Knights Bensheim 1,112
 p:100325,100325,Susi Harbrecht-Berndt,Susi Harbrecht-Berndt,BULL Leonberg-Höfingen | PP Böblingen,BULL Leonberg-Höfingen 2 | BULL Leonberg-Höfingen 3 | PP Böblingen 2,112
+p:102626,102626,Thomas Krüger,Thomas Krüger,BULL Leonberg-Höfingen,BULL Leonberg-Höfingen 2 | BULL Leonberg-Höfingen 3,112
 p:111155,111155,Önder Coskun,Önder Coskun,BSC Lions Bietigheim,BSC Lions Bietigheim 1 | BSC Lions Bietigheim 2,112
 p:102663,102663,Andreas Kullmann,Andreas Kullmann,PBC Waghäusel,PBC Waghäusel 1,111
 p:103598,103598,Andreas Rago,Andreas Rago,BC Sindelfingen | PBC Nagoldtal,BC Sindelfingen 2 | BC Sindelfingen 3 | PBC Nagoldtal 1,111
+p:103552,103552,Claudio Pontuti,Claudio Pontuti,BC Stuttgart 1891 | BSV Filderstadt | TV Cannstatt,BC Stuttgart 1891 2 | BC Stuttgart 1891 3 | BSV Filderstadt 3 | BSV Filderstadt 4 | TV Cannstatt 3,111
 p:368058,368058,Holger Domdey,Holger Domdey,BC Blaustein,BC Blaustein 1,111
 p:100100,100100,Markus Appenowitz,Markus Appenowitz,BSV Filderstadt,BSV Filderstadt 1 | BSV Filderstadt 2 | BSV Filderstadt 3,111
-p:368292,368292,Matthias Grgic,Matthias Grgic,BC Sindelfingen,BC Sindelfingen 5 | BC Sindelfingen 6,111
 p:100918,100918,Thomas Drey,Thomas Drey,BF Bronnen | PBC Ochsenhausen,BF Bronnen 1 | PBC Ochsenhausen 3,111
 p:102280,102280,Zoltan Kelemen,Zoltan Kelemen,BSF Kurpfalz,BSF Kurpfalz 2 | BSF Kurpfalz 3,111
 p:368111,368111,Ali Cetin,Ali Cetin,BC Bad Schussenried,BC Bad Schussenried 1 | BC Bad Schussenried 2 | BC Bad Schussenried 3 | BC Bad Schussenried 4,110
@@ -300,7 +303,7 @@ p:101670,101670,Horst Hardtke,Horst Hardtke,BC Aalen,BC Aalen 2 | BC Aalen 3,110
 p:101818,101818,Melanie Henschel,Melanie Henschel,PBC Offenburg,PBC Offenburg 3 | PBC Offenburg 4 | PBC Offenburg 6,110
 p:228532,228532,Osman Büyük,Osman Büyük,BSV Filderstadt,BSV Filderstadt 2 | BSV Filderstadt 3,110
 p:101689,101689,Richy Hartmann,Richy Hartmann,PBC Sand,PBC Sand 1,110
-p:102626,102626,Thomas Krüger,Thomas Krüger,BULL Leonberg-Höfingen,BULL Leonberg-Höfingen 2 | BULL Leonberg-Höfingen 3,110
+p:101313,101313,Stefan Gaschler,Stefan Gaschler,BC Dallau,BC Dallau 1 | BC Dallau 2,110
 p:102551,102551,Zlatko Rosin,Zlatko Rosin,BC Aalen,BC Aalen 2 | BC Aalen 3 | BC Aalen 4,110
 p:102114,102114,Andreas Jeschka,Andreas Jeschka,PBC Reutlingen,PBC Reutlingen 1,109
 p:102406,102406,Axel Klimmer,Axel Klimmer,PBC Bräunlingen,PBC Bräunlingen 1 | PBC Bräunlingen 2,109
@@ -310,6 +313,8 @@ p:103910,103910,Petra Sannwald,Petra Sannwald,BC Sindelfingen,BC Sindelfingen 2 
 p:248593,248593,Sebastian Albrecht,Sebastian Albrecht,BC Neckarsulm,BC Neckarsulm 1,109
 p:100075,100075,Benno Amann,Benno Amann,BC Unterteuringen,BC Unterteuringen 1,108
 p:240228,240228,Florian Walther,Florian Walther,PBC Bruchsal,PBC Bruchsal 2 | PBC Bruchsal 3,108
+p:103635,103635,Hendrik Reckers,Hendrik Reckers,BF Bruchsal | JS Mingolsheim,BF Bruchsal 1 | JS Mingolsheim 1,108
+p:100531,100531,Lutz Brian,Lutz Brian,BC Dallau,BC Dallau 1 | BC Dallau 2,108
 p:102320,102320,Michael Keuker,Michael Keuker,BF Weinheim-Viernheim,BF Weinheim-Viernheim 1,108
 p:103756,103756,Norbert Ritschel,Norbert Ritschel,PBC Nagoldtal,PBC Nagoldtal 1 | PBC Nagoldtal 2 | PBC Nagoldtal 3,108
 p:248185,248185,Peter Baur,Peter Baur,BSG Albstadt | Tübinger BC,BSG Albstadt 1 | Tübinger BC 3,108
@@ -319,14 +324,14 @@ p:100585,100585,Arnd Bülow,Arnd Bülow,BF Bruchsal,BF Bruchsal 2 | BF Bruchsal 
 p:353387,353387,Daniela Behrend,Daniela Behrend,Mannheimer BF,Mannheimer BF 3 | Mannheimer BF 4 | Mannheimer BF 5,107
 p:367959,367959,Kurt Saller,Kurt Saller,BC Sindelfingen | PBC Nagoldtal,BC Sindelfingen 5 | BC Sindelfingen 7 | PBC Nagoldtal 2,107
 p:163715,163715,Marc Wagner,Marc Wagner,BC Blaustein,BC Blaustein 1,107
+p:103581,103581,Matthias Pujic,Matthias Pujic,JS Mingolsheim,JS Mingolsheim 1 | JS Mingolsheim 2,107
 p:100641,100641,Pietro Calo,Pietro Calo,BV Markdorf,BV Markdorf 2 | BV Markdorf 3,107
 p:104379,104379,Silvestar Smokovic,Silvestar Smokovic,BSC Göppingen,BSC Göppingen 1 | BSC Göppingen 2,107
 p:104870,104870,Tobias Walz,Tobias Walz,PBC Nagoldtal,PBC Nagoldtal 1 | PBC Nagoldtal 2 | PBC Nagoldtal 3,107
-p:104752,104752,Zehrudin Vereget,Zehrudin Vereget,PBV Schwetzingen,PBV Schwetzingen 3,107
 p:104286,104286,Andre Schwenzfeier,Andre Schwenzfeier,BSV Pfullingen,BSV Pfullingen 2 | BSV Pfullingen 3 | BSV Pfullingen 4,106
 p:101474,101474,Andreas Greitmann,Andreas Greitmann,BC Unterteuringen,BC Unterteuringen 1,106
 p:103064,103064,Carsten Mellmann,Carsten Mellmann,Mannheimer BF,Mannheimer BF 1 | Mannheimer BF 2,106
-p:103552,103552,Claudio Pontuti,Claudio Pontuti,BC Stuttgart 1891 | BSV Filderstadt | TV Cannstatt,BC Stuttgart 1891 2 | BC Stuttgart 1891 3 | BSV Filderstadt 3 | BSV Filderstadt 4 | TV Cannstatt 3,106
+p:242710,242710,Christian Joos,Christian Joos,BC Dreiländereck,BC Dreiländereck 1 | BC Dreiländereck 2,106
 p:100983,100983,Frank Eisele,Frank Eisele,BC Sindelfingen | PBC Reutlingen,BC Sindelfingen 2 | BC Sindelfingen 3 | PBC Reutlingen 1,106
 p:101103,101103,Ingo Fehr,Ingo Fehr,BC Unterteuringen,BC Unterteuringen 1,106
 p:102175,102175,Mario Kaiser,Mario Kaiser,BSC St. Georgen,BSC St. Georgen 1,106
@@ -337,6 +342,7 @@ p:240171,240171,Steffen Hoffmann,Steffen Hoffmann,BF Bruchsal,BF Bruchsal 2 | BF
 p:102719,102719,Uwe Lang,Uwe Lang,BC Dreiländereck | PBC Offenburg,BC Dreiländereck 1 | BC Dreiländereck 2 | PBC Offenburg 2,106
 p:353643,353643,Ernst Fabian,Ernst Fabian,BF Weinheim-Viernheim,BF Weinheim-Viernheim 2 | BF Weinheim-Viernheim 3 | BF Weinheim-Viernheim 4,105
 n:freilos|BC Feuersee Ludwigsburg,,Freilos (BC Feuersee Ludwigsburg),Freilos,BC Feuersee Ludwigsburg,BC Feuersee Ludwigsburg | BC Feuersee Ludwigsburg 2,105
+p:105051,105051,Georg Winter,Georg Winter,BV Markdorf,BV Markdorf 1 | BV Markdorf 2,105
 p:101528,101528,Gerhard Gryschka,Gerhard Gryschka,BV Pforzheim,BV Pforzheim 1 | BV Pforzheim 2 | BV Pforzheim 3,105
 p:100008,100008,Luciano Abruzzese,Luciano Abruzzese,BV Markdorf,BV Markdorf 2 | BV Markdorf 3,105
 p:100500,100500,Petra Braun,Petra Braun,BC Sindelfingen,BC Sindelfingen 2 | BC Sindelfingen 4 | BC Sindelfingen 5,105
@@ -346,16 +352,13 @@ p:100388,100388,Uwe Bitsch,Uwe Bitsch,Mannheimer BF,Mannheimer BF 3 | Mannheimer
 p:221926,221926,Valentin Marten,Valentin Marten,BC Neckarsulm,BC Neckarsulm 1,105
 p:248469,248469,Fabian Metz,Fabian Metz,CC Karlsruhe,CC Karlsruhe 1 | CC Karlsruhe 2,104
 n:freilos|PBC Rastatt,,Freilos (PBC Rastatt),Freilos,PBC Rastatt,PBC Rastatt | PBC Rastatt 2,104
-p:100531,100531,Lutz Brian,Lutz Brian,BC Dallau,BC Dallau 1 | BC Dallau 2,104
 p:100996,100996,Marcus Elfenthal,Marcus Elfenthal,P&S Denzlingen,P&S Denzlingen 1 | P&S Denzlingen 2 | P&S Denzlingen 3,104
 p:100667,100667,Pascal Cecotti,Pascal Cecotti,BC Dätzingen,BC Dätzingen 1 | BC Dätzingen 2,104
 p:100732,100732,Roberto D`Elia,Roberto D`Elia,BC Unterteuringen,BC Unterteuringen 1,104
-p:101313,101313,Stefan Gaschler,Stefan Gaschler,BC Dallau,BC Dallau 1 | BC Dallau 2,104
 p:100009,100009,Bülent Acar,Bülent Acar,PBC Bruchsal,PBC Bruchsal 1,103
 p:100662,100662,Fabian Cecotti,Fabian Cecotti,BC Dätzingen,BC Dätzingen 1 | BC Dätzingen 2,103
 p:100852,100852,Heiko Difflipp,Heiko Difflipp,PBC Schwäbisch Hall,PBC Schwäbisch Hall 2,103
-p:103581,103581,Matthias Pujic,Matthias Pujic,JS Mingolsheim,JS Mingolsheim 1 | JS Mingolsheim 2,103
-p:103635,103635,Hendrik Reckers,Hendrik Reckers,BF Bruchsal | JS Mingolsheim,BF Bruchsal 1 | JS Mingolsheim 1,102
+p:368142,368142,Philip Kammnick,Philip Kammnick,BC Bad Schussenried,BC Bad Schussenried 2 | BC Bad Schussenried 3,103
 n:ivan mikulic|PBC Waghäusel,,Ivan Mikulic (PBC Waghäusel),Ivan Mikulic,PBC Waghäusel,PBC Waghäusel 2 | PBC Waghäusel 3 | PBC Waghäusel 4,102
 p:368274,368274,Mark Pfaffenrodt,Mark Pfaffenrodt,BV Villingen-Schwenningen,BV Villingen-Schwenningen 2,102
 p:103105,103105,Michael Metzger [103105],Michael Metzger,JS Mingolsheim | PBV Schwetzingen,JS Mingolsheim 2 | PBV Schwetzingen 4 | PBV Schwetzingen 5 | PBV Schwetzingen 6 | PBV Schwetzingen 8,102
@@ -364,7 +367,6 @@ p:350961,350961,Sabine Hort,Sabine Hort,BV Pforzheim,BV Pforzheim 1,102
 p:104902,104902,Sonny Weber,Sonny Weber,BBV Mannheim,BBV Mannheim 1 | BBV Mannheim 2,102
 p:367944,367944,Thomas Rehmann,Thomas Rehmann,BV Markdorf,BV Markdorf 1 | BV Markdorf 2,102
 p:242796,242796,Frank Schwenk,Frank Schwenk,BSC Göppingen,BSC Göppingen 1 | BSC Göppingen 2,101
-p:105051,105051,Georg Winter,Georg Winter,BV Markdorf,BV Markdorf 1 | BV Markdorf 2,101
 p:105077,105077,Marcus Wittner,Marcus Wittner,BSC Lions Bietigheim,BSC Lions Bietigheim 1 | BSC Lions Bietigheim 2,101
 p:104546,104546,Michael Strohmaier,Michael Strohmaier,BSV Tiengen,BSV Tiengen 2 | BSV Tiengen 3,101
 p:100679,100679,Orhan Cetin,Orhan Cetin,BSV Pfullingen,BSV Pfullingen 1 | BSV Pfullingen 2,101
@@ -380,6 +382,7 @@ n:marco roll|BF Weinheim-Viernheim,,Marco Roll (BF Weinheim-Viernheim),Marco Rol
 p:242926,242926,Nils Dannhauer,Nils Dannhauer,BC Feuersee,BC Feuersee 1 | BC Feuersee 2 | BC Feuersee 4 | BC Feuersee 5,100
 p:103128,103128,Aristidis Michailidis,Aristidis Michailidis,BSV Filderstadt,BSV Filderstadt 2 | BSV Filderstadt 3 | BSV Filderstadt 4,99
 p:352635,352635,Draoui El Mokhtar,Draoui El Mokhtar,BV Pforzheim,BV Pforzheim 1 | BV Pforzheim 2 | BV Pforzheim 3 | BV Pforzheim 4,99
+p:104396,104396,Eric Sorg,Eric Sorg,BSV Shooters Fellbach | PBC Aalen,BSV Shooters Fellbach 1 | PBC Aalen 1,99
 p:368562,368562,Jeremy Eckert,Jeremy Eckert,PBC Offenburg,PBC Offenburg 3 | PBC Offenburg 4 | PBC Offenburg 5,99
 p:244836,244836,Michael Strenski,Michael Strenski,BF Bruchsal | PBC Bruchsal,BF Bruchsal 2 | PBC Bruchsal 2,99
 p:100296,100296,Mustafa Benk,Mustafa Benk,PBC Bietigheim-Bissingen | TV Cannstatt,PBC Bietigheim-Bissingen 1 | PBC Bietigheim-Bissingen 2 | TV Cannstatt 2,99
@@ -392,10 +395,9 @@ p:104257,104257,Jörg Schwager,Jörg Schwager,BSC Göppingen,BSC Göppingen 1 | 
 p:354684,354684,Markus Geßinger,Markus Geßinger,PBC Bietigheim-Bissingen,PBC Bietigheim-Bissingen 1 | PBC Bietigheim-Bissingen 2,98
 p:351923,351923,Maxim Buchstab,Maxim Buchstab,PBC Schwäbisch Gmünd,PBC Schwäbisch Gmünd 1 | PBC Schwäbisch Gmünd 2,98
 p:230995,230995,Mustafa Özyürük,Mustafa Özyürük,BC Aalen,BC Aalen 2 | BC Aalen 3 | BC Aalen 4,98
-p:368142,368142,Philip Kammnick,Philip Kammnick,BC Bad Schussenried,BC Bad Schussenried 2 | BC Bad Schussenried 3,98
+p:102219,102219,Thorsten Kappus,Thorsten Kappus,BSV Pfullingen,BSV Pfullingen 1 | BSV Pfullingen 2,98
 p:242773,242773,Yilmaz Aygün,Yilmaz Aygün,P&S Denzlingen,P&S Denzlingen 1,98
 p:242771,242771,Armin Reidel,Armin Reidel,BF Weinheim-Viernheim,BF Weinheim-Viernheim 2 | BF Weinheim-Viernheim 3,97
-p:242710,242710,Christian Joos,Christian Joos,BC Dreiländereck,BC Dreiländereck 1 | BC Dreiländereck 2,97
 p:350473,350473,Gabriele Winzer-Moser,Gabriele Winzer-Moser,BSC St. Georgen,BSC St. Georgen 1,97
 p:253498,253498,Johanna Indlekofer,Johanna Indlekofer,BC Dreiländereck | BSV Tiengen,BC Dreiländereck 1 | BC Dreiländereck 2 | BSV Tiengen 2,97
 p:102115,102115,Lutz Jeschke,Lutz Jeschke,BC Weingarten,BC Weingarten 1,97
@@ -405,10 +407,10 @@ p:102518,102518,Ralf Koppenhöfer,Ralf Koppenhöfer,CC Karlsruhe,CC Karlsruhe 3 
 n:sascha pick|BBV Mannheim,,Sascha Pick (BBV Mannheim),Sascha Pick,BBV Mannheim,BBV Mannheim 2 | BBV Mannheim 3,97
 p:104085,104085,Werner Schmidberger,Werner Schmidberger,PBC Ochsenhausen,PBC Ochsenhausen 3 | PBC Ochsenhausen 4,97
 p:102973,102973,Arno Marotz,Arno Marotz,BSV Filderstadt,BSV Filderstadt 2 | BSV Filderstadt 3 | BSV Filderstadt 4,96
-p:104396,104396,Eric Sorg,Eric Sorg,BSV Shooters Fellbach | PBC Aalen,BSV Shooters Fellbach 1 | PBC Aalen 1,96
 p:351633,351633,Jochen Fiedler,Jochen Fiedler,Mannheimer BF,Mannheimer BF 2 | Mannheimer BF 3 | Mannheimer BF 4,96
 p:247504,247504,Riccardo Heinen,Riccardo Heinen,PBV Schwetzingen,PBV Schwetzingen 3 | PBV Schwetzingen 4 | PBV Schwetzingen 5,96
 p:355290,355290,Roland Huber,Roland Huber,BF Bruchsal,BF Bruchsal 2 | BF Bruchsal 3 | BF Bruchsal 4,96
+p:354814,354814,Benjamin Ropertz,Benjamin Ropertz,BC Feuersee | BV Leonberg,BC Feuersee 1 | BC Feuersee 2 | BC Feuersee 4 | BV Leonberg 1,95
 p:249359,249359,Florian Pasch,Florian Pasch,PF Calw,PF Calw 1 | PF Calw 2 | PF Calw 3,95
 p:251775,251775,Joao Rodrigues,Joao Rodrigues,BSV Pfullingen,BSV Pfullingen 2 | BSV Pfullingen 3 | BSV Pfullingen 4,95
 p:368258,368258,Jürgen Steinmann,Jürgen Steinmann,BF Weinheim-Viernheim | PBC Fr. Lampertheim,BF Weinheim-Viernheim 1 | BF Weinheim-Viernheim 2 | PBC Fr. Lampertheim 1,95
@@ -431,7 +433,6 @@ p:247196,247196,Marc-Andre Barisch,Marc-Andre Barisch,TV Cannstatt,TV Cannstatt 
 p:104819,104819,Roland Wacker,Roland Wacker,PBC Reutlingen | Tübinger BC,PBC Reutlingen 1 | PBC Reutlingen 2 | PBC Reutlingen 3 | Tübinger BC | Tübinger BC 1,93
 p:103616,103616,Sebastiano Ratto,Sebastiano Ratto,BSC Göppingen,BSC Göppingen 1 | BSC Göppingen 2,93
 p:368506,368506,Seong-Jin Kim,Seong-Jin Kim,BSV Tiengen,BSV Tiengen 2 | BSV Tiengen 3,93
-p:102219,102219,Thorsten Kappus,Thorsten Kappus,BSV Pfullingen,BSV Pfullingen 1 | BSV Pfullingen 2,93
 p:105133,105133,Ahmet Yazici,Ahmet Yazici,BC Sindelfingen | PBC Nagoldtal,BC Sindelfingen 2 | BC Sindelfingen 3 | PBC Nagoldtal 1 | PBC Nagoldtal 2,92
 p:102153,102153,Benjamin Jung,Benjamin Jung,PBC Freudenstadt,PBC Freudenstadt 1 | PBC Freudenstadt 2,92
 p:101612,101612,Dirk Hafner,Dirk Hafner,PBC Offenburg,PBC Offenburg 2 | PBC Offenburg 3 | PBC Offenburg 4,92
@@ -442,17 +443,19 @@ p:102204,102204,Markus Kamuf,Markus Kamuf,BF Bruchsal,BF Bruchsal 1 | BF Bruchsa
 n:peter lotterer|PBC Reutlingen,,Peter Lotterer (PBC Reutlingen),Peter Lotterer,PBC Reutlingen,PBC Reutlingen,92
 p:100463,100463,Stephan Boschert,Stephan Boschert,PBV Schwetzingen,PBV Schwetzingen 4 | PBV Schwetzingen 5 | PBV Schwetzingen 6 | PBV Schwetzingen 7,92
 p:242923,242923,Stephan Nimführ,Stephan Nimführ,PBC Schwäbisch Gmünd,PBC Schwäbisch Gmünd 1 | PBC Schwäbisch Gmünd 2,92
-p:354814,354814,Benjamin Ropertz,Benjamin Ropertz,BC Feuersee | BV Leonberg,BC Feuersee 1 | BC Feuersee 2 | BC Feuersee 4 | BV Leonberg 1,91
 p:100632,100632,Jens Butenschön,Jens Butenschön,PBC Langenargen,PBC Langenargen 2 | PBC Langenargen 3,91
 p:368777,368777,Kian Sohns,Kian Sohns,VFL Herrenberg,VFL Herrenberg 1,91
 p:101200,101200,Martin Frei,Martin Frei,PBC Offenburg,PBC Offenburg 2 | PBC Offenburg 4,91
 p:101587,101587,Rainer Habelt,Rainer Habelt,TV Cannstatt,TV Cannstatt 2 | TV Cannstatt 4,91
 p:366176,366176,Stefan Lorenz,Stefan Lorenz,BC Sindelfingen | PBC Nagoldtal,BC Sindelfingen 4 | BC Sindelfingen 7 | PBC Nagoldtal 2,91
 p:102111,102111,Zvonimir Jembrih,Zvonimir Jembrih,PBC Schwäbisch Gmünd,PBC Schwäbisch Gmünd 1 | PBC Schwäbisch Gmünd 2,91
+p:368202,368202,Angelo Truisi,Angelo Truisi,CC Karlsruhe | PP Karlsbad,CC Karlsruhe 1 | CC Karlsruhe 3 | CC Karlsruhe 5 | PP Karlsbad 1,90
 p:368299,368299,Christian Schaber,Christian Schaber,PBC Bad Saulgau | PBC Langenargen,PBC Bad Saulgau 1 | PBC Langenargen 2 | PBC Langenargen 3,90
 p:100123,100123,Franjo Antunovic,Franjo Antunovic,BBC Plochingen,BBC Plochingen 1 | BBC Plochingen 2,90
 n:freilos|P&S Denzlingen,,Freilos (P&S Denzlingen),Freilos,P&S Denzlingen,P&S Denzlingen | P&S Denzlingen 2 | P&S Denzlingen 3,90
 p:103612,103612,Gerald Rastetter,Gerald Rastetter,BSC Lions Bietigheim,BSC Lions Bietigheim 1 | BSC Lions Bietigheim 2,90
+p:102758,102758,Joachim Lechenbauer,Joachim Lechenbauer,BC Stuttgart 1891,BC Stuttgart 1891 2 | BC Stuttgart 1891 3 | BC Stuttgart 1891 4,90
+p:104339,104339,Marco Seybold,Marco Seybold,PBC Bietigheim-Bissingen,PBC Bietigheim-Bissingen 1 | PBC Bietigheim-Bissingen 2 | PBC Bietigheim-Bissingen 3 | PBC Bietigheim-Bissingen 4,90
 p:103837,103837,Michael Roth,Michael Roth,CC Karlsruhe,CC Karlsruhe 1 | CC Karlsruhe 2,90
 p:367416,367416,Stefan Weber,Stefan Weber,PBC Bietigheim-Bissingen,PBC Bietigheim-Bissingen 1 | PBC Bietigheim-Bissingen 2 | PBC Bietigheim-Bissingen 3,90
 p:171256,171256,Timo Reinert,Timo Reinert,BF Weinheim-Viernheim | PBC Fr. Lampertheim,BF Weinheim-Viernheim 1 | BF Weinheim-Viernheim 2 | PBC Fr. Lampertheim 1,90
@@ -462,6 +465,7 @@ p:104129,104129,Axel Schmucker,Axel Schmucker,Mannheimer BF,Mannheimer BF 1 | Ma
 n:freilos|Heidenheimer BC,,Freilos (Heidenheimer BC),Freilos,Heidenheimer BC,Heidenheimer BC | Heidenheimer BC 2 | Heidenheimer BC 3,89
 p:251187,251187,Kathrin Karwath,Kathrin Karwath,PBC Reutlingen,PBC Reutlingen 2 | PBC Reutlingen 3,89
 p:242992,242992,Mark Hast,Mark Hast,Tübinger BC,Tübinger BC | Tübinger BC 1 | Tübinger BC 2,89
+p:349928,349928,Pascal Habiger,Pascal Habiger,BV Pforzheim,BV Pforzheim 1 | BV Pforzheim 2 | BV Pforzheim 3 | BV Pforzheim 4,89
 p:242950,242950,Rudolf Schulz,Rudolf Schulz,PBV Schwetzingen,PBV Schwetzingen 5 | PBV Schwetzingen 8 | PBV Schwetzingen 9,89
 p:100982,100982,Andreas Einsiedler,Andreas Einsiedler,PBC Langenargen,PBC Langenargen 1 | PBC Langenargen 2,88
 p:102424,102424,Andreas Knauf,Andreas Knauf,BSC Göppingen | TV Cannstatt,BSC Göppingen 2 | BSC Göppingen 3 | TV Cannstatt 4,88
@@ -469,8 +473,6 @@ p:103469,103469,David Party,David Party,PBC Offenburg,PBC Offenburg 2 | PBC Offe
 p:244866,244866,Dominik Netzhammer,Dominik Netzhammer,BSV Tiengen,BSV Tiengen 2 | BSV Tiengen 3,88
 n:felix kern|PBC Waghäusel,,Felix Kern (PBC Waghäusel),Felix Kern,PBC Waghäusel,PBC Waghäusel | PBC Waghäusel 2,88
 p:103094,103094,Franz Meschenmoser,Franz Meschenmoser,PBC Bad Saulgau,PBC Bad Saulgau 2 | PBC Bad Saulgau 3 | PBC Bad Saulgau 4,88
-p:102758,102758,Joachim Lechenbauer,Joachim Lechenbauer,BC Stuttgart 1891,BC Stuttgart 1891 2 | BC Stuttgart 1891 3 | BC Stuttgart 1891 4,88
-p:104339,104339,Marco Seybold,Marco Seybold,PBC Bietigheim-Bissingen,PBC Bietigheim-Bissingen 1 | PBC Bietigheim-Bissingen 2 | PBC Bietigheim-Bissingen 3 | PBC Bietigheim-Bissingen 4,88
 n:michael keuker|BF Weinheim-Viernheim,,Michael Keuker (BF Weinheim-Viernheim),Michael Keuker,BF Weinheim-Viernheim,BF Weinheim-Viernheim,88
 p:103686,103686,Michael Reiser,Michael Reiser,PF Calw,PF Calw 1 | PF Calw 2,88
 p:351842,351842,René Wieczorek,René Wieczorek,BC Dallau | BC Neckarsulm | PBV Schwetzingen,BC Dallau 3 | BC Neckarsulm 3 | PBV Schwetzingen 5 | PBV Schwetzingen 7,88
@@ -479,17 +481,17 @@ p:355164,355164,Saskia Schirmer,Saskia Schirmer,CC Karlsruhe,CC Karlsruhe 4 | CC
 p:101979,101979,Savas Hopff,Savas Hopff,BC Dätzingen | PF Calw,BC Dätzingen 1 | PF Calw 2,88
 p:367933,367933,Siegbert Müller,Siegbert Müller,BC Bad Schussenried,BC Bad Schussenried 1 | BC Bad Schussenried 2 | BC Bad Schussenried 3,88
 p:102328,102328,Thomas Kielmann,Thomas Kielmann,BF Weinheim-Viernheim | PBC Fr. Lampertheim,BF Weinheim-Viernheim 1 | BF Weinheim-Viernheim 2 | PBC Fr. Lampertheim 1,88
-p:368202,368202,Angelo Truisi,Angelo Truisi,CC Karlsruhe | PP Karlsbad,CC Karlsruhe 1 | CC Karlsruhe 3 | CC Karlsruhe 5 | PP Karlsbad 1,87
+p:240446,240446,Antonio De Gois,Antonio De Gois,BC Neckarsulm,BC Neckarsulm 1 | BC Neckarsulm 2,87
 n:marco di martino|BBV Mannheim,,Marco Di Martino (BBV Mannheim),Marco Di Martino,BBV Mannheim,BBV Mannheim 2 | BBV Mannheim 3,87
 p:350684,350684,Markus Wetzel,Markus Wetzel,BC Dallau,BC Dallau 1 | BC Dallau 2,87
 n:stefan gaschler|BC Dallau,,Stefan Gaschler (BC Dallau),Stefan Gaschler,BC Dallau,BC Dallau | BC Dallau 2,87
 p:103112,103112,Thomas Metzler,Thomas Metzler,PBC Bad Saulgau,PBC Bad Saulgau 2 | PBC Bad Saulgau 3 | PBC Bad Saulgau 4,87
 p:101750,101750,Timo Heim,Timo Heim,PBC Offenburg,PBC Offenburg 3 | PBC Offenburg 4,87
+p:368628,368628,Wilfried Schön,Wilfried Schön,BSC Göppingen,BSC Göppingen 1 | BSC Göppingen 2 | BSC Göppingen 3,87
 p:228681,228681,Andreas Kiefer,Andreas Kiefer,BV Markdorf,BV Markdorf 1 | BV Markdorf 2,86
 p:102305,102305,Felix Kern,Felix Kern,PBC Waghäusel,PBC Waghäusel 2,86
 n:freilos|BF Bruchsal,,Freilos (BF Bruchsal),Freilos,BF Bruchsal,BF Bruchsal | BF Bruchsal 2 | BF Bruchsal 3,86
 p:101265,101265,Michael Füess,Michael Füess,,,86
-p:349928,349928,Pascal Habiger,Pascal Habiger,BV Pforzheim,BV Pforzheim 1 | BV Pforzheim 2 | BV Pforzheim 3 | BV Pforzheim 4,86
 n:sascha sauer|BSV Filderstadt,,Sascha Sauer (BSV Filderstadt),Sascha Sauer,BSV Filderstadt,BSV Filderstadt | BSV Filderstadt 3 | BSV Filderstadt 4,86
 p:100481,100481,Silke Brand,Silke Brand,BC Stuttgart 1891,BC Stuttgart 1891 3 | BC Stuttgart 1891 4,86
 p:154211,154211,Thomas Neumann,Thomas Neumann,PBC Waghäusel,PBC Waghäusel 2 | PBC Waghäusel 3 | PBC Waghäusel 4,86
@@ -497,7 +499,6 @@ n:axel schmucker|BSV Weinheim,,Axel Schmucker (BSV Weinheim),Axel Schmucker,BSV 
 p:368182,368182,Besirat Fekadu,Besirat Fekadu,BSC Göppingen,BSC Göppingen 2,85
 p:103209,103209,Dirk Müller,Dirk Müller,CC Karlsruhe | PP Karlsbad,CC Karlsruhe 1 | CC Karlsruhe 2 | PP Karlsbad 1,85
 p:100486,100486,Martin Brandt,Martin Brandt,BV Markdorf,BV Markdorf 2,85
-p:368628,368628,Wilfried Schön,Wilfried Schön,BSC Göppingen,BSC Göppingen 1 | BSC Göppingen 2 | BSC Göppingen 3,85
 n:fabian snijder|BSV Weinheim,,Fabian Snijder (BSV Weinheim),Fabian Snijder,BSV Weinheim,BSV Weinheim | BSV Weinheim 3 | BSV Weinheim 4 | BSV Weinheim 5,84
 p:368688,368688,Fersun Ünsel,Fersun Ünsel,Mannheimer BF,Mannheimer BF 1 | Mannheimer BF 2 | Mannheimer BF 3,84
 n:freilos|BC Breakers Knittlingen,,Freilos (BC Breakers Knittlingen),Freilos,BC Breakers Knittlingen,BC Breakers Knittlingen | BC Breakers Knittlingen 2,84
@@ -506,7 +507,6 @@ p:368235,368235,Jens Sommer,Jens Sommer,JS Mingolsheim | PBV Schwetzingen,JS Min
 p:249765,249765,Keven König,Keven König,PBV Schwetzingen,PBV Schwetzingen 4 | PBV Schwetzingen 5,84
 n:viktor könig|BF Weinheim-Viernheim,,Viktor König (BF Weinheim-Viernheim),Viktor König,BF Weinheim-Viernheim,BF Weinheim-Viernheim,84
 p:367924,367924,Andreas Hollesen,Andreas Hollesen,CC Karlsruhe,CC Karlsruhe 4 | CC Karlsruhe 5,83
-p:240446,240446,Antonio De Gois,Antonio De Gois,BC Neckarsulm,BC Neckarsulm 1 | BC Neckarsulm 2,83
 p:103820,103820,Christian Rossa,Christian Rossa,BSV Pfullingen | PF Calw,BSV Pfullingen 1 | PF Calw 2,83
 p:101830,101830,Jutta Ute Kreimes,Jutta Ute Kreimes,BF Bruchsal,BF Bruchsal 3 | BF Bruchsal 4,83
 p:102584,102584,Karl-Heinz Krause,Karl-Heinz Krause,PBC Offenburg,PBC Offenburg 3 | PBC Offenburg 5,83
@@ -550,6 +550,7 @@ p:252092,252092,Felix Häntschel,Felix Häntschel,PF Calw,PF Calw 1 | PF Calw 2 
 p:368006,368006,Hans-Henning Schmid,Hans-Henning Schmid,PBC Langenargen,PBC Langenargen 1 | PBC Langenargen 2 | PBC Langenargen 3,80
 p:102918,102918,Holger Maier,Holger Maier,,,80
 p:104986,104986,Josef Wermes,Josef Wermes,PBDC Kämpfelbach | Poolsharks Bruchsal,PBDC Kämpfelbach 1 | Poolsharks Bruchsal 1,80
+p:368781,368781,Kevin Albert,Kevin Albert,BSV Tiengen,BSV Tiengen 2 | BSV Tiengen 3,80
 p:355793,355793,Klaus Woehrlin,Klaus Woehrlin,PBC Offenburg,PBC Offenburg 3 | PBC Offenburg 5,80
 p:100709,100709,Marcus Colmelet,Marcus Colmelet,BSC Lions Bietigheim,BSC Lions Bietigheim 1 | BSC Lions Bietigheim 2,80
 p:104254,104254,Martin Schwab,Martin Schwab,,,80
@@ -577,10 +578,13 @@ n:freilos|PP Karlsbad,,Freilos (PP Karlsbad),Freilos,PP Karlsbad,PP Karlsbad | P
 p:368689,368689,Ibrahim Erdogan,Ibrahim Erdogan,Mannheimer BF,Mannheimer BF 2 | Mannheimer BF 3 | Mannheimer BF 4,78
 p:240316,240316,Louise Wong,Louise Wong,BC Feuersee | BV Leonberg,BC Feuersee 3 | BC Feuersee 4 | BV Leonberg 1,78
 p:100413,100413,Nikolaus Blum,Nikolaus Blum,BC Bad Schussenried | PBC Ochsenhausen,BC Bad Schussenried 4 | BC Bad Schussenried 5 | PBC Ochsenhausen 3,78
+p:367996,367996,Nurcan Ezdi,Nurcan Ezdi,PBC Schwäbisch Gmünd,PBC Schwäbisch Gmünd 1 | PBC Schwäbisch Gmünd 2,78
 n:steffen säubert|PBC Waghäusel,,Steffen Säubert (PBC Waghäusel),Steffen Säubert,PBC Waghäusel,PBC Waghäusel,78
 p:102568,102568,Thomas Kramhöller,Thomas Kramhöller,BC Neckarsulm,BC Neckarsulm 1 | BC Neckarsulm 2,78
 p:368283,368283,Andreas Höhn,Andreas Höhn,BC Feuersee,BC Feuersee 4 | BC Feuersee 6,77
+p:104365,104365,Asmir Sinanovic,Asmir Sinanovic,PBC Freudenstadt,PBC Freudenstadt 2 | PBC Freudenstadt 3 | PBC Freudenstadt 4,77
 n:michael killian|BBV Mannheim,,Michael Killian (BBV Mannheim),Michael Killian,BBV Mannheim,BBV Mannheim 3 | BBV Mannheim 4,77
+p:350315,350315,Ralf Hohlfeld,Ralf Hohlfeld,BC Feuersee,BC Feuersee 1 | BC Feuersee 2 | BC Feuersee 3 | BC Feuersee 4,77
 n:andreas kullmann|PBC Waghäusel,,Andreas Kullmann (PBC Waghäusel),Andreas Kullmann,PBC Waghäusel,PBC Waghäusel,76
 p:355299,355299,Bernd Mahnke,Bernd Mahnke,JS Mingolsheim | PBV Schwetzingen,JS Mingolsheim 2 | JS Mingolsheim 3 | PBV Schwetzingen 6,76
 n:bernd woitanowski|PBC Waghäusel,,Bernd Woitanowski (PBC Waghäusel),Bernd Woitanowski,PBC Waghäusel,PBC Waghäusel | PBC Waghäusel 2,76
@@ -588,7 +592,6 @@ p:351327,351327,Denis Maric,Denis Maric,BC Sindelfingen,BC Sindelfingen 5 | BC S
 n:dennis laszkowski|BBV Mannheim,,Dennis Laszkowski,Dennis Laszkowski,BBV Mannheim,BBV Mannheim | BBV Mannheim 2 | BBV Mannheim 4,76
 p:101447,101447,Eckart Grabe,Eckart Grabe,BSV Filderstadt,BSV Filderstadt 3 | BSV Filderstadt 4 | BSV Filderstadt 5 | BSV Filderstadt 6,76
 n:freilos|BSV Konstanz,,Freilos (BSV Konstanz),Freilos,BSV Konstanz,BSV Konstanz | BSV Konstanz 2,76
-p:368781,368781,Kevin Albert,Kevin Albert,BSV Tiengen,BSV Tiengen 2 | BSV Tiengen 3,76
 p:368616,368616,Mark Szinger,Mark Szinger,BV Villingen-Schwenningen,BV Villingen-Schwenningen 2,76
 p:356269,356269,Michael Metzger [356269],Michael Metzger,BC Feuersee,BC Feuersee 1 | BC Feuersee 3 | BC Feuersee 4,76
 p:368545,368545,Patrick Wilczek,Patrick Wilczek,BC Bad Schussenried,BC Bad Schussenried 2 | BC Bad Schussenried 3 | BC Bad Schussenried 5,76
@@ -603,14 +606,11 @@ p:368295,368295,Cesare Caccavelli,Cesare Caccavelli,PBC Langenargen,PBC Langenar
 p:100025,100025,Erol Ag,Erol Ag,BC Feuersee,BC Feuersee 1 | BC Feuersee 2 | BC Feuersee 3,75
 p:103314,103314,Jonathan Nestler,Jonathan Nestler,PBC Freudenstadt,PBC Freudenstadt 1 | PBC Freudenstadt 2,75
 p:366769,366769,Michael Schwarzjirg,Michael Schwarzjirg,TV Cannstatt,TV Cannstatt 1 | TV Cannstatt 2 | TV Cannstatt 3,75
-p:350315,350315,Ralf Hohlfeld,Ralf Hohlfeld,BC Feuersee,BC Feuersee 1 | BC Feuersee 2 | BC Feuersee 3 | BC Feuersee 4,75
 p:368348,368348,Alexander Egger,Alexander Egger,BC Dätzingen,BC Dätzingen 1 | BC Dätzingen 2 | BC Dätzingen 3,74
 p:350699,350699,Alexander Schröder,Alexander Schröder,BC Dätzingen,BC Dätzingen 1 | BC Dätzingen 2 | BC Dätzingen 3,74
-p:104365,104365,Asmir Sinanovic,Asmir Sinanovic,PBC Freudenstadt,PBC Freudenstadt 2 | PBC Freudenstadt 3 | PBC Freudenstadt 4,74
 n:freilos|BSC St. Georgen,,Freilos (BSC St. Georgen),Freilos,BSC St. Georgen,BSC St. Georgen | BSC St. Georgen 2,74
 n:marius sutor|PBC Offenburg,,Marius Sutor (PBC Offenburg),Marius Sutor,PBC Offenburg,PBC Offenburg | PBC Offenburg 2 | PBC Offenburg 3 | PBC Offenburg 4,74
 n:matthias pujic|Jump Shot Mingolsheim,,Matthias Pujic (Jump Shot Mingolsheim),Matthias Pujic,Jump Shot Mingolsheim,Jump Shot Mingolsheim,74
-p:367996,367996,Nurcan Ezdi,Nurcan Ezdi,PBC Schwäbisch Gmünd,PBC Schwäbisch Gmünd 1 | PBC Schwäbisch Gmünd 2,74
 n:pascal arnold|BSV Weinheim,,Pascal  Arnold,Pascal  Arnold,BSV Weinheim,BSV Weinheim | BSV Weinheim 2 | BSV Weinheim 3,74
 n:roland wacker|PBC Reutlingen,,Roland Wacker (PBC Reutlingen),Roland Wacker,PBC Reutlingen,PBC Reutlingen | PBC Reutlingen 2,74
 p:105049,105049,Ruben Winkler,Ruben Winkler,PBC Schwäbisch Hall,PBC Schwäbisch Hall 1,74
@@ -618,6 +618,7 @@ n:zoltan kelemen|BSF Kurpfalz,,Zoltan Kelemen (BSF Kurpfalz),Zoltan Kelemen,BSF 
 p:101585,101585,Alexander Haass,Alexander Haass,,,73
 n:andreas kunellis|PBC Reutlingen,,Andreas Kunellis (PBC Reutlingen),Andreas Kunellis,PBC Reutlingen,PBC Reutlingen | PBC Reutlingen 2,73
 p:368412,368412,David Agonafer,David Agonafer,PBC Bietigheim-Bissingen,PBC Bietigheim-Bissingen 2 | PBC Bietigheim-Bissingen 3 | PBC Bietigheim-Bissingen 4,73
+p:368341,368341,Dieter Krause,Dieter Krause,BBC Plochingen,BBC Plochingen 2,73
 p:246406,246406,Dominik Krenzer,Dominik Krenzer,BULL Leonberg-Höfingen | PP Böblingen,BULL Leonberg-Höfingen 2 | PP Böblingen 1 | PP Böblingen 2,73
 p:242789,242789,Kevin Künstler,Kevin Künstler,BSC Göppingen,BSC Göppingen 3,73
 p:368266,368266,Luka Antic,Luka Antic,PBC Offenburg,PBC Offenburg 3 | PBC Offenburg 4 | PBC Offenburg 5,73
@@ -643,7 +644,6 @@ n:zejko zoric|P&S Denzlingen,,Zejko Zoric,Zejko Zoric,P&S Denzlingen,P&S Denzlin
 p:367910,367910,Andreas Looser,Andreas Looser,PBC Langenargen,PBC Langenargen 1 | PBC Langenargen 2 | PBC Langenargen 3,71
 p:247575,247575,Andreas Stüber,Andreas Stüber,Mannheimer BF,Mannheimer BF 2 | Mannheimer BF 3,71
 p:123648,123648,Christian Endres,Christian Endres,BULL Leonberg-Höfingen,BULL Leonberg-Höfingen 1,71
-p:368341,368341,Dieter Krause,Dieter Krause,BBC Plochingen,BBC Plochingen 2,71
 p:228708,228708,Hans Heuschmid,Hans Heuschmid,PBC Ochsenhausen,PBC Ochsenhausen 2 | PBC Ochsenhausen 3,71
 p:368096,368096,Jozsef Zvorinji,Jozsef Zvorinji,PP Böblingen | TV Cannstatt,PP Böblingen 1 | TV Cannstatt 1 | TV Cannstatt 2,71
 p:101190,101190,Jürgen Frank,Jürgen Frank,BF Bruchsal,BF Bruchsal 2 | BF Bruchsal 3 | BF Bruchsal 4,71
@@ -658,6 +658,7 @@ p:350685,350685,Frank-Bernd Wieczorek,Frank-Bernd Wieczorek,BC Sindelfingen | PB
 p:100370,100370,Frederik Binder,Frederik Binder,BSV Filderstadt,BSV Filderstadt 3 | BSV Filderstadt 4 | BSV Filderstadt 5 | BSV Filderstadt 6,70
 p:104382,104382,Hendrik Snijder,Hendrik Snijder,Mannheimer BF,Mannheimer BF 1 | Mannheimer BF 2 | Mannheimer BF 3,70
 n:hendrik snijder|BSV Weinheim,,Hendrik Snijder (BSV Weinheim),Hendrik Snijder,BSV Weinheim,BSV Weinheim | BSV Weinheim 2,70
+p:368584,368584,Lukas Böser,Lukas Böser,JS Mingolsheim,JS Mingolsheim 3 | JS Mingolsheim 4,70
 p:242922,242922,Maximilian Jentsch,Maximilian Jentsch,PBC Aalen,PBC Aalen 1 | PBC Aalen 2,70
 p:102525,102525,Pavlos Korezelidis,Pavlos Korezelidis,BBC Plochingen,BBC Plochingen 1,70
 p:245275,245275,Richard Cornely,Richard Cornely,PBV Schwetzingen,PBV Schwetzingen 4 | PBV Schwetzingen 5 | PBV Schwetzingen 8 | PBV Schwetzingen 9,70
@@ -678,7 +679,7 @@ p:103603,103603,Thorsten Rammer,Thorsten Rammer,PBC Freudenstadt | PBC Nagoldtal
 p:104203,104203,Andreas Schroff,Andreas Schroff,,,68
 p:244785,244785,Brian Biercher,Brian Biercher,BSV Tiengen,BSV Tiengen 2 | BSV Tiengen 3,68
 p:103072,103072,Florian Menzel,Florian Menzel,,,68
-p:368584,368584,Lukas Böser,Lukas Böser,JS Mingolsheim,JS Mingolsheim 3 | JS Mingolsheim 4,68
+p:368751,368751,Giovanni Genovese,Giovanni Genovese,PBV Schwetzingen,PBV Schwetzingen 4 | PBV Schwetzingen 6,68
 p:350651,350651,Marvin Szymiczek,Marvin Szymiczek,BV Pforzheim,BV Pforzheim 3 | BV Pforzheim 4,68
 p:350393,350393,Oliver Kielwein,Oliver Kielwein,BC Sindelfingen,BC Sindelfingen 3,68
 p:103069,103069,Roland Menrath,Roland Menrath,JS Mingolsheim | PBV Schwetzingen,JS Mingolsheim 2 | JS Mingolsheim 3 | PBV Schwetzingen 5 | PBV Schwetzingen 6,68
@@ -713,6 +714,7 @@ n:qayssar al saedi|BSV Konstanz,,Qayssar Al Saedi (BSV Konstanz),Qayssar Al Saed
 p:249080,249080,Uwe Machalett,Uwe Machalett,PBC Freudenstadt,PBC Freudenstadt 2 | PBC Freudenstadt 3,66
 n:freilos|PBV Rottweil,,Freilos (PBV Rottweil),Freilos,PBV Rottweil,PBV Rottweil | PBV Rottweil 2 | PBV Rottweil 3,65
 p:368563,368563,Joachim Koepke,Joachim Koepke,PBC Offenburg,PBC Offenburg 3 | PBC Offenburg 4 | PBC Offenburg 5,65
+p:368818,368818,Leon Schick,Leon Schick,BC Neckarsulm,BC Neckarsulm 1 | BC Neckarsulm 2,65
 p:242955,242955,Manfred Kalliehs,Manfred Kalliehs,PF Calw,PF Calw 1 | PF Calw 2 | PF Calw 3,65
 n:mathias hartner|Heidenheimer BC,,Mathias Hartner,Mathias Hartner,Heidenheimer BC,Heidenheimer BC | Heidenheimer BC 2,65
 p:251014,251014,Michael Gärttner,Michael Gärttner,BC Sindelfingen | PP Böblingen,BC Sindelfingen 8 | BC Sindelfingen 9 | PP Böblingen 3,65
@@ -723,14 +725,18 @@ n:tasos tsolakidis|Heidenheimer BC,,Tasos Tsolakidis,Tasos Tsolakidis,Heidenheim
 n:thomas kühn|BBV Mannheim,,Thomas Kühn (BBV Mannheim),Thomas Kühn,BBV Mannheim,BBV Mannheim 2 | BBV Mannheim 3,65
 n:thomas sommer|PBV Schwetzingen,,Thomas Sommer (PBV Schwetzingen),Thomas Sommer,PBV Schwetzingen,PBV Schwetzingen 2 | PBV Schwetzingen 3,65
 p:368622,368622,Vy Le Tuong,Vy Le Tuong,BC Stuttgart 1891,BC Stuttgart 1891 3 | BC Stuttgart 1891 4,65
+p:368041,368041,Alexander Srp,Alexander Srp,BC Feuersee,BC Feuersee 1,64
 n:andreas petzold|Jump Shot Mingolsheim,,Andreas Petzold,Andreas Petzold,Jump Shot Mingolsheim,Jump Shot Mingolsheim,64
+p:104199,104199,Bernd Schröder,Bernd Schröder,PBC Bräunlingen,PBC Bräunlingen 2,64
 p:100511,100511,Christian Brehme,Christian Brehme,,,64
 p:368402,368402,Cuong Dao-Ngoc,Cuong Dao-Ngoc,BC Sindelfingen,BC Sindelfingen 7 | BC Sindelfingen 8,64
 n:daniel bissinger|PBC Offenburg,,Daniel Bissinger,Daniel Bissinger,PBC Offenburg,PBC Offenburg 2 | PBC Offenburg 4,64
 n:david party|PBC Offenburg,,David Party (PBC Offenburg),David Party,PBC Offenburg,PBC Offenburg 2 | PBC Offenburg 4,64
 n:freilos|BC Feuersee,,Freilos (BC Feuersee),Freilos,BC Feuersee,BC Feuersee,64
+p:105130,105130,Hakan Yaratici,Hakan Yaratici,PBC Bräunlingen,PBC Bräunlingen 1 | PBC Bräunlingen 2,64
 p:101010,101010,Hardi Engel,Hardi Engel,BV Markdorf,BV Markdorf 2 | BV Markdorf 3,64
 p:368385,368385,Heidwin Sommer,Heidwin Sommer,PBV Schwetzingen,PBV Schwetzingen 8 | PBV Schwetzingen 9,64
+p:368484,368484,Jasim Ammar Jasim Al-Khazraji,Jasim Ammar Jasim Al-Khazraji,Pool Knights Bensheim,Pool Knights Bensheim 1 | Pool Knights Bensheim 2,64
 p:368409,368409,Lothar Hirsch,Lothar Hirsch,PBC Bietigheim-Bissingen,PBC Bietigheim-Bissingen 2 | PBC Bietigheim-Bissingen 3 | PBC Bietigheim-Bissingen 4,64
 n:michael diedrich|PBC Sand,,Michael Diedrich (PBC Sand),Michael Diedrich,PBC Sand,PBC Sand,64
 n:mike white|BSV Pfullingen,,Mike White,Mike White,BSV Pfullingen,BSV Pfullingen 3 | BSV Pfullingen 4,64
@@ -741,8 +747,6 @@ p:101823,101823,Andreas Guenier,Andreas Guenier,Mannheimer BF,Mannheimer BF 2 | 
 p:159294,159294,Christina Schneider-Radunovic,Christina Schneider-Radunovic,BC Sindelfingen,BC Sindelfingen 2,63
 p:246933,246933,Daniel Nieter,Daniel Nieter,TV Cannstatt,TV Cannstatt 2 | TV Cannstatt 4,63
 p:368469,368469,Gerhard Ehrenfried,Gerhard Ehrenfried,Pool Knights Bensheim,Pool Knights Bensheim 2,63
-p:368751,368751,Giovanni Genovese,Giovanni Genovese,PBV Schwetzingen,PBV Schwetzingen 4 | PBV Schwetzingen 6,63
-p:368818,368818,Leon Schick,Leon Schick,BC Neckarsulm,BC Neckarsulm 1 | BC Neckarsulm 2,63
 p:252363,252363,Moritz Rutkowski,Moritz Rutkowski,CC Karlsruhe | Mannheimer BF | PBC Rastatt,CC Karlsruhe 1 | Mannheimer BF 2 | PBC Rastatt 2,63
 p:104179,104179,Rainer Schönfeld,Rainer Schönfeld,PBC Reutlingen,PBC Reutlingen 1,63
 p:368222,368222,Sven Schulz,Sven Schulz,PBC Nagoldtal,PBC Nagoldtal 1 | PBC Nagoldtal 2 | PBC Nagoldtal 3,63
@@ -755,7 +759,6 @@ p:368557,368557,Christian Süß,Christian Süß,BSF Kurpfalz,BSF Kurpfalz 2 | BS
 p:367936,367936,Dieter Seitz,Dieter Seitz,BC Bad Schussenried,BC Bad Schussenried 1 | BC Bad Schussenried 2,62
 n:freilos|BSF Kurpfalz,,Freilos (BSF Kurpfalz),Freilos,BSF Kurpfalz,BSF Kurpfalz 2 | BSF Kurpfalz 3,62
 p:100292,100292,Horst Bendig,Horst Bendig,P&S Denzlingen,P&S Denzlingen 1 | P&S Denzlingen 2,62
-p:368484,368484,Jasim Ammar Jasim Al-Khazraji,Jasim Ammar Jasim Al-Khazraji,Pool Knights Bensheim,Pool Knights Bensheim 1 | Pool Knights Bensheim 2,62
 n:joachim höllwarth|CC Karlsruhe,,Joachim Höllwarth (CC Karlsruhe),Joachim Höllwarth,CC Karlsruhe,CC Karlsruhe | CC Karlsruhe 2,62
 p:368493,368493,Jürgen Porzelt,Jürgen Porzelt,BSV Tiengen,BSV Tiengen 3 | BSV Tiengen 4,62
 n:keven könig|PBV Schwetzingen,,Keven König (PBV Schwetzingen),Keven König,PBV Schwetzingen,PBV Schwetzingen 3,62
@@ -766,6 +769,7 @@ p:367871,367871,Sebastian Müller,Sebastian Müller,PBC Reutlingen,PBC Reutlinge
 n:stefan stoll|BSV Filderstadt,,Stefan Stoll,Stefan Stoll,BSV Filderstadt,BSV Filderstadt,62
 p:368461,368461,Thomas Ehrenfried,Thomas Ehrenfried,Pool Knights Bensheim,Pool Knights Bensheim 3 | Pool Knights Bensheim 4,62
 p:103907,103907,Daniel Sanchez Goncalves,Daniel Sanchez Goncalves,BC Feuersee | PBC Schwäbisch Gmünd,BC Feuersee 1 | PBC Schwäbisch Gmünd 1,61
+p:240263,240263,Harry Kowalczyk,Harry Kowalczyk,CC Karlsruhe,CC Karlsruhe 3 | CC Karlsruhe 4 | CC Karlsruhe 5,61
 n:marco zieger|PBC Waghäusel,,Marco Zieger (PBC Waghäusel),Marco Zieger,PBC Waghäusel,PBC Waghäusel 3 | PBC Waghäusel 4,61
 p:245559,245559,Marko Stapel,Marko Stapel,BV Villingen-Schwenningen,BV Villingen-Schwenningen 2,61
 p:368485,368485,Nick Neubacher,Nick Neubacher,Pool Knights Bensheim,Pool Knights Bensheim 1 | Pool Knights Bensheim 2,61
@@ -776,7 +780,6 @@ n:selami hasi|BC Neckarsulm,,Selami Hasi,Selami Hasi,BC Neckarsulm,BC Neckarsulm
 p:353768,353768,Tobias Küderle,Tobias Küderle,PBC Offenburg,PBC Offenburg 3,61
 p:245005,245005,Yasar Mak,Yasar Mak,BV Backnang/Welzheim,BV Backnang/Welzheim 1,61
 p:248184,248184,Benjamin Heck,Benjamin Heck,BSG Albstadt | PBC Bad Saulgau,BSG Albstadt 1 | PBC Bad Saulgau 2,60
-p:104199,104199,Bernd Schröder,Bernd Schröder,PBC Bräunlingen,PBC Bräunlingen 2,60
 p:228902,228902,Carlo Hartmann,Carlo Hartmann,BSG Albstadt,BSG Albstadt 1,60
 p:353736,353736,Dario Dakovic,Dario Dakovic,PBC Bad Saulgau,PBC Bad Saulgau 2 | PBC Bad Saulgau 3,60
 p:368468,368468,Dennis Dreissigacker,Dennis Dreissigacker,Pool Knights Bensheim,Pool Knights Bensheim 2 | Pool Knights Bensheim 3,60
@@ -784,6 +787,7 @@ n:drazen smolcic|PBC Sand,,Drazen Smolcic (PBC Sand),Drazen Smolcic,PBC Sand,PBC
 p:368662,368662,Genta Gunawan,Genta Gunawan,BC Feuersee | BC Stuttgart 1891,BC Feuersee 3 | BC Feuersee 4 | BC Feuersee 5 | BC Stuttgart 1891 5,60
 n:jens pfaff|Fastbreakers Karlsruhe,,Jens Pfaff (Fastbreakers Karlsruhe),Jens Pfaff,Fastbreakers Karlsruhe,Fastbreakers Karlsruhe 2 | Fastbreakers Karlsruhe 3,60
 p:102497,102497,Markus König,Markus König,BSV Filderstadt | BSV Pfullingen | PBC Bad Saulgau,BSV Filderstadt 2 | BSV Pfullingen 1 | PBC Bad Saulgau 2,60
+p:368505,368505,Markus Löscher,Markus Löscher,BSV Shooters Fellbach | TV Cannstatt,BSV Shooters Fellbach 2 | TV Cannstatt 2 | TV Cannstatt 3 | TV Cannstatt 4 | TV Cannstatt 5,60
 p:367962,367962,Markus Strauß,Markus Strauß,BSV Tiengen | BV Villingen-Schwenningen,BSV Tiengen 1 | BV Villingen-Schwenningen 1,60
 p:368733,368733,Matthis Meier,Matthis Meier,BULL Leonberg-Höfingen,BULL Leonberg-Höfingen 3,60
 p:104337,104337,Nuhid Serifovic,Nuhid Serifovic,BC Feuersee | PP Böblingen | TV Cannstatt,BC Feuersee 1 | PP Böblingen 1 | TV Cannstatt 1 | TV Cannstatt 3 | TV Cannstatt 4,60
@@ -792,10 +796,7 @@ p:368908,368908,Simon Bernecker,Simon Bernecker,PBV Schwetzingen,PBV Schwetzinge
 p:249083,249083,Simon Theodoropoulos,Simon Theodoropoulos,Tübinger BC,Tübinger BC 1 | Tübinger BC 2,60
 p:224549,224549,Stefan Weiner,Stefan Weiner,BV Villingen-Schwenningen,BV Villingen-Schwenningen 1 | BV Villingen-Schwenningen 2,60
 n:zehrudin vereget|PBV Schwetzingen,,Zehrudin Vereget (PBV Schwetzingen),Zehrudin Vereget,PBV Schwetzingen,PBV Schwetzingen 2 | PBV Schwetzingen 3 | PBV Schwetzingen 4,60
-p:368041,368041,Alexander Srp,Alexander Srp,BC Feuersee,BC Feuersee 1,59
 n:freilos|PBC Sand,,Freilos (PBC Sand),Freilos,PBC Sand,PBC Sand | PBC Sand 2,59
-p:105130,105130,Hakan Yaratici,Hakan Yaratici,PBC Bräunlingen,PBC Bräunlingen 1 | PBC Bräunlingen 2,59
-p:240263,240263,Harry Kowalczyk,Harry Kowalczyk,CC Karlsruhe,CC Karlsruhe 3 | CC Karlsruhe 4 | CC Karlsruhe 5,59
 p:368810,368810,Jamil Dib,Jamil Dib,P&S Denzlingen,P&S Denzlingen 2,59
 n:joao rodrigues|BSV Pfullingen,,Joao Rodrigues (BSV Pfullingen),Joao Rodrigues,BSV Pfullingen,BSV Pfullingen 3 | BSV Pfullingen 4,59
 p:368236,368236,Joshua Bartsch,Joshua Bartsch,PBC Aalen,PBC Aalen 1 | PBC Aalen 2,59
@@ -804,8 +805,10 @@ p:103769,103769,Marcel Roden,Marcel Roden,CC Karlsruhe,CC Karlsruhe 1 | CC Karls
 p:170496,170496,Sven Götz,Sven Götz,BF Weinheim-Viernheim,BF Weinheim-Viernheim 1 | BF Weinheim-Viernheim 2 | BF Weinheim-Viernheim 3,59
 p:368251,368251,Sylvia Gurnig,Sylvia Gurnig,BV Markdorf,BV Markdorf 3,59
 n:thomas metzler|PBC Bad Saulgau,,Thomas Metzler (PBC Bad Saulgau),Thomas Metzler,PBC Bad Saulgau,PBC Bad Saulgau 2 | PBC Bad Saulgau 3 | PBC Bad Saulgau 7,59
+p:104633,104633,Thomas Tischmann,Thomas Tischmann,BC Blaustein,BC Blaustein 1,59
 n:tobias schneider|BF Bronnen,,Tobias Schneider (BF Bronnen),Tobias Schneider,BF Bronnen,BF Bronnen | BF Bronnen 2,59
 p:102870,102870,Willi Ludwig,Willi Ludwig,PP Karlsbad,PP Karlsbad 1,59
+p:368109,368109,Yao Wang,Yao Wang,BC Feuersee | BC Stuttgart 1891,BC Feuersee 3 | BC Feuersee 4 | BC Feuersee 5 | BC Stuttgart 1891 5,59
 n:anton schubert|PBC Ochsenhausen,,Anton Schubert (PBC Ochsenhausen),Anton Schubert,PBC Ochsenhausen,PBC Ochsenhausen 2 | PBC Ochsenhausen 3,58
 n:ardalan mirahmadi|BSV Filderstadt,,Ardalan Mirahmadi (BSV Filderstadt),Ardalan Mirahmadi,BSV Filderstadt,BSV Filderstadt | BSV Filderstadt 2 | BSV Filderstadt 3,58
 p:105162,105162,Axel Zeh,Axel Zeh,TV Cannstatt,TV Cannstatt 2 | TV Cannstatt 3 | TV Cannstatt 5,58
@@ -816,8 +819,8 @@ p:368645,368645,Joel Louis Egon Strohmayer,Joel Louis Egon Strohmayer,PBC Schwä
 p:367935,367935,Kadir Özturgut,Kadir Özturgut,BC Bad Schussenried,BC Bad Schussenried 1 | BC Bad Schussenried 2 | BC Bad Schussenried 3,58
 n:karl-heinz zimmermann|PBV Schwetzingen,,Karl-Heinz Zimmermann (PBV Schwetzingen),Karl-Heinz Zimmermann,PBV Schwetzingen,PBV Schwetzingen 2 | PBV Schwetzingen 3 | PBV Schwetzingen 4,58
 p:368297,368297,Karsten Mieskes,Karsten Mieskes,BC Bad Schussenried,BC Bad Schussenried 1 | BC Bad Schussenried 2 | BC Bad Schussenried 3,58
-p:368505,368505,Markus Löscher,Markus Löscher,BSV Shooters Fellbach | TV Cannstatt,BSV Shooters Fellbach 2 | TV Cannstatt 2 | TV Cannstatt 3 | TV Cannstatt 4 | TV Cannstatt 5,58
 p:103127,103127,Massimo Miccoli,Massimo Miccoli,BC Sindelfingen,BC Sindelfingen 2 | BC Sindelfingen 4 | BC Sindelfingen 5,58
+p:366248,366248,Matthias Stolz,Matthias Stolz,BC Feuersee | BSV Shooters Fellbach | TV Cannstatt,BC Feuersee 5 | BSV Shooters Fellbach 2 | TV Cannstatt 2 | TV Cannstatt 3 | TV Cannstatt 5,58
 p:242867,242867,Michael Matschewsky,Michael Matschewsky,PBC Freudenstadt,PBC Freudenstadt 1,58
 n:nikolai kruhm|PBC Fr. Lampertheim,,Nikolai Kruhm (PBC Fr. Lampertheim),Nikolai Kruhm,PBC Fr. Lampertheim,PBC Fr. Lampertheim | PBC Fr. Lampertheim 2,58
 n:serdar tunbek|BBV Mannheim,,Serdar Tunbek (BBV Mannheim),Serdar Tunbek,BBV Mannheim,BBV Mannheim | BBV Mannheim 2 | BBV Mannheim 3,58
@@ -826,6 +829,7 @@ n:zeljko burmazovic|PBC Pfedelbach,,Zeljko Burmazovic (PBC Pfedelbach),Zeljko Bu
 n:önder coskun|Fastbreakers Karlsruhe,,Önder Coskun (Fastbreakers Karlsruhe),Önder Coskun,Fastbreakers Karlsruhe,Fastbreakers Karlsruhe | Fastbreakers Karlsruhe 3,58
 p:245471,245471,Achim Stoll,Achim Stoll,BSV Filderstadt,BSV Filderstadt 4 | BSV Filderstadt 5 | BSV Filderstadt 6,57
 p:368034,368034,Andreas Tschinkel,Andreas Tschinkel,BBC Plochingen,BBC Plochingen 1 | BBC Plochingen 2,57
+p:368904,368904,Dietmar Helfrich,Dietmar Helfrich,BC Bad Schussenried,BC Bad Schussenried 3 | BC Bad Schussenried 4,57
 n:dominik krenzer|BULL Leonberg-Höfingen,,Dominik Krenzer (BULL Leonberg-Höfingen),Dominik Krenzer,BULL Leonberg-Höfingen,BULL Leonberg-Höfingen | BULL Leonberg-Höfingen 2,57
 n:fabian thoma-schuck|BC Weingarten,,Fabian Thoma-Schuck (BC Weingarten),Fabian Thoma-Schuck,BC Weingarten,BC Weingarten | BC Weingarten 2 | BC Weingarten 3,57
 p:242876,242876,Frank Tatarkowski,Frank Tatarkowski,PBC Offenburg,PBC Offenburg 2,57
@@ -857,14 +861,13 @@ p:103593,103593,Ralf Rabold,Ralf Rabold,PP Karlsbad,PP Karlsbad 1 | PP Karlsbad 
 p:251024,251024,Sascha Jungwirth,Sascha Jungwirth,BSC Lions Bietigheim,BSC Lions Bietigheim 1 | BSC Lions Bietigheim 2,56
 p:353826,353826,Sebastian Calinescu,Sebastian Calinescu,BF Weinheim-Viernheim,BF Weinheim-Viernheim 1 | BF Weinheim-Viernheim 2 | BF Weinheim-Viernheim 3,56
 p:100106,100106,Stefanie Arndt,Stefanie Arndt,BSV Tiengen,BSV Tiengen 2 | BSV Tiengen 3,56
-p:104633,104633,Thomas Tischmann,Thomas Tischmann,BC Blaustein,BC Blaustein 1,56
-p:368109,368109,Yao Wang,Yao Wang,BC Feuersee | BC Stuttgart 1891,BC Feuersee 3 | BC Feuersee 4 | BC Feuersee 5 | BC Stuttgart 1891 5,56
 p:100243,100243,Alexander Baur,Alexander Baur,PBC Bad Saulgau,PBC Bad Saulgau 2 | PBC Bad Saulgau 4,55
 p:104090,104090,Bernd Schmidt,Bernd Schmidt,Mannheimer BF | PBC Fr. Lampertheim,Mannheimer BF 4 | PBC Fr. Lampertheim 2,55
 n:dirk windecker|BBV Mannheim,,Dirk Windecker (BBV Mannheim),Dirk Windecker,BBV Mannheim,BBV Mannheim 2 | BBV Mannheim 3,55
 p:351258,351258,Donald Oreskovic,Donald Oreskovic,PBC Bad Saulgau,PBC Bad Saulgau 2,55
 p:350897,350897,Harry Augustin,Harry Augustin,BC Aalen,BC Aalen 4 | BC Aalen 5,55
 p:101926,101926,Heiko Hoffmann,Heiko Hoffmann,PBV Schwetzingen,PBV Schwetzingen 3,55
+p:369056,369056,Kevin Minardi,Kevin Minardi,PBC Reutlingen | Tübinger BC,PBC Reutlingen 2 | Tübinger BC | Tübinger BC 3,55
 n:lothar ring|PBC Ochsenhausen,,Lothar Ring,Lothar Ring,PBC Ochsenhausen,PBC Ochsenhausen 2 | PBC Ochsenhausen 3,55
 n:marcus colmelet|Fastbreakers Karlsruhe,,Marcus Colmelet (Fastbreakers Karlsruhe),Marcus Colmelet,Fastbreakers Karlsruhe,Fastbreakers Karlsruhe | Fastbreakers Karlsruhe 3,55
 p:101363,101363,Oliver Geuder,Oliver Geuder,Mannheimer BF | PBC Fr. Lampertheim,Mannheimer BF 4 | PBC Fr. Lampertheim 1 | PBC Fr. Lampertheim 2,55
@@ -884,7 +887,6 @@ p:104363,104363,Mark Simon,Mark Simon,PBC Nagoldtal,PBC Nagoldtal 3,54
 n:mark simon|PBC Nagoldtal,,Mark Simon (PBC Nagoldtal),Mark Simon,PBC Nagoldtal,PBC Nagoldtal,54
 n:markus werner|Heidenheimer BC,,Markus Werner,Markus Werner,Heidenheimer BC,Heidenheimer BC,54
 n:massimo miccoli|BC Ludwigsburg,,Massimo Miccoli (BC Ludwigsburg),Massimo Miccoli,BC Ludwigsburg,BC Ludwigsburg | BC Ludwigsburg 2 | BC Ludwigsburg 3,54
-p:366248,366248,Matthias Stolz,Matthias Stolz,BC Feuersee | BSV Shooters Fellbach | TV Cannstatt,BC Feuersee 5 | BSV Shooters Fellbach 2 | TV Cannstatt 2 | TV Cannstatt 3 | TV Cannstatt 5,54
 p:368868,368868,Matthias Weigl,Matthias Weigl,PBC Schwäbisch Gmünd,PBC Schwäbisch Gmünd 1 | PBC Schwäbisch Gmünd 2,54
 p:242708,242708,Mike Dörfler,Mike Dörfler,BC Dreiländereck,BC Dreiländereck 1,54
 n:nikolaus blum|PBC Ochsenhausen,,Nikolaus Blum (PBC Ochsenhausen),Nikolaus Blum,PBC Ochsenhausen,PBC Ochsenhausen 2 | PBC Ochsenhausen 3,54
@@ -897,8 +899,8 @@ p:101401,101401,Udo Gleich,Udo Gleich,BC Blaustein,BC Blaustein 1,54
 n:udo träutlein|BSV Weinheim,,Udo Träutlein (BSV Weinheim),Udo Träutlein,BSV Weinheim,BSV Weinheim,54
 n:vladislav hebel|P&S Denzlingen,,Vladislav Hebel,Vladislav Hebel,P&S Denzlingen,P&S Denzlingen,54
 p:368558,368558,Alen Mulaosmanovic,Alen Mulaosmanovic,PBC Offenburg,PBC Offenburg 3 | PBC Offenburg 4 | PBC Offenburg 5,53
+p:100889,100889,Bernd Dorenburg,Bernd Dorenburg,BSV Pfullingen,BSV Pfullingen 1 | BSV Pfullingen 2 | BSV Pfullingen 3 | BSV Pfullingen 4 | BSV Pfullingen 5,53
 p:368957,368957,Colin Ketterlin,Colin Ketterlin,CC Karlsruhe,CC Karlsruhe 2 | CC Karlsruhe 3,53
-p:368904,368904,Dietmar Helfrich,Dietmar Helfrich,BC Bad Schussenried,BC Bad Schussenried 3 | BC Bad Schussenried 4,53
 n:guido kilian|BSV Weinheim,,Guido Kilian,Guido Kilian,BSV Weinheim,BSV Weinheim 2 | BSV Weinheim 3 | BSV Weinheim 4,53
 p:368386,368386,Henry Spang,Henry Spang,BC Sindelfingen,BC Sindelfingen 7 | BC Sindelfingen 8,53
 p:355986,355986,Josip Guja,Josip Guja,PBV Schwetzingen,PBV Schwetzingen 5 | PBV Schwetzingen 6 | PBV Schwetzingen 7 | PBV Schwetzingen 8,53
@@ -934,7 +936,6 @@ p:353791,353791,Andreas Geigle,Andreas Geigle,BBC Plochingen,BBC Plochingen 2,51
 n:bianca heneka|PBC Bruchsal,,Bianca Heneka (PBC Bruchsal),Bianca Heneka,PBC Bruchsal,PBC Bruchsal | PBC Bruchsal 2 | PBC Bruchsal 3,51
 p:368537,368537,Henrik Böker,Henrik Böker,JS Mingolsheim,JS Mingolsheim 3 | JS Mingolsheim 4,51
 p:102744,102744,Jörg Laupitz,Jörg Laupitz,PBC Nagoldtal,PBC Nagoldtal 3,51
-p:369056,369056,Kevin Minardi,Kevin Minardi,PBC Reutlingen | Tübinger BC,PBC Reutlingen 2 | Tübinger BC | Tübinger BC 3,51
 p:368187,368187,Markus Geppert,Markus Geppert,BC Dallau,BC Dallau 2 | BC Dallau 3,51
 p:247852,247852,Oliver Kandula,Oliver Kandula,PBC Schwäbisch Hall,PBC Schwäbisch Hall 2,51
 p:368192,368192,Pascal Witt,Pascal Witt,PBC Bruchsal,PBC Bruchsal 3,51
@@ -947,8 +948,8 @@ p:368352,368352,Aleksander Diachkov,Aleksander Diachkov,BV Pforzheim,BV Pforzhei
 p:102903,102903,Alexander Mack,Alexander Mack,PBC Schwäbisch Hall,PBC Schwäbisch Hall 2,50
 n:andreas wittmeier|BC Breakers Knittlingen,,Andreas Wittmeier (BC Breakers Knittlingen),Andreas Wittmeier,BC Breakers Knittlingen,BC Breakers Knittlingen,50
 p:368483,368483,Armin Mühlich,Armin Mühlich,Pool Knights Bensheim,Pool Knights Bensheim 3,50
-p:100889,100889,Bernd Dorenburg,Bernd Dorenburg,BSV Pfullingen,BSV Pfullingen 1 | BSV Pfullingen 2 | BSV Pfullingen 3 | BSV Pfullingen 4 | BSV Pfullingen 5,50
 p:102108,102108,Daniel Jarke,Daniel Jarke,BF Bruchsal,BF Bruchsal 1,50
+p:369106,369106,Erdem Dikici,Erdem Dikici,BSC Göppingen | BSV Filderstadt,BSC Göppingen 1 | BSV Filderstadt 4,50
 n:homayoun nikzat|BSV Konstanz,,Homayoun Nikzat (BSV Konstanz),Homayoun Nikzat,BSV Konstanz,BSV Konstanz | BSV Konstanz 2,50
 n:jonas bohrer|PBC Fr. Lampertheim,,Jonas  Bohrer,Jonas  Bohrer,PBC Fr. Lampertheim,PBC Fr. Lampertheim 2 | PBC Fr. Lampertheim 3,50
 p:368450,368450,Jürgen Reisner,Jürgen Reisner,PBC Aalen,PBC Aalen 1 | PBC Aalen 2,50
@@ -971,12 +972,14 @@ p:368518,368518,Jannik Buchstab,Jannik Buchstab,PBC Schwäbisch Gmünd,PBC Schw�
 p:368683,368683,Jürgen Berninger,Jürgen Berninger,PBV Schwetzingen,PBV Schwetzingen 6 | PBV Schwetzingen 7,49
 p:368200,368200,Jürgen Trost,Jürgen Trost,BC Sindelfingen,BC Sindelfingen 3 | BC Sindelfingen 4 | BC Sindelfingen 5,49
 p:103997,103997,Norbert Scheinpflug,Norbert Scheinpflug,BSV Tiengen,BSV Tiengen 3 | BSV Tiengen 4,49
+p:368811,368811,Philipp Kibele,Philipp Kibele,TV Cannstatt,TV Cannstatt 1,49
 p:105232,105232,Robert Zivanovic,Robert Zivanovic,BBC Plochingen,BBC Plochingen 2,49
 p:100647,100647,Serkan Candir,Serkan Candir,BSV Filderstadt,BSV Filderstadt 3 | BSV Filderstadt 4 | BSV Filderstadt 5 | BSV Filderstadt 6,49
 n:thomas leiblich|BC Neckarsulm,,Thomas Leiblich,Thomas Leiblich,BC Neckarsulm,BC Neckarsulm 3,49
 p:368832,368832,Timm Ganske,Timm Ganske,CC Karlsruhe,CC Karlsruhe 2 | CC Karlsruhe 3 | CC Karlsruhe 4,49
 p:104820,104820,Tom Wacker,Tom Wacker,PP Karlsbad,PP Karlsbad 1 | PP Karlsbad 2,49
 n:ulf bojus|BC Neckarsulm,,Ulf Bojus (BC Neckarsulm),Ulf Bojus,BC Neckarsulm,BC Neckarsulm | BC Neckarsulm 3,49
+p:369124,369124,Adham Mohamed,Adham Mohamed,Tübinger BC,Tübinger BC | Tübinger BC 1 | Tübinger BC 2 | Tübinger BC 3,48
 n:alexander grossmann|BSV Filderstadt,,Alexander Großmann,Alexander Großmann,BSV Filderstadt,BSV Filderstadt,48
 p:368850,368850,Alicia Baum,Alicia Baum,PBC Rastatt,PBC Rastatt 2 | PBC Rastatt 4,48
 p:367927,367927,Andreas Wagner,Andreas Wagner,BC Bad Schussenried,BC Bad Schussenried 1 | BC Bad Schussenried 2 | BC Bad Schussenried 3 | BC Bad Schussenried 4 | BC Bad Schussenried 5,48
@@ -1014,18 +1017,22 @@ n:martin doster|BSC Göppingen,,Martin Doster (BSC Göppingen),Martin Doster,BSC
 n:soydan cetin|PBC Ochsenhausen,,Soydan Cetin,Soydan Cetin,PBC Ochsenhausen,PBC Ochsenhausen 2 | PBC Ochsenhausen 3,47
 n:stefan neuss|BF Bronnen,,Stefan Neuß,Stefan Neuß,BF Bronnen,BF Bronnen | BF Bronnen 2,47
 p:104795,104795,Tankred Volkmer,Tankred Volkmer,BV Backnang/Welzheim,BV Backnang/Welzheim 1,47
+p:368780,368780,Thomas Weniger,Thomas Weniger,BSV Tiengen | PBC Bräunlingen,BSV Tiengen 3 | PBC Bräunlingen 2,47
 n:thorsten kartes|PBC Fr. Lampertheim,,Thorsten Kartes (PBC Fr. Lampertheim),Thorsten Kartes,PBC Fr. Lampertheim,PBC Fr. Lampertheim 2,47
 p:368827,368827,Tobias Reisner,Tobias Reisner,PBC Aalen,PBC Aalen 1 | PBC Aalen 2,47
 n:wolfgang siethoff|PBC Waldbronn-Karlsbad,,Wolfgang Siethoff (PBC Waldbronn-Karlsbad),Wolfgang Siethoff,PBC Waldbronn-Karlsbad,PBC Waldbronn-Karlsbad | PBC Waldbronn-Karlsbad 3,47
 p:366459,366459,Alexandru Szabo,Alexandru Szabo,BC Neckarsulm,BC Neckarsulm 2 | BC Neckarsulm 3,46
+p:242969,242969,Carlo Frasch,Carlo Frasch,PP Böblingen,PP Böblingen 2 | PP Böblingen 3,46
 n:christian rossa|PF Calw,,Christian Rossa (PF Calw),Christian Rossa,PF Calw,PF Calw | PF Calw 2,46
 n:denis mnich|BC Sindelfingen,,Denis Mnich (BC Sindelfingen),Denis Mnich,BC Sindelfingen,BC Sindelfingen 2 | BC Sindelfingen 3 | BC Sindelfingen 4,46
 n:eric mattern|Poolsharks Bruchsal,,Eric Mattern (Poolsharks Bruchsal),Eric Mattern,Poolsharks Bruchsal,Poolsharks Bruchsal | Poolsharks Bruchsal 3,46
 n:flamur zeqiraj|PBC Pfedelbach,,Flamur Zeqiraj,Flamur Zeqiraj,PBC Pfedelbach,PBC Pfedelbach,46
+p:369057,369057,Francesco Dragotta,Francesco Dragotta,PBC Reutlingen | Tübinger BC,PBC Reutlingen 1 | Tübinger BC | Tübinger BC 3,46
 p:368050,368050,Giuseppe Cortese,Giuseppe Cortese,Mannheimer BF,Mannheimer BF 2 | Mannheimer BF 3 | Mannheimer BF 4,46
 p:102003,102003,Hermann Hoyh,Hermann Hoyh,TV Cannstatt,TV Cannstatt 1,46
 p:246408,246408,Jan Weber,Jan Weber,PBC Bad Saulgau,PBC Bad Saulgau 2 | PBC Bad Saulgau 3,46
 n:jens krknjak|PBC Nagoldtal,,Jens Krknjak (PBC Nagoldtal),Jens Krknjak,PBC Nagoldtal,PBC Nagoldtal,46
+p:101959,101959,Joachim Höllwarth,Joachim Höllwarth,CC Karlsruhe,CC Karlsruhe 1 | CC Karlsruhe 2 | CC Karlsruhe 3,46
 n:klaus schmölz|BF Bronnen,,Klaus Schmölz,Klaus Schmölz,BF Bronnen,BF Bronnen | BF Bronnen 2,46
 n:kristian kolthoff|PBV Schwetzingen,,Kristian Kolthoff (PBV Schwetzingen),Kristian Kolthoff,PBV Schwetzingen,PBV Schwetzingen 3 | PBV Schwetzingen 4,46
 p:240266,240266,Martin Burmeister,Martin Burmeister,BC Sindelfingen,BC Sindelfingen 4,46
@@ -1048,28 +1055,25 @@ n:celina visconti|PBV Schwetzingen,,Celina Visconti (PBV Schwetzingen),Celina Vi
 p:144449,144449,Ciro Guerra,Ciro Guerra,BC Sindelfingen,BC Sindelfingen 5 | BC Sindelfingen 6,45
 n:dandy kohlhaw|PBC Fr. Lampertheim,,Dandy Kohlhaw (PBC Fr. Lampertheim),Dandy Kohlhaw,PBC Fr. Lampertheim,PBC Fr. Lampertheim | PBC Fr. Lampertheim 2,45
 n:dominik leibold|CC Karlsruhe,,Dominik Leibold,Dominik Leibold,CC Karlsruhe,CC Karlsruhe | CC Karlsruhe 3,45
-p:369106,369106,Erdem Dikici,Erdem Dikici,BSC Göppingen | BSV Filderstadt,BSC Göppingen 1 | BSV Filderstadt 4,45
 n:eugenio sousa blanco|BSV Weinheim,,Eugenio Sousa Blanco (BSV Weinheim),Eugenio Sousa Blanco,BSV Weinheim,BSV Weinheim 4,45
 p:350160,350160,Guido Ulmer,Guido Ulmer,BSV Pfullingen | PBC Reutlingen,BSV Pfullingen 1 | BSV Pfullingen 2 | BSV Pfullingen 3 | PBC Reutlingen 2,45
 p:368598,368598,Marc Witt,Marc Witt,BULL Leonberg-Höfingen,BULL Leonberg-Höfingen 3,45
+p:368119,368119,Michael Röhrle,Michael Röhrle,BC Feuersee | BULL Leonberg-Höfingen,BC Feuersee 2 | BULL Leonberg-Höfingen 1 | BULL Leonberg-Höfingen 3,45
 n:oliver jörger|PBC Offenburg,,Oliver Jörger,Oliver Jörger,PBC Offenburg,PBC Offenburg | PBC Offenburg 2,45
 n:rainer hermann|BSC Göppingen,,Rainer Hermann (BSC Göppingen),Rainer Hermann,BSC Göppingen,BSC Göppingen | BSC Göppingen 2,45
 n:steffen hoffmann|BF Bruchsal,,Steffen Hoffmann (BF Bruchsal),Steffen Hoffmann,BF Bruchsal,BF Bruchsal 2,45
 p:100112,100112,Steven Ascione,Steven Ascione,BC Dallau,BC Dallau 1 | BC Dallau 2 | BC Dallau 3,45
 p:368150,368150,Thomas Etowski,Thomas Etowski,PBC Rastatt,PBC Rastatt 2,45
-p:369124,369124,Adham Mohamed,Adham Mohamed,Tübinger BC,Tübinger BC | Tübinger BC 1 | Tübinger BC 2 | Tübinger BC 3,44
 p:368188,368188,Bastian Valinski,Bastian Valinski,BC Dallau,BC Dallau 2 | BC Dallau 3,44
 p:368134,368134,Benedikt Meschenmoser,Benedikt Meschenmoser,PBC Bad Saulgau,PBC Bad Saulgau 2 | PBC Bad Saulgau 3 | PBC Bad Saulgau 4,44
-p:242969,242969,Carlo Frasch,Carlo Frasch,PP Böblingen,PP Böblingen 2 | PP Böblingen 3,44
+p:355292,355292,Christian Casagrande,Christian Casagrande,BC Feuersee | BSV Shooters Fellbach | TV Cannstatt,BC Feuersee 4 | BSV Shooters Fellbach 1 | TV Cannstatt 3,44
 n:christian joos|BC Dreiländereck,,Christian Joos (BC Dreiländereck),Christian Joos,BC Dreiländereck,BC Dreiländereck | BC Dreiländereck 2,44
 n:daniel fischer|BC Neckarsulm,,Daniel Fischer (BC Neckarsulm),Daniel Fischer,BC Neckarsulm,BC Neckarsulm | BC Neckarsulm 2,44
 p:368765,368765,Dejvid Skender,Dejvid Skender,BC Weingarten,BC Weingarten 2,44
 p:245236,245236,Dominic Seeger,Dominic Seeger,BC Feuersee,BC Feuersee 1 | BC Feuersee 2 | BC Feuersee 4 | BC Feuersee 6,44
-p:369057,369057,Francesco Dragotta,Francesco Dragotta,PBC Reutlingen | Tübinger BC,PBC Reutlingen 1 | Tübinger BC | Tübinger BC 3,44
 n:frank flach|PBC Ochsenhausen,,Frank Flach (PBC Ochsenhausen),Frank Flach,PBC Ochsenhausen,PBC Ochsenhausen 2 | PBC Ochsenhausen 3,44
 p:368035,368035,Gürhan Ag,Gürhan Ag,BC Feuersee,BC Feuersee 2 | BC Feuersee 3,44
 n:holger mayer|BF Bronnen,,Holger Mayer,Holger Mayer,BF Bronnen,BF Bronnen | BF Bronnen 1,44
-p:101959,101959,Joachim Höllwarth,Joachim Höllwarth,CC Karlsruhe,CC Karlsruhe 1 | CC Karlsruhe 2 | CC Karlsruhe 3,44
 p:368489,368489,Jonny Silasko,Jonny Silasko,Pool Knights Bensheim,Pool Knights Bensheim 2 | Pool Knights Bensheim 3 | Pool Knights Bensheim 4,44
 p:368833,368833,Kevin Feichtinger,Kevin Feichtinger,CC Karlsruhe,CC Karlsruhe 1 | CC Karlsruhe 2,44
 n:marcus trumpp|BSV Pfullingen,,Marcus Trumpp (BSV Pfullingen),Marcus Trumpp,BSV Pfullingen,BSV Pfullingen | BSV Pfullingen 2 | BSV Pfullingen 3,44
@@ -1077,7 +1081,6 @@ p:368546,368546,Matthias Sommer,Matthias Sommer,PBV Schwetzingen,PBV Schwetzinge
 n:michael grad|BSV Pfullingen,,Michael Grad (BSV Pfullingen),Michael Grad,BSV Pfullingen,BSV Pfullingen | BSV Pfullingen 2 | BSV Pfullingen 4,44
 n:michael gross|BSV Filderstadt,,Michael Groß,Michael Groß,BSV Filderstadt,BSV Filderstadt 2 | BSV Filderstadt 3,44
 p:102164,102164,Norbert Kabas,Norbert Kabas,P&S Denzlingen,P&S Denzlingen 1 | P&S Denzlingen 2 | P&S Denzlingen 3,44
-p:368811,368811,Philipp Kibele,Philipp Kibele,TV Cannstatt,TV Cannstatt 1,44
 n:raitis ivanovs|BC Dallau,,Raitis Ivanovs,Raitis Ivanovs,BC Dallau,BC Dallau | BC Dallau 2 | BC Dallau 4,44
 n:ralf griesshaber|PBC Trossingen,,Ralf Grießhaber (PBC Trossingen),Ralf Grießhaber,PBC Trossingen,PBC Trossingen,44
 n:robert karaica|Heidenheimer BC,,Robert Karaica (Heidenheimer BC),Robert Karaica,Heidenheimer BC,Heidenheimer BC,44
@@ -1085,11 +1088,11 @@ n:selim güzel|PP Böblingen,,Selim Güzel (PP Böblingen),Selim Güzel,PP Böbl
 n:silvestar smokovic|BSC Göppingen,,Silvestar Smokovic (BSC Göppingen),Silvestar Smokovic,BSC Göppingen,BSC Göppingen | BSC Göppingen 2,44
 n:steffen mämecke|PBC Waghäusel,,Steffen Mämecke (PBC Waghäusel),Steffen Mämecke,PBC Waghäusel,PBC Waghäusel 2 | PBC Waghäusel 3,44
 p:368590,368590,Stephan Rau,Stephan Rau,P&S Denzlingen,P&S Denzlingen 1 | P&S Denzlingen 2,44
-p:368780,368780,Thomas Weniger,Thomas Weniger,BSV Tiengen | PBC Bräunlingen,BSV Tiengen 3 | PBC Bräunlingen 2,44
 n:alexander scholz|BC Neckarsulm,,Alexander Scholz,Alexander Scholz,BC Neckarsulm,BC Neckarsulm,43
 n:andreas knauf|BSC Göppingen,,Andreas Knauf (BSC Göppingen),Andreas Knauf,BSC Göppingen,BSC Göppingen | BSC Göppingen 2 | BSC Göppingen 3,43
 p:101017,101017,Danny Engelhardt,Danny Engelhardt,PBC Pfedelbach | PBC Schwäbisch Hall,PBC Pfedelbach 1 | PBC Pfedelbach 2 | PBC Schwäbisch Hall 2,43
 p:368519,368519,Eric Braun,Eric Braun,CC Karlsruhe,CC Karlsruhe 2 | CC Karlsruhe 3,43
+p:369025,369025,Eyvinh Polvito,Eyvinh Polvito,BSC Göppingen,BSC Göppingen 2 | BSC Göppingen 3,43
 n:freilos|BSG Albstadt,,Freilos (BSG Albstadt),Freilos,BSG Albstadt,BSG Albstadt | BSG Albstadt 2,43
 n:hans schnellbach|BBV Mannheim,,Hans Schnellbach,Hans Schnellbach,BBV Mannheim,BBV Mannheim 4 | BBV Mannheim 5,43
 p:368318,368318,Joey Isenmann,Joey Isenmann,PBC Offenburg,PBC Offenburg 3 | PBC Offenburg 4 | PBC Offenburg 5,43
@@ -1100,6 +1103,7 @@ p:242709,242709,Mathias Frey,Mathias Frey,PBC Offenburg,PBC Offenburg 5,43
 p:368574,368574,Murat Dervisi,Murat Dervisi,PBC Freudenstadt,PBC Freudenstadt 1 | PBC Freudenstadt 2,43
 p:104273,104273,Robert Schwarz,Robert Schwarz,BC Stuttgart 1891,BC Stuttgart 1891 2,43
 p:229045,229045,Ulrich Schäfer,Ulrich Schäfer,BSV Pfullingen,BSV Pfullingen 1 | BSV Pfullingen 2,43
+p:368865,368865,Ahmad Nassar,Ahmad Nassar,BC Neckarsulm,BC Neckarsulm 2,42
 p:103081,103081,Andreas Merkle,Andreas Merkle,BC Dreiländereck,BC Dreiländereck 1 | BC Dreiländereck 2,42
 n:armin stauss|PBC Freudenstadt,,Armin Stauß (PBC Freudenstadt),Armin Stauß,PBC Freudenstadt,PBC Freudenstadt | PBC Freudenstadt 2,42
 n:bayram uguz|PP Böblingen,,Bayram  Uguz,Bayram  Uguz,PP Böblingen,PP Böblingen 2,42
@@ -1108,6 +1112,7 @@ p:368879,368879,Brian Wright,Brian Wright,BC Stuttgart 1891,BC Stuttgart 1891 3 
 p:368061,368061,Bruno Steinbach,Bruno Steinbach,Tübinger BC,Tübinger BC 1 | Tübinger BC 2,42
 p:252216,252216,Danny Golling,Danny Golling,PBC Freudenstadt,PBC Freudenstadt 4,42
 n:dirk müller|PBC Waldbronn-Karlsbad,,Dirk Müller (PBC Waldbronn-Karlsbad),Dirk Müller,PBC Waldbronn-Karlsbad,PBC Waldbronn-Karlsbad 3,42
+p:368721,368721,Dominik Mogel,Dominik Mogel,PBC Bräunlingen,PBC Bräunlingen 2,42
 n:emrah atak|BC Neckarsulm,,Emrah Atak (BC Neckarsulm),Emrah Atak,BC Neckarsulm,BC Neckarsulm 3,42
 p:228692,228692,Ewald Bausch,Ewald Bausch,PBC Langenargen,PBC Langenargen 1 | PBC Langenargen 2,42
 n:francisco loresto|BBV Mannheim,,Francisco Loresto (BBV Mannheim),Francisco Loresto,BBV Mannheim,BBV Mannheim 4 | BBV Mannheim 5,42
@@ -1144,10 +1149,9 @@ n:sebastiano ratto|BSC Göppingen,,Sebastiano Ratto (BSC Göppingen),Sebastiano 
 n:sven fluske|BSV Weinheim,,Sven Fluske,Sven Fluske,BSV Weinheim,BSV Weinheim | BSV Weinheim 2,41
 p:151697,151697,Volkmar Lorenz,Volkmar Lorenz,PBC Schwäbisch Gmünd,PBC Schwäbisch Gmünd 2,41
 p:145388,145388,Bernd Hauenstein,Bernd Hauenstein,BC Aalen,BC Aalen 2,40
-p:355292,355292,Christian Casagrande,Christian Casagrande,BC Feuersee | BSV Shooters Fellbach | TV Cannstatt,BC Feuersee 4 | BSV Shooters Fellbach 1 | TV Cannstatt 3,40
 p:369054,369054,Dennis Knoblauch,Dennis Knoblauch,P&S Denzlingen,P&S Denzlingen 2 | P&S Denzlingen 4,40
 n:dieter wolk|BF Weinheim-Viernheim,,Dieter Wolk (BF Weinheim-Viernheim),Dieter Wolk,BF Weinheim-Viernheim,BF Weinheim-Viernheim | BF Weinheim-Viernheim 2,40
-p:368721,368721,Dominik Mogel,Dominik Mogel,PBC Bräunlingen,PBC Bräunlingen 2,40
+p:368720,368720,Domenik Dreibach,Domenik Dreibach,PBC Bräunlingen,PBC Bräunlingen 2,40
 p:245247,245247,Fabian Rapp,Fabian Rapp,BSV Pfullingen,BSV Pfullingen 1 | BSV Pfullingen 2 | BSV Pfullingen 3 | BSV Pfullingen 4 | BSV Pfullingen 5,40
 n:gerd hörrmann|PP Karlsbad,,Gerd Hörrmann (PP Karlsbad),Gerd Hörrmann,PP Karlsbad,PP Karlsbad,40
 n:marvin zimmer|Fastbreakers Karlsruhe,,Marvin Zimmer (Fastbreakers Karlsruhe),Marvin Zimmer,Fastbreakers Karlsruhe,Fastbreakers Karlsruhe | Fastbreakers Karlsruhe 2 | Fastbreakers Karlsruhe 3,40
@@ -1167,14 +1171,14 @@ p:368321,368321,Daniel Christoph,Daniel Christoph,BV Pforzheim,BV Pforzheim 3 | 
 n:daniel jimenez|PBC Offenburg,,Daniel Jimenez,Daniel Jimenez,PBC Offenburg,PBC Offenburg | PBC Offenburg 2,39
 p:349809,349809,Dietmar Karoli,Dietmar Karoli,Tübinger BC,Tübinger BC 1 | Tübinger BC 2,39
 n:dirk bauer|BSV Weinheim,,Dirk Bauer,Dirk Bauer,BSV Weinheim,BSV Weinheim 2 | BSV Weinheim 3 | BSV Weinheim 4,39
-p:369025,369025,Eyvinh Polvito,Eyvinh Polvito,BSC Göppingen,BSC Göppingen 2 | BSC Göppingen 3,39
 p:240166,240166,Markus Pfaff,Markus Pfaff,BF Bruchsal,BF Bruchsal 3,39
 n:michael reichert|PBC Freudenstadt,,Michael Reichert (PBC Freudenstadt),Michael Reichert,PBC Freudenstadt,PBC Freudenstadt,39
 n:rudolf weiss|PBC Bad Saulgau,,Rudolf Weiß (PBC Bad Saulgau),Rudolf Weiß,PBC Bad Saulgau,PBC Bad Saulgau 4 | PBC Bad Saulgau 5 | PBC Bad Saulgau 7,39
 n:stephan rech-linker|BC Sindelfingen,,Stephan Rech-Linker (BC Sindelfingen),Stephan Rech-Linker,BC Sindelfingen,BC Sindelfingen 2 | BC Sindelfingen 3,39
 n:steve braun|BSC Mannheim,,Steve Braun,Steve Braun,BSC Mannheim,BSC Mannheim | BSC Mannheim 2,39
+p:368893,368893,Sukhbat Batjargal,Sukhbat Batjargal,BC Stuttgart 1891,BC Stuttgart 1891 3 | BC Stuttgart 1891 4,39
+p:368241,368241,Victor Rodriguez,Victor Rodriguez,BV Markdorf,BV Markdorf 1,39
 n:vincenzo murano|BSC Göppingen,,Vincenzo Murano (BSC Göppingen),Vincenzo Murano,BSC Göppingen,BSC Göppingen 2 | BSC Göppingen 3,39
-p:368865,368865,Ahmad Nassar,Ahmad Nassar,BC Neckarsulm,BC Neckarsulm 2,38
 p:251300,251300,Alexander Hemmer,Alexander Hemmer,BBC Plochingen,BBC Plochingen 1 | BBC Plochingen 2,38
 n:andre säubert|PBC Waghäusel,,Andre Säubert,Andre Säubert,PBC Waghäusel,PBC Waghäusel 2 | PBC Waghäusel 3 | PBC Waghäusel 4,38
 p:240199,240199,Andreas Schoknecht,Andreas Schoknecht,PBC Bietigheim-Bissingen,PBC Bietigheim-Bissingen 3 | PBC Bietigheim-Bissingen 4,38
@@ -1200,7 +1204,6 @@ p:367968,367968,Károly Kis,Károly Kis,BC Bad Schussenried,BC Bad Schussenried 
 p:368737,368737,Lasse Quitsch,Lasse Quitsch,PBC Bruchsal,PBC Bruchsal 4,38
 p:367532,367532,Lorenzo Ammazzini,Lorenzo Ammazzini,CC Karlsruhe,CC Karlsruhe 3 | CC Karlsruhe 4 | CC Karlsruhe 5,38
 p:105097,105097,Marcus Wolf,Marcus Wolf,PBC Bräunlingen,PBC Bräunlingen 2,38
-p:368119,368119,Michael Röhrle,Michael Röhrle,BC Feuersee | BULL Leonberg-Höfingen,BC Feuersee 2 | BULL Leonberg-Höfingen 1 | BULL Leonberg-Höfingen 3,38
 n:michelangelo laurano|PBC Bad Saulgau,,Michelangelo Laurano (PBC Bad Saulgau),Michelangelo Laurano,PBC Bad Saulgau,PBC Bad Saulgau 3,38
 p:102034,102034,Nicole Hummel,Nicole Hummel,BV Villingen-Schwenningen,BV Villingen-Schwenningen 2,38
 n:nikolaus gündel|P&S Denzlingen,,Nikolaus Gündel (P&S Denzlingen),Nikolaus Gündel,P&S Denzlingen,P&S Denzlingen 2 | P&S Denzlingen 3,38
@@ -1258,9 +1261,9 @@ p:368866,368866,Patric Riedel,Patric Riedel,BULL Leonberg-Höfingen,BULL Leonber
 n:raimund wanner|PBC Ochsenhausen,,Raimund Wanner (PBC Ochsenhausen),Raimund Wanner,PBC Ochsenhausen,PBC Ochsenhausen | PBC Ochsenhausen 2 | PBC Ochsenhausen 3,36
 p:101688,101688,Richard Hartmann,Richard Hartmann,PBC Sand,PBC Sand 1 | PBC Sand 2,36
 n:rolf waible|PBC Waldbronn-Karlsbad,,Rolf Waible (PBC Waldbronn-Karlsbad),Rolf Waible,PBC Waldbronn-Karlsbad,PBC Waldbronn-Karlsbad 3,36
+p:368888,368888,Steffen Adler,Steffen Adler,,,36
 n:steffen adler|BSV Weinheim,,Steffen Adler (BSV Weinheim),Steffen Adler,BSV Weinheim,BSV Weinheim 2 | BSV Weinheim 3,36
 p:103924,103924,Steffen Säubert,Steffen Säubert,PBC Waghäusel,PBC Waghäusel 1 | PBC Waghäusel 2,36
-p:368893,368893,Sukhbat Batjargal,Sukhbat Batjargal,BC Stuttgart 1891,BC Stuttgart 1891 3 | BC Stuttgart 1891 4,36
 n:sven hertel|BC Dreiländereck,,Sven Hertel,Sven Hertel,BC Dreiländereck,BC Dreiländereck | BC Dreiländereck 2,36
 n:thomas gäckle|PF Calw,,Thomas Gäckle (PF Calw),Thomas Gäckle,PF Calw,PF Calw,36
 p:368178,368178,Thomas Hirschberger,Thomas Hirschberger,BC Sindelfingen,BC Sindelfingen 6 | BC Sindelfingen 8,36
@@ -1270,7 +1273,6 @@ n:andreas pauling|BC Stuttgart 1891,,Andreas Pauling (BC Stuttgart 1891),Andreas
 p:368215,368215,Christos Minokoglou,Christos Minokoglou,PBC Aalen,PBC Aalen 1 | PBC Aalen 2,35
 n:david berkemeyer|BC Feuersee Ludwigsburg,,David Berkemeyer (BC Feuersee Ludwigsburg),David Berkemeyer,BC Feuersee Ludwigsburg,BC Feuersee Ludwigsburg,35
 n:dingyuan (michael) wan|PBV Rottweil,,Dingyuan (Michael) Wan,Dingyuan (Michael) Wan,PBV Rottweil,PBV Rottweil 2 | PBV Rottweil 3,35
-p:368720,368720,Domenik Dreibach,Domenik Dreibach,PBC Bräunlingen,PBC Bräunlingen 2,35
 p:251376,251376,Ferhat Cayli,Ferhat Cayli,BC Neckarsulm,BC Neckarsulm 2,35
 p:104825,104825,Frank Wagenmann,Frank Wagenmann,PBC Offenburg,PBC Offenburg 2,35
 p:367980,367980,Furkan Özkan,Furkan Özkan,BC Aalen | PBC Aalen,BC Aalen 5 | PBC Aalen 2,35
@@ -1314,7 +1316,6 @@ n:timo notheisen|PBC Waghäusel,,Timo Notheisen,Timo Notheisen,PBC Waghäusel,PB
 p:251288,251288,Tobias Wähler,Tobias Wähler,BV Pforzheim,BV Pforzheim 1 | BV Pforzheim 2 | BV Pforzheim 3,34
 p:245106,245106,Tuong Tran,Tuong Tran,BSV Pfullingen,BSV Pfullingen 1,34
 n:ulrich schäfer|BSV Pfullingen,,Ulrich Schäfer (BSV Pfullingen),Ulrich Schäfer,BSV Pfullingen,BSV Pfullingen | BSV Pfullingen 2,34
-p:368241,368241,Victor Rodriguez,Victor Rodriguez,BV Markdorf,BV Markdorf 1,34
 p:368404,368404,Yannik Weber,Yannik Weber,BSV Filderstadt,BSV Filderstadt 2 | BSV Filderstadt 3 | BSV Filderstadt 4,34
 p:102134,102134,Andreas Jörg,Andreas Jörg,BBC Plochingen,BBC Plochingen 1,33
 p:368216,368216,Aydin Yaray,Aydin Yaray,PBC Aalen,PBC Aalen 1 | PBC Aalen 2,33
@@ -1338,7 +1339,6 @@ n:robert zivanovic|BBC Plochingen,,Robert Zivanovic (BBC Plochingen),Robert Ziva
 p:103433,103433,Sebastian Oswald,Sebastian Oswald,BSV Pfullingen,BSV Pfullingen 2 | BSV Pfullingen 3 | BSV Pfullingen 4,33
 n:simon conrad|BSG Albstadt,,Simon Conrad (BSG Albstadt),Simon Conrad,BSG Albstadt,BSG Albstadt | BSG Albstadt 2,33
 n:stefan herms|PBC Bräunlingen,,Stefan Herms (PBC Bräunlingen),Stefan Herms,PBC Bräunlingen,PBC Bräunlingen 2 | PBC Bräunlingen 3,33
-p:368888,368888,Steffen Adler,Steffen Adler,,,33
 n:süleyman altinyaldiz|BC Dallau,,Süleyman Altinyaldiz (BC Dallau),Süleyman Altinyaldiz,BC Dallau,BC Dallau,33
 n:thomas russow|BF Weinheim-Viernheim,,Thomas Russow (BF Weinheim-Viernheim),Thomas Russow,BF Weinheim-Viernheim,BF Weinheim-Viernheim | BF Weinheim-Viernheim 2,33
 n:ahmet yazici|PP Böblingen,,Ahmet Yazici (PP Böblingen),Ahmet Yazici,PP Böblingen,PP Böblingen 2,32
@@ -1518,7 +1518,9 @@ n:thomas kupfer|PBC Schwäbisch Hall,,Thomas Kupfer (PBC Schwäbisch Hall),Thoma
 p:368179,368179,Thorsten Möhle,Thorsten Möhle,BC Sindelfingen,BC Sindelfingen 2 | BC Sindelfingen 3,28
 n:tina vogelmann|BC Stuttgart,,Tina Vogelmann (BC Stuttgart),Tina Vogelmann,BC Stuttgart,BC Stuttgart 1891,28
 n:udo träutlein|PBV Schwetzingen,,Udo Träutlein (PBV Schwetzingen),Udo Träutlein,PBV Schwetzingen,PBV Schwetzingen 2,28
+p:369004,369004,Zan Bong Yuen,Zan Bong Yuen,BBV Mannheim,BBV Mannheim 2,28
 p:368575,368575,Daniel Doulgeris,Daniel Doulgeris,BULL Leonberg-Höfingen,BULL Leonberg-Höfingen 2,27
+p:103842,103842,Dennis Rothaug,Dennis Rothaug,BV Villingen-Schwenningen,BV Villingen-Schwenningen 1 | BV Villingen-Schwenningen 2,27
 p:368525,368525,Fabian Gruber,Fabian Gruber,BC Dallau,BC Dallau 2 | BC Dallau 3,27
 p:368715,368715,Finn Großmann,Finn Großmann,BULL Leonberg-Höfingen,BULL Leonberg-Höfingen 3,27
 p:368670,368670,Florian Rasser,Florian Rasser,BC Dreiländereck,BC Dreiländereck 1,27
@@ -1533,7 +1535,6 @@ n:mehmet gürbüz|PBC Bräunlingen,,Mehmet Gürbüz (PBC Bräunlingen),Mehmet G�
 n:robert stehr|PBC Bad Saulgau,,Robert Stehr,Robert Stehr,PBC Bad Saulgau,PBC Bad Saulgau 3 | PBC Bad Saulgau 4 | PBC Bad Saulgau 5,27
 n:stefan vater|PBC Freudenstadt,,Stefan Vater (PBC Freudenstadt),Stefan Vater,PBC Freudenstadt,PBC Freudenstadt 3 | PBC Freudenstadt 4,27
 p:367374,367374,Vuk Izidor Zelunka,Vuk Izidor Zelunka,Mannheimer BF,Mannheimer BF 2 | Mannheimer BF 3,27
-n:wadea al mahamid|Tübinger BC,,Wadea Al Mahamid (Tübinger BC),Wadea Al Mahamid,Tübinger BC,Tübinger BC | Tübinger BC 2,27
 n:wolfgang schmidt|PBC Reutlingen,,Wolfgang Schmidt (PBC Reutlingen),Wolfgang Schmidt,PBC Reutlingen,PBC Reutlingen 2,27
 n:achim wendeler|TV Cannstatt,,Achim Wendeler (TV Cannstatt),Achim Wendeler,TV Cannstatt,TV Cannstatt,26
 n:alfredo di perna|BSV Nürtingen,,Alfredo Di Perna (BSV Nürtingen),Alfredo Di Perna,BSV Nürtingen,BSV Nürtingen,26
@@ -1604,7 +1605,6 @@ n:wolfgang heiler|Poolsharks Bruchsal,,Wolfgang Heiler (Poolsharks Bruchsal),Wol
 n:wolfgang schmidt|BSV Nürtingen,,Wolfgang Schmidt (BSV Nürtingen),Wolfgang Schmidt,BSV Nürtingen,BSV Nürtingen 3,26
 n:wolfgang siethoff|PP Karlsbad,,Wolfgang Siethoff (PP Karlsbad),Wolfgang Siethoff,PP Karlsbad,PP Karlsbad 3,26
 p:369103,369103,Yvonne Boos,Yvonne Boos,BC Sindelfingen,BC Sindelfingen 7 | BC Sindelfingen 8,26
-p:369004,369004,Zan Bong Yuen,Zan Bong Yuen,BBV Mannheim,BBV Mannheim 2,26
 p:104123,104123,Achim Schmittel,Achim Schmittel,PBC Fr. Lampertheim,PBC Fr. Lampertheim 1 | PBC Fr. Lampertheim 2,25
 p:368147,368147,Andre Kroschwald,Andre Kroschwald,BC Sindelfingen,BC Sindelfingen 6 | BC Sindelfingen 7,25
 p:240167,240167,Cem Sarigül,Cem Sarigül,BF Bruchsal,BF Bruchsal 1 | BF Bruchsal 2,25
@@ -1683,6 +1683,7 @@ n:tobias wähler|BV Pforzheim,,Tobias Wähler (BV Pforzheim),Tobias Wähler,BV P
 n:tom mischner|BC Weingarten,,Tom Mischner (BC Weingarten),Tom Mischner,BC Weingarten,BC Weingarten 3 | BC Weingarten 4,24
 p:369104,369104,Vladimir Poplakov,Vladimir Poplakov,BC Sindelfingen,BC Sindelfingen 7 | BC Sindelfingen 8,24
 n:volker gutzeit|BBC Plochingen,,Volker Gutzeit (BBC Plochingen),Volker Gutzeit,BBC Plochingen,BBC Plochingen,24
+p:369032,369032,Waldemar Müller,Waldemar Müller,JS Mingolsheim,JS Mingolsheim 3 | JS Mingolsheim 4,24
 n:achim schmittel|PBC Fr. Lampertheim,,Achim Schmittel (PBC Fr. Lampertheim),Achim Schmittel,PBC Fr. Lampertheim,PBC Fr. Lampertheim | PBC Fr. Lampertheim 2 | PBC Fr. Lampertheim 3,23
 n:alexander lahnert|BSC Mannheim,,Alexander Lahnert,Alexander Lahnert,BSC Mannheim,BSC Mannheim | BSC Mannheim 2,23
 p:368698,368698,Alexander Seil,Alexander Seil,BC Stuttgart 1891,BC Stuttgart 1891 3 | BC Stuttgart 1891 4,23
@@ -1710,6 +1711,7 @@ n:rudolf schulz|PBV Schwetzingen,,Rudolf Schulz (PBV Schwetzingen),Rudolf Schulz
 p:240517,240517,Sebastian Roßberg,Sebastian Roßberg,BC Dätzingen,BC Dätzingen 1 | BC Dätzingen 2 | BC Dätzingen 3,23
 n:sergej meiser|PBC Reutlingen,,Sergej Meiser,Sergej Meiser,PBC Reutlingen,PBC Reutlingen 2,23
 p:100362,100362,Sonja Bieser,Sonja Bieser,PBC Offenburg,PBC Offenburg 3 | PBC Offenburg 4 | PBC Offenburg 5,23
+p:369089,369089,Sven Dastig,Sven Dastig,PBC Bietigheim-Bissingen,PBC Bietigheim-Bissingen 1 | PBC Bietigheim-Bissingen 2,23
 p:369061,369061,Thorsten Löffler,Thorsten Löffler,BC Dreiländereck,BC Dreiländereck 1,23
 p:102317,102317,Tobias Kessler,Tobias Kessler,BULL Leonberg-Höfingen,BULL Leonberg-Höfingen 1,23
 p:368961,368961,Tobias Sven Stockenberger,Tobias Sven Stockenberger,BF Bruchsal,BF Bruchsal 2,23
@@ -1806,7 +1808,6 @@ n:tobias lesniak|BSC St. Georgen,,Tobias Lesniak (BSC St. Georgen),Tobias Lesnia
 p:102972,102972,Ulrich Märkle,Ulrich Märkle,Tübinger BC,Tübinger BC 2,22
 p:102954,102954,Uwe Mann,Uwe Mann,PBC Rastatt,PBC Rastatt 1 | PBC Rastatt 2,22
 n:valentin marten|BC Neckarsulm,,Valentin Marten (BC Neckarsulm),Valentin Marten,BC Neckarsulm,BC Neckarsulm 2 | BC Neckarsulm 3,22
-p:369032,369032,Waldemar Müller,Waldemar Müller,JS Mingolsheim,JS Mingolsheim 3 | JS Mingolsheim 4,22
 n:xhemajil ibrahimi|PBC Freudenstadt,,Xhemajil Ibrahimi (PBC Freudenstadt),Xhemajil Ibrahimi,PBC Freudenstadt,PBC Freudenstadt,22
 p:368367,368367,Bernd Sehner,Bernd Sehner,PBC Nagoldtal,PBC Nagoldtal 2 | PBC Nagoldtal 3,21
 p:100137,100137,Bernhard Back,Bernhard Back,PBC Offenburg,PBC Offenburg 3 | PBC Offenburg 4 | PBC Offenburg 5,21
@@ -1815,7 +1816,6 @@ p:242818,242818,Bianca Duttlinger,Bianca Duttlinger,BSV Tiengen,BSV Tiengen 3,21
 p:369007,369007,Christian Herre,Christian Herre,PBC Rastatt,PBC Rastatt 3,21
 n:christian kraut|CC Karlsruhe,,Christian Kraut,Christian Kraut,CC Karlsruhe,CC Karlsruhe 2 | CC Karlsruhe 3,21
 n:christian orosz|BSV Pfullingen,,Christian Orosz (BSV Pfullingen),Christian Orosz,BSV Pfullingen,BSV Pfullingen 4 | BSV Pfullingen 5,21
-p:103842,103842,Dennis Rothaug,Dennis Rothaug,BV Villingen-Schwenningen,BV Villingen-Schwenningen 1 | BV Villingen-Schwenningen 2,21
 p:368954,368954,Dirk Bastian,Dirk Bastian,BSV Filderstadt,BSV Filderstadt 3,21
 p:368116,368116,Ervin Lika,Ervin Lika,BSV Filderstadt,BSV Filderstadt 4 | BSV Filderstadt 5,21
 n:garry wong|PBC Schwäbisch Gmünd,,Garry Wong (PBC Schwäbisch Gmünd),Garry Wong,PBC Schwäbisch Gmünd,PBC Schwäbisch Gmünd,21
@@ -1900,6 +1900,7 @@ n:phillip rosenkranz|PBC Bräunlingen,,Phillip Rosenkranz (PBC Bräunlingen),Phi
 n:rene geier|Fastbreakers Karlsruhe,,Rene Geier (Fastbreakers Karlsruhe),Rene Geier,Fastbreakers Karlsruhe,Fastbreakers Karlsruhe,20
 p:368585,368585,Richard Diopa,Richard Diopa,BC Feuersee,BC Feuersee 3 | BC Feuersee 4 | BC Feuersee 5,20
 n:robert karaica|BC Aalen,,Robert Karaica (BC Aalen),Robert Karaica,BC Aalen,BC Aalen,20
+p:369070,369070,Robert Pinczker,Robert Pinczker,TV Cannstatt,TV Cannstatt 4,20
 p:368498,368498,Roberto Savcic,Roberto Savcic,BC Sindelfingen,BC Sindelfingen 8,20
 n:roland sauter|PBC Bräunlingen,,Roland Sauter (PBC Bräunlingen),Roland Sauter,PBC Bräunlingen,PBC Bräunlingen,20
 p:101972,101972,Roman Holzhauser,Roman Holzhauser,PBC Sand,PBC Sand 1 | PBC Sand 2,20
@@ -1910,7 +1911,6 @@ p:368442,368442,Sandra Lutz,Sandra Lutz,PBC Rastatt,PBC Rastatt 2 | PBC Rastatt 
 p:369085,369085,Sascha Baltschukat,Sascha Baltschukat,CC Karlsruhe,CC Karlsruhe 4 | CC Karlsruhe 5,20
 n:stefan neuberger|BC Neckarsulm,,Stefan Neuberger (BC Neckarsulm),Stefan Neuberger,BC Neckarsulm,BC Neckarsulm 4,20
 n:stefan walloch|BC Aalen,,Stefan Walloch,Stefan Walloch,BC Aalen,BC Aalen 2,20
-p:369089,369089,Sven Dastig,Sven Dastig,PBC Bietigheim-Bissingen,PBC Bietigheim-Bissingen 1 | PBC Bietigheim-Bissingen 2,20
 n:thierry kalb|PBC Offenburg,,Thierry Kalb,Thierry Kalb,PBC Offenburg,PBC Offenburg | PBC Offenburg 3,20
 p:103239,103239,Thomas Müller,Thomas Müller,PBC Fr. Lampertheim,PBC Fr. Lampertheim 1,20
 p:104183,104183,Thomas Schöpfer,Thomas Schöpfer,Tübinger BC,Tübinger BC 1 | Tübinger BC 2,20
@@ -1949,6 +1949,7 @@ n:andreas jörg|BBC Plochingen,,Andreas Jörg (BBC Plochingen),Andreas Jörg,BBC
 n:damir vidovic|PBC Bräunlingen,,Damir Vidovic (PBC Bräunlingen),Damir Vidovic,PBC Bräunlingen,PBC Bräunlingen,18
 n:daniel merbitz|BC Stuttgart,,Daniel Merbitz (BC Stuttgart),Daniel Merbitz,BC Stuttgart,BC Stuttgart 1891,18
 n:dany baron|TV Cannstatt,,Dany Baron (TV Cannstatt),Dany Baron,TV Cannstatt,TV Cannstatt,18
+p:369144,369144,David Birau,David Birau,Mannheimer BF,Mannheimer BF 3,18
 p:369112,369112,Dennis Rhein,Dennis Rhein,BC Dallau,BC Dallau 2,18
 n:detlef müller|PBDC Kämpfelbach,,Detlef Müller,Detlef Müller,PBDC Kämpfelbach,PBDC Kämpfelbach,18
 n:dieter haberkorn|PBC Bad Saulgau,,Dieter Haberkorn (PBC Bad Saulgau),Dieter Haberkorn,PBC Bad Saulgau,PBC Bad Saulgau 3,18
@@ -1987,7 +1988,6 @@ n:oliver kandula|PBC Schwäbisch Hall,,Oliver Kandula (PBC Schwäbisch Hall),Oli
 n:peter schmidt|BSV Tiengen,,Peter Schmidt (BSV Tiengen),Peter Schmidt,BSV Tiengen,BSV Tiengen 2 | BSV Tiengen 4,18
 p:353295,353295,Rainer Kenzler,Rainer Kenzler,BULL Leonberg-Höfingen,BULL Leonberg-Höfingen 2,18
 n:ralph fritz|PBC Waghäusel,,Ralph Fritz,Ralph Fritz,PBC Waghäusel,PBC Waghäusel 3,18
-p:369070,369070,Robert Pinczker,Robert Pinczker,TV Cannstatt,TV Cannstatt 4,18
 p:368197,368197,Sebastian Hilgarth,Sebastian Hilgarth,PBC Bruchsal,PBC Bruchsal 3,18
 p:368571,368571,Simon Stoß,Simon Stoß,Poolsharks Bruchsal,Poolsharks Bruchsal 1,18
 n:stefan krüger|PBC Schwäbisch-Hall,,Stefan Krüger (PBC Schwäbisch-Hall),Stefan Krüger,PBC Schwäbisch-Hall,PBC Schwäbisch-Hall,18
@@ -2013,6 +2013,7 @@ n:florian stubert|BSV Filderstadt,,Florian Stubert (BSV Filderstadt),Florian Stu
 n:frank reichert|PBC Freudenstadt,,Frank Reichert (PBC Freudenstadt),Frank Reichert,PBC Freudenstadt,PBC Freudenstadt 4,17
 n:frank-bernd wieczorek|BC Dallau,,Frank-Bernd Wieczorek (BC Dallau),Frank-Bernd Wieczorek,BC Dallau,BC Dallau 5,17
 p:251258,251258,Gerold Konnerth,Gerold Konnerth,BSC Göppingen,BSC Göppingen 1 | BSC Göppingen 2,17
+p:369171,369171,Hamza Benslimane,Hamza Benslimane,BSV Pfullingen,BSV Pfullingen 1,17
 p:368517,368517,Hannes Reißner,Hannes Reißner,Tübinger BC,Tübinger BC | Tübinger BC 1 | Tübinger BC 2,17
 p:175404,175404,Hans-Peter Benzinger,Hans-Peter Benzinger,BC Sindelfingen,BC Sindelfingen 2 | BC Sindelfingen 6,17
 n:heiko kadel|BSV Weinheim,,Heiko Kadel,Heiko Kadel,BSV Weinheim,BSV Weinheim | BSV Weinheim 2 | BSV Weinheim 3,17
@@ -2021,6 +2022,7 @@ p:102831,102831,Jörg Lingl,Jörg Lingl,PBC Ochsenhausen,PBC Ochsenhausen 3,17
 n:kai-uwe ludwig|PBC Rastatt,,Kai-Uwe Ludwig,Kai-Uwe Ludwig,PBC Rastatt,PBC Rastatt | PBC Rastatt 2,17
 p:368982,368982,Markus Schneider [368982],Markus Schneider,,,17
 p:368139,368139,Michael Schreiber,Michael Schreiber,BC Dreiländereck,BC Dreiländereck 2,17
+p:353693,353693,Michael Schulz,Michael Schulz,BSV Konstanz,BSV Konstanz 1,17
 n:roland möbus|CC Karlsruhe,,Roland Möbus (CC Karlsruhe),Roland Möbus,CC Karlsruhe,CC Karlsruhe 4,17
 p:369067,369067,Sasa Kikic,Sasa Kikic,BF Bronnen,BF Bronnen 1,17
 n:senol sengün|BSC Mannheim,,Senol Sengün (BSC Mannheim),Senol Sengün,BSC Mannheim,BSC Mannheim 2,17
@@ -2066,9 +2068,12 @@ n:jonathan nestler|PBC Freudenstadt,,Jonathan Nestler (PBC Freudenstadt),Jonatha
 n:kevin künstler|BSC Göppingen,,Kevin Künstler (BSC Göppingen),Kevin Künstler,BSC Göppingen,BSC Göppingen 2,16
 p:368156,368156,Kevin Patrick Fischer,Kevin Patrick Fischer,BSV Pfullingen,BSV Pfullingen 2,16
 n:manfred hess|BSV Nürtingen,,Manfred Hess (BSV Nürtingen),Manfred Hess,BSV Nürtingen,BSV Nürtingen 2,16
+p:354316,354316,Marco Weise,Marco Weise,BSV Konstanz,BSV Konstanz 1,16
+p:103813,103813,Mario Rosenkranz,Mario Rosenkranz,PBC Bräunlingen,PBC Bräunlingen 2,16
 n:marius thomanek|BC Sindelfingen,,Marius Thomanek (BC Sindelfingen),Marius Thomanek,BC Sindelfingen,BC Sindelfingen 3 | BC Sindelfingen 5,16
 n:markus kamuf|BF Bruchsal,,Markus Kamuf (BF Bruchsal),Markus Kamuf,BF Bruchsal,BF Bruchsal,16
 p:369117,369117,Markus Wiedermann,Markus Wiedermann,BV Pforzheim,BV Pforzheim 4,16
+p:369141,369141,Marvin Schneider,Marvin Schneider,Pool Knights Bensheim,Pool Knights Bensheim 3 | Pool Knights Bensheim 4,16
 n:matthias blech|PBV Schwetzingen,,Matthias Blech,Matthias Blech,PBV Schwetzingen,PBV Schwetzingen 4 | PBV Schwetzingen 5,16
 n:matthias orth|BC Dreiländereck,,Matthias Orth (BC Dreiländereck),Matthias Orth,BC Dreiländereck,BC Dreiländereck 2,16
 p:242727,242727,Matthias Raible,Matthias Raible,TV Cannstatt,TV Cannstatt 2 | TV Cannstatt 4,16
@@ -2110,6 +2115,8 @@ p:367975,367975,Alpay Gürkal,Alpay Gürkal,BC Aalen | PBC Aalen,BC Aalen 4 | BC
 p:103922,103922,Andreas Sattler,Andreas Sattler,PBC Pfedelbach,PBC Pfedelbach 1,15
 n:armin epp|BSV Weinheim,,Armin  Epp,Armin  Epp,BSV Weinheim,BSV Weinheim 3 | BSV Weinheim 5,15
 n:arndt siebert|BSV Weinheim,,Arndt Siebert,Arndt Siebert,BSV Weinheim,BSV Weinheim 4,15
+p:368993,368993,Athanasios Sarafoudis,Athanasios Sarafoudis,TV Cannstatt,TV Cannstatt 4 | TV Cannstatt 5,15
+p:355293,355293,Aurel Casagrande,Aurel Casagrande,BC Feuersee | BSV Shooters Fellbach | TV Cannstatt,BC Feuersee 4 | BSV Shooters Fellbach 3 | TV Cannstatt 3,15
 p:367916,367916,Benjamin Repphun,Benjamin Repphun,BC Feuersee,BC Feuersee 3,15
 n:christian klein|Poolsharks Bruchsal,,Christian Klein,Christian Klein,Poolsharks Bruchsal,Poolsharks Bruchsal 2,15
 n:christian lorenz|BSV Tiengen,,Christian Lorenz (BSV Tiengen),Christian Lorenz,BSV Tiengen,BSV Tiengen 3,15
@@ -2149,7 +2156,6 @@ p:104726,104726,Christian Utz,Christian Utz,JS Mingolsheim,JS Mingolsheim 1,14
 n:daniel hörth|PBC Offenburg,,Daniel Hörth,Daniel Hörth,PBC Offenburg,PBC Offenburg 3,14
 n:daniel kucharz|PBC Aalen,,Daniel Kucharz,Daniel Kucharz,PBC Aalen,PBC Aalen 2 | PBC Aalen 3,14
 n:danny golling|PBC Freudenstadt,,Danny Golling (PBC Freudenstadt),Danny Golling,PBC Freudenstadt,PBC Freudenstadt 4,14
-p:369144,369144,David Birau,David Birau,Mannheimer BF,Mannheimer BF 3,14
 p:368814,368814,Eduard Ewert,Eduard Ewert,CC Karlsruhe,CC Karlsruhe 5,14
 n:fabian glaser|PBC Trossingen,,Fabian Glaser,Fabian Glaser,PBC Trossingen,PBC Trossingen,14
 p:368300,368300,Fabian Schaber,Fabian Schaber,PBC Langenargen,PBC Langenargen 3,14
@@ -2170,13 +2176,10 @@ n:luciano abruzzese|BC Weingarten,,Luciano Abruzzese (BC Weingarten),Luciano Abr
 n:manfred wussler|PBC Offenburg,,Manfred Wußler (PBC Offenburg),Manfred Wußler,PBC Offenburg,PBC Offenburg 2,14
 n:marcel biegler|BSV Pfullingen,,Marcel Biegler (BSV Pfullingen),Marcel Biegler,BSV Pfullingen,BSV Pfullingen 2 | BSV Pfullingen 3,14
 n:marco huber|BV Pforzheim,,Marco Huber (BV Pforzheim),Marco Huber,BV Pforzheim,BV Pforzheim 2,14
-p:354316,354316,Marco Weise,Marco Weise,BSV Konstanz,BSV Konstanz 1,14
 n:marcus deuchler|PBC Waldbronn-Karlsbad,,Marcus  Deuchler,Marcus  Deuchler,PBC Waldbronn-Karlsbad,PBC Waldbronn-Karlsbad 3,14
 n:mario becker|BBV Mannheim,,Mario Becker,Mario Becker,BBV Mannheim,BBV Mannheim 5,14
-p:103813,103813,Mario Rosenkranz,Mario Rosenkranz,PBC Bräunlingen,PBC Bräunlingen 2,14
 p:242833,242833,Markus Stehle,Markus Stehle,BV Villingen-Schwenningen,BV Villingen-Schwenningen 2,14
 n:martin derzapf|BC Dallau,,Martin Derzapf,Martin Derzapf,BC Dallau,BC Dallau 4,14
-p:369141,369141,Marvin Schneider,Marvin Schneider,Pool Knights Bensheim,Pool Knights Bensheim 3 | Pool Knights Bensheim 4,14
 n:matthias frank|PBC Schwäbisch Gmünd,,Matthias Frank (PBC Schwäbisch Gmünd),Matthias Frank,PBC Schwäbisch Gmünd,PBC Schwäbisch Gmünd,14
 n:matthias schurer|BSV Konstanz,,Matthias Schurer,Matthias Schurer,BSV Konstanz,BSV Konstanz 2,14
 p:351228,351228,Max Löhle,Max Löhle,,,14
@@ -2187,7 +2190,6 @@ n:michael lauble|PBC Bräunlingen,,Michael Lauble,Michael Lauble,PBC Bräunlinge
 n:michael miller|TV Cannstatt,,Michael Miller,Michael Miller,TV Cannstatt,TV Cannstatt 2 | TV Cannstatt 3,14
 n:michael minnerop|PF Calw,,Michael Minnerop (PF Calw),Michael Minnerop,PF Calw,PF Calw 3 | PF Calw 4,14
 n:michael schreiner|BSV Filderstadt,,Michael Schreiner,Michael Schreiner,BSV Filderstadt,BSV Filderstadt 2,14
-p:353693,353693,Michael Schulz,Michael Schulz,BSV Konstanz,BSV Konstanz 1,14
 n:mike reissberg|PBC Waghäusel,,Mike Reißberg,Mike Reißberg,PBC Waghäusel,PBC Waghäusel 5,14
 n:murat kocin|BC Neckarsulm,,Murat Kocin,Murat Kocin,BC Neckarsulm,BC Neckarsulm 4,14
 n:nicole hummel|BSC St. Georgen,,Nicole Hummel (BSC St. Georgen),Nicole Hummel,BSC St. Georgen,BSC St. Georgen,14
@@ -2207,6 +2209,7 @@ n:rudolf turna|BC Feuersee Leonberg,,Rudolf Turna,Rudolf Turna,BC Feuersee Leonb
 n:sercan özdemir|PP Böblingen,,Sercan Özdemir (PP Böblingen),Sercan Özdemir,PP Böblingen,PP Böblingen,14
 n:silvio massow|BSV Tiengen,,Silvio Massow (BSV Tiengen),Silvio Massow,BSV Tiengen,BSV Tiengen 3,14
 p:368465,368465,Stephan Lorenz,Stephan Lorenz,Pool Knights Bensheim,Pool Knights Bensheim 4,14
+p:231078,231078,Tayfun Teber,Tayfun Teber,,,14
 p:368909,368909,Thilo Ertmann,Thilo Ertmann,PBC Bietigheim-Bissingen,PBC Bietigheim-Bissingen 3,14
 n:thomas buchstab|PBC Schwäbisch Gmünd,,Thomas Buchstab,Thomas Buchstab,PBC Schwäbisch Gmünd,PBC Schwäbisch Gmünd 3,14
 n:thomas kammerer|BBV Mannheim,,Thomas Kammerer (BBV Mannheim),Thomas Kammerer,BBV Mannheim,BBV Mannheim 3 | BBV Mannheim 4 | BBV Mannheim 5,14
@@ -2249,8 +2252,6 @@ p:368293,368293,Andrea Zenner,Andrea Zenner,,,12
 p:100778,100778,Andreas Decker,Andreas Decker,BV Pforzheim,BV Pforzheim 3 | BV Pforzheim 4,12
 n:andreas remete|PBV Rottweil,,Andreas Remete,Andreas Remete,PBV Rottweil,PBV Rottweil 2,12
 p:369068,369068,Artur Maximow,Artur Maximow,BF Bronnen,BF Bronnen 1,12
-p:368993,368993,Athanasios Sarafoudis,Athanasios Sarafoudis,TV Cannstatt,TV Cannstatt 4 | TV Cannstatt 5,12
-p:355293,355293,Aurel Casagrande,Aurel Casagrande,BC Feuersee | BSV Shooters Fellbach | TV Cannstatt,BC Feuersee 4 | BSV Shooters Fellbach 3 | TV Cannstatt 3,12
 n:axel klimmer|PBC Bräunlingen,,Axel Klimmer (PBC Bräunlingen),Axel Klimmer,PBC Bräunlingen,PBC Bräunlingen 2 | PBC Bräunlingen 3,12
 p:245238,245238,Bernd Umann,Bernd Umann,BC Feuersee,BC Feuersee 3,12
 n:bernhard gneiting|PBC Reutlingen,,Bernhard Gneiting (PBC Reutlingen),Bernhard Gneiting,PBC Reutlingen,PBC Reutlingen 3,12
@@ -2274,7 +2275,6 @@ n:garry wong|PBC Schwäbisch-Gmünd,,Garry Wong (PBC Schwäbisch-Gmünd),Garry W
 p:368354,368354,Georg Wiesehügel,Georg Wiesehügel,PBC Bruchsal,PBC Bruchsal 4,12
 n:glen corcoran|PBC Ochsenhausen,,Glen Corcoran (PBC Ochsenhausen),Glen Corcoran,PBC Ochsenhausen,PBC Ochsenhausen 2 | PBC Ochsenhausen 3,12
 p:102225,102225,Habib Karadal,Habib Karadal,BV Pforzheim,BV Pforzheim 2 | BV Pforzheim 3 | BV Pforzheim 4,12
-p:369171,369171,Hamza Benslimane,Hamza Benslimane,BSV Pfullingen,BSV Pfullingen 1,12
 n:harald schmidt|BC Ludwigsburg,,Harald Schmidt,Harald Schmidt,BC Ludwigsburg,BC Ludwigsburg 5,12
 n:heinz gold|BSF Kurpfalz,,Heinz Gold (BSF Kurpfalz),Heinz Gold,BSF Kurpfalz,BSF Kurpfalz 3,12
 n:helmut motsch|PF Calw,,Helmut Motsch (PF Calw),Helmut Motsch,PF Calw,PF Calw 4,12
@@ -2701,6 +2701,7 @@ n:jens butenschön|PBC Langenargen,,Jens Butenschön (PBC Langenargen),Jens Bute
 n:jens todt|PBC Bietigheim-Bissingen,,Jens Todt (PBC Bietigheim-Bissingen),Jens Todt,PBC Bietigheim-Bissingen,PBC Bietigheim-Bissingen | PBC Bietigheim-Bissingen 2,6
 p:354166,354166,Julian Tremmel,Julian Tremmel,BSV Konstanz,BSV Konstanz 1,6
 p:104892,104892,Jürgen Weber,Jürgen Weber,Mannheimer BF,Mannheimer BF 5,6
+p:369244,369244,Kagan Güler,Kagan Güler,BBV Mannheim,BBV Mannheim 3,6
 n:karim gampper|BC Feuersee,,Karim Gampper (BC Feuersee),Karim Gampper,BC Feuersee,BC Feuersee,6
 n:kemal elma|PP Böblingen,,Kemal Elma,Kemal Elma,PP Böblingen,PP Böblingen 2 | PP Böblingen 3,6
 n:kevin kudell|BSV Filderstadt,,Kevin  Kudell,Kevin  Kudell,BSV Filderstadt,BSV Filderstadt 5,6
@@ -2730,6 +2731,7 @@ n:mustafa basaran|BSC Göppingen,,Mustafa Basaran (BSC Göppingen),Mustafa Basar
 n:münir aydogan|BBV Mannheim,,Münir Aydogan,Münir Aydogan,BBV Mannheim,BBV Mannheim 4 | BBV Mannheim 5,6
 n:necmi kolbasar|PBSC Pforzheim,,Necmi Kolbasar (PBSC Pforzheim),Necmi Kolbasar,PBSC Pforzheim,PBSC Pforzheim,6
 n:nico stein|BSV Filderstadt,,Nico Stein,Nico Stein,BSV Filderstadt,BSV Filderstadt 5,6
+n:nikola mitrovic|unassigned,,Nikola Mitrovic,Nikola Mitrovic,,,6
 n:norman rink|BC Dallau,,Norman Rink,Norman Rink,BC Dallau,BC Dallau | BC Dallau 2,6
 p:238915,238915,Oktay Aydinoglu,Oktay Aydinoglu,BV Backnang/Welzheim,BV Backnang/Welzheim 1,6
 n:oliver krieger|PBC Aalen,,Oliver Krieger (PBC Aalen),Oliver Krieger,PBC Aalen,PBC Aalen 2 | PBC Aalen 3,6
@@ -2756,7 +2758,6 @@ n:steve heeb|PBC Nagoldtal,,Steve Heeb,Steve Heeb,PBC Nagoldtal,PBC Nagoldtal,6
 n:susi harbrecht-berndt|BULL Leonberg-Höfingen,,Susi Harbrecht-Berndt (BULL Leonberg-Höfingen),Susi Harbrecht-Berndt,BULL Leonberg-Höfingen,BULL Leonberg-Höfingen 3,6
 n:svenja heide|BC Weingarten,,Svenja Heide,Svenja Heide,BC Weingarten,BC Weingarten 3,6
 n:szidónia székely|Jump Shot Mingolsheim,,Szidónia Székely,Szidónia Székely,Jump Shot Mingolsheim,Jump Shot Mingolsheim 2 | Jump Shot Mingolsheim 3,6
-p:231078,231078,Tayfun Teber,Tayfun Teber,,,6
 n:thilo muff|BBC Plochingen,,Thilo Muff,Thilo Muff,BBC Plochingen,BBC Plochingen,6
 n:thomas helmling|BSV Weinheim,,Thomas Helmling,Thomas Helmling,BSV Weinheim,BSV Weinheim 3 | BSV Weinheim 4,6
 n:thomas hörauf|BC Feuersee Ludwigsburg,,Thomas Hörauf (BC Feuersee Ludwigsburg),Thomas Hörauf,BC Feuersee Ludwigsburg,BC Feuersee Ludwigsburg,6
@@ -2778,6 +2779,7 @@ n:alexander wibisono|BSV Pfullingen,,Alexander Wibisono,Alexander Wibisono,BSV P
 n:alfredo di perna|BSV Filderstadt,,Alfredo Di Perna (BSV Filderstadt),Alfredo Di Perna,BSV Filderstadt,BSV Filderstadt 2,5
 n:andreas begau|TV Cannstatt,,Andreas Begau (TV Cannstatt),Andreas Begau,TV Cannstatt,TV Cannstatt,5
 p:242912,242912,Anita Massow,Anita Massow,BSV Tiengen,BSV Tiengen 3,5
+p:369242,369242,Bernd Ulrich,Bernd Ulrich,BSV Shooters Fellbach,BSV Shooters Fellbach 3,5
 n:carsten fuchs|BC Sindelfingen,,Carsten Fuchs,Carsten Fuchs,BC Sindelfingen,BC Sindelfingen 3,5
 n:daniel schwarz|BC Neckarsulm,,Daniel Schwarz,Daniel Schwarz,BC Neckarsulm,BC Neckarsulm 2,5
 n:daniel stohler|BC Dreiländereck,,Daniel Stohler (BC Dreiländereck),Daniel Stohler,BC Dreiländereck,BC Dreiländereck,5
@@ -2793,10 +2795,12 @@ n:moritz körber|BC Sindelfingen,,Moritz Körber,Moritz Körber,BC Sindelfingen,
 p:369017,369017,Oliver Hasenfuß,Oliver Hasenfuß,BC Stuttgart 1891,BC Stuttgart 1891 4,5
 n:raffaele manobianco|BULL Leonberg-Höfingen,,Raffaele Manobianco,Raffaele Manobianco,BULL Leonberg-Höfingen,BULL Leonberg-Höfingen 2,5
 n:ramazan akdag|BV Pforzheim,,Ramazan Akdag (BV Pforzheim),Ramazan Akdag,BV Pforzheim,BV Pforzheim,5
+p:369215,369215,Raphael Müller,Raphael Müller,BC Sindelfingen,BC Sindelfingen 5,5
 n:robert zivanovic|SBSC Denkendorf,,Robert Zivanovic (SBSC Denkendorf),Robert Zivanovic,SBSC Denkendorf,SBSC Denkendorf 2,5
 n:stefan bätzler|Jump Shot Mingolsheim,,Stefan Bätzler (Jump Shot Mingolsheim),Stefan Bätzler,Jump Shot Mingolsheim,Jump Shot Mingolsheim 3,5
 n:stefanie arndt|BSV Tiengen,,Stefanie Arndt (BSV Tiengen),Stefanie Arndt,BSV Tiengen,BSV Tiengen 2 | BSV Tiengen 3,5
 n:steffen behnke|BC Ludwigsburg,,Steffen Behnke,Steffen Behnke,BC Ludwigsburg,BC Ludwigsburg 2,5
+p:369225,369225,Steffen Höfer-Achatz,Steffen Höfer-Achatz,PBV Schwetzingen,PBV Schwetzingen 7,5
 p:354401,354401,Stephan Huber [354401],Stephan Huber,,,5
 n:tobias auer|BC Ludwigsburg,,Tobias Auer (BC Ludwigsburg),Tobias Auer,BC Ludwigsburg,BC Ludwigsburg 5,5
 n:tom wacker|PP Karlsbad,,Tom Wacker (PP Karlsbad),Tom Wacker,PP Karlsbad,PP Karlsbad 3,5
@@ -2822,8 +2826,10 @@ n:artur kantz|BC Sindelfingen,,Artur Kantz (BC Sindelfingen),Artur Kantz,BC Sind
 n:artur kantz|PP Böblingen,,Artur Kantz (PP Böblingen),Artur Kantz,PP Böblingen,PP Böblingen 2,4
 n:benedikt schramek|PBC Aalen,,Benedikt Schramek,Benedikt Schramek,PBC Aalen,PBC Aalen 2,4
 p:240515,240515,Bernd Hafner,Bernd Hafner,PF Calw,PF Calw 2 | PF Calw 3,4
+p:368696,368696,Bersan Cavildak,Bersan Cavildak,PP Böblingen,PP Böblingen 2,4
 n:björn spiegel|BC Feuersee Ludwigsburg,,Björn Spiegel (BC Feuersee Ludwigsburg),Björn Spiegel,BC Feuersee Ludwigsburg,BC Feuersee Ludwigsburg | BC Feuersee Ludwigsburg 2,4
 p:368356,368356,Bünyamin Öner,Bünyamin Öner,,,4
+p:354553,354553,Carsten Lendwei,Carsten Lendwei,PBV Schwetzingen,PBV Schwetzingen 7,4
 n:celal bulut|BV Markdorf,,Celal Bulut (BV Markdorf),Celal Bulut,BV Markdorf,BV Markdorf 2 | BV Markdorf 3,4
 n:christian herzenberger|PBC Schwäbisch-Gmünd,,Christian Herzenberger,Christian Herzenberger,PBC Schwäbisch-Gmünd,PBC Schwäbisch-Gmünd 3,4
 n:christian hofmann|PBC Nagoldtal,,Christian Hofmann,Christian Hofmann,PBC Nagoldtal,PBC Nagoldtal | PBC Nagoldtal 2,4
@@ -2944,6 +2950,7 @@ n:steffen graf|BV Villingen-Schwenningen,,Steffen Graf (BV Villingen-Schwenninge
 n:stephan mahler|PBC Aalen,,Stephan Mahler (PBC Aalen),Stephan Mahler,PBC Aalen,PBC Aalen 3,4
 n:stephan reber|PBC Freudenstadt,,Stephan Reber (PBC Freudenstadt),Stephan Reber,PBC Freudenstadt,PBC Freudenstadt 4,4
 n:suphi yalman|BV Villingen-Schwenningen,,Suphi Yalman,Suphi Yalman,BV Villingen-Schwenningen,BV Villingen-Schwenningen,4
+p:369268,369268,Sven Erbrecht,Sven Erbrecht,,,4
 n:sven müller|PBV Schwetzingen,,Sven Müller,Sven Müller,PBV Schwetzingen,PBV Schwetzingen 4,4
 p:368896,368896,Tamino Lázaro Colucci,Tamino Lázaro Colucci,BV Pforzheim,BV Pforzheim 3,4
 p:241919,241919,Thomas Dieckmann,Thomas Dieckmann,Tübinger BC,Tübinger BC 1,4
@@ -2956,6 +2963,7 @@ p:103268,103268,Vincenzo Murano,Vincenzo Murano,BSC Göppingen,BSC Göppingen 1,
 n:volkmar lorenz|PBC Schwäbisch-Gmünd,,Volkmar Lorenz (PBC Schwäbisch-Gmünd),Volkmar Lorenz,PBC Schwäbisch-Gmünd,PBC Schwäbisch-Gmünd 3,4
 n:walter utz|PBC Ochsenhausen,,Walter Utz,Walter Utz,PBC Ochsenhausen,PBC Ochsenhausen 2 | PBC Ochsenhausen 3,4
 p:249710,249710,Wilhelm Schaier,Wilhelm Schaier,BF Bruchsal,BF Bruchsal 3,4
+p:369266,369266,Wilmer Rivera Bruno,Wilmer Rivera Bruno,BC Stuttgart 1891,BC Stuttgart 1891 6,4
 n:wolfgang steidle|BC Aalen,,Wolfgang Steidle,Wolfgang Steidle,BC Aalen,BC Aalen 5,4
 p:368834,368834,Alexander Haas,Alexander Haas,TV Cannstatt,TV Cannstatt 4,3
 n:anita massow|Tübinger BC,,Anita Massow (Tübinger BC),Anita Massow,Tübinger BC,Tübinger BC 3,3
@@ -2976,7 +2984,6 @@ n:jochen eberhard|PBC Fr. Lampertheim,,Jochen  Eberhard,Jochen  Eberhard,PBC Fr.
 n:jörg hennze|BSV Weinheim,,Jörg Hennze,Jörg Hennze,BSV Weinheim,BSV Weinheim 5,3
 n:jürgen grimm|PF Calw,,Jürgen Grimm,Jürgen Grimm,PF Calw,PF Calw 4,3
 n:jürgen steimer|SBSC Denkendorf,,Jürgen Steimer (SBSC Denkendorf),Jürgen Steimer,SBSC Denkendorf,SBSC Denkendorf 2,3
-p:369244,369244,Kagan Güler,Kagan Güler,BBV Mannheim,BBV Mannheim 3,3
 n:kevin wiedensohler|PBC Bräunlingen,,Kevin Wiedensohler,Kevin Wiedensohler,PBC Bräunlingen,PBC Bräunlingen 3 | PBC Bräunlingen 4,3
 p:369297,369297,Lars Deffner,Lars Deffner,PBC Bad Saulgau,PBC Bad Saulgau 2,3
 n:markus knöll|BSV Nürtingen,,Markus Knöll,Markus Knöll,BSV Nürtingen,BSV Nürtingen 5,3
@@ -2988,7 +2995,7 @@ p:369142,369142,Paul Ehrlich,Paul Ehrlich,Pool Knights Bensheim,Pool Knights Ben
 p:369022,369022,Robert Holzinger,Robert Holzinger,PBV Schwetzingen,PBV Schwetzingen 9,3
 n:rüdiger theis|Tübinger BC,,Rüdiger Theis (Tübinger BC),Rüdiger Theis,Tübinger BC,Tübinger BC,3
 p:368195,368195,Sabrina Heinze,Sabrina Heinze,PBC Bruchsal,PBC Bruchsal 3,3
-p:369225,369225,Steffen Höfer-Achatz,Steffen Höfer-Achatz,PBV Schwetzingen,PBV Schwetzingen 7,3
+p:369235,369235,Tobias Linnow,Tobias Linnow,BSV Shooters Fellbach,BSV Shooters Fellbach 3,3
 p:366236,366236,Abdulhussain Nad Ali,Abdulhussain Nad Ali,P&S Denzlingen,P&S Denzlingen 2,2
 n:achim stoll|BSV Filderstadt,,Achim Stoll (BSV Filderstadt),Achim Stoll,BSV Filderstadt,BSV Filderstadt 4,2
 p:252173,252173,Ahmad Ayshe,Ahmad Ayshe,BC Feuersee,BC Feuersee 2,2
@@ -3026,14 +3033,11 @@ n:bernd gentner|BC Aalen,,Bernd Gentner,Bernd Gentner,BC Aalen,BC Aalen 2,2
 n:bernd hafner|PF Calw,,Bernd Hafner (PF Calw),Bernd Hafner,PF Calw,PF Calw 2,2
 n:bernd hauenstein|PBC Aalen,,Bernd Hauenstein (PBC Aalen),Bernd Hauenstein,PBC Aalen,PBC Aalen,2
 n:bernd messing|PBC Offenburg,,Bernd Messing (PBC Offenburg),Bernd Messing,PBC Offenburg,PBC Offenburg 3,2
-p:369242,369242,Bernd Ulrich,Bernd Ulrich,BSV Shooters Fellbach,BSV Shooters Fellbach 3,2
-p:368696,368696,Bersan Cavildak,Bersan Cavildak,PP Böblingen,PP Böblingen 2,2
 n:berthold gillich|BV Pforzheim,,Berthold Gillich (BV Pforzheim),Berthold Gillich,BV Pforzheim,BV Pforzheim 3,2
 n:bescheer muhammed|BSC Göppingen,,Bescheer Muhammed,Bescheer Muhammed,BSC Göppingen,BSC Göppingen,2
 n:birol caliskan|Fast Breakers Karlsruhe,,Birol Caliskan (Fast Breakers Karlsruhe),Birol Caliskan,Fast Breakers Karlsruhe,Fast Breakers Karlsruhe,2
 n:björn welte|PBC Bräunlingen,,Björn Welte (PBC Bräunlingen),Björn Welte,PBC Bräunlingen,PBC Bräunlingen 2,2
 n:björn welte|PBV Rottweil,,Björn Welte (PBV Rottweil),Björn Welte,PBV Rottweil,PBV Rottweil 2,2
-p:354553,354553,Carsten Lendwei,Carsten Lendwei,PBV Schwetzingen,PBV Schwetzingen 7,2
 p:369255,369255,Chayangkun Phawongram,Chayangkun Phawongram,PBC Ochsenhausen,PBC Ochsenhausen 4,2
 n:christian betting|BC Dreiländereck,,Christian Betting,Christian Betting,BC Dreiländereck,BC Dreiländereck,2
 n:christine gharbi|BC Stuttgart 1891,,Christine Gharbi,Christine Gharbi,BC Stuttgart 1891,BC Stuttgart 1891 2,2
@@ -3096,6 +3100,7 @@ n:jonny stojanovic|BC Stuttgart 1891,,Jonny Stojanovic (BC Stuttgart 1891),Jonny
 p:369216,369216,Joshua Rinaldi Hermawan,Joshua Rinaldi Hermawan,BC Sindelfingen,BC Sindelfingen 8,2
 p:368427,368427,Jozsef Mark,Jozsef Mark,PBC Nagoldtal,PBC Nagoldtal 3,2
 p:355119,355119,Julian Wolf,Julian Wolf,BSC Göppingen,BSC Göppingen 2,2
+n:justus quitsch|PBC Bruchsal,,Justus Quitsch (PBC Bruchsal),Justus Quitsch,PBC Bruchsal,PBC Bruchsal 4,2
 p:170568,170568,Jörg Hechler,Jörg Hechler,BSG Albstadt,BSG Albstadt 1,2
 p:101766,101766,Jörg Heinze,Jörg Heinze,PBC Bruchsal,PBC Bruchsal 3,2
 n:jörg schwager|BSC Göppingen,,Jörg Schwager (BSC Göppingen),Jörg Schwager,BSC Göppingen,BSC Göppingen,2
@@ -3109,6 +3114,8 @@ n:klaus lehleiter|PBC Bad Saulgau,,Klaus Lehleiter,Klaus Lehleiter,PBC Bad Saulg
 p:102925,102925,Klaus Maier,Klaus Maier,BSC St. Georgen,BSC St. Georgen 1,2
 n:klaus merdes|BF Bruchsal,,Klaus Merdes,Klaus Merdes,BF Bruchsal,BF Bruchsal,2
 n:kristijan drljo|SBSC Denkendorf,,Kristijan Drljo (SBSC Denkendorf),Kristijan Drljo,SBSC Denkendorf,SBSC Denkendorf,2
+n:lars quitsch|PBC Bruchsal,,Lars Quitsch (PBC Bruchsal),Lars Quitsch,PBC Bruchsal,PBC Bruchsal 4,2
+n:lasse quitsch|PBC Bruchsal,,Lasse Quitsch (PBC Bruchsal),Lasse Quitsch,PBC Bruchsal,PBC Bruchsal 4,2
 n:louise wong|BC Feuersee,,Louise Wong (BC Feuersee),Louise Wong,BC Feuersee,BC Feuersee,2
 p:369146,369146,Lukas Bruchmann,Lukas Bruchmann,PBC Aalen,PBC Aalen 2,2
 n:lukas jäckel|PBV Rottweil,,Lukas Jäckel,Lukas Jäckel,PBV Rottweil,PBV Rottweil 2,2
@@ -3187,7 +3194,6 @@ n:ralf hespeler|BSV Konstanz,,Ralf Hespeler,Ralf Hespeler,BSV Konstanz,BSV Konst
 n:ralf hohlfeld|BC Feuersee Ludwigsburg,,Ralf Hohlfeld (BC Feuersee Ludwigsburg),Ralf Hohlfeld,BC Feuersee Ludwigsburg,BC Feuersee Ludwigsburg 2,2
 p:100037,100037,Ramazan Akdag,Ramazan Akdag,BV Pforzheim,BV Pforzheim 1,2
 n:randi ramzi ya´da|BSV Pfullingen,,Randi Ramzi ya´da,Randi Ramzi ya´da,BSV Pfullingen,BSV Pfullingen 4,2
-p:369215,369215,Raphael Müller,Raphael Müller,BC Sindelfingen,BC Sindelfingen 5,2
 p:369265,369265,Rebeca Romero Ulloa,Rebeca Romero Ulloa,BC Stuttgart 1891,BC Stuttgart 1891 6,2
 n:rene scheffel|BSV Weinheim,,Rene Scheffel,Rene Scheffel,BSV Weinheim,BSV Weinheim 3,2
 p:369204,369204,Robert Bergmann,Robert Bergmann,PBC Nagoldtal,PBC Nagoldtal 4,2
@@ -3207,6 +3213,7 @@ n:simon wiedemann|CC Karlsruhe,,Simon Wiedemann,Simon Wiedemann,CC Karlsruhe,CC 
 n:stefan gebauer|PBC Ochsenhausen,,Stefan Gebauer,Stefan Gebauer,PBC Ochsenhausen,PBC Ochsenhausen,2
 n:stefan herzer|PBC Schwäbisch-Gmünd,,Stefan Herzer (PBC Schwäbisch-Gmünd),Stefan Herzer,PBC Schwäbisch-Gmünd,PBC Schwäbisch-Gmünd 3,2
 n:steffen adler|BF Weinheim-Viernheim,,Steffen Adler (BF Weinheim-Viernheim),Steffen Adler,BF Weinheim-Viernheim,BF Weinheim-Viernheim,2
+n:stephan huber|unassigned,,Stephan Huber (unassigned),Stephan Huber,,,2
 p:351276,351276,Stephan Kathari,Stephan Kathari,CC Karlsruhe,CC Karlsruhe 5,2
 n:stephan moser|BV Villingen-Schwenningen,,Stephan Moser (BV Villingen-Schwenningen),Stephan Moser,BV Villingen-Schwenningen,BV Villingen-Schwenningen,2
 n:stipe topic|BSV Nürtingen,,Stipe Topic,Stipe Topic,BSV Nürtingen,BSV Nürtingen,2
@@ -3230,11 +3237,11 @@ n:ute kiefer|CC Karlsruhe,,Ute Kiefer (CC Karlsruhe),Ute Kiefer,CC Karlsruhe,CC 
 n:uwe|Tübinger BC,,Uwe,Uwe,Tübinger BC,Tübinger BC,2
 n:uwe mann|PBC Rastatt,,Uwe Mann (PBC Rastatt),Uwe Mann,PBC Rastatt,PBC Rastatt 2,2
 n:vedran rako|TV Cannstatt,,Vedran Rako (TV Cannstatt),Vedran Rako,TV Cannstatt,TV Cannstatt,2
+n:vincent wiesehügel|PBC Bruchsal,,Vincent Wiesehügel (PBC Bruchsal),Vincent Wiesehügel,PBC Bruchsal,PBC Bruchsal 4,2
 p:354615,354615,Virginia Eisen,Virginia Eisen,PBC Reutlingen,PBC Reutlingen 2,2
 p:368136,368136,Vithyea Thorn,Vithyea Thorn,BC Aalen,BC Aalen 3,2
 n:volker auer|PBC Bad Saulgau,,Volker Auer,Volker Auer,PBC Bad Saulgau,PBC Bad Saulgau 6,2
 n:wilfried scheibel|BV Markdorf,,Wilfried Scheibel (BV Markdorf),Wilfried Scheibel,BV Markdorf,BV Markdorf 3,2
-p:369266,369266,Wilmer Rivera Bruno,Wilmer Rivera Bruno,BC Stuttgart 1891,BC Stuttgart 1891 6,2
 p:353760,353760,Yannick Redl,Yannick Redl,PBC Rastatt,PBC Rastatt 1,2
 n:yavuz güleryüz|P&S Denzlingen,,Yavuz Güleryüz (P&S Denzlingen),Yavuz Güleryüz,P&S Denzlingen,P&S Denzlingen 2,2
 n:yunus gürbüz|BV Villingen-Schwenningen,,Yunus Gürbüz,Yunus Gürbüz,BV Villingen-Schwenningen,BV Villingen-Schwenningen,2
@@ -3289,6 +3296,5 @@ n:sergei kirtkov|PBV Schwetzingen,,Sergei Kirtkov,Sergei Kirtkov,PBV Schwetzinge
 n:siegfried dietl|PBC Langenargen,,Siegfried Dietl,Siegfried Dietl,PBC Langenargen,PBC Langenargen 2,1
 n:stephan maier|TV Cannstatt,,Stephan Maier (TV Cannstatt),Stephan Maier,TV Cannstatt,TV Cannstatt,1
 n:tobias krieger|PBC Aalen,,Tobias Krieger (PBC Aalen),Tobias Krieger,PBC Aalen,PBC Aalen 2,1
-p:369235,369235,Tobias Linnow,Tobias Linnow,BSV Shooters Fellbach,BSV Shooters Fellbach 3,1
 p:104152,104152,Tobias Schneider,Tobias Schneider,BF Bronnen,BF Bronnen 1,1
 n:udo kirchgessner aufn.: 5; ø: 12.00|unassigned,,Udo Kirchgeßner Aufn.: 5; Ø: 12.00,Udo Kirchgeßner Aufn.: 5; Ø: 12.00,,,1

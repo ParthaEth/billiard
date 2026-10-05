@@ -1383,6 +1383,7 @@ player_id,pass_nr,name
 100325,100325,Susi Harbrecht-Berndt
 369089,369089,Sven Dastig
 104770,104770,Sven Deschner
+369268,369268,Sven Erbrecht
 247868,247868,Sven Gehrisch
 170496,170496,Sven Götz
 355166,355166,Sven Kaiser
@@ -2361,6 +2362,7 @@ local:joshua armbruster|PBC Freudenstadt,,Joshua Armbruster
 local:juan condello|BC Stuttgart,,Juan Condello
 local:julian koten|BSV Filderstadt,,Julian Koten
 local:julian tremmel|BSV Konstanz,,Julian Tremmel
+local:justus quitsch|PBC Bruchsal,,Justus Quitsch
 local:jutta klaussner|CC Karlsruhe,,Jutta Klaussner
 local:jutta ute kreimes|BF Bruchsal,,Jutta Ute Kreimes
 local:jörg brenner|BC Breakers Knittlingen,,Jörg Brenner
@@ -2434,8 +2436,10 @@ local:kristian kolthoff|PBV Schwetzingen,,Kristian Kolthoff
 local:kristijan drljo|BBC Plochingen,,Kristijan Drljo
 local:kristijan drljo|SBSC Denkendorf,,Kristijan Drljo
 local:köksal albayrak|BC Dallau,,Köksal Albayrak
+local:lars quitsch|PBC Bruchsal,,Lars Quitsch
 local:lars woggan|BSV Filderstadt,,Lars Woggan
 local:lars woggan|BSV Nürtingen,,Lars Woggan
+local:lasse quitsch|PBC Bruchsal,,Lasse Quitsch
 local:lennart vietzke|BSV Weinheim,,Lennart Vietzke
 local:leonhard dietzel|TV Cannstatt,,Leonhard Dietzel
 local:lionel heit|PBC Offenburg,,Lionel Heit
@@ -2735,6 +2739,7 @@ local:nicole hummel|BSC St. Georgen,,Nicole Hummel
 local:nicole riedl|BC Fellbach,,Nicole Riedl
 local:niklas vogel|BULL Leonberg-Höfingen,,Niklas Vogel
 local:nikola kremer|Poolsharks Bruchsal,,Nikola Kremer
+local:nikola mitrovic|unassigned,,Nikola Mitrovic
 local:nikolai kruhm|PBC Fr. Lampertheim,,Nikolai Kruhm
 local:nikolaus blum|PBC Ochsenhausen,,Nikolaus Blum
 local:nikolaus deckers|P&S Denzlingen,,Nikolaus Deckers
@@ -3056,6 +3061,7 @@ local:steffen säubert|PBC Waghäusel,,Steffen Säubert
 local:steffen wanner|PBC Trossingen,,Steffen Wanner
 local:stephan huber|BSV Konstanz,,Stephan Huber
 local:stephan huber|CC Karlsruhe,,Stephan Huber
+local:stephan huber|unassigned,,Stephan Huber
 local:stephan mahler|PBC Aalen,,Stephan Mahler
 local:stephan maier|TV Cannstatt,,Stephan Maier
 local:stephan moser|BV Villingen-Schwenningen,,Stephan Moser
@@ -3233,6 +3239,7 @@ local:vedran rako|TV Cannstatt,,Vedran Rako
 local:veljko andrasic|BSC St. Georgen,,Veljko Andrasic
 local:viktor könig|BF Weinheim-Viernheim,,Viktor König
 local:vincent enderlin|PBC Offenburg,,Vincent Enderlin
+local:vincent wiesehügel|PBC Bruchsal,,Vincent Wiesehügel
 local:vincenzo murano|BSC Göppingen,,Vincenzo Murano
 local:vjekoslav mikulic|Heidenheimer BC,,Vjekoslav Mikulic
 local:vladislav hebel|P&S Denzlingen,,Vladislav Hebel
@@ -3243,7 +3250,6 @@ local:volker gutzeit|SBSC Denkendorf,,Volker Gutzeit
 local:volker vögele|BSF Kurpfalz,,Volker Vögele
 local:volkmar lorenz|PBC Schwäbisch Gmünd,,Volkmar Lorenz
 local:volkmar lorenz|PBC Schwäbisch-Gmünd,,Volkmar Lorenz
-local:wadea al mahamid|Tübinger BC,,Wadea Al Mahamid
 local:wahib jaradat|Tübinger BC,,Wahib Jaradat
 local:walter riebeling|PBC Sand,,Walter Riebeling
 local:walter utz|PBC Ochsenhausen,,Walter Utz
