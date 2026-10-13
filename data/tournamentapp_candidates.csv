@@ -1,0 +1,360 @@
+sid,portrait_name,result_name,matches,sanwald_elo,sanwald_se,pass_nr,league_name,clubs,league_elo,elo_delta,note
+100233,Tahsin Kirli,Kirli Tahsin,744,1689,30,368203,Tahsin Kirli,BSV Filderstadt,1688,1,name matches and Elo is within 30
+100040,Robin Heber,Heber Robin,734,1677,39,101724,Robin Heber,BC Sindelfingen,1729,-52,name matches; Elo is more than 30 apart
+100134,Necmi Kolbasar,Kolbasar Necmi,732,1571,29,245260,Necmi Kolbasar,PBC Bietigheim-Bissingen | PP Böblingen,1621,-50,name matches; Elo is more than 30 apart
+100037,Daniel Merbitz,Merbitz Daniel,626,1694,58,103075,Daniel Merbitz,BC Stuttgart 1891,1707,-13,name matches and Elo is within 30
+119553,Armin Mahmoudi,Mahmoudi Armin,621,1772,31,368884,Armin Mahmoudi,BC Sindelfingen,1781,-9,name matches and Elo is within 30
+108457,Michael Reich,Reich Michael,618,1491,30,355443,Michael Reich,BC Sindelfingen,1548,-57,name matches; Elo is more than 30 apart
+105703,Anh Tran,Tran Anh,616,1571,34,104655,Anh Tran,BULL Leonberg-Höfingen,1606,-35,name matches; Elo is more than 30 apart
+101796,Xanthos Vlassidis,Vlassidis Xanthos,604,1696,39,242881,Xanthos Vlassidis,,1721,-25,name matches and Elo is within 30
+100314,Saeid Heydarpour,Heydarpour Saeid,520,1533,67,368146,Saeid Heydarpour,BC Sindelfingen,1554,-21,name matches and Elo is within 30
+103183,Petra Sannwald,Sannwald Petra,513,1449,38,103910,Petra Sannwald,BC Sindelfingen,1480,-31,name matches; Elo is more than 30 apart
+100092,Ricardo Gutjahr,Gutjahr Ricardo,504,1806,105,101572,Ricardo Gutjahr,BULL Leonberg-Höfingen,1841,-35,name matches; Elo is more than 30 apart
+102980,Andreas Wittmeier,Wittmeier Andreas,504,1516,44,240155,Andreas Wittmeier,BV Pforzheim,1568,-52,name matches; Elo is more than 30 apart
+100464,Claudio Pontuti,Pontuti Claudio,478,1513,35,103552,Claudio Pontuti,BC Stuttgart 1891 | BSV Filderstadt | TV Cannstatt,1547,-34,name matches; Elo is more than 30 apart
+100055,Frank Gebert,Gebert Frank,453,1631,41,101317,Frank Gebert,BC Blaustein | BSV Filderstadt,1651,-20,name matches and Elo is within 30
+122435,Saeid Heydarpour,Heydarpour Saeid,435,1519,29,368146,Saeid Heydarpour,BC Sindelfingen,1554,-35,name matches; Elo is more than 30 apart
+100120,Giuseppe Curcio,Curcio Giuseppe,405,1618,78,242722,Giuseppe Curcio,BULL Leonberg-Höfingen | PBC Aalen | TV Cannstatt,1673,-55,name matches; Elo is more than 30 apart
+108724,Marco Sforza,Sforza Marco,403,1536,107,368774,Marco Sforza,BC Sindelfingen | BV Villingen-Schwenningen,1584,-48,name matches; Elo is more than 30 apart
+105191,Aryan Dayyani,Dayyani Aryan,400,1577,39,245948,Aryan Dayyani,BC Dätzingen | BC Sindelfingen | PF Calw,1623,-46,name matches; Elo is more than 30 apart
+107733,Ramazan Yildirim,Yildirim Ramazan,390,1568,91,368097,Ramazan Yildirim,TV Cannstatt,1625,-57,name matches; Elo is more than 30 apart
+101467,Denis Mnich,Mnich Denis,371,1589,37,246024,Denis Mnich,BC Sindelfingen,1650,-61,name matches; Elo is more than 30 apart
+119226,Tobias Hirt,Hirt Tobias,358,1539,40,228904,Tobias Hirt,BC Sindelfingen | PBC Bad Saulgau,1557,-18,name matches and Elo is within 30
+107347,Christopher Hopp,Hopp Christopher,343,1502,101,353408,Christopher Hopp,BC Sindelfingen,1561,-59,name matches; Elo is more than 30 apart
+100490,Zeljko Burmazovic,Burmazovic Zeljko,314,1662,49,100616,Zeljko Burmazovic,PBC Schwäbisch Hall | TV Cannstatt,1686,-24,name matches and Elo is within 30
+106512,Daniel la Cognata,la Cognata Daniel,299,1392,59,102694,Daniel La Cognata,BC Sindelfingen | PBC Nagoldtal,1456,-64,name matches; Elo is more than 30 apart
+118343,Thomas Kupfer,Kupfer Thomas,275,1586,36,102680,Thomas Kupfer,PBC Schwäbisch Hall,1593,-7,name matches and Elo is within 30
+129281,Erdem Dikici,Dikici Erdem,257,1536,31,369106,Erdem Dikici,BSC Göppingen | BSV Filderstadt,1610,-74,name matches; Elo is more than 30 apart
+101470,Fabio Romano,Romano Fabio,256,1552,127,103790,Fabio Romano,BULL Leonberg-Höfingen,1595,-43,name matches; Elo is more than 30 apart
+100388,Savvas Kourpanidis,Kourpanidis Savvas,240,1611,62,367949,Savvas Kourpanidis,BC Sindelfingen,1617,-6,name matches and Elo is within 30
+107303,Bernd Hafner,Hafner Bernd,234,1562,45,240515,Bernd Hafner,PF Calw,1686,-124,name matches; Elo is more than 30 apart
+100505,Christian Endres,Endres Christian,232,1627,143,123648,Christian Endres,BULL Leonberg-Höfingen,1655,-28,name matches and Elo is within 30
+119885,Petra Braun,Braun Petra,229,1476,41,100500,Petra Braun,BC Sindelfingen,1612,-136,name matches; Elo is more than 30 apart
+128599,Alexander Striker,Striker Alexander,221,1558,65,104541,Alexander Striker,BC Sindelfingen | PF Calw,1657,-99,name matches; Elo is more than 30 apart
+103043,Bernd Füess,Füess Bernd,220,1513,52,101264,Bernd Füess,BC Sindelfingen,1555,-42,name matches; Elo is more than 30 apart
+100145,Ivan Hodzic,Hodzic Ivan,219,1533,75,101912,Ivan Hodzic,PP Böblingen,1559,-26,name matches and Elo is within 30
+118529,Osman Büyük,Büyük Osman,200,1578,84,228532,Osman Büyük,BSV Filderstadt,1607,-29,name matches and Elo is within 30
+100135,Ruben Frick,Frick Ruben,195,1728,75,101210,Ruben Frick,BV Villingen-Schwenningen | PBV Rottweil,1713,15,name matches and Elo is within 30
+121726,Dennis Waldecker,Waldecker Dennis,175,1740,39,104848,Dennis Waldecker,BC Sindelfingen,1791,-51,name matches; Elo is more than 30 apart
+125332,Ahmad Nassar,Nassar Ahmad,168,1500,45,368865,Ahmad Nassar,BC Neckarsulm,1478,22,name matches and Elo is within 30
+101962,Stephan Rech-Linker,Rech-Linker Stephan,164,1508,48,103634,Stephan Rech-Linker,BC Sindelfingen,1590,-82,name matches; Elo is more than 30 apart
+117272,Ralf Griesshaber,Griesshaber Ralf,147,1660,99,101485,Ralf Grießhaber,BV Villingen-Schwenningen,1673,-13,name matches and Elo is within 30
+105744,Mustafa Benk,Benk Mustafa,139,1567,91,100296,Mustafa Benk,PBC Bietigheim-Bissingen | TV Cannstatt,1608,-41,name matches; Elo is more than 30 apart
+116477,Daniel Doulgeris,Daniel Doulgeris,136,1397,156,368575,Daniel Doulgeris,BULL Leonberg-Höfingen,1440,-43,name matches; Elo is more than 30 apart
+130537,Colin Ketterlin,Ketterlin Colin,134,1601,41,368957,Colin Ketterlin,CC Karlsruhe,1645,-44,name matches; Elo is more than 30 apart
+101485,Ralf Grießhaber,Grießhaber Ralf,130,1592,347,101485,Ralf Grießhaber,BV Villingen-Schwenningen,1673,-81,name matches; Elo is more than 30 apart
+119327,Long Werner,Werner Long,130,1519,65,252010,Long Werner,BF Bruchsal | BV Pforzheim | CC Karlsruhe,1533,-14,name matches and Elo is within 30
+117205,Andreas Zillmann,Zillmann Andreas,129,1602,61,368093,Andreas Zillmann,PP Böblingen,1628,-26,name matches and Elo is within 30
+101718,Daniel Sanchez Goncalves,Sanchez Goncalves D.,128,1448,73,103907,Daniel Sanchez Goncalves,BC Feuersee | PBC Schwäbisch Gmünd,1492,-44,name matches; Elo is more than 30 apart
+100116,Simon Kaincz,Kaincz Simon,123,1342,214,368133,Simon Kaincz,BSV Filderstadt,1380,-38,name matches; Elo is more than 30 apart
+108789,Jozsef Zvorinji,Zvorinji Jozsef,119,1465,125,368096,Jozsef Zvorinji,PP Böblingen | TV Cannstatt,1631,-166,name matches; Elo is more than 30 apart
+100567,Alexander Striker,Striker Alexander,116,1585,392,104541,Alexander Striker,BC Sindelfingen | PF Calw,1657,-72,name matches; Elo is more than 30 apart
+118212,Benjamin Jung,Jung Benjamin,113,1672,145,102153,Benjamin Jung,PBC Freudenstadt,1710,-38,name matches; Elo is more than 30 apart
+102101,Michael Matschewsky,Matschewsky Michael,111,1641,234,242867,Michael Matschewsky,PBC Freudenstadt,1704,-63,name matches; Elo is more than 30 apart
+108764,Alexandar Stankovic,Stankovic Alexandar,109,1575,67,355901,Alexandar Stankovic,PBC Bietigheim-Bissingen | PBC Pfedelbach | PBC Schwäbisch Hall | TV Cannstatt,1654,-79,name matches; Elo is more than 30 apart
+100695,Yunus Ayvaz,Ayvaz Yunus,108,1512,157,242951,Yunus Ayvaz,PP Böblingen,1563,-51,name matches; Elo is more than 30 apart
+105153,Osman Büyük,Büyük Osman,108,1538,292,228532,Osman Büyük,BSV Filderstadt,1607,-69,name matches; Elo is more than 30 apart
+130629,Yusa Tutucu,Tutucu Yusa,108,1542,40,368922,Yusa Tutucu,BSC Göppingen,1544,-2,name matches and Elo is within 30
+117197,Matthias Grgic,Grgic Matthias,107,1342,222,368292,Matthias Grgic,BC Sindelfingen,1453,-111,name matches; Elo is more than 30 apart
+123756,Marcel Haab,Haab Marcel,102,1383,73,368343,Marcel Haab,BC Dätzingen,1469,-86,name matches; Elo is more than 30 apart
+103120,Petra Braun,Braun Petra,101,1519,97,100500,Petra Braun,BC Sindelfingen,1612,-93,name matches; Elo is more than 30 apart
+123178,Phat Truong,Truong Phat,99,1509,58,368809,Phat Truong,BC Stuttgart 1891,1565,-56,name matches; Elo is more than 30 apart
+116408,Mohammed Ali Bemah,Bemah Mohammed Ali,97,1434,86,355875,Mohammed Ali Bemah,BC Sindelfingen | PP Böblingen,1455,-21,name matches and Elo is within 30
+119447,Roberto Savcic,Savcic Roberto,95,1394,198,368498,Roberto Savcic,BC Sindelfingen,1490,-96,name matches; Elo is more than 30 apart
+104051,Savas Hopff,Hopff Savas,94,1699,235,101979,Savas Hopff,BC Dätzingen | PF Calw,1628,71,name matches; Elo is more than 30 apart
+116585,Benjamin Hirschberger,Hirschberger B.,94,1603,65,368107,Benjamin Hirschberger,BC Sindelfingen | BC Stuttgart 1891,1603,0,name matches and Elo is within 30
+119370,Marvin Szymiczek,Szymiczek Marvin,94,1426,121,350651,Marvin Szymiczek,BV Pforzheim,1478,-52,name matches; Elo is more than 30 apart
+103613,Ferhat Cayli,Cayli Ferhat,89,1552,183,251376,Ferhat Cayli,BC Neckarsulm,1560,-8,name matches and Elo is within 30
+108396,Athanassios Psimenidis,Psimenidis A.,88,1634,204,103578,Athanassios Psimenidis,BSV Filderstadt,1708,-74,name matches; Elo is more than 30 apart
+121727,Calvin Waldecker,Waldecker Calvin,86,1642,54,368207,Calvin Waldecker,CC Karlsruhe | PBC Rastatt,1712,-70,name matches; Elo is more than 30 apart
+117363,Thomas Stoll,Stoll Thomas,84,1456,169,104512,Thomas Stoll,BC Sindelfingen,1491,-35,name matches; Elo is more than 30 apart
+100087,Dirk Müller,Müller Dirk,82,1619,136,103209,Dirk Müller,CC Karlsruhe | PP Karlsbad,1664,-45,name matches; Elo is more than 30 apart
+119458,Orhan Parama,Parama Orhan,81,1620,72,252858,Orhan Parama,BSC Göppingen,1652,-32,name matches; Elo is more than 30 apart
+104223,Michael Gärttner,Gärttner Michael,79,1383,52,251014,Michael Gärttner,BC Sindelfingen | PP Böblingen,1405,-22,name matches and Elo is within 30
+105483,Selim Güzel,Güzel Selim,77,1498,107,242971,Selim Güzel,PP Böblingen,1520,-22,name matches and Elo is within 30
+106087,Denis Maric,Maric Denis,76,1421,170,351327,Denis Maric,BC Sindelfingen,1398,23,name matches and Elo is within 30
+120826,Sercan_ Özdemir,Özdemir Sercan_,75,1587,100,103444,Sercan Özdemir,PP Böblingen,1621,-34,name matches; Elo is more than 30 apart
+117237,Robin Heber,Heber Robin,73,1654,79,101724,Robin Heber,BC Sindelfingen,1729,-75,name matches; Elo is more than 30 apart
+100277,Marcus Mutschler,Mutschler Marcus,72,1640,317,103275,Marcus Mutschler,PBC Bietigheim-Bissingen,1681,-41,name matches; Elo is more than 30 apart
+101425,Emrah Atak,Atak Emrah,70,1508,205,250901,Emrah Atak,BC Neckarsulm | PBV Schwetzingen,1522,-14,name matches and Elo is within 30
+107911,Tobias Wähler,Wähler Tobias,70,1396,498,251288,Tobias Wähler,BV Pforzheim,1448,-52,name matches; Elo is more than 30 apart
+102833,Marcus Trumpp,Trumpp Marcus,69,1510,115,104671,Marcus Trumpp,BSV Pfullingen,1593,-83,name matches; Elo is more than 30 apart
+105745,Marco Giusa,Giusa Marco,69,1720,68,101390,Marco Giusa,PBC Bietigheim-Bissingen | TV Cannstatt,1721,-1,name matches and Elo is within 30
+108559,Simon Schaal,Schaal Simon,66,1477,307,367945,Simon Schaal,BC Sindelfingen | BC Weingarten | PF Calw,1575,-98,name matches; Elo is more than 30 apart
+101171,Marco Warlies,Warlies Marco,64,1606,152,242963,Marco Warlies,BC Sindelfingen | PF Calw,1651,-45,name matches; Elo is more than 30 apart
+121408,Edin Porcic,Porcic Edin,63,1561,106,368051,Edin Porcic,BC Feuersee | BULL Leonberg-Höfingen,1670,-109,name matches; Elo is more than 30 apart
+101133,Andreas Pauling,Pauling Andreas,62,1507,99,103479,Andreas Pauling,BC Stuttgart 1891,1553,-46,name matches; Elo is more than 30 apart
+101612,Patrick Mungiuri,Mungiuri Patrick,60,1600,257,250878,Patrick Mungiuri,BULL Leonberg-Höfingen | BV Pforzheim,1682,-82,name matches; Elo is more than 30 apart
+106028,Long Werner,Werner Long,57,1511,89,252010,Long Werner,BF Bruchsal | BV Pforzheim | CC Karlsruhe,1533,-22,name matches and Elo is within 30
+125351,Adeeb Bitar,Bitar Adeeb,56,1402,78,368823,Adeeb Bitar,BC Sindelfingen,1443,-41,name matches; Elo is more than 30 apart
+119463,Reimar Sauter,Sauter Reimar,55,1542,70,352016,Reimar Sauter,BF Bruchsal | CC Karlsruhe,1565,-23,name matches and Elo is within 30
+101523,Hendrik Reckers,Reckers Hendrik,54,1595,144,103635,Hendrik Reckers,BF Bruchsal | JS Mingolsheim | PBV Schwetzingen,1694,-99,name matches; Elo is more than 30 apart
+100036,Ramazan Akdag,Akdag Ramazan,51,1801,367,100037,Ramazan Akdag,BV Pforzheim,1678,123,name matches; Elo is more than 30 apart
+121177,Angelo Truisi,Truisi Angelo,50,1568,82,368202,Angelo Truisi,CC Karlsruhe | PP Karlsbad,1568,0,name matches and Elo is within 30
+105954,Michael Schwarzjirg,Schwarzjirg Michael,49,1588,417,366769,Michael Schwarzjirg,TV Cannstatt,1654,-66,name matches; Elo is more than 30 apart
+117333,Oliver Kielwein,Kielwein Oliver,49,1612,255,350393,Oliver Kielwein,BC Sindelfingen,1640,-28,name matches and Elo is within 30
+100826,Daniel Kalnak,Kalnak Daniel,48,1510,508,102186,Daniel Kalnak,BSV Pfullingen,1643,-133,name matches; Elo is more than 30 apart
+121224,Jannik Buchstab,Buchstab Jannik,48,1538,204,368518,Jannik Buchstab,PBC Schwäbisch Gmünd,1544,-6,name matches and Elo is within 30
+107141,Saman Hadi,Hadi Saman,47,1428,131,353913,Saman Hadi,BC Dätzingen,1506,-78,name matches; Elo is more than 30 apart
+100463,Besim Tastekin,Tastekin Besim,46,1548,70,104578,Besim Tastekin,PBC Bietigheim-Bissingen,1553,-5,name matches and Elo is within 30
+123757,Alexander Egger,Egger Alexander,46,1477,94,368348,Alexander Egger,BC Dätzingen,1484,-7,name matches and Elo is within 30
+100940,Hermann Hoyh,Hoyh Hermann,45,1789,85,102003,Hermann Hoyh,TV Cannstatt,1798,-9,name matches and Elo is within 30
+101471,Florian Merz,Merz Florian,42,1594,121,103085,Florian Merz,BC Sindelfingen,1691,-97,name matches; Elo is more than 30 apart
+102827,Frank Vorauer,Vorauer Frank,42,1514,118,104803,Frank Vorauer,PBC Nagoldtal,1568,-54,name matches; Elo is more than 30 apart
+120062,Kian Sohns,Sohns Kian,42,1488,81,368777,Kian Sohns,VFL Herrenberg,1554,-66,name matches; Elo is more than 30 apart
+101139,Fabian Rapp,Rapp Fabian,41,1298,241,245247,Fabian Rapp,BSV Pfullingen,1495,-197,name matches; Elo is more than 30 apart
+102834,Thorsten Möhle,Möhle Thorsten,41,1385,587,368179,Thorsten Möhle,BC Sindelfingen,1491,-106,name matches; Elo is more than 30 apart
+104609,Frank Eisele,Eisele Frank,40,1648,155,100983,Frank Eisele,BC Sindelfingen | PBC Reutlingen,1608,40,name matches; Elo is more than 30 apart
+101318,Norbert Rollbühler,Rollbühler Norbert,39,1600,186,157455,Norbert Rollbühler,BC Aalen | PBC Schwäbisch Hall,1672,-72,name matches; Elo is more than 30 apart
+106718,Turan Machmut,Machmut Turan,38,1626,145,104685,Machmut Turan,BC Sindelfingen | PBC Nagoldtal,1635,-9,name matches and Elo is within 30
+116741,Marius-Daniel Grigore-Martini,Grigore-Martini M.,37,1634,111,248769,Marius-Daniel Grigore-Martini,BSV Pfullingen | PBC Reutlingen,1558,76,name matches; Elo is more than 30 apart
+105163,Holger Maier,Maier Holger,36,1622,154,102918,Holger Maier,BC Stuttgart 1891,1718,-96,name matches; Elo is more than 30 apart
+119448,Nic Woywodt,Woywodt Nic,35,1509,82,249310,Nic Woywodt,PBC Nagoldtal,1608,-99,name matches; Elo is more than 30 apart
+101966,Svenja Schwarzkopf,Heide Svenja,34,1480,157,101737,Svenja Schwarzkopf,BV Villingen-Schwenningen,1565,-85,name matches; Elo is more than 30 apart
+127052,Sami Kadriolli,Kadriolli Sami,34,1672,110,369233,Sami Kadriolli,BV Markdorf,1630,42,name matches; Elo is more than 30 apart
+128536,petar krolo,krolo petar,34,1488,109,368964,Petar Krolo,BC Sindelfingen,1549,-61,name matches; Elo is more than 30 apart
+132906,Francesco Dragotta,Dragotta Francesco,34,1519,69,369057,Francesco Dragotta,PBC Reutlingen | Tübinger BC,1514,5,name matches and Elo is within 30
+101709,Andreas Jeschka,Jeschka Andreas,33,1542,231,102114,Andreas Jeschka,PBC Reutlingen,1673,-131,name matches; Elo is more than 30 apart
+117269,Nikolaos Seristatidis,Seristatidis N.,33,1428,151,367912,Nikolaos Seristatidis,PP Böblingen | Tübinger BC,1485,-57,name matches; Elo is more than 30 apart
+121498,Jozsef Zvorinji,Zvorinji Jozsef,32,1576,118,368096,Jozsef Zvorinji,PP Böblingen | TV Cannstatt,1631,-55,name matches; Elo is more than 30 apart
+103817,Alexander Eck,Eck Alexander,31,1520,138,104656,Alexander Eck,BC Sindelfingen,1519,1,name matches and Elo is within 30
+104620,Ardalan Mirahmadi,Mirahmadi Ardalan,31,1541,390,253317,Ardalan Mirahmadi,BSV Filderstadt,1608,-67,name matches; Elo is more than 30 apart
+106081,Arman Rasoli,Rasoli Arman,31,1524,214,367918,Arman Rasoli,BC Sindelfingen,1565,-41,name matches; Elo is more than 30 apart
+119922,Miodrag Adrian Caravila,Caravila M.,31,1595,135,366767,Miodrag Adrian Caravila,BSV Pfullingen | PBC Reutlingen,1557,38,name matches; Elo is more than 30 apart
+120711,Luka Fuchs,Fuchs Luka,31,1459,87,368319,Luka Fuchs,PP Böblingen,1524,-65,name matches; Elo is more than 30 apart
+100856,Marcel Biegler,Biegler Marcel,30,1414,176,245244,Marcel Biegler,BSV Pfullingen,1467,-53,name matches; Elo is more than 30 apart
+105157,Orhan Parama,Parama Orhan,30,1650,264,252858,Orhan Parama,BSC Göppingen,1652,-2,name matches and Elo is within 30
+119554,Besim Rama,Rama Besim,30,1468,145,366458,Besim Rama,BC Neckarsulm,1471,-3,name matches and Elo is within 30
+128573,Susi Harbrecht-Berndt,Harbrecht-Berndt S.,29,1272,96,100325,Susi Harbrecht-Berndt,BULL Leonberg-Höfingen | PP Böblingen,1302,-30,name matches and Elo is within 30
+131294,abdullah yesil,yesil abdullah,29,1520,94,368434,Abdullah Yesil,PP Karlsbad,1608,-88,name matches; Elo is more than 30 apart
+101658,Gerd Hörrmann,Hörrmann Gerd,28,1636,110,101994,Gerd Hörrmann,PBC Rastatt | PP Karlsbad,1726,-90,name matches; Elo is more than 30 apart
+131335,Mike Walter,Walter Mike,28,1492,84,367987,Mike Walter,JS Mingolsheim,1464,28,name matches and Elo is within 30
+105274,Michael Martini,Martini Michael,27,1364,763,350161,Michael Martini,BSV Pfullingen,1444,-80,name matches; Elo is more than 30 apart
+107346,Andreas Keilmann,Keilmann Andreas,27,1597,406,102278,Andreas Keilmann,BC Sindelfingen | PBC Freudenstadt,1721,-124,name matches; Elo is more than 30 apart
+107361,Olaf Schwarz,Schwarz Olaf,27,1468,282,351950,Olaf Schwarz,BC Sindelfingen,1524,-56,name matches; Elo is more than 30 apart
+116490,Andre Kroschwald,Kroschwald Andre,27,1386,490,368147,Andre Kroschwald,BC Sindelfingen,1433,-47,name matches; Elo is more than 30 apart
+120181,Heiko Thomas,Thomas Heiko,27,1483,144,104615,Heiko Thomas,BC Feuersee,1537,-54,name matches; Elo is more than 30 apart
+121728,Luigi Sarullo,Sarullo Luigi,27,1593,110,250306,Luigi Sarullo,JS Mingolsheim | PBDC Kämpfelbach,1623,-30,name matches and Elo is within 30
+122568,Sait Pelit,Pelit Sait,27,1549,116,368819,Sait Pelit,BSC Göppingen,1538,11,name matches and Elo is within 30
+125315,Matthias Stolz,Stolz Matthias,27,1350,134,366248,Matthias Stolz,BC Feuersee | BSV Shooters Fellbach | TV Cannstatt,1506,-156,name matches; Elo is more than 30 apart
+127493,Joachim Lechenbauer,Lechenbauer J.,27,1452,119,102758,Joachim Lechenbauer,BC Stuttgart 1891,1481,-29,name matches and Elo is within 30
+131206,Philipp Kibele,Kibele Philipp,26,1651,87,368811,Philipp Kibele,TV Cannstatt,1721,-70,name matches; Elo is more than 30 apart
+100410,Berthold Moser,Moser Berthold,25,1507,456,103183,Berthold Moser,PBC Bräunlingen,1646,-139,name matches; Elo is more than 30 apart
+117212,Michailidis Aristidis,Aristidis M.,25,1584,418,103128,Aristidis Michailidis,BSV Filderstadt,1593,-9,name matches and Elo is within 30
+100030,Ismet Mehmeti,Mehmeti Ismet,24,1589,211,103044,Ismet Mehmeti,PBC Bietigheim-Bissingen,1719,-130,name matches; Elo is more than 30 apart
+101985,Uwe Schmidt,Schmidt Uwe,24,1528,200,104109,Uwe Schmidt,BC Stuttgart 1891 | BF Bruchsal | BV Pforzheim,1597,-69,name matches; Elo is more than 30 apart
+116785,mete mutlu,mutlu mete,24,1560,132,369123,Mete Mutlu,PBC Nagoldtal,1627,-67,name matches; Elo is more than 30 apart
+117678,Sabine Hort,Hort Sabine,24,1453,198,350961,Sabine Hort,BV Pforzheim,1544,-91,name matches; Elo is more than 30 apart
+118625,Thomas Doussos,Doussos Thomas,24,1618,135,367960,Thomas Doussos,BC Bad Schussenried | PBV Rottweil,1633,-15,name matches and Elo is within 30
+129088,Wolfgang Krüger,Krüger Wolfgang,24,1376,116,368860,Wolfgang Krüger,PF Calw,1374,2,name matches and Elo is within 30
+130415,Oliver Marx,Marx Oliver,24,1476,77,368364,Oliver Marx,BC Feuersee | BC Sindelfingen | BULL Leonberg-Höfingen,1524,-48,name matches; Elo is more than 30 apart
+104608,Peggy Eisele,Heßland Peggy,23,1468,199,244943,Peggy Eisele,BC Sindelfingen | BSV Filderstadt | PBC Reutlingen,1459,9,name matches and Elo is within 30
+105951,Arash Dayyani,Dayyani Arash,23,1467,166,248740,Arash Dayyani,BC Dätzingen,1498,-31,name matches; Elo is more than 30 apart
+117523,Thomas Handler,Handler Thomas,23,1492,237,101654,Thomas Handler,BC Feuersee | BV Leonberg,1541,-49,name matches; Elo is more than 30 apart
+121191,Ralf Grießhaber,Grießhaber Ralf,23,1700,183,101485,Ralf Grießhaber,BV Villingen-Schwenningen,1673,27,name matches and Elo is within 30
+100557,Udo Gleich,Gleich Udo,22,1466,469,101401,Udo Gleich,BC Blaustein,1478,-12,name matches and Elo is within 30
+108791,Jürgen Trost,Trost Jürgen,22,1523,659,368200,Jürgen Trost,BC Sindelfingen,1598,-75,name matches; Elo is more than 30 apart
+118483,Gary Wong_,Wong_ Gary,22,1527,333,105109,Gary Wong,PBC Schwäbisch Gmünd,1585,-58,name matches; Elo is more than 30 apart
+120105,Farhad Shahverdi,Shahverdi Farhad,22,1514,211,160734,Farhad Shahverdi,BC Sindelfingen,1664,-150,name matches; Elo is more than 30 apart
+128258,Jörg Schick-Bringer,Schick-Bringer Jörg,22,1546,145,104021,Jörg Schick-Bringer,BC Neckarsulm,1645,-99,name matches; Elo is more than 30 apart
+100272,Andreas Schroff,Schroff Andreas,21,1708,179,104203,Andreas Schroff,,1777,-69,name matches; Elo is more than 30 apart
+100456,Tuong Tran,Tran Tuong,21,1413,139,245106,Tuong Tran,BSV Pfullingen,1622,-209,name matches; Elo is more than 30 apart
+104440,Eric Mattern,Mattern Eric,21,1703,349,247176,Eric Mattern,PBV Schwetzingen,1808,-105,name matches; Elo is more than 30 apart
+118404,Michal Radwan,Radwan Michal,21,1556,431,350350,Michal Radwan,BC Feuersee | BULL Leonberg-Höfingen,1559,-3,name matches and Elo is within 30
+128775,Dominik Tonn,Tonn Dominik,21,1566,126,104642,Dominik Tonn,BV Pforzheim,1610,-44,name matches; Elo is more than 30 apart
+100444,Sina Yüksel,Yüksel Sina,20,1597,1139,368033,Sina Yüksel,PBV Rottweil,1540,57,name matches; Elo is more than 30 apart
+119333,Gerhard Gryschka,Gryschka Gerhard,20,1526,316,101528,Gerhard Gryschka,BV Pforzheim,1569,-43,name matches; Elo is more than 30 apart
+119451,Hakan Söyler,Söyler Hakan,20,1407,192,368224,Hakan Söyler,BC Sindelfingen | PBC Nagoldtal,1552,-145,name matches; Elo is more than 30 apart
+121751,Florian Krieg,Krieg Florian,20,1431,187,368771,Florian Krieg,BC Sindelfingen,1459,-28,name matches and Elo is within 30
+131334,Markus Wörner,Wörner Markus,20,1424,100,367988,Markus Wörner,JS Mingolsheim,1561,-137,name matches; Elo is more than 30 apart
+136905,Lukas Marx,Marx Lukas,20,1459,85,368659,Lukas Marx,BC Sindelfingen | BULL Leonberg-Höfingen,1502,-43,name matches; Elo is more than 30 apart
+101230,Benjamin Pran,Pran Benjamin,19,1540,281,103558,Benjamin Pran,BC Neckarsulm,1642,-102,name matches; Elo is more than 30 apart
+103131,Manuel Klappstein,Klappstein Manuel,19,1697,111,102381,Manuel Klappstein,PBC Rastatt,1732,-35,name matches; Elo is more than 30 apart
+108971,Moritz Rutkowski,Rutkowski Moritz,19,1579,686,252363,Moritz Rutkowski,CC Karlsruhe | Mannheimer BF | PBC Rastatt,1592,-13,name matches and Elo is within 30
+117047,Daniel Klapper,Klapper Daniel,19,1343,198,102379,Daniel Klapper,BC Sindelfingen | PP Böblingen,1361,-18,name matches and Elo is within 30
+117515,Peter Link,Link Peter,18,1451,351,121877,Peter Link,BC Feuersee | BSV Shooters Fellbach | TV Cannstatt,1464,-13,name matches and Elo is within 30
+117525,Mergim Zekaj,Zekaj Mergim,18,1461,394,252972,Mergim Zekaj,PBC Pfedelbach,1544,-83,name matches; Elo is more than 30 apart
+129105,Christian Di Lella,Di Lella Christian,18,1459,111,368894,Christian Di Lella,BC Stuttgart 1891,1539,-80,name matches; Elo is more than 30 apart
+100356,Marco Schmitt,Schmitt Marco,17,1502,112,230448,Marco Schmitt,Mannheimer BF,1537,-35,name matches; Elo is more than 30 apart
+102836,Nuhid Serifovic,Serifovic Nuhid,17,1341,194,104337,Nuhid Serifovic,BC Feuersee | PP Böblingen | TV Cannstatt,1494,-153,name matches; Elo is more than 30 apart
+106771,Martin Repp,Repp Martin,17,1473,161,353143,Martin Repp,BC Sindelfingen,1480,-7,name matches and Elo is within 30
+117520,Karim Gampper,Gampper Karim,17,1386,194,101299,Karim Gampper,BC Feuersee,1526,-140,name matches; Elo is more than 30 apart
+100474,Holger Vier,Vier Holger,16,1586,1212,163386,Holger Vier,PBC Bruchsal,1660,-74,name matches; Elo is more than 30 apart
+116679,Alexandros Satrazanis,Satrazanis A.,16,1368,570,368376,Alexandros Satrazanis,BSC Göppingen,1436,-68,name matches; Elo is more than 30 apart
+121533,Pavlos Dadakos,Dadakos Pavlos,16,1639,91,368381,Pavlos Dadakos,PBC Reutlingen,1679,-40,name matches; Elo is more than 30 apart
+116586,Thomas Hirschberger,Hirschberger Thomas,15,1438,632,368178,Thomas Hirschberger,BC Sindelfingen,1496,-58,name matches; Elo is more than 30 apart
+117204,Simon Koch,Koch Simon,15,1407,435,367993,Simon Koch,BSV Filderstadt,1325,82,name matches; Elo is more than 30 apart
+118406,Haydar Chehade,Chehade Haydar,15,1675,139,368540,Haydar Chehade,BBV Mannheim | Mannheimer BF,1716,-41,name matches; Elo is more than 30 apart
+123735,Kristan Bailey,Bailey Kristan,15,1459,127,369147,Kristan Bailey,BC Stuttgart 1891,1566,-107,name matches; Elo is more than 30 apart
+100062,Oezer Bulunmaz,Bulunmaz Oezer,14,1673,514,100599,Oezer Bulunmaz,BV Pforzheim | PP Karlsbad,1729,-56,name matches; Elo is more than 30 apart
+116848,Alexandros Vassiliadis,Vassiliadis A.,14,1499,314,104746,Alexandros Vassiliadis,PBC Aalen,1714,-215,name matches; Elo is more than 30 apart
+118687,Simone Künzl,Künzl Simone,14,1647,522,368302,Simone Künzl,BC Sindelfingen,1659,-12,name matches and Elo is within 30
+120710,Thomas Mooshammer,Mooshammer Thomas,14,1374,124,242747,Thomas Mooshammer,PP Böblingen,1433,-59,name matches; Elo is more than 30 apart
+121691,Dominik Tonn,Tonn Dominik,14,1515,311,104642,Dominik Tonn,BV Pforzheim,1610,-95,name matches; Elo is more than 30 apart
+126261,Saif Azzawi,Azzawi Saif,14,1442,191,368869,Saif Azzawi,PBC Schwäbisch Gmünd,1523,-81,name matches; Elo is more than 30 apart
+130639,Joshua Rinaldi Hermawan,Hermawan J.,14,1333,125,369216,Joshua Rinaldi Hermawan,BC Sindelfingen,1361,-28,name matches and Elo is within 30
+136475,Raphael Müller,Müller Raphael,14,1334,118,369215,Raphael Müller,BC Sindelfingen,1444,-110,name matches; Elo is more than 30 apart
+100186,Anastasios Kiriakidis,Kiriakidis A.,13,1610,772,102355,Anastasios Kiriakidis,,1313,297,name matches; Elo is more than 30 apart
+101153,Stefan Künzl,Künzl Stefan,13,1567,199,102645,Stefan Künzl,BC Sindelfingen | BSV Shooters Fellbach,1711,-144,name matches; Elo is more than 30 apart
+101728,Fabian Neglein,Neglein Fabian,13,1667,1320,103306,Fabian Neglein,PBC Bad Saulgau,1742,-75,name matches; Elo is more than 30 apart
+102933,Manuel Letzel,Letzel Manuel,13,1610,427,248413,Manuel Letzel,PBV Schwetzingen,1725,-115,name matches; Elo is more than 30 apart
+118481,Mehmet Cankurt,Cankurt Mehmet,13,1822,592,100651,Mehmet Cankurt,Mannheimer BF,1807,15,name matches and Elo is within 30
+119714,Mark Simon,Simon Mark,13,1599,135,104363,Mark Simon,PBC Nagoldtal,1622,-23,name matches and Elo is within 30
+119898,Louise Wong,Wong Louise,13,1424,171,240316,Louise Wong,BC Feuersee | BV Leonberg,1441,-17,name matches and Elo is within 30
+120715,Goncalo Vieira Manies,Vieira Manies G.,13,1568,299,104761,Goncalo Vieira Manies,BC Sindelfingen | PF Calw,1600,-32,name matches; Elo is more than 30 apart
+121431,Thorsten Möhle,Möhle Thorsten,13,1505,213,368179,Thorsten Möhle,BC Sindelfingen,1491,14,name matches and Elo is within 30
+122740,Ferdinand Widjaja,Widjaja Ferdinand,13,1450,123,369102,Ferdinand Widjaja,BC Sindelfingen,1465,-15,name matches and Elo is within 30
+127067,Dimitrios Stotoglou,Stotoglou Dimitrios,13,1413,155,368778,Dimitrios Stotoglou,VFL Herrenberg,1491,-78,name matches; Elo is more than 30 apart
+127481,Sukhbat Batjargal,Batjargal Sukhbat,13,1430,112,368893,Sukhbat Batjargal,BC Stuttgart 1891,1535,-105,name matches; Elo is more than 30 apart
+130448,Elias Marx,Marx Elias,13,1429,106,368396,Elias Marx,BC Feuersee | BULL Leonberg-Höfingen,1499,-70,name matches; Elo is more than 30 apart
+104753,Michael Grad,Grad Michael,12,1564,451,349925,Michael Grad,BSV Pfullingen,1621,-57,name matches; Elo is more than 30 apart
+116667,Mark Mende,Mende Mark,12,1367,673,367953,Mark Mende,BSV Pfullingen,1399,-32,name matches; Elo is more than 30 apart
+117235,Philip Kammnick,Kammnick Philip,12,1515,390,368142,Philip Kammnick,BC Bad Schussenried,1516,-1,name matches and Elo is within 30
+117347,Sebastian Albrecht,Albrecht Sebastian,12,1684,302,248593,Sebastian Albrecht,BC Neckarsulm,1622,62,name matches; Elo is more than 30 apart
+117518,Benjamin Eiberger,Eiberger Benjamin,12,1445,363,100972,Benjamin Eiberger,BV Pforzheim,1610,-165,name matches; Elo is more than 30 apart
+118626,Soner Ulucanli,Ulucanli Soner,12,1511,151,104715,Soner Ulucanli,PBV Rottweil,1701,-190,name matches; Elo is more than 30 apart
+119239,Manuel Letzel,Letzel Manuel,12,1743,558,248413,Manuel Letzel,PBV Schwetzingen,1725,18,name matches and Elo is within 30
+120197,Konstantin Miric,Miric Konstantin,12,1680,362,227705,Konstantin Miric,BC Sindelfingen,1561,119,name matches; Elo is more than 30 apart
+128579,Leon Schick,Schick Leon,12,1427,221,368818,Leon Schick,BC Neckarsulm,1407,20,name matches and Elo is within 30
+103044,Ciro Guerra,Guerra Ciro,11,1315,241,144449,Ciro Guerra,BC Sindelfingen,1409,-94,name matches; Elo is more than 30 apart
+117459,Thomas Schubert,Schubert Thomas,11,1593,168,104208,Thomas Schubert,BC Stuttgart 1891,1701,-108,name matches; Elo is more than 30 apart
+118706,Asim Ramakic,Ramakic Asim,11,1521,497,368269,Asim Ramakic,BC Feuersee | BULL Leonberg-Höfingen,1537,-16,name matches and Elo is within 30
+119449,Kurt Saller,Saller Kurt,11,1536,540,367959,Kurt Saller,BC Sindelfingen | PBC Nagoldtal,1522,14,name matches and Elo is within 30
+119863,Thorsten Kappus,Kappus Thorsten,11,1472,233,102219,Thorsten Kappus,BSV Pfullingen,1518,-46,name matches; Elo is more than 30 apart
+120701,Alexander Fischer,Fischer Alexander,11,1542,281,356369,Alexander Fischer,Tübinger BC,1538,4,name matches and Elo is within 30
+136343,Bersan Cavildak,Cavildak Bersan,11,1301,149,368696,Bersan Cavildak,PP Böblingen,1355,-54,name matches; Elo is more than 30 apart
+101984,Ulrich Schäfer,Schäfer Ulrich,10,1537,1391,229045,Ulrich Schäfer,BSV Pfullingen,1547,-10,name matches and Elo is within 30
+102777,Eric Sorg,Sorg Eric,10,1529,179,104396,Eric Sorg,BSV Shooters Fellbach | PBC Aalen,1598,-69,name matches; Elo is more than 30 apart
+104073,Marc Wagner,Wagner Marc,10,1448,228,163715,Marc Wagner,BC Blaustein,1512,-64,name matches; Elo is more than 30 apart
+117025,Christian Rossa,Rossa Christian,10,1661,1067,103820,Christian Rossa,BSV Pfullingen | PF Calw,1633,28,name matches and Elo is within 30
+117614,Sascha Sauer,Sauer Sascha,10,1503,312,103925,Sascha Sauer,BSV Filderstadt,1596,-93,name matches; Elo is more than 30 apart
+120053,Edis Eminovic,Eminovic Edis,10,1222,694,368496,Edis Eminovic,BC Sindelfingen,1245,-23,name matches and Elo is within 30
+120054,Enis Eminovic,Eminovic Enis,10,1322,659,368495,Enis Eminovic,BC Sindelfingen,1309,13,name matches and Elo is within 30
+129235,Philipp Kibele,Kibele Philipp,10,1648,288,368811,Philipp Kibele,TV Cannstatt,1721,-73,name matches; Elo is more than 30 apart
+132973,Kevin Minardi,Minardi Kevin,10,1418,136,369056,Kevin Minardi,PBC Reutlingen | Tübinger BC,1489,-71,name matches; Elo is more than 30 apart
+102334,Florian Pasch,Pasch Florian,9,1533,1583,249359,Florian Pasch,PF Calw,1531,2,name matches and Elo is within 30
+103074,Martin Wistuba,Wistuba Martin,9,1425,557,251771,Martin Wistuba,BSV Pfullingen,1507,-82,name matches; Elo is more than 30 apart
+116383,Heiko Hoffmann,Hoffmann Heiko,9,1597,1665,101926,Heiko Hoffmann,PBV Schwetzingen,1647,-50,name matches; Elo is more than 30 apart
+117517,Birger Tesnau,Tesnau Birger,9,1491,849,368012,Birger Tesnau,BC Feuersee | BC Stuttgart 1891,1573,-82,name matches; Elo is more than 30 apart
+118485,Achim Stoll,Stoll Achim,9,1360,528,245471,Achim Stoll,BSV Filderstadt,1359,1,name matches and Elo is within 30
+125811,Pascal Sanna,Sanna Pascal,9,1578,231,252214,Pascal Sanna,PBC Freudenstadt,1549,29,name matches and Elo is within 30
+131410,Andreas Picl,Picl Andreas,9,1432,149,369169,Andreas Picl,CC Karlsruhe,1522,-90,name matches; Elo is more than 30 apart
+101455,Steven Thieltges,Thieltges Steven,8,1533,1053,104607,Steven Thieltges,PBC Bietigheim-Bissingen,1601,-68,name matches; Elo is more than 30 apart
+104989,Ingo Nassall,Nassall Ingo,8,1638,227,103289,Ingo Nassall,BV Pforzheim | PBC Rastatt | PP Karlsbad,1668,-30,name matches and Elo is within 30
+119329,El mokhtar Draoui,Draoui El mokhtar,8,1512,470,352635,Draoui El Mokhtar,BV Pforzheim,1549,-37,name matches; Elo is more than 30 apart
+119377,Mustafa Benk,Benk Mustafa,8,1562,298,100296,Mustafa Benk,PBC Bietigheim-Bissingen | TV Cannstatt,1608,-46,name matches; Elo is more than 30 apart
+120141,Andreas Rago,Rago Andreas,8,1543,436,103598,Andreas Rago,BC Sindelfingen | PBC Nagoldtal,1522,21,name matches and Elo is within 30
+101657,Gary Wong,Wong Gary,7,1532,1089,105109,Gary Wong,PBC Schwäbisch Gmünd,1585,-53,name matches; Elo is more than 30 apart
+104233,Steffen Mämecke,Mämecke Steffen,7,1506,1820,175895,Steffen Mämecke,JS Mingolsheim,1626,-120,name matches; Elo is more than 30 apart
+116680,Martin Doster,Doster Martin,7,1638,189,100904,Martin Doster,BSC Göppingen,1577,61,name matches; Elo is more than 30 apart
+116681,Stefan Lorenz,Lorenz Stefan,7,1406,1178,366176,Stefan Lorenz,BC Sindelfingen | PBC Nagoldtal,1533,-127,name matches; Elo is more than 30 apart
+117275,Fabian Snijder,Snijder Fabian,7,1490,256,244727,Fabian Snijder,Mannheimer BF,1696,-206,name matches; Elo is more than 30 apart
+117526,Florian Staud,Staud Florian,7,1489,933,245634,Florian Staud,PBC Nagoldtal,1560,-71,name matches; Elo is more than 30 apart
+118218,David Galwas,Galwas David,7,1611,360,247955,David Galwas,PBC Freudenstadt,1584,27,name matches and Elo is within 30
+119325,Stanislaw Kretz,Kretz Stanislaw,7,1509,354,102603,Stanislaw Kretz,BV Pforzheim,1663,-154,name matches; Elo is more than 30 apart
+120758,Gordon Fenske,Fenske Gordon,7,1410,334,101114,Gordon Fenske,PBDC Kämpfelbach | PP Karlsbad,1537,-127,name matches; Elo is more than 30 apart
+121407,Kevin Schieber,Schieber Kevin,7,1374,309,368289,Kevin Schieber,BC Feuersee | BV Leonberg,1461,-87,name matches; Elo is more than 30 apart
+122742,Josip Ceko,Ceko Josip,7,1461,205,368208,Josip Ceko,PBC Aalen | TV Cannstatt,1600,-139,name matches; Elo is more than 30 apart
+125382,Nurcan Ezdi,Ezdi Nurcan,7,1495,381,367996,Nurcan Ezdi,PBC Schwäbisch Gmünd,1484,11,name matches and Elo is within 30
+128580,Andreas Sattler,Sattler Andreas,7,1500,245,103922,Andreas Sattler,PBC Pfedelbach,1557,-57,name matches; Elo is more than 30 apart
+101749,Markus Appenowitz,Appenowitz Markus,6,1545,769,100100,Markus Appenowitz,BSV Filderstadt,1578,-33,name matches; Elo is more than 30 apart
+102828,Marco Bunke,Bunke Marco,6,1390,413,250221,Marco Bunke,BSV Pfullingen,1509,-119,name matches; Elo is more than 30 apart
+116464,Jonny Knapp,Knapp Jonny,6,1474,1824,356371,Jonny Knapp,BC Neckarsulm,1535,-61,name matches; Elo is more than 30 apart
+116540,Joachim Luft,Luft Joachim,6,1259,1530,354685,Joachim Luft,PBC Bietigheim-Bissingen,1422,-163,name matches; Elo is more than 30 apart
+119920,Andreas Müller,Müller Andreas,6,1600,408,103200,Andreas Müller,BC Sindelfingen,1575,25,name matches and Elo is within 30
+120177,Mergim Zekaj,Zekaj Mergim,6,1515,200,252972,Mergim Zekaj,PBC Pfedelbach,1544,-29,name matches and Elo is within 30
+120843,Markus Appenowitz,Appenowitz Markus,6,1545,219,100100,Markus Appenowitz,BSV Filderstadt,1578,-33,name matches; Elo is more than 30 apart
+121375,Victor Rodriguez,Rodriguez Victor,6,1464,248,368241,Victor Rodriguez,BV Markdorf,1556,-92,name matches; Elo is more than 30 apart
+121508,Maxim Buchstab,Buchstab Maxim,6,1429,474,351923,Maxim Buchstab,PBC Schwäbisch Gmünd,1535,-106,name matches; Elo is more than 30 apart
+123210,Daniel Christoph,Christoph Daniel,6,1214,494,368321,Daniel Christoph,BV Pforzheim,1313,-99,name matches; Elo is more than 30 apart
+124930,Michael Röhrle,Röhrle Michael,6,1541,446,368119,Michael Röhrle,BC Feuersee | BULL Leonberg-Höfingen,1597,-56,name matches; Elo is more than 30 apart
+131332,Thomas Kramhöller,Kramhöller Thomas,6,1587,245,102568,Thomas Kramhöller,BC Neckarsulm,1631,-44,name matches; Elo is more than 30 apart
+100911,Martin Burmeister,Burmeister Martin,5,1497,1669,240266,Martin Burmeister,BC Sindelfingen,1596,-99,name matches; Elo is more than 30 apart
+101619,Sercan Özdemir,Özdemir Sercan,5,1565,1744,103444,Sercan Özdemir,PP Böblingen,1621,-56,name matches; Elo is more than 30 apart
+101929,Oliver Hauke,Hauke Oliver,5,1549,2056,248741,Oliver Hauke,PF Calw,1578,-29,name matches and Elo is within 30
+103716,Tom Mischner,Mischner Tom,5,1553,1575,367928,Tom Mischner,PBC Langenargen,1507,46,name matches; Elo is more than 30 apart
+108458,Anil Celikbilek,Celikbilek Anil,5,1442,2113,355903,Anil Celikbilek,PBC Pfedelbach,1496,-54,name matches; Elo is more than 30 apart
+116384,Jens Heim,Heim Jens,5,1437,2285,101749,Jens Heim,PBV Schwetzingen,1693,-256,name matches; Elo is more than 30 apart
+116698,Florian Stubert,Stubert Florian,5,1478,1560,252917,Florian Stubert,BSV Filderstadt,1540,-62,name matches; Elo is more than 30 apart
+117522,Rainer Seemann,Seemann Rainer,5,1495,1111,104299,Rainer Seemann,PBC Schwäbisch Hall,1563,-68,name matches; Elo is more than 30 apart
+117524,Arno Corigliano,Corigliano Arno,5,1499,812,100719,Arno Corigliano,PBC Pfedelbach | PBC Schwäbisch Hall,1635,-136,name matches; Elo is more than 30 apart
+118341,Ruben Winkler,Winkler Ruben,5,1664,990,105049,Ruben Winkler,PBC Schwäbisch Hall,1696,-32,name matches; Elo is more than 30 apart
+118709,Alexander Srp,Srp Alexander,5,1620,1022,368041,Alexander Srp,BC Feuersee,1589,31,name matches; Elo is more than 30 apart
+119228,Bünyamin Öner,Öner Bünyamin,5,1373,1027,368356,Bünyamin Öner,,1250,123,name matches; Elo is more than 30 apart
+119450,Sven Schulz,Schulz Sven,5,1459,933,368222,Sven Schulz,PBC Nagoldtal,1496,-37,name matches; Elo is more than 30 apart
+120048,Randee Ramzi Yalda,Yalda Randee Ramzi,5,1631,417,355803,Randee Ramzi Yalda,BSV Pfullingen,1694,-63,name matches; Elo is more than 30 apart
+125812,Sebastian Scherbinin,Scherbinin Sebastian,5,1430,279,368579,Sebastian Scherbinin,PBC Freudenstadt,1564,-134,name matches; Elo is more than 30 apart
+127053,okan ceken,ceken okan,5,1422,173,368802,Okan Ceken,PBC Reutlingen,1590,-168,name matches; Elo is more than 30 apart
+128257,Dragan Pajovic,Pajovic Dragan,5,1383,393,368773,Dragan Pajovic,BC Sindelfingen,1421,-38,name matches; Elo is more than 30 apart
+131211,Martin Seyfer,Seyfer Martin,5,1524,276,369119,Martin Seyfer,CC Karlsruhe,1509,15,name matches and Elo is within 30
+132948,Darius Skowronek,Skowronek Darius,5,1669,233,104376,Darius Skowronek,BF Bruchsal | CC Karlsruhe,1626,43,name matches; Elo is more than 30 apart
+100056,Frank Wagenmann,Wagenmann Frank,4,1579,612,104825,Frank Wagenmann,PBC Offenburg,1703,-124,name matches; Elo is more than 30 apart
+106139,Orhan Cetin,Cetin Orhan,4,1615,638,100679,Orhan Cetin,BSV Pfullingen,1579,36,name matches; Elo is more than 30 apart
+107041,Jürgen Götting,Götting Jürgen,4,1454,2229,353633,Jürgen Götting,BF Bruchsal | JS Mingolsheim,1493,-39,name matches; Elo is more than 30 apart
+116696,alexandros satrazanis,satrazanis a.,4,1209,2199,368376,Alexandros Satrazanis,BSC Göppingen,1436,-227,name matches; Elo is more than 30 apart
+117552,Robert Bogdan,Bogdan Robert,4,1605,611,100421,Robert Bogdan,PBC Aalen | TV Cannstatt,1571,34,name matches; Elo is more than 30 apart
+118268,Pran Damir,Damir Pran,4,1496,170,103559,Damir Pran,BC Neckarsulm,1471,25,name matches and Elo is within 30
+118387,Gerd Friedl,Friedl Gerd,4,1342,761,368211,Gerd Friedl,BSC Göppingen | PBC Aalen,1447,-105,name matches; Elo is more than 30 apart
+118527,Serdar Tunbek,Tunbek Serdar,4,1558,1221,239648,Serdar Tunbek,Mannheimer BF,1622,-64,name matches; Elo is more than 30 apart
+118547,Andreas Augustin,Augustin Andreas,4,1565,780,100122,Andreas Augustin,BC Aalen,1651,-86,name matches; Elo is more than 30 apart
+118793,Pavlos Korezelidis,Korezelidis Pavlos,4,1454,1115,102525,Pavlos Korezelidis,BBC Plochingen,1534,-80,name matches; Elo is more than 30 apart
+119330,Andreas Schmid,Schmid Andreas,4,1515,595,242888,Andreas Schmid,PBC Nagoldtal,1537,-22,name matches and Elo is within 30
+120058,Thomas Kühn,Kühn Thomas,4,1497,872,239654,Thomas Kühn,Mannheimer BF,1558,-61,name matches; Elo is more than 30 apart
+120180,Irina Wörle,Wörle Irina,4,1205,1126,368905,Irina Wörle,BC Sindelfingen,1356,-151,name matches; Elo is more than 30 apart
+121374,Maxim Buchstab,Buchstab Maxim,4,1584,686,351923,Maxim Buchstab,PBC Schwäbisch Gmünd,1535,49,name matches; Elo is more than 30 apart
+121475,Jürgen Trost,Trost Jürgen,4,1681,595,368200,Jürgen Trost,BC Sindelfingen,1598,83,name matches; Elo is more than 30 apart
+122703,Christina Schneider-Radunovic,Schneider-Radunovic C.,4,1592,337,159294,Christina Schneider-Radunovic,BC Sindelfingen,1602,-10,name matches and Elo is within 30
+125791,Matthias Weigl,Weigel Matthias,4,1478,488,368868,Matthias Weigl,PBC Schwäbisch Gmünd,1583,-105,name matches; Elo is more than 30 apart
+127537,Michael Strohmaier,Strohmaier Michael,4,1458,302,104546,Michael Strohmaier,BSV Tiengen,1608,-150,name matches; Elo is more than 30 apart
+128589,Hakan Söyler,Söyler Hakan,4,1491,170,368224,Hakan Söyler,BC Sindelfingen | PBC Nagoldtal,1552,-61,name matches; Elo is more than 30 apart
+128594,Thomas Graner,Graner Thomas,4,1299,497,368856,Thomas Graner,BC Feuersee | BULL Leonberg-Höfingen,1424,-125,name matches; Elo is more than 30 apart
+131321,Asmir Sinanovic,Sinanovic Asmir,4,1338,286,104365,Asmir Sinanovic,PBC Freudenstadt,1401,-63,name matches; Elo is more than 30 apart
+131322,Armin Stauß,Stauß Armin,4,1441,312,104434,Armin Stauß,PBC Freudenstadt,1539,-98,name matches; Elo is more than 30 apart
+132977,Mark Szinger,Szinger Mark,4,1466,239,368616,Mark Szinger,BV Villingen-Schwenningen,1435,31,name matches; Elo is more than 30 apart
+136857,Alfred Stöcklein,Stöcklein Alfred,4,1469,171,368008,Alfred Stöcklein,BC Sindelfingen,1561,-92,name matches; Elo is more than 30 apart
+137015,Yvonne Boos,Boos Yvonne,4,1305,179,369103,Yvonne Boos,BC Sindelfingen,1215,90,name matches; Elo is more than 30 apart
+100398,Jörg Laupitz,Laupitz Jörg,3,1499,2235,102744,Jörg Laupitz,PBC Nagoldtal,1570,-71,name matches; Elo is more than 30 apart
+100916,Bernd Dorenburg,Dorenburg Bernd,3,1546,281,100889,Bernd Dorenburg,BSV Pfullingen,1528,18,name matches and Elo is within 30
+101150,Philip Smaczny,Smaczny Philip,3,1435,2088,351326,Philip Smaczny,PP Böblingen,1604,-169,name matches; Elo is more than 30 apart
+101813,Armin Stauß,Stauß Armin,3,1505,2580,104434,Armin Stauß,PBC Freudenstadt,1539,-34,name matches; Elo is more than 30 apart
+103659,Gerald Kny,Kny Gerald,3,1578,2695,102445,Gerald Kny,BV Pforzheim,1656,-78,name matches; Elo is more than 30 apart
+104913,Marco Huber,Huber Marco,3,1497,890,102013,Marco Huber,BV Pforzheim,1519,-22,name matches and Elo is within 30
+105190,Sandra Ortner,Ortner Sandra,3,1544,2702,368973,Sandra Ortner,PBC Bad Saulgau,1435,109,name matches; Elo is more than 30 apart
+105307,Ivan Franz,Franz Ivan,3,1497,2569,248468,Ivan Franz,CC Karlsruhe,1461,36,name matches; Elo is more than 30 apart
+106079,Max Löhle,Löhle Max,3,1570,2619,351228,Max Löhle,PBC Bad Saulgau,1561,9,name matches and Elo is within 30
+106630,Silke Brand,Brand Silke,3,1361,1929,100481,Silke Brand,BC Stuttgart 1891,1488,-127,name matches; Elo is more than 30 apart
+106742,Andreas Jörg,Jörg Andreas,3,1484,2775,102134,Andreas Jörg,BBC Plochingen,1637,-153,name matches; Elo is more than 30 apart
+116592,Andreas Tschinkel,Tschinkel Andreas,3,1571,2248,368034,Andreas Tschinkel,BBC Plochingen,1533,38,name matches; Elo is more than 30 apart
+116739,Haci Eymir,Eymir Haci,3,1478,1701,368042,Haci Eymir,BC Aalen | PBC Aalen,1612,-134,name matches; Elo is more than 30 apart
+116852,Thorsten Holatka,Holatka Thorsten,3,1525,1384,101952,Thorsten Holatka,BV Pforzheim,1592,-67,name matches; Elo is more than 30 apart
+121480,Maximilian Jentsch,Jentsch Maximilian,3,1400,492,242922,Maximilian Jentsch,PBC Aalen,1548,-148,name matches; Elo is more than 30 apart
+122573,Markus Buck,Buck Markus,3,1619,247,100570,Markus Buck,BSC Göppingen,1759,-140,name matches; Elo is more than 30 apart
+128600,Hakan Söyler,Söyler Hakan,3,1445,236,368224,Hakan Söyler,BC Sindelfingen | PBC Nagoldtal,1552,-107,name matches; Elo is more than 30 apart
+128873,Frank Vollath,Vollath Frank,3,1396,485,368761,Frank Vollath,TV Cannstatt,1388,8,name matches and Elo is within 30
+130505,Ralf Kempermann,Kempermann Ralf,3,1562,326,102294,Ralf Kempermann,JS Mingolsheim | PBV Schwetzingen,1587,-25,name matches and Elo is within 30
+131281,Timm Ganske,Ganske Timm,3,1571,333,368832,Timm Ganske,CC Karlsruhe,1480,91,name matches; Elo is more than 30 apart
+136907,Michael Triffo,Triffo Michael,3,1481,193,368533,Michael Triffo,JS Mingolsheim,1454,27,name matches and Elo is within 30
+100941,Lisa Knost,Knost Lisa,2,1451,3146,230942,Lisa Knost,BSF Kurpfalz,1447,4,name matches and Elo is within 30
+101034,Hermann Krieger,Krieger Hermann,2,1466,3002,102607,Hermann Krieger,BF Bruchsal | CC Karlsruhe,1575,-109,name matches; Elo is more than 30 apart
+116470,Sven Kaupp,Kaupp Sven,2,1430,2843,253091,Sven Kaupp,BSC Lions Bietigheim | PBC Rastatt,1523,-93,name matches; Elo is more than 30 apart
+117358,Tobias Abt,Abt Tobias,2,1426,872,355824,Tobias Abt,BC Bad Schussenried | PBC Bad Saulgau,1421,5,name matches and Elo is within 30
+117397,TImo Sillner,Sillner TImo,2,1375,1732,104357,Timo Sillner,BC Stuttgart 1891,1610,-235,name matches; Elo is more than 30 apart
+117519,Alfi Müller,Müller Alfi,2,1337,1739,368011,Alfi Müller,BC Feuersee,1348,-11,name matches and Elo is within 30
+119645,Andreas Knauf,Knauf Andreas,2,1378,1280,102424,Andreas Knauf,BSC Göppingen | TV Cannstatt,1513,-135,name matches; Elo is more than 30 apart
+119646,Angelika Müller,Müller Angelika,2,1325,1242,368148,Angelika Müller,BSC Göppingen,1288,37,name matches; Elo is more than 30 apart
+119647,Daniela Majer,Majer Daniela,2,1374,1318,102935,Daniela Majer,BSC Göppingen,1351,23,name matches and Elo is within 30
+120714,Ingo Mann,Mann Ingo,2,1330,1154,242957,Ingo Mann,BC Sindelfingen,1410,-80,name matches; Elo is more than 30 apart
+121373,Mehmet Kirli,Kirli Mehmet,2,1448,342,102361,Mehmet Kirli,PBC Schwäbisch Gmünd,1592,-144,name matches; Elo is more than 30 apart
+121481,Christin Jentsch,Jentsch Christin,2,1410,576,368312,Christin Jentsch,PBC Aalen,1368,42,name matches; Elo is more than 30 apart
+121484,Joshua Bartsch,Bartsch Joshua,2,1367,337,368236,Joshua Bartsch,PBC Aalen,1449,-82,name matches; Elo is more than 30 apart
+121516,Frank Bernd Wieczorek,Wieczorek F.,2,1356,708,350685,Frank-Bernd Wieczorek,BC Sindelfingen | PBC Pfedelbach,1326,30,name matches and Elo is within 30
+122216,Ervin Lika,Lika Ervin,2,1389,820,368116,Ervin Lika,BSV Filderstadt,1481,-92,name matches; Elo is more than 30 apart
+122716,Andreas Einsiedler,Einsiedler Andreas,2,1491,806,100982,Andreas Einsiedler,PBC Langenargen,1547,-56,name matches; Elo is more than 30 apart
+124543,Dieter Haberkorn,Haberkorn Dieter,2,1520,704,101588,Dieter Haberkorn,PBC Bad Saulgau,1533,-13,name matches and Elo is within 30
+125820,Dominik Heinkele,Heinkele Dominik,2,1446,623,101755,Dominik Heinkele,BC Dätzingen,1518,-72,name matches; Elo is more than 30 apart
+127505,Sandra Höll,Höll Sandra,2,1435,384,101958,Sandra Höll,BSV Pfullingen | VFL Herrenberg,1447,-12,name matches and Elo is within 30
+128363,Alexander Srp,Srp Alexander,2,1236,292,368041,Alexander Srp,BC Feuersee,1589,-353,name matches; Elo is more than 30 apart
+128651,Besirat Fekadu,Fekadu Besirat,2,1464,446,368182,Besirat Fekadu,BSC Göppingen,1477,-13,name matches and Elo is within 30
+128997,Adhurim Tafa,Tafa Adhurim,2,1520,237,368651,Adhurim Tafa,BSC Göppingen,1570,-50,name matches; Elo is more than 30 apart
+136341,Hamza BENSLIMANE,BENSLIMANE Hamza,2,1172,383,369171,Hamza Benslimane,BSV Pfullingen,1597,-425,name matches; Elo is more than 30 apart
+136922,Alexander Ponherr,Ponherr Alexander,2,1464,247,369231,Alexander Ponherr,CC Karlsruhe,1645,-181,name matches; Elo is more than 30 apart

@@ -2,7 +2,7 @@
 
 Virtualenv is `.venv` in this directory. Run commands with `.venv/bin/python`.
 
-Update league and Einzel results through today (skips seasons already in `data/games.csv`):
+Update league, Einzel, and Sanwald Cup Monday nights through today (league and Einzel skip seasons already in `data/games.csv`):
 
 ```bash
 .venv/bin/python sync.py
@@ -21,6 +21,12 @@ If Einzel rows are dated `00.00.0000`, fill them from the tournament header:
 ```
 
 The +4.30 offset in `scale.cfg` stays fixed, so leave that file alone. Published Elo is the fitted Elo plus that offset. Never recompute it and never overwrite `data/scale_reference.csv`.
+
+`sync.py` refreshes the Sanwald Cup (Monday 20:00, 9-ball, Die Drei Sindelfingen) into its own files. Those matches stay out of `data/games.csv` and are included in the Elo fit. League rows join on Pass-Nr. The first link from a TournamentApp `sid` to a Pass-Nr. is a full name plus Elo within 30, stored in `data/tournamentapp_identity.csv`. Later Sanwald games join on that `sid`. Anyone without a row there keeps a separate rating. Mondays alone:
+
+```bash
+.venv/bin/python scrape_sanwald.py
+```
 
 Refit ratings after new games:
 

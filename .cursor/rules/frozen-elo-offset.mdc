@@ -13,7 +13,7 @@ alwaysApply: true
 - Plots add the same offset to every Elo point and to the prior line.
 - If ratings look shifted, report it to the user and keep the offset as it is. Only the user may change it, and only when they ask for that explicitly.
 
-Routine update is two commands and nothing else:
+Routine update is two commands and nothing else. `sync.py` refreshes leagues, Einzel, and Sanwald Cup Mondays.
 
 ```bash
 .venv/bin/python sync.py

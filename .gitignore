@@ -4,3 +4,4 @@ __pycache__/
 .chrome-profile/
 *.png
 data/identity_cache/
+data/sanwald_cache/

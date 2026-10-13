@@ -11,6 +11,9 @@ entry list (the option value on the results page is the Pass-Nr.). In-house
 games are linked when the name belongs to exactly one Tübinger BC Pass-Nr.
 A game with no such link keeps its own identity, name plus club, and is
 never folded into a Pass-Nr. just because the spelling matches.
+TournamentApp ids are a different series. The first link from a sid to a
+Pass-Nr. is the full-name and Elo record in data/tournamentapp_identity.csv.
+Later games on that site join on the sid.
 Club nicknames in data/aliases.csv are the exception. Bluber and Blubber
 are Hannes Reißner, Pass-Nr. 368517. Matze is Matthias Ludersdorfer,
 Pass-Nr. 102864.

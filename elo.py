@@ -90,7 +90,8 @@ def load_games(path: Path) -> list[dict[str, str]]:
     between the same two players, on the same day and in the same discipline,
     are added into one score. A short club set is weighted by club_sets.cfg:
     racks out of 5, 7 or 5, and 14/1 balls out of 70. League rows are left
-    as scraped.
+    as scraped. Sanwald Cup matches are added after that, joined to a
+    Pass-Nr. only through data/tournamentapp_identity.csv.
     """
     with path.open(newline="", encoding="utf-8-sig") as handle:
         rows = list(csv.DictReader(handle))
@@ -101,7 +102,116 @@ def load_games(path: Path) -> list[dict[str, str]]:
         from identity import apply_identities
 
         apply_identities(rows, identity_path=path.parent / "player_identity.csv")
+        rows.extend(_sanwald_games(path.parent))
     return rows
+
+
+def _sanwald_games(data_dir: Path) -> list[dict[str, str]]:
+    """Monday-night Sanwald Cup games.
+
+    A sid listed in tournamentapp_identity.csv is that league player.
+    Anyone else keeps a separate name, so a close spelling cannot merge them.
+    Race scores only: the winner reached 4 or 5.
+    """
+    matches_path = data_dir / "sanwald_matches.csv"
+    if not matches_path.exists():
+        return []
+    identity_path = data_dir / "tournamentapp_identity.csv"
+    players_path = data_dir / "sanwald_players.csv"
+    league_path = data_dir / "player_identity.csv"
+    sid_pass: dict[str, str] = {}
+    if identity_path.exists():
+        with identity_path.open(encoding="utf-8-sig", newline="") as handle:
+            for row in csv.DictReader(handle):
+                sid = (row.get("sid") or "").strip()
+                pass_nr = (row.get("pass_nr") or "").strip()
+                if sid.isdigit() and pass_nr.isdigit() and (row.get("evidence") or "").strip():
+                    sid_pass[sid] = pass_nr
+    pass_name: dict[str, str] = {}
+    league_names: set[str] = set()
+    if league_path.exists():
+        with league_path.open(encoding="utf-8-sig", newline="") as handle:
+            for row in csv.DictReader(handle):
+                name = (row.get("display_name") or "").strip()
+                pass_nr = (row.get("pass_nr") or "").strip()
+                if name:
+                    league_names.add(name.casefold())
+                if name and pass_nr.isdigit():
+                    pass_name[pass_nr] = name
+    portraits: dict[str, str] = {}
+    if players_path.exists():
+        with players_path.open(encoding="utf-8-sig", newline="") as handle:
+            for row in csv.DictReader(handle):
+                sid = (row.get("sid") or "").strip()
+                portraits[sid] = (row.get("portrait_name") or row.get("result_name") or "").strip()
+    labels: dict[str, str] = {}
+    taken: set[str] = set()
+    for sid, portrait in portraits.items():
+        pass_nr = sid_pass.get(sid, "")
+        if pass_nr and pass_nr in pass_name:
+            labels[sid] = pass_name[pass_nr]
+            continue
+        label = portrait or f"sid {sid}"
+        if label.casefold() in league_names or label.casefold() in taken:
+            label = f"{label} ({sid})"
+        taken.add(label.casefold())
+        labels[sid] = label
+    games: list[dict[str, str]] = []
+    with matches_path.open(encoding="utf-8-sig", newline="") as handle:
+        for row in csv.DictReader(handle):
+            try:
+                score1 = int(row["score1"])
+                score2 = int(row["score2"])
+            except (KeyError, ValueError):
+                continue
+            if score1 == score2 or max(score1, score2) not in {4, 5}:
+                continue
+            sid1 = (row.get("player1_sid") or "").strip()
+            sid2 = (row.get("player2_sid") or "").strip()
+            if sid1 not in labels or sid2 not in labels:
+                continue
+            if score1 > score2:
+                winner, loser = labels[sid1], labels[sid2]
+                home_score, away_score = score1, score2
+                home_pass, away_pass = sid_pass.get(sid1, ""), sid_pass.get(sid2, "")
+            else:
+                winner, loser = labels[sid2], labels[sid1]
+                home_score, away_score = score2, score1
+                home_pass, away_pass = sid_pass.get(sid2, ""), sid_pass.get(sid1, "")
+            games.append(
+                {
+                    "season": "",
+                    "league": "Sanwald",
+                    "staffel": "",
+                    "spieltag": "",
+                    "match_date": row.get("event_date") or "",
+                    "match_time": "",
+                    "home_team": "",
+                    "away_team": "",
+                    "match_score": f"{home_score}:{away_score}",
+                    "round": row.get("round") or "",
+                    "game_no": row.get("match_code") or "",
+                    "discipline": row.get("discipline") or "9-Ball",
+                    "home_player": winner,
+                    "home_player_id": home_pass,
+                    "away_player": loser,
+                    "away_player_id": away_pass,
+                    "frame_score": f"{home_score}:{away_score}",
+                    "home_points": "1",
+                    "away_points": "0",
+                    "winner": winner,
+                    "loser": loser,
+                    "winner_side": "home",
+                    "straight_pool_punkte": "",
+                    "straight_pool_aufnahmen": "",
+                    "straight_pool_hs": "",
+                    "straight_pool_gd": "",
+                    "report_url": "",
+                    "home_pass": home_pass,
+                    "away_pass": away_pass,
+                }
+            )
+    return games
 
 
 def _inhouse_games(path: Path) -> list[dict[str, str]]:
