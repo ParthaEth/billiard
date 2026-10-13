@@ -8,7 +8,7 @@ Update league and Einzel results through today (skips seasons already in `data/g
 .venv/bin/python sync.py
 ```
 
-Sync then downloads the squad lists of those seasons again and attaches Pass-Nr. to every game. No separate `identity.py` step is needed.
+Sync then attaches Pass-Nr. to every game. No separate `identity.py` step is needed. Squad pages are read from `data/identity_cache`. In the synced seasons, a squad page is downloaded again only for a new team, or when a game names a player that the cached page does not list.
 
 Leagues only: `.venv/bin/python sync.py --leagues-only`  
 Einzel only: `.venv/bin/python sync.py --einzel-only`  

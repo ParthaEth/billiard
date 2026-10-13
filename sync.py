@@ -6,8 +6,9 @@ season that contains today. A BVBW season starts in September. Older
 seasons are not opened. Reports already in the file are skipped by the
 league and Einzel scrapers.
 
-Afterwards the squad lists of the synced seasons are downloaded again and
-every game gets its Pass-Nr. (identity.py fetch + attach).
+Afterwards every game gets its Pass-Nr. (identity.py fetch + attach). Squad
+pages come from the cache. In the synced seasons a squad page is downloaded
+again only for a new team, or when a game names a player it does not list.
 
     python sync.py
     python sync.py --leagues-only

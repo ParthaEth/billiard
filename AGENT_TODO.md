@@ -9,7 +9,8 @@ Replace the short name in `data/inhouse.csv` only when a new roster entry makes 
 ## Open
 
 - **Dixi.** No last name. Internal games against Kevin Minardi, Francesco Dragotta, and Patrick Coklica, from July to December 2025. Not on the Tübinger BC lists in the current scrape.
-- **Hussein.** No last name. 28.09.2026, lost 1:7 to Adham Mohamed, 9-Ball. Not on the Tübinger BC 2 or 3 lists in the current scrape.
+- **Hussein.** No last name. 28.09.2026, lost 1:7 to Adham Mohamed, 9-Ball. Also in the 08.10.2026 9-ball round robin. Not on the Tübinger BC 2 or 3 lists in the current scrape.
+- **Nerdi.** Written that way on the 08.10.2026 9-ball sheet, including the semi-final. Not Niko. No Nerdi on the Tübinger BC lists.
 - **Frank.** No last name. 30.09.2026, lost 4:6 to Adham Mohamed, 8-Ball. Several Franks exist in other clubs. None is on a Tübinger BC team in the current scrape, so this row stays "Frank".
 - **Andy.** 01.10.2026, lost 2:5 to Adham Mohamed, 9-Ball. Andreas Horn plays in-house at Tübinger BC, and Andy Laue plays for PBC Nagoldtal. The chat does not say which one.
 - **Uwe.** 02.10.2026, two games against Adham Mohamed. Uwe Cordes and Uwe Jansen have both played for Tübinger BC, so this row stays "Uwe".

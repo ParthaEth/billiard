@@ -31,7 +31,7 @@ import time
 import urllib.error
 import urllib.request
 from collections import Counter, defaultdict
-from concurrent.futures import ThreadPoolExecutor, as_completed
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime
 from pathlib import Path
 from urllib.parse import urljoin
@@ -70,6 +70,8 @@ ROSTER_FIELDS = (
 )
 
 TEAM_KEY_RE = re.compile(r"999--(\d{4}/\d{4})-(\d+)-(\d+)-(\d+)")
+# Match reports (sb_spielbericht.php) carry the same key shape with a match number in place of the team.
+TEAM_LINK_RE = re.compile(r"sb_mannschaft[a-z_\-]*\.php\?p=(999--\d{4}/\d{4}-\d+-\d+-\d+)")
 PASS_HREF_RE = re.compile(r"p=999--(\d{4}/\d{4})-(\d+)--(\d+)")
 LEAGUE_HREF_RE = re.compile(r"sb_spielplan\.php\?p=999\|\|(\d{4}/\d{4})\|(\d+)$")
 STAFFEL_HREF_RE = re.compile(r"sb_spielplan\.php\?p=999\|\|(\d{4}/\d{4})\|(\d+)\|(\d+)$")
@@ -78,9 +80,6 @@ TRAILING_TEAM_NO = re.compile(r"\s+\d+$")
 
 _RATE_LOCK = threading.Lock()
 _NEXT_REQUEST = 0.0
-# Squad pages of a running season gain players, so these seasons bypass the cache once per run.
-_REFRESH_SEASONS: frozenset[str] = frozenset()
-_REFRESHED: set[str] = set()
 
 
 def norm_name(name: str) -> str:
@@ -118,12 +117,11 @@ def _rate_limit() -> None:
         time.sleep(wait)
 
 
-def fetch(url: str, retries: int = 4) -> str:
+def fetch(url: str, retries: int = 4, fresh: bool = False) -> str:
+    """Cached page, or a download when ``fresh`` is set or nothing is cached."""
     dest = _cache_path(url)
-    stale = url not in _REFRESHED and any(season in url for season in _REFRESH_SEASONS)
-    if not stale and dest.exists() and dest.stat().st_size > 1000:
+    if not fresh and dest.exists() and dest.stat().st_size > 1000:
         return dest.read_text(encoding="utf-8", errors="replace")
-    _REFRESHED.add(url)
     dest.parent.mkdir(parents=True, exist_ok=True)
     last_error: Exception | None = None
     for attempt in range(retries):
@@ -189,7 +187,7 @@ def staffel_urls(html: str, season: str, league_id: str) -> list[str]:
 
 
 def team_keys(html: str) -> set[str]:
-    return {match.group(0) for match in TEAM_KEY_RE.finditer(html)}
+    return {match.group(1) for match in TEAM_LINK_RE.finditer(html)}
 
 
 def parse_team_page(html: str, key: str) -> list[dict[str, str]]:
@@ -584,18 +582,78 @@ def write_identity(people: dict[str, dict], labels: dict[str, str], path: Path) 
         writer.writerows(records)
 
 
+def unmatched_teams(
+    team_rows: dict[str, list[dict[str, str]]],
+    seasons: frozenset[str],
+    games_path: Path = GAMES_PATH,
+    inhouse_path: Path = DATA / "inhouse.csv",
+) -> set[str]:
+    """Team keys of ``seasons`` whose cached squad misses a player who has a game.
+
+    A team with no cached players counts as unmatched. An in-house name that is
+    on no Tübinger BC squad marks every Tübinger BC team of those seasons.
+    """
+    keys_of: dict[tuple[str, str], list[str]] = defaultdict(list)
+    names_of: dict[tuple[str, str], set[str]] = defaultdict(set)
+    tbc_keys: list[str] = []
+    tbc_names: set[str] = set()
+    stale: set[str] = set()
+    for key, rows in team_rows.items():
+        season = TEAM_KEY_RE.fullmatch(key).group(1)
+        if season not in seasons:
+            for row in rows:
+                if club_from_team(row["team"]).casefold() == "tübinger bc":
+                    tbc_names.add(norm_name(row["name"]))
+            continue
+        if not rows:
+            stale.add(key)
+            continue
+        team = norm_name(rows[0]["team"])
+        keys_of[(season, team)].append(key)
+        names_of[(season, team)].update(norm_name(row["name"]) for row in rows)
+        if club_from_team(rows[0]["team"]).casefold() == "tübinger bc":
+            tbc_keys.append(key)
+            tbc_names.update(norm_name(row["name"]) for row in rows)
+
+    aliases = load_aliases()
+    if games_path.exists():
+        with games_path.open(encoding="utf-8-sig", newline="") as handle:
+            for row in csv.DictReader(handle):
+                season = (row.get("season") or "").strip()
+                if season not in seasons:
+                    continue
+                for side in ("home", "away"):
+                    name = norm_name(row.get(f"{side}_player") or "")
+                    team = norm_name(row.get(f"{side}_team") or "")
+                    if not name or not team or name in aliases:
+                        continue
+                    if name not in names_of.get((season, team), set()):
+                        stale.update(keys_of.get((season, team), ()))
+    if inhouse_path.exists():
+        with inhouse_path.open(encoding="utf-8-sig", newline="") as handle:
+            for row in csv.DictReader(handle):
+                for field in ("player", "opponent"):
+                    name = norm_name(row.get(field) or "")
+                    if name and name not in aliases and name not in tbc_names:
+                        stale.update(tbc_keys)
+    return stale
+
+
 def cmd_fetch(refresh: tuple[str, ...] = ()) -> None:
-    """Download squads for every live season. Pages of ``refresh`` seasons are fetched anew."""
-    global _REFRESH_SEASONS
-    _REFRESH_SEASONS = frozenset(refresh)
-    if refresh:
-        print(f"Re-downloading squad pages for {', '.join(refresh)}")
+    """Build data/roster.csv from squad pages of every live season.
+
+    Pages come from the cache. For ``refresh`` seasons the league pages are
+    downloaded again to find new teams, and a squad page is downloaded again
+    only when a game names a player that the cached page does not list.
+    """
+    refresh_seasons = frozenset(refresh)
     roster: list[dict[str, str]] = []
     team_keys_found: set[str] = set()
     for season in SEASONS:
+        fresh = season in refresh_seasons
         index_url = f"{BASE}sb_spielplan.php?p=999||{season}"
         print(f"season {season}")
-        index = fetch(index_url)
+        index = fetch(index_url, fresh=fresh)
         leagues = pool_league_urls(index)
         print(f"  pool leagues {len(leagues)}")
         staffeln: list[str] = []
@@ -603,29 +661,40 @@ def cmd_fetch(refresh: tuple[str, ...] = ()) -> None:
             match = LEAGUE_HREF_RE.search(league_url)
             if not match:
                 continue
-            html = fetch(league_url)
+            html = fetch(league_url, fresh=fresh)
             team_keys_found.update(team_keys(html))
             staffeln.extend(staffel_urls(html, match.group(1), match.group(2)))
         print(f"  staffeln {len(staffeln)}")
         for url in staffeln:
-            team_keys_found.update(team_keys(fetch(url)))
+            team_keys_found.update(team_keys(fetch(url, fresh=fresh)))
     print(f"team pages {len(team_keys_found)}")
 
-    def load_team(key: str) -> list[dict[str, str]]:
+    def load_team(key: str, fresh: bool = False) -> list[dict[str, str]]:
         # Rangliste is everyone who played that season. The squad page is only
         # who is licensed now, so a player who left is missing from it.
-        rows = parse_team_page(fetch(f"{BASE}sb_mannschaft-rangliste.php?p={key}"), key)
-        rows.extend(parse_team_page(fetch(f"{BASE}sb_mannschaft.php?p={key}"), key))
+        rows = parse_team_page(fetch(f"{BASE}sb_mannschaft-rangliste.php?p={key}", fresh=fresh), key)
+        rows.extend(parse_team_page(fetch(f"{BASE}sb_mannschaft.php?p={key}", fresh=fresh), key))
         return rows
 
-    done = 0
+    ordered = sorted(team_keys_found)
+    team_rows: dict[str, list[dict[str, str]]] = {}
     with ThreadPoolExecutor(max_workers=4) as pool:
-        futures = [pool.submit(load_team, key) for key in sorted(team_keys_found)]
-        for future in as_completed(futures):
-            roster.extend(future.result())
-            done += 1
-            if done % 100 == 0:
-                print(f"  teams parsed {done}/{len(team_keys_found)}")
+        for done, (key, rows) in enumerate(zip(ordered, pool.map(load_team, ordered)), 1):
+            team_rows[key] = rows
+            if done % 200 == 0:
+                print(f"  teams parsed {done}/{len(ordered)}")
+
+    if refresh_seasons:
+        stale = sorted(unmatched_teams(team_rows, refresh_seasons))
+        print(
+            f"Re-downloading {len(stale)} squad pages in {', '.join(sorted(refresh_seasons))} "
+            "(new team, or a player not on the cached squad)"
+        )
+        with ThreadPoolExecutor(max_workers=4) as pool:
+            for key, rows in zip(stale, pool.map(lambda key: load_team(key, fresh=True), stale)):
+                team_rows[key] = rows
+    for key in ordered:
+        roster.extend(team_rows[key])
 
     targets = einzel_targets()
     print(f"einzel tournaments {len(targets)}")
@@ -635,14 +704,9 @@ def cmd_fetch(refresh: tuple[str, ...] = ()) -> None:
         url = f"{BASE}sb_einzelergebnisse.php?p=999-6-{season}-{tid}----1-1-100000--"
         return parse_einzel_page(fetch(url), season, tid)
 
-    done = 0
     with ThreadPoolExecutor(max_workers=4) as pool:
-        futures = [pool.submit(load_einzel, item) for item in targets]
-        for future in as_completed(futures):
-            roster.extend(future.result())
-            done += 1
-            if done % 50 == 0:
-                print(f"  einzel parsed {done}/{len(targets)}")
+        for rows in pool.map(load_einzel, targets):
+            roster.extend(rows)
 
     # One pass keeps one canonical row per (source, season, team/tournament, pass, name).
     deduped: list[dict[str, str]] = []
