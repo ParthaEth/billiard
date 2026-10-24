@@ -1,30 +1,57 @@
 #!/usr/bin/env python3
-"""Scrape Sanwald Cup results from tournamentapp.de.
+"""Scrape open tournaments in Baden-Württemberg from tournamentapp.de.
 
-The Monday 9-ball house tournament at Die Drei, Sindelfingen. Alex pointed at
-https://www.tournamentapp.de/kalender-details.php?s=&tID=3107 — every Monday, 20:00.
+Every TournamentApp event held in one of REGION_PLACES is taken: the Sanwald
+Cup Mondays at Die Drei Sindelfingen, the BC Stuttgart 1891 house
+tournaments, the Magic-Cup and Tito's Cup in Pfullingen, the 10-Ball BULL
+CUP in Leonberg, Konstanz, Aalen and the rest. Doubles, team and darts
+events are skipped (SKIP_TITLE). The season list is the unfiltered result
+search, one page per year.
 
-Results stay in data/sanwald_*.csv. They are not written into data/games.csv.
+Results stay in data/tournamentapp_*.csv. They are not written into
+data/games.csv. Pages of events from the last REFRESH_DAYS, and the current
+season's list, are fetched again on every run; older pages come from the
+cache.
 
 Identity is three joins:
 
 1. BVBW league rows join on Pass-Nr. (see identity.py).
 2. The first link from a TournamentApp sid to a Pass-Nr. is a record in
-   data/tournamentapp_identity.csv: the full name matches one league player
-   and the Sanwald Elo is within 30 of that player's league Elo.
-3. Later Sanwald games join on that sid. They are not matched by name again.
+   data/tournamentapp_identity.csv. All of these must hold:
+   - the full name (any token order, case, accents) matches exactly one
+     league player. No fuzzy or first-name-only matching, so Dayyani Aryan
+     never joins Arash Dayyani and Haabinger never joins Haab;
+   - no other sid with the same name played or entered the same event as
+     this sid. Two Heydarpour Saeid sids in one bracket are two people, and
+     neither is linked;
+   - the TournamentApp-only Elo agrees with the league Elo within
+     ELO_Z_LIMIT standard errors, after removing the median shift between
+     the two fits. Elo is only this late check, never the reason for a link;
+   - the opponent network does not contradict it (network_check). The
+     people the sid met at events are compared with the league player's
+     league opponents and teammates. More shared people than chance
+     (p < NETWORK_P) confirms. Chance-level overlap where a few were
+     expected rejects. A common surname needs the confirmation; an uncommon
+     name with too little data on either side stays linked on the name.
+   A hand-written row (any other evidence note) is kept as it is.
+3. Later games join on that sid. They are not matched by name again. A sid
+   is one TournamentApp account, so a link made from Sanwald games also
+   covers that player's BULL CUP or Stuttgart games.
 """
 
 from __future__ import annotations
 
 import argparse
 import csv
+import math
 import re
+import statistics
 import time
 import urllib.error
 import urllib.request
 from collections import defaultdict
 from concurrent.futures import ThreadPoolExecutor, as_completed
+from datetime import datetime, timedelta
 from html import unescape
 from pathlib import Path
 
@@ -32,10 +59,30 @@ from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).resolve().parent
 DATA = ROOT / "data"
-CACHE = DATA / "sanwald_cache"
+CACHE = DATA / "tournamentapp_cache"
 BASE = "https://www.tournamentapp.de/"
-SEASONS = ("21", "22", "23", "24", "25", "26")
-SEARCH = BASE + "turnierergebnisse.php?s=&suche=Sanwald&saison={season}"
+# TournamentApp seasons are calendar years. Results start in 2021.
+FIRST_SEASON = 2021
+SEARCH = BASE + "turnierergebnisse.php?s=&suche=&saison={season}"
+# Venues in Baden-Württemberg, where league players can be linked.
+REGION_PLACES = {
+    "aalen", "bad saulgau", "bietigheim-bissingen", "böblingen", "bruchsal",
+    "calw", "denzlingen", "esslingen", "fellbach", "filderstadt", "freiburg",
+    "freudenstadt", "friedrichshafen", "göppingen", "heidelberg", "heilbronn",
+    "herrenberg", "karlsruhe", "konstanz", "leonberg", "ludwigsburg",
+    "mannheim", "markdorf", "nagold", "offenburg", "pforzheim", "pfullingen",
+    "rastatt", "ravensburg", "reutlingen", "schwäbisch gmünd",
+    "schwäbisch hall", "sindelfingen", "stuttgart", "tübingen", "ulm",
+    "villingen-schwenningen", "waldstetten", "weingarten",
+}
+# Pairs, teams, other games and organiser test events: nothing to rate.
+SKIP_TITLE = re.compile(
+    r"doppel|double|scotch|team|mannschaft|dart|snooker|karambol|vs\.? "
+    r"|bank-?pool|one pocket|demo|test",
+    re.I,
+)
+# Events this recent may still change, so their pages are fetched again.
+REFRESH_DAYS = 14
 
 MONTHS = {
     "januar": 1,
@@ -85,6 +132,7 @@ MATCH_FIELDS = [
     "player2",
     "player2_sid",
     "score2",
+    "title",
 ]
 ENTRY_FIELDS = [
     "t_id",
@@ -101,8 +149,8 @@ PLAYER_FIELDS = [
     "result_name",
     "matches",
     "events",
-    "sanwald_elo",
-    "sanwald_se",
+    "ta_elo",
+    "ta_se",
     "pass_nr",
 ]
 IDENTITY_FIELDS = ["sid", "pass_nr", "evidence"]
@@ -111,28 +159,63 @@ CANDIDATE_FIELDS = [
     "portrait_name",
     "result_name",
     "matches",
-    "sanwald_elo",
-    "sanwald_se",
+    "ta_elo",
+    "ta_se",
     "pass_nr",
     "league_name",
     "clubs",
     "league_elo",
     "elo_delta",
+    "shared_people",
+    "expected_shared",
+    "network_p",
     "note",
 ]
 IDENTITY_PATH = DATA / "tournamentapp_identity.csv"
 # Same half-life as `elo.py --half-life-years 0.67`.
 HALF_LIFE_YEARS = 0.67
-# Initial cross-platform record: one league name, Elo this close.
-ELO_CANDIDATE_BAND = 30
-NAME_ELO_EVIDENCE = "full name and Elo within 30"
+# The two fits sit on different graphs; this many SE off the median shift
+# flags a name match for manual review instead of linking it.
+ELO_Z_LIMIT = 2.5
+# Candidates with this many TournamentApp matches set the median shift.
+SHIFT_MIN_MATCHES = 20
+# Opponent network: shared people (league opponents and teammates of the
+# league player, met by the sid at TournamentApp events) against the count a
+# random league player would share. Below NETWORK_P the network confirms.
+NETWORK_P = 0.05
+# Chance-level overlap is a contradiction once this many shared people were
+# expected by chance alone; below that the network is too thin to judge.
+NETWORK_POWER = 2.0
+# A namesake is plausible for these; such a link needs the network to confirm.
+COMMON_SURNAMES = {
+    "becker", "bauer", "braun", "celik", "demir", "fischer", "hartmann",
+    "hoffmann", "hofmann", "huber", "kaya", "klein", "koch", "krause", "krüger",
+    "lange", "lehmann", "maier", "mayer", "meier", "meyer", "müller", "neumann",
+    "nguyen", "richter", "sahin", "schmidt", "schmitt", "schmitz", "schneider",
+    "schröder", "schulz", "schwarz", "tran", "wagner", "weber", "werner", "wolf",
+    "yilmaz", "zimmermann",
+}
+NETWORK_EVIDENCE = "full name, no same-event namesake, Elo consistent, opponent network confirms"
+NAME_EVIDENCE = "uncommon full name, no same-event namesake, Elo consistent, network too thin to judge"
+# Written by earlier versions; replaced on the next link like the two above.
+AUTO_EVIDENCE = {
+    NETWORK_EVIDENCE,
+    NAME_EVIDENCE,
+    "full name, one league player, no same-event namesake, Elo consistent",
+    "full name and Elo within 30",
+}
+LINK_NOTE = "name matches, no namesake at the same event, Elo consistent"
+LINK_EVIDENCE = {
+    "linked: opponent network confirms": NETWORK_EVIDENCE,
+    "linked: uncommon name, network too thin to judge": NAME_EVIDENCE,
+}
 
 
-def fetch(url: str) -> str:
+def fetch(url: str, fresh: bool = False) -> str:
     CACHE.mkdir(parents=True, exist_ok=True)
     key = re.sub(r"[^A-Za-z0-9._-]+", "_", url.replace(BASE, ""))[:180]
     path = CACHE / f"{key}.html"
-    if path.exists() and path.stat().st_size > 0:
+    if not fresh and path.exists() and path.stat().st_size > 0:
         return path.read_text(encoding="utf-8", errors="replace")
     last_error: Exception | None = None
     for attempt in range(4):
@@ -167,8 +250,22 @@ def classes(tag) -> list[str]:
     return tag.get("class") or []
 
 
-def list_events(season: str) -> list[dict[str, str]]:
-    soup = BeautifulSoup(fetch(SEARCH.format(season=season)), "html.parser")
+def seasons(today: datetime) -> list[int]:
+    return list(range(FIRST_SEASON, today.year + 1))
+
+
+def is_recent(event_date: str, today: datetime) -> bool:
+    """Undated, future, or within REFRESH_DAYS: the page may still change."""
+    try:
+        when = datetime.strptime(event_date, "%d.%m.%Y")
+    except ValueError:
+        return True
+    return when >= today - timedelta(days=REFRESH_DAYS)
+
+
+def list_events(season: int, fresh: bool = False) -> list[dict[str, str]]:
+    url = SEARCH.format(season=f"{season % 100:02d}")
+    soup = BeautifulSoup(fetch(url, fresh=fresh), "html.parser")
     events = []
     for article in soup.find_all("article"):
         onclick = article.get("onclick") or ""
@@ -184,7 +281,7 @@ def list_events(season: str) -> list[dict[str, str]]:
             if place_node:
                 place_node.extract()
             title = clean(title_node.get_text(" ", strip=True))
-        if "sanwald" not in title.casefold():
+        if place.casefold() not in REGION_PLACES or SKIP_TITLE.search(title):
             continue
         date_node = article.find("span", style=re.compile("color"))
         event_date, start_time = parse_date(date_node.get_text(" ", strip=True) if date_node else "")
@@ -212,8 +309,8 @@ def list_events(season: str) -> list[dict[str, str]]:
     return events
 
 
-def detail_tabs(event: dict[str, str]) -> list[dict[str, str]]:
-    soup = BeautifulSoup(fetch(event["url"]), "html.parser")
+def detail_tabs(event: dict[str, str], fresh: bool) -> list[dict[str, str]]:
+    soup = BeautifulSoup(fetch(event["url"], fresh=fresh), "html.parser")
     heading = soup.find("h4")
     if heading:
         event["title"] = clean(heading.get_text(" ", strip=True)) or event["title"]
@@ -280,6 +377,8 @@ def parse_matches(html: str, event: dict[str, str], tab_id: str, discipline: str
                 row_discipline = "8-Ball"
             elif "10-Ball" in ball["title"]:
                 row_discipline = "10-Ball"
+            elif "durchmischt" in ball["title"]:
+                row_discipline = "Multiball"
         match_id = MATCH_ID_RE.search(card["href"])
         rows.append(
             {
@@ -297,6 +396,7 @@ def parse_matches(html: str, event: dict[str, str], tab_id: str, discipline: str
                 "player2": clean(players[1].get_text(" ", strip=True)),
                 "player2_sid": SID_RE.search(players[1]["href"]).group(1),
                 "score2": found.group(2),
+                "title": event["title"],
             }
         )
     return rows
@@ -327,8 +427,10 @@ def parse_entries(html: str, event: dict[str, str], tab_id: str) -> list[dict[st
     return rows
 
 
-def scrape_event(event: dict[str, str]) -> tuple[dict[str, str], list[dict[str, str]], list[dict[str, str]]]:
-    tabs = detail_tabs(event)
+def scrape_event(
+    event: dict[str, str], fresh: bool = False
+) -> tuple[dict[str, str], list[dict[str, str]], list[dict[str, str]]]:
+    tabs = detail_tabs(event, fresh)
     matches: list[dict[str, str]] = []
     entries: list[dict[str, str]] = []
     tab_ids = []
@@ -339,11 +441,13 @@ def scrape_event(event: dict[str, str]) -> tuple[dict[str, str], list[dict[str, 
             results_url = (
                 f"{BASE}kalender-details.php?s=&tID={event['t_id']}&rub=rs&tabID={tab_id}"
             )
-            matches.extend(parse_matches(fetch(results_url), event, tab_id, tab["discipline"]))
+            matches.extend(
+                parse_matches(fetch(results_url, fresh=fresh), event, tab_id, tab["discipline"])
+            )
             start_url = (
                 f"{BASE}kalender-details.php?s=&tID={event['t_id']}&rub=sl&tabID={tab_id}"
             )
-            entries.extend(parse_entries(fetch(start_url), event, tab_id))
+            entries.extend(parse_entries(fetch(start_url, fresh=fresh), event, tab_id))
     event["tab_id"] = "|".join(tab_ids)
     if matches and not event["discipline"]:
         event["discipline"] = matches[0]["discipline"]
@@ -402,9 +506,10 @@ def portrait(sid: str) -> tuple[str, str]:
     )
 
 
-def load_league_elo() -> dict[str, int]:
+def load_league_elo() -> dict[str, tuple[int, float]]:
+    """Pass-Nr. → (league Elo, its standard error)."""
     path = DATA / "player_elo.csv"
-    ratings: dict[str, int] = {}
+    ratings: dict[str, tuple[int, float]] = {}
     if not path.exists():
         return ratings
     with path.open(encoding="utf-8-sig", newline="") as handle:
@@ -415,23 +520,38 @@ def load_league_elo() -> dict[str, int]:
             if not pass_nr.isdigit():
                 continue
             try:
-                ratings[pass_nr] = int(row["elo"])
+                ratings[pass_nr] = (int(row["elo"]), float(row.get("elo_se") or 0))
             except (KeyError, ValueError):
                 continue
     return ratings
 
 
-def sanwald_ratings(matches: list[dict[str, str]]) -> tuple[dict[str, float], dict[str, float]]:
-    """Published Sanwald Elo for each TournamentApp id.
+def load_entry_events() -> dict[str, set[str]]:
+    """sid → events it was seeded into, from the start lists."""
+    events: dict[str, set[str]] = defaultdict(set)
+    path = DATA / "tournamentapp_entries.csv"
+    if not path.exists():
+        return events
+    with path.open(encoding="utf-8-sig", newline="") as handle:
+        for row in csv.DictReader(handle):
+            sid = (row.get("player_sid") or "").strip()
+            if sid:
+                events[sid].add(row.get("t_id") or "")
+    return events
 
-    Race scores only (winner on 4 or 5). Forfeits and mistyped rows stay out
-    of the fit. The frozen offset is added, same as the league table.
+
+def tournament_ratings(matches: list[dict[str, str]]) -> tuple[dict[str, float], dict[str, float]]:
+    """Published TournamentApp-only Elo for each TournamentApp id.
+
+    Finished races only (elo.finished_races). Forfeits and mistyped rows stay
+    out of the fit. The frozen offset is added, same as the league table.
     """
     from elo import (
         PRIOR_RATING,
         SCALE,
         assign_weights,
         collect,
+        finished_races,
         fit_elo,
         outcomes,
         rating_se,
@@ -439,14 +559,9 @@ def sanwald_ratings(matches: list[dict[str, str]]) -> tuple[dict[str, float], di
     )
 
     rows = []
-    for match in matches:
-        try:
-            score1 = int(match["score1"])
-            score2 = int(match["score2"])
-        except (KeyError, ValueError):
-            continue
-        if score1 == score2 or max(score1, score2) not in {4, 5}:
-            continue
+    for match in finished_races(matches):
+        score1 = int(match["score1"])
+        score2 = int(match["score2"])
         if score1 > score2:
             winner, loser = match["player1_sid"], match["player2_sid"]
             home_score, away_score = score1, score2
@@ -461,11 +576,11 @@ def sanwald_ratings(matches: list[dict[str, str]]) -> tuple[dict[str, float], di
                 "home_player": winner,
                 "away_player": loser,
                 "frame_score": f"{home_score}:{away_score}",
-                "discipline": "9-Ball",
+                "discipline": match.get("discipline") or "9-Ball",
                 "home_team": "",
                 "away_team": "",
-                "league": "Sanwald",
-                "staffel": "",
+                "league": "TournamentApp",
+                "staffel": match.get("title") or "",
             }
         )
     played, as_of = assign_weights(outcomes(rows), HALF_LIFE_YEARS)
@@ -490,7 +605,11 @@ def sanwald_ratings(matches: list[dict[str, str]]) -> tuple[dict[str, float], di
 
 
 def load_identity() -> list[dict[str, str]]:
-    """sid → Pass-Nr. rows. A row needs both ids and an evidence note."""
+    """sid → Pass-Nr. rows. A row needs both ids and an evidence note.
+
+    A club-only player without a Pass-Nr. is linked by the local id from
+    data/player_ids.csv, e.g. local:hadies|Tübinger BC.
+    """
     if not IDENTITY_PATH.exists():
         return []
     rows = []
@@ -499,27 +618,105 @@ def load_identity() -> list[dict[str, str]]:
             sid = (row.get("sid") or "").strip()
             pass_nr = (row.get("pass_nr") or "").strip()
             evidence = (row.get("evidence") or "").strip()
-            if sid.isdigit() and pass_nr.isdigit() and evidence:
+            if sid.isdigit() and (pass_nr.isdigit() or pass_nr.startswith("local:")) and evidence:
                 rows.append({"sid": sid, "pass_nr": pass_nr, "evidence": evidence})
     return rows
 
 
 def save_name_elo_identity(candidates: list[dict[str, str]]) -> list[dict[str, str]]:
     """Record the initial matches. A hand-written evidence note for a sid is kept."""
-    kept = [row for row in load_identity() if row["evidence"] != NAME_ELO_EVIDENCE]
+    kept = [row for row in load_identity() if row["evidence"] not in AUTO_EVIDENCE]
     kept_sids = {row["sid"] for row in kept}
     recorded = list(kept)
     for row in candidates:
-        if not row["note"].startswith("name matches and Elo is within 30"):
+        evidence = LINK_EVIDENCE.get(row["note"])
+        if evidence is None:
             continue
         if row["sid"] in kept_sids or not row["pass_nr"].isdigit():
             continue
-        recorded.append(
-            {"sid": row["sid"], "pass_nr": row["pass_nr"], "evidence": NAME_ELO_EVIDENCE}
-        )
+        recorded.append({"sid": row["sid"], "pass_nr": row["pass_nr"], "evidence": evidence})
     recorded.sort(key=lambda row: int(row["sid"]))
     write_csv(IDENTITY_PATH, IDENTITY_FIELDS, recorded)
     return recorded
+
+
+def league_neighbourhoods() -> dict[str, set[str]]:
+    """Pass-Nr. → league opponents and teammates (same team and season)."""
+    hood: dict[str, set[str]] = defaultdict(set)
+    squads: dict[tuple[str, str], set[str]] = defaultdict(set)
+    path = DATA / "games.csv"
+    if not path.exists():
+        return hood
+    with path.open(encoding="utf-8-sig", newline="") as handle:
+        for row in csv.DictReader(handle):
+            home = (row.get("home_player_id") or "").strip()
+            away = (row.get("away_player_id") or "").strip()
+            if home.isdigit() and away.isdigit():
+                hood[home].add(away)
+                hood[away].add(home)
+            for player, team in ((home, row.get("home_team")), (away, row.get("away_team"))):
+                if player.isdigit() and team:
+                    squads[(row.get("season") or "", team)].add(player)
+    for squad in squads.values():
+        for player in squad:
+            hood[player] |= squad - {player}
+    return hood
+
+
+def poisson_tail(observed: int, expected: float) -> float:
+    """P(X >= observed) for X ~ Poisson(expected)."""
+    if observed <= 0:
+        return 1.0
+    below, term = 0.0, math.exp(-expected)
+    for count in range(observed):
+        below += term
+        term *= expected / (count + 1)
+    return max(0.0, 1.0 - below)
+
+
+def network_check(matches: list[dict[str, str]], candidates: list[dict[str, str]]) -> None:
+    """Second step for name matches: do they move among the same people?
+
+    The sid's opponents are mapped to Pass-Nr. through the hand-written links
+    and the other name matches. Shared people are those that are also the
+    league player's league opponents or teammates. Updates each note.
+    """
+    provisional = {
+        row["sid"]: row["pass_nr"] for row in load_identity() if row["evidence"] not in AUTO_EVIDENCE
+    }
+    for row in candidates:
+        if row["note"] == LINK_NOTE:
+            provisional.setdefault(row["sid"], row["pass_nr"])
+    met: dict[str, set[str]] = defaultdict(set)
+    for row in matches:
+        one, two = row["player1_sid"], row["player2_sid"]
+        if two in provisional:
+            met[one].add(provisional[two])
+        if one in provisional:
+            met[two].add(provisional[one])
+    hood = league_neighbourhoods()
+    population = len(hood) or 1
+    for row in candidates:
+        if row["note"] != LINK_NOTE:
+            continue
+        pass_nr = row["pass_nr"]
+        theirs = met[row["sid"]] - {pass_nr}
+        mine = hood.get(pass_nr, set())
+        shared = len(theirs & mine)
+        expected = len(theirs) * len(mine) / population
+        p_value = poisson_tail(shared, expected)
+        row["shared_people"] = str(shared)
+        row["expected_shared"] = f"{expected:.1f}"
+        row["network_p"] = f"{p_value:.2g}"
+        common = any(token.casefold() in COMMON_SURNAMES for token in row["league_name"].split())
+        if p_value < NETWORK_P:
+            row["note"] = "linked: opponent network confirms"
+        elif expected >= NETWORK_POWER and shared <= expected:
+            row["note"] = "rejected: opponent network no better than chance"
+        elif common:
+            row["note"] = "rejected: common surname, opponent network does not confirm"
+        else:
+            row["note"] = "linked: uncommon name, network too thin to judge"
 
 
 def link_players(
@@ -539,8 +736,8 @@ def link_players(
             event_sets[sid].add(row["t_id"])
     index = load_league_index()
     league_elo = load_league_elo()
-    print("fitting Sanwald Elo", flush=True)
-    ratings, errors = sanwald_ratings(matches)
+    print("fitting TournamentApp-only Elo", flush=True)
+    ratings, errors = tournament_ratings(matches)
     sids = sorted(names, key=lambda sid: (-match_counts[sid], int(sid)))
     if portraits is None:
         portraits = {}
@@ -553,6 +750,34 @@ def link_players(
                 done += 1
                 if done % 100 == 0:
                     print(f"  portraits {done}/{len(sids)}", flush=True)
+    entry_events = load_entry_events()
+    keys: dict[str, set[str]] = {}
+    sids_by_key: dict[str, set[str]] = defaultdict(set)
+    for sid in sids:
+        result_name = sorted(names[sid], key=len)[-1]
+        portrait_name = portraits.get(sid, ("", ""))[0]
+        keys[sid] = {key for key in (token_key(portrait_name), token_key(result_name)) if key}
+        for key in keys[sid]:
+            sids_by_key[key].add(sid)
+
+    def namesake_clash(sid: str) -> bool:
+        mine = event_sets[sid] | entry_events.get(sid, set())
+        for key in keys[sid]:
+            for other in sids_by_key[key] - {sid}:
+                if mine & (event_sets[other] | entry_events.get(other, set())):
+                    return True
+        return False
+
+    shift_sample = []
+    for sid in sids:
+        hits = {item["pass_nr"] for key in keys[sid] for item in index.get(key, [])}
+        if len(hits) == 1 and match_counts[sid] >= SHIFT_MIN_MATCHES and sid in ratings:
+            league = league_elo.get(next(iter(hits)))
+            if league is not None:
+                shift_sample.append(ratings[sid] - league[0])
+    shift = statistics.median(shift_sample) if shift_sample else 0.0
+    print(f"TournamentApp minus league Elo, median over {len(shift_sample)} name matches: {shift:+.0f}")
+
     players = []
     candidates = []
     for sid in sids:
@@ -578,10 +803,10 @@ def link_players(
                 "league_name": "|".join(item["league_name"] for item in name_hits),
                 "clubs": "|".join(item["clubs"] for item in name_hits),
             }
-        sanwald_elo = ratings.get(sid)
-        sanwald_se = errors.get(sid)
-        elo_text = "" if sanwald_elo is None else str(round(sanwald_elo))
-        se_text = "" if sanwald_se is None else str(round(sanwald_se))
+        ta_elo = ratings.get(sid)
+        ta_se = errors.get(sid)
+        elo_text = "" if ta_elo is None else str(round(ta_elo))
+        se_text = "" if ta_se is None else str(round(ta_se))
         players.append(
             {
                 "sid": sid,
@@ -590,25 +815,30 @@ def link_players(
                 "result_name": result_name,
                 "matches": str(match_counts[sid]),
                 "events": str(len(event_sets[sid])),
-                "sanwald_elo": elo_text,
-                "sanwald_se": se_text,
+                "ta_elo": elo_text,
+                "ta_se": se_text,
             }
         )
-        league_rating = league_elo.get(chosen["pass_nr"]) if len(name_hits) == 1 else None
-        if len(name_hits) == 1 and sanwald_elo is not None and league_rating is not None:
-            delta_value = round(sanwald_elo) - league_rating
-            if abs(delta_value) <= ELO_CANDIDATE_BAND:
-                note = "name matches and Elo is within 30"
+        league = league_elo.get(chosen["pass_nr"]) if len(name_hits) == 1 else None
+        if len(name_hits) == 1 and ta_elo is not None and league is not None:
+            league_rating, league_se = league
+            delta_value = round(ta_elo) - league_rating
+            spread = math.hypot(ta_se or 0.0, league_se)
+            z = (delta_value - shift) / spread if spread else 0.0
+            if namesake_clash(sid):
+                note = "another sid with this name played the same event"
+            elif abs(z) > ELO_Z_LIMIT:
+                note = f"name matches; Elo off by {z:+.1f} SE"
             else:
-                note = "name matches; Elo is more than 30 apart"
+                note = LINK_NOTE
             candidates.append(
                 {
                     "sid": sid,
                     "portrait_name": portrait_name,
                     "result_name": result_name,
                     "matches": str(match_counts[sid]),
-                    "sanwald_elo": elo_text,
-                    "sanwald_se": se_text,
+                    "ta_elo": elo_text,
+                    "ta_se": se_text,
                     "pass_nr": chosen["pass_nr"],
                     "league_name": chosen["league_name"],
                     "clubs": chosen["clubs"],
@@ -624,8 +854,8 @@ def link_players(
                     "portrait_name": portrait_name,
                     "result_name": result_name,
                     "matches": str(match_counts[sid]),
-                    "sanwald_elo": elo_text,
-                    "sanwald_se": se_text,
+                    "ta_elo": elo_text,
+                    "ta_se": se_text,
                     "pass_nr": chosen["pass_nr"],
                     "league_name": chosen["league_name"],
                     "clubs": chosen["clubs"],
@@ -634,14 +864,21 @@ def link_players(
                     "note": note,
                 }
             )
+    network_check(matches, candidates)
     return players, candidates
 
 
 def scrape(workers: int) -> None:
+    today = datetime.now()
     listed: dict[str, dict[str, str]] = {}
-    for season in SEASONS:
-        found = list_events(season)
-        print(f"season 20{season}: {len(found)} Sanwald events", flush=True)
+    for season in seasons(today):
+        found = list_events(season, fresh=season == today.year)
+        titles = defaultdict(int)
+        for event in found:
+            titles[f"{event['title']} ({event['place']})"] += 1
+        print(f"season {season}: {len(found)} events", flush=True)
+        for title, count in sorted(titles.items(), key=lambda item: -item[1]):
+            print(f"  {count:3d}  {title}", flush=True)
         for event in found:
             listed.setdefault(event["t_id"], event)
     events = sorted(listed.values(), key=lambda row: (row["event_date"][6:], row["event_date"][3:5], row["event_date"][:2], int(row["t_id"])))
@@ -650,7 +887,10 @@ def scrape(workers: int) -> None:
     matches = []
     entries = []
     with ThreadPoolExecutor(max_workers=workers) as pool:
-        futures = {pool.submit(scrape_event, event): event["t_id"] for event in events}
+        futures = {
+            pool.submit(scrape_event, event, is_recent(event["event_date"], today)): event["t_id"]
+            for event in events
+        }
         done = 0
         for future in as_completed(futures):
             event, event_matches, event_entries = future.result()
@@ -666,9 +906,9 @@ def scrape(workers: int) -> None:
     scraped_events.sort(key=lambda row: (row["event_date"][6:], row["event_date"][3:5], row["event_date"][:2], int(row["t_id"])))
     matches.sort(key=lambda row: (row["event_date"][6:], row["event_date"][3:5], row["event_date"][:2], int(row["t_id"] or 0), row["match_code"]))
     entries.sort(key=lambda row: (row["event_date"][6:], row["event_date"][3:5], row["event_date"][:2], int(row["t_id"] or 0), int(row["seed"] or 0)))
-    write_csv(DATA / "sanwald_events.csv", EVENT_FIELDS, scraped_events)
-    write_csv(DATA / "sanwald_matches.csv", MATCH_FIELDS, matches)
-    write_csv(DATA / "sanwald_entries.csv", ENTRY_FIELDS, entries)
+    write_csv(DATA / "tournamentapp_events.csv", EVENT_FIELDS, scraped_events)
+    write_csv(DATA / "tournamentapp_matches.csv", MATCH_FIELDS, matches)
+    write_csv(DATA / "tournamentapp_entries.csv", ENTRY_FIELDS, entries)
     publish(matches, events=len(scraped_events), entries=len(entries))
 
 
@@ -679,13 +919,13 @@ def publish(
     events: int | None = None,
     entries: int | None = None,
 ) -> None:
-    print("rating Sanwald players by sid", flush=True)
+    print("rating TournamentApp players by sid", flush=True)
     players, candidates = link_players(matches, portraits=portraits)
     identity = save_name_elo_identity(candidates)
-    pass_by_sid = {row["sid"]: row["pass_nr"] for row in identity}
+    pass_by_sid = {row["sid"]: row["pass_nr"] for row in identity if row["pass_nr"].isdigit()}
     for player in players:
         player["pass_nr"] = pass_by_sid.get(player["sid"], "")
-    write_csv(DATA / "sanwald_players.csv", PLAYER_FIELDS, players)
+    write_csv(DATA / "tournamentapp_players.csv", PLAYER_FIELDS, players)
     write_csv(DATA / "tournamentapp_candidates.csv", CANDIDATE_FIELDS, candidates)
     decisive = [row for row in matches if row["score1"] != row["score2"]]
     if events is not None:
@@ -699,9 +939,9 @@ def publish(
 
 
 def link_only() -> None:
-    matches = list(csv.DictReader((DATA / "sanwald_matches.csv").open(encoding="utf-8")))
+    matches = list(csv.DictReader((DATA / "tournamentapp_matches.csv").open(encoding="utf-8")))
     portraits: dict[str, tuple[str, str]] = {}
-    player_path = DATA / "sanwald_players.csv"
+    player_path = DATA / "tournamentapp_players.csv"
     if player_path.exists():
         for row in csv.DictReader(player_path.open(encoding="utf-8")):
             portraits[row["sid"]] = (row.get("portrait_name") or "", row.get("subtitle") or "")
@@ -710,11 +950,11 @@ def link_only() -> None:
 
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--workers", type=int, default=6)
+    parser.add_argument("--workers", type=int, default=3)
     parser.add_argument(
         "--link-only",
         action="store_true",
-        help="refit Sanwald Elo and rewrite data/sanwald_players.csv from the saved matches",
+        help="refit TournamentApp Elo and rewrite data/tournamentapp_players.csv from the saved matches",
     )
     args = parser.parse_args()
     if args.link_only:

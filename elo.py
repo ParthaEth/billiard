@@ -90,7 +90,8 @@ def load_games(path: Path) -> list[dict[str, str]]:
     between the same two players, on the same day and in the same discipline,
     are added into one score. A short club set is weighted by club_sets.cfg:
     racks out of 5, 7 or 5, and 14/1 balls out of 70. League rows are left
-    as scraped. Sanwald Cup matches are added after that, joined to a
+    as scraped. TournamentApp open-tournament matches (Sanwald Cup, BULL
+    CUP, Stuttgart, Pfullingen, …) are added after that, joined to a
     Pass-Nr. only through data/tournamentapp_identity.csv.
     """
     with path.open(newline="", encoding="utf-8-sig") as handle:
@@ -102,31 +103,79 @@ def load_games(path: Path) -> list[dict[str, str]]:
         from identity import apply_identities
 
         apply_identities(rows, identity_path=path.parent / "player_identity.csv")
-        rows.extend(_sanwald_games(path.parent))
+        rows.extend(_tournamentapp_games(path.parent))
     return rows
 
 
-def _sanwald_games(data_dir: Path) -> list[dict[str, str]]:
-    """Monday-night Sanwald Cup games.
+def finished_races(matches: list[dict[str, str]]) -> list[dict[str, str]]:
+    """TournamentApp matches whose score is a finished race.
 
-    A sid listed in tournamentapp_identity.csv is that league player.
-    Anyone else keeps a separate name, so a close spelling cannot merge them.
-    Race scores only: the winner reached 4 or 5.
+    Race length differs by event, round and discipline, so the targets are
+    read from the bracket: a winning score is a target when it is common in
+    that tab and discipline (at least 3 matches and 5% of them). A match
+    counts when its winning score lies between the shortest target and twice
+    the longest, so a race-to-5 final in a race-to-4 bracket stays in. A
+    lone 1:0 forfeit, a w.o. 0:0 or a typo like 45:3 drops out.
     """
-    matches_path = data_dir / "sanwald_matches.csv"
+    usable = []
+    for row in matches:
+        try:
+            score1, score2 = int(row["score1"]), int(row["score2"])
+        except (KeyError, ValueError):
+            continue
+        if score1 != score2 and min(score1, score2) >= 0:
+            usable.append((row, max(score1, score2)))
+    winning: dict[tuple[str, str, str], dict[int, int]] = defaultdict(lambda: defaultdict(int))
+    for row, top in usable:
+        winning[(row["t_id"], row.get("tab_id", ""), row.get("discipline", ""))][top] += 1
+    targets: dict[tuple[str, str, str], tuple[int, int]] = {}
+    for key, counts in winning.items():
+        common = [top for top, count in counts.items() if count >= max(3, 0.05 * sum(counts.values()))]
+        if common:
+            targets[key] = (min(common), max(common))
+    kept = []
+    for row, top in usable:
+        bounds = targets.get((row["t_id"], row.get("tab_id", ""), row.get("discipline", "")))
+        if bounds and bounds[0] <= top <= 2 * bounds[1]:
+            kept.append(row)
+    return kept
+
+
+def _tournamentapp_games(data_dir: Path) -> list[dict[str, str]]:
+    """Open-tournament games from data/tournamentapp_matches.csv.
+
+    A sid listed in tournamentapp_identity.csv is that league player, or the
+    club-only player with that local id in player_ids.csv.
+    Anyone else keeps a separate name, so a close spelling cannot merge them.
+    Finished races only (finished_races).
+    """
+    matches_path = data_dir / "tournamentapp_matches.csv"
     if not matches_path.exists():
         return []
     identity_path = data_dir / "tournamentapp_identity.csv"
-    players_path = data_dir / "sanwald_players.csv"
+    players_path = data_dir / "tournamentapp_players.csv"
     league_path = data_dir / "player_identity.csv"
     sid_pass: dict[str, str] = {}
+    sid_local: dict[str, str] = {}
     if identity_path.exists():
         with identity_path.open(encoding="utf-8-sig", newline="") as handle:
             for row in csv.DictReader(handle):
                 sid = (row.get("sid") or "").strip()
                 pass_nr = (row.get("pass_nr") or "").strip()
-                if sid.isdigit() and pass_nr.isdigit() and (row.get("evidence") or "").strip():
+                if not sid.isdigit() or not (row.get("evidence") or "").strip():
+                    continue
+                if pass_nr.isdigit():
                     sid_pass[sid] = pass_nr
+                elif pass_nr.startswith("local:"):
+                    sid_local[sid] = pass_nr
+    local_name: dict[str, str] = {}
+    ids_path = data_dir / "player_ids.csv"
+    if sid_local and ids_path.exists():
+        with ids_path.open(encoding="utf-8-sig", newline="") as handle:
+            for row in csv.DictReader(handle):
+                player_id = (row.get("player_id") or "").strip()
+                if player_id.startswith("local:") and (row.get("name") or "").strip():
+                    local_name[player_id] = row["name"].strip()
     pass_name: dict[str, str] = {}
     league_names: set[str] = set()
     if league_path.exists():
@@ -151,6 +200,9 @@ def _sanwald_games(data_dir: Path) -> list[dict[str, str]]:
         if pass_nr and pass_nr in pass_name:
             labels[sid] = pass_name[pass_nr]
             continue
+        if sid_local.get(sid) in local_name:
+            labels[sid] = local_name[sid_local[sid]]
+            continue
         label = portrait or f"sid {sid}"
         if label.casefold() in league_names or label.casefold() in taken:
             label = f"{label} ({sid})"
@@ -158,59 +210,55 @@ def _sanwald_games(data_dir: Path) -> list[dict[str, str]]:
         labels[sid] = label
     games: list[dict[str, str]] = []
     with matches_path.open(encoding="utf-8-sig", newline="") as handle:
-        for row in csv.DictReader(handle):
-            try:
-                score1 = int(row["score1"])
-                score2 = int(row["score2"])
-            except (KeyError, ValueError):
-                continue
-            if score1 == score2 or max(score1, score2) not in {4, 5}:
-                continue
-            sid1 = (row.get("player1_sid") or "").strip()
-            sid2 = (row.get("player2_sid") or "").strip()
-            if sid1 not in labels or sid2 not in labels:
-                continue
-            if score1 > score2:
-                winner, loser = labels[sid1], labels[sid2]
-                home_score, away_score = score1, score2
-                home_pass, away_pass = sid_pass.get(sid1, ""), sid_pass.get(sid2, "")
-            else:
-                winner, loser = labels[sid2], labels[sid1]
-                home_score, away_score = score2, score1
-                home_pass, away_pass = sid_pass.get(sid2, ""), sid_pass.get(sid1, "")
-            games.append(
-                {
-                    "season": "",
-                    "league": "Sanwald",
-                    "staffel": "",
-                    "spieltag": "",
-                    "match_date": row.get("event_date") or "",
-                    "match_time": "",
-                    "home_team": "",
-                    "away_team": "",
-                    "match_score": f"{home_score}:{away_score}",
-                    "round": row.get("round") or "",
-                    "game_no": row.get("match_code") or "",
-                    "discipline": row.get("discipline") or "9-Ball",
-                    "home_player": winner,
-                    "home_player_id": home_pass,
-                    "away_player": loser,
-                    "away_player_id": away_pass,
-                    "frame_score": f"{home_score}:{away_score}",
-                    "home_points": "1",
-                    "away_points": "0",
-                    "winner": winner,
-                    "loser": loser,
-                    "winner_side": "home",
-                    "straight_pool_punkte": "",
-                    "straight_pool_aufnahmen": "",
-                    "straight_pool_hs": "",
-                    "straight_pool_gd": "",
-                    "report_url": "",
-                    "home_pass": home_pass,
-                    "away_pass": away_pass,
-                }
-            )
+        matches = finished_races(list(csv.DictReader(handle)))
+    for row in matches:
+        score1 = int(row["score1"])
+        score2 = int(row["score2"])
+        sid1 = (row.get("player1_sid") or "").strip()
+        sid2 = (row.get("player2_sid") or "").strip()
+        if sid1 not in labels or sid2 not in labels:
+            continue
+        if score1 > score2:
+            winner, loser = labels[sid1], labels[sid2]
+            home_score, away_score = score1, score2
+            home_pass, away_pass = sid_pass.get(sid1, ""), sid_pass.get(sid2, "")
+        else:
+            winner, loser = labels[sid2], labels[sid1]
+            home_score, away_score = score2, score1
+            home_pass, away_pass = sid_pass.get(sid2, ""), sid_pass.get(sid1, "")
+        games.append(
+            {
+                "season": "",
+                "league": "TournamentApp",
+                "staffel": row.get("title") or "",
+                "spieltag": "",
+                "match_date": row.get("event_date") or "",
+                "match_time": "",
+                "home_team": "",
+                "away_team": "",
+                "match_score": f"{home_score}:{away_score}",
+                "round": row.get("round") or "",
+                "game_no": row.get("match_code") or "",
+                "discipline": row.get("discipline") or "9-Ball",
+                "home_player": winner,
+                "home_player_id": home_pass or sid_local.get(sid1 if score1 > score2 else sid2, ""),
+                "away_player": loser,
+                "away_player_id": away_pass or sid_local.get(sid2 if score1 > score2 else sid1, ""),
+                "frame_score": f"{home_score}:{away_score}",
+                "home_points": "1",
+                "away_points": "0",
+                "winner": winner,
+                "loser": loser,
+                "winner_side": "home",
+                "straight_pool_punkte": "",
+                "straight_pool_aufnahmen": "",
+                "straight_pool_hs": "",
+                "straight_pool_gd": "",
+                "report_url": "",
+                "home_pass": home_pass,
+                "away_pass": away_pass,
+            }
+        )
     return games
 
 
@@ -593,6 +641,7 @@ def fit_elo(
     tol: float = 0.01,
     as_of: datetime | None = None,
     half_life_years: float = 0.0,
+    start: dict[str, float] | None = None,
 ) -> dict[str, float]:
     """Newton updates until expected score share matches the score taken.
 
@@ -600,8 +649,15 @@ def fit_elo(
     player's last match. It keeps an undefeated player with one or two games
     from running off to infinity, which is what unregularized Elo does on
     this league graph. Once those matches age, the draw ages with them.
+
+    `start` is an optional warm start, used when refitting the same pool
+    at a later as-of date. Names missing from it still begin at the prior.
     """
     rating = {name: prior_rating for name in players}
+    if start:
+        for name in rating:
+            if name in start:
+                rating[name] = start[name]
     slope = LN10 / scale
     for _ in range(max_iter):
         max_step = 0.0

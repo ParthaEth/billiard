@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
-"""Bring league, Einzel, and Sanwald Cup results up to today.
+"""Bring league, Einzel, and TournamentApp open-tournament results up to today.
 
 The season window runs from the newest match already stored through the
 season that contains today. A BVBW season starts in September. Older
 seasons are not opened. Reports already in the file are skipped by the
 league and Einzel scrapers.
 
-Sanwald Cup Mondays are refreshed into data/sanwald_*.csv. They stay out of
-games.csv. The Elo fit reads them from there.
+TournamentApp events in Baden-Württemberg (Sanwald Cup Mondays, BULL CUP,
+Stuttgart, Pfullingen, …) are refreshed into data/tournamentapp_*.csv. They
+stay out of games.csv. The Elo fit reads them from there.
 
 Afterwards every league and Einzel game gets its Pass-Nr. (identity.py
 fetch + attach). Squad pages come from the cache. In the synced seasons a
@@ -19,7 +20,7 @@ player it does not list.
     python sync.py --einzel-only
 
 League-only is the same walk as ``python scrape_new.py --season …``.
-``--leagues-only`` and ``--einzel-only`` skip the Monday-night scrape.
+``--leagues-only`` and ``--einzel-only`` skip the TournamentApp scrape.
 """
 
 from __future__ import annotations
@@ -33,7 +34,7 @@ import identity
 from elo import parse_match_date
 from scrape_bvbw import TARGET_LEAGUES, StepScraper, run_auto
 from scrape_einzel import scrape_seasons
-from scrape_sanwald import scrape as scrape_sanwald
+from scrape_tournamentapp import scrape as scrape_tournamentapp
 
 
 def season_of(when: datetime) -> str:
@@ -126,8 +127,8 @@ def main() -> None:
         scrape_seasons(einzel_seasons, args.csv, args.einzel_min_wait, args.einzel_max_wait)
         synced.update(einzel_seasons)
     if do_leagues and do_einzel:
-        print("Sanwald Cup: Monday nights at Die Drei")
-        scrape_sanwald(6)
+        print("TournamentApp: open tournaments in Baden-Württemberg")
+        scrape_tournamentapp(3)
 
     if args.skip_ids:
         return

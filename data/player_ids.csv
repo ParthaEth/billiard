@@ -748,6 +748,7 @@ player_id,pass_nr,name
 355793,355793,Klaus Woehrlin
 105241,105241,Klaus Zobrekis
 240143,240143,Konrad Bau
+369253,369253,Konstantin Fehl
 227705,227705,Konstantin Miric
 100903,100903,Krischan Dostal
 369147,369147,Kristan Bailey
@@ -878,6 +879,7 @@ player_id,pass_nr,name
 143960,143960,Markus Graml
 368198,368198,Markus Hanagarth
 101671,101671,Markus Hardtke
+369128,369128,Markus Herbord
 102204,102204,Markus Kamuf
 102497,102497,Markus König
 368505,368505,Markus Löscher
@@ -1603,7 +1605,9 @@ local:achim schwab|PBC Waldbronn-Karlsbad,,Achim Schwab
 local:achim schwab|PP Karlsbad,,Achim Schwab
 local:achim stoll|BSV Filderstadt,,Achim Stoll
 local:achim wendeler|TV Cannstatt,,Achim Wendeler
+local:adrian cabanillas lora|BC Fellbach,,Adrian Cabanillas Lora
 local:adrian cabanillas lora|BSV Filderstadt,,Adrian Cabanillas Lora
+local:adrian cabanillas lora|PBC Aalen,,Adrian Cabanillas Lora
 local:adrian mernik|PBC Reutlingen,,Adrian Mernik
 local:adrian weller|BSV Nürtingen,,Adrian Weller
 local:adrian weller|PBC Reutlingen,,Adrian Weller
@@ -1612,18 +1616,24 @@ local:agostino rodrigues|PBC Bruchsal,,Agostino Rodrigues
 local:ahmad ayshe|BC Feuersee Leonberg,,Ahmad Ayshe
 local:ahmet gümüs|PBC Trossingen,,Ahmet Gümüs
 local:ahmet gümüs|PBV Rottweil,,Ahmet Gümüs
+local:ahmet yazici|PBC Nagoldtal,,Ahmet Yazici
 local:ahmet yazici|PP Böblingen,,Ahmet Yazici
 local:ahmet yilmaz|Jump Shot Mingolsheim,,Ahmet Yilmaz
 local:ahmet yilmaz|PBC Waghäusel,,Ahmet Yilmaz
 local:alban szerafy|BC Dallau,,Alban Szerafy
+local:albert butic|PBC Aalen,,Albert Butic
+local:albert leibenguth|PBSC Pforzheim,,Albert Leibenguth
 local:albert terzic|BF Bruchsal,,Albert Terzic
 local:alen salic|BBV Mannheim,,Alen Salic
 local:alexander khesin|TV Cannstatt,,Alexander  Khesin
 local:alexander adelhelm|PBC Bietigheim-Bissingen,,Alexander Adelhelm
+local:alexander adrian rosiuta|BSV Nürtingen,,Alexander Adrian Rosiuta
 local:alexander bailer|BC Feuersee Leonberg,,Alexander Bailer
 local:alexander baur|PBC Bad Saulgau,,Alexander Baur
 local:alexander bitschinski|BC Dallau,,Alexander Bitschinski
 local:alexander bohr|PP Böblingen,,Alexander Bohr
+local:alexander casper|BF Weinheim-Viernheim,,Alexander Casper
+local:alexander eck|BC Weingarten,,Alexander Eck
 local:alexander fischer|BC Weingarten,,Alexander Fischer
 local:alexander friederich|BC Neckarsulm,,Alexander Friederich
 local:alexander friederich|PBC Pfedelbach,,Alexander Friederich
@@ -1632,9 +1642,11 @@ local:alexander garmatz|PBC Bad Saulgau,,Alexander Garmatz
 local:alexander grossmann|BSV Filderstadt,,Alexander Großmann
 local:alexander haass|BC Dallau,,Alexander Haass
 local:alexander haass|BV Pforzheim,,Alexander Haass
+local:alexander haass|PBV Schwetzingen,,Alexander Haass
 local:alexander haass aufn.: 20; ø: 3.50|unassigned,,Alexander Haass Aufn.: 20; Ø: 3.50
 local:alexander hemmer|BBC Plochingen,,Alexander Hemmer
 local:alexander lahnert|BSC Mannheim,,Alexander Lahnert
+local:alexander laubhan|BC Stuttgart 1891,,Alexander Laubhan
 local:alexander mack|PBC Schwäbisch Hall,,Alexander Mack
 local:alexander mack|PBC Schwäbisch-Hall,,Alexander Mack
 local:alexander ortmann|PP Böblingen,,Alexander Ortmann
@@ -1642,24 +1654,30 @@ local:alexander pinneker|BSG Albstadt,,Alexander Pinneker
 local:alexander ragg|PBC Bräunlingen,,Alexander Ragg
 local:alexander sachs|BBV Mannheim,,Alexander Sachs
 local:alexander scholz|BC Neckarsulm,,Alexander Scholz
+local:alexander schäfer|CC Karlsruhe,,Alexander Schäfer
 local:alexander srp|BC Feuersee,,Alexander Srp
 local:alexander striker|PF Calw,,Alexander Striker
 local:alexander sumpf|BSC Waldshut,,Alexander Sumpf
+local:alexander tratsis|BC Weingarten,,Alexander Tratsis
 local:alexander weiss|BF Weinheim-Viernheim,,Alexander Weiß
 local:alexander wibisono|BSV Pfullingen,,Alexander Wibisono
+local:alexandros vassiliadis|PBC Aalen,,Alexandros Vassiliadis
 local:alf hahn|FB Handicap Karlsruhe,,Alf Hahn
 local:alfred pfaff|Fastbreakers Karlsruhe,,Alfred Pfaff
 local:alfred rutkowski|PBC Rastatt,,Alfred Rutkowski
+local:alfred stöcklein|BC Ludwigsburg,,Alfred Stöcklein
 local:alfredo di perna|BSV Filderstadt,,Alfredo Di Perna
 local:alfredo di perna|BSV Nürtingen,,Alfredo Di Perna
 local:ali cetin|PBC Ochsenhausen,,Ali Cetin
 local:ali kilic|BSG Albstadt,,Ali Kilic
 local:alicia baum|PBC Rastatt,,Alicia Baum
+local:amir memaran-benam|BBV Mannheim,,Amir Memaran-Benam
 local:anastase kagelidis|PP Böblingen,,Anastase Kagelidis
 local:anastasia archipov|BC Feuersee Ludwigsburg,,Anastasia Archipov
 local:anastasios kiriakidis|BC Aalen,,Anastasios Kiriakidis
 local:andre bayer|BC Ludwigsburg,,Andre Bayer
 local:andre neumann|BBV Mannheim,,Andre Neumann
+local:andre peykow|BC Stuttgart 1891,,Andre Peykow
 local:andre schwanhäuser|BSC St. Georgen,,Andre Schwanhäuser
 local:andre schwenzfeier|BSV Pfullingen,,Andre Schwenzfeier
 local:andre sondermann|PBC Waghäusel,,Andre Sondermann
@@ -1667,6 +1685,7 @@ local:andre säubert|PBC Waghäusel,,Andre Säubert
 local:andrea frommknecht|BC Weingarten,,Andrea Frommknecht
 local:andreas augustin|BC Aalen,,Andreas Augustin
 local:andreas augustin|PBC Aalen,,Andreas Augustin
+local:andreas bauer|BSV Filderstadt,,Andreas Bauer
 local:andreas begau|TV Cannstatt,,Andreas Begau
 local:andreas beyerle|PBC Bad Saulgau,,Andreas Beyerle
 local:andreas blumenthal|BSV Filderstadt,,Andreas Blumenthal
@@ -1689,6 +1708,7 @@ local:andreas kullmann|PBC Waghäusel,,Andreas Kullmann
 local:andreas kunellis|PBC Reutlingen,,Andreas Kunellis
 local:andreas menzel|Tübinger BC,,Andreas Menzel
 local:andreas müller|BC Sindelfingen,,Andreas Müller
+local:andreas müller|PBC Nagoldtal,,Andreas Müller
 local:andreas pauling|BC Stuttgart 1891,,Andreas Pauling
 local:andreas petzold|Jump Shot Mingolsheim,,Andreas Petzold
 local:andreas rago|BC Sindelfingen,,Andreas Rago
@@ -1697,19 +1717,25 @@ local:andreas remete|PBV Rottweil,,Andreas Remete
 local:andreas sattler|BC Neckarsulm,,Andreas Sattler
 local:andreas sattler|PBC Pfedelbach,,Andreas Sattler
 local:andreas schmid|PBC Nagoldtal,,Andreas Schmid
+local:andreas schneider|BC Stuttgart,,Andreas Schneider
 local:andreas schneider|BC Stuttgart 1891,,Andreas Schneider
 local:andreas schoknecht|CC Karlsruhe,,Andreas Schoknecht
 local:andreas schoknecht|PBC Bietigheim-Bissingen,,Andreas Schoknecht
 local:andreas schroff|PBC Bruchsal,,Andreas Schroff
+local:andreas schroff|PBV Schwetzingen,,Andreas Schroff
+local:andreas schwarz|BBV Mannheim,,Andreas Schwarz
 local:andreas stüber|BBV Mannheim,,Andreas Stüber
 local:andreas wittmeier|BC Breakers Knittlingen,,Andreas Wittmeier
 local:andreas wittmeier|BV Pforzheim,,Andreas Wittmeier
 local:andreas witzigmann|PBC Langenargen,,Andreas Witzigmann
 local:andreas wohlschlegel|PBC Bräunlingen,,Andreas Wohlschlegel
 local:andreas wolf|PBC Freudenstadt,,Andreas Wolf
+local:andreas zenker|BC Feuersee,,Andreas Zenker
+local:andreas zenker|BC Feuersee Leonberg,,Andreas Zenker
 local:andrei deliman|BC Sindelfingen,,Andrei Deliman
 local:andrei deliman|PP Böblingen,,Andrei Deliman
 local:andrè hirn|BSV Pfullingen,,Andrè Hirn
+local:andré brandt|BV Pforzheim,,André Brandt
 local:andré hajdu|PBC Nagoldtal,,André Hajdu
 local:andré-maurice breuil|BBV Mannheim,,André-Maurice Breuil
 local:andy|Tübinger BC,,Andy
@@ -1736,6 +1762,7 @@ local:arnd bülow|BF Bruchsal,,Arnd Bülow
 local:arndt siebert|BSV Weinheim,,Arndt Siebert
 local:arno corigliano|PBC Pfedelbach,,Arno Corigliano
 local:arno marotz|BSV Filderstadt,,Arno Marotz
+local:arno reinhardt|BF Weinheim-Viernheim,,Arno Reinhardt
 local:artur kantz|BC Sindelfingen,,Artur Kantz
 local:artur kantz|PP Böblingen,,Artur Kantz
 local:aryan dayyani|PF Calw,,Aryan Dayyani
@@ -1751,6 +1778,7 @@ local:axel sauter|BC Breakers Knittlingen,,Axel Sauter
 local:axel schmucker|BSV Weinheim,,Axel Schmucker
 local:axel schmucker|Mannheimer BF,,Axel Schmucker
 local:azad mak|BV Backnang/Welzheim,,Azad Mak
+local:azad mak|PBC Backnang,,Azad Mak
 local:bahram abbasi|BSV Pfullingen,,Bahram Abbasi
 local:barbaros tokbas|PBC Schwäbisch Gmünd,,Barbaros Tokbas
 local:barbaros tokbas|PBC Schwäbisch-Gmünd,,Barbaros Tokbas
@@ -1770,17 +1798,21 @@ local:benjamin pran|BC Neckarsulm,,Benjamin Pran
 local:benjamin roth|BF Bronnen,,Benjamin Roth
 local:benni bever|Poolsharks Bruchsal,,Benni Bever
 local:benno amann|BC Unterteuringen,,Benno Amann
+local:benny-michel mildenberger|BSF Kurpfalz,,Benny-Michel Mildenberger
+local:bernd aiglstorfer|PBC Trossingen,,Bernd Aiglstorfer
 local:bernd amend|PBC Fr. Lampertheim,,Bernd Amend
 local:bernd bergwitz|BBV Mannheim,,Bernd Bergwitz
 local:bernd dorenburg|BSV Pfullingen,,Bernd Dorenburg
 local:bernd füess|BC Sindelfingen,,Bernd Füess
 local:bernd füess|BULL Leonberg-Höfingen,,Bernd Füess
 local:bernd gentner|BC Aalen,,Bernd Gentner
+local:bernd hafner|BC Dätzingen,,Bernd Hafner
 local:bernd hafner|PF Calw,,Bernd Hafner
 local:bernd hauenstein|PBC Aalen,,Bernd Hauenstein
 local:bernd messing|PBC Offenburg,,Bernd Messing
 local:bernd schmidt|BSV Weinheim,,Bernd Schmidt
 local:bernd schröder|PBC Bräunlingen,,Bernd Schröder
+local:bernd schröder|PBC Trossingen,,Bernd Schröder
 local:bernd streib|BSC Göppingen,,Bernd Streib
 local:bernd woitanowski|PBC Waghäusel,,Bernd Woitanowski
 local:bernhard block|BSC Mannheim,,Bernhard Block
@@ -1809,6 +1841,7 @@ local:branislav petkovic|PBC Reutlingen,,Branislav Petkovic
 local:branko rackovic|BC Stuttgart,,Branko Rackovic
 local:brian biercher|BSC Waldshut,,Brian Biercher
 local:brian biercher|BSV Tiengen,,Brian Biercher
+local:brigitte uhrig|Mannheimer BF,,Brigitte Uhrig
 local:bruno miletic|BC Dreiländereck,,Bruno Miletic
 local:bülent acar|PBC Bruchsal,,Bülent Acar
 local:bülent güler|BBV Mannheim,,Bülent Güler
@@ -1818,28 +1851,36 @@ local:carlos weber|BV Pforzheim,,Carlos Weber
 local:carmelo visconti|BF Weinheim-Viernheim,,Carmelo Visconti
 local:carmen seifert|BSV Weinheim,,Carmen Seifert
 local:carmen seifert|PBC Fr. Lampertheim,,Carmen Seifert
+local:carsten bauhammer|BC Aalen,,Carsten Bauhammer
+local:carsten bechtle|BV Pforzheim,,Carsten Bechtle
 local:carsten fuchs|BC Sindelfingen,,Carsten Fuchs
+local:carsten fuchs|PBC Aalen,,Carsten Fuchs
 local:carsten isele|P&S Denzlingen,,Carsten Isele
 local:carsten kempf|BF Weinheim-Viernheim,,Carsten Kempf
 local:carsten mellmann|BBV Mannheim,,Carsten Mellmann
 local:catalin damian aufn.: 1; ø: 0.00|unassigned,,Catalin Damian Aufn.: 1; Ø: 0.00
 local:cedric neugebauer|PBC Kirchheim/Teck,,Cedric Neugebauer
 local:celal bulut|BV Markdorf,,Celal Bulut
+local:celal bulut|PBC Ravensburg,,Celal Bulut
 local:celina visconti|BF Weinheim-Viernheim,,Celina Visconti
 local:celina visconti|PBV Schwetzingen,,Celina Visconti
 local:cem sarigül|BF Bruchsal,,Cem Sarigül
 local:cerem karakaplan|BC Ludwigsburg,,Cerem Karakaplan
+local:chao tian|PBC Trossingen,,Chao Tian
 local:charalampos antonogiorgakis|BULL Leonberg-Höfingen,,Charalampos Antonogiorgakis
+local:chiara post|BC Dallau,,Chiara Post
 local:christian betting|BC Dreiländereck,,Christian Betting
 local:christian casagrande|BC Feuersee Ludwigsburg,,Christian Casagrande
 local:christian endres|BULL Leonberg-Höfingen,,Christian Endres
 local:christian erl|PBC Offenburg,,Christian Erl
 local:christian gnamm|BC Weingarten,,Christian Gnamm
+local:christian gnamm|PBC Lindau,,Christian Gnamm
 local:christian gremmelspacher|PBC Sand,,Christian Gremmelspacher
 local:christian götemann|CC Karlsruhe,,Christian Götemann
 local:christian herzenberger|PBC Schwäbisch-Gmünd,,Christian Herzenberger
 local:christian hofmann|PBC Nagoldtal,,Christian Hofmann
 local:christian iliadis|PBC Schwäbisch Gmünd,,Christian Iliadis
+local:christian iliadis|PBC Schwäbisch-Gmünd,,Christian Iliadis
 local:christian joos|BC Dreiländereck,,Christian Joos
 local:christian klein|Poolsharks Bruchsal,,Christian Klein
 local:christian kraut|CC Karlsruhe,,Christian Kraut
@@ -1849,6 +1890,7 @@ local:christian lorenz|BSV Tiengen,,Christian Lorenz
 local:christian orosz|BSV Pfullingen,,Christian Orosz
 local:christian rossa|PF Calw,,Christian Rossa
 local:christian schaber|BC Weingarten,,Christian Schaber
+local:christian schaber|PBC Lindau,,Christian Schaber
 local:christian schmidt|BC Stuttgart,,Christian Schmidt
 local:christian schuler|CC Karlsruhe,,Christian Schuler
 local:christian skadlubowicz|BC Weingarten,,Christian Skadlubowicz
@@ -1861,6 +1903,7 @@ local:christian würthwein|Mannheimer BF,,Christian Würthwein
 local:christina schneider|BC Ludwigsburg,,Christina Schneider
 local:christine gharbi|BC Stuttgart 1891,,Christine Gharbi
 local:christine lachenmann|BC Stuttgart 1891,,Christine Lachenmann
+local:christoph brandt|P&S Denzlingen,,Christoph Brandt
 local:christoph devine|PBC Pfedelbach,,Christoph Devine
 local:christoph günthner|PBC Waldbronn-Karlsbad,,Christoph Günthner
 local:christoph jung|Tübinger BC,,Christoph Jung
@@ -1879,11 +1922,13 @@ local:claudio pontuti|BULL Leonberg-Höfingen,,Claudio Pontuti
 local:cong phan tran|BSV Pfullingen,,Cong Phan Tran
 local:cornelius ryan|Tübinger BC,,Cornelius Ryan
 local:cyrus naimi|BSV Pfullingen,,Cyrus Naimi
+local:cyrus naimi|PBC Reutlingen,,Cyrus Naimi
 local:damir memeyagi|PBC Bad Saulgau,,Damir Memeyagi
 local:damir pran|BC Neckarsulm,,Damir Pran
 local:damir vidovic|PBC Bräunlingen,,Damir Vidovic
 local:dandy kohlhaw|PBC Fr. Lampertheim,,Dandy Kohlhaw
 local:daniel bissinger|PBC Offenburg,,Daniel Bissinger
+local:daniel bissinger|PBC Sand,,Daniel Bissinger
 local:daniel bonin|PBC Schwäbisch Hall,,Daniel Bonin
 local:daniel fisch|Tübinger BC,,Daniel Fisch
 local:daniel fischer|BC Ludwigsburg,,Daniel Fischer
@@ -1915,8 +1960,10 @@ local:daniel schmid|BSV Filderstadt,,Daniel Schmid
 local:daniel schwarz|BC Neckarsulm,,Daniel Schwarz
 local:daniel stohler|BC Dreiländereck,,Daniel Stohler
 local:daniel stohler|BSV Tiengen,,Daniel Stohler
+local:daniel vidackovic|P&S Denzlingen,,Daniel Vidackovic
 local:daniel vidackovic|PBC Offenburg,,Daniel Vidackovic
 local:daniel zmalec|PBC Bietigheim-Bissingen,,Daniel Zmalec
+local:daniela behrend|Mannheimer BF,,Daniela Behrend
 local:daniela benz|BSV Weinheim,,Daniela Benz
 local:daniela majer|BSC Göppingen,,Daniela Majer
 local:danny engelhardt|PBC Pfedelbach,,Danny Engelhardt
@@ -1924,8 +1971,10 @@ local:danny golling|PBC Freudenstadt,,Danny Golling
 local:dany baron|PP Böblingen,,Dany Baron
 local:dany baron|TV Cannstatt,,Dany Baron
 local:darko sattler|PBC Nagoldtal,,Darko Sattler
+local:david knauer|PBC Reutlingen,,David  Knauer
 local:david berkemeyer|BC Feuersee,,David Berkemeyer
 local:david berkemeyer|BC Feuersee Ludwigsburg,,David Berkemeyer
+local:david bürkle|PP Karlsbad,,David Bürkle
 local:david galwas|PBC Freudenstadt,,David Galwas
 local:david geimer|BC Dallau,,David Geimer
 local:david hermann|BSC Göppingen,,David Hermann
@@ -1934,6 +1983,7 @@ local:david party|PBC Offenburg,,David Party
 local:denis avila garcia|BC Neckarsulm,,Denis Avila Garcia
 local:denis burmazovic|PBC Pfedelbach,,Denis Burmazovic
 local:denis dimster|BSV Pfullingen,,Denis Dimster
+local:denis kragolnic|PBC Aalen,,Denis Kragolnic
 local:denis kälbli|BF Bruchsal,,Denis Kälbli
 local:denis maric|BC Sindelfingen,,Denis Maric
 local:denis mnich|BC Sindelfingen,,Denis Mnich
@@ -1947,6 +1997,7 @@ local:desiree humblot|BSC Göppingen,,Desiree Humblot
 local:detlef müller|PBDC Kämpfelbach,,Detlef Müller
 local:detlef ratz|PBDC Kämpfelbach,,Detlef Ratz
 local:diana schäfauer|BC Neckarsulm,,Diana Schäfauer
+local:dieter braun|BC Feuersee,,Dieter Braun
 local:dieter braun|BC Feuersee Ludwigsburg,,Dieter Braun
 local:dieter haberkorn|PBC Bad Saulgau,,Dieter Haberkorn
 local:dieter habiger|BV Pforzheim,,Dieter Habiger
@@ -1956,9 +2007,11 @@ local:dieter ruck|BSF Kurpfalz,,Dieter Ruck
 local:dieter wolk|BF Weinheim-Viernheim,,Dieter Wolk
 local:dietmar horst|CC Karlsruhe,,Dietmar Horst
 local:dietmar karoli|Tübinger BC,,Dietmar Karoli
+local:dietmar lauer|BC Feuersee Ludwigsburg,,Dietmar Lauer
 local:dietmar lauer|PBC Bietigheim-Bissingen,,Dietmar Lauer
 local:dietmar lübke|BSV Filderstadt,,Dietmar Lübke
 local:dietmar lübke|BSV Nürtingen,,Dietmar Lübke
+local:dietmar pitz|PBSC Pforzheim,,Dietmar Pitz
 local:dingyuan (michael) wan|PBV Rottweil,,Dingyuan (Michael) Wan
 local:dirk bauer|BSV Weinheim,,Dirk Bauer
 local:dirk kalinowsky|BSF Kurpfalz,,Dirk Kalinowsky
@@ -1969,6 +2022,7 @@ local:dirk schäfauer|BC Neckarsulm,,Dirk Schäfauer
 local:dirk schäfer|BSV Weinheim,,Dirk Schäfer
 local:dirk sensis|PBC Bad Saulgau,,Dirk Sensis
 local:dirk straka|BC Ludwigsburg,,Dirk Straka
+local:dirk weissgerber|PBC Nagoldtal,,Dirk Weißgerber
 local:dirk windecker|BBV Mannheim,,Dirk Windecker
 local:dixi|Tübinger BC,,Dixi
 local:dominic pfisterer|PBV Schwetzingen,,Dominic Pfisterer
@@ -1977,6 +2031,7 @@ local:dominick madden|BSC Mannheim,,Dominick  Madden
 local:dominik|Tübinger BC,,Dominik
 local:dominik diemer|Poolsharks Bruchsal,,Dominik Diemer
 local:dominik fessner|Poolsharks Bruchsal,,Dominik Fessner
+local:dominik heinkele|BC Dätzingen,,Dominik Heinkele
 local:dominik kant|Tübinger BC,,Dominik Kant
 local:dominik kasper|Fast Breakers Karlsruhe,,Dominik Kasper
 local:dominik kasper|Fastbreakers Karlsruhe,,Dominik Kasper
@@ -1984,7 +2039,6 @@ local:dominik krenzer|BULL Leonberg-Höfingen,,Dominik Krenzer
 local:dominik leibold|CC Karlsruhe,,Dominik Leibold
 local:dominik netzhammer|BSV Tiengen,,Dominik Netzhammer
 local:dominik schilling|PBV Schwetzingen,,Dominik Schilling
-local:dominika|Tübinger BC,,Dominika
 local:donald oreskovic|PBC Bad Saulgau,,Donald Oreskovic
 local:dorothee hammerschmidt|BBV Mannheim,,Dorothee Hammerschmidt
 local:dr. björn brenner|PBC Bad Saulgau,,Dr. Björn Brenner
@@ -1995,6 +2049,7 @@ local:driton sahiti|PP Böblingen,,Driton Sahiti
 local:dudan duong|BC Stuttgart 1891,,Dudan Duong
 local:eberhard sauter|PBC Freudenstadt,,Eberhard Sauter
 local:eckart grabe|BSV Filderstadt,,Eckart Grabe
+local:edgar strobel|PBC Ravensburg,,Edgar Strobel
 local:eduard hartter|Fastbreakers Karlsruhe,,Eduard Hartter
 local:efendi cekerek|BBV Mannheim,,Efendi Cekerek
 local:egon raach|BSG Albstadt,,Egon Raach
@@ -2012,11 +2067,15 @@ local:erich wohllaib|BF Bronnen,,Erich Wohllaib
 local:erkan karakaplan|BC Ludwigsburg,,Erkan Karakaplan
 local:ernst barran|PBC Schwäbisch Gmünd,,Ernst Barran
 local:ernst barran|PBC Schwäbisch-Gmünd,,Ernst Barran
+local:erol inci|PP Böblingen,,Erol Inci
+local:erwin thoma|PBC Biberach,,Erwin Thoma
+local:eugen spähn|PBC Biberach,,Eugen Spähn
 local:eugen spähn|PBC Ochsenhausen,,Eugen Spähn
 local:eugenio sousa blanco|BSV Weinheim,,Eugenio Sousa Blanco
 local:evelin thoma-schuck|BC Weingarten,,Evelin Thoma-Schuck
 local:evi siddi|CC Karlsruhe,,Evi Siddi
 local:ewald hwan krzic|BC Feuersee,,Ewald Hwan Krzic
+local:fabian cecotti|BC Dätzingen,,Fabian Cecotti
 local:fabian danner|BSV Nürtingen,,Fabian Danner
 local:fabian danner|PBC Reutlingen,,Fabian Danner
 local:fabian geiger|PBV Schwetzingen,,Fabian Geiger
@@ -2026,13 +2085,19 @@ local:fabian metz|CC Karlsruhe,,Fabian Metz
 local:fabian müller|BV Markdorf,,Fabian Müller
 local:fabian neglein|BC Weingarten,,Fabian Neglein
 local:fabian neglein|PBC Bad Saulgau,,Fabian Neglein
+local:fabian neglein|PBC Lindau,,Fabian Neglein
 local:fabian rapp|BSV Pfullingen,,Fabian Rapp
 local:fabian snijder|BSV Weinheim,,Fabian Snijder
 local:fabian snijder|Mannheimer BF,,Fabian Snijder
 local:fabian thoma-schuck|BC Weingarten,,Fabian Thoma-Schuck
 local:fabienne weiss|SBSC Denkendorf,,Fabienne Weiß
+local:fabio marcel moreira osorio|PP Böblingen,,Fabio Marcel Moreira Osorio
+local:fabio romano|BC Feuersee Leonberg,,Fabio Romano
 local:fabio romano|BULL Leonberg-Höfingen,,Fabio Romano
 local:fabio sciuto|Fastbreakers Karlsruhe,,Fabio Sciuto
+local:falko sturm|BSV Pfullingen,,Falko Sturm
+local:farhad shahverdi|BSV Pfullingen,,Farhad Shahverdi
+local:faton dzini|BC Sindelfingen,,Faton Dzini
 local:faton dzini|BULL Leonberg-Höfingen,,Faton Dzini
 local:felix fabry|BSV Nürtingen,,Felix Fabry
 local:felix fabry|PBC Reutlingen,,Felix Fabry
@@ -2045,10 +2110,12 @@ local:fikret salic|BBV Mannheim,,Fikret Salic
 local:fikret tasdemir|P&S Denzlingen,,Fikret Tasdemir
 local:fiorenzo de nuzzo|BV Pforzheim,,Fiorenzo De Nuzzo
 local:flamur zeqiraj|PBC Pfedelbach,,Flamur Zeqiraj
+local:florian brugger|PBC Bräunlingen,,Florian Brugger
 local:florian buchwald|BF Bruchsal,,Florian Buchwald
 local:florian bühler|Tübinger BC,,Florian Bühler
 local:florian feil|BSC Göppingen,,Florian Feil
 local:florian fellhauer|PBC Waghäusel,,Florian Fellhauer
+local:florian hammer|Fastbreakers Karlsruhe,,Florian Hammer
 local:florian hayn|BV Villingen-Schwenningen,,Florian Hayn
 local:florian kurzmann|PF Calw,,Florian Kurzmann
 local:florian martin|PBC Bräunlingen,,Florian Martin
@@ -2073,7 +2140,10 @@ local:franco stano|PP Karlsbad,,Franco Stano
 local:franjo antunovic|BBC Plochingen,,Franjo Antunovic
 local:franjo antunovic|SBSC Denkendorf,,Franjo Antunovic
 local:frank|Tübinger BC,,Frank
+local:frank stingl|BSV Pfullingen,,Frank  Stingl
+local:frank amann|BC Stuttgart 1891,,Frank Amann
 local:frank blaser|PBC Waghäusel,,Frank Blaser
+local:frank diedrich|PBC Offenburg,,Frank Diedrich
 local:frank diedrich aufn.: 1; ø: 0.00|unassigned,,Frank Diedrich Aufn.: 1; Ø: 0.00
 local:frank eisele|BSV Filderstadt,,Frank Eisele
 local:frank eisele|PBC Reutlingen,,Frank Eisele
@@ -2086,6 +2156,7 @@ local:frank nitsche|Fastbreakers Karlsruhe,,Frank Nitsche
 local:frank reichert|PBC Freudenstadt,,Frank Reichert
 local:frank rätz|PBC Waghäusel,,Frank Rätz
 local:frank schwenk|BSC Göppingen,,Frank Schwenk
+local:frank sperfeld|PBC Ravensburg,,Frank Sperfeld
 local:frank stöckel|Poolsharks Bruchsal,,Frank Stöckel
 local:frank störzer|PBC Freudenstadt,,Frank Störzer
 local:frank tatarkowski|PBC Offenburg,,Frank Tatarkowski
@@ -2098,6 +2169,7 @@ local:frank weiss|BBC Plochingen,,Frank Weiß
 local:frank weiss|SBSC Denkendorf,,Frank Weiß
 local:frank-bernd wieczorek|BC Dallau,,Frank-Bernd Wieczorek
 local:franz frauenhoffer|PBC Bad Saulgau,,Franz Frauenhoffer
+local:franz hof|BC Sindelfingen,,Franz Hof
 local:franz hof|BULL Leonberg-Höfingen,,Franz Hof
 local:franz meschenmoser|PBC Bad Saulgau,,Franz Meschenmoser
 local:frederic dachs|BSV Filderstadt,,Frederic Dachs
@@ -2118,11 +2190,14 @@ local:freilos|BC Feuersee Ludwigsburg,,Freilos
 local:freilos|BC Ludwigsburg,,Freilos
 local:freilos|BC Neckarsulm,,Freilos
 local:freilos|BC Sindelfingen,,Freilos
+local:freilos|BC Stuttgart,,Freilos
 local:freilos|BC Stuttgart 1891,,Freilos
+local:freilos|BC Unterteuringen,,Freilos
 local:freilos|BC Weingarten,,Freilos
 local:freilos|BF Bronnen,,Freilos
 local:freilos|BF Bruchsal,,Freilos
 local:freilos|BF Weinheim-Viernheim,,Freilos
+local:freilos|BSC FR-Kaiserstuhl,,Freilos
 local:freilos|BSC Göppingen,,Freilos
 local:freilos|BSC Mannheim,,Freilos
 local:freilos|BSC St. Georgen,,Freilos
@@ -2147,16 +2222,20 @@ local:freilos|Fast Breakers Karlsruhe,,Freilos
 local:freilos|Fastbreakers Karlsruhe,,Freilos
 local:freilos|Heidenheimer BC,,Freilos
 local:freilos|Jump Shot Mingolsheim,,Freilos
+local:freilos|Mannheimer BF,,Freilos
 local:freilos|P&S Denzlingen,,Freilos
 local:freilos|PBC Aalen,,Freilos
 local:freilos|PBC Backnang,,Freilos
 local:freilos|PBC Bad Saulgau,,Freilos
+local:freilos|PBC Biberach,,Freilos
 local:freilos|PBC Bietigheim-Bissingen,,Freilos
 local:freilos|PBC Bruchsal,,Freilos
 local:freilos|PBC Bräunlingen,,Freilos
+local:freilos|PBC Bürstadt,,Freilos
 local:freilos|PBC Fr. Lampertheim,,Freilos
 local:freilos|PBC Freudenstadt,,Freilos
 local:freilos|PBC Langenargen,,Freilos
+local:freilos|PBC Lindau,,Freilos
 local:freilos|PBC Nagoldtal,,Freilos
 local:freilos|PBC Ochsenhausen,,Freilos
 local:freilos|PBC Offenburg,,Freilos
@@ -2189,6 +2268,7 @@ local:gabriel correia|PBC Offenburg,,Gabriel Correia
 local:gaetano profeta|BC Neckarsulm,,Gaetano Profeta
 local:garry wong|PBC Schwäbisch Gmünd,,Garry Wong
 local:garry wong|PBC Schwäbisch-Gmünd,,Garry Wong
+local:georg vujovic|BV Villingen-Schwenningen,,Georg Vujovic
 local:georg vujovic|PBC Trossingen,,Georg Vujovic
 local:george reinhart|PBC Kirchheim/Teck,,George Reinhart
 local:georgios lykakis|Heidenheimer BC,,Georgios Lykakis
@@ -2200,6 +2280,7 @@ local:gerald kny|BV Pforzheim,,Gerald Kny
 local:gerald rastetter|Fastbreakers Karlsruhe,,Gerald Rastetter
 local:gerald ströbele|PBC Langenargen,,Gerald Ströbele
 local:gerd hörrmann|PBC Waldbronn-Karlsbad,,Gerd Hörrmann
+local:gerd hörrmann|PBSC Pforzheim,,Gerd Hörrmann
 local:gerd hörrmann|PP Karlsbad,,Gerd Hörrmann
 local:gerhard ehrenfried|BSV Weinheim,,Gerhard Ehrenfried
 local:gerhard gryschka|BV Pforzheim,,Gerhard Gryschka
@@ -2208,8 +2289,11 @@ local:gero fähnle|BSV Filderstadt,,Gero Fähnle
 local:gero fähnle|BSV Nürtingen,,Gero Fähnle
 local:gerold birmili|BC Sindelfingen,,Gerold Birmili
 local:gerold konnerth|BSC Göppingen,,Gerold Konnerth
+local:geronimo weissenberger|BSV Filderstadt,,Geronimo Weißenberger
 local:gerrit heinecke|BV Backnang/Welzheim,,Gerrit Heinecke
+local:gerrit heinecke|PBC Backnang,,Gerrit Heinecke
 local:giridhar chalamcharla|CC Karlsruhe,,Giridhar Chalamcharla
+local:giuseppe curcio|BC Fellbach,,Giuseppe Curcio
 local:giuseppe curcio|BSV Filderstadt,,Giuseppe Curcio
 local:giuseppe curcio|TV Cannstatt,,Giuseppe Curcio
 local:giuseppe dellaquercia|PBC Bietigheim-Bissingen,,Giuseppe Dellaquercia
@@ -2228,16 +2312,20 @@ local:guido ulmer|BSV Pfullingen,,Guido Ulmer
 local:günther bastian|PBC Langenargen,,Günther Bastian
 local:günther deckenbach|SBSC Denkendorf,,Günther Deckenbach
 local:günther götz|BSC St. Georgen,,Günther Götz
+local:günther krämer|PBC Bürstadt,,Günther Krämer
 local:habib karadal|BV Pforzheim,,Habib Karadal
+local:hadies|Tübinger BC,,Hadies
 local:haidar abbass hadi|PBC Schwäbisch-Gmünd,,Haidar  Abbass Hadi
 local:hajredin idrizi|PBC Pfedelbach,,Hajredin Idrizi
 local:hakan toprak|PBC Reutlingen,,Hakan Toprak
 local:hakan yaratici|PBC Bräunlingen,,Hakan Yaratici
 local:hakan öz|PBC Ochsenhausen,,Hakan Öz
 local:halil seker|BA Nürtingen,,Halil Seker
+local:hamza|Tübinger BC,,Hamza
 local:hannes simon|Heidenheimer BC,,Hannes Simon
 local:hanno bernauer|BC Dreiländereck,,Hanno  Bernauer
 local:hanno bröcker|PBV Rottweil,,Hanno Bröcker
+local:hanns-jürgen wick|Waldkircher PBC,,Hanns-Jürgen Wick
 local:hans altenhofen|BSC Göppingen,,Hans Altenhofen
 local:hans heuschmid|BF Bronnen,,Hans Heuschmid
 local:hans rothas|PBC Rastatt,,Hans Rothas
@@ -2251,6 +2339,7 @@ local:hans-peter benzinger|FB Handicap Karlsruhe,,Hans-Peter Benzinger
 local:hans-peter huy|BC Dallau,,Hans-Peter Huy
 local:hansjörg doll|PBC Rastatt,,Hansjörg Doll
 local:harald fleck|PBC Bruchsal,,Harald Fleck
+local:harald hoffert|BC Weingarten,,Harald Hoffert
 local:harald leder|CC Karlsruhe,,Harald Leder
 local:harald preuss|PBC Bad Saulgau,,Harald Preuß
 local:harald schmidt|BC Ludwigsburg,,Harald Schmidt
@@ -2259,6 +2348,7 @@ local:harald thomas|PBC Fr. Lampertheim,,Harald Thomas
 local:harald wagner|BC Crailsheim,,Harald Wagner
 local:harald weiteder|BSV Nürtingen,,Harald Weiteder
 local:hardi engel|BV Markdorf,,Hardi Engel
+local:harry bierwirth|PBC Bräunlingen,,Harry Bierwirth
 local:harry kowalczyk|CC Karlsruhe,,Harry Kowalczyk
 local:harry luxenhofer|BULL Leonberg-Höfingen,,Harry Luxenhofer
 local:hartmut jäggle|PBC Bad Saulgau,,Hartmut Jäggle
@@ -2269,11 +2359,13 @@ local:hasan orman|PBC Trossingen,,Hasan Orman
 local:hasan yildirim|PBC Ochsenhausen,,Hasan Yildirim
 local:hassan najjar|PBC Waghäusel,,Hassan Najjar
 local:hayrettin bozkurt|PP Böblingen,,Hayrettin Bozkurt
+local:hayrettin kurtoglu|BC Aalen,,Hayrettin Kurtoglu
 local:heike salch|PBV Schwetzingen,,Heike Salch
 local:heiko difflipp|PBC Schwäbisch Hall,,Heiko Difflipp
 local:heiko difflipp|PBC Schwäbisch-Hall,,Heiko Difflipp
 local:heiko hoffmann|BSF Kurpfalz,,Heiko Hoffmann
 local:heiko kadel|BSV Weinheim,,Heiko Kadel
+local:heiko müller|PBSC Pforzheim,,Heiko Müller
 local:heiko rawiel|PBV Schwetzingen,,Heiko Rawiel
 local:heiko thomas|BC Feuersee Ludwigsburg,,Heiko Thomas
 local:heinz gold|BSF Kurpfalz,,Heinz Gold
@@ -2289,6 +2381,7 @@ local:henrique barbosa|BSV Pfullingen,,Henrique Barbosa
 local:herbert kieninger|BSC St. Georgen,,Herbert Kieninger
 local:hermann hoyh|BSV Filderstadt,,Hermann Hoyh
 local:hermann krieger|CC Karlsruhe,,Hermann Krieger
+local:hermann krieger|PBC Waldbronn-Karlsbad,,Hermann Krieger
 local:hermann möst|BBV Mannheim,,Hermann Möst
 local:hermann möst|PBV Schwetzingen,,Hermann Möst
 local:hikmet yüksel|BC Dreiländereck,,Hikmet Yüksel
@@ -2306,24 +2399,32 @@ local:horst weber|PBC Bad Saulgau,,Horst Weber
 local:hubert keller|PF Calw,,Hubert Keller
 local:hubert kratschmann|PBC Kirchheim/Teck,,Hubert Kratschmann
 local:hussein|Tübinger BC,,Hussein
+local:huu loc pham|BC Feuersee,,Huu Loc Pham
 local:hüsamettin tunbek|BBV Mannheim,,Hüsamettin Tunbek
 local:ibrahim uzun|BA Nürtingen,,Ibrahim Uzun
+local:ibrahim uzun|BC Aalen,,Ibrahim Uzun
 local:ibrahim uzun|Heidenheimer BC,,Ibrahim Uzun
+local:ibrahim uzun|PBC Aalen,,Ibrahim Uzun
 local:igor koba|PP Böblingen,,Igor Koba
+local:ilona weitze|BSF Kurpfalz,,Ilona Weitze
 local:ingo fehr|BC Unterteuringen,,Ingo Fehr
 local:ingo laule|PBC Trossingen,,Ingo Laule
 local:ingo mann|BC Sindelfingen,,Ingo Mann
 local:ingo nassall|PBC Waldbronn-Karlsbad,,Ingo Nassall
+local:ingo nassall|PBSC Pforzheim,,Ingo Nassall
 local:ingo nassall|PP Karlsbad,,Ingo Nassall
 local:irina killian|BBV Mannheim,,Irina Killian
+local:ismet mehmeti|BC Ludwigsburg,,Ismet Mehmeti
 local:ismet mehmeti|PBC Bietigheim-Bissingen,,Ismet Mehmeti
 local:ivan franz|CC Karlsruhe,,Ivan Franz
 local:ivan galic|BSV Filderstadt,,Ivan Galic
 local:ivan galic|BSV Nürtingen,,Ivan Galic
+local:ivan hodzic|BC Stuttgart,,Ivan Hodzic
 local:ivan hodzic|PP Böblingen,,Ivan Hodzic
 local:ivan mikulic|PBC Waghäusel,,Ivan Mikulic
 local:jaber judeh|BSV Konstanz,,Jaber Judeh
 local:jacco van de streek|P&S Denzlingen,,Jacco van de Streek
+local:jakob belka|BC Ludwigsburg,,Jakob Belka
 local:james atkinson|BC Sindelfingen,,James Atkinson
 local:jan bitsch-bras|BSV Weinheim,,Jan Bitsch-Bras
 local:jan stauber|BSV Pfullingen,,Jan Stauber
@@ -2332,21 +2433,28 @@ local:jan weber|BSG Albstadt,,Jan Weber
 local:jan weber|BSV Filderstadt,,Jan Weber
 local:jan weber|PBC Bad Saulgau,,Jan Weber
 local:janina benzinger|BC Ludwigsburg,,Janina Benzinger
+local:jannik buchstab|PBC Schwäbisch-Gmünd,,Jannik Buchstab
 local:janosch kersten|PBV Schwetzingen,,Janosch Kersten
 local:jaqueline roll|BSV Tiengen,,Jaqueline Roll
 local:jennifer ring|BSC Göppingen,,Jennifer Ring
 local:jennifer zehentner|BV Pforzheim,,Jennifer Zehentner
 local:jens schnaidt|PP Böblingen,,Jens  Schnaidt
+local:jens brachvogel|BSV Konstanz,,Jens Brachvogel
 local:jens butenschön|PBC Langenargen,,Jens Butenschön
+local:jens clemens|PBC Aalen,,Jens Clemens
+local:jens heim|BSF Kurpfalz,,Jens Heim
 local:jens heim aufn.: 26; ø: 0.31|unassigned,,Jens Heim Aufn.: 26; Ø: 0.31
+local:jens jung|BSF Kurpfalz,,Jens Jung
 local:jens krknjak|PBC Nagoldtal,,Jens Krknjak
 local:jens matzel|BSV Weinheim,,Jens Matzel
 local:jens michel|CC Karlsruhe,,Jens Michel
 local:jens pfaff|Fastbreakers Karlsruhe,,Jens Pfaff
+local:jens post|BC Dallau,,Jens Post
 local:jens stintz|BSV Filderstadt,,Jens Stintz
 local:jens stintz|BSV Nürtingen,,Jens Stintz
 local:jens todt|PBC Bietigheim-Bissingen,,Jens Todt
 local:jeremy nauert|CC Karlsruhe,,Jeremy Nauert
+local:jiri götz|PBC Freudenstadt,,Jiri Götz
 local:joachim bruggesser|PBC Bad Saulgau,,Joachim Bruggesser
 local:joachim höllwarth|CC Karlsruhe,,Joachim Höllwarth
 local:joachim lechenbauer|BC Stuttgart 1891,,Joachim Lechenbauer
@@ -2363,7 +2471,9 @@ local:jochen sannwald|BC Stuttgart 1891,,Jochen Sannwald
 local:jochen woywodt|PBC Nagoldtal,,Jochen Woywodt
 local:joel nothstein|BV Villingen-Schwenningen,,Joel Nothstein
 local:johann keppler|BC Dallau,,Johann Keppler
+local:johannes kätel|PBC Freudenstadt,,Johannes Kätel
 local:johannes lange|Tübinger BC,,Johannes Lange
+local:johannes riedl|BC Fellbach,,Johannes Riedl
 local:jonas bohrer|PBC Fr. Lampertheim,,Jonas  Bohrer
 local:jonas entenmann|Tübinger BC,,Jonas Entenmann
 local:jonas kerker|PBC Nagoldtal,,Jonas Kerker
@@ -2375,9 +2485,11 @@ local:joshua armbruster|PBC Freudenstadt,,Joshua Armbruster
 local:juan condello|BC Stuttgart,,Juan Condello
 local:julian koten|BSV Filderstadt,,Julian Koten
 local:julian tremmel|BSV Konstanz,,Julian Tremmel
+local:julian trumpp|BSV Filderstadt,,Julian Trumpp
 local:jutta klaussner|CC Karlsruhe,,Jutta Klaussner
 local:jutta ute kreimes|BF Bruchsal,,Jutta Ute Kreimes
 local:jörg brenner|BC Breakers Knittlingen,,Jörg Brenner
+local:jörg claassen|BC Dätzingen,,Jörg Claassen
 local:jörg hechler|BSG Albstadt,,Jörg Hechler
 local:jörg heinze|PBC Bruchsal,,Jörg Heinze
 local:jörg hennze|BSV Weinheim,,Jörg Hennze
@@ -2396,12 +2508,14 @@ local:jürgen hodrius|Tübinger BC,,Jürgen Hodrius
 local:jürgen häfner|BSV Filderstadt,,Jürgen Häfner
 local:jürgen klatt|BC Feuersee Ludwigsburg,,Jürgen Klatt
 local:jürgen lummer|PBC Schwäbisch-Hall,,Jürgen Lummer
+local:jürgen maier|PBC Lindau,,Jürgen Maier
 local:jürgen müller|Jump Shot Mingolsheim,,Jürgen Müller
 local:jürgen reisner|BC Aalen,,Jürgen Reisner
 local:jürgen schroff|Jump Shot Mingolsheim,,Jürgen Schroff
 local:jürgen schroff|PBC Bruchsal,,Jürgen Schroff
 local:jürgen steimer|BBC Plochingen,,Jürgen Steimer
 local:jürgen steimer|SBSC Denkendorf,,Jürgen Steimer
+local:jürgen weber|Mannheimer BF,,Jürgen Weber
 local:jürgen wilke|BSC Göppingen,,Jürgen Wilke
 local:jürgen wurster|Heidenheimer BC,,Jürgen Wurster
 local:kadir özkök|CC Karlsruhe,,Kadir Özkök
@@ -2424,6 +2538,7 @@ local:kevin baumgartner|Poolsharks Bruchsal,,Kevin Baumgartner
 local:kevin bergwitz|BBV Mannheim,,Kevin Bergwitz
 local:kevin fassa|BC Dallau,,Kevin Fassa
 local:kevin künstler|BSC Göppingen,,Kevin Künstler
+local:kevin schiller|PBV Rottweil,,Kevin Schiller
 local:kevin wetzel|BC Dallau,,Kevin Wetzel
 local:kevin wiedensohler|PBC Bräunlingen,,Kevin Wiedensohler
 local:klaus dietrich|BV Markdorf,,Klaus Dietrich
@@ -2441,20 +2556,26 @@ local:klaus zobrekis|PBC Bad Saulgau,,Klaus Zobrekis
 local:konrad bau|Tübinger BC,,Konrad Bau
 local:konstantin egle|BSV Filderstadt,,Konstantin Egle
 local:konstantin egle|PBC Ochsenhausen,,Konstantin Egle
+local:konstantin miric|BC Ludwigsburg,,Konstantin Miric
 local:konstantin sawal|PP Böblingen,,Konstantin Sawal
 local:krischan dostal|BV Markdorf,,Krischan Dostal
 local:kristian kolthoff|PBC Nagoldtal,,Kristian Kolthoff
 local:kristian kolthoff|PBV Schwetzingen,,Kristian Kolthoff
 local:kristijan drljo|BBC Plochingen,,Kristijan Drljo
 local:kristijan drljo|SBSC Denkendorf,,Kristijan Drljo
+local:károly kis|PBC Bad Saulgau,,Károly Kis
+local:károly kiss|PBC Bad Saulgau,,Károly Kiss
 local:köksal albayrak|BC Dallau,,Köksal Albayrak
+local:lambert morbitzer|BC Stuttgart 1891,,Lambert Morbitzer
 local:lars woggan|BSV Filderstadt,,Lars Woggan
 local:lars woggan|BSV Nürtingen,,Lars Woggan
 local:lennart vietzke|BSV Weinheim,,Lennart Vietzke
 local:leonhard dietzel|TV Cannstatt,,Leonhard Dietzel
 local:lionel heit|PBC Offenburg,,Lionel Heit
 local:lisa knost|BSF Kurpfalz,,Lisa Knost
+local:lisa knost|Poolsharks Bruchsal,,Lisa Knost
 local:long werner|PBC Waldbronn-Karlsbad,,Long Werner
+local:lothar enzenhöfer|PBC Biberach,,Lothar Enzenhöfer
 local:lothar ring|PBC Ochsenhausen,,Lothar Ring
 local:lothar schwarz|BSC St. Georgen,,Lothar Schwarz
 local:louis hahn|BC Weingarten,,Louis Hahn
@@ -2465,12 +2586,14 @@ local:luciano abruzzese|BC Weingarten,,Luciano Abruzzese
 local:luciano abruzzese|BV Markdorf,,Luciano Abruzzese
 local:ludwig sandrik|PBV Rottweil,,Ludwig Sandrik
 local:luigi sabia|BV Markdorf,,Luigi Sabia
+local:luigi sabia|PBC Bad Saulgau,,Luigi Sabia
 local:luigi sarullo|PBC Waldbronn-Karlsbad,,Luigi Sarullo
 local:luigi sarullo|PBDC Kämpfelbach,,Luigi Sarullo
 local:luis beilicke|Poolsharks Bruchsal,,Luis Beilicke
 local:luis varon marques|TV Cannstatt,,Luis Varon Marques
 local:luka antic aufn.: 20; ø: 0.45|unassigned,,Luka Antic Aufn.: 20; Ø: 0.45
 local:luka galic|BSV Filderstadt,,Luka Galic
+local:lukas bulling|PBC Aalen,,Lukas Bulling
 local:lukas jäckel|PBV Rottweil,,Lukas Jäckel
 local:lutz brian|BC Dallau,,Lutz Brian
 local:lutz denk|BBC Plochingen,,Lutz Denk
@@ -2478,6 +2601,7 @@ local:lutz denk|SBSC Denkendorf,,Lutz Denk
 local:lutz iserhardt|PBC Fr. Lampertheim,,Lutz Iserhardt
 local:lutz jeschke|BC Weingarten,,Lutz Jeschke
 local:lutz metzner|BV Markdorf,,Lutz Metzner
+local:lynn kohl|PBC Sand,,Lynn Kohl
 local:machmut turan|PP Böblingen,,Machmut Turan
 local:manfred hess|BC Sindelfingen,,Manfred Hess
 local:manfred hess|BSV Nürtingen,,Manfred Hess
@@ -2493,21 +2617,29 @@ local:manuel aschenbrenner|BC Weingarten,,Manuel Aschenbrenner
 local:manuel aschenbrenner|PBC Bad Saulgau,,Manuel Aschenbrenner
 local:manuel böhm|BC Dallau,,Manuel Böhm
 local:manuel klappstein|Fast Breakers Karlsruhe,,Manuel Klappstein
+local:manuel klappstein|P&S Denzlingen,,Manuel Klappstein
 local:manuel klappstein|PBC Rastatt,,Manuel Klappstein
 local:manuel kreiter|BV Markdorf,,Manuel Kreiter
 local:manuel kreuz|PBSC Pforzheim,,Manuel Kreuz
 local:manuel kreuz|PP Karlsbad,,Manuel Kreuz
 local:manuel kunze|BC Dreiländereck,,Manuel Kunze
+local:manuel lackner|BC Aalen,,Manuel Lackner
 local:manuel letzel|BBV Mannheim,,Manuel Letzel
+local:manuel nissel|PBC Waghäusel,,Manuel Nissel
 local:manuel thamm|BV Pforzheim,,Manuel Thamm
 local:manuel westermann|P&S Denzlingen,,Manuel Westermann
 local:manuela schmid|BF Bronnen,,Manuela Schmid
+local:marc bardelang|PBC Bürstadt,,Marc Bardelang
+local:marc fuchs|BSV Filderstadt,,Marc Fuchs
+local:marc kölling|PBV Schwetzingen,,Marc Kölling
 local:marc proissl|BSV Weinheim,,Marc Proissl
 local:marc wegenast|BC Weingarten,,Marc Wegenast
 local:marc-andre barisch|TV Cannstatt,,Marc-Andre Barisch
 local:marcel bailey|BSF Kurpfalz,,Marcel Bailey
 local:marcel biegler|BSV Pfullingen,,Marcel Biegler
+local:marcel brademann|BBV Mannheim,,Marcel Brademann
 local:marcel drischel|PF Calw,,Marcel Drischel
+local:marcel drischel|PP Karlsbad,,Marcel Drischel
 local:marcel roden|CC Karlsruhe,,Marcel Roden
 local:marcel rossow|BBV Mannheim,,Marcel Rossow
 local:marcel rossow|PBV Schwetzingen,,Marcel Rossow
@@ -2519,8 +2651,10 @@ local:marco di martino|BBV Mannheim,,Marco Di Martino
 local:marco giusa|PBC Bietigheim-Bissingen,,Marco Giusa
 local:marco huber|BC Breakers Knittlingen,,Marco Huber
 local:marco huber|BV Pforzheim,,Marco Huber
+local:marco iacubino|PBC Bürstadt,,Marco Iacubino
 local:marco klotzer|BSV Filderstadt,,Marco Klotzer
 local:marco lang|Fastbreakers Karlsruhe,,Marco Lang
+local:marco paletta|Waldkircher PBC,,Marco Paletta
 local:marco poggiolini|BC Dreiländereck,,Marco Poggiolini
 local:marco post|BC Dallau,,Marco Post
 local:marco roll|BF Weinheim-Viernheim,,Marco Roll
@@ -2534,8 +2668,10 @@ local:marco zieger|PBC Waghäusel,,Marco Zieger
 local:marcus deuchler|PBC Waldbronn-Karlsbad,,Marcus  Deuchler
 local:marcus colmelet|Fastbreakers Karlsruhe,,Marcus Colmelet
 local:marcus erbe|BC Sindelfingen,,Marcus Erbe
+local:marcus hochstadt|PBV Schwetzingen,,Marcus Hochstadt
 local:marcus krakowsky|PBC Trossingen,,Marcus Krakowsky
 local:marcus reber|BULL Leonberg-Höfingen,,Marcus Reber
+local:marcus stephan|PBSC Pforzheim,,Marcus Stephan
 local:marcus trumpp|BSV Pfullingen,,Marcus Trumpp
 local:marcus vonderstrass|P&S Denzlingen,,Marcus Vonderstraß
 local:marcus wittner|FB Handicap Karlsruhe,,Marcus Wittner
@@ -2543,6 +2679,7 @@ local:marcus wolf|PBC Bräunlingen,,Marcus Wolf
 local:marek adam|PBC Waghäusel,,Marek Adam
 local:mario bauch|Fastbreakers Karlsruhe,,Mario Bauch
 local:mario becker|BBV Mannheim,,Mario Becker
+local:mario greiner|PBC Rastatt,,Mario Greiner
 local:mario janssen|BC Ludwigsburg,,Mario Janssen
 local:mario janssen|BC Stuttgart,,Mario Janssen
 local:mario kaiser|BSC St. Georgen,,Mario Kaiser
@@ -2552,6 +2689,7 @@ local:mario rosenkranz|PBC Bräunlingen,,Mario Rosenkranz
 local:marius sutor|PBC Offenburg,,Marius Sutor
 local:marius thomanek|BC Sindelfingen,,Marius Thomanek
 local:marius-daniel grigore-martini|BSV Pfullingen,,Marius-Daniel Grigore-Martini
+local:mariusz laszkowski|BBV Mannheim,,Mariusz Laszkowski
 local:mark epple|PF Calw,,Mark Epple
 local:mark hast|Tübinger BC,,Mark Hast
 local:mark hug|Heidenheimer BC,,Mark Hug
@@ -2559,6 +2697,7 @@ local:mark simon|PBC Nagoldtal,,Mark Simon
 local:marko andrasic|BSC St. Georgen,,Marko Andrasic
 local:marko stapel|BV Villingen-Schwenningen,,Marko Stapel
 local:markus appenowitz|BSV Filderstadt,,Markus Appenowitz
+local:markus bott|BC Stuttgart,,Markus Bott
 local:markus gessinger|PBC Bietigheim-Bissingen,,Markus Geßinger
 local:markus hardtke|BC Aalen,,Markus Hardtke
 local:markus jentsch|PBC Schwäbisch Gmünd,,Markus Jentsch
@@ -2570,9 +2709,11 @@ local:markus könig|PBC Bad Saulgau,,Markus König
 local:markus merz|BSF Kurpfalz,,Markus Merz
 local:markus pfaff|BF Bruchsal,,Markus Pfaff
 local:markus rütten|BC Dreiländereck,,Markus Rütten
+local:markus rütten|BSV Tiengen,,Markus Rütten
 local:markus rütten|P&S Denzlingen,,Markus Rütten
 local:markus schneider|BV Pforzheim,,Markus Schneider
 local:markus schulz|BC Dallau,,Markus Schulz
+local:markus schwenke|PBC Aalen,,Markus Schwenke
 local:markus stehle|BV Villingen-Schwenningen,,Markus Stehle
 local:markus strauss|PBC Bad Saulgau,,Markus Strauß
 local:markus werner|Heidenheimer BC,,Markus Werner
@@ -2592,11 +2733,13 @@ local:martin korbar|PBC Schwäbisch Hall,,Martin Korbar
 local:martin korbar|PBC Schwäbisch-Hall,,Martin Korbar
 local:martin kögel|PBC Rastatt,,Martin Kögel
 local:martin repp|BC Sindelfingen,,Martin Repp
+local:martin schwab|PBC Bad Saulgau,,Martin Schwab
 local:martin stachowitz|PBC Bräunlingen,,Martin Stachowitz
 local:martin stegmann|BSC Göppingen,,Martin Stegmann
 local:martin trippel|PBC Langenargen,,Martin Trippel
 local:martin weber|Bühler SBC,,Martin Weber
 local:martin wistuba|BSV Pfullingen,,Martin Wistuba
+local:marvin diedrich|PBC Offenburg,,Marvin Diedrich
 local:marvin gierden|PBV Schwetzingen,,Marvin Gierden
 local:marvin gärtner|PBC Aalen,,Marvin Gärtner
 local:marvin kucharz|PBC Aalen,,Marvin Kucharz
@@ -2607,10 +2750,14 @@ local:mathias frey|P&S Denzlingen,,Mathias Frey
 local:mathias fritsche|BSG Albstadt,,Mathias Fritsche
 local:mathias hartner|Heidenheimer BC,,Mathias Hartner
 local:mathias hornbach|P&S Denzlingen,,Mathias Hornbach
+local:mathias hornbach|Waldkircher PBC,,Mathias Hornbach
+local:mathias kaiser|BC Fellbach,,Mathias Kaiser
 local:mathias klaus|P&S Denzlingen,,Mathias Klaus
 local:mathias laskus|PBV Rottweil,,Mathias Laskus
 local:mathias schweissing|Fastbreakers Karlsruhe,,Mathias Schweissing
+local:matthias matko|BSC Waldshut,,Matthias  Matko
 local:matthias ade|BSV Filderstadt,,Matthias Ade
+local:matthias ade|BSV Nürtingen,,Matthias Ade
 local:matthias blech|PBV Schwetzingen,,Matthias Blech
 local:matthias frank|PBC Schwäbisch Gmünd,,Matthias Frank
 local:matthias frank|PBC Schwäbisch-Gmünd,,Matthias Frank
@@ -2627,6 +2774,7 @@ local:max berghoff|BSV Pfullingen,,Max Berghoff
 local:max löhle|PBC Bad Saulgau,,Max Löhle
 local:max schmidtke|BSC Göppingen,,Max Schmidtke
 local:maxim buchstab|PBC Schwäbisch Gmünd,,Maxim Buchstab
+local:maxim buchstab|PBC Schwäbisch-Gmünd,,Maxim Buchstab
 local:maxime martin|PBC Offenburg,,Maxime Martin
 local:maximilian emig|BSV Konstanz,,Maximilian Emig
 local:maximilian haug|BV Villingen-Schwenningen,,Maximilian Haug
@@ -2644,6 +2792,7 @@ local:melanie reger|PBC Bräunlingen,,Melanie Reger
 local:mena kelada|BSV Konstanz,,Mena Kelada
 local:mergim zekaj|PBC Pfedelbach,,Mergim Zekaj
 local:mete mutlu|PBC Freudenstadt,,Mete Mutlu
+local:micha haussmann|BC Fellbach,,Micha Haußmann
 local:michael bauer|PBV Rottweil,,Michael Bauer
 local:michael betz|PBC Waghäusel,,Michael Betz
 local:michael boike|BC Ludwigsburg,,Michael Boike
@@ -2669,6 +2818,8 @@ local:michael keuker|BF Weinheim-Viernheim,,Michael Keuker
 local:michael killian|BBV Mannheim,,Michael Killian
 local:michael kling|PBC Waldbronn-Karlsbad,,Michael Kling
 local:michael kohl|PBV Schwetzingen,,Michael Kohl
+local:michael kunz|BSV Konstanz,,Michael Kunz
+local:michael könig|PBV Rottweil,,Michael König
 local:michael lauble|PBC Bräunlingen,,Michael Lauble
 local:michael leupolz|BC Weingarten,,Michael Leupolz
 local:michael martini|BSV Pfullingen,,Michael Martini
@@ -2680,26 +2831,35 @@ local:michael psarras|BC Dreiländereck,,Michael Psarras
 local:michael reich|BC Sindelfingen,,Michael Reich
 local:michael reichert|PBC Freudenstadt,,Michael Reichert
 local:michael reiser|PF Calw,,Michael Reiser
+local:michael riker|BC Fellbach,,Michael Riker
+local:michael roth|BV Pforzheim,,Michael Roth
+local:michael scharf|BC Aalen,,Michael Scharf
 local:michael schneider|PBC Waldbronn-Karlsbad,,Michael Schneider
 local:michael schneider|PBSC Pforzheim,,Michael Schneider
 local:michael schneider|PP Karlsbad,,Michael Schneider
 local:michael schreiner|BSV Filderstadt,,Michael Schreiner
 local:michael schulz|BSV Konstanz,,Michael Schulz
+local:michael schwarzjirg|BC Stuttgart 1891,,Michael Schwarzjirg
+local:michael sdrzallek|BSV Filderstadt,,Michael Sdrzallek
 local:michael single|Tübinger BC,,Michael Single
+local:michael stegmaier|BSV Nürtingen,,Michael Stegmaier
 local:michael steinmüller|BSV Weinheim,,Michael Steinmüller
 local:michael straub|PBV Schwetzingen,,Michael Straub
 local:michael strenski|PBC Bruchsal,,Michael Strenski
 local:michael strohmaier|BSV Tiengen,,Michael Strohmaier
+local:michael thelen|BC Stuttgart,,Michael Thelen
 local:michael thelen|BC Stuttgart 1891,,Michael Thelen
 local:michael ufrecht|BC Breakers Knittlingen,,Michael Ufrecht
 local:michael wahl|BSV Pfullingen,,Michael Wahl
 local:michael wanjek|PBC Waghäusel,,Michael Wanjek
 local:michael welchner|SBSC Denkendorf,,Michael Welchner
+local:michael weretelnik|Poolsharks Bruchsal,,Michael Weretelnik
 local:michael würz|BC Dallau,,Michael Würz
 local:michaela hug-erhardt|Heidenheimer BC,,Michaela Hug-Erhardt
 local:michaeli karipidis|BC Neckarsulm,,Michaeli Karipidis
 local:michaeli karipidis|PBC Pfedelbach,,Michaeli Karipidis
 local:michal radwan|BULL Leonberg-Höfingen,,Michal Radwan
+local:michel murcia|Tübinger BC,,Michel Murcia
 local:michelangelo laurano|PBC Bad Saulgau,,Michelangelo Laurano
 local:michele riccardo colamonaco|Fastbreakers Karlsruhe,,Michele Riccardo Colamonaco
 local:mike belke|PBC Sand,,Mike Belke
@@ -2717,6 +2877,7 @@ local:mladen milicevic|PBC Offenburg,,Mladen Milicevic
 local:mohsen abbas-kashi|PBV Schwetzingen,,Mohsen Abbas-Kashi
 local:moritz berchtold|PBC Kirchheim/Teck,,Moritz Berchtold
 local:moritz körber|BC Sindelfingen,,Moritz Körber
+local:moritz rinke|PBC Biberach,,Moritz Rinke
 local:moritz rutkowski|PBC Rastatt,,Moritz Rutkowski
 local:murat deniz|BC Dallau,,Murat Deniz
 local:murat kocin|BC Neckarsulm,,Murat Kocin
@@ -2730,11 +2891,14 @@ local:mustafa özyürük|PBC Aalen,,Mustafa Özyürük
 local:muzaffer günay|BC Aalen,,Muzaffer Günay
 local:münir aydogan|BBV Mannheim,,Münir Aydogan
 local:mürsel inci|PP Böblingen,,Mürsel  Inci
+local:nadja ade|BSV Nürtingen,,Nadja Ade
 local:nathalie rohmer|PBC Offenburg,,Nathalie Rohmer
 local:necmi kolbasar|PBC Bietigheim-Bissingen,,Necmi Kolbasar
 local:necmi kolbasar|PBSC Pforzheim,,Necmi Kolbasar
+local:nedeljko asentic|PBC Ravensburg,,Nedeljko Asentic
 local:nemanja gligoric|PBC Kirchheim/Teck,,Nemanja Gligoric
 local:nenad malinovic|PBC Trossingen,,Nenad Malinovic
+local:nerdi|Tübinger BC,,Nerdi
 local:nic woywodt|PBC Nagoldtal,,Nic Woywodt
 local:nico gehring|BF Bronnen,,Nico Gehring
 local:nico stein|BSV Filderstadt,,Nico Stein
@@ -2744,7 +2908,9 @@ local:nicolai duśek|BSV Konstanz,,Nicolai Duśek
 local:nicolas bernhardt|PBC Fr. Lampertheim,,Nicolas Bernhardt
 local:nicolas kalb|PBC Offenburg,,Nicolas Kalb
 local:nicolas markel|PBC Bietigheim-Bissingen,,Nicolas Markel
+local:nicolas mayer|PBC Waghäusel,,Nicolas Mayer
 local:nicole hummel|BSC St. Georgen,,Nicole Hummel
+local:nicole hummel|PBC Bräunlingen,,Nicole Hummel
 local:nicole riedl|BC Fellbach,,Nicole Riedl
 local:niklas vogel|BULL Leonberg-Höfingen,,Niklas Vogel
 local:nikola kremer|Poolsharks Bruchsal,,Nikola Kremer
@@ -2764,24 +2930,31 @@ local:norbert rollbühler|PBC Schwäbisch-Hall,,Norbert Rollbühler
 local:norbert scheinpflug|BSV Tiengen,,Norbert Scheinpflug
 local:norman hopson|FB Handicap Karlsruhe,,Norman Hopson
 local:norman rink|BC Dallau,,Norman Rink
+local:norman wagner|PBC Bad Saulgau,,Norman Wagner
+local:norman wagner|PBC Ravensburg,,Norman Wagner
 local:nuhid serifovic|BULL Leonberg-Höfingen,,Nuhid Serifovic
 local:nuhid serifovic|TV Cannstatt,,Nuhid Serifovic
 local:nuno brenner miguel|PBV Schwetzingen,,Nuno Brenner Miguel
+local:nurcan ezdi|PBC Aalen,,Nurcan Ezdi
 local:oezer bulunmaz|PBC Waldbronn-Karlsbad,,Oezer Bulunmaz
 local:oezer bulunmaz|PP Karlsbad,,Oezer Bulunmaz
 local:oktay aydinoglu|BV Backnang/Welzheim,,Oktay Aydinoglu
+local:oktay aydinoglu|PBC Backnang,,Oktay Aydinoglu
 local:olaf arnold|BC Weingarten,,Olaf Arnold
 local:olaf drischel|PF Calw,,Olaf Drischel
+local:olaf drischel|PP Karlsbad,,Olaf Drischel
 local:olaf schwarz|BC Sindelfingen,,Olaf Schwarz
 local:olcay zabun|BC Dallau,,Olcay Zabun
 local:oliver fechter|PBC Bad Saulgau,,Oliver Fechter
 local:oliver geuder|BSV Weinheim,,Oliver Geuder
 local:oliver grimm|PBC Freudenstadt,,Oliver Grimm
+local:oliver hirthe|BSV Nürtingen,,Oliver Hirthe
 local:oliver jörger|PBC Offenburg,,Oliver Jörger
 local:oliver kandula|PBC Schwäbisch Hall,,Oliver Kandula
 local:oliver kandula|PBC Schwäbisch-Hall,,Oliver Kandula
 local:oliver kother|PBC Bruchsal,,Oliver Kother
 local:oliver krieger|PBC Aalen,,Oliver Krieger
+local:oliver kummle|Tübinger BC,,Oliver Kummle
 local:oliver schmalz|Poolsharks Bruchsal,,Oliver Schmalz
 local:oliver schwertschlager|BC Stuttgart 1891,,Oliver Schwertschlager
 local:oliver süss|PBC Bruchsal,,Oliver Süß
@@ -2796,6 +2969,7 @@ local:ottmar auzinger|PBC Ochsenhausen,,Ottmar Auzinger
 local:ovidiu jompan|BSC Göppingen,,Ovidiu Jompan
 local:pascal arnold|BSV Weinheim,,Pascal  Arnold
 local:pascal alix|PBC Offenburg,,Pascal Alix
+local:pascal cecotti|BC Dätzingen,,Pascal Cecotti
 local:pascal habiger|BV Pforzheim,,Pascal Habiger
 local:pascal nissel|PBC Waghäusel,,Pascal Nissel
 local:pascal ranzmann|CC Karlsruhe,,Pascal Ranzmann
@@ -2806,14 +2980,18 @@ local:patrick bolduan|BC Weingarten,,Patrick Bolduan
 local:patrick haag|BC Stuttgart 1891,,Patrick Haag
 local:patrick haudek|PBV Rottweil,,Patrick Haudek
 local:patrick koch|PBC Trossingen,,Patrick Koch
+local:patrick kühn|PBSC Pforzheim,,Patrick Kühn
 local:patrick lauinger|Fast Breakers Karlsruhe,,Patrick Lauinger
 local:patrick lauinger|Fastbreakers Karlsruhe,,Patrick Lauinger
 local:patrick lauinger|PBC Rastatt,,Patrick Lauinger
 local:patrick mungiuri|BV Pforzheim,,Patrick Mungiuri
 local:patrick regan|Jump Shot Mingolsheim,,Patrick Regan
+local:patrick salber|BF Weinheim-Viernheim,,Patrick Salber
 local:patrick schuhmacher|PBV Schwetzingen,,Patrick Schuhmacher
 local:patrick steimer|PBV Rottweil,,Patrick Steimer
+local:patrick weishaar|PBSC Pforzheim,,Patrick Weishaar
 local:patrik meyer|PBC Offenburg,,Patrik Meyer
+local:paul emmott|PBC Fr. Lampertheim,,Paul  Emmott
 local:pavlos korezelidis|BBC Plochingen,,Pavlos Korezelidis
 local:pedro lazaro|PBC Waldbronn-Karlsbad,,Pedro Lazaro
 local:pedro lazaro|PBSC Pforzheim,,Pedro Lazaro
@@ -2823,6 +3001,7 @@ local:peter baur|BSG Albstadt,,Peter Baur
 local:peter brehm|BC Fellbach,,Peter Brehm
 local:peter dörfler|PBSV Südbaden,,Peter Dörfler
 local:peter gemeinhardt|CC Karlsruhe,,Peter Gemeinhardt
+local:peter gerhards|PBC Waghäusel,,Peter Gerhards
 local:peter gerhards|PBV Schwetzingen,,Peter Gerhards
 local:peter holstein|PBC Fr. Lampertheim,,Peter Holstein
 local:peter jankowsky|BBV Mannheim,,Peter Jankowsky
@@ -2830,6 +3009,7 @@ local:peter jürgens|BULL Leonberg-Höfingen,,Peter Jürgens
 local:peter kleinhans|PBC Langenargen,,Peter Kleinhans
 local:peter link|TV Cannstatt,,Peter Link
 local:peter lotterer|PBC Reutlingen,,Peter Lotterer
+local:peter marschhäuser|Tübinger BC,,Peter Marschhäuser
 local:peter polzer|Jump Shot Mingolsheim,,Peter Polzer
 local:peter puff|PBC Waghäusel,,Peter Puff
 local:peter restle|BSV Pfullingen,,Peter Restle
@@ -2842,20 +3022,28 @@ local:peter tulner|BSC Mannheim,,Peter Tulner
 local:peter vosseler|PBC Ochsenhausen,,Peter Vosseler
 local:petra braun|BC Ludwigsburg,,Petra Braun
 local:petra sannwald|BC Ludwigsburg,,Petra Sannwald
+local:phil merz|BC Stuttgart,,Phil Merz
 local:philip krätzer|BSV Filderstadt,,Philip Krätzer
 local:philip smarczny|BC Sindelfingen,,Philip Smarczny
 local:philipp griegel|PBC Kirchheim/Teck,,Philipp Griegel
 local:philipp kau|BSV Nürtingen,,Philipp Kau
+local:philipp kibele|BC Fellbach,,Philipp Kibele
+local:philipp lisenko|BSC FR-Kaiserstuhl,,Philipp Lisenko
 local:philipp lisenko|P&S Denzlingen,,Philipp Lisenko
 local:philipp maier|BSC Waldshut,,Philipp Maier
+local:philipp vosseler|PBC Biberach,,Philipp Vosseler
 local:philipp zundl|PBSV Südbaden,,Philipp Zundl
+local:philippe brand|BSC FR-Kaiserstuhl,,Philippe Brand
+local:philippe brand|P&S Denzlingen,,Philippe Brand
 local:phillip rosenkranz|PBC Bräunlingen,,Phillip Rosenkranz
+local:pia uhlig|BV Pforzheim,,Pia Uhlig
 local:pietro calo|BC Weingarten,,Pietro Calo
 local:pietro calo|BV Markdorf,,Pietro Calo
 local:priska schiera|PBC Bruchsal,,Priska Schiera
 local:qayssar al saedi|BSV Konstanz,,Qayssar Al Saedi
 local:quang gan hoang|BBV Mannheim,,Quang Gan Hoang
 local:rachid bouchareb|PBC Offenburg,,Rachid Bouchareb
+local:raed jaafar|PP Böblingen,,Raed Jaafar
 local:rafael schombierski|PBC Pfedelbach,,Rafael Schombierski
 local:raffaele manobianco|BULL Leonberg-Höfingen,,Raffaele Manobianco
 local:raffaelo federico|PBDC Kämpfelbach,,Raffaelo Federico
@@ -2867,6 +3055,7 @@ local:rainer habelt|TV Cannstatt,,Rainer Habelt
 local:rainer heilmann|BSC Waldshut,,Rainer Heilmann
 local:rainer heilmann|BSV Tiengen,,Rainer Heilmann
 local:rainer hermann|BSC Göppingen,,Rainer Hermann
+local:rainer hermann|BV Villingen-Schwenningen,,Rainer Hermann
 local:rainer hops|PBC Bad Saulgau,,Rainer Hops
 local:rainer häfele|BSV Nürtingen,,Rainer Häfele
 local:rainer kenzler|BULL Leonberg-Höfingen,,Rainer Kenzler
@@ -2876,6 +3065,7 @@ local:rainer schaaf|PBC Kirchheim/Teck,,Rainer Schaaf
 local:rainer schönfeld|PBC Reutlingen,,Rainer Schönfeld
 local:rainer seemann|PBC Schwäbisch Hall,,Rainer Seemann
 local:rainer seemann|PBC Schwäbisch-Hall,,Rainer Seemann
+local:rainer vogt|PBC Aalen,,Rainer Vogt
 local:raitis ivanovs|BC Dallau,,Raitis Ivanovs
 local:ralf annamaier|PBC Schwäbisch Gmünd,,Ralf Annamaier
 local:ralf bachert|PBC Bietigheim-Bissingen,,Ralf Bachert
@@ -2896,27 +3086,35 @@ local:ralf nimtz|BSC Mannheim,,Ralf Nimtz
 local:ralf rabold|PBC Waldbronn-Karlsbad,,Ralf Rabold
 local:ralf rabold|PP Karlsbad,,Ralf Rabold
 local:ralf schmitt|BF Weinheim-Viernheim,,Ralf Schmitt
+local:ralf schwarz|PBC Trossingen,,Ralf Schwarz
 local:ralph fritz|PBC Waghäusel,,Ralph Fritz
+local:ralph hortel|BSF Kurpfalz,,Ralph Hortel
+local:ralph klar|BC Weingarten,,Ralph Klar
 local:ralph stegmüller|BC Feuersee Ludwigsburg,,Ralph Stegmüller
 local:ramazan akdag|BV Pforzheim,,Ramazan Akdag
 local:randi ramzi ya´da|BSV Pfullingen,,Randi Ramzi ya´da
 local:raoul-robert ronto|PBC Rastatt,,Raoul-Robert Ronto
 local:raphael titzmann|BSV Filderstadt,,Raphael Titzmann
+local:raphael titzmann|BSV Nürtingen,,Raphael Titzmann
 local:rasul ghanavat|PBC Reutlingen,,Rasul Ghanavat
 local:reinhold bayer|BC Ludwigsburg,,Reinhold Bayer
 local:reinhold waldraff|PBC Bad Saulgau,,Reinhold Waldraff
+local:rene breyer|PBC Bad Saulgau,,Rene Breyer
 local:rene geier|Fast Breakers Karlsruhe,,Rene Geier
 local:rene geier|Fastbreakers Karlsruhe,,Rene Geier
 local:rene geier|PBC Rastatt,,Rene Geier
+local:rene geier|PBSC Pforzheim,,Rene Geier
 local:rene scheffel|BSV Weinheim,,Rene Scheffel
 local:rene weiss|PBC Bruchsal,,Rene Weiß
 local:rené wieczorek|BC Dallau,,René Wieczorek
+local:ricardo gutjahr|BULL Leonberg-Höfingen,,Ricardo Gutjahr
 local:riccardo heinen|PBV Schwetzingen,,Riccardo Heinen
 local:richard cornely|PBV Schwetzingen,,Richard Cornely
 local:richard gromann|PBC Bräunlingen,,Richard Gromann
 local:richard hartmann|PBC Sand,,Richard Hartmann
 local:richard rössler|Fast Breakers Karlsruhe,,Richard Rößler
 local:richard rössler|Fastbreakers Karlsruhe,,Richard Rößler
+local:richard rössler|PBC Waldbronn-Karlsbad,,Richard Rößler
 local:richard rössler|PP Karlsbad,,Richard Rößler
 local:richard uhlig|PBV Schwetzingen,,Richard Uhlig
 local:richy hartmann|PBC Sand,,Richy Hartmann
@@ -2926,26 +3124,34 @@ local:robert karaica|BC Aalen,,Robert Karaica
 local:robert karaica|Heidenheimer BC,,Robert Karaica
 local:robert klinec|BSV Weinheim,,Robert Klinec
 local:robert schwarz|BC Stuttgart,,Robert Schwarz
+local:robert schwarz|BC Stuttgart 1891,,Robert Schwarz
 local:robert stehr|PBC Bad Saulgau,,Robert Stehr
 local:robert zivanovic|BBC Plochingen,,Robert Zivanovic
 local:robert zivanovic|SBSC Denkendorf,,Robert Zivanovic
 local:roberto d`elia|BC Unterteuringen,,Roberto D`Elia
 local:roberto masala|Heidenheimer BC,,Roberto Masala
+local:robin auer|PBV Schwetzingen,,Robin  Auer
 local:robin eisele|BSV Tiengen,,Robin Eisele
 local:robin kemter|Jump Shot Mingolsheim,,Robin Kemter
+local:robin sachsse|BV Villingen-Schwenningen,,Robin Sachsse
 local:roland lindauer|PBC Waldbronn-Karlsbad,,Roland  Lindauer
 local:roland frei|BV Villingen-Schwenningen,,Roland Frei
+local:roland frenzel|BSV Nürtingen,,Roland Frenzel
 local:roland knecht|BF Bruchsal,,Roland Knecht
+local:roland koblofsky|BC Feuersee Ludwigsburg,,Roland Koblofsky
 local:roland lindauer|PP Karlsbad,,Roland Lindauer
 local:roland menrath|BF Bruchsal,,Roland Menrath
 local:roland möbus|CC Karlsruhe,,Roland Möbus
 local:roland sauter|PBC Bräunlingen,,Roland Sauter
 local:roland scheinpflug|BSV Tiengen,,Roland Scheinpflug
+local:roland stögbauer|PBC Bad Saulgau,,Roland Stögbauer
 local:roland wacker|PBC Reutlingen,,Roland Wacker
 local:rolf alex|CC Karlsruhe,,Rolf Alex
 local:rolf berkowitz|PBC Freudenstadt,,Rolf Berkowitz
 local:rolf mangelsdorf|BSV Tiengen,,Rolf Mangelsdorf
 local:rolf waible|PBC Waldbronn-Karlsbad,,Rolf Waible
+local:roman urbanski|BSV Konstanz,,Roman  Urbanski
+local:roman holzhause|PBC Sand,,Roman Holzhause
 local:roman holzhauser|PBC Sand,,Roman Holzhauser
 local:romina kobelt|BSV Nürtingen,,Romina Kobelt
 local:ronald blöchle|PBC Freudenstadt,,Ronald Blöchle
@@ -2953,6 +3159,7 @@ local:ronny bräse|BSV Pfullingen,,Ronny Bräse
 local:ronny frank|BSC Waldshut,,Ronny Frank
 local:ronny frank|BSV Tiengen,,Ronny Frank
 local:rouven elischer|BC Neckarsulm,,Rouven Elischer
+local:roy martin|BC Feuersee Leonberg,,Roy Martin
 local:roy martin|BULL Leonberg-Höfingen,,Roy Martin
 local:ruben frick|PBV Rottweil,,Ruben Frick
 local:ruben winkler|PBC Schwäbisch Hall,,Ruben Winkler
@@ -2964,12 +3171,14 @@ local:rudolf weiss|PBC Bad Saulgau,,Rudolf Weiß
 local:rüdiger albrecht|BC Sindelfingen,,Rüdiger Albrecht
 local:rüdiger theis|PBC Reutlingen,,Rüdiger Theis
 local:rüdiger theis|Tübinger BC,,Rüdiger Theis
+local:rüstem turhan|BSV Pfullingen,,Rüstem Turhan
 local:sabine günter|BC Weingarten,,Sabine Günter
 local:sabine hort|BC Breakers Knittlingen,,Sabine Hort
 local:sabine hort|BV Pforzheim,,Sabine Hort
 local:saeid heydarpour|BC Feuersee Ludwigsburg,,Saeid Heydarpour
 local:salvatore badalucco|PBV Rottweil,,Salvatore Badalucco
 local:salvatore noto|PBC Waldbronn-Karlsbad,,Salvatore Noto
+local:salvatore noto|PBSC Pforzheim,,Salvatore Noto
 local:salvatore noto|PP Karlsbad,,Salvatore Noto
 local:sam wetzel|BC Weingarten,,Sam Wetzel
 local:saman hadi|PF Calw,,Saman Hadi
@@ -2984,14 +3193,18 @@ local:sascha nyffeler|PBC Bad Saulgau,,Sascha Nyffeler
 local:sascha pick|BBV Mannheim,,Sascha Pick
 local:sascha sasic|BSV Pfullingen,,Sascha Sasic
 local:sascha sauer|BSV Filderstadt,,Sascha Sauer
+local:sascha schmidt|BBV Mannheim,,Sascha Schmidt
 local:sascha vollmer|BSC Göppingen,,Sascha Vollmer
 local:sascha werle|BC Breakers Knittlingen,,Sascha Werle
 local:sascha werle|PBC Rastatt,,Sascha Werle
 local:saskia essig|BULL Leonberg-Höfingen,,Saskia Essig
+local:saturnino vergura|BC Fellbach,,Saturnino Vergura
 local:savas hopff|PF Calw,,Savas Hopff
+local:savvas kourpanidis|BC Ludwigsburg,,Savvas Kourpanidis
 local:sean hermann|BSC Göppingen,,Sean Hermann
 local:sebastian albrecht|BC Neckarsulm,,Sebastian Albrecht
 local:sebastian bartsch|PBC Langenargen,,Sebastian Bartsch
+local:sebastian czaja|BSV Nürtingen,,Sebastian Czaja
 local:sebastian denuell|BC Feuersee Leonberg,,Sebastian Denuell
 local:sebastian gähler|BSV Konstanz,,Sebastian Gähler
 local:sebastian oswald|BSV Pfullingen,,Sebastian Oswald
@@ -3011,22 +3224,33 @@ local:sergej schmidt|BC Neckarsulm,,Sergej Schmidt
 local:serhat karakaplan|BC Ludwigsburg,,Serhat Karakaplan
 local:serkan candir|BSV Filderstadt,,Serkan Candir
 local:siegfried dietl|PBC Langenargen,,Siegfried Dietl
+local:siegfried heinrich|BSV Nürtingen,,Siegfried Heinrich
+local:siegfried stöhr|PBC Trossingen,,Siegfried Stöhr
 local:silvestar smokovic|BSC Göppingen,,Silvestar Smokovic
 local:silvio fadda|BV Markdorf,,Silvio Fadda
 local:silvio massow|BSV Tiengen,,Silvio Massow
+local:silvio massow|PBC Reutlingen,,Silvio Massow
 local:silvio massow|Tübinger BC,,Silvio Massow
+local:simon lekse|PBC Aalen,,Simon  Lekse
 local:simon conrad|BSG Albstadt,,Simon Conrad
 local:simon dupper|BV Villingen-Schwenningen,,Simon Dupper
 local:simon kaincz|BSV Nürtingen,,Simon Kaincz
+local:simon kaincz|PBC Reutlingen,,Simon Kaincz
 local:simon kemmerling|PBC Bräunlingen,,Simon Kemmerling
 local:simon pietro lombardo|Heidenheimer BC,,Simon Pietro Lombardo
+local:simon schaal|BC Sindelfingen,,Simon Schaal
 local:simon theodoropoulos|Tübinger BC,,Simon Theodoropoulos
 local:simon wiedemann|CC Karlsruhe,,Simon Wiedemann
+local:simone ganss|BF Weinheim-Viernheim,,Simone Ganß
+local:simone künzl|BC Aalen,,Simone Künzl
 local:sinan aydogan|BBV Mannheim,,Sinan Aydogan
+local:soltan kelemen|BSF Kurpfalz,,Soltan Kelemen
 local:soner öz|PP Böblingen,,Soner  Öz
 local:soner ulucanli|PBV Rottweil,,Soner Ulucanli
 local:sonny weber|BBV Mannheim,,Sonny Weber
 local:soydan cetin|PBC Ochsenhausen,,Soydan Cetin
+local:stanislaw kretz|BV Pforzheim,,Stanislaw Kretz
+local:stefan bross|PBSC Pforzheim,,Stefan  Bross
 local:stefan barth|FB Handicap Karlsruhe,,Stefan Barth
 local:stefan burmeister|PBC Nagoldtal,,Stefan Burmeister
 local:stefan bätzler|Bühler SBC,,Stefan Bätzler
@@ -3034,6 +3258,8 @@ local:stefan bätzler|Jump Shot Mingolsheim,,Stefan Bätzler
 local:stefan duttlinger|BSV Tiengen,,Stefan Duttlinger
 local:stefan gaschler|BC Dallau,,Stefan Gaschler
 local:stefan gebauer|PBC Ochsenhausen,,Stefan Gebauer
+local:stefan gehrls|PBC Aalen,,Stefan Gehrls
+local:stefan hartnegg|PBC Bad Saulgau,,Stefan Hartnegg
 local:stefan herms|PBC Bräunlingen,,Stefan Herms
 local:stefan herzer|PBC Schwäbisch Gmünd,,Stefan Herzer
 local:stefan herzer|PBC Schwäbisch-Gmünd,,Stefan Herzer
@@ -3042,6 +3268,7 @@ local:stefan krüger|PBC Schwäbisch Hall,,Stefan Krüger
 local:stefan krüger|PBC Schwäbisch-Hall,,Stefan Krüger
 local:stefan kuhn|BC Dreiländereck,,Stefan Kuhn
 local:stefan kuhn|BSV Tiengen,,Stefan Kuhn
+local:stefan künzl|BC Aalen,,Stefan Künzl
 local:stefan künzl|TV Cannstatt,,Stefan Künzl
 local:stefan neuberger|BC Neckarsulm,,Stefan Neuberger
 local:stefan neuss|BF Bronnen,,Stefan Neuß
@@ -3051,13 +3278,17 @@ local:stefan vater|PBC Freudenstadt,,Stefan Vater
 local:stefan walloch|BC Aalen,,Stefan Walloch
 local:stefan weiner|BV Villingen-Schwenningen,,Stefan Weiner
 local:stefan weiner|PBC Trossingen,,Stefan Weiner
+local:stefanie arndt|BA Nürtingen,,Stefanie Arndt
+local:stefanie arndt|BSV Filderstadt,,Stefanie Arndt
 local:stefanie arndt|BSV Tiengen,,Stefanie Arndt
 local:steffen adler|BF Weinheim-Viernheim,,Steffen Adler
 local:steffen adler|BSV Weinheim,,Steffen Adler
+local:steffen auer|BSV Konstanz,,Steffen Auer
 local:steffen auer|PBC Bad Saulgau,,Steffen Auer
 local:steffen behnke|BC Ludwigsburg,,Steffen Behnke
 local:steffen feuerbacher|PBC Freudenstadt,,Steffen Feuerbacher
 local:steffen graf|BV Villingen-Schwenningen,,Steffen Graf
+local:steffen gross|PBC Bad Saulgau,,Steffen Gross
 local:steffen hoffmann|BF Bruchsal,,Steffen Hoffmann
 local:steffen joos|BSV Tiengen,,Steffen Joos
 local:steffen mämecke|BSC Mannheim,,Steffen Mämecke
@@ -3067,9 +3298,13 @@ local:steffen röschinger|BBC Plochingen,,Steffen Röschinger
 local:steffen röschinger|SBSC Denkendorf,,Steffen Röschinger
 local:steffen säubert|PBC Waghäusel,,Steffen Säubert
 local:steffen wanner|PBC Trossingen,,Steffen Wanner
+local:steffen welsch|PBSC Pforzheim,,Steffen Welsch
+local:stellan aakerlund|PBV Schwetzingen,,Stellan Aakerlund
+local:stephan boschert|BSF Kurpfalz,,Stephan Boschert
 local:stephan huber|BSV Konstanz,,Stephan Huber
 local:stephan huber|CC Karlsruhe,,Stephan Huber
 local:stephan mahler|PBC Aalen,,Stephan Mahler
+local:stephan maier|BC Aalen,,Stephan Maier
 local:stephan maier|TV Cannstatt,,Stephan Maier
 local:stephan moser|BV Villingen-Schwenningen,,Stephan Moser
 local:stephan nimführ|PBC Schwäbisch Gmünd,,Stephan Nimführ
@@ -3086,9 +3321,13 @@ local:suayip karadeniz|BC Stuttgart,,Suayip Karadeniz
 local:suna brunnemer|Jump Shot Mingolsheim,,Suna Brunnemer
 local:suphi yalman|BV Villingen-Schwenningen,,Suphi Yalman
 local:susi harbrecht-berndt|BULL Leonberg-Höfingen,,Susi Harbrecht-Berndt
+local:sven ammann|Tübinger BC,,Sven Ammann
+local:sven bindrich|BC Stuttgart,,Sven Bindrich
 local:sven deschner|BV Villingen-Schwenningen,,Sven Deschner
+local:sven deschner|PBV Rottweil,,Sven Deschner
 local:sven erbrecht|Fast Breakers Karlsruhe,,Sven Erbrecht
 local:sven erbrecht|Fastbreakers Karlsruhe,,Sven Erbrecht
+local:sven fluske|BF Weinheim-Viernheim,,Sven Fluske
 local:sven fluske|BSV Weinheim,,Sven Fluske
 local:sven gehrisch|PBC Fr. Lampertheim,,Sven Gehrisch
 local:sven götz|PBC Fr. Lampertheim,,Sven Götz
@@ -3107,29 +3346,39 @@ local:szidónia székely|Jump Shot Mingolsheim,,Szidónia Székely
 local:süleyman altinyaldiz|BC Dallau,,Süleyman Altinyaldiz
 local:tahsin kirli|PBC Aalen,,Tahsin Kirli
 local:tamara drischel|PP Karlsbad,,Tamara Drischel
+local:taner susuz|PBC Aalen,,Taner Susuz
 local:tanja mader|BSV Nürtingen,,Tanja Mader
 local:tankred volkmer|BV Backnang/Welzheim,,Tankred Volkmer
+local:tankred volkmer|PBC Backnang,,Tankred Volkmer
 local:tasos tsolakidis|Heidenheimer BC,,Tasos Tsolakidis
+local:tayfun teber|BBV Mannheim,,Tayfun Teber
 local:tayfun teber|PBV Schwetzingen,,Tayfun Teber
 local:the trung duong|Heidenheimer BC,,The Trung Duong
 local:thierry kalb|PBC Offenburg,,Thierry Kalb
 local:thilo muff|BBC Plochingen,,Thilo Muff
 local:thilo scherbacher|BSV Pfullingen,,Thilo Scherbacher
+local:thilo scherbacher|PBC Reutlingen,,Thilo Scherbacher
 local:thimo hugger|PBC Waldbronn-Karlsbad,,Thimo Hugger
 local:thimo hugger|PP Karlsbad,,Thimo Hugger
 local:thomas haas|BSC Göppingen,,Thomas  Haas
+local:thomas brehme|BSF Kurpfalz,,Thomas Brehme
 local:thomas buchstab|PBC Schwäbisch Gmünd,,Thomas Buchstab
+local:thomas buchstab|PBC Schwäbisch-Gmünd,,Thomas Buchstab
 local:thomas butscher|PBC Bad Saulgau,,Thomas Butscher
 local:thomas dieckmann|Tübinger BC,,Thomas Dieckmann
+local:thomas doussos|PBC Trossingen,,Thomas Doussos
+local:thomas doussos|PBV Rottweil,,Thomas Doussos
 local:thomas drey|BF Bronnen,,Thomas Drey
 local:thomas durst|BC Stuttgart 1891,,Thomas Durst
 local:thomas dürr|PBC Nagoldtal,,Thomas Dürr
 local:thomas eichberg|BC Crailsheim,,Thomas Eichberg
 local:thomas enge|PBC Reutlingen,,Thomas Enge
+local:thomas engels|PBC Ravensburg,,Thomas Engels
 local:thomas gäckle|PF Calw,,Thomas Gäckle
 local:thomas handler|BC Ludwigsburg,,Thomas Handler
 local:thomas haug|BV Villingen-Schwenningen,,Thomas Haug
 local:thomas haug|PBC Trossingen,,Thomas Haug
+local:thomas havertz|PBC Bad Saulgau,,Thomas Havertz
 local:thomas helmling|BSV Weinheim,,Thomas Helmling
 local:thomas hetzel|PBC Sand,,Thomas Hetzel
 local:thomas hodrius|PBC Reutlingen,,Thomas Hodrius
@@ -3137,8 +3386,10 @@ local:thomas hodrius|Tübinger BC,,Thomas Hodrius
 local:thomas höger|TV Cannstatt,,Thomas Höger
 local:thomas hörauf|BC Feuersee Ludwigsburg,,Thomas Hörauf
 local:thomas kammerer|BBV Mannheim,,Thomas Kammerer
+local:thomas kielmann|PBC Bürstadt,,Thomas Kielmann
 local:thomas kielmann|PBC Fr. Lampertheim,,Thomas Kielmann
 local:thomas kramhöller|BC Neckarsulm,,Thomas Kramhöller
+local:thomas kramhöller|BC Stuttgart 1891,,Thomas Kramhöller
 local:thomas kramhöller|PBC Bietigheim-Bissingen,,Thomas Kramhöller
 local:thomas kraus|PBC Bad Saulgau,,Thomas Kraus
 local:thomas krämer|BF Weinheim-Viernheim,,Thomas Krämer
@@ -3154,19 +3405,26 @@ local:thomas mänz|BSV Filderstadt,,Thomas Mänz
 local:thomas mänz|BSV Nürtingen,,Thomas Mänz
 local:thomas müller|PBC Fr. Lampertheim,,Thomas Müller
 local:thomas neumann|PBC Waghäusel,,Thomas Neumann
+local:thomas pielczyk|PBSC Pforzheim,,Thomas Pielczyk
+local:thomas probst|PBC Biberach,,Thomas Probst
 local:thomas russow|BF Weinheim-Viernheim,,Thomas Russow
+local:thomas schnurr|P&S Denzlingen,,Thomas Schnurr
 local:thomas schnurr|PBC Offenburg,,Thomas Schnurr
 local:thomas schubert|BC Stuttgart,,Thomas Schubert
+local:thomas schubert|BC Stuttgart 1891,,Thomas Schubert
 local:thomas schöpfer|Tübinger BC,,Thomas Schöpfer
 local:thomas sommer|PBV Schwetzingen,,Thomas Sommer
 local:thomas stoll|BC Sindelfingen,,Thomas Stoll
 local:thomas stoll|BSV Nürtingen,,Thomas Stoll
 local:thomas teufel|PBC Offenburg,,Thomas Teufel
+local:thomas ulms|CC Karlsruhe,,Thomas Ulms
 "local:thomas vincenzo ""enzo"" campo|PBC Waldbronn-Karlsbad",,"Thomas Vincenzo ""Enzo"" Campo"
 "local:thomas vincenzo ""enzo"" campo|PP Karlsbad",,"Thomas Vincenzo ""Enzo"" Campo"
 local:thomas weniger|BSC Waldshut,,Thomas Weniger
 local:thomas wilczek|BV Backnang/Welzheim,,Thomas Wilczek
+local:thomas wilczek|PBC Backnang,,Thomas Wilczek
 local:thorsten bruder|BC Neckarsulm,,Thorsten Bruder
+local:thorsten filipzik|BBC Plochingen,,Thorsten Filipzik
 local:thorsten goetzke|Bühler SBC,,Thorsten Goetzke
 local:thorsten günther|Poolsharks Bruchsal,,Thorsten Günther
 local:thorsten kartes|PBC Fr. Lampertheim,,Thorsten Kartes
@@ -3174,8 +3432,10 @@ local:thorsten kupske|BC Feuersee Ludwigsburg,,Thorsten Kupske
 local:thorsten mohr|BSV Konstanz,,Thorsten Mohr
 local:thorsten roth|PBV Schwetzingen,,Thorsten Roth
 local:thorsten schmieder|Bühler SBC,,Thorsten Schmieder
+local:thorsten treckmann|BC Fellbach,,Thorsten Treckmann
 local:thorsten vohl|BSV Filderstadt,,Thorsten Vohl
 local:tihomir miljevic|BC Stuttgart,,Tihomir Miljevic
+local:tihomir miljevic|PBC Aalen,,Tihomir Miljevic
 local:tilman beck|BC Crailsheim,,Tilman Beck
 local:tim beilicke|Poolsharks Bruchsal,,Tim Beilicke
 local:tim farrenkopf|BC Dallau,,Tim Farrenkopf
@@ -3188,14 +3448,19 @@ local:timo rebstock|BV Villingen-Schwenningen,,Timo Rebstock
 local:timo reinert|PBC Fr. Lampertheim,,Timo Reinert
 local:timo sillner|BC Stuttgart 1891,,Timo Sillner
 local:timo weis|BC Dreiländereck,,Timo Weis
+local:timon sixt|BC Fellbach,,Timon Sixt
 local:timur susuz|PBC Aalen,,Timur Susuz
 local:tina|unassigned,,Tina
 local:tina vogelmann|BC Stuttgart,,Tina Vogelmann
+local:tina vogelmann|BC Stuttgart 1891,,Tina Vogelmann
 local:tina vogelmann|BULL Leonberg-Höfingen,,Tina Vogelmann
+local:tobias schulz|PBC Aalen,,Tobias  Schulz
 local:tobias auer|BC Ludwigsburg,,Tobias Auer
 local:tobias bayer|P&S Denzlingen,,Tobias Bayer
+local:tobias bayer|Waldkircher PBC,,Tobias Bayer
 local:tobias hirt|BSG Albstadt,,Tobias Hirt
 local:tobias hirt|PBC Bad Saulgau,,Tobias Hirt
+local:tobias hoppe|BSV Nürtingen,,Tobias Hoppe
 local:tobias kessler|PBSC Pforzheim,,Tobias Kessler
 local:tobias kessler|PP Karlsbad,,Tobias Kessler
 local:tobias krieger|PBC Aalen,,Tobias Krieger
@@ -3206,7 +3471,9 @@ local:tobias reiling|PBDC Kämpfelbach,,Tobias Reiling
 local:tobias reisner|BC Aalen,,Tobias Reisner
 local:tobias schneider|BF Bronnen,,Tobias Schneider
 local:tobias stengele|PF Calw,,Tobias Stengele
+local:tobias thoma|BSV Konstanz,,Tobias Thoma
 local:tobias walz|PBC Nagoldtal,,Tobias Walz
+local:tobias welti|PBC Freudenstadt,,Tobias Welti
 local:tobias wetzel|BC Dallau,,Tobias Wetzel
 local:tobias wähler|BV Pforzheim,,Tobias Wähler
 local:tobias zimmermann|BC Feuersee Ludwigsburg,,Tobias Zimmermann
@@ -3214,6 +3481,7 @@ local:tom mischner|BC Weingarten,,Tom Mischner
 local:tom wacker|PBC Waldbronn-Karlsbad,,Tom Wacker
 local:tom wacker|PP Karlsbad,,Tom Wacker
 local:toni grieco|PBC Bräunlingen,,Toni Grieco
+local:toni grieco|PBC Trossingen,,Toni Grieco
 local:torsten herold|BSV Filderstadt,,Torsten Herold
 local:torsten kaufmann|Tübinger BC,,Torsten Kaufmann
 local:tuncay turna|PBC Schwäbisch-Gmünd,,Tuncay  Turna
@@ -3230,24 +3498,36 @@ local:umut akinci|PBC Bad Saulgau,,Umut Akinci
 local:ute kiefer|CC Karlsruhe,,Ute Kiefer
 local:uwe|Tübinger BC,,Uwe
 local:uwe binder|Heidenheimer BC,,Uwe Binder
+local:uwe bitsch|Mannheimer BF,,Uwe Bitsch
 local:uwe bitsch|PBC Fr. Lampertheim,,Uwe Bitsch
+local:uwe bosch|BC Unterteuringen,,Uwe Bosch
+local:uwe cordes|PBC Nagoldtal,,Uwe Cordes
 local:uwe cordes|Tübinger BC,,Uwe Cordes
 local:uwe drawert|BSV Pfullingen,,Uwe Drawert
 local:uwe lang|BC Dreiländereck,,Uwe Lang
+local:uwe lang|BSC FR-Kaiserstuhl,,Uwe Lang
 local:uwe lang|P&S Denzlingen,,Uwe Lang
 local:uwe lang|PBC Offenburg,,Uwe Lang
+local:uwe lauppe|PBC Sand,,Uwe Lauppe
 local:uwe machalett|PBC Freudenstadt,,Uwe Machalett
 local:uwe mann|PBC Rastatt,,Uwe Mann
+local:uwe mörth|PBC Offenburg,,Uwe Mörth
+local:uwe schiffner|PBC Schwäbisch Gmünd,,Uwe Schiffner
+local:uwe schmidt|Poolsharks Bruchsal,,Uwe Schmidt
 local:uwe schmidtbauer|BC Neckarsulm,,Uwe Schmidtbauer
 local:valentin marten|BC Neckarsulm,,Valentin Marten
+local:valentin thum|Tübinger BC,,Valentin Thum
 local:vanessa terzic|BF Bruchsal,,Vanessa Terzic
 local:vedran rako|BULL Leonberg-Höfingen,,Vedran Rako
 local:vedran rako|TV Cannstatt,,Vedran Rako
 local:veljko andrasic|BSC St. Georgen,,Veljko Andrasic
 local:viktor könig|BF Weinheim-Viernheim,,Viktor König
 local:vincent enderlin|PBC Offenburg,,Vincent Enderlin
+local:vincenzo campo|PBC Waldbronn-Karlsbad,,Vincenzo Campo
 local:vincenzo murano|BSC Göppingen,,Vincenzo Murano
 local:vjekoslav mikulic|Heidenheimer BC,,Vjekoslav Mikulic
+local:vladimir rovic|BSV Filderstadt,,Vladimir Rovic
+local:vladislav hebel|BSC FR-Kaiserstuhl,,Vladislav Hebel
 local:vladislav hebel|P&S Denzlingen,,Vladislav Hebel
 local:volker auer|PBC Bad Saulgau,,Volker Auer
 local:volker debus|BC Feuersee Leonberg,,Volker Debus
@@ -3270,32 +3550,41 @@ local:winfried netzer|PBC Ochsenhausen,,Winfried Netzer
 local:witalij brendel|BC Crailsheim,,Witalij Brendel
 local:witold kabacinski|PBC Waghäusel,,Witold Kabacinski
 local:woldai wagner|BSV Konstanz,,Woldai Wagner
+local:wolfgang birner|PBSC Pforzheim,,Wolfgang Birner
 local:wolfgang duffner|BSC St. Georgen,,Wolfgang Duffner
 local:wolfgang engelhardt|PBV Schwetzingen,,Wolfgang Engelhardt
 local:wolfgang flöter|BF Bronnen,,Wolfgang Flöter
 local:wolfgang frei|BV Villingen-Schwenningen,,Wolfgang Frei
 local:wolfgang heiler|Poolsharks Bruchsal,,Wolfgang Heiler
+local:wolfgang hundshammer|BC Stuttgart 1891,,Wolfgang Hundshammer
+local:wolfgang maier|BSV Filderstadt,,Wolfgang Maier
 local:wolfgang schmidt|BSV Nürtingen,,Wolfgang Schmidt
 local:wolfgang schmidt|PBC Reutlingen,,Wolfgang Schmidt
 local:wolfgang siethoff|PBC Waldbronn-Karlsbad,,Wolfgang Siethoff
+local:wolfgang siethoff|PF Calw,,Wolfgang Siethoff
 local:wolfgang siethoff|PP Karlsbad,,Wolfgang Siethoff
 local:wolfgang steidle|BC Aalen,,Wolfgang Steidle
 local:wolfgang stimmer|PBC Ochsenhausen,,Wolfgang Stimmer
 local:xanthos vlassidis|BC Weingarten,,Xanthos Vlassidis
+local:xanthos vlassidis|PBC Lindau,,Xanthos Vlassidis
 local:xhemajil ibrahimi|PBC Freudenstadt,,Xhemajil Ibrahimi
 local:yang yu|PBC Reutlingen,,Yang Yu
 local:yannick droste|BSC Mannheim,,Yannick Droste
 local:yannick redl|PBC Rastatt,,Yannick Redl
 local:yasar mak|BV Backnang/Welzheim,,Yasar Mak
+local:yasar mak|PBC Backnang,,Yasar Mak
 local:yavuz güleryüz|P&S Denzlingen,,Yavuz Güleryüz
 local:yunus ayvaz|PF Calw,,Yunus Ayvaz
 local:yunus gürbüz|BV Villingen-Schwenningen,,Yunus Gürbüz
 local:yves hamacher|CC Karlsruhe,,Yves Hamacher
 local:zehrudin vereget|PBV Schwetzingen,,Zehrudin Vereget
+local:zejko zoric|BSC FR-Kaiserstuhl,,Zejko Zoric
 local:zejko zoric|P&S Denzlingen,,Zejko Zoric
 local:zeki parlak|PBC Aalen,,Zeki Parlak
+local:zeljko burmazovic|BC Fellbach,,Zeljko Burmazovic
 local:zeljko burmazovic|PBC Pfedelbach,,Zeljko Burmazovic
 local:zeljko stefanac|BSV Filderstadt,,Zeljko Stefanac
+local:zeljko stefanac|BSV Nürtingen,,Zeljko Stefanac
 local:zeynel benk|PBC Bietigheim-Bissingen,,Zeynel Benk
 local:zlatko martinovic|TV Cannstatt,,Zlatko Martinovic
 local:zlatko rosin|BC Aalen,,Zlatko Rosin

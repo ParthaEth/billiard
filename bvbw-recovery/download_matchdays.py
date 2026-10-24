@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import json
 import os
+import random
 import re
 import ssl
 import threading
@@ -18,7 +19,16 @@ OUT = Path(__file__).parent / "recovered" / "matchdays"
 OUT.mkdir(parents=True, exist_ok=True)
 CTX = ssl.create_default_context()
 lock = threading.Lock()
+# One Wayback request at a time. A short fixed pause was enough for the
+# archive to drop matchdays; the gap below is random and much wider.
+ARCHIVE_MIN_WAIT = 4.0
+ARCHIVE_MAX_WAIT = 9.0
+_REQUEST_LOCK = threading.Lock()
 stats = {"ok": 0, "fail": 0, "skip": 0}
+
+
+def archive_pause(lo: float = ARCHIVE_MIN_WAIT, hi: float = ARCHIVE_MAX_WAIT) -> None:
+    time.sleep(random.uniform(lo, hi))
 
 
 def load_best() -> dict[str, list]:
@@ -50,18 +60,19 @@ def fetch_one(mid: str, row: list) -> None:
         return
     url = f"https://web.archive.org/web/{row[0]}id_/{row[1]}"
     for attempt in range(5):
-        try:
-            req = urllib.request.Request(url, headers={"User-Agent": "bvbw-recovery/1.0"})
-            with urllib.request.urlopen(req, timeout=90, context=CTX) as resp:
-                data = resp.read()
-            if len(data) > 500 and b"Spielergebnisse" in data:
-                dest.write_bytes(data)
-                with lock:
-                    stats["ok"] += 1
-                time.sleep(0.8)
-                return
-        except Exception:
-            time.sleep(3 * (attempt + 1))
+        with _REQUEST_LOCK:
+            archive_pause()
+            try:
+                req = urllib.request.Request(url, headers={"User-Agent": "bvbw-recovery/1.0"})
+                with urllib.request.urlopen(req, timeout=90, context=CTX) as resp:
+                    data = resp.read()
+                if len(data) > 500 and b"Spielergebnisse" in data:
+                    dest.write_bytes(data)
+                    with lock:
+                        stats["ok"] += 1
+                    return
+            except Exception:
+                archive_pause(12.0 * (attempt + 1), 24.0 * (attempt + 1))
     with lock:
         stats["fail"] += 1
 
@@ -74,8 +85,12 @@ def main() -> None:
         if not ((OUT / f"{mid}.html").exists() and (OUT / f"{mid}.html").stat().st_size > 500)
     ]
     todo.sort(key=lambda item: -int(item[0]))
-    workers = int(os.environ.get("WORKERS", "3"))
-    print(f"to download {len(todo)} / {len(best)}  workers={workers}", flush=True)
+    workers = int(os.environ.get("WORKERS", "1"))
+    print(
+        f"to download {len(todo)} / {len(best)}  workers={workers}  "
+        f"pause {ARCHIVE_MIN_WAIT:.0f}–{ARCHIVE_MAX_WAIT:.0f}s",
+        flush=True,
+    )
     with ThreadPoolExecutor(max_workers=workers) as pool:
         futures = [pool.submit(fetch_one, mid, row) for mid, row in todo]
         done = 0

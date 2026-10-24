@@ -4,6 +4,7 @@ __pycache__/
 .chrome-profile/
 *.png
 data/identity_cache/
-data/sanwald_cache/
+data/tournamentapp_cache/
 data/tbc_alex_elo.csv
 data/tbc_fargo.csv
+*.html

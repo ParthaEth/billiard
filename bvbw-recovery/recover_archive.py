@@ -9,8 +9,10 @@ from __future__ import annotations
 import argparse
 import csv
 import json
+import random
 import re
 import ssl
+import threading
 import time
 import urllib.error
 import urllib.request
@@ -29,6 +31,11 @@ PLANS = RECOVERED / "plans"
 
 UA = "bvbw-recovery/1.0 (historical sports research)"
 CTX = ssl.create_default_context()
+# Wayback starts dropping snapshots when requests come in under a second.
+# A wide random gap is what keeps a long historical crawl from being cut off.
+ARCHIVE_MIN_WAIT = 4.0
+ARCHIVE_MAX_WAIT = 9.0
+_REQUEST_LOCK = threading.Lock()
 
 GAMES_FIELDS = [
     "season",
@@ -131,20 +138,26 @@ def wayback_url(ts: str, original: str) -> str:
     return f"https://web.archive.org/web/{ts}id_/{original}"
 
 
+def archive_pause(lo: float = ARCHIVE_MIN_WAIT, hi: float = ARCHIVE_MAX_WAIT) -> None:
+    time.sleep(random.uniform(lo, hi))
+
+
 def fetch(url: str, dest: Path, retries: int = 4) -> bool:
     if dest.exists() and dest.stat().st_size > 500:
         return True
     dest.parent.mkdir(parents=True, exist_ok=True)
     for attempt in range(retries):
-        try:
-            req = urllib.request.Request(url, headers={"User-Agent": UA})
-            with urllib.request.urlopen(req, timeout=90, context=CTX) as resp:
-                data = resp.read()
-            if len(data) > 500:
-                dest.write_bytes(data)
-                return True
-        except (urllib.error.URLError, TimeoutError, OSError):
-            time.sleep(2 * (attempt + 1))
+        with _REQUEST_LOCK:
+            archive_pause()
+            try:
+                req = urllib.request.Request(url, headers={"User-Agent": UA})
+                with urllib.request.urlopen(req, timeout=90, context=CTX) as resp:
+                    data = resp.read()
+                if len(data) > 500:
+                    dest.write_bytes(data)
+                    return True
+            except (urllib.error.URLError, TimeoutError, OSError):
+                archive_pause(12.0 * (attempt + 1), 24.0 * (attempt + 1))
     return False
 
 
@@ -162,7 +175,6 @@ def download_plans(limit: int | None = None) -> tuple[int, int]:
             ok += 1
         else:
             fail += 1
-        time.sleep(0.5)
     return ok, fail
 
 
@@ -180,7 +192,6 @@ def download_matchdays(limit: int | None = None) -> tuple[int, int]:
             fail += 1
         if (ok + fail) % 50 == 0:
             print(f"  matchdays progress ok={ok} fail={fail}", flush=True)
-        time.sleep(0.45)
     return ok, fail
 
 
@@ -416,51 +427,85 @@ def extract_games(
     return out
 
 
+def _row_key(r: dict) -> tuple:
+    return (
+        r.get("report_url", ""),
+        r.get("game_no", ""),
+        norm_name(r.get("home_player", "")),
+        norm_name(r.get("away_player", "")),
+        r.get("match_date", ""),
+        r.get("discipline", ""),
+    )
+
+
+def _same_game_key(r: dict) -> tuple | None:
+    """Same match even when the report URL differs. Blank dates do not collapse."""
+    date = (r.get("match_date") or "").strip()
+    home = norm_name(r.get("home_player", ""))
+    away = norm_name(r.get("away_player", ""))
+    if not date or not home or not away:
+        return None
+    return (
+        date,
+        home,
+        away,
+        (r.get("discipline") or "").strip(),
+        (r.get("game_no") or "").strip(),
+        norm_name(r.get("home_team", "")),
+        norm_name(r.get("away_team", "")),
+    )
+
+
 def merge_into_games(new_rows: list[dict], games_path: Path) -> tuple[int, int]:
-    """Prepend recovered historical rows; skip duplicates by report_url+game_no+players."""
-    existing: list[dict] = []
+    """Append new rows. Existing lines in games.csv are left as they are."""
     with games_path.open(encoding="utf-8-sig", newline="") as f:
         reader = csv.DictReader(f)
-        fieldnames = reader.fieldnames or GAMES_FIELDS
+        fieldnames = list(reader.fieldnames or GAMES_FIELDS)
+        seen = set()
+        seen_games = set()
+        existing = 0
         for row in reader:
-            existing.append({k: row.get(k, "") for k in fieldnames})
+            existing += 1
+            seen.add(_row_key(row))
+            same = _same_game_key(row)
+            if same is not None:
+                seen_games.add(same)
 
-    def key(r: dict) -> tuple:
-        return (
-            r.get("report_url", ""),
-            r.get("game_no", ""),
-            norm_name(r.get("home_player", "")),
-            norm_name(r.get("away_player", "")),
-            r.get("match_date", ""),
-            r.get("discipline", ""),
-        )
-
-    seen = {key(r) for r in existing}
-    added = 0
-    merged_new = []
-    for r in new_rows:
-        k = key(r)
-        if k in seen:
+    to_add: list[dict] = []
+    for row in new_rows:
+        key = _row_key(row)
+        same = _same_game_key(row)
+        if key in seen or (same is not None and same in seen_games):
             continue
-        seen.add(k)
-        merged_new.append(r)
-        added += 1
+        seen.add(key)
+        if same is not None:
+            seen_games.add(same)
+        to_add.append({name: row.get(name, "") for name in fieldnames})
 
-    # Historical first (ascending season/date), then existing modern rows
-    def sort_key(r: dict):
-        return (r.get("season", ""), r.get("match_date", ""), r.get("report_url", ""), r.get("game_no", ""))
+    if not to_add:
+        return 0, existing
 
-    all_rows = sorted(merged_new, key=sort_key) + existing
-    with games_path.open("w", encoding="utf-8", newline="") as f:
-        w = csv.DictWriter(f, fieldnames=GAMES_FIELDS, extrasaction="ignore")
-        w.writeheader()
-        w.writerows(all_rows)
-    return added, len(all_rows)
+    raw = games_path.read_bytes()
+    with games_path.open("a", encoding="utf-8", newline="") as f:
+        if raw and not raw.endswith(b"\n"):
+            f.write("\n")
+        writer = csv.DictWriter(
+            f,
+            fieldnames=fieldnames,
+            extrasaction="ignore",
+            lineterminator="\r\n",
+        )
+        writer.writerows(to_add)
+    return len(to_add), existing + len(to_add)
 
 
 def cmd_download(args: argparse.Namespace) -> None:
     MATCHDAYS.mkdir(parents=True, exist_ok=True)
     PLANS.mkdir(parents=True, exist_ok=True)
+    print(
+        f"Archive pause {ARCHIVE_MIN_WAIT:.0f}–{ARCHIVE_MAX_WAIT:.0f}s "
+        "between Wayback requests"
+    )
     if args.plans:
         print("Downloading plans...")
         ok, fail = download_plans(args.limit)
