@@ -1,530 +1,532 @@
 sid,portrait_name,result_name,matches,ta_elo,ta_se,pass_nr,league_name,clubs,league_elo,elo_delta,shared_people,expected_shared,network_p,note
-100134,Necmi Kolbasar,Kolbasar Necmi,930,1586,25,245260,Necmi Kolbasar,PBC Bietigheim-Bissingen | PP Böblingen,1616,-30,37,10.0,4.8e-11,linked: opponent network confirms
-100037,Daniel Merbitz,Merbitz Daniel,920,1711,37,103075,Daniel Merbitz,BC Stuttgart 1891,1728,-17,32,9.1,2.6e-09,linked: opponent network confirms
-100233,Tahsin Kirli,Kirli Tahsin,917,1690,26,368203,Tahsin Kirli,BSV Filderstadt,1718,-28,9,2.5,0.001,linked: opponent network confirms
-119553,Armin Mahmoudi,Mahmoudi Armin,811,1773,28,368884,Armin Mahmoudi,BC Sindelfingen,1799,-26,10,2.1,7.4e-05,linked: opponent network confirms
-101796,Xanthos Vlassidis,Vlassidis Xanthos,756,1694,35,242881,Xanthos Vlassidis,,1723,-29,10,2.0,5e-05,linked: opponent network confirms
-100040,Robin Heber,Heber Robin,754,1685,40,101724,Robin Heber,BC Sindelfingen,1716,-31,18,5.3,1.2e-05,linked: opponent network confirms
-100314,Saeid Heydarpour,Heydarpour Saeid,708,1538,45,368146,Saeid Heydarpour,BC Sindelfingen,1544,-6,,,,another sid with this name played the same event
-100464,Claudio Pontuti,Pontuti Claudio,663,1513,30,103552,Claudio Pontuti,BC Stuttgart 1891 | BSV Filderstadt | TV Cannstatt,1543,-30,30,11.2,2.3e-06,linked: opponent network confirms
-105703,Anh Tran,Tran Anh,640,1580,34,104655,Anh Tran,BULL Leonberg-Höfingen,1609,-29,15,3.0,7.5e-07,linked: opponent network confirms
-108457,Michael Reich,Reich Michael,634,1497,30,355443,Michael Reich,BC Sindelfingen,1529,-32,27,10.8,2.4e-05,linked: opponent network confirms
-100092,Ricardo Gutjahr,Gutjahr Ricardo,615,1801,84,101572,Ricardo Gutjahr,BULL Leonberg-Höfingen,1838,-37,20,4.7,1.3e-07,linked: opponent network confirms
-102980,Andreas Wittmeier,Wittmeier Andreas,535,1525,42,240155,Andreas Wittmeier,BV Pforzheim,1555,-30,32,9.0,2.2e-09,linked: opponent network confirms
-122435,Saeid Heydarpour,Heydarpour Saeid,525,1525,27,368146,Saeid Heydarpour,BC Sindelfingen,1544,-19,,,,another sid with this name played the same event
-103183,Petra Sannwald,Sannwald Petra,522,1456,38,103910,Petra Sannwald,BC Sindelfingen,1480,-24,16,3.3,4.7e-07,linked: opponent network confirms
-107733,Ramazan Yildirim,Yildirim Ramazan,508,1585,82,368097,Ramazan Yildirim,TV Cannstatt,1611,-26,1,0.7,0.5,"linked: uncommon name, network too thin to judge"
-100055,Frank Gebert,Gebert Frank,478,1635,40,101317,Frank Gebert,BC Blaustein | BSV Filderstadt,1661,-26,15,7.0,0.0057,linked: opponent network confirms
-101467,Denis Mnich,Mnich Denis,457,1590,34,246024,Denis Mnich,BC Sindelfingen,1625,-35,35,11.0,7.2e-09,linked: opponent network confirms
-100490,Zeljko Burmazovic,Burmazovic Zeljko,451,1656,36,100616,Zeljko Burmazovic,PBC Schwäbisch Hall | TV Cannstatt,1685,-29,28,8.3,6.8e-08,linked: opponent network confirms
-105191,Aryan Dayyani,Dayyani Aryan,449,1587,35,245948,Aryan Dayyani,BC Dätzingen | BC Sindelfingen | PF Calw,1618,-31,31,8.4,1.7e-09,linked: opponent network confirms
-100120,Giuseppe Curcio,Curcio Giuseppe,429,1620,74,242722,Giuseppe Curcio,BULL Leonberg-Höfingen | PBC Aalen | TV Cannstatt,1663,-43,18,5.3,1.1e-05,linked: opponent network confirms
-119226,Tobias Hirt,Hirt Tobias,426,1551,37,228904,Tobias Hirt,BC Sindelfingen | PBC Bad Saulgau,1570,-19,35,9.5,1.6e-10,linked: opponent network confirms
-108724,Marco Sforza,Sforza Marco,419,1546,107,368774,Marco Sforza,BC Sindelfingen | BV Villingen-Schwenningen,1580,-34,14,2.1,4.1e-08,linked: opponent network confirms
-107347,Christopher Hopp,Hopp Christopher,408,1498,85,353408,Christopher Hopp,BC Sindelfingen,1540,-42,27,7.3,1.7e-08,linked: opponent network confirms
-118343,Thomas Kupfer,Kupfer Thomas,388,1593,30,102680,Thomas Kupfer,PBC Schwäbisch Hall,1619,-26,18,5.5,2e-05,linked: opponent network confirms
-129281,Erdem Dikici,Dikici Erdem,343,1544,27,369106,Erdem Dikici,BSC Göppingen | BSV Filderstadt,1578,-34,5,2.4,0.092,"linked: uncommon name, network too thin to judge"
-118529,Osman Büyük,Büyük Osman,328,1575,53,228532,Osman Büyük,BSV Filderstadt,1599,-24,20,5.8,3.3e-06,linked: opponent network confirms
-106512,Daniel la Cognata,la Cognata Daniel,317,1400,59,102694,Daniel La Cognata,BC Sindelfingen | PBC Nagoldtal,1433,-33,19,7.0,0.00013,linked: opponent network confirms
-101470,Fabio Romano,Romano Fabio,267,1557,125,103790,Fabio Romano,BULL Leonberg-Höfingen,1587,-30,15,3.8,1.2e-05,linked: opponent network confirms
-105163,Holger Maier,Maier Holger,258,1651,51,102918,Holger Maier,BC Stuttgart 1891,1695,-44,16,3.4,7.3e-07,linked: opponent network confirms
-100505,Christian Endres,Endres Christian,255,1605,106,123648,Christian Endres,BULL Leonberg-Höfingen,1644,-39,21,3.7,4.8e-10,linked: opponent network confirms
-100145,Ivan Hodzic,Hodzic Ivan,253,1533,68,101912,Ivan Hodzic,PP Böblingen,1566,-33,7,2.0,0.0045,linked: opponent network confirms
-100388,Savvas Kourpanidis,Kourpanidis Savvas,252,1621,61,367949,Savvas Kourpanidis,BC Sindelfingen,1651,-30,5,1.0,0.0037,linked: opponent network confirms
-108764,Alexandar Stankovic,Stankovic Alexandar,252,1609,42,355901,Alexandar Stankovic,PBC Bietigheim-Bissingen | PBC Pfedelbach | PBC Schwäbisch Hall | TV Cannstatt,1639,-30,17,6.0,0.00016,linked: opponent network confirms
-123178,Phat Truong,Truong Phat,248,1539,38,368809,Phat Truong,BC Stuttgart 1891,1565,-26,17,2.7,5e-09,linked: opponent network confirms
-107303,Bernd Hafner,Hafner Bernd,242,1569,46,240515,Bernd Hafner,PF Calw,1598,-29,0,0.7,1,"linked: uncommon name, network too thin to judge"
-117205,Andreas Zillmann,Zillmann Andreas,240,1617,40,368093,Andreas Zillmann,PP Böblingen,1639,-22,30,7.4,3.9e-10,linked: opponent network confirms
-128599,Alexander Striker,Striker Alexander,240,1568,64,104541,Alexander Striker,BC Sindelfingen | PF Calw,1629,-61,17,4.7,8.8e-06,linked: opponent network confirms
-105744,Mustafa Benk,Benk Mustafa,236,1614,60,100296,Mustafa Benk,PBC Bietigheim-Bissingen | TV Cannstatt,1628,-14,21,4.8,4.3e-08,linked: opponent network confirms
-119885,Petra Braun,Braun Petra,234,1485,42,100500,Petra Braun,BC Sindelfingen,1534,-49,11,1.9,5.8e-06,linked: opponent network confirms
-119922,Miodrag Adrian Caravila,Caravila M.,233,1506,45,366767,Miodrag Adrian Caravila,BSV Pfullingen | PBC Reutlingen,1536,-30,17,5.8,0.00012,linked: opponent network confirms
-103043,Bernd Füess,Füess Bernd,224,1537,50,101264,Bernd Füess,BC Sindelfingen,1562,-25,11,4.1,0.0035,linked: opponent network confirms
-101133,Andreas Pauling,Pauling Andreas,221,1506,51,103479,Andreas Pauling,BC Stuttgart 1891,1539,-33,23,4.9,3e-09,linked: opponent network confirms
-121726,Dennis Waldecker,Waldecker Dennis,219,1749,36,104848,Dennis Waldecker,BC Sindelfingen,1780,-31,3,0.6,0.027,linked: opponent network confirms
-125332,Ahmad Nassar,Nassar Ahmad,213,1523,38,368865,Ahmad Nassar,BC Neckarsulm,1544,-21,2,2.0,0.59,"linked: uncommon name, network too thin to judge"
-116585,Benjamin Hirschberger,Hirschberger B.,212,1605,51,368107,Benjamin Hirschberger,BC Sindelfingen | BC Stuttgart 1891,1621,-16,27,5.5,4e-11,linked: opponent network confirms
-119458,Orhan Parama,Parama Orhan,211,1670,44,252858,Orhan Parama,BSC Göppingen,1686,-16,9,3.7,0.015,linked: opponent network confirms
-116741,Marius-Daniel Grigore-Martini,Grigore-Martini M.,203,1562,53,248769,Marius-Daniel Grigore-Martini,BSV Pfullingen | PBC Reutlingen,1579,-17,16,5.6,0.00025,linked: opponent network confirms
-100135,Ruben Frick,Frick Ruben,200,1736,76,101210,Ruben Frick,BV Villingen-Schwenningen | PBV Rottweil,1757,-21,5,1.3,0.01,linked: opponent network confirms
-100116,Simon Kaincz,Kaincz Simon,193,1383,136,368133,Simon Kaincz,BSV Filderstadt,1397,-14,1,1.3,0.74,"linked: uncommon name, network too thin to judge"
-101962,Stephan Rech-Linker,Rech-Linker Stephan,174,1516,48,103634,Stephan Rech-Linker,BC Sindelfingen,1560,-44,19,4.8,7.3e-07,linked: opponent network confirms
-102833,Marcus Trumpp,Trumpp Marcus,162,1533,72,104671,Marcus Trumpp,BSV Pfullingen,1574,-41,16,2.9,9.9e-08,linked: opponent network confirms
-101485,Ralf Grießhaber,Grießhaber Ralf,161,1603,321,101485,Ralf Grießhaber,BV Villingen-Schwenningen,1687,-84,10,2.8,0.00067,linked: opponent network confirms
-130629,Yusa Tutucu,Tutucu Yusa,160,1547,33,368922,Yusa Tutucu,BSC Göppingen,1570,-23,3,1.6,0.23,"linked: uncommon name, network too thin to judge"
-105745,Marco Giusa,Giusa Marco,158,1708,44,101390,Marco Giusa,PBC Bietigheim-Bissingen | TV Cannstatt,1728,-20,23,5.2,8e-09,linked: opponent network confirms
-101718,Daniel Sanchez Goncalves,Sanchez Goncalves D.,157,1461,66,103907,Daniel Sanchez Goncalves,BC Feuersee | PBC Schwäbisch Gmünd,1488,-27,12,2.3,4.5e-06,linked: opponent network confirms
-117272,Ralf Griesshaber,Griesshaber Ralf,156,1663,98,101485,Ralf Grießhaber,BV Villingen-Schwenningen,1687,-24,6,3.2,0.1,"linked: uncommon name, network too thin to judge"
-117459,Thomas Schubert,Schubert Thomas,153,1699,59,104208,Thomas Schubert,BC Stuttgart 1891,1725,-26,13,1.7,4.1e-08,linked: opponent network confirms
-130537,Colin Ketterlin,Ketterlin Colin,151,1601,39,368957,Colin Ketterlin,CC Karlsruhe,1634,-33,6,2.0,0.016,linked: opponent network confirms
-108789,Jozsef Zvorinji,Zvorinji Jozsef,150,1479,122,368096,Jozsef Zvorinji,PP Böblingen | TV Cannstatt,1598,-119,8,2.9,0.0091,linked: opponent network confirms
-116477,Daniel Doulgeris,Doulgeris Daniel,142,1386,149,368575,Daniel Doulgeris,BULL Leonberg-Höfingen,1418,-32,6,1.4,0.0034,linked: opponent network confirms
-100087,Dirk Müller,Müller Dirk,141,1600,90,103209,Dirk Müller,CC Karlsruhe | PP Karlsbad,1661,-61,1,2.7,0.93,rejected: opponent network no better than chance
-119327,Long Werner,Werner Long,141,1527,64,252010,Long Werner,BF Bruchsal | BV Pforzheim | CC Karlsruhe,1539,-12,10,4.8,0.026,linked: opponent network confirms
-102101,Michael Matschewsky,Matschewsky Michael,140,1646,222,242867,Michael Matschewsky,PBC Freudenstadt,1686,-40,3,1.3,0.15,"linked: uncommon name, network too thin to judge"
-118212,Benjamin Jung,Jung Benjamin,140,1681,131,102153,Benjamin Jung,PBC Freudenstadt,1708,-27,9,2.0,0.00025,linked: opponent network confirms
-100695,Yunus Ayvaz,Ayvaz Yunus,135,1497,148,242951,Yunus Ayvaz,PP Böblingen,1536,-39,1,0.9,0.58,"linked: uncommon name, network too thin to judge"
-116408,Mohammed Ali Bemah,Bemah Mohammed Ali,132,1449,67,355875,Mohammed Ali Bemah,BC Sindelfingen | PP Böblingen,1451,-2,10,4.2,0.011,linked: opponent network confirms
-117197,Matthias Grgic,Grgic Matthias,131,1344,183,368292,Matthias Grgic,BC Sindelfingen,1433,-89,9,3.3,0.0069,linked: opponent network confirms
-105153,Osman Büyük,Büyük Osman,129,1529,139,228532,Osman Büyük,BSV Filderstadt,1599,-70,10,2.5,0.00031,linked: opponent network confirms
-100567,Alexander Striker,Striker Alexander,120,1591,389,104541,Alexander Striker,BC Sindelfingen | PF Calw,1629,-38,18,2.8,1.3e-09,linked: opponent network confirms
-108396,Athanassios Psimenidis,Psimenidis A.,119,1637,183,103578,Athanassios Psimenidis,BSV Filderstadt,1681,-44,7,1.4,0.00069,linked: opponent network confirms
-119863,Thorsten Kappus,Kappus Thorsten,115,1511,66,102219,Thorsten Kappus,BSV Pfullingen,1515,-4,14,1.9,1.3e-08,linked: opponent network confirms
-120048,Randee Ramzi Yalda,Yalda Randee Ramzi,112,1649,78,355803,Randee Ramzi Yalda,BSV Pfullingen,1685,-36,21,2.9,7.5e-12,linked: opponent network confirms
-101612,Patrick Mungiuri,Mungiuri Patrick,110,1608,102,250878,Patrick Mungiuri,BULL Leonberg-Höfingen | BV Pforzheim,1667,-59,19,4.3,1.3e-07,linked: opponent network confirms
-117333,Oliver Kielwein,Kielwein Oliver,110,1623,101,350393,Oliver Kielwein,BC Sindelfingen,1647,-24,8,1.6,0.00024,linked: opponent network confirms
-119447,Roberto Savcic,Savcic Roberto,110,1407,182,368498,Roberto Savcic,BC Sindelfingen,1447,-40,4,1.0,0.019,linked: opponent network confirms
-105483,Selim Güzel,Güzel Selim,108,1480,87,242971,Selim Güzel,PP Böblingen,1513,-33,13,4.2,0.00044,linked: opponent network confirms
-103120,Petra Braun,Braun Petra,104,1530,98,100500,Petra Braun,BC Sindelfingen,1534,-4,7,1.1,0.00013,linked: opponent network confirms
-101984,Ulrich Schäfer,Schäfer Ulrich,103,1526,89,229045,Ulrich Schäfer,BSV Pfullingen,1551,-25,12,1.0,9.4e-10,linked: opponent network confirms
-117237,Robin Heber,Heber Robin,102,1674,71,101724,Robin Heber,BC Sindelfingen,1716,-42,12,1.7,2.2e-07,linked: opponent network confirms
-123756,Marcel Haab,Haab Marcel,102,1393,74,368343,Marcel Haab,BC Dätzingen,1438,-45,5,2.2,0.073,"linked: uncommon name, network too thin to judge"
-121727,Calvin Waldecker,Waldecker Calvin,101,1649,53,368207,Calvin Waldecker,CC Karlsruhe | PBC Rastatt,1709,-60,2,2.2,0.64,rejected: opponent network no better than chance
-104051,Savas Hopff,Hopff Savas,99,1707,236,101979,Savas Hopff,BC Dätzingen | PF Calw,1638,69,6,2.0,0.016,linked: opponent network confirms
-119370,Marvin Szymiczek,Szymiczek Marvin,98,1439,119,350651,Marvin Szymiczek,BV Pforzheim,1467,-28,5,1.7,0.028,linked: opponent network confirms
-121408,Edin Porcic,Porcic Edin,98,1620,71,368051,Edin Porcic,BC Feuersee | BULL Leonberg-Höfingen,1651,-31,18,2.8,9.5e-10,linked: opponent network confirms
-100940,Hermann Hoyh,Hoyh Hermann,93,1799,73,102003,Hermann Hoyh,TV Cannstatt,1820,-21,6,1.7,0.0075,linked: opponent network confirms
-107361,Olaf Schwarz,Schwarz Olaf,92,1478,134,351950,Olaf Schwarz,BC Sindelfingen,1513,-35,9,2.4,0.00084,linked: opponent network confirms
-104753,Michael Grad,Grad Michael,91,1540,82,349925,Michael Grad,BSV Pfullingen,1573,-33,3,0.5,0.011,linked: opponent network confirms
-120826,Sercan_ Özdemir,Özdemir Sercan_,91,1603,92,103444,Sercan Özdemir,PP Böblingen,1623,-20,11,2.5,7.3e-05,linked: opponent network confirms
-103613,Ferhat Cayli,Cayli Ferhat,89,1564,184,251376,Ferhat Cayli,BC Neckarsulm,1583,-19,2,0.9,0.23,"linked: uncommon name, network too thin to judge"
-104223,Michael Gärttner,Gärttner Michael,89,1402,49,251014,Michael Gärttner,BC Sindelfingen | PP Böblingen,1420,-18,2,1.0,0.26,"linked: uncommon name, network too thin to judge"
-117395,Thomas Durst,Durst Thomas,88,1522,74,100941,Thomas Durst,BC Stuttgart 1891,1528,-6,13,2.7,5.4e-06,linked: opponent network confirms
-102828,Marco Bunke,Bunke Marco,87,1475,112,250221,Marco Bunke,BSV Pfullingen,1502,-27,13,0.9,2.6e-11,linked: opponent network confirms
-117025,Christian Rossa,Rossa Christian,86,1616,145,103820,Christian Rossa,BSV Pfullingen | PF Calw,1639,-23,9,1.7,6.2e-05,linked: opponent network confirms
-128258,Jörg Schick-Bringer,Schick-Bringer Jörg,86,1545,56,104021,Jörg Schick-Bringer,BC Neckarsulm,1611,-66,4,2.5,0.24,"linked: uncommon name, network too thin to judge"
-100277,Marcus Mutschler,Mutschler Marcus,85,1546,147,103275,Marcus Mutschler,PBC Bietigheim-Bissingen,1623,-77,3,0.9,0.063,"linked: uncommon name, network too thin to judge"
-101523,Hendrik Reckers,Reckers Hendrik,85,1597,133,103635,Hendrik Reckers,BF Bruchsal | JS Mingolsheim | PBV Schwetzingen,1688,-91,9,2.7,0.002,linked: opponent network confirms
-104609,Frank Eisele,Eisele Frank,85,1630,124,100983,Frank Eisele,BC Sindelfingen | PBC Reutlingen,1620,10,13,3.1,2.2e-05,linked: opponent network confirms
-106087,Denis Maric,Maric Denis,85,1429,165,351327,Denis Maric,BC Sindelfingen,1403,26,5,1.7,0.028,linked: opponent network confirms
-117397,TImo Sillner,Sillner TImo,85,1626,156,104357,Timo Sillner,BC Stuttgart 1891,1616,10,10,1.1,2.7e-07,linked: opponent network confirms
-117363,Thomas Stoll,Stoll Thomas,84,1467,170,104512,Thomas Stoll,BC Sindelfingen,1486,-19,7,1.5,0.0008,linked: opponent network confirms
-101171,Marco Warlies,Warlies Marco,80,1619,127,242963,Marco Warlies,BC Sindelfingen | PF Calw,1646,-27,15,2.9,5.4e-07,linked: opponent network confirms
-100826,Daniel Kalnak,Kalnak Daniel,79,1523,204,102186,Daniel Kalnak,BSV Pfullingen,1608,-85,11,1.6,7.7e-07,linked: opponent network confirms
-108559,Simon Schaal,Schaal Simon,79,1505,250,367945,Simon Schaal,BC Sindelfingen | BC Weingarten | PF Calw,1568,-63,3,1.9,0.3,"linked: uncommon name, network too thin to judge"
-100272,Andreas Schroff,Schroff Andreas,78,1719,88,104203,Andreas Schroff,,1768,-49,5,0.8,0.0014,linked: opponent network confirms
-132906,Francesco Dragotta,Dragotta Francesco,78,1494,48,369057,Francesco Dragotta,PBC Reutlingen | Tübinger BC,1523,-29,10,0.9,5.5e-08,linked: opponent network confirms
-101709,Andreas Jeschka,Jeschka Andreas,77,1579,143,102114,Andreas Jeschka,PBC Reutlingen,1666,-87,11,2.2,1.7e-05,linked: opponent network confirms
-101139,Fabian Rapp,Rapp Fabian,75,1321,192,245247,Fabian Rapp,BSV Pfullingen,1415,-94,11,1.4,3e-07,linked: opponent network confirms
-100036,Ramazan Akdag,Akdag Ramazan,74,1770,236,100037,Ramazan Akdag,BV Pforzheim,1795,-25,3,0.3,0.0025,linked: opponent network confirms
-108130,Thorsten Mohr,Mohr Thorsten,74,1583,549,242808,Thorsten Mohr,BSV Konstanz,1575,8,6,0.3,1e-06,linked: opponent network confirms
-107911,Tobias Wähler,Wähler Tobias,72,1404,496,251288,Tobias Wähler,BV Pforzheim,1437,-33,4,0.8,0.0079,linked: opponent network confirms
-100916,Bernd Dorenburg,Dorenburg Bernd,71,1488,114,100889,Bernd Dorenburg,BSV Pfullingen,1520,-32,11,1.1,3.2e-08,linked: opponent network confirms
-101425,Emrah Atak,Atak Emrah,70,1515,207,250901,Emrah Atak,BC Neckarsulm | PBV Schwetzingen,1533,-18,2,0.8,0.2,"linked: uncommon name, network too thin to judge"
-119463,Reimar Sauter,Sauter Reimar,66,1545,67,352016,Reimar Sauter,BF Bruchsal | CC Karlsruhe,1573,-28,1,1.0,0.62,"linked: uncommon name, network too thin to judge"
-125351,Adeeb Bitar,Bitar Adeeb,66,1403,74,368823,Adeeb Bitar,BC Sindelfingen,1430,-27,1,0.8,0.57,"linked: uncommon name, network too thin to judge"
-117269,Nikolaos Seristatidis,Seristatidis N.,63,1392,90,367912,Nikolaos Seristatidis,PP Böblingen | Tübinger BC,1468,-76,6,2.2,0.026,linked: opponent network confirms
-100062,Oezer Bulunmaz,Bulunmaz Oezer,62,1711,243,100599,Oezer Bulunmaz,BV Pforzheim | PP Karlsbad,1736,-25,2,0.8,0.19,"linked: uncommon name, network too thin to judge"
-100456,Tuong Tran,Tran Tuong,62,1443,131,245106,Tuong Tran,BSV Pfullingen,1489,-46,5,0.7,0.0006,linked: opponent network confirms
-100441,Matthias Hardtke,Hardtke Matthias,61,1739,90,101672,Matthias Hardtke,,1763,-24,8,1.0,7.3e-06,linked: opponent network confirms
-122568,Sait Pelit,Pelit Sait,61,1499,71,368819,Sait Pelit,BSC Göppingen,1530,-31,4,0.8,0.0078,linked: opponent network confirms
-107141,Saman Hadi,Hadi Saman,60,1393,107,353913,Saman Hadi,BC Dätzingen,1466,-73,5,1.7,0.03,linked: opponent network confirms
-100056,Frank Wagenmann,Wagenmann Frank,57,1636,152,104825,Frank Wagenmann,PBC Offenburg,1696,-60,3,1.2,0.11,"linked: uncommon name, network too thin to judge"
-106028,Long Werner,Werner Long,57,1522,89,252010,Long Werner,BF Bruchsal | BV Pforzheim | CC Karlsruhe,1539,-17,3,2.4,0.42,"rejected: common surname, opponent network does not confirm"
-121224,Jannik Buchstab,Buchstab Jannik,57,1562,186,368518,Jannik Buchstab,PBC Schwäbisch Gmünd,1558,4,4,0.8,0.0088,linked: opponent network confirms
-100454,Markus Hardtke,Hardtke Markus,56,1725,103,101671,Markus Hardtke,,1729,-4,5,1.0,0.0033,linked: opponent network confirms
-118211,Antonogiorgakis Charalampos,Charalampos A.,56,1364,99,100092,Charalampos Antonogiorgakis,BULL Leonberg-Höfingen,1360,4,6,1.7,0.0072,linked: opponent network confirms
-127481,Sukhbat Batjargal,Batjargal Sukhbat,56,1492,64,368893,Sukhbat Batjargal,BC Stuttgart 1891,1520,-28,5,0.8,0.0017,linked: opponent network confirms
-120711,Luka Fuchs,Fuchs Luka,55,1431,65,368319,Luka Fuchs,PP Böblingen,1472,-41,3,1.0,0.078,"linked: uncommon name, network too thin to judge"
-120062,Kian Sohns,Sohns Kian,54,1504,69,368777,Kian Sohns,VFL Herrenberg,1538,-34,2,0.9,0.24,"linked: uncommon name, network too thin to judge"
-100463,Besim Tastekin,Tastekin Besim,53,1551,67,104578,Besim Tastekin,PBC Bietigheim-Bissingen,1576,-25,3,1.0,0.076,"linked: uncommon name, network too thin to judge"
-105954,Michael Schwarzjirg,Schwarzjirg Michael,53,1583,403,366769,Michael Schwarzjirg,TV Cannstatt,1646,-63,5,1.2,0.0071,linked: opponent network confirms
-105157,Orhan Parama,Parama Orhan,52,1656,124,252858,Orhan Parama,BSC Göppingen,1686,-30,1,1.2,0.71,"linked: uncommon name, network too thin to judge"
-117391,Oliver Schwertschlager,Schwertschlager O.,52,1526,113,104287,Oliver Schwertschlager,BC Stuttgart 1891,1552,-26,8,1.6,0.00024,linked: opponent network confirms
-108146,Woldai Wagner,Wagner Woldai,51,1643,691,354552,Woldai Wagner,BSV Konstanz,1619,24,6,0.1,6.9e-10,linked: opponent network confirms
-100186,Anastasios Kiriakidis,Kiriakidis A.,50,1699,133,102355,Anastasios Kiriakidis,,1718,-19,1,0.0,0.03,linked: opponent network confirms
-104440,Eric Mattern,Mattern Eric,50,1794,223,247176,Eric Mattern,PBV Schwetzingen,1811,-17,1,1.0,0.65,"linked: uncommon name, network too thin to judge"
-117396,Joachim Lechenbauer,Lechenbauer Joachim,50,1495,224,102758,Joachim Lechenbauer,BC Stuttgart 1891,1477,18,6,1.3,0.0026,linked: opponent network confirms
-121177,Angelo Truisi,Truisi Angelo,50,1574,82,368202,Angelo Truisi,CC Karlsruhe | PP Karlsbad,1582,-8,2,1.1,0.31,"linked: uncommon name, network too thin to judge"
-101471,Florian Merz,Merz Florian,48,1598,120,103085,Florian Merz,BC Sindelfingen,1637,-39,3,0.2,0.0014,linked: opponent network confirms
-116540,Joachim Luft,Luft Joachim,48,1388,86,354685,Joachim Luft,PBC Bietigheim-Bissingen,1413,-25,5,1.9,0.047,linked: opponent network confirms
-127493,Joachim Lechenbauer,Lechenbauer J.,48,1462,89,102758,Joachim Lechenbauer,BC Stuttgart 1891,1477,-15,4,1.4,0.054,"linked: uncommon name, network too thin to judge"
-106718,Turan Machmut,Machmut Turan,47,1581,129,104685,Machmut Turan,BC Sindelfingen | PBC Nagoldtal,1624,-43,9,2.4,0.0009,linked: opponent network confirms
-118483,Gary Wong_,Wong_ Gary,47,1480,134,105109,Gary Wong,PBC Schwäbisch Gmünd,1543,-63,6,1.3,0.0026,linked: opponent network confirms
-119239,Manuel Letzel,Letzel Manuel,47,1659,135,248413,Manuel Letzel,PBV Schwetzingen,1703,-44,1,0.5,0.37,"linked: uncommon name, network too thin to judge"
-121234,Tuong Vy Le,Le Tuong Vy,47,1496,86,368622,Vy Le Tuong,BC Stuttgart 1891,1517,-21,1,0.8,0.54,"linked: uncommon name, network too thin to judge"
-100049,Hanno Bröcker,Bröcker Hanno,46,1741,711,112875,Hanno Bröcker,BV Villingen-Schwenningen | PBV Rottweil,1656,85,0,0.2,1,"linked: uncommon name, network too thin to judge"
-117523,Thomas Handler,Handler Thomas,46,1504,102,101654,Thomas Handler,BC Feuersee | BV Leonberg,1552,-48,7,1.9,0.0036,linked: opponent network confirms
-123757,Alexander Egger,Egger Alexander,46,1483,95,368348,Alexander Egger,BC Dätzingen,1489,-6,3,0.9,0.055,"linked: uncommon name, network too thin to judge"
-100474,Holger Vier,Vier Holger,45,1645,282,163386,Holger Vier,PBC Bruchsal,1673,-28,0,0.4,1,"linked: uncommon name, network too thin to judge"
-102834,Thorsten Möhle,Möhle Thorsten,43,1391,587,368179,Thorsten Möhle,BC Sindelfingen,1516,-125,2,0.6,0.11,"linked: uncommon name, network too thin to judge"
-127053,okan ceken,ceken okan,43,1504,76,368802,Okan Ceken,PBC Reutlingen,1556,-52,3,0.5,0.017,linked: opponent network confirms
-130415,Oliver Marx,Marx Oliver,43,1451,68,368364,Oliver Marx,BC Feuersee | BC Sindelfingen | BULL Leonberg-Höfingen,1495,-44,3,1.2,0.11,"linked: uncommon name, network too thin to judge"
-132973,Kevin Minardi,Minardi Kevin,43,1457,64,369056,Kevin Minardi,PBC Reutlingen | Tübinger BC,1484,-27,7,0.6,4.7e-06,linked: opponent network confirms
-101966,Svenja Schwarzkopf,Heide Svenja,42,1483,154,101737,Svenja Schwarzkopf,BV Villingen-Schwenningen,1553,-70,1,0.6,0.43,"linked: uncommon name, network too thin to judge"
-102827,Frank Vorauer,Vorauer Frank,42,1522,119,104803,Frank Vorauer,PBC Nagoldtal,1559,-37,5,1.2,0.0083,linked: opponent network confirms
-107346,Andreas Keilmann,Keilmann Andreas,42,1610,310,102278,Andreas Keilmann,BC Sindelfingen | PBC Freudenstadt,1716,-106,5,1.8,0.034,linked: opponent network confirms
-119554,Besim Rama,Rama Besim,42,1478,124,366458,Besim Rama,BC Neckarsulm,1477,1,1,1.2,0.68,"linked: uncommon name, network too thin to judge"
-121498,Jozsef Zvorinji,Zvorinji Jozsef,42,1590,115,368096,Jozsef Zvorinji,PP Böblingen | TV Cannstatt,1598,-8,2,1.2,0.34,"linked: uncommon name, network too thin to judge"
-125315,Matthias Stolz,Stolz Matthias,42,1374,98,366248,Matthias Stolz,BC Feuersee | BSV Shooters Fellbach | TV Cannstatt,1463,-89,4,1.1,0.028,linked: opponent network confirms
-103074,Martin Wistuba,Wistuba Martin,41,1408,213,251771,Martin Wistuba,BSV Pfullingen,1450,-42,5,0.6,0.0003,linked: opponent network confirms
-104608,Peggy Eisele,Heßland Peggy,41,1455,184,244943,Peggy Eisele,BC Sindelfingen | BSV Filderstadt | PBC Reutlingen,1456,-1,5,1.4,0.012,linked: opponent network confirms
-108243,Marco Weise,Weise Marco,41,1320,776,354316,Marco Weise,BSV Konstanz,1337,-17,7,0.1,3.5e-11,linked: opponent network confirms
-116586,Thomas Hirschberger,Hirschberger Thomas,41,1413,263,368178,Thomas Hirschberger,BC Sindelfingen,1462,-49,2,0.7,0.17,"linked: uncommon name, network too thin to judge"
-128536,petar krolo,krolo petar,41,1505,96,368964,Petar Krolo,BC Sindelfingen,1539,-34,2,0.4,0.063,"linked: uncommon name, network too thin to judge"
-127505,Sandra Höll,Höll Sandra,40,1441,88,101958,Sandra Höll,BSV Pfullingen | VFL Herrenberg,1445,-4,2,0.7,0.15,"linked: uncommon name, network too thin to judge"
-128573,Susi Harbrecht-Berndt,Harbrecht-Berndt S.,40,1281,88,100325,Susi Harbrecht-Berndt,BULL Leonberg-Höfingen | PP Böblingen,1292,-11,5,1.1,0.0045,linked: opponent network confirms
-101318,Norbert Rollbühler,Rollbühler Norbert,39,1606,188,157455,Norbert Rollbühler,BC Aalen | PBC Schwäbisch Hall,1668,-62,7,1.5,0.001,linked: opponent network confirms
-117394,Robert Schwarz,Schwarz Robert,39,1528,250,104273,Robert Schwarz,BC Stuttgart 1891,1668,-140,6,0.6,4.2e-05,linked: opponent network confirms
-127052,Sami Kadriolli,Kadriolli Sami,39,1674,108,369233,Sami Kadriolli,BV Markdorf,1685,-11,1,0.1,0.093,"linked: uncommon name, network too thin to judge"
-131206,Philipp Kibele,Kibele Philipp,39,1669,70,368811,Philipp Kibele,TV Cannstatt,1709,-40,6,0.7,8.4e-05,linked: opponent network confirms
-102947,Ernad Dindic,Dindic Ernad,38,1462,158,100863,Ernad Dindic,BSV Pfullingen,1492,-30,2,0.2,0.012,linked: opponent network confirms
-121533,Pavlos Dadakos,Dadakos Pavlos,38,1640,67,368381,Pavlos Dadakos,PBC Reutlingen,1672,-32,5,1.7,0.027,linked: opponent network confirms
-124930,Michael Röhrle,Röhrle Michael,38,1550,85,368119,Michael Röhrle,BC Feuersee | BULL Leonberg-Höfingen,1597,-47,4,0.7,0.0048,linked: opponent network confirms
-129105,Christian Di Lella,Di Lella Christian,38,1464,85,368894,Christian Di Lella,BC Stuttgart 1891,1507,-43,2,0.3,0.041,linked: opponent network confirms
-100410,Berthold Moser,Moser Berthold,37,1545,302,103183,Berthold Moser,PBC Bräunlingen,1641,-96,1,1.3,0.72,"linked: uncommon name, network too thin to judge"
-101153,Stefan Künzl,Künzl Stefan,37,1597,148,102645,Stefan Künzl,BC Sindelfingen | BSV Shooters Fellbach,1696,-99,9,1.9,0.00019,linked: opponent network confirms
-120693,Dany Baron,Baron Dany,36,1566,96,252039,Dany Baron,PP Böblingen | TV Cannstatt,1636,-70,2,1.3,0.37,"linked: uncommon name, network too thin to judge"
-121191,Ralf Grießhaber,Grießhaber Ralf,36,1709,170,101485,Ralf Grießhaber,BV Villingen-Schwenningen,1687,22,1,1.3,0.74,"linked: uncommon name, network too thin to judge"
-100856,Marcel Biegler,Biegler Marcel,35,1424,166,245244,Marcel Biegler,BSV Pfullingen,1453,-29,1,0.1,0.091,"linked: uncommon name, network too thin to judge"
-101658,Gerd Hörrmann,Hörrmann Gerd,35,1646,110,101994,Gerd Hörrmann,PBC Rastatt | PP Karlsbad,1711,-65,1,1.1,0.67,"linked: uncommon name, network too thin to judge"
-117524,Arno Corigliano,Corigliano Arno,35,1529,139,100719,Arno Corigliano,PBC Pfedelbach | PBC Schwäbisch Hall,1614,-85,5,0.9,0.0027,linked: opponent network confirms
-117552,Robert Bogdan,Bogdan Robert,35,1651,108,100421,Robert Bogdan,PBC Aalen | TV Cannstatt,1605,46,4,1.4,0.051,"linked: uncommon name, network too thin to judge"
-119448,Nic Woywodt,Woywodt Nic,35,1511,83,249310,Nic Woywodt,PBC Nagoldtal,1580,-69,6,1.5,0.0041,linked: opponent network confirms
-106081,Arman Rasoli,Rasoli Arman,34,1536,194,367918,Arman Rasoli,BC Sindelfingen,1564,-28,1,0.5,0.39,"linked: uncommon name, network too thin to judge"
-117520,Karim Gampper,Gampper Karim,34,1508,99,101299,Karim Gampper,BC Feuersee,1532,-24,5,0.7,0.00097,linked: opponent network confirms
-117614,Sascha Sauer,Sauer Sascha,34,1527,144,103925,Sascha Sauer,BSV Filderstadt,1587,-60,9,1.7,8.3e-05,linked: opponent network confirms
-120123,Heiko Difflipp,Difflipp Heiko,34,1472,103,100852,Heiko Difflipp,PBC Schwäbisch Hall,1489,-17,6,1.2,0.0016,linked: opponent network confirms
-127067,Dimitrios Stotoglou,Stotoglou Dimitrios,34,1401,91,368778,Dimitrios Stotoglou,VFL Herrenberg,1454,-53,2,0.5,0.076,"linked: uncommon name, network too thin to judge"
-128580,Andreas Sattler,Sattler Andreas,34,1473,83,103922,Andreas Sattler,PBC Pfedelbach,1496,-23,0,0.2,1,"linked: uncommon name, network too thin to judge"
-108791,Jürgen Trost,Trost Jürgen,33,1589,185,368200,Jürgen Trost,BC Sindelfingen,1607,-18,3,0.4,0.0097,linked: opponent network confirms
-118687,Simone Künzl,Künzl Simone,33,1641,266,368302,Simone Künzl,BC Sindelfingen,1656,-15,6,0.8,0.00025,linked: opponent network confirms
-130448,Elias Marx,Marx Elias,33,1448,79,368396,Elias Marx,BC Feuersee | BULL Leonberg-Höfingen,1480,-32,3,0.9,0.071,"linked: uncommon name, network too thin to judge"
-103817,Alexander Eck,Eck Alexander,31,1526,140,104656,Alexander Eck,BC Sindelfingen,1543,-17,1,0.2,0.16,"linked: uncommon name, network too thin to judge"
-104620,Ardalan Mirahmadi,Mirahmadi Ardalan,31,1548,394,253317,Ardalan Mirahmadi,BSV Filderstadt,1583,-35,0,0.1,1,"linked: uncommon name, network too thin to judge"
-116667,Mark Mende,Mende Mark,31,1333,447,367953,Mark Mende,BSV Pfullingen,1388,-55,5,0.4,5.1e-05,linked: opponent network confirms
-116673,Ramin Raeisi,Raeisi Ramin,31,1550,256,354706,Ramin Raeisi,BSV Pfullingen,1553,-3,7,0.3,6.7e-08,linked: opponent network confirms
-105951,Arash Dayyani,Dayyani Arash,30,1485,122,248740,Arash Dayyani,BC Dätzingen,1495,-10,3,1.3,0.13,"linked: uncommon name, network too thin to judge"
-117212,Michailidis Aristidis,Aristidis M.,30,1588,372,103128,Aristidis Michailidis,BSV Filderstadt,1587,1,4,0.7,0.0065,linked: opponent network confirms
-118478,Erdal Akinci,Akinci Erdal,30,1660,135,100039,Erdal Akinci,PBC Bad Saulgau,1677,-17,5,1.2,0.0088,linked: opponent network confirms
-101985,Uwe Schmidt,Schmidt Uwe,29,1456,161,104109,Uwe Schmidt,BC Stuttgart 1891 | BF Bruchsal | BV Pforzheim,1585,-129,5,1.4,0.016,linked: opponent network confirms
-105274,Michael Martini,Martini Michael,29,1364,742,350161,Michael Martini,BSV Pfullingen,1398,-34,0,0.1,1,"linked: uncommon name, network too thin to judge"
-108792,Michael Kunz,Kunz Michael,29,1642,838,368031,Michael Kunz,BSV Konstanz,1627,15,6,0.0,9.4e-12,linked: opponent network confirms
-117678,Sabine Hort,Hort Sabine,29,1455,196,350961,Sabine Hort,BV Pforzheim,1499,-44,4,0.8,0.0077,linked: opponent network confirms
-120701,Alexander Fischer,Fischer Alexander,29,1499,116,356369,Alexander Fischer,Tübinger BC,1541,-42,9,1.2,6.1e-06,linked: opponent network confirms
-128594,Thomas Graner,Graner Thomas,29,1451,99,368856,Thomas Graner,BC Feuersee | BULL Leonberg-Höfingen,1446,5,2,0.5,0.084,"linked: uncommon name, network too thin to judge"
-131294,abdullah yesil,yesil abdullah,29,1527,95,368434,Abdullah Yesil,PP Karlsbad,1569,-42,0,0.4,1,"linked: uncommon name, network too thin to judge"
-100278,Michael Schneider,Schneider Michael,28,1732,182,368475,Michael Schneider,Pool Knights Bensheim,1613,119,1,0.5,0.41,"rejected: common surname, opponent network does not confirm"
-116848,Alexandros Vassiliadis,Vassiliadis A.,28,1577,137,104746,Alexandros Vassiliadis,PBC Aalen,1683,-106,5,1.0,0.0032,linked: opponent network confirms
-117525,Mergim Zekaj,Zekaj Mergim,28,1486,247,252972,Mergim Zekaj,PBC Pfedelbach,1534,-48,1,0.2,0.22,"linked: uncommon name, network too thin to judge"
-118404,Michal Radwan,Radwan Michal,28,1639,209,350350,Michal Radwan,BC Feuersee | BULL Leonberg-Höfingen,1573,66,4,0.6,0.0033,linked: opponent network confirms
-131335,Mike Walter,Walter Mike,28,1499,85,367987,Mike Walter,JS Mingolsheim,1485,14,2,1.0,0.27,"linked: uncommon name, network too thin to judge"
-108971,Moritz Rutkowski,Rutkowski Moritz,27,1532,390,252363,Moritz Rutkowski,CC Karlsruhe | Mannheimer BF | PBC Rastatt,1587,-55,3,0.9,0.063,"linked: uncommon name, network too thin to judge"
-116490,Andre Kroschwald,Kroschwald Andre,27,1392,495,368147,Andre Kroschwald,BC Sindelfingen,1415,-23,1,0.4,0.3,"linked: uncommon name, network too thin to judge"
-117047,Daniel Klapper,Klapper Daniel,27,1351,193,102379,Daniel Klapper,BC Sindelfingen | PP Böblingen,1347,4,2,0.7,0.14,"linked: uncommon name, network too thin to judge"
-118481,Mehmet Cankurt,Cankurt Mehmet,27,1720,199,100651,Mehmet Cankurt,Mannheimer BF,1791,-71,0,0.6,1,"linked: uncommon name, network too thin to judge"
-119333,Gerhard Gryschka,Gryschka Gerhard,27,1478,253,101528,Gerhard Gryschka,BV Pforzheim,1553,-75,6,1.0,0.00059,linked: opponent network confirms
-119898,Louise Wong,Wong Louise,27,1363,106,240316,Louise Wong,BC Feuersee | BV Leonberg,1401,-38,5,0.7,0.001,linked: opponent network confirms
-120181,Heiko Thomas,Thomas Heiko,27,1486,146,104615,Heiko Thomas,BC Feuersee,1520,-34,3,0.6,0.028,linked: opponent network confirms
-120197,Konstantin Miric,Miric Konstantin,27,1732,221,227705,Konstantin Miric,BC Sindelfingen,1645,87,1,0.0,0.044,linked: opponent network confirms
-121728,Luigi Sarullo,Sarullo Luigi,27,1602,111,250306,Luigi Sarullo,JS Mingolsheim | PBDC Kämpfelbach,1621,-19,1,1.5,0.78,"linked: uncommon name, network too thin to judge"
-119451,Hakan Söyler,Söyler Hakan,26,1418,183,368224,Hakan Söyler,BC Sindelfingen | PBC Nagoldtal,1530,-112,5,1.2,0.0075,linked: opponent network confirms
-123735,Kristan Bailey,Bailey Kristan,26,1481,109,369147,Kristan Bailey,BC Stuttgart 1891,1518,-37,1,0.1,0.13,"linked: uncommon name, network too thin to judge"
-125302,Michael Seil,Seil Michael,26,1312,157,368842,Michael Seil,BC Stuttgart 1891,1380,-68,1,0.5,0.42,"linked: uncommon name, network too thin to judge"
-125303,Brian Wright,Wright Brian,26,1407,146,368879,Brian Wright,BC Stuttgart 1891,1403,4,3,0.6,0.019,linked: opponent network confirms
-100444,Sina Yüksel,Yüksel Sina,25,1602,992,368033,Sina Yüksel,PBV Rottweil,1603,-1,0,0.1,1,"linked: uncommon name, network too thin to judge"
-117518,Benjamin Eiberger,Eiberger Benjamin,25,1574,136,100972,Benjamin Eiberger,BV Pforzheim,1611,-37,5,1.6,0.025,linked: opponent network confirms
-125357,Bayartsetseg Tsogoo,Tsogoo Bayartsetseg,25,1426,104,368807,Bayartsetseg Tsogoo,BC Stuttgart 1891,1430,-4,2,0.3,0.028,linked: opponent network confirms
-136341,Hamza BENSLIMANE,BENSLIMANE Hamza,25,1565,87,369171,Hamza Benslimane,BSV Pfullingen,1600,-35,4,0.2,4.4e-05,linked: opponent network confirms
-100030,Ismet Mehmeti,Mehmeti Ismet,24,1592,213,103044,Ismet Mehmeti,PBC Bietigheim-Bissingen,1622,-30,0,0.1,1,"linked: uncommon name, network too thin to judge"
-102777,Eric Sorg,Sorg Eric,24,1504,138,104396,Eric Sorg,BSV Shooters Fellbach | PBC Aalen,1579,-75,9,1.3,7.9e-06,linked: opponent network confirms
-116785,mete mutlu,mutlu mete,24,1565,133,369123,Mete Mutlu,PBC Nagoldtal,1612,-47,2,0.3,0.035,linked: opponent network confirms
-118625,Thomas Doussos,Doussos Thomas,24,1620,137,367960,Thomas Doussos,BC Bad Schussenried | BV Villingen-Schwenningen | PBV Rottweil,1634,-14,2,0.5,0.081,"linked: uncommon name, network too thin to judge"
-129088,Wolfgang Krüger,Krüger Wolfgang,24,1381,118,368860,Wolfgang Krüger,PF Calw,1363,18,1,0.5,0.39,"rejected: common surname, opponent network does not confirm"
-101230,Benjamin Pran,Pran Benjamin,23,1547,277,103558,Benjamin Pran,BC Neckarsulm,1634,-87,1,0.9,0.59,"linked: uncommon name, network too thin to judge"
-106771,Martin Repp,Repp Martin,23,1477,155,353143,Martin Repp,BC Sindelfingen,1471,6,6,1.0,0.0007,linked: opponent network confirms
-120710,Thomas Mooshammer,Mooshammer Thomas,23,1377,109,242747,Thomas Mooshammer,PP Böblingen,1415,-38,5,1.2,0.0088,linked: opponent network confirms
-121475,Jürgen Trost,Trost Jürgen,23,1622,284,368200,Jürgen Trost,BC Sindelfingen,1607,15,6,0.5,1.3e-05,linked: opponent network confirms
-126261,Saif Azzawi,Azzawi Saif,23,1444,171,368869,Saif Azzawi,PBC Schwäbisch Gmünd,1505,-61,2,0.2,0.015,linked: opponent network confirms
-100557,Udo Gleich,Gleich Udo,22,1472,474,101401,Udo Gleich,BC Blaustein,1484,-12,0,0.2,1,"linked: uncommon name, network too thin to judge"
-102836,Nuhid Serifovic,Serifovic Nuhid,22,1356,188,104337,Nuhid Serifovic,BC Feuersee | PP Böblingen | TV Cannstatt,1451,-95,2,0.6,0.11,"linked: uncommon name, network too thin to judge"
-117515,Peter Link,Link Peter,22,1450,226,121877,Peter Link,BC Feuersee | BSV Shooters Fellbach | TV Cannstatt,1436,14,4,0.9,0.014,linked: opponent network confirms
-120105,Farhad Shahverdi,Shahverdi Farhad,22,1523,213,160734,Farhad Shahverdi,BC Sindelfingen,1629,-106,1,0.2,0.16,"linked: uncommon name, network too thin to judge"
-120715,Goncalo Vieira Manies,Vieira Manies G.,22,1595,248,104761,Goncalo Vieira Manies,BC Sindelfingen | PF Calw,1598,-3,5,1.0,0.0033,linked: opponent network confirms
-136905,Lukas Marx,Marx Lukas,22,1431,84,368659,Lukas Marx,BC Sindelfingen | BULL Leonberg-Höfingen,1468,-37,2,0.2,0.017,linked: opponent network confirms
-119377,Mustafa Benk,Benk Mustafa,21,1591,133,100296,Mustafa Benk,PBC Bietigheim-Bissingen | TV Cannstatt,1628,-37,5,0.9,0.0022,linked: opponent network confirms
-121431,Thorsten Möhle,Möhle Thorsten,21,1524,163,368179,Thorsten Möhle,BC Sindelfingen,1516,8,0,0.3,1,"linked: uncommon name, network too thin to judge"
-127085,Thomas Krüger,Krüger Thomas,21,1426,125,102626,Thomas Krüger,BULL Leonberg-Höfingen,1422,4,6,0.8,0.00025,linked: opponent network confirms
-128775,Dominik Tonn,Tonn Dominik,21,1575,127,104642,Dominik Tonn,BV Pforzheim,1605,-30,4,0.7,0.0047,linked: opponent network confirms
-100356,Marco Schmitt,Schmitt Marco,20,1500,111,230448,Marco Schmitt,Mannheimer BF,1533,-33,1,0.3,0.27,"rejected: common surname, opponent network does not confirm"
-120673,Bruno Schuon,Schuon Bruno,20,1420,117,356163,Bruno Schuon,BSV Pfullingen,1406,14,3,0.2,0.0013,linked: opponent network confirms
-120699,Adrian Cabanillas Lora,Cabanillas Lora A.,20,1678,141,100638,Adrian Cabanillas Lora,BC Sindelfingen | BSV Shooters Fellbach | PBC Aalen | TV Cannstatt,1714,-36,5,1.0,0.0044,linked: opponent network confirms
-121751,Florian Krieg,Krieg Florian,20,1438,190,368771,Florian Krieg,BC Sindelfingen,1455,-17,0,0.1,1,"linked: uncommon name, network too thin to judge"
-131332,Thomas Kramhöller,Kramhöller Thomas,20,1663,123,102568,Thomas Kramhöller,BC Neckarsulm,1664,-1,3,0.6,0.02,linked: opponent network confirms
-131334,Markus Wörner,Wörner Markus,20,1429,101,367988,Markus Wörner,JS Mingolsheim,1528,-99,1,1.0,0.62,"linked: uncommon name, network too thin to judge"
-102548,Horst Hardtke,Hardtke Horst,19,1489,166,101670,Horst Hardtke,BC Aalen,1522,-33,0,0.4,1,"linked: uncommon name, network too thin to judge"
-103131,Manuel Klappstein,Klappstein Manuel,19,1703,113,102381,Manuel Klappstein,PBC Rastatt,1734,-31,1,0.6,0.44,"linked: uncommon name, network too thin to judge"
-108002,Henrique Barbosa,Barbosa Henrique,19,1310,309,355894,Henrique Barbosa,BSV Pfullingen,1347,-37,0,0.1,1,"linked: uncommon name, network too thin to judge"
-119714,Mark Simon,Simon Mark,19,1603,134,104363,Mark Simon,PBC Nagoldtal,1627,-24,1,0.3,0.29,"linked: uncommon name, network too thin to judge"
-121665,Sven Wezstein,Wezstein Sven,19,1528,163,240510,Sven Wezstein,PBC Bietigheim-Bissingen,1510,18,4,0.9,0.015,linked: opponent network confirms
-101728,Fabian Neglein,Neglein Fabian,18,1651,831,103306,Fabian Neglein,PBC Bad Saulgau,1739,-88,2,0.9,0.24,"linked: uncommon name, network too thin to judge"
-117517,Birger Tesnau,Tesnau Birger,18,1495,376,368012,Birger Tesnau,BC Feuersee | BC Stuttgart 1891,1563,-68,0,0.4,1,"linked: uncommon name, network too thin to judge"
-128579,Leon Schick,Schick Leon,18,1375,203,368818,Leon Schick,BC Neckarsulm,1406,-31,0,0.3,1,"linked: uncommon name, network too thin to judge"
-131238,Andreas Höhn,Höhn Andreas,18,1309,158,368283,Andreas Höhn,BC Feuersee,1330,-21,2,0.5,0.087,"linked: uncommon name, network too thin to judge"
-136475,Raphael Müller,Müller Raphael,18,1345,104,369215,Raphael Müller,BC Sindelfingen,1437,-92,0,0.1,1,"rejected: common surname, opponent network does not confirm"
-102620,Marcus Strey,Strey Marcus,17,1709,377,176381,Marcus Strey,Mannheimer BF,1701,8,0,0.1,1,"linked: uncommon name, network too thin to judge"
-108608,Michael Schulz,Schulz Michael,17,1391,1004,353693,Michael Schulz,BSV Konstanz,1491,-100,5,0.1,4.6e-08,linked: opponent network confirms
-116384,Jens Heim,Heim Jens,17,1602,543,101749,Jens Heim,PBV Schwetzingen,1690,-88,2,0.4,0.064,"linked: uncommon name, network too thin to judge"
-118406,Haydar Chehade,Chehade Haydar,17,1679,140,368540,Haydar Chehade,BBV Mannheim | Mannheimer BF,1706,-27,0,0.4,1,"linked: uncommon name, network too thin to judge"
-128564,Thomas Handler,Handler Thomas,17,1600,97,101654,Thomas Handler,BC Feuersee | BV Leonberg,1552,48,5,0.7,0.00079,linked: opponent network confirms
-103044,Ciro Guerra,Guerra Ciro,16,1339,225,144449,Ciro Guerra,BC Sindelfingen,1377,-38,0,0.4,1,"linked: uncommon name, network too thin to judge"
-108937,Emir Musinovic,Musinovic Emir,16,1260,1187,367580,Emir Musinovic,BSV Konstanz,1258,2,5,0.0,6e-10,linked: opponent network confirms
-116679,Alexandros Satrazanis,Satrazanis A.,16,1391,572,368376,Alexandros Satrazanis,BSC Göppingen,1410,-19,0,0.0,1,"linked: uncommon name, network too thin to judge"
-117247,Jonny Stojanovic,Stojanovic Jonny,16,1382,559,104508,Jonny Stojanovic,BC Stuttgart 1891,1459,-77,1,0.3,0.24,"linked: uncommon name, network too thin to judge"
-120141,Andreas Rago,Rago Andreas,16,1520,319,103598,Andreas Rago,BC Sindelfingen | PBC Nagoldtal,1517,3,5,0.6,0.00044,linked: opponent network confirms
-120170,Arno Corigliano,Corigliano Arno,16,1650,159,100719,Arno Corigliano,PBC Pfedelbach | PBC Schwäbisch Hall,1614,36,2,0.5,0.08,"linked: uncommon name, network too thin to judge"
-124544,Marc Witt,Witt Marc,16,1328,131,368598,Marc Witt,BULL Leonberg-Höfingen,1313,15,2,0.2,0.019,linked: opponent network confirms
-129273,Antonio de Gois,de Gois Sezinando A.,16,1564,135,240446,Antonio De Gois,BC Neckarsulm,1563,1,2,0.6,0.13,"linked: uncommon name, network too thin to judge"
-133083,Hoora Dabbaghian,Dabbaghian Hoora,16,1139,175,369264,Hoora Dabbaghian,BC Stuttgart 1891,1088,51,1,0.0,0.031,linked: opponent network confirms
-101080,Sabrina Hammer,Hammer Sabrina,15,1627,204,368395,Sabrina Hammer,BC Sindelfingen,1653,-26,0,0.1,1,"linked: uncommon name, network too thin to judge"
-106923,Sebastian Oswald,Oswald Sebastian,15,1556,546,103433,Sebastian Oswald,BSV Pfullingen,1533,23,1,0.2,0.21,"linked: uncommon name, network too thin to judge"
-117204,Simon Koch,Koch Simon,15,1415,439,367993,Simon Koch,BSV Filderstadt,1309,106,1,0.1,0.072,"rejected: common surname, opponent network does not confirm"
-118706,Asim Ramakic,Ramakic Asim,15,1504,252,368269,Asim Ramakic,BC Feuersee | BULL Leonberg-Höfingen,1529,-25,2,0.3,0.047,linked: opponent network confirms
-119449,Kurt Saller,Saller Kurt,15,1464,341,367959,Kurt Saller,BC Sindelfingen | PBC Nagoldtal,1512,-48,3,0.8,0.044,linked: opponent network confirms
-119920,Andreas Müller,Müller Andreas,15,1601,303,103200,Andreas Müller,BC Sindelfingen,1572,29,3,0.7,0.03,linked: opponent network confirms
-121375,Victor Rodriguez,Rodriguez Victor,15,1501,225,368241,Victor Rodriguez,BV Markdorf,1548,-47,1,0.2,0.18,"linked: uncommon name, network too thin to judge"
-125776,Andrei Deliman,Deliman Andrei,15,1489,149,249451,Andrei Deliman,PP Böblingen | VFL Herrenberg,1498,-9,0,0.6,1,"linked: uncommon name, network too thin to judge"
-136343,Bersan Cavildak,Cavildak Bersan,15,1344,125,368696,Bersan Cavildak,PP Böblingen,1339,5,1,0.0,0.033,linked: opponent network confirms
-116739,Haci Eymir,Eymir Haci,14,1557,142,368042,Haci Eymir,BC Aalen | PBC Aalen,1601,-44,1,0.4,0.33,"linked: uncommon name, network too thin to judge"
-119329,El mokhtar Draoui,Draoui El mokhtar,14,1493,422,352635,Draoui El Mokhtar,BV Pforzheim,1535,-42,5,0.8,0.0011,linked: opponent network confirms
-120843,Markus Appenowitz,Appenowitz Markus,14,1546,157,100100,Markus Appenowitz,BSV Filderstadt,1572,-26,1,0.5,0.41,"linked: uncommon name, network too thin to judge"
-121691,Dominik Tonn,Tonn Dominik,14,1521,314,104642,Dominik Tonn,BV Pforzheim,1605,-84,1,0.5,0.38,"linked: uncommon name, network too thin to judge"
-125382,Nurcan Ezdi,Ezdi Nurcan,14,1477,290,367996,Nurcan Ezdi,PBC Schwäbisch Gmünd,1490,-13,2,0.3,0.03,linked: opponent network confirms
-130639,Joshua Rinaldi Hermawan,Hermawan J.,14,1363,124,369216,Joshua Rinaldi Hermawan,BC Sindelfingen,1370,-7,0,0.0,1,"linked: uncommon name, network too thin to judge"
-102933,Manuel Letzel,Letzel Manuel,13,1611,430,248413,Manuel Letzel,PBV Schwetzingen,1703,-92,0,0.2,1,"linked: uncommon name, network too thin to judge"
-119325,Stanislaw Kretz,Kretz Stanislaw,13,1567,264,102603,Stanislaw Kretz,BV Pforzheim,1655,-88,3,0.4,0.0076,linked: opponent network confirms
-122740,Ferdinand Widjaja,Widjaja Ferdinand,13,1454,124,369102,Ferdinand Widjaja,BC Sindelfingen,1463,-9,0,0.2,1,"linked: uncommon name, network too thin to judge"
-125791,Matthias Weigl,Weigel Matthias,13,1477,189,368868,Matthias Weigl,PBC Schwäbisch Gmünd,1566,-89,2,0.1,0.0069,linked: opponent network confirms
-129234,Thomas Durst,Durst Thomas,13,1526,123,100941,Thomas Durst,BC Stuttgart 1891,1528,-2,1,0.4,0.3,"linked: uncommon name, network too thin to judge"
-131385,Samuel Schleitzer,Schleitzer Samuel,13,1617,146,369096,Samuel Schleitzer,P&S Denzlingen,1609,8,0,0.2,1,"linked: uncommon name, network too thin to judge"
-106079,Max Löhle,Löhle Max,12,1511,1000,351228,Max Löhle,PBC Bad Saulgau,1551,-40,0,0.1,1,"linked: uncommon name, network too thin to judge"
-116671,Michael Funk,Funk Michael,12,1427,847,367820,Michael Funk,BC Neckarsulm | BSV Pfullingen,1486,-59,1,0.1,0.13,"linked: uncommon name, network too thin to judge"
-117235,Philip Kammnick,Kammnick Philip,12,1528,395,368142,Philip Kammnick,BC Bad Schussenried,1518,10,1,0.3,0.29,"linked: uncommon name, network too thin to judge"
-117347,Sebastian Albrecht,Albrecht Sebastian,12,1691,306,248593,Sebastian Albrecht,BC Neckarsulm,1625,66,0,0.4,1,"linked: uncommon name, network too thin to judge"
-118626,Soner Ulucanli,Ulucanli Soner,12,1529,153,104715,Soner Ulucanli,PBV Rottweil,1564,-35,1,0.1,0.12,"linked: uncommon name, network too thin to judge"
-123724,Bernd Hauenstein,Hauenstein Bernd,12,1648,142,145388,Bernd Hauenstein,BC Aalen,1683,-35,1,0.1,0.078,"linked: uncommon name, network too thin to judge"
-127056,Antonogiorgakis Charalampos,Charalampos A.,12,1380,151,100092,Charalampos Antonogiorgakis,BULL Leonberg-Höfingen,1360,20,1,0.2,0.21,"linked: uncommon name, network too thin to judge"
-131788,Marouen Marzouki,Marzouki Marouen,12,1344,143,369015,Marouen Marzouki,BC Stuttgart 1891,1350,-6,4,0.2,2.3e-05,linked: opponent network confirms
-101657,Gary Wong,Wong Gary,11,1548,994,105109,Gary Wong,PBC Schwäbisch Gmünd,1543,5,2,0.2,0.023,linked: opponent network confirms
-104989,Ingo Nassall,Nassall Ingo,11,1641,228,103289,Ingo Nassall,BV Pforzheim | PBC Rastatt | PP Karlsbad,1662,-21,1,0.4,0.33,"linked: uncommon name, network too thin to judge"
-117275,Fabian Snijder,Snijder Fabian,11,1517,236,244727,Fabian Snijder,Mannheimer BF,1685,-168,3,0.5,0.017,linked: opponent network confirms
-117337,Hartmut Jäggle,Jäggle Hartmut,11,1539,509,252672,Hartmut Jäggle,PBC Bad Saulgau,1573,-34,0,0.1,1,"linked: uncommon name, network too thin to judge"
-118649,Peter Link,Link Peter,11,1369,251,121877,Peter Link,BC Feuersee | BSV Shooters Fellbach | TV Cannstatt,1436,-67,1,0.4,0.35,"linked: uncommon name, network too thin to judge"
-120030,Stefan Duttlinger,Duttlinger Stefan,11,1676,399,100945,Stefan Duttlinger,BSV Tiengen,1710,-34,0,0.1,1,"linked: uncommon name, network too thin to judge"
-125811,Pascal Sanna,Sanna Pascal,11,1559,223,252214,Pascal Sanna,PBC Freudenstadt,1546,13,1,0.4,0.31,"linked: uncommon name, network too thin to judge"
-131453,Muho Dizdarevic,Dizdarevic Muho,11,1602,134,369273,Muho Dizdarevic,BULL Leonberg-Höfingen,1592,10,0,0.0,1,"linked: uncommon name, network too thin to judge"
-136390,Markus König,König Markus,11,1525,134,102497,Markus König,BSV Filderstadt | BSV Pfullingen | PBC Bad Saulgau,1552,-27,4,0.2,7.4e-05,linked: opponent network confirms
-104073,Marc Wagner,Wagner Marc,10,1452,231,163715,Marc Wagner,BC Blaustein,1512,-60,0,0.3,1,"rejected: common surname, opponent network does not confirm"
-106139,Orhan Cetin,Cetin Orhan,10,1546,362,100679,Orhan Cetin,BSV Pfullingen,1565,-19,3,0.3,0.0039,linked: opponent network confirms
-108242,Homayoun Nikzat,Nikzat Homayoun,10,1429,1261,351710,Homayoun Nikzat,BSV Konstanz,1431,-2,5,0.0,3.9e-10,linked: opponent network confirms
-118218,David Galwas,Galwas David,10,1622,354,247955,David Galwas,PBC Freudenstadt,1588,34,1,0.5,0.38,"linked: uncommon name, network too thin to judge"
-118709,Alexander Srp,Srp Alexander,10,1613,397,368041,Alexander Srp,BC Feuersee,1551,62,1,0.1,0.13,"linked: uncommon name, network too thin to judge"
-118793,Pavlos Korezelidis,Korezelidis Pavlos,10,1487,171,102525,Pavlos Korezelidis,BBC Plochingen,1523,-36,2,0.3,0.035,linked: opponent network confirms
-119330,Andreas Schmid,Schmid Andreas,10,1500,503,242888,Andreas Schmid,PBC Nagoldtal,1532,-32,0,0.2,1,"linked: uncommon name, network too thin to judge"
-120053,Edis Eminovic,Eminovic Edis,10,1224,703,368496,Edis Eminovic,BC Sindelfingen,1216,8,0,0.0,1,"linked: uncommon name, network too thin to judge"
-120054,Enis Eminovic,Eminovic Enis,10,1315,668,368495,Enis Eminovic,BC Sindelfingen,1302,13,0,0.1,1,"linked: uncommon name, network too thin to judge"
-120177,Mergim Zekaj,Zekaj Mergim,10,1535,169,252972,Mergim Zekaj,PBC Pfedelbach,1534,1,0,0.1,1,"linked: uncommon name, network too thin to judge"
-121508,Maxim Buchstab,Buchstab Maxim,10,1444,409,351923,Maxim Buchstab,PBC Schwäbisch Gmünd,1528,-84,0,0.4,1,"linked: uncommon name, network too thin to judge"
-122146,Lothar Hirsch,Hirsch Lothar,10,1276,240,368409,Lothar Hirsch,PBC Bietigheim-Bissingen,1349,-73,1,0.2,0.19,"linked: uncommon name, network too thin to judge"
-125331,Haydar Chehade,Chehade Haydar,10,1563,192,368540,Haydar Chehade,BBV Mannheim | Mannheimer BF,1706,-143,1,0.3,0.29,"linked: uncommon name, network too thin to judge"
-129235,Philipp Kibele,Kibele Philipp,10,1657,291,368811,Philipp Kibele,TV Cannstatt,1709,-52,1,0.3,0.25,"linked: uncommon name, network too thin to judge"
-102334,Florian Pasch,Pasch Florian,9,1540,1600,249359,Florian Pasch,PF Calw,1530,10,1,0.2,0.21,"linked: uncommon name, network too thin to judge"
-116383,Heiko Hoffmann,Hoffmann Heiko,9,1583,1675,101926,Heiko Hoffmann,PBV Schwetzingen,1640,-57,1,0.3,0.26,"rejected: common surname, opponent network does not confirm"
-118485,Achim Stoll,Stoll Achim,9,1364,533,245471,Achim Stoll,BSV Filderstadt,1354,10,0,0.2,1,"linked: uncommon name, network too thin to judge"
-119531,Jonny Stojanovic,Stojanovic Jonny,9,1473,460,104508,Jonny Stojanovic,BC Stuttgart 1891,1459,14,1,0.1,0.095,"linked: uncommon name, network too thin to judge"
-121480,Maximilian Jentsch,Jentsch Maximilian,9,1466,206,242922,Maximilian Jentsch,PBC Aalen,1528,-62,2,0.3,0.03,linked: opponent network confirms
-122573,Markus Buck,Buck Markus,9,1696,150,100570,Markus Buck,BSC Göppingen,1754,-58,1,0.1,0.13,"linked: uncommon name, network too thin to judge"
-131410,Andreas Picl,Picl Andreas,9,1439,150,369169,Andreas Picl,CC Karlsruhe,1489,-50,0,0.0,1,"linked: uncommon name, network too thin to judge"
-101455,Steven Thieltges,Thieltges Steven,8,1536,1067,104607,Steven Thieltges,PBC Bietigheim-Bissingen,1594,-58,0,0.2,1,"linked: uncommon name, network too thin to judge"
-102778,Stephan Mahler,Mahler Stephan,8,1490,202,368206,Stephan Mahler,BC Aalen,1514,-24,1,0.1,0.063,"linked: uncommon name, network too thin to judge"
-107698,Bruno Schuon,Schuon Bruno,8,1420,860,356163,Bruno Schuon,BSV Pfullingen,1406,14,2,0.2,0.01,linked: opponent network confirms
-116724,Zlatko Rosin,Rosin Zlatko,8,1460,362,102551,Zlatko Rosin,BC Aalen,1549,-89,2,0.2,0.014,linked: opponent network confirms
-118341,Ruben Winkler,Winkler Ruben,8,1644,676,105049,Ruben Winkler,PBC Schwäbisch Hall,1692,-48,0,0.2,1,"linked: uncommon name, network too thin to judge"
-118546,Bernd Hauenstein,Hauenstein Bernd,8,1634,600,145388,Bernd Hauenstein,BC Aalen,1683,-49,1,0.1,0.13,"linked: uncommon name, network too thin to judge"
-121484,Joshua Bartsch,Bartsch Joshua,8,1368,271,368236,Joshua Bartsch,PBC Aalen,1432,-64,2,0.3,0.036,linked: opponent network confirms
-122703,Christina Schneider-Radunovic,Schneider-Radunovic C.,8,1592,306,159294,Christina Schneider-Radunovic,BC Sindelfingen,1606,-14,1,0.1,0.087,"linked: uncommon name, network too thin to judge"
-128589,Hakan Söyler,Söyler Hakan,8,1496,162,368224,Hakan Söyler,BC Sindelfingen | PBC Nagoldtal,1530,-34,3,0.5,0.016,linked: opponent network confirms
-128997,Adhurim Tafa,Tafa Adhurim,8,1536,193,368651,Adhurim Tafa,BSC Göppingen,1550,-14,0,0.1,1,"linked: uncommon name, network too thin to judge"
-100211,Tayfun Teber,Teber Tayfun,7,1761,1440,231078,Tayfun Teber,,1751,10,0,0.0,1,"linked: uncommon name, network too thin to judge"
-104233,Steffen Mämecke,Mämecke Steffen,7,1533,1850,175895,Steffen Mämecke,JS Mingolsheim,1622,-89,1,0.1,0.11,"linked: uncommon name, network too thin to judge"
-104913,Marco Huber,Huber Marco,7,1503,812,102013,Marco Huber,BV Pforzheim,1526,-23,1,0.3,0.25,"rejected: common surname, opponent network does not confirm"
-116680,Martin Doster,Doster Martin,7,1642,191,100904,Martin Doster,BSC Göppingen,1577,65,1,0.2,0.18,"linked: uncommon name, network too thin to judge"
-116681,Stefan Lorenz,Lorenz Stefan,7,1415,1190,366176,Stefan Lorenz,BC Sindelfingen | PBC Nagoldtal,1523,-108,0,0.1,1,"linked: uncommon name, network too thin to judge"
-116700,Bruno Steinbach,Steinbach Bruno,7,1287,1476,368061,Bruno Steinbach,Tübinger BC,1401,-114,3,0.1,0.00045,linked: opponent network confirms
-117522,Rainer Seemann,Seemann Rainer,7,1486,951,104299,Rainer Seemann,PBC Schwäbisch Hall,1551,-65,0,0.1,1,"linked: uncommon name, network too thin to judge"
-117526,Florian Staud,Staud Florian,7,1529,953,245634,Florian Staud,PBC Nagoldtal,1547,-18,0,0.2,1,"linked: uncommon name, network too thin to judge"
-118268,Pran Damir,Damir Pran,7,1474,170,103559,Damir Pran,BC Neckarsulm,1486,-12,0,0.1,1,"linked: uncommon name, network too thin to judge"
-118547,Andreas Augustin,Augustin Andreas,7,1562,696,100122,Andreas Augustin,BC Aalen,1632,-70,1,0.3,0.25,"linked: uncommon name, network too thin to judge"
-119426,Aleksander Diachkov,Diachkov Aleksander,7,1672,801,368352,Aleksander Diachkov,BULL Leonberg-Höfingen | BV Pforzheim,1655,17,3,0.2,0.0018,linked: opponent network confirms
-119866,Peter Restle,Restle Peter,7,1431,339,157028,Peter Restle,BSV Pfullingen,1445,-14,1,0.2,0.17,"linked: uncommon name, network too thin to judge"
-119867,Guido Ulmer,Ulmer Guido,7,1518,605,350160,Guido Ulmer,BSV Pfullingen | PBC Reutlingen,1429,89,3,0.2,0.00067,linked: opponent network confirms
-120758,Gordon Fenske,Fenske Gordon,7,1416,338,101114,Gordon Fenske,PBDC Kämpfelbach | PP Karlsbad,1527,-111,0,0.3,1,"linked: uncommon name, network too thin to judge"
-121373,Mehmet Kirli,Kirli Mehmet,7,1466,310,102361,Mehmet Kirli,PBC Schwäbisch Gmünd,1567,-101,2,0.3,0.033,linked: opponent network confirms
-121374,Maxim Buchstab,Buchstab Maxim,7,1592,549,351923,Maxim Buchstab,PBC Schwäbisch Gmünd,1528,64,0,0.1,1,"linked: uncommon name, network too thin to judge"
-121407,Kevin Schieber,Schieber Kevin,7,1388,313,368289,Kevin Schieber,BC Feuersee | BV Leonberg,1454,-66,1,0.2,0.18,"linked: uncommon name, network too thin to judge"
-121663,Yilmaz Bulut,Bulut Yilmaz,7,1407,292,368408,Yilmaz Bulut,PBC Bietigheim-Bissingen,1469,-62,0,0.1,1,"rejected: common surname, opponent network does not confirm"
-122409,Daniel Zmalec,Zmalec Daniel,7,1813,614,105234,Daniel Zmalec,PBC Bietigheim-Bissingen,1575,238,2,0.4,0.055,"linked: uncommon name, network too thin to judge"
-122742,Josip Ceko,Ceko Josip,7,1460,207,368208,Josip Ceko,PBC Aalen | TV Cannstatt,1571,-111,0,0.2,1,"linked: uncommon name, network too thin to judge"
-125812,Sebastian Scherbinin,Scherbinin Sebastian,7,1422,265,368579,Sebastian Scherbinin,PBC Freudenstadt,1555,-133,0,0.2,1,"linked: uncommon name, network too thin to judge"
-129280,Tien Tan Nguyen,Nguyen Tien Tan,7,1396,184,369027,Tien Tan Nguyen,BC Stuttgart 1891,1457,-61,1,0.0,0.035,linked: opponent network confirms
-130505,Ralf Kempermann,Kempermann Ralf,7,1540,244,102294,Ralf Kempermann,JS Mingolsheim | PBV Schwetzingen,1583,-43,1,0.3,0.25,"linked: uncommon name, network too thin to judge"
-131785,Markus Löscher,Löscher Markus,7,1640,229,368505,Markus Löscher,BSV Shooters Fellbach | TV Cannstatt,1503,137,0,0.3,1,"linked: uncommon name, network too thin to judge"
-133034,Catalin Damian,Damian Catalin,7,1297,184,368419,Catalin Damian,BC Feuersee,1429,-132,0,0.2,1,"linked: uncommon name, network too thin to judge"
-101749,Markus Appenowitz,Appenowitz Markus,6,1549,777,100100,Markus Appenowitz,BSV Filderstadt,1572,-23,2,0.2,0.011,linked: opponent network confirms
-101839,Dominik Krenzer,Krenzer Dominik,6,1391,219,246406,Dominik Krenzer,BULL Leonberg-Höfingen | PP Böblingen,1457,-66,0,0.1,1,"linked: uncommon name, network too thin to judge"
-105190,Sandra Ortner,Ortner Sandra,6,1565,1173,368973,Sandra Ortner,PBC Bad Saulgau,1454,111,0,0.0,1,"linked: uncommon name, network too thin to judge"
-116464,Jonny Knapp,Knapp Jonny,6,1480,1843,356371,Jonny Knapp,BC Neckarsulm,1533,-53,0,0.3,1,"linked: uncommon name, network too thin to judge"
-119428,Jens Murat,Murat Jens,6,1579,342,368353,Jens Murat,BV Pforzheim,1470,109,0,0.2,1,"linked: uncommon name, network too thin to judge"
-120674,Carlo Frasch,Frasch Carlo,6,1501,169,242969,Carlo Frasch,PP Böblingen,1402,99,1,0.0,0.03,linked: opponent network confirms
-121481,Christin Jentsch,Jentsch Christin,6,1390,491,368312,Christin Jentsch,PBC Aalen,1359,31,0,0.1,1,"linked: uncommon name, network too thin to judge"
-121570,Marek Adam,Adam Marek,6,1659,580,100014,Marek Adam,PBC Waghäusel | PBV Schwetzingen,1732,-73,0,0.1,1,"linked: uncommon name, network too thin to judge"
-122700,Christian Thanner,Thanner Christian,6,1320,550,368394,Christian Thanner,BC Feuersee | BC Sindelfingen,1323,-3,0,0.1,1,"linked: uncommon name, network too thin to judge"
-123210,Daniel Christoph,Christoph Daniel,6,1222,499,368321,Daniel Christoph,BV Pforzheim,1289,-67,0,0.1,1,"linked: uncommon name, network too thin to judge"
-127061,Matthis Meier,Meier Matthis,6,1365,229,368733,Matthis Meier,BULL Leonberg-Höfingen,1301,64,1,0.0,0.026,linked: opponent network confirms
-128714,Marius Schrimpf,Schrimpf Marius,6,1560,204,353792,Marius Schrimpf,BBC Plochingen,1588,-28,0,0.1,1,"linked: uncommon name, network too thin to judge"
-128772,Andreas Augustin,Augustin Andreas,6,1549,202,100122,Andreas Augustin,BC Aalen,1632,-83,1,0.1,0.14,"linked: uncommon name, network too thin to judge"
-129112,Felix Böck,Böck Felix,6,1501,239,368413,Felix Böck,PBC Bietigheim-Bissingen,1555,-54,1,0.2,0.19,"linked: uncommon name, network too thin to judge"
-129279,Tien Dat Le,Le Tien Dat,6,1455,186,368960,Tien Dat Le,BC Stuttgart 1891,1442,13,2,0.1,0.0086,linked: opponent network confirms
-132990,Thomas Wochner,Wochner Thomas,6,1590,208,105087,Thomas Wochner,P&S Denzlingen,1553,37,0,0.0,1,"linked: uncommon name, network too thin to judge"
-136424,Wadea Al Mahamid,Al Mahamid Wadea,6,1551,187,349790,Wadea Al Mahamid,Tübinger BC,1657,-106,2,0.2,0.015,linked: opponent network confirms
-136593,Jürgen Müller,Müller Jürgen,6,1307,192,240215,Jürgen Müller,JS Mingolsheim | PBC Rastatt,1480,-173,0,0.0,1,"rejected: common surname, opponent network does not confirm"
-100911,Martin Burmeister,Burmeister Martin,5,1516,1698,240266,Martin Burmeister,BC Sindelfingen,1586,-70,0,0.0,1,"linked: uncommon name, network too thin to judge"
-101619,Sercan Özdemir,Özdemir Sercan,5,1579,1767,103444,Sercan Özdemir,PP Böblingen,1623,-44,1,0.2,0.17,"linked: uncommon name, network too thin to judge"
-101929,Oliver Hauke,Hauke Oliver,5,1554,2083,248741,Oliver Hauke,PF Calw,1554,0,2,0.3,0.027,linked: opponent network confirms
-103716,Tom Mischner,Mischner Tom,5,1555,1589,367928,Tom Mischner,PBC Langenargen,1507,48,1,0.1,0.13,"linked: uncommon name, network too thin to judge"
-106243,Sander Damrau,Damrau Sander,5,1485,1414,351689,Sander Damrau,BSV Pfullingen,1502,-17,1,0.0,0.03,linked: opponent network confirms
-108458,Anil Celikbilek,Celikbilek Anil,5,1449,2134,355903,Anil Celikbilek,PBC Pfedelbach,1483,-34,0,0.1,1,"linked: uncommon name, network too thin to judge"
-116592,Andreas Tschinkel,Tschinkel Andreas,5,1487,1359,368034,Andreas Tschinkel,BBC Plochingen,1525,-38,0,0.1,1,"linked: uncommon name, network too thin to judge"
-116698,Florian Stubert,Stubert Florian,5,1481,1576,252917,Florian Stubert,BSV Filderstadt,1535,-54,0,0.1,1,"linked: uncommon name, network too thin to judge"
-117009,Gerhard Koch,Koch Gerhard,5,1607,1051,102460,Gerhard Koch,TV Cannstatt,1365,242,0,0.0,1,"rejected: common surname, opponent network does not confirm"
-118055,Johanna Indlekofer,Indlekofer Johanna,5,1621,830,253498,Johanna Indlekofer,BC Dreiländereck | BSV Tiengen,1630,-9,0,0.1,1,"linked: uncommon name, network too thin to judge"
-118466,Udo Kirchgeßner,Kirchgeßner Udo,5,1502,751,102352,Udo Kirchgeßner,PBC Waghäusel,1650,-148,0,0.1,1,"linked: uncommon name, network too thin to judge"
-119228,Bünyamin Öner,Öner Bünyamin,5,1375,1038,368356,Bünyamin Öner,,1303,72,1,0.0,0.0037,linked: opponent network confirms
-119450,Sven Schulz,Schulz Sven,5,1457,947,368222,Sven Schulz,PBC Nagoldtal,1487,-30,0,0.1,1,"rejected: common surname, opponent network does not confirm"
-119459,Peter Stadelmaier,Stadelmaier Peter,5,1523,891,366961,Peter Stadelmaier,BV Pforzheim,1458,65,1,0.1,0.075,"linked: uncommon name, network too thin to judge"
-119523,Carlos Weber,Weber Carlos,5,1404,891,242287,Carlos Weber,BV Pforzheim,1455,-51,2,0.1,0.0021,linked: opponent network confirms
-119538,Norman Wagner,Wagner Norman,5,1512,742,368431,Norman Wagner,BC Weingarten,1521,-9,0,0.1,1,"rejected: common surname, opponent network does not confirm"
-120038,Timur Susuz,Susuz Timur,5,1447,191,253141,Timur Susuz,BC Aalen | PBC Aalen,1514,-67,1,0.2,0.18,"linked: uncommon name, network too thin to judge"
-120714,Ingo Mann,Mann Ingo,5,1409,627,242957,Ingo Mann,BC Sindelfingen,1425,-16,1,0.2,0.21,"linked: uncommon name, network too thin to judge"
-120716,Mario Kraus,Kraus Mario,5,1334,741,368514,Mario Kraus,BSV Pfullingen,1306,28,0,0.1,1,"linked: uncommon name, network too thin to judge"
-122543,Konrad Bau,Bau Konrad,5,1468,563,240143,Konrad Bau,Tübinger BC,1539,-71,1,0.1,0.13,"linked: uncommon name, network too thin to judge"
-123721,Matthias Ludersdorfer,Ludersdorfer M.,5,1594,497,102864,Matthias Ludersdorfer,Tübinger BC,1648,-54,1,0.0,0.03,linked: opponent network confirms
-128257,Dragan Pajovic,Pajovic Dragan,5,1387,396,368773,Dragan Pajovic,BC Sindelfingen,1407,-20,0,0.1,1,"linked: uncommon name, network too thin to judge"
-128651,Besirat Fekadu,Fekadu Besirat,5,1443,210,368182,Besirat Fekadu,BSC Göppingen,1466,-23,1,0.2,0.18,"linked: uncommon name, network too thin to judge"
-130591,Tobias Reisner,Reisner Tobias,5,1521,288,368827,Tobias Reisner,PBC Aalen,1520,1,2,0.1,0.0043,linked: opponent network confirms
-131211,Martin Seyfer,Seyfer Martin,5,1530,279,369119,Martin Seyfer,CC Karlsruhe,1532,-2,0,0.0,1,"linked: uncommon name, network too thin to judge"
-132948,Darius Skowronek,Skowronek Darius,5,1704,233,104376,Darius Skowronek,BF Bruchsal | CC Karlsruhe,1632,72,0,0.3,1,"linked: uncommon name, network too thin to judge"
-136547,Alexander Gaffal,Gaffal Alexander,5,1434,182,369205,Alexander Gaffal,TV Cannstatt,1425,9,0,0.0,1,"linked: uncommon name, network too thin to judge"
-136592,Samir Javor,Javor Samir,5,1288,200,367938,Samir Javor,BC Bad Schussenried,1290,-2,0,0.0,1,"linked: uncommon name, network too thin to judge"
-136706,Hoai Tu Anh Nguyen,Nguyen Hoai Tu Anh,5,1407,187,369029,Hoai Tu Anh Nguyen,PBC Offenburg,1284,123,0,0.0,1,"rejected: common surname, opponent network does not confirm"
-136773,Nikola Mitrovic,Mitrovic Nikola,5,1478,173,369254,Nikola Mitrovic,,1579,-101,0,0.0,1,"linked: uncommon name, network too thin to judge"
-136914,Nicholas Hoeldtke,Hoeldtke Nicholas,5,1345,175,369263,Nicholas Hoeldtke,BC Stuttgart 1891,1373,-28,0,0.0,1,"linked: uncommon name, network too thin to judge"
-137348,Claudio Severino,Severino Claudio,5,1561,147,369214,Claudio Severino,Tübinger BC,1470,91,0,0.0,1,"linked: uncommon name, network too thin to judge"
-100021,Christian Brehme,Brehme Christian,4,1646,1694,100511,Christian Brehme,,1776,-130,0,0.1,1,"linked: uncommon name, network too thin to judge"
-100934,Sven Deschner,Deschner Sven,4,1632,2073,104770,Sven Deschner,BV Villingen-Schwenningen,1655,-23,0,0.1,1,"linked: uncommon name, network too thin to judge"
-102781,Jens Clemens,Clemens Jens,4,1464,242,368100,Jens Clemens,BC Aalen,1499,-35,0,0.0,1,"linked: uncommon name, network too thin to judge"
-107041,Jürgen Götting,Götting Jürgen,4,1458,2252,353633,Jürgen Götting,BF Bruchsal | JS Mingolsheim,1492,-34,0,0.2,1,"linked: uncommon name, network too thin to judge"
-107426,Vanja Nikolic,Nikolic Vanja,4,1528,2063,367986,Vanja Nikolic,BC Sindelfingen,1556,-28,0,0.1,1,"linked: uncommon name, network too thin to judge"
-116696,alexandros satrazanis,satrazanis a.,4,1210,2219,368376,Alexandros Satrazanis,BSC Göppingen,1410,-200,0,0.0,1,"linked: uncommon name, network too thin to judge"
-116744,Frank Schwenk,Schwenk Frank,4,1396,747,242796,Frank Schwenk,BSC Göppingen,1511,-115,1,0.1,0.13,"linked: uncommon name, network too thin to judge"
-117271,Joao Rodrigues,Rodrigues Joao,4,1355,1117,251775,Joao Rodrigues,BSV Pfullingen,1512,-157,1,0.1,0.12,"linked: uncommon name, network too thin to judge"
-118215,Patrik Meyer,Meyer Patrik,4,1618,1149,103122,Patrik Meyer,PBC Offenburg,1582,36,0,0.0,1,"rejected: common surname, opponent network does not confirm"
-118387,Gerd Friedl,Friedl Gerd,4,1335,770,368211,Gerd Friedl,BSC Göppingen | PBC Aalen,1432,-97,0,0.0,1,"linked: uncommon name, network too thin to judge"
-118492,Marius Schrimpf,Schrimpf Marius,4,1572,1127,353792,Marius Schrimpf,BBC Plochingen,1588,-16,0,0.1,1,"linked: uncommon name, network too thin to judge"
-118527,Serdar Tunbek,Tunbek Serdar,4,1559,1241,239648,Serdar Tunbek,Mannheimer BF,1618,-59,0,0.1,1,"linked: uncommon name, network too thin to judge"
-120058,Thomas Kühn,Kühn Thomas,4,1498,878,239654,Thomas Kühn,Mannheimer BF,1555,-57,0,0.2,1,"linked: uncommon name, network too thin to judge"
-120166,Gerold Birmili,Birmili Gerold,4,1492,608,353993,Gerold Birmili,BC Sindelfingen,1455,37,1,0.1,0.1,"linked: uncommon name, network too thin to judge"
-120180,Irina Wörle,Wörle Irina,4,1205,1138,368905,Irina Wörle,BC Sindelfingen,1330,-125,0,0.0,1,"linked: uncommon name, network too thin to judge"
-120709,Dietmar Karoli,Karoli Dietmar,4,1549,803,349809,Dietmar Karoli,Tübinger BC,1409,140,0,0.0,1,"linked: uncommon name, network too thin to judge"
-121167,Patrik Meyer,Meyer Patrik,4,1573,697,103122,Patrik Meyer,PBC Offenburg,1582,-9,0,0.0,1,"rejected: common surname, opponent network does not confirm"
-121516,Frank Bernd Wieczorek,Wieczorek F.,4,1363,612,350685,Frank-Bernd Wieczorek,BC Sindelfingen | PBC Pfedelbach,1316,47,0,0.2,1,"linked: uncommon name, network too thin to judge"
-127060,Diego Meier,Meier Diego,4,1395,411,368841,Diego Meier,BULL Leonberg-Höfingen,1225,170,1,0.0,0.034,linked: opponent network confirms
-127537,Michael Strohmaier,Strohmaier Michael,4,1465,305,104546,Michael Strohmaier,BSV Tiengen,1599,-134,0,0.2,1,"linked: uncommon name, network too thin to judge"
-128626,Fersun Ünsel,Ünsel Fersun,4,1569,253,368688,Fersun Ünsel,Mannheimer BF,1582,-13,0,0.0,1,"linked: uncommon name, network too thin to judge"
-130589,Philip Gamerdinger,Gamerdinger Philip,4,1455,219,368138,Philip Gamerdinger,BC Aalen,1435,20,0,0.1,1,"linked: uncommon name, network too thin to judge"
-131321,Asmir Sinanovic,Sinanovic Asmir,4,1347,289,104365,Asmir Sinanovic,PBC Freudenstadt,1387,-40,0,0.1,1,"linked: uncommon name, network too thin to judge"
-131322,Armin Stauß,Stauß Armin,4,1459,314,104434,Armin Stauß,PBC Freudenstadt,1532,-73,0,0.1,1,"linked: uncommon name, network too thin to judge"
-131349,Tafa Adhurim,Adhurim Tafa,4,1480,202,368651,Adhurim Tafa,BSC Göppingen,1550,-70,0,0.0,1,"linked: uncommon name, network too thin to judge"
-131607,Jörg Wolf,Wolf Jörg,4,1373,278,368044,Jörg Wolf,BC Dreiländereck | PBC Offenburg,1445,-72,0,0.2,1,"rejected: common surname, opponent network does not confirm"
-132977,Mark Szinger,Szinger Mark,4,1473,242,368616,Mark Szinger,BV Villingen-Schwenningen,1437,36,0,0.1,1,"linked: uncommon name, network too thin to judge"
-136598,Dominic Seeger,Seeger Dominic,4,1513,201,245236,Dominic Seeger,BC Feuersee,1434,79,0,0.0,1,"linked: uncommon name, network too thin to judge"
-136688,Adham Mohamed,Mohamed Adham,4,1553,162,369124,Adham Mohamed,Tübinger BC,1556,-3,1,0.0,0.036,linked: opponent network confirms
-136819,Kevin Adamczyk,Adamczyk Kevin,4,1538,185,251815,Kevin Adamczyk,BC Aalen,1599,-61,1,0.2,0.18,"linked: uncommon name, network too thin to judge"
-136857,Alfred Stöcklein,Stöcklein Alfred,4,1476,172,368008,Alfred Stöcklein,BC Sindelfingen,1517,-41,0,0.0,1,"linked: uncommon name, network too thin to judge"
-136877,Jürgen Baumgärtner,Baumgärtner Jürgen,4,1705,192,367913,Jürgen Baumgärtner,BC Aalen,1659,46,0,0.1,1,"linked: uncommon name, network too thin to judge"
-136896,SVEN DASTIG,DASTIG SVEN,4,1438,179,369089,Sven Dastig,PBC Bietigheim-Bissingen,1481,-43,0,0.0,1,"linked: uncommon name, network too thin to judge"
-137015,Yvonne Boos,Boos Yvonne,4,1317,181,369103,Yvonne Boos,BC Sindelfingen,1206,111,0,0.1,1,"linked: uncommon name, network too thin to judge"
-137349,Partha Ghosh,Ghosh Partha,4,1464,165,368821,Partha Ghosh,Tübinger BC,1519,-55,2,0.1,0.004,linked: opponent network confirms
-100398,Jörg Laupitz,Laupitz Jörg,3,1504,2260,102744,Jörg Laupitz,PBC Nagoldtal,1557,-53,0,0.1,1,"linked: uncommon name, network too thin to judge"
-101150,Philip Smaczny,Smaczny Philip,3,1443,2096,351326,Philip Smaczny,PP Böblingen,1599,-156,1,0.1,0.051,"linked: uncommon name, network too thin to judge"
-101813,Armin Stauß,Stauß Armin,3,1503,2616,104434,Armin Stauß,PBC Freudenstadt,1532,-29,0,0.1,1,"linked: uncommon name, network too thin to judge"
-102587,Wolfgang Siethoff,Siethoff Wolfgang,3,1570,2345,104353,Wolfgang Siethoff,PF Calw | VFL Herrenberg,1569,1,0,0.1,1,"linked: uncommon name, network too thin to judge"
-103659,Gerald Kny,Kny Gerald,3,1558,2692,102445,Gerald Kny,BV Pforzheim,1651,-93,1,0.0,0.016,linked: opponent network confirms
-105307,Ivan Franz,Franz Ivan,3,1493,2573,248468,Ivan Franz,CC Karlsruhe,1468,25,0,0.0,1,"linked: uncommon name, network too thin to judge"
-106630,Silke Brand,Brand Silke,3,1367,1948,100481,Silke Brand,BC Stuttgart 1891,1477,-110,0,0.1,1,"linked: uncommon name, network too thin to judge"
-106742,Andreas Jörg,Jörg Andreas,3,1485,2829,102134,Andreas Jörg,BBC Plochingen,1626,-141,0,0.0,1,"linked: uncommon name, network too thin to judge"
-108414,Julian Tremmel,Tremmel Julian,3,1367,2416,354166,Julian Tremmel,BSV Konstanz,1458,-91,2,0.0,0.00011,linked: opponent network confirms
-116674,Stefan Süß,Süß Stefan,3,1403,2247,368118,Stefan Süß,BSF Kurpfalz | Mannheimer BF,1515,-112,1,0.1,0.063,"linked: uncommon name, network too thin to judge"
-116852,Thorsten Holatka,Holatka Thorsten,3,1529,1404,101952,Thorsten Holatka,BV Pforzheim,1585,-56,1,0.1,0.11,"linked: uncommon name, network too thin to judge"
-118265,Robert Karaica,Karaica Robert,3,1461,1274,368098,Robert Karaica,BC Aalen,1679,-218,0,0.0,1,"linked: uncommon name, network too thin to judge"
-120126,Michael Brüll,Brüll Michael,3,1364,673,103487,Michael Brüll,BC Stuttgart 1891,1504,-140,0,0.0,1,"linked: uncommon name, network too thin to judge"
-121551,Vladislav Hebel,Hebel Vladislav,3,1555,802,101723,Vladislav Hebel,PBC Offenburg,1728,-173,0,0.0,1,"linked: uncommon name, network too thin to judge"
-122542,Roland Wacker,Wacker Roland,3,1379,710,104819,Roland Wacker,PBC Reutlingen | Tübinger BC,1585,-206,1,0.1,0.13,"linked: uncommon name, network too thin to judge"
-122702,Massimo Miccoli,Miccoli Massimo,3,1518,660,103127,Massimo Miccoli,BC Sindelfingen,1609,-91,2,0.1,0.0065,linked: opponent network confirms
-125347,Ihor Lialin,Lialin Ihor,3,1650,568,368257,Ihor Lialin,BSV Tiengen,1677,-27,0,0.0,1,"linked: uncommon name, network too thin to judge"
-128600,Hakan Söyler,Söyler Hakan,3,1450,238,368224,Hakan Söyler,BC Sindelfingen | PBC Nagoldtal,1530,-80,0,0.1,1,"linked: uncommon name, network too thin to judge"
-128873,Frank Vollath,Vollath Frank,3,1418,483,368761,Frank Vollath,TV Cannstatt,1381,37,0,0.1,1,"linked: uncommon name, network too thin to judge"
-129269,Benjamin Pran,Pran Benjamin,3,1488,393,103558,Benjamin Pran,BC Neckarsulm,1634,-146,0,0.1,1,"linked: uncommon name, network too thin to judge"
-129270,Rouven Elischer,Elischer Rouven,3,1480,388,250899,Rouven Elischer,BC Neckarsulm,1601,-121,1,0.2,0.19,"linked: uncommon name, network too thin to judge"
-130618,Peter Gerlach,Gerlach Peter,3,1486,357,368707,Peter Gerlach,PBC Aalen,1359,127,2,0.1,0.0022,linked: opponent network confirms
-131281,Timm Ganske,Ganske Timm,3,1586,338,368832,Timm Ganske,CC Karlsruhe,1485,101,0,0.1,1,"linked: uncommon name, network too thin to judge"
-131787,Alexandru-Nicolae Baniceru,Baniceru A.,3,1423,311,369014,Alexandru-Nicolae Baniceru,BC Stuttgart 1891,1404,19,0,0.0,1,"linked: uncommon name, network too thin to judge"
-132873,Yao Wang,Wang Yao,3,1375,286,368109,Yao Wang,BC Feuersee | BC Stuttgart 1891,1453,-78,0,0.1,1,"linked: uncommon name, network too thin to judge"
-132966,Arno. Corigliano,Corigliano Arno.,3,1529,265,100719,Arno Corigliano,PBC Pfedelbach | PBC Schwäbisch Hall,1614,-85,0,0.0,1,"linked: uncommon name, network too thin to judge"
-136391,Dirk Bastian,Bastian Dirk,3,1390,260,368954,Dirk Bastian,BSV Filderstadt,1353,37,0,0.0,1,"linked: uncommon name, network too thin to judge"
-136809,Luca Wolk,Wolk Luca,3,1339,210,368551,Luca Wolk,BF Weinheim-Viernheim,1305,34,1,0.1,0.12,"linked: uncommon name, network too thin to judge"
-136813,Daniel Cavalleri,Cavalleri Daniel,3,1361,218,369030,Daniel Cavalleri,PBC Offenburg,1344,17,1,0.0,0.021,linked: opponent network confirms
-136853,Luka Antic,Antic Luka,3,1404,211,368266,Luka Antic,PBC Offenburg,1431,-27,1,0.0,0.033,linked: opponent network confirms
-136907,Michael Triffo,Triffo Michael,3,1489,196,368533,Michael Triffo,JS Mingolsheim,1470,19,1,0.1,0.067,"linked: uncommon name, network too thin to judge"
-100941,Lisa Knost,Knost Lisa,2,1454,3173,230942,Lisa Knost,BSF Kurpfalz,1438,16,0,0.0,1,"linked: uncommon name, network too thin to judge"
-101034,Hermann Krieger,Krieger Hermann,2,1470,3033,102607,Hermann Krieger,BF Bruchsal | CC Karlsruhe,1574,-104,0,0.0,1,"linked: uncommon name, network too thin to judge"
-101643,Christian Iliadis,Iliadis Christian,2,1455,2937,242920,Christian Iliadis,BC Aalen | PBC Schwäbisch Gmünd,1399,56,1,0.0,0.023,linked: opponent network confirms
-116470,Sven Kaupp,Kaupp Sven,2,1433,2872,253091,Sven Kaupp,BSC Lions Bietigheim | PBC Rastatt,1511,-78,0,0.0,1,"linked: uncommon name, network too thin to judge"
-116677,Christian Süß,Süß Christian,2,1363,2434,368557,Christian Süß,BSF Kurpfalz,1355,8,1,0.1,0.057,"linked: uncommon name, network too thin to judge"
-116716,Vithyea Thorn,Thorn Vithyea,2,1477,2323,368136,Vithyea Thorn,BC Aalen,1482,-5,0,0.0,1,"linked: uncommon name, network too thin to judge"
-116717,Pascal Pascolo,Pascolo Pascal,2,1312,2510,368046,Pascal Pascolo,BC Aalen,1416,-104,1,0.1,0.057,"linked: uncommon name, network too thin to judge"
-116740,Taner Susuz,Susuz Taner,2,1391,2260,367983,Taner Susuz,BC Aalen | PBC Aalen,1408,-17,1,0.1,0.055,"linked: uncommon name, network too thin to judge"
-116742,Furkan Özkan,Özkan Furkan,2,1351,2253,367980,Furkan Özkan,BC Aalen | PBC Aalen,1387,-36,0,0.0,1,"linked: uncommon name, network too thin to judge"
-116743,Alpay Gürkal,Gürkal Alpay,2,1273,2655,367975,Alpay Gürkal,BC Aalen | PBC Aalen,1349,-76,0,0.0,1,"linked: uncommon name, network too thin to judge"
-117335,Dominik Weitzmann,Weitzmann Dominik,2,1488,1558,367964,Dominik Weitzmann,PBC Bad Saulgau,1471,17,0,0.1,1,"linked: uncommon name, network too thin to judge"
-117349,Christian Iliadis,Iliadis Christian,2,1334,254,242920,Christian Iliadis,BC Aalen | PBC Schwäbisch Gmünd,1399,-65,0,0.0,1,"linked: uncommon name, network too thin to judge"
-117358,Tobias Abt,Abt Tobias,2,1434,881,355824,Tobias Abt,BC Bad Schussenried | PBC Bad Saulgau,1418,16,0,0.1,1,"linked: uncommon name, network too thin to judge"
-117519,Alfi Müller,Müller Alfi,2,1355,1765,368011,Alfi Müller,BC Feuersee,1345,10,0,0.0,1,"rejected: common surname, opponent network does not confirm"
-117828,Uwe Lang,Lang Uwe,2,1438,1269,102719,Uwe Lang,BC Dreiländereck | PBC Offenburg,1535,-97,1,0.1,0.049,linked: opponent network confirms
-118209,Valentin Marten,Marten Valentin,2,1470,1535,221926,Valentin Marten,BC Neckarsulm,1611,-141,0,0.0,1,"linked: uncommon name, network too thin to judge"
-119645,Andreas Knauf,Knauf Andreas,2,1381,1292,102424,Andreas Knauf,BSC Göppingen | TV Cannstatt,1504,-123,0,0.0,1,"linked: uncommon name, network too thin to judge"
-119646,Angelika Müller,Müller Angelika,2,1332,1253,368148,Angelika Müller,BSC Göppingen,1281,51,0,0.0,1,"rejected: common surname, opponent network does not confirm"
-119647,Daniela Majer,Majer Daniela,2,1377,1331,102935,Daniela Majer,BSC Göppingen,1346,31,0,0.1,1,"linked: uncommon name, network too thin to judge"
-119865,Ruben Lorch,Lorch Ruben,2,1288,1246,368515,Ruben Lorch,BSV Pfullingen,1272,16,0,0.0,1,"linked: uncommon name, network too thin to judge"
-120182,Celina Visconti,Visconti Celina,2,1440,911,104767,Celina Visconti,PBV Schwetzingen,1604,-164,0,0.0,1,"linked: uncommon name, network too thin to judge"
-121145,Robert Karaica,Karaica Robert,2,1270,1163,368098,Robert Karaica,BC Aalen,1679,-409,0,0.1,1,"linked: uncommon name, network too thin to judge"
-121272,Bruno Miletic,Miletic Bruno,2,1423,902,353889,Bruno Miletic,BC Dreiländereck,1571,-148,0,0.0,1,"linked: uncommon name, network too thin to judge"
-121396,Johanna Indlekofer,Indlekofer Johanna,2,1441,1044,253498,Johanna Indlekofer,BC Dreiländereck | BSV Tiengen,1630,-189,0,0.0,1,"linked: uncommon name, network too thin to judge"
-121552,Axel Klimmer,Klimmer Axel,2,1418,934,102406,Axel Klimmer,PBC Bräunlingen,1492,-74,0,0.1,1,"linked: uncommon name, network too thin to judge"
-122216,Ervin Lika,Lika Ervin,2,1396,827,368116,Ervin Lika,BSV Filderstadt,1455,-59,1,0.0,0.031,linked: opponent network confirms
-122701,Sebastian König,König Sebastian,2,1338,819,368390,Sebastian König,BC Sindelfingen,1328,10,0,0.0,1,"linked: uncommon name, network too thin to judge"
-122716,Andreas Einsiedler,Einsiedler Andreas,2,1494,815,100982,Andreas Einsiedler,PBC Langenargen,1543,-49,0,0.0,1,"linked: uncommon name, network too thin to judge"
-123326,Marcel Roden,Roden Marcel,2,1400,755,103769,Marcel Roden,CC Karlsruhe,1568,-168,0,0.0,1,"linked: uncommon name, network too thin to judge"
-124543,Dieter Haberkorn,Haberkorn Dieter,2,1523,710,101588,Dieter Haberkorn,PBC Bad Saulgau,1534,-11,0,0.0,1,"linked: uncommon name, network too thin to judge"
-125820,Dominik Heinkele,Heinkele Dominik,2,1423,634,101755,Dominik Heinkele,BC Dätzingen,1507,-84,0,0.0,1,"linked: uncommon name, network too thin to judge"
-127097,Thorgen Brett,Brett Thorgen,2,1243,767,353895,Thorgen Brett,PP Böblingen | Tübinger BC,1421,-178,0,0.1,1,"linked: uncommon name, network too thin to judge"
-128363,Alexander Srp,Srp Alexander,2,1229,296,368041,Alexander Srp,BC Feuersee,1551,-322,0,0.1,1,"linked: uncommon name, network too thin to judge"
-128625,Ibrahim Erdogan,Erdogan Ibrahim,2,1371,336,368689,Ibrahim Erdogan,Mannheimer BF,1574,-203,0,0.0,1,"linked: uncommon name, network too thin to judge"
-130615,Jürgen Reisner,Reisner Jürgen,2,1379,416,368450,Jürgen Reisner,PBC Aalen,1427,-48,1,0.0,0.031,linked: opponent network confirms
-130619,Sezer Soydinc,Soydinc Sezer,2,1496,423,368220,Sezer Soydinc,PBC Aalen,1430,66,0,0.0,1,"linked: uncommon name, network too thin to judge"
-130636,Oliver Krieger,Krieger Oliver,2,1426,424,249001,Oliver Krieger,PBC Aalen | PBC Schwäbisch Gmünd,1402,24,2,0.1,0.0036,linked: opponent network confirms
-131228,Finn Schmitz,Schmitz Finn,2,1443,367,368504,Finn Schmitz,TV Cannstatt,1404,39,0,0.1,1,"rejected: common surname, opponent network does not confirm"
-131245,Dirk Schäfauer,Schäfauer Dirk,2,1346,471,242731,Dirk Schäfauer,BC Dallau | BC Neckarsulm,1433,-87,0,0.1,1,"linked: uncommon name, network too thin to judge"
-132847,David Agonafer,Agonafer David,2,1471,329,368412,David Agonafer,PBC Bietigheim-Bissingen,1477,-6,0,0.1,1,"linked: uncommon name, network too thin to judge"
-136922,Alexander Ponherr,Ponherr Alexander,2,1466,250,369231,Alexander Ponherr,CC Karlsruhe,1577,-111,0,0.0,1,"linked: uncommon name, network too thin to judge"
-137036,Sebastian Zinck,Zinck Sebastian,2,1438,227,369262,Sebastian Zinck,BC Stuttgart 1891,1437,1,0,0.0,1,"linked: uncommon name, network too thin to judge"
+100134,Necmi Kolbasar,Kolbasar Necmi,935,1586,25,245260,Necmi Kolbasar,PBC Bietigheim-Bissingen | PP Böblingen,1618,-32,37,10.2,7.7e-11,linked: opponent network confirms
+100233,Tahsin Kirli,Kirli Tahsin,924,1692,26,368203,Tahsin Kirli,BSV Filderstadt,1720,-28,9,2.4,0.00097,linked: opponent network confirms
+100037,Daniel Merbitz,Merbitz Daniel,920,1712,37,103075,Daniel Merbitz,BC Stuttgart 1891,1730,-18,32,9.1,3e-09,linked: opponent network confirms
+119553,Armin Mahmoudi,Mahmoudi Armin,818,1775,28,368884,Armin Mahmoudi,BC Sindelfingen,1800,-25,10,2.1,7.1e-05,linked: opponent network confirms
+101796,Xanthos Vlassidis,Vlassidis Xanthos,756,1696,35,242881,Xanthos Vlassidis,,1724,-28,10,2.0,4.8e-05,linked: opponent network confirms
+100040,Robin Heber,Heber Robin,754,1687,40,101724,Robin Heber,BC Sindelfingen,1717,-30,18,5.3,1.2e-05,linked: opponent network confirms
+100314,Saeid Heydarpour,Heydarpour Saeid,708,1540,45,368146,Saeid Heydarpour,BC Sindelfingen,1545,-5,,,,another sid with this name played the same event
+100464,Claudio Pontuti,Pontuti Claudio,663,1514,30,103552,Claudio Pontuti,BC Stuttgart 1891 | BSV Filderstadt | TV Cannstatt,1545,-31,30,11.2,2.4e-06,linked: opponent network confirms
+105703,Anh Tran,Tran Anh,644,1580,34,104655,Anh Tran,BULL Leonberg-Höfingen,1610,-30,15,3.0,7e-07,linked: opponent network confirms
+108457,Michael Reich,Reich Michael,638,1500,30,355443,Michael Reich,BC Sindelfingen,1530,-30,28,11.0,1.3e-05,linked: opponent network confirms
+100092,Ricardo Gutjahr,Gutjahr Ricardo,615,1802,86,101572,Ricardo Gutjahr,BULL Leonberg-Höfingen,1839,-37,20,4.7,1.2e-07,linked: opponent network confirms
+102980,Andreas Wittmeier,Wittmeier Andreas,538,1520,42,240155,Andreas Wittmeier,BV Pforzheim,1562,-42,33,9.1,7.9e-10,linked: opponent network confirms
+122435,Saeid Heydarpour,Heydarpour Saeid,527,1523,27,368146,Saeid Heydarpour,BC Sindelfingen,1545,-22,,,,another sid with this name played the same event
+103183,Petra Sannwald,Sannwald Petra,525,1458,38,103910,Petra Sannwald,BC Sindelfingen,1481,-23,16,3.4,5.4e-07,linked: opponent network confirms
+107733,Ramazan Yildirim,Yildirim Ramazan,508,1587,83,368097,Ramazan Yildirim,TV Cannstatt,1613,-26,1,0.7,0.5,"linked: uncommon name, network too thin to judge"
+100055,Frank Gebert,Gebert Frank,478,1636,41,101317,Frank Gebert,BC Blaustein | BSV Filderstadt,1660,-24,15,7.1,0.0065,linked: opponent network confirms
+101467,Denis Mnich,Mnich Denis,459,1590,35,246024,Denis Mnich,BC Sindelfingen,1626,-36,35,11.0,6.4e-09,linked: opponent network confirms
+105191,Aryan Dayyani,Dayyani Aryan,452,1586,35,245948,Aryan Dayyani,BC Dätzingen | BC Sindelfingen | PF Calw,1619,-33,31,8.6,2.8e-09,linked: opponent network confirms
+100490,Zeljko Burmazovic,Burmazovic Zeljko,451,1657,36,100616,Zeljko Burmazovic,PBC Schwäbisch Hall | TV Cannstatt,1687,-30,28,8.3,6.2e-08,linked: opponent network confirms
+100120,Giuseppe Curcio,Curcio Giuseppe,429,1621,75,242722,Giuseppe Curcio,BULL Leonberg-Höfingen | PBC Aalen | TV Cannstatt,1665,-44,18,5.3,1.1e-05,linked: opponent network confirms
+119226,Tobias Hirt,Hirt Tobias,426,1553,37,228904,Tobias Hirt,BC Sindelfingen | PBC Bad Saulgau,1572,-19,35,9.4,1.4e-10,linked: opponent network confirms
+108724,Marco Sforza,Sforza Marco,419,1548,109,368774,Marco Sforza,BC Sindelfingen | BV Villingen-Schwenningen,1577,-29,14,2.2,7.6e-08,linked: opponent network confirms
+107347,Christopher Hopp,Hopp Christopher,408,1499,86,353408,Christopher Hopp,BC Sindelfingen,1540,-41,27,7.3,1.6e-08,linked: opponent network confirms
+118343,Thomas Kupfer,Kupfer Thomas,390,1591,30,102680,Thomas Kupfer,PBC Schwäbisch Hall,1621,-30,18,5.5,1.8e-05,linked: opponent network confirms
+129281,Erdem Dikici,Dikici Erdem,343,1546,27,369106,Erdem Dikici,BSC Göppingen | BSV Filderstadt,1579,-33,6,2.6,0.047,linked: opponent network confirms
+118529,Osman Büyük,Büyük Osman,328,1577,54,228532,Osman Büyük,BSV Filderstadt,1600,-23,20,5.8,3e-06,linked: opponent network confirms
+106512,Daniel la Cognata,la Cognata Daniel,317,1401,60,102694,Daniel La Cognata,BC Sindelfingen | PBC Nagoldtal,1436,-35,20,7.1,5.2e-05,linked: opponent network confirms
+101470,Fabio Romano,Romano Fabio,267,1558,127,103790,Fabio Romano,BULL Leonberg-Höfingen,1590,-32,15,3.9,1.4e-05,linked: opponent network confirms
+105163,Holger Maier,Maier Holger,258,1652,51,102918,Holger Maier,BC Stuttgart 1891,1697,-45,16,3.5,9.3e-07,linked: opponent network confirms
+100505,Christian Endres,Endres Christian,255,1606,107,123648,Christian Endres,BULL Leonberg-Höfingen,1650,-44,21,3.7,5.4e-10,linked: opponent network confirms
+100145,Ivan Hodzic,Hodzic Ivan,253,1536,69,101912,Ivan Hodzic,PP Böblingen,1567,-31,7,2.0,0.0044,linked: opponent network confirms
+100388,Savvas Kourpanidis,Kourpanidis Savvas,252,1622,62,367949,Savvas Kourpanidis,BC Sindelfingen,1652,-30,5,1.0,0.0036,linked: opponent network confirms
+108764,Alexandar Stankovic,Stankovic Alexandar,252,1610,43,355901,Alexandar Stankovic,PBC Bietigheim-Bissingen | PBC Pfedelbach | PBC Schwäbisch Hall | TV Cannstatt,1640,-30,17,5.9,0.00015,linked: opponent network confirms
+107303,Bernd Hafner,Hafner Bernd,248,1577,44,240515,Bernd Hafner,PF Calw,1599,-22,0,0.7,1,"linked: uncommon name, network too thin to judge"
+123178,Phat Truong,Truong Phat,248,1540,38,368809,Phat Truong,BC Stuttgart 1891,1568,-28,17,2.8,7.7e-09,linked: opponent network confirms
+117205,Andreas Zillmann,Zillmann Andreas,240,1618,41,368093,Andreas Zillmann,PP Böblingen,1638,-20,31,7.4,9.8e-11,linked: opponent network confirms
+128599,Alexander Striker,Striker Alexander,240,1569,65,104541,Alexander Striker,BC Sindelfingen | PF Calw,1627,-58,17,4.7,9.3e-06,linked: opponent network confirms
+105744,Mustafa Benk,Benk Mustafa,236,1615,61,100296,Mustafa Benk,PBC Bietigheim-Bissingen | TV Cannstatt,1629,-14,21,4.8,4e-08,linked: opponent network confirms
+119885,Petra Braun,Braun Petra,234,1487,42,100500,Petra Braun,BC Sindelfingen,1536,-49,11,1.9,5.5e-06,linked: opponent network confirms
+119922,Miodrag Adrian Caravila,Caravila M.,233,1509,46,366767,Miodrag Adrian Caravila,BSV Pfullingen | PBC Reutlingen,1539,-30,17,5.9,0.00015,linked: opponent network confirms
+103043,Bernd Füess,Füess Bernd,224,1539,51,101264,Bernd Füess,BC Sindelfingen,1562,-23,11,4.2,0.004,linked: opponent network confirms
+101133,Andreas Pauling,Pauling Andreas,221,1507,52,103479,Andreas Pauling,BC Stuttgart 1891,1542,-35,23,5.0,3.8e-09,linked: opponent network confirms
+121726,Dennis Waldecker,Waldecker Dennis,219,1750,36,104848,Dennis Waldecker,BC Sindelfingen,1781,-31,3,0.6,0.027,linked: opponent network confirms
+125332,Ahmad Nassar,Nassar Ahmad,217,1523,38,368865,Ahmad Nassar,BC Neckarsulm,1545,-22,2,2.0,0.58,"linked: uncommon name, network too thin to judge"
+116585,Benjamin Hirschberger,Hirschberger B.,212,1606,52,368107,Benjamin Hirschberger,BC Sindelfingen | BC Stuttgart 1891,1623,-17,27,5.4,3.6e-11,linked: opponent network confirms
+119458,Orhan Parama,Parama Orhan,211,1671,45,252858,Orhan Parama,BSC Göppingen,1687,-16,9,3.8,0.017,linked: opponent network confirms
+116741,Marius-Daniel Grigore-Martini,Grigore-Martini M.,203,1565,54,248769,Marius-Daniel Grigore-Martini,BSV Pfullingen | PBC Reutlingen,1579,-14,19,5.8,1e-05,linked: opponent network confirms
+100135,Ruben Frick,Frick Ruben,200,1736,77,101210,Ruben Frick,BV Villingen-Schwenningen | PBV Rottweil,1751,-15,5,1.3,0.011,linked: opponent network confirms
+100116,Simon Kaincz,Kaincz Simon,193,1384,138,368133,Simon Kaincz,BSV Filderstadt,1397,-13,1,1.3,0.73,"linked: uncommon name, network too thin to judge"
+101962,Stephan Rech-Linker,Rech-Linker Stephan,174,1518,49,103634,Stephan Rech-Linker,BC Sindelfingen,1558,-40,19,4.8,8.7e-07,linked: opponent network confirms
+130629,Yusa Tutucu,Tutucu Yusa,164,1548,33,368922,Yusa Tutucu,BSC Göppingen,1570,-22,4,1.9,0.12,"linked: uncommon name, network too thin to judge"
+102833,Marcus Trumpp,Trumpp Marcus,162,1537,73,104671,Marcus Trumpp,BSV Pfullingen,1575,-38,16,2.9,9.3e-08,linked: opponent network confirms
+101485,Ralf Grießhaber,Grießhaber Ralf,161,1604,326,101485,Ralf Grießhaber,BV Villingen-Schwenningen,1684,-80,10,2.8,0.0007,linked: opponent network confirms
+105745,Marco Giusa,Giusa Marco,158,1709,45,101390,Marco Giusa,PBC Bietigheim-Bissingen | TV Cannstatt,1729,-20,23,5.2,7.3e-09,linked: opponent network confirms
+101718,Daniel Sanchez Goncalves,Sanchez Goncalves D.,157,1462,67,103907,Daniel Sanchez Goncalves,BC Feuersee | PBC Schwäbisch Gmünd,1490,-28,12,2.2,4.3e-06,linked: opponent network confirms
+117272,Ralf Griesshaber,Griesshaber Ralf,156,1663,100,101485,Ralf Grießhaber,BV Villingen-Schwenningen,1684,-21,6,3.2,0.11,"linked: uncommon name, network too thin to judge"
+117459,Thomas Schubert,Schubert Thomas,153,1700,60,104208,Thomas Schubert,BC Stuttgart 1891,1725,-25,13,1.8,5.6e-08,linked: opponent network confirms
+130537,Colin Ketterlin,Ketterlin Colin,151,1602,39,368957,Colin Ketterlin,CC Karlsruhe,1634,-32,6,2.1,0.019,linked: opponent network confirms
+108789,Jozsef Zvorinji,Zvorinji Jozsef,150,1481,123,368096,Jozsef Zvorinji,PP Böblingen | TV Cannstatt,1599,-118,8,2.8,0.0088,linked: opponent network confirms
+116477,Daniel Doulgeris,Daniel Doulgeris,142,1388,151,368575,Daniel Doulgeris,BULL Leonberg-Höfingen,1421,-33,6,1.4,0.0033,linked: opponent network confirms
+100087,Dirk Müller,Müller Dirk,141,1601,92,103209,Dirk Müller,CC Karlsruhe | PP Karlsbad,1654,-53,1,2.8,0.94,rejected: opponent network no better than chance
+119327,Long Werner,Werner Long,141,1529,65,252010,Long Werner,BF Bruchsal | BV Pforzheim | CC Karlsruhe,1540,-11,10,4.8,0.025,linked: opponent network confirms
+102101,Michael Matschewsky,Matschewsky Michael,140,1647,226,242867,Michael Matschewsky,PBC Freudenstadt,1686,-39,3,1.3,0.15,"linked: uncommon name, network too thin to judge"
+118212,Benjamin Jung,Jung Benjamin,140,1682,133,102153,Benjamin Jung,PBC Freudenstadt,1710,-28,9,2.1,0.00029,linked: opponent network confirms
+116408,Mohammed Ali Bemah,Bemah Mohammed Ali,136,1453,63,355875,Mohammed Ali Bemah,BC Sindelfingen | PP Böblingen,1454,-1,10,4.2,0.012,linked: opponent network confirms
+100695,Yunus Ayvaz,Ayvaz Yunus,135,1498,150,242951,Yunus Ayvaz,PP Böblingen,1538,-40,1,0.9,0.57,"linked: uncommon name, network too thin to judge"
+117197,Matthias Grgic,Grgic Matthias,131,1346,186,368292,Matthias Grgic,BC Sindelfingen,1444,-98,9,3.4,0.0077,linked: opponent network confirms
+105153,Osman Büyük,Büyük Osman,129,1530,141,228532,Osman Büyük,BSV Filderstadt,1600,-70,10,2.5,0.00029,linked: opponent network confirms
+100567,Alexander Striker,Striker Alexander,120,1593,395,104541,Alexander Striker,BC Sindelfingen | PF Calw,1627,-34,18,2.8,1.4e-09,linked: opponent network confirms
+108396,Athanassios Psimenidis,Psimenidis A.,119,1638,186,103578,Athanassios Psimenidis,BSV Filderstadt,1682,-44,7,1.4,0.00067,linked: opponent network confirms
+119863,Thorsten Kappus,Kappus Thorsten,119,1518,62,102219,Thorsten Kappus,BSV Pfullingen,1518,0,15,1.9,2.6e-09,linked: opponent network confirms
+120048,Randee Ramzi Yalda,Yalda Randee Ramzi,117,1662,72,355803,Randee Ramzi Yalda,BSV Pfullingen,1686,-24,21,3.0,1.2e-11,linked: opponent network confirms
+101612,Patrick Mungiuri,Mungiuri Patrick,110,1609,103,250878,Patrick Mungiuri,BULL Leonberg-Höfingen | BV Pforzheim,1667,-58,19,4.2,1.2e-07,linked: opponent network confirms
+103120,Petra Braun,Braun Petra,110,1535,82,100500,Petra Braun,BC Sindelfingen,1536,-1,7,1.1,0.00019,linked: opponent network confirms
+117333,Oliver Kielwein,Kielwein Oliver,110,1624,103,350393,Oliver Kielwein,BC Sindelfingen,1647,-23,8,1.6,0.00023,linked: opponent network confirms
+119447,Roberto Savcic,Savcic Roberto,110,1408,184,368498,Roberto Savcic,BC Sindelfingen,1449,-41,4,1.0,0.019,linked: opponent network confirms
+105483,Selim Güzel,Güzel Selim,108,1482,89,242971,Selim Güzel,PP Böblingen,1513,-31,13,4.2,0.00042,linked: opponent network confirms
+101984,Ulrich Schäfer,Schäfer Ulrich,103,1530,91,229045,Ulrich Schäfer,BSV Pfullingen,1552,-22,12,1.0,8.9e-10,linked: opponent network confirms
+117237,Robin Heber,Heber Robin,102,1676,72,101724,Robin Heber,BC Sindelfingen,1717,-41,12,1.7,2.1e-07,linked: opponent network confirms
+123756,Marcel Haab,Haab Marcel,102,1394,75,368343,Marcel Haab,BC Dätzingen,1437,-43,5,2.2,0.077,"linked: uncommon name, network too thin to judge"
+121727,Calvin Waldecker,Waldecker Calvin,101,1650,54,368207,Calvin Waldecker,CC Karlsruhe | PBC Rastatt,1684,-34,3,2.2,0.39,"linked: uncommon name, network too thin to judge"
+104051,Savas Hopff,Hopff Savas,99,1707,239,101979,Savas Hopff,BC Dätzingen | PF Calw,1640,67,6,2.0,0.016,linked: opponent network confirms
+119370,Marvin Szymiczek,Szymiczek Marvin,98,1440,121,350651,Marvin Szymiczek,BV Pforzheim,1469,-29,5,1.7,0.029,linked: opponent network confirms
+121408,Edin Porcic,Porcic Edin,98,1621,72,368051,Edin Porcic,BC Feuersee | BULL Leonberg-Höfingen,1654,-33,18,2.8,1.2e-09,linked: opponent network confirms
+100940,Hermann Hoyh,Hoyh Hermann,93,1800,74,102003,Hermann Hoyh,TV Cannstatt,1821,-21,6,1.7,0.0074,linked: opponent network confirms
+107361,Olaf Schwarz,Schwarz Olaf,92,1481,136,351950,Olaf Schwarz,BC Sindelfingen,1513,-32,9,2.4,0.00081,linked: opponent network confirms
+104753,Michael Grad,Grad Michael,91,1544,83,349925,Michael Grad,BSV Pfullingen,1574,-30,3,0.5,0.011,linked: opponent network confirms
+120826,Sercan_ Özdemir,Özdemir Sercan_,91,1604,94,103444,Sercan Özdemir,PP Böblingen,1623,-19,11,2.5,7e-05,linked: opponent network confirms
+103613,Ferhat Cayli,Cayli Ferhat,89,1565,186,251376,Ferhat Cayli,BC Neckarsulm,1583,-18,2,0.9,0.23,"linked: uncommon name, network too thin to judge"
+104223,Michael Gärttner,Gärttner Michael,89,1402,50,251014,Michael Gärttner,BC Sindelfingen | PP Böblingen,1421,-19,2,1.0,0.27,"linked: uncommon name, network too thin to judge"
+117395,Thomas Durst,Durst Thomas,88,1523,75,100941,Thomas Durst,BC Stuttgart 1891,1523,0,14,2.7,1.1e-06,linked: opponent network confirms
+102828,Marco Bunke,Bunke Marco,87,1479,113,250221,Marco Bunke,BSV Pfullingen,1503,-24,13,0.9,2.4e-11,linked: opponent network confirms
+117025,Christian Rossa,Rossa Christian,86,1619,147,103820,Christian Rossa,BSV Pfullingen | PF Calw,1640,-21,9,1.7,5.9e-05,linked: opponent network confirms
+128258,Jörg Schick-Bringer,Schick-Bringer Jörg,86,1547,57,104021,Jörg Schick-Bringer,BC Neckarsulm,1611,-64,4,2.5,0.24,"linked: uncommon name, network too thin to judge"
+100277,Marcus Mutschler,Mutschler Marcus,85,1547,149,103275,Marcus Mutschler,PBC Bietigheim-Bissingen,1622,-75,3,0.9,0.063,"linked: uncommon name, network too thin to judge"
+101523,Hendrik Reckers,Reckers Hendrik,85,1598,135,103635,Hendrik Reckers,BF Bruchsal | JS Mingolsheim | PBV Schwetzingen,1689,-91,9,2.7,0.0019,linked: opponent network confirms
+104609,Frank Eisele,Eisele Frank,85,1632,126,100983,Frank Eisele,BC Sindelfingen | BSV Filderstadt | PBC Reutlingen,1615,17,13,3.2,3.4e-05,linked: opponent network confirms
+106087,Denis Maric,Maric Denis,85,1431,167,351327,Denis Maric,BC Sindelfingen,1424,7,5,1.7,0.031,linked: opponent network confirms
+117397,TImo Sillner,Sillner TImo,85,1627,158,104357,Timo Sillner,BC Stuttgart 1891,1612,15,10,1.1,3.4e-07,linked: opponent network confirms
+117363,Thomas Stoll,Stoll Thomas,84,1468,172,104512,Thomas Stoll,BC Sindelfingen,1483,-15,7,1.5,0.00086,linked: opponent network confirms
+101171,Marco Warlies,Warlies Marco,80,1619,129,242963,Marco Warlies,BC Sindelfingen | PF Calw,1647,-28,15,2.9,5.1e-07,linked: opponent network confirms
+132906,Francesco Dragotta,Dragotta Francesco,80,1488,48,369057,Francesco Dragotta,PBC Reutlingen | Tübinger BC,1527,-39,10,1.0,1e-07,linked: opponent network confirms
+100826,Daniel Kalnak,Kalnak Daniel,79,1527,207,102186,Daniel Kalnak,BSV Pfullingen,1608,-81,11,1.5,7.4e-07,linked: opponent network confirms
+108559,Simon Schaal,Schaal Simon,79,1507,253,367945,Simon Schaal,BC Sindelfingen | BC Weingarten | PF Calw,1558,-51,3,1.9,0.3,"linked: uncommon name, network too thin to judge"
+100272,Andreas Schroff,Schroff Andreas,78,1720,89,104203,Andreas Schroff,,1768,-48,5,0.8,0.0014,linked: opponent network confirms
+101709,Andreas Jeschka,Jeschka Andreas,77,1580,145,102114,Andreas Jeschka,PBC Reutlingen,1661,-81,11,2.2,2e-05,linked: opponent network confirms
+101139,Fabian Rapp,Rapp Fabian,75,1323,195,245247,Fabian Rapp,BSV Pfullingen,1414,-91,11,1.4,2.9e-07,linked: opponent network confirms
+100036,Ramazan Akdag,Akdag Ramazan,74,1771,240,100037,Ramazan Akdag,BV Pforzheim,1796,-25,3,0.3,0.0024,linked: opponent network confirms
+108130,Thorsten Mohr,Mohr Thorsten,74,1584,557,242808,Thorsten Mohr,BSV Konstanz,1574,10,6,0.3,1e-06,linked: opponent network confirms
+107911,Tobias Wähler,Wähler Tobias,72,1406,503,251288,Tobias Wähler,BV Pforzheim,1442,-36,4,0.8,0.0078,linked: opponent network confirms
+100916,Bernd Dorenburg,Dorenburg Bernd,71,1492,116,100889,Bernd Dorenburg,BSV Pfullingen,1520,-28,11,1.1,4.1e-08,linked: opponent network confirms
+101425,Emrah Atak,Atak Emrah,70,1516,210,250901,Emrah Atak,BC Neckarsulm | PBV Schwetzingen,1534,-18,2,0.8,0.2,"linked: uncommon name, network too thin to judge"
+119463,Reimar Sauter,Sauter Reimar,66,1547,68,352016,Reimar Sauter,BF Bruchsal | CC Karlsruhe,1574,-27,1,1.0,0.62,"linked: uncommon name, network too thin to judge"
+125351,Adeeb Bitar,Bitar Adeeb,66,1404,75,368823,Adeeb Bitar,BC Sindelfingen,1432,-28,1,0.8,0.56,"linked: uncommon name, network too thin to judge"
+117269,Nikolaos Seristatidis,Seristatidis N.,63,1393,91,367912,Nikolaos Seristatidis,PP Böblingen | Tübinger BC,1474,-81,6,2.2,0.027,linked: opponent network confirms
+100062,Oezer Bulunmaz,Bulunmaz Oezer,62,1712,246,100599,Oezer Bulunmaz,BV Pforzheim | PP Karlsbad,1736,-24,2,0.8,0.18,"linked: uncommon name, network too thin to judge"
+100456,Tuong Tran,Tran Tuong,62,1445,132,245106,Tuong Tran,BSV Pfullingen,1490,-45,5,0.7,0.00059,linked: opponent network confirms
+100441,Matthias Hardtke,Hardtke Matthias,61,1740,91,101672,Matthias Hardtke,,1764,-24,8,0.9,7.1e-06,linked: opponent network confirms
+122568,Sait Pelit,Pelit Sait,61,1500,72,368819,Sait Pelit,BSC Göppingen,1540,-40,5,0.8,0.0015,linked: opponent network confirms
+107141,Saman Hadi,Hadi Saman,60,1393,109,353913,Saman Hadi,BC Dätzingen,1468,-75,5,1.7,0.029,linked: opponent network confirms
+100056,Frank Wagenmann,Wagenmann Frank,57,1637,154,104825,Frank Wagenmann,PBC Offenburg,1697,-60,3,1.2,0.11,"linked: uncommon name, network too thin to judge"
+106028,Long Werner,Werner Long,57,1524,91,252010,Long Werner,BF Bruchsal | BV Pforzheim | CC Karlsruhe,1540,-16,3,2.4,0.42,"rejected: common surname, opponent network does not confirm"
+121224,Jannik Buchstab,Buchstab Jannik,57,1562,188,368518,Jannik Buchstab,PBC Schwäbisch Gmünd,1559,3,4,0.8,0.0087,linked: opponent network confirms
+100454,Markus Hardtke,Hardtke Markus,56,1726,105,101671,Markus Hardtke,,1730,-4,5,1.0,0.0032,linked: opponent network confirms
+118211,Antonogiorgakis Charalampos,Charalampos A.,56,1365,100,100092,Charalampos Antonogiorgakis,BULL Leonberg-Höfingen,1366,-1,7,1.7,0.0019,linked: opponent network confirms
+127481,Sukhbat Batjargal,Batjargal Sukhbat,56,1493,65,368893,Sukhbat Batjargal,BC Stuttgart 1891,1522,-29,5,0.8,0.0017,linked: opponent network confirms
+120711,Luka Fuchs,Fuchs Luka,55,1435,65,368319,Luka Fuchs,PP Böblingen,1483,-48,3,1.0,0.084,"linked: uncommon name, network too thin to judge"
+120062,Kian Sohns,Sohns Kian,54,1504,70,368777,Kian Sohns,VFL Herrenberg,1538,-34,2,0.9,0.24,"linked: uncommon name, network too thin to judge"
+100463,Besim Tastekin,Tastekin Besim,53,1551,67,104578,Besim Tastekin,PBC Bietigheim-Bissingen,1578,-27,3,1.0,0.075,"linked: uncommon name, network too thin to judge"
+105954,Michael Schwarzjirg,Schwarzjirg Michael,53,1583,409,366769,Michael Schwarzjirg,TV Cannstatt,1647,-64,5,1.2,0.0077,linked: opponent network confirms
+105157,Orhan Parama,Parama Orhan,52,1657,126,252858,Orhan Parama,BSC Göppingen,1687,-30,1,1.3,0.72,"linked: uncommon name, network too thin to judge"
+117391,Oliver Schwertschlager,Schwertschlager O.,52,1527,114,104287,Oliver Schwertschlager,BC Stuttgart 1891,1558,-31,8,1.6,0.00025,linked: opponent network confirms
+108146,Woldai Wagner,Wagner Woldai,51,1643,701,354552,Woldai Wagner,BSV Konstanz,1615,28,6,0.1,6.7e-10,linked: opponent network confirms
+100186,Anastasios Kiriakidis,Kiriakidis A.,50,1699,135,102355,Anastasios Kiriakidis,,1719,-20,1,0.0,0.029,linked: opponent network confirms
+104440,Eric Mattern,Mattern Eric,50,1794,226,247176,Eric Mattern,PBV Schwetzingen,1811,-17,1,1.0,0.64,"linked: uncommon name, network too thin to judge"
+117396,Joachim Lechenbauer,Lechenbauer Joachim,50,1496,228,102758,Joachim Lechenbauer,BC Stuttgart 1891,1485,11,6,1.4,0.0027,linked: opponent network confirms
+121177,Angelo Truisi,Truisi Angelo,50,1575,84,368202,Angelo Truisi,CC Karlsruhe | PP Karlsbad,1579,-4,2,1.1,0.32,"linked: uncommon name, network too thin to judge"
+101471,Florian Merz,Merz Florian,48,1597,122,103085,Florian Merz,BC Sindelfingen,1638,-41,3,0.2,0.0014,linked: opponent network confirms
+116540,Joachim Luft,Luft Joachim,48,1388,87,354685,Joachim Luft,PBC Bietigheim-Bissingen,1416,-28,5,1.9,0.046,linked: opponent network confirms
+127053,okan ceken,ceken okan,48,1510,69,368802,Okan Ceken,PBC Reutlingen,1555,-45,4,0.6,0.0034,linked: opponent network confirms
+127493,Joachim Lechenbauer,Lechenbauer J.,48,1463,90,102758,Joachim Lechenbauer,BC Stuttgart 1891,1485,-22,4,1.4,0.055,"linked: uncommon name, network too thin to judge"
+106718,Turan Machmut,Machmut Turan,47,1581,131,104685,Machmut Turan,BC Sindelfingen | PBC Nagoldtal,1625,-44,9,2.4,0.00087,linked: opponent network confirms
+118483,Gary Wong_,Wong_ Gary,47,1481,136,105109,Gary Wong,PBC Schwäbisch Gmünd,1546,-65,6,1.3,0.0025,linked: opponent network confirms
+119239,Manuel Letzel,Letzel Manuel,47,1659,137,248413,Manuel Letzel,PBV Schwetzingen,1704,-45,1,0.5,0.37,"linked: uncommon name, network too thin to judge"
+121234,Tuong Vy Le,Le Tuong Vy,47,1497,87,368622,Vy Le Tuong,BC Stuttgart 1891,1512,-15,1,0.8,0.55,"linked: uncommon name, network too thin to judge"
+100049,Hanno Bröcker,Bröcker Hanno,46,1742,721,112875,Hanno Bröcker,BV Villingen-Schwenningen | PBV Rottweil,1620,122,0,0.2,1,"linked: uncommon name, network too thin to judge"
+117523,Thomas Handler,Handler Thomas,46,1505,103,101654,Thomas Handler,BC Feuersee | BV Leonberg,1554,-49,7,1.9,0.0035,linked: opponent network confirms
+123757,Alexander Egger,Egger Alexander,46,1485,96,368348,Alexander Egger,BC Dätzingen,1496,-11,3,0.9,0.058,"linked: uncommon name, network too thin to judge"
+100474,Holger Vier,Vier Holger,45,1646,286,163386,Holger Vier,PBC Bruchsal,1674,-28,0,0.4,1,"linked: uncommon name, network too thin to judge"
+130415,Oliver Marx,Marx Oliver,45,1442,67,368364,Oliver Marx,BC Feuersee | BC Sindelfingen | BULL Leonberg-Höfingen,1500,-58,3,1.2,0.13,"linked: uncommon name, network too thin to judge"
+102834,Thorsten Möhle,Möhle Thorsten,43,1392,595,368179,Thorsten Möhle,BC Sindelfingen,1517,-125,2,0.6,0.11,"linked: uncommon name, network too thin to judge"
+132973,Kevin Minardi,Minardi Kevin,43,1461,65,369056,Kevin Minardi,PBC Reutlingen | Tübinger BC,1489,-28,7,0.7,6.6e-06,linked: opponent network confirms
+101966,Svenja Schwarzkopf,Heide Svenja,42,1485,156,101737,Svenja Schwarzkopf,BV Villingen-Schwenningen,1553,-68,1,0.6,0.43,"linked: uncommon name, network too thin to judge"
+102827,Frank Vorauer,Vorauer Frank,42,1523,121,104803,Frank Vorauer,PBC Nagoldtal,1566,-43,5,1.2,0.0089,linked: opponent network confirms
+107346,Andreas Keilmann,Keilmann Andreas,42,1611,314,102278,Andreas Keilmann,BC Sindelfingen | PBC Freudenstadt,1720,-109,5,1.8,0.035,linked: opponent network confirms
+119554,Besim Rama,Rama Besim,42,1478,126,366458,Besim Rama,BC Neckarsulm,1480,-2,1,1.2,0.69,"linked: uncommon name, network too thin to judge"
+121498,Jozsef Zvorinji,Zvorinji Jozsef,42,1591,117,368096,Jozsef Zvorinji,PP Böblingen | TV Cannstatt,1599,-8,2,1.2,0.33,"linked: uncommon name, network too thin to judge"
+125315,Matthias Stolz,Stolz Matthias,42,1375,99,366248,Matthias Stolz,BC Feuersee | BSV Shooters Fellbach | TV Cannstatt,1466,-91,4,1.1,0.028,linked: opponent network confirms
+102947,Ernad Dindic,Dindic Ernad,41,1437,121,100863,Ernad Dindic,BSV Pfullingen,1493,-56,2,0.2,0.015,linked: opponent network confirms
+103074,Martin Wistuba,Wistuba Martin,41,1411,217,251771,Martin Wistuba,BSV Pfullingen,1450,-39,5,0.6,0.00029,linked: opponent network confirms
+104608,Peggy Eisele,Heßland Peggy,41,1456,187,244943,Peggy Eisele,BC Sindelfingen | BSV Filderstadt | PBC Reutlingen,1465,-9,5,1.4,0.016,linked: opponent network confirms
+108243,Marco Weise,Weise Marco,41,1321,787,354316,Marco Weise,BSV Konstanz,1335,-14,7,0.1,3.4e-11,linked: opponent network confirms
+116586,Thomas Hirschberger,Hirschberger Thomas,41,1414,267,368178,Thomas Hirschberger,BC Sindelfingen,1464,-50,2,0.7,0.17,"linked: uncommon name, network too thin to judge"
+128536,petar krolo,krolo petar,41,1507,97,368964,Petar Krolo,BC Sindelfingen,1544,-37,2,0.4,0.07,"linked: uncommon name, network too thin to judge"
+127505,Sandra Höll,Höll Sandra,40,1446,90,101958,Sandra Höll,BSV Pfullingen | VFL Herrenberg,1447,-1,3,0.7,0.033,linked: opponent network confirms
+128573,Susi Harbrecht-Berndt,Harbrecht-Berndt S.,40,1283,89,100325,Susi Harbrecht-Berndt,BULL Leonberg-Höfingen | PP Böblingen,1294,-11,5,1.1,0.0046,linked: opponent network confirms
+101318,Norbert Rollbühler,Rollbühler Norbert,39,1608,191,157455,Norbert Rollbühler,BC Aalen | PBC Schwäbisch Hall,1667,-59,7,1.5,0.0011,linked: opponent network confirms
+117394,Robert Schwarz,Schwarz Robert,39,1529,254,104273,Robert Schwarz,BC Stuttgart 1891,1673,-144,6,0.6,4.4e-05,linked: opponent network confirms
+127052,Sami Kadriolli,Kadriolli Sami,39,1676,109,369233,Sami Kadriolli,BV Markdorf,1688,-12,1,0.1,0.12,"linked: uncommon name, network too thin to judge"
+131206,Philipp Kibele,Kibele Philipp,39,1671,71,368811,Philipp Kibele,TV Cannstatt,1711,-40,6,0.7,8.2e-05,linked: opponent network confirms
+121533,Pavlos Dadakos,Dadakos Pavlos,38,1641,68,368381,Pavlos Dadakos,PBC Reutlingen,1673,-32,5,1.7,0.028,linked: opponent network confirms
+124930,Michael Röhrle,Röhrle Michael,38,1551,86,368119,Michael Röhrle,BC Feuersee | BULL Leonberg-Höfingen,1599,-48,4,0.7,0.005,linked: opponent network confirms
+129105,Christian Di Lella,Di Lella Christian,38,1464,87,368894,Christian Di Lella,BC Stuttgart 1891,1508,-44,2,0.3,0.041,linked: opponent network confirms
+130448,Elias Marx,Marx Elias,38,1476,71,368396,Elias Marx,BC Feuersee | BULL Leonberg-Höfingen,1483,-7,3,1.0,0.077,"linked: uncommon name, network too thin to judge"
+100410,Berthold Moser,Moser Berthold,37,1546,306,103183,Berthold Moser,PBC Bräunlingen,1636,-90,1,1.3,0.72,"linked: uncommon name, network too thin to judge"
+101153,Stefan Künzl,Künzl Stefan,37,1598,150,102645,Stefan Künzl,BC Sindelfingen | BSV Shooters Fellbach,1699,-101,9,1.9,0.0002,linked: opponent network confirms
+120693,Dany Baron,Baron Dany,36,1567,98,252039,Dany Baron,PP Böblingen | TV Cannstatt,1637,-70,2,1.3,0.36,"linked: uncommon name, network too thin to judge"
+121191,Ralf Grießhaber,Grießhaber Ralf,36,1710,172,101485,Ralf Grießhaber,BV Villingen-Schwenningen,1684,26,1,1.3,0.74,"linked: uncommon name, network too thin to judge"
+100856,Marcel Biegler,Biegler Marcel,35,1425,168,245244,Marcel Biegler,BSV Pfullingen,1455,-30,1,0.1,0.091,"linked: uncommon name, network too thin to judge"
+101658,Gerd Hörrmann,Hörrmann Gerd,35,1646,111,101994,Gerd Hörrmann,PBC Rastatt | PP Karlsbad,1716,-70,1,1.1,0.68,"linked: uncommon name, network too thin to judge"
+117524,Arno Corigliano,Corigliano Arno,35,1529,141,100719,Arno Corigliano,PBC Pfedelbach | PBC Schwäbisch Hall,1615,-86,5,0.9,0.0026,linked: opponent network confirms
+117552,Robert Bogdan,Bogdan Robert,35,1652,110,100421,Robert Bogdan,PBC Aalen | TV Cannstatt,1607,45,4,1.4,0.051,"linked: uncommon name, network too thin to judge"
+119448,Nic Woywodt,Woywodt Nic,35,1512,84,249310,Nic Woywodt,PBC Nagoldtal,1579,-67,6,1.5,0.0043,linked: opponent network confirms
+106081,Arman Rasoli,Rasoli Arman,34,1536,197,367918,Arman Rasoli,BC Sindelfingen,1567,-31,1,0.5,0.39,"linked: uncommon name, network too thin to judge"
+117520,Karim Gampper,Gampper Karim,34,1508,100,101299,Karim Gampper,BC Feuersee,1533,-25,5,0.7,0.00095,linked: opponent network confirms
+117614,Sascha Sauer,Sauer Sascha,34,1528,147,103925,Sascha Sauer,BSV Filderstadt,1576,-48,9,1.8,9.5e-05,linked: opponent network confirms
+120123,Heiko Difflipp,Difflipp Heiko,34,1473,104,100852,Heiko Difflipp,PBC Schwäbisch Hall,1492,-19,6,1.2,0.0015,linked: opponent network confirms
+127067,Dimitrios Stotoglou,Stotoglou Dimitrios,34,1403,92,368778,Dimitrios Stotoglou,VFL Herrenberg,1455,-52,2,0.4,0.075,"linked: uncommon name, network too thin to judge"
+128580,Andreas Sattler,Sattler Andreas,34,1474,84,103922,Andreas Sattler,PBC Pfedelbach,1497,-23,0,0.2,1,"linked: uncommon name, network too thin to judge"
+108791,Jürgen Trost,Trost Jürgen,33,1591,187,368200,Jürgen Trost,BC Sindelfingen,1607,-16,3,0.4,0.0096,linked: opponent network confirms
+118687,Simone Künzl,Künzl Simone,33,1642,269,368302,Simone Künzl,BC Sindelfingen,1657,-15,6,0.8,0.00024,linked: opponent network confirms
+105951,Arash Dayyani,Dayyani Arash,32,1496,110,248740,Arash Dayyani,BC Dätzingen,1503,-7,3,1.3,0.14,"linked: uncommon name, network too thin to judge"
+103817,Alexander Eck,Eck Alexander,31,1527,142,104656,Alexander Eck,BC Sindelfingen,1544,-17,1,0.2,0.16,"linked: uncommon name, network too thin to judge"
+104620,Ardalan Mirahmadi,Mirahmadi Ardalan,31,1550,399,253317,Ardalan Mirahmadi,BSV Filderstadt,1585,-35,0,0.1,1,"linked: uncommon name, network too thin to judge"
+116667,Mark Mende,Mende Mark,31,1334,454,367953,Mark Mende,BSV Pfullingen,1387,-53,5,0.4,5e-05,linked: opponent network confirms
+116673,Ramin Raeisi,Raeisi Ramin,31,1555,260,354706,Ramin Raeisi,BSV Pfullingen,1553,2,7,0.3,6.5e-08,linked: opponent network confirms
+117212,Michailidis Aristidis,Aristidis M.,30,1588,378,103128,Aristidis Michailidis,BSV Filderstadt,1570,18,4,0.7,0.007,linked: opponent network confirms
+118478,Erdal Akinci,Akinci Erdal,30,1661,137,100039,Erdal Akinci,PBC Bad Saulgau,1675,-14,5,1.2,0.0086,linked: opponent network confirms
+101985,Uwe Schmidt,Schmidt Uwe,29,1456,163,104109,Uwe Schmidt,BC Stuttgart 1891 | BF Bruchsal | BV Pforzheim,1592,-136,5,1.4,0.016,linked: opponent network confirms
+105274,Michael Martini,Martini Michael,29,1364,753,350161,Michael Martini,BSV Pfullingen,1400,-36,0,0.1,1,"linked: uncommon name, network too thin to judge"
+108792,Michael Kunz,Kunz Michael,29,1643,850,368031,Michael Kunz,BSV Konstanz,1620,23,6,0.0,9.1e-12,linked: opponent network confirms
+117678,Sabine Hort,Hort Sabine,29,1455,199,350961,Sabine Hort,BV Pforzheim,1500,-45,4,0.8,0.0076,linked: opponent network confirms
+120701,Alexander Fischer,Fischer Alexander,29,1502,118,356369,Alexander Fischer,Tübinger BC,1542,-40,9,1.3,6.9e-06,linked: opponent network confirms
+128594,Thomas Graner,Graner Thomas,29,1452,100,368856,Thomas Graner,BC Feuersee | BULL Leonberg-Höfingen,1447,5,3,0.5,0.015,linked: opponent network confirms
+131294,abdullah yesil,yesil abdullah,29,1532,96,368434,Abdullah Yesil,PP Karlsbad,1571,-39,0,0.4,1,"linked: uncommon name, network too thin to judge"
+136341,Hamza BENSLIMANE,BENSLIMANE Hamza,29,1568,79,369171,Hamza Benslimane,BSV Pfullingen,1612,-44,4,0.2,0.00011,linked: opponent network confirms
+100278,Michael Schneider,Schneider Michael,28,1733,184,368475,Michael Schneider,Pool Knights Bensheim,1604,129,1,0.5,0.41,"rejected: common surname, opponent network does not confirm"
+116848,Alexandros Vassiliadis,Vassiliadis A.,28,1578,138,104746,Alexandros Vassiliadis,PBC Aalen,1677,-99,5,1.0,0.0034,linked: opponent network confirms
+117525,Mergim Zekaj,Zekaj Mergim,28,1487,251,252972,Mergim Zekaj,PBC Pfedelbach,1536,-49,1,0.2,0.22,"linked: uncommon name, network too thin to judge"
+118404,Michal Radwan,Radwan Michal,28,1641,211,350350,Michal Radwan,BC Feuersee | BULL Leonberg-Höfingen,1575,66,4,0.6,0.0032,linked: opponent network confirms
+131335,Mike Walter,Walter Mike,28,1499,86,367987,Mike Walter,JS Mingolsheim,1481,18,2,1.0,0.26,"linked: uncommon name, network too thin to judge"
+108971,Moritz Rutkowski,Rutkowski Moritz,27,1532,396,252363,Moritz Rutkowski,CC Karlsruhe | Mannheimer BF | PBC Rastatt,1610,-78,3,0.9,0.064,"linked: uncommon name, network too thin to judge"
+116490,Andre Kroschwald,Kroschwald Andre,27,1393,502,368147,Andre Kroschwald,BC Sindelfingen,1417,-24,1,0.4,0.3,"linked: uncommon name, network too thin to judge"
+117047,Daniel Klapper,Klapper Daniel,27,1352,196,102379,Daniel Klapper,BC Sindelfingen | PP Böblingen,1351,1,2,0.7,0.14,"linked: uncommon name, network too thin to judge"
+118481,Mehmet Cankurt,Cankurt Mehmet,27,1721,202,100651,Mehmet Cankurt,Mannheimer BF,1792,-71,0,0.6,1,"linked: uncommon name, network too thin to judge"
+119333,Gerhard Gryschka,Gryschka Gerhard,27,1479,256,101528,Gerhard Gryschka,BV Pforzheim,1554,-75,6,1.0,0.00058,linked: opponent network confirms
+119898,Louise Wong,Wong Louise,27,1364,108,240316,Louise Wong,BC Feuersee | BV Leonberg,1403,-39,5,0.7,0.001,linked: opponent network confirms
+120181,Heiko Thomas,Thomas Heiko,27,1487,148,104615,Heiko Thomas,BC Feuersee,1522,-35,3,0.6,0.028,linked: opponent network confirms
+120197,Konstantin Miric,Miric Konstantin,27,1732,224,227705,Konstantin Miric,BC Sindelfingen,1655,77,1,0.1,0.058,"linked: uncommon name, network too thin to judge"
+121728,Luigi Sarullo,Sarullo Luigi,27,1604,112,250306,Luigi Sarullo,JS Mingolsheim | PBDC Kämpfelbach,1628,-24,2,1.5,0.45,"linked: uncommon name, network too thin to judge"
+129088,Wolfgang Krüger,Krüger Wolfgang,27,1373,105,368860,Wolfgang Krüger,PF Calw,1360,13,1,0.5,0.41,"rejected: common surname, opponent network does not confirm"
+119451,Hakan Söyler,Söyler Hakan,26,1419,185,368224,Hakan Söyler,BC Sindelfingen | PBC Nagoldtal,1537,-118,5,1.2,0.0079,linked: opponent network confirms
+123735,Kristan Bailey,Bailey Kristan,26,1482,111,369147,Kristan Bailey,BC Stuttgart 1891,1520,-38,1,0.1,0.13,"linked: uncommon name, network too thin to judge"
+125302,Michael Seil,Seil Michael,26,1313,159,368842,Michael Seil,BC Stuttgart 1891,1383,-70,1,0.5,0.42,"linked: uncommon name, network too thin to judge"
+125303,Brian Wright,Wright Brian,26,1408,148,368879,Brian Wright,BC Stuttgart 1891,1406,2,3,0.6,0.019,linked: opponent network confirms
+136905,Lukas Marx,Marx Lukas,26,1422,78,368659,Lukas Marx,BC Sindelfingen | BULL Leonberg-Höfingen,1464,-42,2,0.2,0.024,linked: opponent network confirms
+100444,Sina Yüksel,Yüksel Sina,25,1603,1007,368033,Sina Yüksel,PBV Rottweil,1604,-1,0,0.1,1,"linked: uncommon name, network too thin to judge"
+117518,Benjamin Eiberger,Eiberger Benjamin,25,1575,138,100972,Benjamin Eiberger,BV Pforzheim,1609,-34,5,1.6,0.024,linked: opponent network confirms
+125357,Bayartsetseg Tsogoo,Tsogoo Bayartsetseg,25,1427,106,368807,Bayartsetseg Tsogoo,BC Stuttgart 1891,1432,-5,2,0.3,0.028,linked: opponent network confirms
+100030,Ismet Mehmeti,Mehmeti Ismet,24,1594,216,103044,Ismet Mehmeti,PBC Bietigheim-Bissingen,1623,-29,0,0.1,1,"linked: uncommon name, network too thin to judge"
+102777,Eric Sorg,Sorg Eric,24,1505,140,104396,Eric Sorg,BSV Shooters Fellbach | PBC Aalen,1578,-73,9,1.3,8.8e-06,linked: opponent network confirms
+116785,mete mutlu,mutlu mete,24,1567,135,369123,Mete Mutlu,PBC Nagoldtal,1614,-47,2,0.3,0.035,linked: opponent network confirms
+118625,Thomas Doussos,Doussos Thomas,24,1621,139,367960,Thomas Doussos,BC Bad Schussenried | BV Villingen-Schwenningen | PBV Rottweil,1635,-14,2,0.5,0.08,"linked: uncommon name, network too thin to judge"
+101230,Benjamin Pran,Pran Benjamin,23,1548,281,103558,Benjamin Pran,BC Neckarsulm,1636,-88,1,0.9,0.59,"linked: uncommon name, network too thin to judge"
+106771,Martin Repp,Repp Martin,23,1475,158,353143,Martin Repp,BC Sindelfingen,1467,8,6,1.0,0.00072,linked: opponent network confirms
+108002,Henrique Barbosa,Barbosa Henrique,23,1430,140,355894,Henrique Barbosa,BSV Pfullingen,1347,83,0,0.1,1,"linked: uncommon name, network too thin to judge"
+120710,Thomas Mooshammer,Mooshammer Thomas,23,1378,110,242747,Thomas Mooshammer,PP Böblingen,1411,-33,5,1.2,0.0089,linked: opponent network confirms
+121475,Jürgen Trost,Trost Jürgen,23,1623,288,368200,Jürgen Trost,BC Sindelfingen,1607,16,6,0.5,1.2e-05,linked: opponent network confirms
+126261,Saif Azzawi,Azzawi Saif,23,1445,173,368869,Saif Azzawi,PBC Schwäbisch Gmünd,1506,-61,2,0.2,0.015,linked: opponent network confirms
+136475,Raphael Müller,Müller Raphael,23,1417,86,369215,Raphael Müller,BC Sindelfingen,1433,-16,0,0.1,1,"rejected: common surname, opponent network does not confirm"
+100557,Udo Gleich,Gleich Udo,22,1471,480,101401,Udo Gleich,BC Blaustein,1485,-14,0,0.2,1,"linked: uncommon name, network too thin to judge"
+102836,Nuhid Serifovic,Serifovic Nuhid,22,1357,190,104337,Nuhid Serifovic,BC Feuersee | PP Böblingen | TV Cannstatt,1455,-98,2,0.6,0.11,"linked: uncommon name, network too thin to judge"
+117515,Peter Link,Link Peter,22,1456,229,121877,Peter Link,BC Feuersee | BSV Shooters Fellbach | TV Cannstatt,1439,17,4,0.9,0.014,linked: opponent network confirms
+120105,Farhad Shahverdi,Shahverdi Farhad,22,1523,216,160734,Farhad Shahverdi,BC Sindelfingen,1638,-115,1,0.2,0.17,"linked: uncommon name, network too thin to judge"
+120715,Goncalo Vieira Manies,Vieira Manies G.,22,1595,252,104761,Goncalo Vieira Manies,BC Sindelfingen | PF Calw,1600,-5,5,1.0,0.0032,linked: opponent network confirms
+119377,Mustafa Benk,Benk Mustafa,21,1592,135,100296,Mustafa Benk,PBC Bietigheim-Bissingen | TV Cannstatt,1629,-37,5,0.9,0.0022,linked: opponent network confirms
+121431,Thorsten Möhle,Möhle Thorsten,21,1525,165,368179,Thorsten Möhle,BC Sindelfingen,1517,8,0,0.3,1,"linked: uncommon name, network too thin to judge"
+127085,Thomas Krüger,Krüger Thomas,21,1429,127,102626,Thomas Krüger,BULL Leonberg-Höfingen,1423,6,7,0.9,3.5e-05,linked: opponent network confirms
+128775,Dominik Tonn,Tonn Dominik,21,1575,129,104642,Dominik Tonn,BV Pforzheim,1605,-30,4,0.7,0.0046,linked: opponent network confirms
+100356,Marco Schmitt,Schmitt Marco,20,1501,113,230448,Marco Schmitt,Mannheimer BF,1533,-32,1,0.3,0.27,"rejected: common surname, opponent network does not confirm"
+120673,Bruno Schuon,Schuon Bruno,20,1422,119,356163,Bruno Schuon,BSV Pfullingen,1400,22,4,0.2,7.9e-05,linked: opponent network confirms
+120699,Adrian Cabanillas Lora,Cabanillas Lora A.,20,1679,143,100638,Adrian Cabanillas Lora,BC Sindelfingen | BSV Shooters Fellbach | PBC Aalen | TV Cannstatt,1712,-33,5,1.1,0.0045,linked: opponent network confirms
+121751,Florian Krieg,Krieg Florian,20,1449,190,368771,Florian Krieg,BC Sindelfingen,1457,-8,0,0.1,1,"linked: uncommon name, network too thin to judge"
+131332,Thomas Kramhöller,Kramhöller Thomas,20,1665,125,102568,Thomas Kramhöller,BC Neckarsulm,1644,21,3,0.6,0.02,linked: opponent network confirms
+131334,Markus Wörner,Wörner Markus,20,1431,102,367988,Markus Wörner,JS Mingolsheim,1534,-103,1,1.0,0.62,"linked: uncommon name, network too thin to judge"
+102548,Horst Hardtke,Hardtke Horst,19,1490,168,101670,Horst Hardtke,BC Aalen,1518,-28,0,0.4,1,"linked: uncommon name, network too thin to judge"
+103131,Manuel Klappstein,Klappstein Manuel,19,1704,114,102381,Manuel Klappstein,PBC Rastatt,1734,-30,1,0.6,0.44,"linked: uncommon name, network too thin to judge"
+119714,Mark Simon,Simon Mark,19,1603,136,104363,Mark Simon,PBC Nagoldtal,1630,-27,1,0.3,0.29,"linked: uncommon name, network too thin to judge"
+121665,Sven Wezstein,Wezstein Sven,19,1528,165,240510,Sven Wezstein,PBC Bietigheim-Bissingen,1507,21,4,0.9,0.015,linked: opponent network confirms
+101728,Fabian Neglein,Neglein Fabian,18,1653,842,103306,Fabian Neglein,PBC Bad Saulgau,1737,-84,2,1.0,0.25,"linked: uncommon name, network too thin to judge"
+117517,Birger Tesnau,Tesnau Birger,18,1496,381,368012,Birger Tesnau,BC Feuersee | BC Stuttgart 1891,1565,-69,0,0.4,1,"linked: uncommon name, network too thin to judge"
+128579,Leon Schick,Schick Leon,18,1376,206,368818,Leon Schick,BC Neckarsulm,1413,-37,0,0.3,1,"linked: uncommon name, network too thin to judge"
+131238,Andreas Höhn,Höhn Andreas,18,1310,161,368283,Andreas Höhn,BC Feuersee,1333,-23,2,0.5,0.086,"linked: uncommon name, network too thin to judge"
+102620,Marcus Strey,Strey Marcus,17,1710,383,176381,Marcus Strey,Mannheimer BF,1717,-7,0,0.2,1,"linked: uncommon name, network too thin to judge"
+108608,Michael Schulz,Schulz Michael,17,1392,1018,353693,Michael Schulz,BSV Konstanz,1489,-97,5,0.1,4.5e-08,linked: opponent network confirms
+116384,Jens Heim,Heim Jens,17,1603,551,101749,Jens Heim,PBV Schwetzingen,1696,-93,2,0.4,0.065,"linked: uncommon name, network too thin to judge"
+118406,Haydar Chehade,Chehade Haydar,17,1680,142,368540,Haydar Chehade,BBV Mannheim | Mannheimer BF,1705,-25,0,0.4,1,"linked: uncommon name, network too thin to judge"
+128564,Thomas Handler,Handler Thomas,17,1601,99,101654,Thomas Handler,BC Feuersee | BV Leonberg,1554,47,5,0.7,0.00078,linked: opponent network confirms
+103044,Ciro Guerra,Guerra Ciro,16,1339,228,144449,Ciro Guerra,BC Sindelfingen,1390,-51,0,0.4,1,"linked: uncommon name, network too thin to judge"
+108937,Emir Musinovic,Musinovic Emir,16,1260,1204,367580,Emir Musinovic,BSV Konstanz,1253,7,5,0.0,5.9e-10,linked: opponent network confirms
+116679,Alexandros Satrazanis,Satrazanis A.,16,1390,579,368376,Alexandros Satrazanis,BSC Göppingen,1415,-25,0,0.0,1,"linked: uncommon name, network too thin to judge"
+117247,Jonny Stojanovic,Stojanovic Jonny,16,1382,567,104508,Jonny Stojanovic,BC Stuttgart 1891,1461,-79,1,0.3,0.24,"linked: uncommon name, network too thin to judge"
+120141,Andreas Rago,Rago Andreas,16,1520,323,103598,Andreas Rago,BC Sindelfingen | PBC Nagoldtal,1518,2,5,0.6,0.00043,linked: opponent network confirms
+120170,Arno Corigliano,Corigliano Arno,16,1650,162,100719,Arno Corigliano,PBC Pfedelbach | PBC Schwäbisch Hall,1615,35,2,0.5,0.079,"linked: uncommon name, network too thin to judge"
+124544,Marc Witt,Witt Marc,16,1342,132,368598,Marc Witt,BULL Leonberg-Höfingen,1318,24,2,0.2,0.018,linked: opponent network confirms
+129273,Antonio de Gois,de Gois Sezinando A.,16,1565,137,240446,Antonio De Gois,BC Neckarsulm,1560,5,2,0.6,0.13,"linked: uncommon name, network too thin to judge"
+133083,Hoora Dabbaghian,Dabbaghian Hoora,16,1140,178,369264,Hoora Dabbaghian,BC Stuttgart 1891,1089,51,1,0.0,0.031,linked: opponent network confirms
+101080,Sabrina Hammer,Hammer Sabrina,15,1628,207,368395,Sabrina Hammer,BC Sindelfingen,1654,-26,0,0.1,1,"linked: uncommon name, network too thin to judge"
+106923,Sebastian Oswald,Oswald Sebastian,15,1555,555,103433,Sebastian Oswald,BSV Pfullingen,1532,23,1,0.2,0.21,"linked: uncommon name, network too thin to judge"
+117204,Simon Koch,Koch Simon,15,1415,445,367993,Simon Koch,BSV Filderstadt,1309,106,1,0.1,0.072,"rejected: common surname, opponent network does not confirm"
+118706,Asim Ramakic,Ramakic Asim,15,1505,256,368269,Asim Ramakic,BC Feuersee | BULL Leonberg-Höfingen,1561,-56,2,0.4,0.05,linked: opponent network confirms
+119449,Kurt Saller,Saller Kurt,15,1465,346,367959,Kurt Saller,BC Sindelfingen | PBC Nagoldtal,1514,-49,3,0.8,0.044,linked: opponent network confirms
+119920,Andreas Müller,Müller Andreas,15,1602,307,103200,Andreas Müller,BC Sindelfingen,1568,34,3,0.7,0.032,linked: opponent network confirms
+121375,Victor Rodriguez,Rodriguez Victor,15,1503,229,368241,Victor Rodriguez,BV Markdorf,1546,-43,1,0.2,0.18,"linked: uncommon name, network too thin to judge"
+125776,Andrei Deliman,Deliman Andrei,15,1491,151,249451,Andrei Deliman,PP Böblingen | VFL Herrenberg,1499,-8,0,0.6,1,"linked: uncommon name, network too thin to judge"
+136343,Bersan Cavildak,Cavildak Bersan,15,1346,127,368696,Bersan Cavildak,PP Böblingen,1330,16,1,0.0,0.037,linked: opponent network confirms
+116739,Haci Eymir,Eymir Haci,14,1557,144,368042,Haci Eymir,BC Aalen | PBC Aalen,1608,-51,1,0.4,0.34,"linked: uncommon name, network too thin to judge"
+119329,El mokhtar Draoui,Draoui El mokhtar,14,1494,428,352635,Draoui El Mokhtar,BV Pforzheim,1535,-41,5,0.7,0.001,linked: opponent network confirms
+120843,Markus Appenowitz,Appenowitz Markus,14,1546,159,100100,Markus Appenowitz,BSV Filderstadt,1571,-25,1,0.5,0.42,"linked: uncommon name, network too thin to judge"
+121691,Dominik Tonn,Tonn Dominik,14,1522,319,104642,Dominik Tonn,BV Pforzheim,1605,-83,1,0.5,0.38,"linked: uncommon name, network too thin to judge"
+125382,Nurcan Ezdi,Ezdi Nurcan,14,1478,295,367996,Nurcan Ezdi,PBC Schwäbisch Gmünd,1491,-13,2,0.3,0.031,linked: opponent network confirms
+130639,Joshua Rinaldi Hermawan,Hermawan J.,14,1365,126,369216,Joshua Rinaldi Hermawan,BC Sindelfingen,1353,12,0,0.0,1,"linked: uncommon name, network too thin to judge"
+102933,Manuel Letzel,Letzel Manuel,13,1612,436,248413,Manuel Letzel,PBV Schwetzingen,1704,-92,0,0.2,1,"linked: uncommon name, network too thin to judge"
+119325,Stanislaw Kretz,Kretz Stanislaw,13,1568,268,102603,Stanislaw Kretz,BV Pforzheim,1650,-82,3,0.4,0.0077,linked: opponent network confirms
+122740,Ferdinand Widjaja,Widjaja Ferdinand,13,1455,126,369102,Ferdinand Widjaja,BC Sindelfingen,1469,-14,0,0.2,1,"linked: uncommon name, network too thin to judge"
+125791,Matthias Weigl,Weigel Matthias,13,1478,192,368868,Matthias Weigl,PBC Schwäbisch Gmünd,1559,-81,2,0.1,0.0071,linked: opponent network confirms
+129234,Thomas Durst,Durst Thomas,13,1527,125,100941,Thomas Durst,BC Stuttgart 1891,1523,4,1,0.4,0.3,"linked: uncommon name, network too thin to judge"
+131385,Samuel Schleitzer,Schleitzer Samuel,13,1618,148,369096,Samuel Schleitzer,P&S Denzlingen,1608,10,0,0.2,1,"linked: uncommon name, network too thin to judge"
+106079,Max Löhle,Löhle Max,12,1511,1014,351228,Max Löhle,PBC Bad Saulgau,1553,-42,0,0.1,1,"linked: uncommon name, network too thin to judge"
+116671,Michael Funk,Funk Michael,12,1429,860,367820,Michael Funk,BC Neckarsulm | BSV Pfullingen,1530,-101,1,0.1,0.13,"linked: uncommon name, network too thin to judge"
+117235,Philip Kammnick,Kammnick Philip,12,1529,401,368142,Philip Kammnick,BC Bad Schussenried,1518,11,1,0.3,0.29,"linked: uncommon name, network too thin to judge"
+117347,Sebastian Albrecht,Albrecht Sebastian,12,1692,310,248593,Sebastian Albrecht,BC Neckarsulm,1630,62,0,0.4,1,"linked: uncommon name, network too thin to judge"
+118626,Soner Ulucanli,Ulucanli Soner,12,1530,155,104715,Soner Ulucanli,PBV Rottweil,1566,-36,1,0.1,0.12,"linked: uncommon name, network too thin to judge"
+123724,Bernd Hauenstein,Hauenstein Bernd,12,1649,144,145388,Bernd Hauenstein,BC Aalen,1688,-39,1,0.1,0.081,"linked: uncommon name, network too thin to judge"
+127056,Antonogiorgakis Charalampos,Charalampos A.,12,1381,153,100092,Charalampos Antonogiorgakis,BULL Leonberg-Höfingen,1366,15,1,0.2,0.22,"linked: uncommon name, network too thin to judge"
+131788,Marouen Marzouki,Marzouki Marouen,12,1345,145,369015,Marouen Marzouki,BC Stuttgart 1891,1352,-7,4,0.2,2.2e-05,linked: opponent network confirms
+101657,Gary Wong,Wong Gary,11,1547,1008,105109,Gary Wong,PBC Schwäbisch Gmünd,1546,1,2,0.2,0.023,linked: opponent network confirms
+104989,Ingo Nassall,Nassall Ingo,11,1641,231,103289,Ingo Nassall,BV Pforzheim | PBC Rastatt | PP Karlsbad,1663,-22,1,0.4,0.33,"linked: uncommon name, network too thin to judge"
+117275,Fabian Snijder,Snijder Fabian,11,1517,240,244727,Fabian Snijder,Mannheimer BF,1686,-169,3,0.5,0.017,linked: opponent network confirms
+117337,Hartmut Jäggle,Jäggle Hartmut,11,1540,516,252672,Hartmut Jäggle,PBC Bad Saulgau,1572,-32,0,0.1,1,"linked: uncommon name, network too thin to judge"
+118649,Peter Link,Link Peter,11,1370,254,121877,Peter Link,BC Feuersee | BSV Shooters Fellbach | TV Cannstatt,1439,-69,1,0.4,0.34,"linked: uncommon name, network too thin to judge"
+120030,Stefan Duttlinger,Duttlinger Stefan,11,1677,405,100945,Stefan Duttlinger,BSV Tiengen,1715,-38,0,0.1,1,"linked: uncommon name, network too thin to judge"
+125811,Pascal Sanna,Sanna Pascal,11,1560,226,252214,Pascal Sanna,PBC Freudenstadt,1547,13,1,0.4,0.31,"linked: uncommon name, network too thin to judge"
+131453,Muho Dizdarevic,Dizdarevic Muho,11,1603,136,369273,Muho Dizdarevic,BULL Leonberg-Höfingen,1572,31,1,0.0,0.047,linked: opponent network confirms
+136390,Markus König,König Markus,11,1527,136,102497,Markus König,BSV Filderstadt | BSV Pfullingen | PBC Bad Saulgau,1559,-32,4,0.2,8.2e-05,linked: opponent network confirms
+104073,Marc Wagner,Wagner Marc,10,1455,234,163715,Marc Wagner,BC Blaustein,1512,-57,0,0.3,1,"rejected: common surname, opponent network does not confirm"
+106139,Orhan Cetin,Cetin Orhan,10,1549,368,100679,Orhan Cetin,BSV Pfullingen,1561,-12,3,0.3,0.0038,linked: opponent network confirms
+108242,Homayoun Nikzat,Nikzat Homayoun,10,1429,1279,351710,Homayoun Nikzat,BSV Konstanz,1427,2,5,0.0,3.8e-10,linked: opponent network confirms
+118218,David Galwas,Galwas David,10,1623,359,247955,David Galwas,PBC Freudenstadt,1588,35,1,0.5,0.39,"linked: uncommon name, network too thin to judge"
+118709,Alexander Srp,Srp Alexander,10,1615,402,368041,Alexander Srp,BC Feuersee,1551,64,1,0.1,0.13,"linked: uncommon name, network too thin to judge"
+118793,Pavlos Korezelidis,Korezelidis Pavlos,10,1488,174,102525,Pavlos Korezelidis,BBC Plochingen | BSC Göppingen,1513,-25,2,0.3,0.043,linked: opponent network confirms
+119330,Andreas Schmid,Schmid Andreas,10,1501,510,242888,Andreas Schmid,PBC Nagoldtal,1532,-31,0,0.2,1,"linked: uncommon name, network too thin to judge"
+120053,Edis Eminovic,Eminovic Edis,10,1225,713,368496,Edis Eminovic,BC Sindelfingen,1215,10,0,0.0,1,"linked: uncommon name, network too thin to judge"
+120054,Enis Eminovic,Eminovic Enis,10,1315,677,368495,Enis Eminovic,BC Sindelfingen,1302,13,0,0.1,1,"linked: uncommon name, network too thin to judge"
+120177,Mergim Zekaj,Zekaj Mergim,10,1536,171,252972,Mergim Zekaj,PBC Pfedelbach,1536,0,0,0.1,1,"linked: uncommon name, network too thin to judge"
+121508,Maxim Buchstab,Buchstab Maxim,10,1444,415,351923,Maxim Buchstab,PBC Schwäbisch Gmünd,1530,-86,0,0.4,1,"linked: uncommon name, network too thin to judge"
+122146,Lothar Hirsch,Hirsch Lothar,10,1277,244,368409,Lothar Hirsch,PBC Bietigheim-Bissingen,1351,-74,1,0.2,0.19,"linked: uncommon name, network too thin to judge"
+125331,Haydar Chehade,Chehade Haydar,10,1563,195,368540,Haydar Chehade,BBV Mannheim | Mannheimer BF,1705,-142,1,0.3,0.29,"linked: uncommon name, network too thin to judge"
+129235,Philipp Kibele,Kibele Philipp,10,1659,294,368811,Philipp Kibele,TV Cannstatt,1711,-52,1,0.3,0.25,"linked: uncommon name, network too thin to judge"
+136688,Adham Mohamed,Mohamed Adham,10,1598,109,369124,Adham Mohamed,Tübinger BC,1554,44,2,0.1,0.0058,linked: opponent network confirms
+102334,Florian Pasch,Pasch Florian,9,1541,1623,249359,Florian Pasch,PF Calw,1533,8,1,0.2,0.2,"linked: uncommon name, network too thin to judge"
+116383,Heiko Hoffmann,Hoffmann Heiko,9,1583,1698,101926,Heiko Hoffmann,PBV Schwetzingen,1638,-55,1,0.3,0.26,"rejected: common surname, opponent network does not confirm"
+118485,Achim Stoll,Stoll Achim,9,1366,541,245471,Achim Stoll,BSV Filderstadt,1355,11,0,0.2,1,"linked: uncommon name, network too thin to judge"
+119531,Jonny Stojanovic,Stojanovic Jonny,9,1474,466,104508,Jonny Stojanovic,BC Stuttgart 1891,1461,13,1,0.1,0.095,"linked: uncommon name, network too thin to judge"
+121480,Maximilian Jentsch,Jentsch Maximilian,9,1467,209,242922,Maximilian Jentsch,PBC Aalen,1530,-63,2,0.3,0.03,linked: opponent network confirms
+122573,Markus Buck,Buck Markus,9,1697,152,100570,Markus Buck,BSC Göppingen,1752,-55,1,0.1,0.14,"linked: uncommon name, network too thin to judge"
+131410,Andreas Picl,Picl Andreas,9,1441,152,369169,Andreas Picl,CC Karlsruhe,1477,-36,0,0.0,1,"linked: uncommon name, network too thin to judge"
+101455,Steven Thieltges,Thieltges Steven,8,1537,1082,104607,Steven Thieltges,PBC Bietigheim-Bissingen,1575,-38,0,0.2,1,"linked: uncommon name, network too thin to judge"
+102778,Stephan Mahler,Mahler Stephan,8,1491,205,368206,Stephan Mahler,BC Aalen,1515,-24,1,0.1,0.063,"linked: uncommon name, network too thin to judge"
+107698,Bruno Schuon,Schuon Bruno,8,1416,869,356163,Bruno Schuon,BSV Pfullingen,1400,16,2,0.2,0.011,linked: opponent network confirms
+116724,Zlatko Rosin,Rosin Zlatko,8,1460,367,102551,Zlatko Rosin,BC Aalen,1547,-87,2,0.2,0.014,linked: opponent network confirms
+118341,Ruben Winkler,Winkler Ruben,8,1645,686,105049,Ruben Winkler,PBC Schwäbisch Hall,1691,-46,0,0.2,1,"linked: uncommon name, network too thin to judge"
+118546,Bernd Hauenstein,Hauenstein Bernd,8,1634,609,145388,Bernd Hauenstein,BC Aalen,1688,-54,1,0.1,0.13,"linked: uncommon name, network too thin to judge"
+121484,Joshua Bartsch,Bartsch Joshua,8,1369,275,368236,Joshua Bartsch,PBC Aalen,1442,-73,2,0.3,0.036,linked: opponent network confirms
+122703,Christina Schneider-Radunovic,Schneider-Radunovic C.,8,1592,310,159294,Christina Schneider-Radunovic,BC Sindelfingen,1607,-15,1,0.1,0.086,"linked: uncommon name, network too thin to judge"
+128589,Hakan Söyler,Söyler Hakan,8,1494,165,368224,Hakan Söyler,BC Sindelfingen | PBC Nagoldtal,1537,-43,3,0.5,0.017,linked: opponent network confirms
+128997,Adhurim Tafa,Tafa Adhurim,8,1537,195,368651,Adhurim Tafa,BSC Göppingen,1548,-11,0,0.1,1,"linked: uncommon name, network too thin to judge"
+100211,Tayfun Teber,Teber Tayfun,7,1762,1461,231078,Tayfun Teber,PBV Schwetzingen,1751,11,0,0.0,1,"linked: uncommon name, network too thin to judge"
+104233,Steffen Mämecke,Mämecke Steffen,7,1533,1876,175895,Steffen Mämecke,JS Mingolsheim,1623,-90,1,0.1,0.11,"linked: uncommon name, network too thin to judge"
+104913,Marco Huber,Huber Marco,7,1504,823,102013,Marco Huber,BV Pforzheim,1527,-23,1,0.3,0.25,"rejected: common surname, opponent network does not confirm"
+116680,Martin Doster,Doster Martin,7,1643,194,100904,Martin Doster,BSC Göppingen,1582,61,1,0.2,0.18,"linked: uncommon name, network too thin to judge"
+116681,Stefan Lorenz,Lorenz Stefan,7,1415,1207,366176,Stefan Lorenz,BC Sindelfingen | PBC Nagoldtal,1526,-111,0,0.1,1,"linked: uncommon name, network too thin to judge"
+116700,Bruno Steinbach,Steinbach Bruno,7,1289,1498,368061,Bruno Steinbach,Tübinger BC,1400,-111,3,0.1,0.00044,linked: opponent network confirms
+117522,Rainer Seemann,Seemann Rainer,7,1487,964,104299,Rainer Seemann,PBC Schwäbisch Hall,1551,-64,0,0.1,1,"linked: uncommon name, network too thin to judge"
+117526,Florian Staud,Staud Florian,7,1529,967,245634,Florian Staud,PBC Nagoldtal,1549,-20,0,0.2,1,"linked: uncommon name, network too thin to judge"
+118268,Pran Damir,Damir Pran,7,1473,173,103559,Damir Pran,BC Neckarsulm,1485,-12,0,0.1,1,"linked: uncommon name, network too thin to judge"
+118547,Andreas Augustin,Augustin Andreas,7,1563,706,100122,Andreas Augustin,BC Aalen,1633,-70,1,0.3,0.25,"linked: uncommon name, network too thin to judge"
+119426,Aleksander Diachkov,Diachkov Aleksander,7,1673,812,368352,Aleksander Diachkov,BULL Leonberg-Höfingen | BV Pforzheim,1649,24,3,0.2,0.0019,linked: opponent network confirms
+119866,Peter Restle,Restle Peter,7,1428,344,157028,Peter Restle,BSV Pfullingen,1446,-18,1,0.2,0.17,"linked: uncommon name, network too thin to judge"
+119867,Guido Ulmer,Ulmer Guido,7,1520,614,350160,Guido Ulmer,BSV Pfullingen | PBC Reutlingen,1428,92,3,0.2,0.00066,linked: opponent network confirms
+120758,Gordon Fenske,Fenske Gordon,7,1416,343,101114,Gordon Fenske,PBDC Kämpfelbach | PP Karlsbad,1527,-111,0,0.3,1,"linked: uncommon name, network too thin to judge"
+121373,Mehmet Kirli,Kirli Mehmet,7,1467,315,102361,Mehmet Kirli,PBC Schwäbisch Gmünd,1568,-101,2,0.3,0.032,linked: opponent network confirms
+121374,Maxim Buchstab,Buchstab Maxim,7,1594,557,351923,Maxim Buchstab,PBC Schwäbisch Gmünd,1530,64,0,0.1,1,"linked: uncommon name, network too thin to judge"
+121407,Kevin Schieber,Schieber Kevin,7,1389,317,368289,Kevin Schieber,BC Feuersee | BV Leonberg,1456,-67,1,0.2,0.18,"linked: uncommon name, network too thin to judge"
+121663,Yilmaz Bulut,Bulut Yilmaz,7,1408,297,368408,Yilmaz Bulut,PBC Bietigheim-Bissingen,1474,-66,0,0.1,1,"rejected: common surname, opponent network does not confirm"
+122409,Daniel Zmalec,Zmalec Daniel,7,1814,623,105234,Daniel Zmalec,PBC Bietigheim-Bissingen,1576,238,2,0.4,0.055,"linked: uncommon name, network too thin to judge"
+122742,Josip Ceko,Ceko Josip,7,1461,210,368208,Josip Ceko,PBC Aalen | TV Cannstatt,1589,-128,0,0.2,1,"linked: uncommon name, network too thin to judge"
+125812,Sebastian Scherbinin,Scherbinin Sebastian,7,1422,268,368579,Sebastian Scherbinin,PBC Freudenstadt,1558,-136,0,0.2,1,"linked: uncommon name, network too thin to judge"
+129280,Tien Tan Nguyen,Nguyen Tien Tan,7,1396,187,369027,Tien Tan Nguyen,BC Stuttgart 1891,1459,-63,1,0.0,0.035,linked: opponent network confirms
+130505,Ralf Kempermann,Kempermann Ralf,7,1541,247,102294,Ralf Kempermann,JS Mingolsheim | PBV Schwetzingen,1588,-47,1,0.3,0.25,"linked: uncommon name, network too thin to judge"
+131785,Markus Löscher,Löscher Markus,7,1641,232,368505,Markus Löscher,BSV Shooters Fellbach | TV Cannstatt,1505,136,0,0.3,1,"linked: uncommon name, network too thin to judge"
+133034,Catalin Damian,Damian Catalin,7,1297,186,368419,Catalin Damian,BC Feuersee,1431,-134,0,0.2,1,"linked: uncommon name, network too thin to judge"
+101749,Markus Appenowitz,Appenowitz Markus,6,1549,788,100100,Markus Appenowitz,BSV Filderstadt,1571,-22,2,0.2,0.012,linked: opponent network confirms
+101839,Dominik Krenzer,Krenzer Dominik,6,1389,222,246406,Dominik Krenzer,BULL Leonberg-Höfingen | PP Böblingen,1467,-78,0,0.1,1,"linked: uncommon name, network too thin to judge"
+105190,Sandra Ortner,Ortner Sandra,6,1568,1190,368973,Sandra Ortner,PBC Bad Saulgau,1455,113,0,0.0,1,"linked: uncommon name, network too thin to judge"
+116464,Jonny Knapp,Knapp Jonny,6,1480,1869,356371,Jonny Knapp,BC Neckarsulm,1541,-61,0,0.3,1,"linked: uncommon name, network too thin to judge"
+119428,Jens Murat,Murat Jens,6,1580,347,368353,Jens Murat,BV Pforzheim,1472,108,0,0.2,1,"linked: uncommon name, network too thin to judge"
+120674,Carlo Frasch,Frasch Carlo,6,1504,172,242969,Carlo Frasch,PP Böblingen,1405,99,1,0.0,0.03,linked: opponent network confirms
+121481,Christin Jentsch,Jentsch Christin,6,1393,498,368312,Christin Jentsch,PBC Aalen,1362,31,0,0.1,1,"linked: uncommon name, network too thin to judge"
+121570,Marek Adam,Adam Marek,6,1660,588,100014,Marek Adam,PBC Waghäusel | PBV Schwetzingen,1743,-83,0,0.1,1,"linked: uncommon name, network too thin to judge"
+122700,Christian Thanner,Thanner Christian,6,1320,558,368394,Christian Thanner,BC Feuersee | BC Sindelfingen,1343,-23,0,0.1,1,"linked: uncommon name, network too thin to judge"
+123210,Daniel Christoph,Christoph Daniel,6,1223,506,368321,Daniel Christoph,BV Pforzheim,1288,-65,0,0.1,1,"linked: uncommon name, network too thin to judge"
+127061,Matthis Meier,Meier Matthis,6,1367,233,368733,Matthis Meier,BULL Leonberg-Höfingen,1310,57,1,0.0,0.026,linked: opponent network confirms
+128714,Marius Schrimpf,Schrimpf Marius,6,1560,207,353792,Marius Schrimpf,BBC Plochingen,1586,-26,0,0.1,1,"linked: uncommon name, network too thin to judge"
+128772,Andreas Augustin,Augustin Andreas,6,1550,205,100122,Andreas Augustin,BC Aalen,1633,-83,1,0.1,0.14,"linked: uncommon name, network too thin to judge"
+129112,Felix Böck,Böck Felix,6,1502,242,368413,Felix Böck,PBC Bietigheim-Bissingen,1558,-56,1,0.2,0.19,"linked: uncommon name, network too thin to judge"
+129279,Tien Dat Le,Le Tien Dat,6,1455,189,368960,Tien Dat Le,BC Stuttgart 1891,1448,7,2,0.1,0.0093,linked: opponent network confirms
+132990,Thomas Wochner,Wochner Thomas,6,1589,211,105087,Thomas Wochner,P&S Denzlingen,1554,35,0,0.0,1,"linked: uncommon name, network too thin to judge"
+136424,Wadea Al Mahamid,Al Mahamid Wadea,6,1551,190,349790,Wadea Al Mahamid,Tübinger BC,1656,-105,2,0.2,0.015,linked: opponent network confirms
+136593,Jürgen Müller,Müller Jürgen,6,1309,195,240215,Jürgen Müller,JS Mingolsheim | PBC Rastatt,1486,-177,0,0.0,1,"rejected: common surname, opponent network does not confirm"
+137015,Yvonne Boos,Boos Yvonne,6,1300,165,369103,Yvonne Boos,BC Sindelfingen,1203,97,0,0.1,1,"linked: uncommon name, network too thin to judge"
+100911,Martin Burmeister,Burmeister Martin,5,1520,1722,240266,Martin Burmeister,BC Sindelfingen,1585,-65,0,0.0,1,"linked: uncommon name, network too thin to judge"
+101619,Sercan Özdemir,Özdemir Sercan,5,1580,1793,103444,Sercan Özdemir,PP Böblingen,1623,-43,1,0.2,0.17,"linked: uncommon name, network too thin to judge"
+101929,Oliver Hauke,Hauke Oliver,5,1554,2112,248741,Oliver Hauke,PF Calw,1555,-1,2,0.3,0.027,linked: opponent network confirms
+103716,Tom Mischner,Mischner Tom,5,1556,1612,367928,Tom Mischner,PBC Langenargen,1504,52,1,0.1,0.13,"linked: uncommon name, network too thin to judge"
+106243,Sander Damrau,Damrau Sander,5,1488,1435,351689,Sander Damrau,BSV Pfullingen,1498,-10,1,0.0,0.029,linked: opponent network confirms
+108458,Anil Celikbilek,Celikbilek Anil,5,1450,2164,355903,Anil Celikbilek,PBC Pfedelbach,1479,-29,0,0.0,1,"linked: uncommon name, network too thin to judge"
+116592,Andreas Tschinkel,Tschinkel Andreas,5,1488,1379,368034,Andreas Tschinkel,BBC Plochingen,1525,-37,0,0.1,1,"linked: uncommon name, network too thin to judge"
+116698,Florian Stubert,Stubert Florian,5,1479,1596,252917,Florian Stubert,BSV Filderstadt,1534,-55,0,0.1,1,"linked: uncommon name, network too thin to judge"
+117009,Gerhard Koch,Koch Gerhard,5,1608,1066,102460,Gerhard Koch,TV Cannstatt,1366,242,0,0.0,1,"rejected: common surname, opponent network does not confirm"
+118055,Johanna Indlekofer,Indlekofer Johanna,5,1622,841,253498,Johanna Indlekofer,BC Dreiländereck | BSV Tiengen,1631,-9,0,0.1,1,"linked: uncommon name, network too thin to judge"
+118466,Udo Kirchgeßner,Kirchgeßner Udo,5,1502,761,102352,Udo Kirchgeßner,PBC Waghäusel,1644,-142,0,0.1,1,"linked: uncommon name, network too thin to judge"
+119228,Bünyamin Öner,Öner Bünyamin,5,1380,1052,368356,Bünyamin Öner,,1304,76,1,0.0,0.0037,linked: opponent network confirms
+119450,Sven Schulz,Schulz Sven,5,1457,960,368222,Sven Schulz,PBC Nagoldtal,1489,-32,0,0.1,1,"rejected: common surname, opponent network does not confirm"
+119459,Peter Stadelmaier,Stadelmaier Peter,5,1524,903,366961,Peter Stadelmaier,BV Pforzheim,1458,66,1,0.1,0.074,"linked: uncommon name, network too thin to judge"
+119523,Carlos Weber,Weber Carlos,5,1405,903,242287,Carlos Weber,BV Pforzheim,1457,-52,2,0.1,0.002,linked: opponent network confirms
+119538,Norman Wagner,Wagner Norman,5,1514,755,368431,Norman Wagner,BC Weingarten,1519,-5,0,0.1,1,"rejected: common surname, opponent network does not confirm"
+120038,Timur Susuz,Susuz Timur,5,1447,193,253141,Timur Susuz,BC Aalen | PBC Aalen,1519,-72,1,0.2,0.19,"linked: uncommon name, network too thin to judge"
+120714,Ingo Mann,Mann Ingo,5,1410,636,242957,Ingo Mann,BC Sindelfingen,1423,-13,1,0.2,0.22,"linked: uncommon name, network too thin to judge"
+120716,Mario Kraus,Kraus Mario,5,1335,752,368514,Mario Kraus,BSV Pfullingen,1304,31,0,0.1,1,"linked: uncommon name, network too thin to judge"
+122543,Konrad Bau,Bau Konrad,5,1473,572,240143,Konrad Bau,Tübinger BC,1547,-74,1,0.1,0.14,"linked: uncommon name, network too thin to judge"
+123721,Matthias Ludersdorfer,Ludersdorfer M.,5,1596,505,102864,Matthias Ludersdorfer,Tübinger BC,1649,-53,1,0.0,0.029,linked: opponent network confirms
+128257,Dragan Pajovic,Pajovic Dragan,5,1388,402,368773,Dragan Pajovic,BC Sindelfingen,1411,-23,0,0.1,1,"linked: uncommon name, network too thin to judge"
+128651,Besirat Fekadu,Fekadu Besirat,5,1444,213,368182,Besirat Fekadu,BSC Göppingen,1468,-24,1,0.2,0.18,"linked: uncommon name, network too thin to judge"
+130591,Tobias Reisner,Reisner Tobias,5,1521,293,368827,Tobias Reisner,PBC Aalen,1523,-2,2,0.1,0.0043,linked: opponent network confirms
+131211,Martin Seyfer,Seyfer Martin,5,1531,283,369119,Martin Seyfer,CC Karlsruhe,1529,2,0,0.0,1,"linked: uncommon name, network too thin to judge"
+132948,Darius Skowronek,Skowronek Darius,5,1705,236,104376,Darius Skowronek,BF Bruchsal | CC Karlsruhe,1633,72,0,0.3,1,"linked: uncommon name, network too thin to judge"
+136547,Alexander Gaffal,Gaffal Alexander,5,1435,185,369205,Alexander Gaffal,TV Cannstatt,1463,-28,0,0.0,1,"linked: uncommon name, network too thin to judge"
+136592,Samir Javor,Javor Samir,5,1290,202,367938,Samir Javor,BC Bad Schussenried,1285,5,0,0.1,1,"linked: uncommon name, network too thin to judge"
+136706,Hoai Tu Anh Nguyen,Nguyen Hoai Tu Anh,5,1407,189,369029,Hoai Tu Anh Nguyen,PBC Offenburg,1269,138,0,0.0,1,"rejected: common surname, opponent network does not confirm"
+136773,Nikola Mitrovic,Mitrovic Nikola,5,1480,175,369254,Nikola Mitrovic,,1580,-100,0,0.0,1,"linked: uncommon name, network too thin to judge"
+136914,Nicholas Hoeldtke,Hoeldtke Nicholas,5,1346,177,369263,Nicholas Hoeldtke,BC Stuttgart 1891,1374,-28,0,0.0,1,"linked: uncommon name, network too thin to judge"
+137348,Claudio Severino,Severino Claudio,5,1562,149,369214,Claudio Severino,Tübinger BC,1475,87,0,0.0,1,"linked: uncommon name, network too thin to judge"
+100021,Christian Brehme,Brehme Christian,4,1647,1719,100511,Christian Brehme,,1776,-129,0,0.1,1,"linked: uncommon name, network too thin to judge"
+100934,Sven Deschner,Deschner Sven,4,1632,2103,104770,Sven Deschner,BV Villingen-Schwenningen,1655,-23,0,0.1,1,"linked: uncommon name, network too thin to judge"
+102781,Jens Clemens,Clemens Jens,4,1465,246,368100,Jens Clemens,BC Aalen,1500,-35,0,0.0,1,"linked: uncommon name, network too thin to judge"
+107041,Jürgen Götting,Götting Jürgen,4,1459,2284,353633,Jürgen Götting,BF Bruchsal | JS Mingolsheim,1474,-15,0,0.2,1,"linked: uncommon name, network too thin to judge"
+107426,Vanja Nikolic,Nikolic Vanja,4,1529,2093,367986,Vanja Nikolic,BC Sindelfingen,1557,-28,0,0.1,1,"linked: uncommon name, network too thin to judge"
+116696,alexandros satrazanis,satrazanis a.,4,1214,2252,368376,Alexandros Satrazanis,BSC Göppingen,1415,-201,0,0.0,1,"linked: uncommon name, network too thin to judge"
+116744,Frank Schwenk,Schwenk Frank,4,1396,758,242796,Frank Schwenk,BSC Göppingen,1511,-115,1,0.1,0.13,"linked: uncommon name, network too thin to judge"
+117271,Joao Rodrigues,Rodrigues Joao,4,1358,1133,251775,Joao Rodrigues,BSV Pfullingen,1513,-155,1,0.1,0.12,"linked: uncommon name, network too thin to judge"
+118215,Patrik Meyer,Meyer Patrik,4,1618,1165,103122,Patrik Meyer,PBC Offenburg,1579,39,0,0.0,1,"rejected: common surname, opponent network does not confirm"
+118387,Gerd Friedl,Friedl Gerd,4,1336,781,368211,Gerd Friedl,BSC Göppingen | PBC Aalen,1430,-94,0,0.0,1,"linked: uncommon name, network too thin to judge"
+118492,Marius Schrimpf,Schrimpf Marius,4,1576,1142,353792,Marius Schrimpf,BBC Plochingen,1586,-10,0,0.1,1,"linked: uncommon name, network too thin to judge"
+118527,Serdar Tunbek,Tunbek Serdar,4,1560,1258,239648,Serdar Tunbek,Mannheimer BF,1617,-57,0,0.1,1,"linked: uncommon name, network too thin to judge"
+120058,Thomas Kühn,Kühn Thomas,4,1499,891,239654,Thomas Kühn,Mannheimer BF,1555,-56,0,0.2,1,"linked: uncommon name, network too thin to judge"
+120166,Gerold Birmili,Birmili Gerold,4,1493,617,353993,Gerold Birmili,BC Sindelfingen,1456,37,1,0.1,0.1,"linked: uncommon name, network too thin to judge"
+120180,Irina Wörle,Wörle Irina,4,1206,1155,368905,Irina Wörle,BC Sindelfingen,1331,-125,0,0.0,1,"linked: uncommon name, network too thin to judge"
+120709,Dietmar Karoli,Karoli Dietmar,4,1550,814,349809,Dietmar Karoli,Tübinger BC,1409,141,0,0.0,1,"linked: uncommon name, network too thin to judge"
+121167,Patrik Meyer,Meyer Patrik,4,1573,707,103122,Patrik Meyer,PBC Offenburg,1579,-6,0,0.0,1,"rejected: common surname, opponent network does not confirm"
+121516,Frank Bernd Wieczorek,Wieczorek F.,4,1364,621,350685,Frank-Bernd Wieczorek,BC Sindelfingen | PBC Pfedelbach,1319,45,0,0.2,1,"linked: uncommon name, network too thin to judge"
+127060,Diego Meier,Meier Diego,4,1396,416,368841,Diego Meier,BULL Leonberg-Höfingen,1229,167,1,0.0,0.034,linked: opponent network confirms
+127537,Michael Strohmaier,Strohmaier Michael,4,1466,310,104546,Michael Strohmaier,BSV Tiengen,1593,-127,0,0.2,1,"linked: uncommon name, network too thin to judge"
+128626,Fersun Ünsel,Ünsel Fersun,4,1569,257,368688,Fersun Ünsel,Mannheimer BF,1584,-15,0,0.0,1,"linked: uncommon name, network too thin to judge"
+130589,Philip Gamerdinger,Gamerdinger Philip,4,1456,222,368138,Philip Gamerdinger,BC Aalen,1436,20,0,0.1,1,"linked: uncommon name, network too thin to judge"
+131321,Asmir Sinanovic,Sinanovic Asmir,4,1348,293,104365,Asmir Sinanovic,PBC Freudenstadt,1386,-38,0,0.1,1,"linked: uncommon name, network too thin to judge"
+131322,Armin Stauß,Stauß Armin,4,1460,318,104434,Armin Stauß,PBC Freudenstadt,1532,-72,0,0.1,1,"linked: uncommon name, network too thin to judge"
+131349,Tafa Adhurim,Adhurim Tafa,4,1481,205,368651,Adhurim Tafa,BSC Göppingen,1548,-67,0,0.0,1,"linked: uncommon name, network too thin to judge"
+131607,Jörg Wolf,Wolf Jörg,4,1374,282,368044,Jörg Wolf,BC Dreiländereck | PBC Offenburg,1446,-72,0,0.2,1,"rejected: common surname, opponent network does not confirm"
+132977,Mark Szinger,Szinger Mark,4,1473,245,368616,Mark Szinger,BV Villingen-Schwenningen,1436,37,0,0.1,1,"linked: uncommon name, network too thin to judge"
+136598,Dominic Seeger,Seeger Dominic,4,1514,204,245236,Dominic Seeger,BC Feuersee,1436,78,0,0.0,1,"linked: uncommon name, network too thin to judge"
+136819,Kevin Adamczyk,Adamczyk Kevin,4,1539,187,251815,Kevin Adamczyk,BC Aalen,1604,-65,1,0.2,0.18,"linked: uncommon name, network too thin to judge"
+136857,Alfred Stöcklein,Stöcklein Alfred,4,1482,174,368008,Alfred Stöcklein,BC Sindelfingen,1518,-36,0,0.0,1,"linked: uncommon name, network too thin to judge"
+136877,Jürgen Baumgärtner,Baumgärtner Jürgen,4,1706,194,367913,Jürgen Baumgärtner,BC Aalen,1662,44,0,0.1,1,"linked: uncommon name, network too thin to judge"
+136896,SVEN DASTIG,DASTIG SVEN,4,1439,181,369089,Sven Dastig,PBC Bietigheim-Bissingen,1480,-41,0,0.0,1,"linked: uncommon name, network too thin to judge"
+137349,Partha Ghosh,Ghosh Partha,4,1465,167,368821,Partha Ghosh,Tübinger BC,1519,-54,2,0.1,0.0044,linked: opponent network confirms
+137387,Norbert Ritschel,Ritschel Norbert,4,1463,162,103756,Norbert Ritschel,PBC Nagoldtal,1521,-58,0,0.1,1,"linked: uncommon name, network too thin to judge"
+100398,Jörg Laupitz,Laupitz Jörg,3,1505,2292,102744,Jörg Laupitz,PBC Nagoldtal,1559,-54,0,0.0,1,"linked: uncommon name, network too thin to judge"
+101150,Philip Smaczny,Smaczny Philip,3,1444,2125,351326,Philip Smaczny,PP Böblingen,1599,-155,1,0.1,0.052,"linked: uncommon name, network too thin to judge"
+101813,Armin Stauß,Stauß Armin,3,1510,2651,104434,Armin Stauß,PBC Freudenstadt,1532,-22,0,0.1,1,"linked: uncommon name, network too thin to judge"
+102587,Wolfgang Siethoff,Siethoff Wolfgang,3,1570,2379,104353,Wolfgang Siethoff,PF Calw | VFL Herrenberg,1571,-1,0,0.1,1,"linked: uncommon name, network too thin to judge"
+103659,Gerald Kny,Kny Gerald,3,1557,2731,102445,Gerald Kny,BV Pforzheim,1652,-95,1,0.0,0.016,linked: opponent network confirms
+105307,Ivan Franz,Franz Ivan,3,1496,2607,248468,Ivan Franz,CC Karlsruhe,1466,30,0,0.0,1,"linked: uncommon name, network too thin to judge"
+106630,Silke Brand,Brand Silke,3,1368,1976,100481,Silke Brand,BC Stuttgart 1891,1479,-111,0,0.1,1,"linked: uncommon name, network too thin to judge"
+106742,Andreas Jörg,Jörg Andreas,3,1486,2871,102134,Andreas Jörg,BBC Plochingen,1627,-141,0,0.0,1,"linked: uncommon name, network too thin to judge"
+108414,Julian Tremmel,Tremmel Julian,3,1367,2450,354166,Julian Tremmel,BSV Konstanz,1455,-88,2,0.0,0.00011,linked: opponent network confirms
+116674,Stefan Süß,Süß Stefan,3,1403,2280,368118,Stefan Süß,BSF Kurpfalz | Mannheimer BF,1515,-112,1,0.1,0.063,"linked: uncommon name, network too thin to judge"
+116852,Thorsten Holatka,Holatka Thorsten,3,1531,1422,101952,Thorsten Holatka,BV Pforzheim,1587,-56,1,0.1,0.11,"linked: uncommon name, network too thin to judge"
+118265,Robert Karaica,Karaica Robert,3,1462,1293,368098,Robert Karaica,BC Aalen,1679,-217,0,0.0,1,"linked: uncommon name, network too thin to judge"
+120126,Michael Brüll,Brüll Michael,3,1365,683,103487,Michael Brüll,BC Stuttgart 1891,1502,-137,0,0.0,1,"linked: uncommon name, network too thin to judge"
+121551,Vladislav Hebel,Hebel Vladislav,3,1555,814,101723,Vladislav Hebel,PBC Offenburg,1736,-181,0,0.0,1,"linked: uncommon name, network too thin to judge"
+122542,Roland Wacker,Wacker Roland,3,1381,720,104819,Roland Wacker,PBC Reutlingen | Tübinger BC,1579,-198,1,0.1,0.13,"linked: uncommon name, network too thin to judge"
+122702,Massimo Miccoli,Miccoli Massimo,3,1519,670,103127,Massimo Miccoli,BC Sindelfingen,1609,-90,2,0.1,0.0064,linked: opponent network confirms
+125347,Ihor Lialin,Lialin Ihor,3,1651,576,368257,Ihor Lialin,BSV Tiengen,1652,-1,0,0.0,1,"linked: uncommon name, network too thin to judge"
+128600,Hakan Söyler,Söyler Hakan,3,1451,242,368224,Hakan Söyler,BC Sindelfingen | PBC Nagoldtal,1537,-86,0,0.2,1,"linked: uncommon name, network too thin to judge"
+128873,Frank Vollath,Vollath Frank,3,1419,490,368761,Frank Vollath,TV Cannstatt,1399,20,0,0.1,1,"linked: uncommon name, network too thin to judge"
+129269,Benjamin Pran,Pran Benjamin,3,1488,398,103558,Benjamin Pran,BC Neckarsulm,1636,-148,0,0.1,1,"linked: uncommon name, network too thin to judge"
+129270,Rouven Elischer,Elischer Rouven,3,1480,394,250899,Rouven Elischer,BC Neckarsulm,1598,-118,1,0.2,0.19,"linked: uncommon name, network too thin to judge"
+130618,Peter Gerlach,Gerlach Peter,3,1486,362,368707,Peter Gerlach,PBC Aalen,1362,124,2,0.1,0.0022,linked: opponent network confirms
+131281,Timm Ganske,Ganske Timm,3,1584,343,368832,Timm Ganske,CC Karlsruhe,1476,108,0,0.1,1,"linked: uncommon name, network too thin to judge"
+131787,Alexandru-Nicolae Baniceru,Baniceru A.,3,1423,315,369014,Alexandru-Nicolae Baniceru,BC Stuttgart 1891,1406,17,0,0.0,1,"linked: uncommon name, network too thin to judge"
+132873,Yao Wang,Wang Yao,3,1376,290,368109,Yao Wang,BC Feuersee | BC Stuttgart 1891,1455,-79,0,0.1,1,"linked: uncommon name, network too thin to judge"
+132966,Arno. Corigliano,Corigliano Arno.,3,1530,268,100719,Arno Corigliano,PBC Pfedelbach | PBC Schwäbisch Hall,1615,-85,0,0.0,1,"linked: uncommon name, network too thin to judge"
+136391,Dirk Bastian,Bastian Dirk,3,1397,264,368954,Dirk Bastian,BSV Filderstadt,1351,46,0,0.0,1,"linked: uncommon name, network too thin to judge"
+136809,Luca Wolk,Wolk Luca,3,1369,212,368551,Luca Wolk,BF Weinheim-Viernheim,1325,44,1,0.1,0.13,"linked: uncommon name, network too thin to judge"
+136813,Daniel Cavalleri,Cavalleri Daniel,3,1362,222,369030,Daniel Cavalleri,PBC Offenburg,1356,6,1,0.0,0.022,linked: opponent network confirms
+136853,Luka Antic,Antic Luka,3,1405,214,368266,Luka Antic,PBC Offenburg,1432,-27,1,0.0,0.032,linked: opponent network confirms
+136907,Michael Triffo,Triffo Michael,3,1490,198,368533,Michael Triffo,JS Mingolsheim,1470,20,1,0.1,0.067,"linked: uncommon name, network too thin to judge"
+100941,Lisa Knost,Knost Lisa,2,1455,3219,230942,Lisa Knost,BSF Kurpfalz,1430,25,0,0.0,1,"linked: uncommon name, network too thin to judge"
+101034,Hermann Krieger,Krieger Hermann,2,1470,3077,102607,Hermann Krieger,BF Bruchsal | CC Karlsruhe,1572,-102,0,0.0,1,"linked: uncommon name, network too thin to judge"
+101643,Christian Iliadis,Iliadis Christian,2,1455,2980,242920,Christian Iliadis,BC Aalen | PBC Schwäbisch Gmünd,1400,55,1,0.0,0.023,linked: opponent network confirms
+116470,Sven Kaupp,Kaupp Sven,2,1433,2913,253091,Sven Kaupp,BSC Lions Bietigheim | PBC Rastatt,1513,-80,0,0.0,1,"linked: uncommon name, network too thin to judge"
+116677,Christian Süß,Süß Christian,2,1363,2469,368557,Christian Süß,BSF Kurpfalz,1361,2,1,0.1,0.058,"linked: uncommon name, network too thin to judge"
+116716,Vithyea Thorn,Thorn Vithyea,2,1477,2357,368136,Vithyea Thorn,BC Aalen,1484,-7,0,0.0,1,"linked: uncommon name, network too thin to judge"
+116717,Pascal Pascolo,Pascolo Pascal,2,1313,2546,368046,Pascal Pascolo,BC Aalen,1418,-105,1,0.1,0.057,"linked: uncommon name, network too thin to judge"
+116740,Taner Susuz,Susuz Taner,2,1391,2293,367983,Taner Susuz,BC Aalen | PBC Aalen,1407,-16,1,0.1,0.056,"linked: uncommon name, network too thin to judge"
+116742,Furkan Özkan,Özkan Furkan,2,1353,2283,367980,Furkan Özkan,BC Aalen | PBC Aalen,1389,-36,0,0.0,1,"linked: uncommon name, network too thin to judge"
+116743,Alpay Gürkal,Gürkal Alpay,2,1274,2692,367975,Alpay Gürkal,BC Aalen | PBC Aalen,1349,-75,0,0.0,1,"linked: uncommon name, network too thin to judge"
+117335,Dominik Weitzmann,Weitzmann Dominik,2,1490,1580,367964,Dominik Weitzmann,PBC Bad Saulgau,1482,8,0,0.1,1,"linked: uncommon name, network too thin to judge"
+117349,Christian Iliadis,Iliadis Christian,2,1334,257,242920,Christian Iliadis,BC Aalen | PBC Schwäbisch Gmünd,1400,-66,0,0.0,1,"linked: uncommon name, network too thin to judge"
+117358,Tobias Abt,Abt Tobias,2,1435,894,355824,Tobias Abt,BC Bad Schussenried | PBC Bad Saulgau,1420,15,0,0.1,1,"linked: uncommon name, network too thin to judge"
+117519,Alfi Müller,Müller Alfi,2,1356,1790,368011,Alfi Müller,BC Feuersee,1346,10,0,0.0,1,"rejected: common surname, opponent network does not confirm"
+117828,Uwe Lang,Lang Uwe,2,1439,1288,102719,Uwe Lang,BC Dreiländereck | PBC Offenburg,1531,-92,1,0.1,0.05,linked: opponent network confirms
+118209,Valentin Marten,Marten Valentin,2,1471,1557,221926,Valentin Marten,BC Neckarsulm,1613,-142,0,0.0,1,"linked: uncommon name, network too thin to judge"
+119645,Andreas Knauf,Knauf Andreas,2,1372,1305,102424,Andreas Knauf,BSC Göppingen | TV Cannstatt,1506,-134,0,0.0,1,"linked: uncommon name, network too thin to judge"
+119646,Angelika Müller,Müller Angelika,2,1333,1270,368148,Angelika Müller,BSC Göppingen,1281,52,0,0.0,1,"rejected: common surname, opponent network does not confirm"
+119647,Daniela Majer,Majer Daniela,2,1378,1350,102935,Daniela Majer,BSC Göppingen,1349,29,0,0.1,1,"linked: uncommon name, network too thin to judge"
+119865,Ruben Lorch,Lorch Ruben,2,1288,1264,368515,Ruben Lorch,BSV Pfullingen,1271,17,0,0.0,1,"linked: uncommon name, network too thin to judge"
+120182,Celina Visconti,Visconti Celina,2,1440,924,104767,Celina Visconti,PBV Schwetzingen,1605,-165,0,0.0,1,"linked: uncommon name, network too thin to judge"
+121145,Robert Karaica,Karaica Robert,2,1270,1180,368098,Robert Karaica,BC Aalen,1679,-409,0,0.1,1,"linked: uncommon name, network too thin to judge"
+121272,Bruno Miletic,Miletic Bruno,2,1423,915,353889,Bruno Miletic,BC Dreiländereck,1569,-146,0,0.0,1,"linked: uncommon name, network too thin to judge"
+121396,Johanna Indlekofer,Indlekofer Johanna,2,1442,1059,253498,Johanna Indlekofer,BC Dreiländereck | BSV Tiengen,1631,-189,0,0.0,1,"linked: uncommon name, network too thin to judge"
+121552,Axel Klimmer,Klimmer Axel,2,1418,948,102406,Axel Klimmer,PBC Bräunlingen,1485,-67,0,0.1,1,"linked: uncommon name, network too thin to judge"
+122216,Ervin Lika,Lika Ervin,2,1397,838,368116,Ervin Lika,BSV Filderstadt,1456,-59,1,0.0,0.031,linked: opponent network confirms
+122701,Sebastian König,König Sebastian,2,1339,831,368390,Sebastian König,BC Sindelfingen,1336,3,0,0.0,1,"linked: uncommon name, network too thin to judge"
+122716,Andreas Einsiedler,Einsiedler Andreas,2,1494,827,100982,Andreas Einsiedler,PBC Langenargen,1537,-43,0,0.0,1,"linked: uncommon name, network too thin to judge"
+123326,Marcel Roden,Roden Marcel,2,1400,766,103769,Marcel Roden,CC Karlsruhe,1569,-169,0,0.0,1,"linked: uncommon name, network too thin to judge"
+124543,Dieter Haberkorn,Haberkorn Dieter,2,1523,720,101588,Dieter Haberkorn,PBC Bad Saulgau,1535,-12,0,0.0,1,"linked: uncommon name, network too thin to judge"
+125788,Michael Reiser,Reiser Michael,2,1377,212,103686,Michael Reiser,PF Calw,1480,-103,0,0.1,1,"linked: uncommon name, network too thin to judge"
+125820,Dominik Heinkele,Heinkele Dominik,2,1423,643,101755,Dominik Heinkele,BC Dätzingen,1521,-98,0,0.0,1,"linked: uncommon name, network too thin to judge"
+127097,Thorgen Brett,Brett Thorgen,2,1244,778,353895,Thorgen Brett,PP Böblingen | Tübinger BC,1423,-179,0,0.1,1,"linked: uncommon name, network too thin to judge"
+128363,Alexander Srp,Srp Alexander,2,1225,301,368041,Alexander Srp,BC Feuersee,1551,-326,0,0.1,1,"linked: uncommon name, network too thin to judge"
+128625,Ibrahim Erdogan,Erdogan Ibrahim,2,1371,340,368689,Ibrahim Erdogan,Mannheimer BF,1569,-198,0,0.0,1,"linked: uncommon name, network too thin to judge"
+130615,Jürgen Reisner,Reisner Jürgen,2,1379,422,368450,Jürgen Reisner,PBC Aalen,1428,-49,1,0.0,0.032,linked: opponent network confirms
+130619,Sezer Soydinc,Soydinc Sezer,2,1497,429,368220,Sezer Soydinc,PBC Aalen,1445,52,0,0.0,1,"linked: uncommon name, network too thin to judge"
+130636,Oliver Krieger,Krieger Oliver,2,1426,430,249001,Oliver Krieger,PBC Aalen | PBC Schwäbisch Gmünd,1403,23,2,0.1,0.0036,linked: opponent network confirms
+131228,Finn Schmitz,Schmitz Finn,2,1444,373,368504,Finn Schmitz,TV Cannstatt,1409,35,0,0.1,1,"rejected: common surname, opponent network does not confirm"
+131245,Dirk Schäfauer,Schäfauer Dirk,2,1347,478,242731,Dirk Schäfauer,BC Dallau | BC Neckarsulm,1470,-123,0,0.1,1,"linked: uncommon name, network too thin to judge"
+132847,David Agonafer,Agonafer David,2,1472,334,368412,David Agonafer,PBC Bietigheim-Bissingen,1479,-7,0,0.1,1,"linked: uncommon name, network too thin to judge"
+136922,Alexander Ponherr,Ponherr Alexander,2,1467,253,369231,Alexander Ponherr,CC Karlsruhe,1557,-90,0,0.0,1,"linked: uncommon name, network too thin to judge"
+137036,Sebastian Zinck,Zinck Sebastian,2,1439,231,369262,Sebastian Zinck,BC Stuttgart 1891,1438,1,0,0.0,1,"linked: uncommon name, network too thin to judge"
