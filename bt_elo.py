@@ -148,7 +148,7 @@ def rating_rows(
                 "staffel": " | ".join(sorted(x for x in record.staffeln if x)),
                 "games": str(record.games),
                 "wins": str(record.wins),
-                "losses": str(record.games - record.wins),
+                "losses": str(record.games - record.wins - record.draws),
                 "weighted_games": f"{record.weighted_games:.2f}",
                 "elo": str(round(elo)),
                 "elo_low": str(round(elo - 1.96 * se)),

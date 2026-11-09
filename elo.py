@@ -45,6 +45,7 @@ Game = tuple[str, str, dict[str, str], float]
 class PlayerRecord:
     games: int = 0
     wins: int = 0
+    draws: int = 0
     weighted_games: float = 0.0
     pass_nr: str = ""
     teams: set[str] = field(default_factory=set)
@@ -88,8 +89,11 @@ def load_games(path: Path) -> list[dict[str, str]]:
     The inhouse file is the hand-edited club list. Its columns are
     date, player, opponent, score, discipline. Single frames (1:0 or 0:1)
     between the same two players, on the same day and in the same discipline,
-    are added into one score. A short club set is weighted by club_sets.cfg:
-    racks out of 5, 7 or 5, and 14/1 balls out of 70. League rows are left
+    are added into one score. A level score is kept: each player takes half
+    the racks or balls, and neither is given the win. A club 8-ball, 9-ball
+    or 10-ball is weighted by the winner's racks divided by the race length
+    in club_sets.cfg: a 5:4 in 9-ball is 5/7, and 8-ball and 10-ball use 5.
+    14/1 still adds both players' balls. League rows are left
     as scraped. TournamentApp open-tournament matches (Sanwald Cup, BULL
     CUP, Stuttgart, Pfullingen, …) are added after that, joined to a
     Pass-Nr. only through data/tournamentapp_identity.csv.
@@ -280,7 +284,7 @@ def _inhouse_games(path: Path) -> list[dict[str, str]]:
                 taken, conceded = int(left), int(right)
             except ValueError:
                 raise SystemExit(f"{path}:{index}: score {score!r} is not two numbers") from None
-            if taken == conceded:
+            if taken + conceded <= 0:
                 continue
             when = parse_match_date(date)
             if when is None:
@@ -339,7 +343,7 @@ def _aggregate_single_frames(rows: list[dict]) -> list[dict]:
             else:
                 taken += item["conceded"]
                 conceded += item["taken"]
-        if taken == conceded:
+        if taken + conceded <= 0:
             continue
         combined = dict(group[0])
         combined["taken"] = taken
@@ -357,7 +361,11 @@ def _inhouse_row(item: dict) -> dict[str, str]:
     discipline = item["discipline"]
     date = item["date"]
     index = item["index"]
-    winner, loser = (player, opponent) if taken > conceded else (opponent, player)
+    level = taken == conceded
+    if level:
+        winner, loser = player, opponent
+    else:
+        winner, loser = (player, opponent) if taken > conceded else (opponent, player)
     straight = score if discipline == "14/1e" else ""
     return {
         "season": item["season"],
@@ -375,8 +383,8 @@ def _inhouse_row(item: dict) -> dict[str, str]:
         "home_player": player,
         "away_player": opponent,
         "frame_score": score,
-        "home_points": "1" if winner == player else "0",
-        "away_points": "1" if winner == opponent else "0",
+        "home_points": "0" if level else ("1" if winner == player else "0"),
+        "away_points": "0" if level else ("1" if winner == opponent else "0"),
         "winner": winner,
         "loser": loser,
         "winner_side": "home" if winner == player else "away",
@@ -410,18 +418,29 @@ def load_set_lengths(path: Path | None = None) -> dict[str, float]:
 
 
 def _set_weight(discipline: str, taken: int, conceded: int) -> float:
-    """Short club sets count as the fraction of club_sets.cfg they filled."""
+    """Weight a club set by the winner's score over the race length.
+
+    8-ball and 10-ball race to 5, 9-ball to 7. A 5:4 in 9-ball is 5/7.
+    A winner who runs past that length weighs more than 1. 14/1 still
+    adds both players' balls and divides by 70.
+    """
     length = SET_LENGTHS.get(discipline.lower())
     if not length:
         return 1.0
-    return min(1.0, (taken + conceded) / length)
+    if discipline.lower() == "14/1e":
+        return (taken + conceded) / length
+    return max(taken, conceded) / length
 
 
 SET_LENGTHS = load_set_lengths()
 
 
 def outcomes(rows: list[dict[str, str]]) -> list[tuple[str, str, dict[str, str]]]:
-    """Return (winner, loser, row) for decisive individual games."""
+    """Return (winner, loser, row) for individual games, including level scores.
+
+    On a level score the first name is only a label. ``collect`` credits
+    each player with half the racks and does not record a win.
+    """
     played: list[tuple[str, str, dict[str, str]]] = []
     for row in rows:
         winner = row.get("winner", "").strip()
@@ -556,7 +575,7 @@ def _score_pair(text: str) -> tuple[int, int] | None:
 def winner_share(row: dict[str, str]) -> float:
     """Fraction of racks or balls taken by the winner.
 
-    5:0 is 1.00, 5:4 is 5/9, 60:30 is 60/90, 60:52 is 60/112. A game with
+    5:0 is 1.00, 5:4 is 5/9, 10:10 is 0.50, 60:30 is 60/90. A game with
     no usable score stays a plain win.
     """
     discipline = row.get("discipline", "").strip()
@@ -577,15 +596,27 @@ def winner_share(row: dict[str, str]) -> float:
     return taken / (taken + conceded)
 
 
+def level_score(row: dict[str, str]) -> bool:
+    """True when the recorded racks or balls are split evenly."""
+    discipline = row.get("discipline", "").strip()
+    text = row.get("straight_pool_punkte", "") if discipline == "14/1e" else ""
+    parsed = _score_pair(text.strip()) or _score_pair(row.get("frame_score", "").strip())
+    return parsed is not None and parsed[0] == parsed[1]
+
+
 def collect(played: list[Game]) -> dict[str, PlayerRecord]:
     players: dict[str, PlayerRecord] = defaultdict(PlayerRecord)
     for winner, loser, row, weight in played:
         share = winner_share(row)
+        drawn = level_score(row)
         when = parse_match_date(row.get("match_date", ""))
         for name, won in ((winner, True), (loser, False)):
             record = players[name]
             record.games += 1
-            record.wins += int(won)
+            if drawn:
+                record.draws += 1
+            else:
+                record.wins += int(won)
             record.weighted_games += weight
             if when is None:
                 record.open_result = True
@@ -762,7 +793,7 @@ def calibration_rows(
                 "staffel": " | ".join(sorted(record.staffeln)),
                 "games": str(record.games),
                 "wins": str(record.wins),
-                "losses": str(record.games - record.wins),
+                "losses": str(record.games - record.wins - record.draws),
                 "weighted_games": f"{record.weighted_games:.2f}",
                 "elo": str(round(elo)),
                 "elo_low": str(round(elo - 1.96 * se)),
