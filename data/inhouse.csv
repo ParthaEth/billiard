@@ -1,236 +1,277 @@
-date,player,player_id,opponent,opponent_id,score,discipline
-09.01.2025,Konrad Bau,240143,Partha Ghosh,368821,6:0,9-Ball
-15.01.2025,Patrick Coklica,368820,Nikolaos Seristatidis,367912,60:59,14/1e
-22.01.2025,Patrick Coklica,368820,Nikolaos Seristatidis,367912,52:80,14/1e
-23.01.2025,Konrad Bau,240143,Ali Deyhimi,368249,60:26,14/1e
-07.02.2025,Partha Ghosh,368821,Hannes Reißner,368517,5:2,8-Ball
-16.02.2025,Michael Maihöfer,368822,Uwe Cordes,100718,5:3,8-Ball
-25.02.2025,Michael Maihöfer,368822,Andreas Horn,101988,5:4,9-Ball
-04.03.2025,Nikolaos Seristatidis,367912,Hannes Reißner,368517,5:4,8-Ball
-04.03.2025,Patrick Coklica,368820,Alexander Fischer,356369,2:5,8-Ball
-11.03.2025,Partha Ghosh,368821,Konrad Bau,240143,1:5,8-Ball
-20.03.2025,Alexander Fischer,356369,Konrad Bau,240143,26:70,14/1e
-07.04.2025,Konrad Bau,240143,Uwe Cordes,100718,5:1,8-Ball
-13.04.2025,Konrad Bau,240143,Michael Maihöfer,368822,5:0,8-Ball
-26.04.2025,Partha Ghosh,368821,Uwe Cordes,100718,5:1,8-Ball
-29.04.2025,Roland Wacker,104819,Mark Hast,242992,5:2,8-Ball
-30.04.2025,Partha Ghosh,368821,Michael Maihöfer,368822,5:0,8-Ball
-04.05.2025,Nikolaos Seristatidis,367912,Ali Deyhimi,368249,7:4,9-Ball
-20.05.2025,Mark Hast,242992,Hannes Reißner,368517,5:4,8-Ball
-24.05.2025,Roland Wacker,104819,Alexander Fischer,356369,3:6,9-Ball
-06.06.2025,Nikolaos Seristatidis,367912,Andreas Horn,101988,5:4,8-Ball
-16.06.2025,Alexander Fischer,356369,Wadea Al Mahamid,349790,9:7,9-Ball
-19.06.2025,Partha Ghosh,368821,Konrad Bau,240143,1:6,9-Ball
-21.06.2025,Roland Wacker,104819,Hannes Reißner,368517,7:2,9-Ball
-21.06.2025,Nikolaos Seristatidis,367912,Konrad Bau,240143,2:5,8-Ball
-15.07.2025,Mark Hast,242992,Patrick Coklica,368820,5:4,8-Ball
-20.07.2025,Kevin Minardi,369056,Francesco Dragotta,369057,5:3,8-Ball
-27.07.2025,Kevin Minardi,369056,Dixi,local:dixi|Tübinger BC,5:3,8-Ball
-27.07.2025,Francesco Dragotta,369057,Dixi,local:dixi|Tübinger BC,3:5,8-Ball
-29.07.2025,Alexander Fischer,356369,Andreas Horn,101988,7:6,9-Ball
-29.07.2025,Patrick Coklica,368820,Hannes Reißner,368517,5:4,8-Ball
-29.07.2025,Mark Hast,242992,Roland Wacker,104819,5:4,8-Ball
-29.07.2025,Roland Wacker,104819,Ali Deyhimi,368249,5:4,8-Ball
-05.08.2025,Mark Hast,242992,Uwe Cordes,100718,5:1,8-Ball
-06.08.2025,Kevin Minardi,369056,Hannes Reißner,368517,5:3,8-Ball
-13.08.2025,Partha Ghosh,368821,Konrad Bau,240143,0:6,9-Ball
-02.09.2025,Mark Hast,242992,Alexander Fischer,356369,5:1,8-Ball
-02.09.2025,Mark Hast,242992,Partha Ghosh,368821,5:3,8-Ball
-02.09.2025,Kevin Minardi,369056,Patrick Coklica,368820,4:5,8-Ball
-02.09.2025,Roland Wacker,104819,Wadea Al Mahamid,349790,7:6,9-Ball
-09.09.2025,Ali Deyhimi,368249,Uwe Cordes,100718,5:1,8-Ball
-11.09.2025,Kevin Minardi,369056,Hannes Reißner,368517,3:5,8-Ball
-02.10.2025,Roland Wacker,104819,Nikolaos Seristatidis,367912,70:40,14/1e
-02.10.2025,Nikolaos Seristatidis,367912,Roland Wacker,104819,35:70,14/1e
-05.10.2025,Dixi,local:dixi|Tübinger BC,Kevin Minardi,369056,70:53,14/1e
-12.10.2025,Adham Mohamed,369124,Francesco Dragotta,369057,5:4,8-Ball
-12.10.2025,Dixi,local:dixi|Tübinger BC,Patrick Coklica,368820,2:5,8-Ball
-14.10.2025,Adham Mohamed,369124,Francesco Dragotta,369057,5:1,8-Ball
-20.10.2025,Kevin Minardi,369056,Dixi,local:dixi|Tübinger BC,5:6,9-Ball
-20.10.2025,Kevin Minardi,369056,Thorgen Brett,353895,5:6,9-Ball
-28.10.2025,Adham Mohamed,369124,Kevin Minardi,369056,3:5,8-Ball
-23.11.2025,Kevin Minardi,369056,Dixi,local:dixi|Tübinger BC,3:6,9-Ball
-01.12.2025,Kevin Minardi,369056,Dixi,local:dixi|Tübinger BC,4:5,9-Ball
-21.09.2026,Partha Ghosh,368821,Roland Wacker,104819,70:65,14/1e
-27.09.2026,Partha Ghosh,368821,Alexander Fischer,356369,5:4,9-Ball
-28.09.2026,Cornelius Ryan,229104,Adham Mohamed,369124,0:3,8-Ball
-28.09.2026,Cornelius Ryan,229104,Adham Mohamed,369124,36:80,14/1e
-28.09.2026,Hussein,local:hussein|Tübinger BC,Adham Mohamed,369124,1:7,9-Ball
-29.09.2026,Alexander Fischer,356369,Patrick Coklica,368820,0:1,9-Ball
-29.09.2026,Ali Deyhimi,368249,Adham Mohamed,369124,0:1,9-Ball
-29.09.2026,Ali Deyhimi,368249,Patrick Coklica,368820,0:1,9-Ball
-29.09.2026,Partha Ghosh,368821,Adham Mohamed,369124,1:2,9-Ball
-29.09.2026,Alexander Fischer,356369,Nikolaos Seristatidis,367912,2:1,9-Ball
-29.09.2026,Ali Deyhimi,368249,Partha Ghosh,368821,0:2,9-Ball
-29.09.2026,Alexander Fischer,356369,Partha Ghosh,368821,3:4,9-Ball
-29.09.2026,Ali Deyhimi,368249,Nikolaos Seristatidis,367912,1:2,9-Ball
-29.09.2026,Patrick Coklica,368820,Adham Mohamed,369124,7:3,9-Ball
-29.09.2026,Alexander Fischer,356369,Partha Ghosh,368821,6:2,9-Ball
-29.09.2026,Alexander Fischer,356369,Ali Deyhimi,368249,0:1,9-Ball
-29.09.2026,Ali Deyhimi,368249,Partha Ghosh,368821,0:1,9-Ball
-29.09.2026,Ali Deyhimi,368249,Adham Mohamed,369124,1:6,9-Ball
-29.09.2026,Alexander Fischer,356369,Ali Deyhimi,368249,1:0,9-Ball
-29.09.2026,Partha Ghosh,368821,Adham Mohamed,369124,0:1,9-Ball
-29.09.2026,Alexander Fischer,356369,Partha Ghosh,368821,1:0,9-Ball
-29.09.2026,Alexander Fischer,356369,Ali Deyhimi,368249,0:1,9-Ball
-29.09.2026,Ali Deyhimi,368249,Partha Ghosh,368821,0:1,9-Ball
-29.09.2026,Alexander Fischer,356369,Partha Ghosh,368821,1:0,9-Ball
-29.09.2026,Alexander Fischer,356369,Partha Ghosh,368821,3:2,9-Ball
-29.09.2026,Alexander Fischer,356369,Partha Ghosh,368821,1:0,9-Ball
-29.09.2026,Ali Deyhimi,368249,Adham Mohamed,369124,1:6,9-Ball
-29.09.2026,Alexander Fischer,356369,Ali Deyhimi,368249,1:0,9-Ball
-29.09.2026,Partha Ghosh,368821,Adham Mohamed,369124,0:1,9-Ball
-29.09.2026,Claudio Severino,369214,Adham Mohamed,369124,3:5,8-Ball
-29.09.2026,Claudio Severino,369214,Adham Mohamed,369124,4:5,9-Ball
-30.09.2026,Partha Ghosh,368821,Adham Mohamed,369124,5:4,8-Ball
-30.09.2026,Partha Ghosh,368821,Konrad Bau,240143,5:4,8-Ball
-30.09.2026,Adham Mohamed,369124,Frank,local:frank|Tübinger BC,6:4,8-Ball
-30.09.2026,Claudio Severino,369214,Adham Mohamed,369124,5:2,8-Ball
-30.09.2026,Claudio Severino,369214,Adham Mohamed,369124,1:4,9-Ball
-01.10.2026,Claudio Severino,369214,Adham Mohamed,369124,2:3,8-Ball
-01.10.2026,Claudio Severino,369214,Adham Mohamed,369124,2:5,9-Ball
-01.10.2026,Andy,local:andy|Tübinger BC,Adham Mohamed,369124,2:5,9-Ball
-02.10.2026,Uwe,local:uwe|Tübinger BC,Adham Mohamed,369124,0:5,8-Ball
-02.10.2026,Uwe,local:uwe|Tübinger BC,Adham Mohamed,369124,2:5,9-Ball
-02.10.2026,Dominik,local:dominik|Tübinger BC,Adham Mohamed,369124,19:70,14/1e
-03.10.2026,Adham Mohamed,369124,Hannes Reißner,368517,5:0,8-Ball
-03.10.2026,Partha Ghosh,368821,Dominik,local:dominik|Tübinger BC,1:1,8-Ball
-03.10.2026,Partha Ghosh,368821,Adham Mohamed,369124,62:70,14/1e
-03.10.2026,Partha Ghosh,368821,Nikolaos Seristatidis,367912,2:2,8-Ball
-03.10.2026,Partha Ghosh,368821,Adham Mohamed,369124,2:1,8-Ball
-03.10.2026,Partha Ghosh,368821,Adham Mohamed,369124,3:1,8-Ball
-04.10.2026,Claudio Severino,369214,Nikolaos Seristatidis,367912,4:3,8-Ball
-05.10.2026,Partha Ghosh,368821,Alexander Fischer,356369,4:5,9-Ball
-05.10.2026,Patrick Coklica,368820,Alexander Fischer,356369,7:10,9-Ball
-05.10.2026,Adham Mohamed,369124,Patrick Coklica,368820,6:1,9-Ball
-05.10.2026,Adham Mohamed,369124,Frank,local:frank|Tübinger BC,80:69,14/1e
-06.10.2026,Adham Mohamed,369124,Alexander Fischer,356369,3:4,9-Ball
-06.10.2026,Adham Mohamed,369124,Alexander Fischer,356369,69:70,14/1e
-07.10.2026,Adham Mohamed,369124,Claudio Severino,369214,4:1,10-Ball
-07.10.2026,Adham Mohamed,369124,Claudio Severino,369214,5:1,8-Ball
-08.10.2026,Alexander Fischer,356369,Konrad Bau,240143,2:0,9-Ball
-08.10.2026,Alexander Fischer,356369,Nerdi,local:nerdi|Tübinger BC,2:0,9-Ball
-08.10.2026,Hussein,local:hussein|Tübinger BC,Alexander Fischer,356369,2:0,9-Ball
-08.10.2026,Alexander Fischer,356369,Adham Mohamed,369124,2:0,9-Ball
-08.10.2026,Roland Wacker,104819,Alexander Fischer,356369,2:0,9-Ball
-08.10.2026,Nerdi,local:nerdi|Tübinger BC,Konrad Bau,240143,2:0,9-Ball
-08.10.2026,Konrad Bau,240143,Hussein,local:hussein|Tübinger BC,2:0,9-Ball
-08.10.2026,Adham Mohamed,369124,Konrad Bau,240143,2:0,9-Ball
-08.10.2026,Konrad Bau,240143,Roland Wacker,104819,2:1,9-Ball
-08.10.2026,Nerdi,local:nerdi|Tübinger BC,Hussein,local:hussein|Tübinger BC,2:0,9-Ball
-08.10.2026,Adham Mohamed,369124,Nerdi,local:nerdi|Tübinger BC,2:1,9-Ball
-08.10.2026,Roland Wacker,104819,Nerdi,local:nerdi|Tübinger BC,2:0,9-Ball
-08.10.2026,Adham Mohamed,369124,Hussein,local:hussein|Tübinger BC,2:0,9-Ball
-08.10.2026,Roland Wacker,104819,Hussein,local:hussein|Tübinger BC,2:0,9-Ball
-08.10.2026,Roland Wacker,104819,Adham Mohamed,369124,2:1,9-Ball
-08.10.2026,Roland Wacker,104819,Nerdi,local:nerdi|Tübinger BC,2:1,9-Ball
-08.10.2026,Alexander Fischer,356369,Adham Mohamed,369124,2:1,9-Ball
-08.10.2026,Roland Wacker,104819,Alexander Fischer,356369,2:1,9-Ball
-09.10.2026,Adham Mohamed,369124,Alexander Fischer,356369,70:35,14/1e
-09.10.2026,Adham Mohamed,369124,Alexander Fischer,356369,70:55,14/1e
-09.10.2026,Adham Mohamed,369124,Alexander Fischer,356369,1:4,9-Ball
-09.10.2026,Roland Wacker,104819,Alexander Fischer,356369,4:1,9-Ball
-09.10.2026,Konrad Bau,240143,Alexander Fischer,356369,0:2,9-Ball
-09.10.2026,Adham Mohamed,369124,Roland Wacker,104819,1:2,9-Ball
-09.10.2026,Adham Mohamed,369124,Konrad Bau,240143,2:0,9-Ball
-11.10.2026,Wadea Al Mahamid,349790,Johannes Mai,102721,60:6,14/1e
-11.10.2026,Patrick Coklica,368820,Mark Hast,242992,60:56,14/1e
-11.10.2026,Peter Baur,248185,Alexander Fischer,356369,60:55,14/1e
-11.10.2026,Roland Wacker,104819,Partha Ghosh,368821,60:35,14/1e
-11.10.2026,Wadea Al Mahamid,349790,Patrick Coklica,368820,70:23,14/1e
-11.10.2026,Roland Wacker,104819,Peter Baur,248185,70:52,14/1e
-11.10.2026,Wadea Al Mahamid,349790,Roland Wacker,104819,80:31,14/1e
-11.10.2026,Simon Theodoropoulos,249083,Nikolaos Seristatidis,367912,4:1,9-Ball
-11.10.2026,Nikolaos Seristatidis,367912,Hussein,local:hussein|Tübinger BC,4:0,9-Ball
-11.10.2026,Nikolaos Seristatidis,367912,Mark Hast,242992,4:3,9-Ball
-11.10.2026,Alexander Fischer,356369,Nikolaos Seristatidis,367912,4:3,9-Ball
-11.10.2026,Simon Theodoropoulos,249083,Hussein,local:hussein|Tübinger BC,4:0,9-Ball
-11.10.2026,Simon Theodoropoulos,249083,Mark Hast,242992,4:2,9-Ball
-11.10.2026,Simon Theodoropoulos,249083,Alexander Fischer,356369,4:0,9-Ball
-11.10.2026,Mark Hast,242992,Hussein,local:hussein|Tübinger BC,4:1,9-Ball
-11.10.2026,Hussein,local:hussein|Tübinger BC,Alexander Fischer,356369,4:3,9-Ball
-11.10.2026,Alexander Fischer,356369,Mark Hast,242992,4:3,9-Ball
-11.10.2026,Adham Mohamed,369124,Frank,local:frank|Tübinger BC,4:3,9-Ball
-11.10.2026,Partha Ghosh,368821,Adham Mohamed,369124,4:3,9-Ball
-11.10.2026,Johannes Mai,102721,Adham Mohamed,369124,4:2,9-Ball
-11.10.2026,Partha Ghosh,368821,Frank,local:frank|Tübinger BC,4:1,9-Ball
-11.10.2026,Johannes Mai,102721,Frank,local:frank|Tübinger BC,4:2,9-Ball
-11.10.2026,Johannes Mai,102721,Partha Ghosh,368821,4:3,9-Ball
-11.10.2026,Partha Ghosh,368821,Simon Theodoropoulos,249083,5:3,9-Ball
-11.10.2026,Nikolaos Seristatidis,367912,Johannes Mai,102721,5:1,9-Ball
-11.10.2026,Partha Ghosh,368821,Nikolaos Seristatidis,367912,5:2,9-Ball
-13.10.2026,Alexander Fischer,356369,Mark Hast,242992,5:1,8-Ball
-13.10.2026,Claudio Severino,369214,Partha Ghosh,368821,1:4,9-Ball
-13.10.2026,Adham Mohamed,369124,Partha Ghosh,368821,2:1,9-Ball
-13.10.2026,Alexander Fischer,356369,Claudio Severino,369214,6:4,9-Ball
-13.10.2026,Alexander Fischer,356369,Adham Mohamed,369124,5:0,10-Ball
-13.10.2026,Alexander Fischer,356369,Patrick Coklica,368820,5:6,10-Ball
-16.12.2023,Nikolaos Seristatidis,367912,Kevin Minardi,369056,3:5,8-Ball
-16.12.2023,Francesco Dragotta,369057,Uwe,local:uwe|Tübinger BC,3:5,9-Ball
-16.12.2025,Patrick Coklica,368820,Dominik,local:dominik|Tübinger BC,4:3,10-Ball
-21.12.2025,Dixi,local:dixi|Tübinger BC,Uwe,local:uwe|Tübinger BC,40:39,14/1e
-08.01.2026,Andy,local:andy|Tübinger BC,Patrick Coklica,368820,3:0,9-Ball
-12.01.2026,Roland Wacker,104819,Francesco Dragotta,369057,60:30,14/1e
-12.01.2026,Francesco Dragotta,369057,Roland Wacker,104819,4:6,9-Ball
-28.01.2026,Konrad Bau,240143,Adham Mohamed,369124,5:2,8-Ball
-15.02.2026,Kevin Minardi,369056,Dixi,local:dixi|Tübinger BC,2:5,8-Ball
-21.02.2026,Kevin Minardi,369056,Dixi,local:dixi|Tübinger BC,5:4,9-Ball
-25.02.2026,Dixi,local:dixi|Tübinger BC,Kevin Minardi,369056,5:1,9-Ball
-13.03.2026,Adham Mohamed,369124,Dixi,local:dixi|Tübinger BC,5:2,8-Ball
-30.08.2026,Hamza,local:hamza|Tübinger BC,Alexander Fischer,356369,6:4,9-Ball
-30.08.2026,Hamza,local:hamza|Tübinger BC,Nikolaos Seristatidis,367912,6:4,9-Ball
-30.08.2026,Alexander Fischer,356369,Adham Mohamed,369124,6:1,9-Ball
-30.08.2026,Adham Mohamed,369124,Nikolaos Seristatidis,367912,6:4,9-Ball
-30.08.2026,Alexander Fischer,356369,Hamza,local:hamza|Tübinger BC,6:5,9-Ball
-01.09.2026,Konrad Bau,240143,Uwe,local:uwe|Tübinger BC,5:4,8-Ball
-03.09.2026,Roland Wacker,104819,Partha Ghosh,368821,61:70,14/1e
-15.09.2026,Adham Mohamed,369124,Alexander Fischer,356369,5:1,10-Ball
-15.09.2026,Nikolaos Seristatidis,367912,Patrick Coklica,368820,5:2,10-Ball
-15.09.2026,Alexander Fischer,356369,Patrick Coklica,368820,5:2,10-Ball
-15.09.2026,Adham Mohamed,369124,Nikolaos Seristatidis,367912,5:3,10-Ball
-16.10.2026,Alexander Fischer,356369,Partha Ghosh,368821,1:0,9-Ball
-16.10.2026,Alexander Fischer,356369,Matthias Ludersdorfer,102864,1:0,9-Ball
-16.10.2026,Alexander Fischer,356369,Wadea Al Mahamid,349790,1:0,9-Ball
-16.10.2026,Partha Ghosh,368821,Wadea Al Mahamid,349790,1:0,9-Ball
-16.10.2026,Matthias Ludersdorfer,102864,Wadea Al Mahamid,349790,3:0,9-Ball
-16.10.2026,Alexander Fischer,356369,Wadea Al Mahamid,349790,3:2,9-Ball
-16.10.2026,Adham Mohamed,369124,Wadea Al Mahamid,349790,1:3,9-Ball
-16.10.2026,Wadea Al Mahamid,349790,Hadies,local:hadies|Tübinger BC,3:0,9-Ball
-16.10.2026,Alexander Fischer,356369,Matthias Ludersdorfer,102864,1:3,9-Ball
-16.10.2026,Matthias Ludersdorfer,102864,Hadies,local:hadies|Tübinger BC,2:3,9-Ball
-16.10.2026,Adham Mohamed,369124,Alexander Fischer,356369,3:0,9-Ball
-16.10.2026,Adham Mohamed,369124,Hadies,local:hadies|Tübinger BC,3:0,9-Ball
-16.10.2026,Adham Mohamed,369124,Partha Ghosh,368821,3:1,9-Ball
-16.10.2026,Alexander Fischer,356369,Claudio Severino,369214,3:1,9-Ball
-16.10.2026,Claudio Severino,369214,Partha Ghosh,368821,3:1,9-Ball
-16.10.2026,Alexander Fischer,356369,Partha Ghosh,368821,1:0,9-Ball
-15.10.2026,Claudio Severino,369214,Adham Mohamed,369124,3:2,9-Ball
-15.10.2026,Claudio Severino,369214,Adham Mohamed,369124,0:4,8-Ball
-15.10.2026,Wadea Al Mahamid,349790,Claudio Severino,369214,3:1,9-Ball
-19.10.2026,Partha Ghosh,368821,Hadies,local:hadies|Tübinger BC,3:1,9-Ball
-19.10.2026,Partha Ghosh,368821,Adham Mohamed,369124,4:3,9-Ball
-23.10.2026,Partha Ghosh,368821,Cornelius Ryan,229104,3:1,8-Ball
-23.10.2026,Cornelius Ryan,229104,Dominik,local:dominik|Tübinger BC,1:0,8-Ball
-23.10.2026,Dominik,local:dominik|Tübinger BC,Partha Ghosh,368821,0:6,8-Ball
-26.10.2026,Partha Ghosh,368821,Roland Wacker,104819,5:4,8-Ball
-26.10.2026,Partha Ghosh,368821,Roland Wacker,104819,2:5,10-Ball
-26.10.2026,Partha Ghosh,368821,Ali Deyhimi,368249,1:0,9-Ball
-26.10.2026,Claudio Severino,369214,Ali Deyhimi,368249,6:4,9-Ball
-26.10.2026,Partha Ghosh,368821,Claudio Severino,369214,4:3,9-Ball
-26.10.2026,Partha Ghosh,368821,Ali Deyhimi,368249,2:0,9-Ball
-29.10.2026,Nikolaos Seristatidis,367912,Alexander Fischer,356369,7:5,9-Ball
-29.10.2026,Patrick Coklica,368820,Alexander Fischer,356369,6:5,9-Ball
-29.10.2026,Partha Ghosh,368821,Alexander Fischer,356369,5:3,9-Ball
-29.10.2026,Partha Ghosh,368821,Hannes Reißner,368517,5:1,9-Ball
-29.10.2026,Alexander Fischer,356369,Hannes Reißner,368517,5:2,9-Ball
-01.11.2026,Alexander Fischer,356369,Hannes Reißner,368517,6:1,9-Ball
-01.11.2026,Partha Ghosh,368821,Hannes Reißner,368517,1:1,9-Ball
-01.11.2026,Alexander Fischer,356369,Partha Ghosh,368821,10:10,9-Ball
-02.11.2026,Alexander Fischer,356369,Patrick Coklica,368820,50:20,14/1e
-02.11.2026,Alexander Fischer,356369,Patrick Coklica,368820,7:4,9-Ball
-05.11.2026,Partha Ghosh,368821,Alexander Fischer,356369,3:2,9-Ball
-08.11.2026,Alexander Fischer,356369,Partha Ghosh,368821,4:7,9-Ball
-08.11.2026,Nikolaos Seristatidis,367912,Matthias Ludersdorfer,102864,7:6,9-Ball
-08.11.2026,Partha Ghosh,368821,Alexander Fischer,356369,5:2,8-Ball
-08.11.2026,Claudio Severino,369214,Nikolaos Seristatidis,367912,5:1,8-Ball
-08.11.2026,Claudio Severino,369214,Partha Ghosh,368821,1:2,8-Ball
+date,player,player_id,opponent,opponent_id,score,discipline,event,stage,group,note
+09.01.2025,Konrad Bau,240143,Partha Ghosh,368821,6:0,9-Ball,,,,
+15.01.2025,Patrick Coklica,368820,Nikolaos Seristatidis,367912,60:59,14/1e,,,,
+22.01.2025,Patrick Coklica,368820,Nikolaos Seristatidis,367912,52:80,14/1e,,,,
+23.01.2025,Konrad Bau,240143,Ali Deyhimi,368249,60:26,14/1e,,,,
+07.02.2025,Partha Ghosh,368821,Hannes Reißner,368517,5:2,8-Ball,,,,
+16.02.2025,Michael Maihöfer,368822,Uwe Cordes,100718,5:3,8-Ball,,,,
+25.02.2025,Michael Maihöfer,368822,Andreas Horn,101988,5:4,9-Ball,,,,
+04.03.2025,Nikolaos Seristatidis,367912,Hannes Reißner,368517,5:4,8-Ball,,,,
+04.03.2025,Patrick Coklica,368820,Alexander Fischer,356369,2:5,8-Ball,,,,
+11.03.2025,Partha Ghosh,368821,Konrad Bau,240143,1:5,8-Ball,,,,
+20.03.2025,Alexander Fischer,356369,Konrad Bau,240143,26:70,14/1e,,,,
+07.04.2025,Konrad Bau,240143,Uwe Cordes,100718,5:1,8-Ball,,,,
+13.04.2025,Konrad Bau,240143,Michael Maihöfer,368822,5:0,8-Ball,,,,
+26.04.2025,Partha Ghosh,368821,Uwe Cordes,100718,5:1,8-Ball,,,,
+29.04.2025,Roland Wacker,104819,Mark Hast,242992,5:2,8-Ball,,,,
+30.04.2025,Partha Ghosh,368821,Michael Maihöfer,368822,5:0,8-Ball,,,,
+04.05.2025,Nikolaos Seristatidis,367912,Ali Deyhimi,368249,7:4,9-Ball,,,,
+20.05.2025,Mark Hast,242992,Hannes Reißner,368517,5:4,8-Ball,,,,
+24.05.2025,Roland Wacker,104819,Alexander Fischer,356369,3:6,9-Ball,,,,
+06.06.2025,Nikolaos Seristatidis,367912,Andreas Horn,101988,5:4,8-Ball,,,,
+16.06.2025,Alexander Fischer,356369,Wadea Al Mahamid,349790,9:7,9-Ball,,,,
+19.06.2025,Partha Ghosh,368821,Konrad Bau,240143,1:6,9-Ball,,,,
+21.06.2025,Roland Wacker,104819,Hannes Reißner,368517,7:2,9-Ball,,,,
+21.06.2025,Nikolaos Seristatidis,367912,Konrad Bau,240143,2:5,8-Ball,,,,
+15.07.2025,Mark Hast,242992,Patrick Coklica,368820,5:4,8-Ball,,,,
+20.07.2025,Kevin Minardi,369056,Francesco Dragotta,369057,5:3,8-Ball,,,,
+27.07.2025,Kevin Minardi,369056,Dixi,local:dixi|Tübinger BC,5:3,8-Ball,,,,
+27.07.2025,Francesco Dragotta,369057,Dixi,local:dixi|Tübinger BC,3:5,8-Ball,,,,
+29.07.2025,Alexander Fischer,356369,Andreas Horn,101988,7:6,9-Ball,,,,
+29.07.2025,Patrick Coklica,368820,Hannes Reißner,368517,5:4,8-Ball,,,,
+29.07.2025,Mark Hast,242992,Roland Wacker,104819,5:4,8-Ball,,,,
+29.07.2025,Roland Wacker,104819,Ali Deyhimi,368249,5:4,8-Ball,,,,
+05.08.2025,Mark Hast,242992,Uwe Cordes,100718,5:1,8-Ball,,,,
+06.08.2025,Kevin Minardi,369056,Hannes Reißner,368517,5:3,8-Ball,,,,
+13.08.2025,Partha Ghosh,368821,Konrad Bau,240143,0:6,9-Ball,,,,
+02.09.2025,Mark Hast,242992,Alexander Fischer,356369,5:1,8-Ball,,,,
+02.09.2025,Mark Hast,242992,Partha Ghosh,368821,5:3,8-Ball,,,,
+02.09.2025,Kevin Minardi,369056,Patrick Coklica,368820,4:5,8-Ball,,,,
+02.09.2025,Roland Wacker,104819,Wadea Al Mahamid,349790,7:6,9-Ball,,,,
+09.09.2025,Ali Deyhimi,368249,Uwe Cordes,100718,5:1,8-Ball,,,,
+11.09.2025,Kevin Minardi,369056,Hannes Reißner,368517,3:5,8-Ball,,,,
+02.10.2025,Roland Wacker,104819,Nikolaos Seristatidis,367912,70:40,14/1e,,,,
+02.10.2025,Nikolaos Seristatidis,367912,Roland Wacker,104819,35:70,14/1e,,,,
+05.10.2025,Dixi,local:dixi|Tübinger BC,Kevin Minardi,369056,70:53,14/1e,,,,
+12.10.2025,Adham Mohamed,369124,Francesco Dragotta,369057,5:4,8-Ball,,,,
+12.10.2025,Dixi,local:dixi|Tübinger BC,Patrick Coklica,368820,2:5,8-Ball,,,,
+14.10.2025,Adham Mohamed,369124,Francesco Dragotta,369057,5:1,8-Ball,,,,
+20.10.2025,Kevin Minardi,369056,Dixi,local:dixi|Tübinger BC,5:6,9-Ball,,,,
+20.10.2025,Kevin Minardi,369056,Thorgen Brett,353895,5:6,9-Ball,,,,
+28.10.2025,Adham Mohamed,369124,Kevin Minardi,369056,3:5,8-Ball,,,,
+23.11.2025,Kevin Minardi,369056,Dixi,local:dixi|Tübinger BC,3:6,9-Ball,,,,
+01.12.2025,Kevin Minardi,369056,Dixi,local:dixi|Tübinger BC,4:5,9-Ball,,,,
+21.09.2026,Partha Ghosh,368821,Roland Wacker,104819,70:65,14/1e,,,,
+27.09.2026,Partha Ghosh,368821,Alexander Fischer,356369,5:4,9-Ball,,,,
+28.09.2026,Cornelius Ryan,229104,Adham Mohamed,369124,0:3,8-Ball,,,,
+28.09.2026,Cornelius Ryan,229104,Adham Mohamed,369124,36:80,14/1e,,,,
+28.09.2026,Hussein,local:hussein|Tübinger BC,Adham Mohamed,369124,1:7,9-Ball,,,,
+29.09.2026,Alexander Fischer,356369,Patrick Coklica,368820,0:1,9-Ball,,,,
+29.09.2026,Ali Deyhimi,368249,Adham Mohamed,369124,0:1,9-Ball,,,,
+29.09.2026,Ali Deyhimi,368249,Patrick Coklica,368820,0:1,9-Ball,,,,
+29.09.2026,Partha Ghosh,368821,Adham Mohamed,369124,1:2,9-Ball,,,,
+29.09.2026,Alexander Fischer,356369,Nikolaos Seristatidis,367912,2:1,9-Ball,,,,
+29.09.2026,Ali Deyhimi,368249,Partha Ghosh,368821,0:2,9-Ball,,,,
+29.09.2026,Alexander Fischer,356369,Partha Ghosh,368821,3:4,9-Ball,,,,
+29.09.2026,Ali Deyhimi,368249,Nikolaos Seristatidis,367912,1:2,9-Ball,,,,
+29.09.2026,Patrick Coklica,368820,Adham Mohamed,369124,7:3,9-Ball,,,,
+29.09.2026,Alexander Fischer,356369,Partha Ghosh,368821,6:2,9-Ball,,,,
+29.09.2026,Alexander Fischer,356369,Ali Deyhimi,368249,0:1,9-Ball,,,,
+29.09.2026,Ali Deyhimi,368249,Partha Ghosh,368821,0:1,9-Ball,,,,
+29.09.2026,Ali Deyhimi,368249,Adham Mohamed,369124,1:6,9-Ball,,,,
+29.09.2026,Alexander Fischer,356369,Ali Deyhimi,368249,1:0,9-Ball,,,,
+29.09.2026,Partha Ghosh,368821,Adham Mohamed,369124,0:1,9-Ball,,,,
+29.09.2026,Alexander Fischer,356369,Partha Ghosh,368821,1:0,9-Ball,,,,
+29.09.2026,Alexander Fischer,356369,Ali Deyhimi,368249,0:1,9-Ball,,,,
+29.09.2026,Ali Deyhimi,368249,Partha Ghosh,368821,0:1,9-Ball,,,,
+29.09.2026,Alexander Fischer,356369,Partha Ghosh,368821,1:0,9-Ball,,,,
+29.09.2026,Alexander Fischer,356369,Partha Ghosh,368821,3:2,9-Ball,,,,
+29.09.2026,Alexander Fischer,356369,Partha Ghosh,368821,1:0,9-Ball,,,,
+29.09.2026,Ali Deyhimi,368249,Adham Mohamed,369124,1:6,9-Ball,,,,
+29.09.2026,Alexander Fischer,356369,Ali Deyhimi,368249,1:0,9-Ball,,,,
+29.09.2026,Partha Ghosh,368821,Adham Mohamed,369124,0:1,9-Ball,,,,
+29.09.2026,Claudio Severino,369214,Adham Mohamed,369124,3:5,8-Ball,,,,
+29.09.2026,Claudio Severino,369214,Adham Mohamed,369124,4:5,9-Ball,,,,
+30.09.2026,Partha Ghosh,368821,Adham Mohamed,369124,5:4,8-Ball,,,,
+30.09.2026,Partha Ghosh,368821,Konrad Bau,240143,5:4,8-Ball,,,,
+30.09.2026,Adham Mohamed,369124,Frank,local:frank|Tübinger BC,6:4,8-Ball,,,,
+30.09.2026,Claudio Severino,369214,Adham Mohamed,369124,5:2,8-Ball,,,,
+30.09.2026,Claudio Severino,369214,Adham Mohamed,369124,1:4,9-Ball,,,,
+01.10.2026,Claudio Severino,369214,Adham Mohamed,369124,2:3,8-Ball,,,,
+01.10.2026,Claudio Severino,369214,Adham Mohamed,369124,2:5,9-Ball,,,,
+01.10.2026,Andy,local:andy|Tübinger BC,Adham Mohamed,369124,2:5,9-Ball,,,,
+02.10.2026,Uwe,local:uwe|Tübinger BC,Adham Mohamed,369124,0:5,8-Ball,,,,
+02.10.2026,Uwe,local:uwe|Tübinger BC,Adham Mohamed,369124,2:5,9-Ball,,,,
+02.10.2026,Dominik,local:dominik|Tübinger BC,Adham Mohamed,369124,19:70,14/1e,,,,
+03.10.2026,Adham Mohamed,369124,Hannes Reißner,368517,5:0,8-Ball,,,,
+03.10.2026,Partha Ghosh,368821,Dominik,local:dominik|Tübinger BC,1:1,8-Ball,,,,
+03.10.2026,Partha Ghosh,368821,Adham Mohamed,369124,62:70,14/1e,,,,
+03.10.2026,Partha Ghosh,368821,Nikolaos Seristatidis,367912,2:2,8-Ball,,,,
+03.10.2026,Partha Ghosh,368821,Adham Mohamed,369124,2:1,8-Ball,,,,
+03.10.2026,Partha Ghosh,368821,Adham Mohamed,369124,3:1,8-Ball,,,,
+04.10.2026,Claudio Severino,369214,Nikolaos Seristatidis,367912,4:3,8-Ball,,,,
+05.10.2026,Partha Ghosh,368821,Alexander Fischer,356369,4:5,9-Ball,,,,
+05.10.2026,Patrick Coklica,368820,Alexander Fischer,356369,7:10,9-Ball,,,,
+05.10.2026,Adham Mohamed,369124,Patrick Coklica,368820,6:1,9-Ball,,,,
+05.10.2026,Adham Mohamed,369124,Frank,local:frank|Tübinger BC,80:69,14/1e,,,,
+06.10.2026,Adham Mohamed,369124,Alexander Fischer,356369,3:4,9-Ball,,,,
+06.10.2026,Adham Mohamed,369124,Alexander Fischer,356369,69:70,14/1e,,,,
+07.10.2026,Adham Mohamed,369124,Claudio Severino,369214,4:1,10-Ball,,,,
+07.10.2026,Adham Mohamed,369124,Claudio Severino,369214,5:1,8-Ball,,,,
+08.10.2026,Alexander Fischer,356369,Konrad Bau,240143,2:0,9-Ball,,,,
+08.10.2026,Alexander Fischer,356369,Nerdi,local:nerdi|Tübinger BC,2:0,9-Ball,,,,
+08.10.2026,Hussein,local:hussein|Tübinger BC,Alexander Fischer,356369,2:0,9-Ball,,,,
+08.10.2026,Alexander Fischer,356369,Adham Mohamed,369124,2:0,9-Ball,,,,
+08.10.2026,Roland Wacker,104819,Alexander Fischer,356369,2:0,9-Ball,,,,
+08.10.2026,Nerdi,local:nerdi|Tübinger BC,Konrad Bau,240143,2:0,9-Ball,,,,
+08.10.2026,Konrad Bau,240143,Hussein,local:hussein|Tübinger BC,2:0,9-Ball,,,,
+08.10.2026,Adham Mohamed,369124,Konrad Bau,240143,2:0,9-Ball,,,,
+08.10.2026,Konrad Bau,240143,Roland Wacker,104819,2:1,9-Ball,,,,
+08.10.2026,Nerdi,local:nerdi|Tübinger BC,Hussein,local:hussein|Tübinger BC,2:0,9-Ball,,,,
+08.10.2026,Adham Mohamed,369124,Nerdi,local:nerdi|Tübinger BC,2:1,9-Ball,,,,
+08.10.2026,Roland Wacker,104819,Nerdi,local:nerdi|Tübinger BC,2:0,9-Ball,,,,
+08.10.2026,Adham Mohamed,369124,Hussein,local:hussein|Tübinger BC,2:0,9-Ball,,,,
+08.10.2026,Roland Wacker,104819,Hussein,local:hussein|Tübinger BC,2:0,9-Ball,,,,
+08.10.2026,Roland Wacker,104819,Adham Mohamed,369124,2:1,9-Ball,,,,
+08.10.2026,Roland Wacker,104819,Nerdi,local:nerdi|Tübinger BC,2:1,9-Ball,,,,
+08.10.2026,Alexander Fischer,356369,Adham Mohamed,369124,2:1,9-Ball,,,,
+08.10.2026,Roland Wacker,104819,Alexander Fischer,356369,2:1,9-Ball,,,,
+09.10.2026,Adham Mohamed,369124,Alexander Fischer,356369,70:35,14/1e,,,,
+09.10.2026,Adham Mohamed,369124,Alexander Fischer,356369,70:55,14/1e,,,,
+09.10.2026,Adham Mohamed,369124,Alexander Fischer,356369,1:4,9-Ball,,,,
+09.10.2026,Roland Wacker,104819,Alexander Fischer,356369,4:1,9-Ball,,,,
+09.10.2026,Konrad Bau,240143,Alexander Fischer,356369,0:2,9-Ball,,,,
+09.10.2026,Adham Mohamed,369124,Roland Wacker,104819,1:2,9-Ball,,,,
+09.10.2026,Adham Mohamed,369124,Konrad Bau,240143,2:0,9-Ball,,,,
+11.10.2026,Wadea Al Mahamid,349790,Johannes Mai,102721,60:6,14/1e,,,,
+11.10.2026,Patrick Coklica,368820,Mark Hast,242992,60:56,14/1e,,,,
+11.10.2026,Peter Baur,248185,Alexander Fischer,356369,60:55,14/1e,,,,
+11.10.2026,Roland Wacker,104819,Partha Ghosh,368821,60:35,14/1e,,,,
+11.10.2026,Wadea Al Mahamid,349790,Patrick Coklica,368820,70:23,14/1e,,,,
+11.10.2026,Roland Wacker,104819,Peter Baur,248185,70:52,14/1e,,,,
+11.10.2026,Wadea Al Mahamid,349790,Roland Wacker,104819,80:31,14/1e,,,,
+11.10.2026,Simon Theodoropoulos,249083,Nikolaos Seristatidis,367912,4:1,9-Ball,,,,
+11.10.2026,Nikolaos Seristatidis,367912,Hussein,local:hussein|Tübinger BC,4:0,9-Ball,,,,
+11.10.2026,Nikolaos Seristatidis,367912,Mark Hast,242992,4:3,9-Ball,,,,
+11.10.2026,Alexander Fischer,356369,Nikolaos Seristatidis,367912,4:3,9-Ball,,,,
+11.10.2026,Simon Theodoropoulos,249083,Hussein,local:hussein|Tübinger BC,4:0,9-Ball,,,,
+11.10.2026,Simon Theodoropoulos,249083,Mark Hast,242992,4:2,9-Ball,,,,
+11.10.2026,Simon Theodoropoulos,249083,Alexander Fischer,356369,4:0,9-Ball,,,,
+11.10.2026,Mark Hast,242992,Hussein,local:hussein|Tübinger BC,4:1,9-Ball,,,,
+11.10.2026,Hussein,local:hussein|Tübinger BC,Alexander Fischer,356369,4:3,9-Ball,,,,
+11.10.2026,Alexander Fischer,356369,Mark Hast,242992,4:3,9-Ball,,,,
+11.10.2026,Adham Mohamed,369124,Frank,local:frank|Tübinger BC,4:3,9-Ball,,,,
+11.10.2026,Partha Ghosh,368821,Adham Mohamed,369124,4:3,9-Ball,,,,
+11.10.2026,Johannes Mai,102721,Adham Mohamed,369124,4:2,9-Ball,,,,
+11.10.2026,Partha Ghosh,368821,Frank,local:frank|Tübinger BC,4:1,9-Ball,,,,
+11.10.2026,Johannes Mai,102721,Frank,local:frank|Tübinger BC,4:2,9-Ball,,,,
+11.10.2026,Johannes Mai,102721,Partha Ghosh,368821,4:3,9-Ball,,,,
+11.10.2026,Partha Ghosh,368821,Simon Theodoropoulos,249083,5:3,9-Ball,,,,
+11.10.2026,Nikolaos Seristatidis,367912,Johannes Mai,102721,5:1,9-Ball,,,,
+11.10.2026,Partha Ghosh,368821,Nikolaos Seristatidis,367912,5:2,9-Ball,,,,
+13.10.2026,Alexander Fischer,356369,Mark Hast,242992,5:1,8-Ball,,,,
+13.10.2026,Claudio Severino,369214,Partha Ghosh,368821,1:4,9-Ball,,,,
+13.10.2026,Adham Mohamed,369124,Partha Ghosh,368821,2:1,9-Ball,,,,
+13.10.2026,Alexander Fischer,356369,Claudio Severino,369214,6:4,9-Ball,,,,
+13.10.2026,Alexander Fischer,356369,Adham Mohamed,369124,5:0,10-Ball,,,,
+13.10.2026,Alexander Fischer,356369,Patrick Coklica,368820,5:6,10-Ball,,,,
+16.12.2023,Nikolaos Seristatidis,367912,Kevin Minardi,369056,3:5,8-Ball,,,,
+16.12.2023,Francesco Dragotta,369057,Uwe,local:uwe|Tübinger BC,3:5,9-Ball,,,,
+16.12.2025,Patrick Coklica,368820,Dominik,local:dominik|Tübinger BC,4:3,10-Ball,,,,
+21.12.2025,Dixi,local:dixi|Tübinger BC,Uwe,local:uwe|Tübinger BC,40:39,14/1e,,,,
+08.01.2026,Andy,local:andy|Tübinger BC,Patrick Coklica,368820,3:0,9-Ball,,,,
+12.01.2026,Roland Wacker,104819,Francesco Dragotta,369057,60:30,14/1e,,,,
+12.01.2026,Francesco Dragotta,369057,Roland Wacker,104819,4:6,9-Ball,,,,
+28.01.2026,Konrad Bau,240143,Adham Mohamed,369124,5:2,8-Ball,,,,
+15.02.2026,Kevin Minardi,369056,Dixi,local:dixi|Tübinger BC,2:5,8-Ball,,,,
+21.02.2026,Kevin Minardi,369056,Dixi,local:dixi|Tübinger BC,5:4,9-Ball,,,,
+25.02.2026,Dixi,local:dixi|Tübinger BC,Kevin Minardi,369056,5:1,9-Ball,,,,
+13.03.2026,Adham Mohamed,369124,Dixi,local:dixi|Tübinger BC,5:2,8-Ball,,,,
+30.08.2026,Hamza,local:hamza|Tübinger BC,Alexander Fischer,356369,6:4,9-Ball,,,,
+30.08.2026,Hamza,local:hamza|Tübinger BC,Nikolaos Seristatidis,367912,6:4,9-Ball,,,,
+30.08.2026,Alexander Fischer,356369,Adham Mohamed,369124,6:1,9-Ball,,,,
+30.08.2026,Adham Mohamed,369124,Nikolaos Seristatidis,367912,6:4,9-Ball,,,,
+30.08.2026,Alexander Fischer,356369,Hamza,local:hamza|Tübinger BC,6:5,9-Ball,,,,
+01.09.2026,Konrad Bau,240143,Uwe,local:uwe|Tübinger BC,5:4,8-Ball,,,,
+03.09.2026,Roland Wacker,104819,Partha Ghosh,368821,61:70,14/1e,,,,
+15.09.2026,Adham Mohamed,369124,Alexander Fischer,356369,5:1,10-Ball,,,,
+15.09.2026,Nikolaos Seristatidis,367912,Patrick Coklica,368820,5:2,10-Ball,,,,
+15.09.2026,Alexander Fischer,356369,Patrick Coklica,368820,5:2,10-Ball,,,,
+15.09.2026,Adham Mohamed,369124,Nikolaos Seristatidis,367912,5:3,10-Ball,,,,
+16.10.2026,Alexander Fischer,356369,Partha Ghosh,368821,1:0,9-Ball,,,,
+16.10.2026,Alexander Fischer,356369,Matthias Ludersdorfer,102864,1:0,9-Ball,,,,
+16.10.2026,Alexander Fischer,356369,Wadea Al Mahamid,349790,1:0,9-Ball,,,,
+16.10.2026,Partha Ghosh,368821,Wadea Al Mahamid,349790,1:0,9-Ball,,,,
+16.10.2026,Matthias Ludersdorfer,102864,Wadea Al Mahamid,349790,3:0,9-Ball,,,,
+16.10.2026,Alexander Fischer,356369,Wadea Al Mahamid,349790,3:2,9-Ball,,,,
+16.10.2026,Adham Mohamed,369124,Wadea Al Mahamid,349790,1:3,9-Ball,,,,
+16.10.2026,Wadea Al Mahamid,349790,Hadies,local:hadies|Tübinger BC,3:0,9-Ball,,,,
+16.10.2026,Alexander Fischer,356369,Matthias Ludersdorfer,102864,1:3,9-Ball,,,,
+16.10.2026,Matthias Ludersdorfer,102864,Hadies,local:hadies|Tübinger BC,2:3,9-Ball,,,,
+16.10.2026,Adham Mohamed,369124,Alexander Fischer,356369,3:0,9-Ball,,,,
+16.10.2026,Adham Mohamed,369124,Hadies,local:hadies|Tübinger BC,3:0,9-Ball,,,,
+16.10.2026,Adham Mohamed,369124,Partha Ghosh,368821,3:1,9-Ball,,,,
+16.10.2026,Alexander Fischer,356369,Claudio Severino,369214,3:1,9-Ball,,,,
+16.10.2026,Claudio Severino,369214,Partha Ghosh,368821,3:1,9-Ball,,,,
+16.10.2026,Alexander Fischer,356369,Partha Ghosh,368821,1:0,9-Ball,,,,
+15.10.2026,Claudio Severino,369214,Adham Mohamed,369124,3:2,9-Ball,,,,
+15.10.2026,Claudio Severino,369214,Adham Mohamed,369124,0:4,8-Ball,,,,
+15.10.2026,Wadea Al Mahamid,349790,Claudio Severino,369214,3:1,9-Ball,,,,
+19.10.2026,Partha Ghosh,368821,Hadies,local:hadies|Tübinger BC,3:1,9-Ball,,,,
+19.10.2026,Partha Ghosh,368821,Adham Mohamed,369124,4:3,9-Ball,,,,
+23.10.2026,Partha Ghosh,368821,Cornelius Ryan,229104,3:1,8-Ball,,,,
+23.10.2026,Cornelius Ryan,229104,Dominik,local:dominik|Tübinger BC,1:0,8-Ball,,,,
+23.10.2026,Dominik,local:dominik|Tübinger BC,Partha Ghosh,368821,0:6,8-Ball,,,,
+26.10.2026,Partha Ghosh,368821,Roland Wacker,104819,5:4,8-Ball,,,,
+26.10.2026,Partha Ghosh,368821,Roland Wacker,104819,2:5,10-Ball,,,,
+26.10.2026,Partha Ghosh,368821,Ali Deyhimi,368249,1:0,9-Ball,,,,
+26.10.2026,Claudio Severino,369214,Ali Deyhimi,368249,6:4,9-Ball,,,,
+26.10.2026,Partha Ghosh,368821,Claudio Severino,369214,4:3,9-Ball,,,,
+26.10.2026,Partha Ghosh,368821,Ali Deyhimi,368249,2:0,9-Ball,,,,
+29.10.2026,Nikolaos Seristatidis,367912,Alexander Fischer,356369,7:5,9-Ball,,,,
+29.10.2026,Patrick Coklica,368820,Alexander Fischer,356369,6:5,9-Ball,,,,
+29.10.2026,Partha Ghosh,368821,Alexander Fischer,356369,5:3,9-Ball,,,,
+29.10.2026,Partha Ghosh,368821,Hannes Reißner,368517,5:1,9-Ball,,,,
+29.10.2026,Alexander Fischer,356369,Hannes Reißner,368517,5:2,9-Ball,,,,
+01.11.2026,Alexander Fischer,356369,Hannes Reißner,368517,6:1,9-Ball,,,,
+01.11.2026,Partha Ghosh,368821,Hannes Reißner,368517,1:1,9-Ball,,,,
+01.11.2026,Alexander Fischer,356369,Partha Ghosh,368821,10:10,9-Ball,,,,
+02.11.2026,Alexander Fischer,356369,Patrick Coklica,368820,50:20,14/1e,,,,
+02.11.2026,Alexander Fischer,356369,Patrick Coklica,368820,7:4,9-Ball,,,,
+05.11.2026,Partha Ghosh,368821,Alexander Fischer,356369,3:2,9-Ball,,,,
+08.11.2026,Alexander Fischer,356369,Partha Ghosh,368821,4:7,9-Ball,,,,
+08.11.2026,Nikolaos Seristatidis,367912,Matthias Ludersdorfer,102864,7:6,9-Ball,,,,
+08.11.2026,Partha Ghosh,368821,Alexander Fischer,356369,5:2,8-Ball,,,,
+08.11.2026,Claudio Severino,369214,Nikolaos Seristatidis,367912,5:1,8-Ball,,,,
+08.11.2026,Claudio Severino,369214,Nikolaos Seristatidis,367912,0:2,8-Ball,,,,
+08.11.2026,Claudio Severino,369214,Partha Ghosh,368821,1:2,8-Ball,,,,
+10.11.2026,Alexander Fischer,356369,Partha Ghosh,368821,4:1,9-Ball,,,,
+10.11.2026,Nikolaos Seristatidis,367912,Matthias Ludersdorfer,102864,1:12,9-Ball,,,,
+10.11.2026,Partha Ghosh,368821,Frank,local:frank|Tübinger BC,0:2,9-Ball,,,,
+12.11.2026,Alexander Fischer,356369,Adham Mohamed,369124,40:28,14/1e,,,,
+12.11.2026,Partha Ghosh,368821,Alexander Fischer,356369,2:4,10-Ball,,,,
+12.11.2026,Adham Mohamed,369124,Alexander Fischer,356369,2:0,10-Ball,,,,
+12.11.2026,Adham Mohamed,369124,Partha Ghosh,368821,0:1,10-Ball,,,,
+14.11.2026,Alexander Fischer,356369,Hannes Reißner,368517,5:1,9-Ball,,,,
+14.11.2026,Alexander Fischer,356369,Hannes Reißner,368517,60:40,14/1e,,,,
+15.11.2026,Adham Mohamed,369124,Dominik,local:dominik|Tübinger BC,3:0,8-Ball,Clubmeisterschaft 2026,group,blau,
+15.11.2026,Roland Wacker,104819,Nikolaos Seristatidis,367912,3:0,8-Ball,Clubmeisterschaft 2026,group,blau,
+15.11.2026,Adham Mohamed,369124,Nikolaos Seristatidis,367912,3:2,8-Ball,Clubmeisterschaft 2026,group,blau,
+15.11.2026,Dominik,local:dominik|Tübinger BC,Roland Wacker,104819,1:3,8-Ball,Clubmeisterschaft 2026,group,blau,
+15.11.2026,Nikolaos Seristatidis,367912,Dominik,local:dominik|Tübinger BC,0:0,8-Ball,Clubmeisterschaft 2026,group,blau,no racks
+15.11.2026,Roland Wacker,104819,Adham Mohamed,369124,2:3,8-Ball,Clubmeisterschaft 2026,group,blau,
+15.11.2026,Simon Theodoropoulos,249083,Alexander Fischer,356369,3:2,8-Ball,Clubmeisterschaft 2026,group,rot,
+15.11.2026,Peter Baur,248185,Claudio Severino,369214,3:1,8-Ball,Clubmeisterschaft 2026,group,rot,
+15.11.2026,Claudio Severino,369214,Alexander Fischer,356369,0:3,8-Ball,Clubmeisterschaft 2026,group,rot,
+15.11.2026,Simon Theodoropoulos,249083,Peter Baur,248185,3:0,8-Ball,Clubmeisterschaft 2026,group,rot,
+15.11.2026,Claudio Severino,369214,Simon Theodoropoulos,249083,2:3,8-Ball,Clubmeisterschaft 2026,group,rot,
+15.11.2026,Alexander Fischer,356369,Peter Baur,248185,3:2,8-Ball,Clubmeisterschaft 2026,group,rot,
+15.11.2026,Konrad Bau,240143,Patrick Coklica,368820,1:3,8-Ball,Clubmeisterschaft 2026,group,grün,
+15.11.2026,Frank,local:frank|Tübinger BC,Partha Ghosh,368821,2:3,8-Ball,Clubmeisterschaft 2026,group,grün,
+15.11.2026,Konrad Bau,240143,Frank,local:frank|Tübinger BC,3:0,8-Ball,Clubmeisterschaft 2026,group,grün,
+15.11.2026,Partha Ghosh,368821,Patrick Coklica,368820,2:3,8-Ball,Clubmeisterschaft 2026,group,grün,
+15.11.2026,Konrad Bau,240143,Partha Ghosh,368821,0:3,8-Ball,Clubmeisterschaft 2026,group,grün,
+15.11.2026,Patrick Coklica,368820,Frank,local:frank|Tübinger BC,1:3,8-Ball,Clubmeisterschaft 2026,group,grün,
+15.11.2026,Hannes Reißner,368517,Wadea Al Mahamid,349790,4:3,8-Ball,Clubmeisterschaft 2026,group,gelb,
+15.11.2026,Mark Hast,242992,Wadea Al Mahamid,349790,1:4,8-Ball,Clubmeisterschaft 2026,group,gelb,
+15.11.2026,Hannes Reißner,368517,Mark Hast,242992,4:3,8-Ball,Clubmeisterschaft 2026,group,gelb,
+15.11.2026,Simon Theodoropoulos,249083,Wadea Al Mahamid,349790,0:5,9-Ball,Clubmeisterschaft 2026,9-ball,,
+15.11.2026,Hannes Reißner,368517,Alexander Fischer,356369,1:5,9-Ball,Clubmeisterschaft 2026,9-ball,,
+15.11.2026,Partha Ghosh,368821,Roland Wacker,104819,5:2,9-Ball,Clubmeisterschaft 2026,9-ball,,
+15.11.2026,Adham Mohamed,369124,Patrick Coklica,368820,5:2,9-Ball,Clubmeisterschaft 2026,9-ball,,
+15.11.2026,Wadea Al Mahamid,349790,Alexander Fischer,356369,5:3,10-Ball,Clubmeisterschaft 2026,10-ball,,
+15.11.2026,Partha Ghosh,368821,Adham Mohamed,369124,5:1,10-Ball,Clubmeisterschaft 2026,10-ball,,
+15.11.2026,Wadea Al Mahamid,349790,Partha Ghosh,368821,80:76,14/1e,Clubmeisterschaft 2026,14/1,,
+15.11.2026,Adham Mohamed,369124,Alexander Fischer,356369,80:0,14/1e,Clubmeisterschaft 2026,14/1,,"Aufgabe, 3. Platz"
+17.11.2026,Claudio Severino,369214,Partha Ghosh,368821,7:7,9-Ball,,,,
+17.11.2026,Cornelius Ryan,229104,Claudio Severino,369214,1:10,8-Ball,,,,

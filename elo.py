@@ -90,7 +90,8 @@ def load_games(path: Path) -> list[dict[str, str]]:
     date, player, opponent, score, discipline. Single frames (1:0 or 0:1)
     between the same two players, on the same day and in the same discipline,
     are added into one score. A level score is kept: each player takes half
-    the racks or balls, and neither is given the win. A club 8-ball, 9-ball
+    the racks or balls, and neither is given the win. A row whose note
+    contains Aufgabe is left out of the fit. A club 8-ball, 9-ball
     or 10-ball is weighted by the winner's racks divided by the race length
     in club_sets.cfg: a 5:4 in 9-ball is 5/7, and 8-ball and 10-ball use 5.
     14/1 still adds both players' balls. League rows are left
@@ -276,6 +277,9 @@ def _inhouse_games(path: Path) -> list[dict[str, str]]:
             discipline = (row.get("discipline") or "").strip()
             date = (row.get("date") or "").strip()
             if not player and not opponent and not score:
+                continue
+            note = (row.get("note") or "").casefold()
+            if "aufgabe" in note:
                 continue
             if not player or not opponent or ":" not in score:
                 raise SystemExit(f"{path}:{index}: need player, opponent, and a score like 5:3")

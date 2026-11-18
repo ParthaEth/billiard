@@ -167,7 +167,7 @@ sid,pass_nr,evidence
 116470,253091,"uncommon full name, no same-event namesake, Elo consistent, network too thin to judge"
 116477,368575,"full name, no same-event namesake, Elo consistent, opponent network confirms"
 116490,368147,"uncommon full name, no same-event namesake, Elo consistent, network too thin to judge"
-116540,354685,"full name, no same-event namesake, Elo consistent, opponent network confirms"
+116540,354685,"uncommon full name, no same-event namesake, Elo consistent, network too thin to judge"
 116585,368107,"full name, no same-event namesake, Elo consistent, opponent network confirms"
 116586,368178,"uncommon full name, no same-event namesake, Elo consistent, network too thin to judge"
 116592,368034,"uncommon full name, no same-event namesake, Elo consistent, network too thin to judge"
@@ -258,9 +258,9 @@ sid,pass_nr,evidence
 118626,104715,"uncommon full name, no same-event namesake, Elo consistent, network too thin to judge"
 118649,121877,"uncommon full name, no same-event namesake, Elo consistent, network too thin to judge"
 118687,368302,"full name, no same-event namesake, Elo consistent, opponent network confirms"
-118706,368269,"full name, no same-event namesake, Elo consistent, opponent network confirms"
+118706,368269,"uncommon full name, no same-event namesake, Elo consistent, network too thin to judge"
 118709,368041,"uncommon full name, no same-event namesake, Elo consistent, network too thin to judge"
-118793,102525,"full name, no same-event namesake, Elo consistent, opponent network confirms"
+118793,102525,"uncommon full name, no same-event namesake, Elo consistent, network too thin to judge"
 119226,228904,"full name, no same-event namesake, Elo consistent, opponent network confirms"
 119228,368356,"full name, no same-event namesake, Elo consistent, opponent network confirms"
 119239,248413,"uncommon full name, no same-event namesake, Elo consistent, network too thin to judge"
@@ -320,7 +320,7 @@ sid,pass_nr,evidence
 120701,356369,confirmed by Partha: same Tübinger BC player
 120709,349809,"uncommon full name, no same-event namesake, Elo consistent, network too thin to judge"
 120710,242747,"full name, no same-event namesake, Elo consistent, opponent network confirms"
-120711,368319,"uncommon full name, no same-event namesake, Elo consistent, network too thin to judge"
+120711,368319,"full name, no same-event namesake, Elo consistent, opponent network confirms"
 120714,242957,"uncommon full name, no same-event namesake, Elo consistent, network too thin to judge"
 120715,104761,"full name, no same-event namesake, Elo consistent, opponent network confirms"
 120716,368514,"uncommon full name, no same-event namesake, Elo consistent, network too thin to judge"
@@ -441,7 +441,7 @@ sid,pass_nr,evidence
 129280,369027,"full name, no same-event namesake, Elo consistent, opponent network confirms"
 129281,369106,"full name, no same-event namesake, Elo consistent, opponent network confirms"
 130415,368364,"uncommon full name, no same-event namesake, Elo consistent, network too thin to judge"
-130448,368396,"uncommon full name, no same-event namesake, Elo consistent, network too thin to judge"
+130448,368396,"full name, no same-event namesake, Elo consistent, opponent network confirms"
 130505,102294,"uncommon full name, no same-event namesake, Elo consistent, network too thin to judge"
 130537,368957,"full name, no same-event namesake, Elo consistent, opponent network confirms"
 130589,368138,"uncommon full name, no same-event namesake, Elo consistent, network too thin to judge"
@@ -507,3 +507,4 @@ sid,pass_nr,evidence
 137349,368821,confirmed by Partha: same Tübinger BC player
 137350,local:hadies|Tübinger BC,confirmed by Partha: same Tübinger BC player
 137387,103756,"uncommon full name, no same-event namesake, Elo consistent, network too thin to judge"
+168270,369261,"uncommon full name, no same-event namesake, Elo consistent, network too thin to judge"

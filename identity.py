@@ -782,7 +782,19 @@ GAME_ID_FIELDS = (
     "straight_pool_gd",
     "report_url",
 )
-INHOUSE_FIELDS = ("date", "player", "player_id", "opponent", "opponent_id", "score", "discipline")
+INHOUSE_FIELDS = (
+    "date",
+    "player",
+    "player_id",
+    "opponent",
+    "opponent_id",
+    "score",
+    "discipline",
+    "event",
+    "stage",
+    "group",
+    "note",
+)
 PLAYER_ID_FIELDS = ("player_id", "pass_nr", "name")
 PLAYER_IDS_PATH = DATA / "player_ids.csv"
 

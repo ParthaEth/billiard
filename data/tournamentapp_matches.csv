@@ -27394,3 +27394,250 @@ t_id,event_date,tab_id,round,match_code,match_id,end_stamp,discipline,player1,pl
 3110,02.11.2026,4963,winner-round-3,WR3-002,187617,02.11 23:23,9-Ball,Shahverdi Mazi,100053,4,Pontuti Claudio,100464,3,Sanwald Cup
 3110,02.11.2026,4963,winner-round-3,WR3-003,187618,02.11 22:41,9-Ball,Mahmoudi Armin,119553,4,Kupfer Thomas,118343,3,Sanwald Cup
 3110,02.11.2026,4963,winner-round-3,WR3-004,187619,02.11 22:38,9-Ball,Sanchez Goncalves D.,101718,2,Radunovic Danilo,100006,4,Sanwald Cup
+2876,06.11.2026,4548,beginner-round,BR-002,187739,06.11 20:29,9-Ball,Knittel Andreas,125359,0,Tafa Besmira,131481,4,Freitags-Hausturnier 2026 BC Stuttgart 1891
+2876,06.11.2026,4548,beginner-round,BR-007,187744,06.11 20:29,9-Ball,Dikici Erdem,129281,2,Mungiuri Patrick,101612,4,Freitags-Hausturnier 2026 BC Stuttgart 1891
+2876,06.11.2026,4548,beginner-round,BR-010,187747,06.11 20:52,9-Ball,Sce Carlo,100345,4,Fink Ilya,122743,1,Freitags-Hausturnier 2026 BC Stuttgart 1891
+2876,06.11.2026,4548,beginner-round,BR-015,187752,06.11 20:21,9-Ball,Dorenburg Marco,100029,4,Stankovic Alexandar,108764,1,Freitags-Hausturnier 2026 BC Stuttgart 1891
+2876,06.11.2026,4548,beginner-round,BR-018,187755,06.11 20:20,9-Ball,Parama Orhan,119458,4,Dragotta Francesco,132906,1,Freitags-Hausturnier 2026 BC Stuttgart 1891
+2876,06.11.2026,4548,beginner-round,BR-023,187760,06.11 20:49,9-Ball,Büyük Osman,118529,3,Burmazovic Zeljko,100490,4,Freitags-Hausturnier 2026 BC Stuttgart 1891
+2876,06.11.2026,4548,beginner-round,BR-026,187763,06.11 20:17,9-Ball,Truong Phat,123178,4,Sattler Andreas,128580,0,Freitags-Hausturnier 2026 BC Stuttgart 1891
+2876,06.11.2026,4548,beginner-round,BR-031,187768,06.11 21:29,9-Ball,Hasi Selami,100316,2,Tutucu Yusa,130629,3,Freitags-Hausturnier 2026 BC Stuttgart 1891
+2876,06.11.2026,4548,final,F-001,187856,07.11 03:36,9-Ball,Dorenburg Marco,100029,5,Burmazovic Zeljko,100490,4,Freitags-Hausturnier 2026 BC Stuttgart 1891
+2876,06.11.2026,4548,loser-qualification,LQ-001,187834,07.11 00:33,9-Ball,Kurutz Martin,104960,0,Benk Mustafa,119377,4,Freitags-Hausturnier 2026 BC Stuttgart 1891
+2876,06.11.2026,4548,loser-qualification,LQ-002,187835,07.11 00:34,9-Ball,Parama Orhan,119458,4,Kirli Tahsin,100233,2,Freitags-Hausturnier 2026 BC Stuttgart 1891
+2876,06.11.2026,4548,loser-qualification,LQ-003,187836,07.11 00:54,9-Ball,Tutucu Yusa,130629,4,Minardi Kevin,132973,3,Freitags-Hausturnier 2026 BC Stuttgart 1891
+2876,06.11.2026,4548,loser-qualification,LQ-004,187837,07.11 00:25,9-Ball,Stankovic Alexandar,108764,1,Mungiuri Patrick,101612,4,Freitags-Hausturnier 2026 BC Stuttgart 1891
+2876,06.11.2026,4548,loser-qualification,LQ-005,187838,07.11 01:09,9-Ball,Dragotta Francesco,132906,4,Durst Thomas,129234,2,Freitags-Hausturnier 2026 BC Stuttgart 1891
+2876,06.11.2026,4548,loser-qualification,LQ-006,187839,07.11 00:34,9-Ball,Tafa Besmira,131481,4,Fuchs Luka,120711,0,Freitags-Hausturnier 2026 BC Stuttgart 1891
+2876,06.11.2026,4548,loser-qualification,LQ-007,187840,07.11 01:13,9-Ball,Zillmann Andreas,117205,4,Schick-Bringer Jörg,128258,2,Freitags-Hausturnier 2026 BC Stuttgart 1891
+2876,06.11.2026,4548,loser-qualification,LQ-008,187841,07.11 00:47,9-Ball,Hasi Selami,100316,1,schmid marc andre,132846,4,Freitags-Hausturnier 2026 BC Stuttgart 1891
+2876,06.11.2026,4548,loser-round-2,LR2-001,187802,06.11 22:53,9-Ball,Knittel Andreas,125359,2,Hoeldtke Nicholas,136914,4,Freitags-Hausturnier 2026 BC Stuttgart 1891
+2876,06.11.2026,4548,loser-round-2,LR2-004,187805,06.11 22:46,9-Ball,Dikici Erdem,129281,4,Tekin Zekeriya,105746,2,Freitags-Hausturnier 2026 BC Stuttgart 1891
+2876,06.11.2026,4548,loser-round-2,LR2-005,187806,06.11 23:17,9-Ball,Fink Ilya,122743,3,Dayyani Aryan,105191,4,Freitags-Hausturnier 2026 BC Stuttgart 1891
+2876,06.11.2026,4548,loser-round-2,LR2-008,187809,06.11 22:37,9-Ball,Stankovic Alexandar,108764,4,Sarafodis Saki,137335,2,Freitags-Hausturnier 2026 BC Stuttgart 1891
+2876,06.11.2026,4548,loser-round-2,LR2-009,187810,06.11 22:46,9-Ball,Dragotta Francesco,132906,4,Nassar Ahmad,125332,0,Freitags-Hausturnier 2026 BC Stuttgart 1891
+2876,06.11.2026,4548,loser-round-2,LR2-012,187813,06.11 22:30,9-Ball,Büyük Osman,118529,4,Kupfer Thomas,118343,2,Freitags-Hausturnier 2026 BC Stuttgart 1891
+2876,06.11.2026,4548,loser-round-2,LR2-013,187814,06.11 22:28,9-Ball,Sattler Andreas,128580,4,Korezelidis Pavlos,118793,2,Freitags-Hausturnier 2026 BC Stuttgart 1891
+2876,06.11.2026,4548,loser-round-2,LR2-016,187817,06.11 22:40,9-Ball,Hasi Selami,100316,4,Heydarpour Saeid,122435,3,Freitags-Hausturnier 2026 BC Stuttgart 1891
+2876,06.11.2026,4548,loser-round-3,LR3-001,187826,07.11 00:00,9-Ball,Hoeldtke Nicholas,136914,1,Kurutz Martin,104960,4,Freitags-Hausturnier 2026 BC Stuttgart 1891
+2876,06.11.2026,4548,loser-round-3,LR3-002,187827,06.11 23:32,9-Ball,Parama Orhan,119458,4,Dikici Erdem,129281,0,Freitags-Hausturnier 2026 BC Stuttgart 1891
+2876,06.11.2026,4548,loser-round-3,LR3-003,187828,07.11 00:02,9-Ball,Dayyani Aryan,105191,1,Tutucu Yusa,130629,4,Freitags-Hausturnier 2026 BC Stuttgart 1891
+2876,06.11.2026,4548,loser-round-3,LR3-004,187829,06.11 23:56,9-Ball,Miedzianowski Max,168270,2,Stankovic Alexandar,108764,4,Freitags-Hausturnier 2026 BC Stuttgart 1891
+2876,06.11.2026,4548,loser-round-3,LR3-005,187830,07.11 00:20,9-Ball,Dragotta Francesco,132906,4,Luft Joachim,116540,3,Freitags-Hausturnier 2026 BC Stuttgart 1891
+2876,06.11.2026,4548,loser-round-3,LR3-006,187831,06.11 23:47,9-Ball,Tafa Besmira,131481,4,Büyük Osman,118529,3,Freitags-Hausturnier 2026 BC Stuttgart 1891
+2876,06.11.2026,4548,loser-round-3,LR3-007,187832,07.11 00:36,9-Ball,Sattler Andreas,128580,2,Zillmann Andreas,117205,4,Freitags-Hausturnier 2026 BC Stuttgart 1891
+2876,06.11.2026,4548,loser-round-3,LR3-008,187833,07.11 00:14,9-Ball,Sce Carlo,100345,2,Hasi Selami,100316,4,Freitags-Hausturnier 2026 BC Stuttgart 1891
+2876,06.11.2026,4548,quarter-final,QF-001,187850,07.11 02:37,9-Ball,Mungiuri Patrick,101612,3,Kolbasar Necmi,100134,5,Freitags-Hausturnier 2026 BC Stuttgart 1891
+2876,06.11.2026,4548,quarter-final,QF-002,187851,07.11 02:39,9-Ball,Schwertschlager O.,117391,1,Dorenburg Marco,100029,5,Freitags-Hausturnier 2026 BC Stuttgart 1891
+2876,06.11.2026,4548,quarter-final,QF-003,187852,07.11 02:59,9-Ball,Giusa Marco,105745,4,Burmazovic Zeljko,100490,5,Freitags-Hausturnier 2026 BC Stuttgart 1891
+2876,06.11.2026,4548,quarter-final,QF-004,187853,07.11 02:55,9-Ball,Truong Phat,123178,5,Pontuti Claudio,100464,1,Freitags-Hausturnier 2026 BC Stuttgart 1891
+2876,06.11.2026,4548,semi-final,SF-001,187854,07.11 03:35,9-Ball,Kolbasar Necmi,100134,4,Dorenburg Marco,100029,5,Freitags-Hausturnier 2026 BC Stuttgart 1891
+2876,06.11.2026,4548,semi-final,SF-002,187855,07.11 03:26,9-Ball,Burmazovic Zeljko,100490,5,Truong Phat,123178,0,Freitags-Hausturnier 2026 BC Stuttgart 1891
+2876,06.11.2026,4548,winner-round-1,WR1-001,187786,06.11 21:19,9-Ball,Minardi Kevin,132973,4,Tafa Besmira,131481,3,Freitags-Hausturnier 2026 BC Stuttgart 1891
+2876,06.11.2026,4548,winner-round-1,WR1-002,187787,06.11 20:26,9-Ball,Kupfer Thomas,118343,2,Hrihorov Michael,117101,4,Freitags-Hausturnier 2026 BC Stuttgart 1891
+2876,06.11.2026,4548,winner-round-1,WR1-003,187788,06.11 20:57,9-Ball,Nassar Ahmad,125332,3,Kolbasar Necmi,100134,4,Freitags-Hausturnier 2026 BC Stuttgart 1891
+2876,06.11.2026,4548,winner-round-1,WR1-004,187789,06.11 21:13,9-Ball,Mungiuri Patrick,101612,4,Luft Joachim,116540,0,Freitags-Hausturnier 2026 BC Stuttgart 1891
+2876,06.11.2026,4548,winner-round-1,WR1-005,187790,06.11 21:41,9-Ball,Schwertschlager O.,117391,4,Sce Carlo,100345,1,Freitags-Hausturnier 2026 BC Stuttgart 1891
+2876,06.11.2026,4548,winner-round-1,WR1-006,187791,06.11 21:34,9-Ball,Benk Mustafa,119377,4,Heydarpour Saeid,122435,3,Freitags-Hausturnier 2026 BC Stuttgart 1891
+2876,06.11.2026,4548,winner-round-1,WR1-007,187792,06.11 20:52,9-Ball,Korezelidis Pavlos,118793,1,Kirli Tahsin,100233,4,Freitags-Hausturnier 2026 BC Stuttgart 1891
+2876,06.11.2026,4548,winner-round-1,WR1-008,187793,06.11 21:47,9-Ball,Dorenburg Marco,100029,4,Zillmann Andreas,117205,2,Freitags-Hausturnier 2026 BC Stuttgart 1891
+2876,06.11.2026,4548,winner-round-1,WR1-009,187794,06.11 21:55,9-Ball,Giusa Marco,105745,4,Parama Orhan,119458,2,Freitags-Hausturnier 2026 BC Stuttgart 1891
+2876,06.11.2026,4548,winner-round-1,WR1-010,187795,06.11 21:43,9-Ball,Schick-Bringer Jörg,128258,4,Tekin Zekeriya,105746,2,Freitags-Hausturnier 2026 BC Stuttgart 1891
+2876,06.11.2026,4548,winner-round-1,WR1-011,187796,06.11 21:52,9-Ball,Hoeldtke Nicholas,136914,2,schmid marc andre,132846,4,Freitags-Hausturnier 2026 BC Stuttgart 1891
+2876,06.11.2026,4548,winner-round-1,WR1-012,187797,06.11 21:52,9-Ball,Burmazovic Zeljko,100490,4,Kurutz Martin,104960,0,Freitags-Hausturnier 2026 BC Stuttgart 1891
+2876,06.11.2026,4548,winner-round-1,WR1-013,187798,06.11 22:10,9-Ball,Miedzianowski Max,168270,0,Truong Phat,123178,4,Freitags-Hausturnier 2026 BC Stuttgart 1891
+2876,06.11.2026,4548,winner-round-1,WR1-014,187799,06.11 21:13,9-Ball,Sarafodis Saki,137335,1,Durst Thomas,129234,4,Freitags-Hausturnier 2026 BC Stuttgart 1891
+2876,06.11.2026,4548,winner-round-1,WR1-015,187800,06.11 22:20,9-Ball,Fuchs Luka,120711,4,Dayyani Aryan,105191,2,Freitags-Hausturnier 2026 BC Stuttgart 1891
+2876,06.11.2026,4548,winner-round-1,WR1-016,187801,06.11 22:25,9-Ball,Tutucu Yusa,130629,2,Pontuti Claudio,100464,4,Freitags-Hausturnier 2026 BC Stuttgart 1891
+2876,06.11.2026,4548,winner-round-2,WR2-001,187818,06.11 22:57,9-Ball,Minardi Kevin,132973,0,Hrihorov Michael,117101,4,Freitags-Hausturnier 2026 BC Stuttgart 1891
+2876,06.11.2026,4548,winner-round-2,WR2-002,187819,06.11 23:06,9-Ball,Kolbasar Necmi,100134,4,Mungiuri Patrick,101612,0,Freitags-Hausturnier 2026 BC Stuttgart 1891
+2876,06.11.2026,4548,winner-round-2,WR2-003,187820,06.11 23:11,9-Ball,Schwertschlager O.,117391,4,Benk Mustafa,119377,0,Freitags-Hausturnier 2026 BC Stuttgart 1891
+2876,06.11.2026,4548,winner-round-2,WR2-004,187821,06.11 23:20,9-Ball,Kirli Tahsin,100233,3,Dorenburg Marco,100029,4,Freitags-Hausturnier 2026 BC Stuttgart 1891
+2876,06.11.2026,4548,winner-round-2,WR2-005,187822,06.11 23:21,9-Ball,Giusa Marco,105745,4,Schick-Bringer Jörg,128258,0,Freitags-Hausturnier 2026 BC Stuttgart 1891
+2876,06.11.2026,4548,winner-round-2,WR2-006,187823,06.11 23:14,9-Ball,schmid marc andre,132846,1,Burmazovic Zeljko,100490,4,Freitags-Hausturnier 2026 BC Stuttgart 1891
+2876,06.11.2026,4548,winner-round-2,WR2-007,187824,07.11 00:00,9-Ball,Truong Phat,123178,3,Durst Thomas,129234,2,Freitags-Hausturnier 2026 BC Stuttgart 1891
+2876,06.11.2026,4548,winner-round-2,WR2-008,187825,07.11 00:01,9-Ball,Fuchs Luka,120711,3,Pontuti Claudio,100464,4,Freitags-Hausturnier 2026 BC Stuttgart 1891
+2876,06.11.2026,4548,winner-round-3,WR3-001,187842,07.11 01:45,9-Ball,Hrihorov Michael,117101,1,Mungiuri Patrick,101612,4,Freitags-Hausturnier 2026 BC Stuttgart 1891
+2876,06.11.2026,4548,winner-round-3,WR3-002,187843,07.11 01:55,9-Ball,Kolbasar Necmi,100134,4,Zillmann Andreas,117205,2,Freitags-Hausturnier 2026 BC Stuttgart 1891
+2876,06.11.2026,4548,winner-round-3,WR3-003,187844,07.11 01:54,9-Ball,Schwertschlager O.,117391,4,Tutucu Yusa,130629,1,Freitags-Hausturnier 2026 BC Stuttgart 1891
+2876,06.11.2026,4548,winner-round-3,WR3-004,187845,07.11 01:36,9-Ball,Dorenburg Marco,100029,4,Tafa Besmira,131481,0,Freitags-Hausturnier 2026 BC Stuttgart 1891
+2876,06.11.2026,4548,winner-round-3,WR3-005,187846,07.11 01:41,9-Ball,Giusa Marco,105745,4,schmid marc andre,132846,0,Freitags-Hausturnier 2026 BC Stuttgart 1891
+2876,06.11.2026,4548,winner-round-3,WR3-006,187847,07.11 02:03,9-Ball,Burmazovic Zeljko,100490,4,Parama Orhan,119458,3,Freitags-Hausturnier 2026 BC Stuttgart 1891
+2876,06.11.2026,4548,winner-round-3,WR3-007,187848,07.11 02:03,9-Ball,Truong Phat,123178,4,Benk Mustafa,119377,3,Freitags-Hausturnier 2026 BC Stuttgart 1891
+2876,06.11.2026,4548,winner-round-3,WR3-008,187849,07.11 02:13,9-Ball,Pontuti Claudio,100464,4,Dragotta Francesco,132906,3,Freitags-Hausturnier 2026 BC Stuttgart 1891
+3111,09.11.2026,4964,beginner-round,BR-002,187937,09.11 20:49,9-Ball,Ketterlin Colin,130537,3,Mahmoudi Armin,119553,4,Sanwald Cup
+3111,09.11.2026,4964,beginner-round,BR-006,187941,09.11 21:03,9-Ball,Cutura Zoran,120142,4,Traub Rüdiger,132982,3,Sanwald Cup
+3111,09.11.2026,4964,beginner-round,BR-007,187942,09.11 20:42,9-Ball,Sohns Kian,120062,1,Spanoudakis Marinos,116992,4,Sanwald Cup
+3111,09.11.2026,4964,beginner-round,BR-010,187945,09.11 20:56,9-Ball,Reich Michael,108457,2,Tutucu Yusa,130629,4,Sanwald Cup
+3111,09.11.2026,4964,beginner-round,BR-011,187946,09.11 20:55,9-Ball,Paun Patrick,132981,2,Caravila M.,119922,4,Sanwald Cup
+3111,09.11.2026,4964,beginner-round,BR-015,187950,09.11 20:57,9-Ball,Heydarpour Saeid,122435,2,Gärttner Michael,104223,4,Sanwald Cup
+3111,09.11.2026,4964,beginner-round,BR-018,187953,09.11 20:49,9-Ball,Nassar Ahmad,125332,3,Tekin Zekeriya,105746,4,Sanwald Cup
+3111,09.11.2026,4964,beginner-round,BR-022,187957,09.11 20:45,9-Ball,Vrakas Athanasios,104724,4,Müller Dirk,100087,0,Sanwald Cup
+3111,09.11.2026,4964,beginner-round,BR-023,187958,09.11 20:46,9-Ball,Fuchs Luka,120711,2,Hafner Bernd,107303,4,Sanwald Cup
+3111,09.11.2026,4964,beginner-round,BR-026,187961,09.11 20:44,9-Ball,Boschmann Andrej,101710,1,Miric Kosta,108312,4,Sanwald Cup
+3111,09.11.2026,4964,beginner-round,BR-027,187962,09.11 20:49,9-Ball,Braun Petra,119885,2,Kolbasar Necmi,100134,4,Sanwald Cup
+3111,09.11.2026,4964,beginner-round,BR-031,187966,09.11 20:52,9-Ball,karakaplan serhat,168276,4,Mann Ingo,120714,3,Sanwald Cup
+3111,09.11.2026,4964,final,F-001,188058,10.11 02:17,9-Ball,Waldecker Dennis,121726,4,Mahmoudi Armin,119553,5,Sanwald Cup
+3111,09.11.2026,4964,loser-qualification,LQ-001,188048,10.11 00:45,9-Ball,Waldecker Dennis,121726,4,Mnich Denis,101467,3,Sanwald Cup
+3111,09.11.2026,4964,loser-qualification,LQ-002,188049,10.11 01:35,9-Ball,Heydarpour Saeid,122435,2,Hafner Bernd,107303,4,Sanwald Cup
+3111,09.11.2026,4964,loser-qualification,LQ-003,188050,10.11 00:46,9-Ball,Kolbasar Necmi,100134,4,Öscan Yusuf,136501,1,Sanwald Cup
+3111,09.11.2026,4964,loser-qualification,LQ-004,188051,10.11 01:18,9-Ball,Voskar Sinisa,100334,3,Mahmoudi Armin,119553,4,Sanwald Cup
+3111,09.11.2026,4964,loser-round-2,LR2-001,188000,09.11 21:50,9-Ball,Ketterlin Colin,130537,1,Vrakas Athanasios,104724,4,Sanwald Cup
+3111,09.11.2026,4964,loser-round-2,LR2-003,188002,09.11 22:13,9-Ball,Traub Rüdiger,132982,1,Rech-Linker Stephan,101962,4,Sanwald Cup
+3111,09.11.2026,4964,loser-round-2,LR2-004,188003,09.11 22:04,9-Ball,Sohns Kian,120062,4,Sannwald Petra,103183,3,Sanwald Cup
+3111,09.11.2026,4964,loser-round-2,LR2-005,188004,09.11 21:43,9-Ball,Reich Michael,108457,1,Huber Stephan,104642,4,Sanwald Cup
+3111,09.11.2026,4964,loser-round-2,LR2-006,188005,09.11 22:57,9-Ball,Paun Patrick,132981,4,Boos Yvonne,137015,1,Sanwald Cup
+3111,09.11.2026,4964,loser-round-2,LR2-008,188007,09.11 21:50,9-Ball,Heydarpour Saeid,122435,4,Kirli Tahsin,100233,2,Sanwald Cup
+3111,09.11.2026,4964,loser-round-2,LR2-009,188008,09.11 22:32,9-Ball,Nassar Ahmad,125332,3,Di Lella Christian,129105,4,Sanwald Cup
+3111,09.11.2026,4964,loser-round-2,LR2-011,188010,09.11 22:18,9-Ball,Müller Dirk,100087,0,Schulz Tobias,100895,4,Sanwald Cup
+3111,09.11.2026,4964,loser-round-2,LR2-012,188011,09.11 22:06,9-Ball,Fuchs Luka,120711,4,Grabovac Berislav,100393,2,Sanwald Cup
+3111,09.11.2026,4964,loser-round-2,LR2-013,188012,09.11 21:45,9-Ball,Boschmann Andrej,101710,4,Hrihorov Michael,117101,0,Sanwald Cup
+3111,09.11.2026,4964,loser-round-2,LR2-014,188013,09.11 22:53,9-Ball,Braun Petra,119885,4,Gärttner Michael,104223,2,Sanwald Cup
+3111,09.11.2026,4964,loser-round-2,LR2-016,188015,09.11 22:04,9-Ball,Mann Ingo,120714,2,Voskar Sinisa,100334,4,Sanwald Cup
+3111,09.11.2026,4964,loser-round-3,LR3-001,188024,09.11 22:46,9-Ball,Vrakas Athanasios,104724,4,Werner Long,119327,2,Sanwald Cup
+3111,09.11.2026,4964,loser-round-3,LR3-002,188025,09.11 22:50,9-Ball,Rech-Linker Stephan,101962,2,Sohns Kian,120062,4,Sanwald Cup
+3111,09.11.2026,4964,loser-round-3,LR3-003,188026,09.11 23:26,9-Ball,Huber Stephan,104642,4,Paun Patrick,132981,1,Sanwald Cup
+3111,09.11.2026,4964,loser-round-3,LR3-004,188027,09.11 22:39,9-Ball,Sce Carlo,100345,0,Heydarpour Saeid,122435,4,Sanwald Cup
+3111,09.11.2026,4964,loser-round-3,LR3-005,188028,09.11 22:53,9-Ball,Di Lella Christian,129105,4,Stotoglou Dimitrios,127067,2,Sanwald Cup
+3111,09.11.2026,4964,loser-round-3,LR3-006,188029,09.11 23:08,9-Ball,Schulz Tobias,100895,4,Fuchs Luka,120711,3,Sanwald Cup
+3111,09.11.2026,4964,loser-round-3,LR3-007,188030,09.11 23:22,9-Ball,Boschmann Andrej,101710,0,Braun Petra,119885,4,Sanwald Cup
+3111,09.11.2026,4964,loser-round-3,LR3-008,188031,09.11 22:42,9-Ball,Tutucu Yusa,130629,3,Voskar Sinisa,100334,4,Sanwald Cup
+3111,09.11.2026,4964,loser-round-4,LR4-001,188032,09.11 23:08,9-Ball,Vrakas Athanasios,104724,4,Caravila M.,119922,1,Sanwald Cup
+3111,09.11.2026,4964,loser-round-4,LR4-002,188033,09.11 23:12,9-Ball,Sohns Kian,120062,1,Waldecker Dennis,121726,4,Sanwald Cup
+3111,09.11.2026,4964,loser-round-4,LR4-003,188034,09.11 23:58,9-Ball,Huber Stephan,104642,4,Pontuti Claudio,100464,2,Sanwald Cup
+3111,09.11.2026,4964,loser-round-4,LR4-004,188035,09.11 23:41,9-Ball,Heydarpour Saeid,122435,4,Cutura Zoran,120142,2,Sanwald Cup
+3111,09.11.2026,4964,loser-round-4,LR4-005,188036,09.11 23:39,9-Ball,Di Lella Christian,129105,2,Kolbasar Necmi,100134,4,Sanwald Cup
+3111,09.11.2026,4964,loser-round-4,LR4-006,188037,09.11 23:42,9-Ball,Schulz Tobias,100895,4,karakaplan serhat,168276,3,Sanwald Cup
+3111,09.11.2026,4964,loser-round-4,LR4-007,188038,10.11 00:15,9-Ball,Braun Petra,119885,4,Tekin Zekeriya,105746,2,Sanwald Cup
+3111,09.11.2026,4964,loser-round-4,LR4-008,188039,09.11 23:22,9-Ball,Voskar Sinisa,100334,4,Decker Armin_,117274,2,Sanwald Cup
+3111,09.11.2026,4964,loser-round-5,LR5-001,188044,10.11 00:01,9-Ball,Vrakas Athanasios,104724,3,Waldecker Dennis,121726,4,Sanwald Cup
+3111,09.11.2026,4964,loser-round-5,LR5-002,188045,10.11 00:48,9-Ball,Huber Stephan,104642,3,Heydarpour Saeid,122435,4,Sanwald Cup
+3111,09.11.2026,4964,loser-round-5,LR5-003,188046,10.11 00:20,9-Ball,Kolbasar Necmi,100134,4,Schulz Tobias,100895,2,Sanwald Cup
+3111,09.11.2026,4964,loser-round-5,LR5-004,188047,10.11 00:47,9-Ball,Braun Petra,119885,3,Voskar Sinisa,100334,4,Sanwald Cup
+3111,09.11.2026,4964,quarter-final,QF-001,188052,10.11 02:16,9-Ball,Spanoudakis Marinos,116992,2,Waldecker Dennis,121726,5,Sanwald Cup
+3111,09.11.2026,4964,quarter-final,QF-002,188053,10.11 01:38,9-Ball,Gebert Frank,100055,5,Kolbasar Necmi,100134,4,Sanwald Cup
+3111,09.11.2026,4964,quarter-final,QF-003,188054,10.11 01:38,9-Ball,Tran Anh,105703,0,Mahmoudi Armin,119553,5,Sanwald Cup
+3111,09.11.2026,4964,quarter-final,QF-004,188055,10.11 02:08,9-Ball,Miric Kosta,108312,5,Hafner Bernd,107303,1,Sanwald Cup
+3111,09.11.2026,4964,semi-final,SF-001,188056,10.11 02:16,9-Ball,Waldecker Dennis,121726,5,Gebert Frank,100055,4,Sanwald Cup
+3111,09.11.2026,4964,semi-final,SF-002,188057,10.11 02:15,9-Ball,Mahmoudi Armin,119553,5,Miric Kosta,108312,4,Sanwald Cup
+3111,09.11.2026,4964,winner-round-1,WR1-001,187984,09.11 21:31,9-Ball,Schulz Tobias,100895,0,Mahmoudi Armin,119553,4,Sanwald Cup
+3111,09.11.2026,4964,winner-round-1,WR1-002,187985,09.11 21:17,9-Ball,Pontuti Claudio,100464,4,Grabovac Berislav,100393,0,Sanwald Cup
+3111,09.11.2026,4964,winner-round-1,WR1-003,187986,09.11 21:50,9-Ball,Di Lella Christian,129105,2,Cutura Zoran,120142,4,Sanwald Cup
+3111,09.11.2026,4964,winner-round-1,WR1-004,187987,09.11 21:41,9-Ball,Spanoudakis Marinos,116992,4,Stotoglou Dimitrios,127067,3,Sanwald Cup
+3111,09.11.2026,4964,winner-round-1,WR1-005,187988,09.11 21:35,9-Ball,Öscan Yusuf,136501,4,Tutucu Yusa,130629,2,Sanwald Cup
+3111,09.11.2026,4964,winner-round-1,WR1-006,187989,09.11 21:23,9-Ball,Caravila M.,119922,4,Voskar Sinisa,100334,3,Sanwald Cup
+3111,09.11.2026,4964,winner-round-1,WR1-007,187990,09.11 21:16,9-Ball,Waldecker Dennis,121726,4,Hrihorov Michael,117101,2,Sanwald Cup
+3111,09.11.2026,4964,winner-round-1,WR1-008,187991,09.11 21:50,9-Ball,Gärttner Michael,104223,1,Gebert Frank,100055,4,Sanwald Cup
+3111,09.11.2026,4964,winner-round-1,WR1-009,187992,09.11 21:43,9-Ball,Rech-Linker Stephan,101962,3,Tekin Zekeriya,105746,4,Sanwald Cup
+3111,09.11.2026,4964,winner-round-1,WR1-010,187993,09.11 21:10,9-Ball,Sannwald Petra,103183,1,Tran Anh,105703,4,Sanwald Cup
+3111,09.11.2026,4964,winner-round-1,WR1-011,187994,09.11 21:16,9-Ball,Decker Armin_,117274,4,Vrakas Athanasios,104724,1,Sanwald Cup
+3111,09.11.2026,4964,winner-round-1,WR1-012,187995,09.11 21:15,9-Ball,Hafner Bernd,107303,4,Werner Long,119327,1,Sanwald Cup
+3111,09.11.2026,4964,winner-round-1,WR1-013,187996,09.11 21:31,9-Ball,Sce Carlo,100345,2,Miric Kosta,108312,4,Sanwald Cup
+3111,09.11.2026,4964,winner-round-1,WR1-014,187997,09.11 21:16,9-Ball,Kolbasar Necmi,100134,4,Kirli Tahsin,100233,0,Sanwald Cup
+3111,09.11.2026,4964,winner-round-1,WR1-015,187998,09.11 20:38,9-Ball,Huber Stephan,104642,2,Mnich Denis,101467,4,Sanwald Cup
+3111,09.11.2026,4964,winner-round-1,WR1-016,187999,09.11 22:05,9-Ball,karakaplan serhat,168276,4,Boos Yvonne,137015,2,Sanwald Cup
+3111,09.11.2026,4964,winner-round-2,WR2-001,188016,09.11 22:18,9-Ball,Mahmoudi Armin,119553,4,Pontuti Claudio,100464,1,Sanwald Cup
+3111,09.11.2026,4964,winner-round-2,WR2-002,188017,09.11 22:46,9-Ball,Cutura Zoran,120142,2,Spanoudakis Marinos,116992,4,Sanwald Cup
+3111,09.11.2026,4964,winner-round-2,WR2-003,188018,09.11 22:15,9-Ball,Öscan Yusuf,136501,4,Caravila M.,119922,0,Sanwald Cup
+3111,09.11.2026,4964,winner-round-2,WR2-004,188019,09.11 22:39,9-Ball,Waldecker Dennis,121726,3,Gebert Frank,100055,4,Sanwald Cup
+3111,09.11.2026,4964,winner-round-2,WR2-005,188020,09.11 22:22,9-Ball,Tekin Zekeriya,105746,1,Tran Anh,105703,4,Sanwald Cup
+3111,09.11.2026,4964,winner-round-2,WR2-006,188021,09.11 22:53,9-Ball,Decker Armin_,117274,2,Hafner Bernd,107303,4,Sanwald Cup
+3111,09.11.2026,4964,winner-round-2,WR2-007,188022,09.11 22:15,9-Ball,Miric Kosta,108312,4,Kolbasar Necmi,100134,1,Sanwald Cup
+3111,09.11.2026,4964,winner-round-2,WR2-008,188023,09.11 22:39,9-Ball,Mnich Denis,101467,4,karakaplan serhat,168276,2,Sanwald Cup
+3111,09.11.2026,4964,winner-round-3,WR3-001,188040,09.11 23:26,9-Ball,Mahmoudi Armin,119553,2,Spanoudakis Marinos,116992,4,Sanwald Cup
+3111,09.11.2026,4964,winner-round-3,WR3-002,188041,09.11 23:19,9-Ball,Öscan Yusuf,136501,2,Gebert Frank,100055,4,Sanwald Cup
+3111,09.11.2026,4964,winner-round-3,WR3-003,188042,09.11 23:39,9-Ball,Tran Anh,105703,4,Hafner Bernd,107303,2,Sanwald Cup
+3111,09.11.2026,4964,winner-round-3,WR3-004,188043,09.11 23:11,9-Ball,Miric Kosta,108312,4,Mnich Denis,101467,3,Sanwald Cup
+3112,16.11.2026,4965,beginner-round,BR-002,188407,16.11 20:54,9-Ball,Nassar Ahmad,125332,2,Dayyani Aryan,105191,4,Sanwald Cup
+3112,16.11.2026,4965,beginner-round,BR-003,188408,16.11 20:41,9-Ball,Radunovic Danilo,100006,4,Decker Armin_,117274,0,Sanwald Cup
+3112,16.11.2026,4965,beginner-round,BR-004,188409,16.11 20:53,9-Ball,Ntokos Dimitrios,130467,3,Skalistiras Anton,103647,4,Sanwald Cup
+3112,16.11.2026,4965,beginner-round,BR-006,188411,16.11 20:40,9-Ball,Voskar Sinisa,100334,0,Heydarpour Saeid,100314,4,Sanwald Cup
+3112,16.11.2026,4965,beginner-round,BR-007,188412,16.11 20:32,9-Ball,Merbitz Daniel,100037,4,Boos Yvonne,137015,0,Sanwald Cup
+3112,16.11.2026,4965,beginner-round,BR-010,188415,16.11 20:53,9-Ball,Zillmann Andreas,117205,4,Lechenbauer J.,127493,2,Sanwald Cup
+3112,16.11.2026,4965,beginner-round,BR-011,188416,16.11 20:37,9-Ball,Di Noia David,120781,4,Reinhart Georg,119326,1,Sanwald Cup
+3112,16.11.2026,4965,beginner-round,BR-014,188419,16.11 20:53,9-Ball,Tran Anh,105703,2,Kupfer Thomas,118343,4,Sanwald Cup
+3112,16.11.2026,4965,beginner-round,BR-015,188420,16.11 20:34,9-Ball,Paun Patrick,132981,1,Mnich Denis,101467,4,Sanwald Cup
+3112,16.11.2026,4965,beginner-round,BR-018,188423,16.11 21:20,9-Ball,Uttenweiler Jörg,168288,2,Reinhart Costa,118742,4,Sanwald Cup
+3112,16.11.2026,4965,beginner-round,BR-019,188424,16.11 21:15,9-Ball,Fernandez Martinez A.,121491,3,Spanoudakis Marinos,116992,4,Sanwald Cup
+3112,16.11.2026,4965,beginner-round,BR-022,188427,16.11 20:31,9-Ball,Miric Kosta,108312,4,Fuchs Luka,120711,0,Sanwald Cup
+3112,16.11.2026,4965,beginner-round,BR-023,188428,16.11 21:10,9-Ball,Sce Carlo,100345,2,Sevens Raven,100005,4,Sanwald Cup
+3112,16.11.2026,4965,beginner-round,BR-026,188431,16.11 20:31,9-Ball,Marx Oliver,130415,1,Kirli Tahsin,100233,4,Sanwald Cup
+3112,16.11.2026,4965,beginner-round,BR-027,188432,16.11 21:06,9-Ball,Kolbasar Necmi,100134,4,Stotoglou Dimitrios,127067,1,Sanwald Cup
+3112,16.11.2026,4965,beginner-round,BR-030,188435,16.11 20:53,9-Ball,Rustempasic Adnan,136999,0,Waldecker Dennis,121726,4,Sanwald Cup
+3112,16.11.2026,4965,beginner-round,BR-031,188436,16.11 20:54,9-Ball,Reich Michael,108457,2,Werner Long,106028,4,Sanwald Cup
+3112,16.11.2026,4965,final,F-001,188528,17.11 02:37,9-Ball,Mahmoudi Armin,119553,4,Waldecker Dennis,121726,5,Sanwald Cup
+3112,16.11.2026,4965,loser-qualification,LQ-001,188518,17.11 01:07,9-Ball,Zillmann Andreas,117205,2,Kirli Tahsin,100233,4,Sanwald Cup
+3112,16.11.2026,4965,loser-qualification,LQ-002,188519,17.11 00:51,9-Ball,Kragolnik Dennis,126369,4,Curcio Giuseppe,100120,3,Sanwald Cup
+3112,16.11.2026,4965,loser-qualification,LQ-003,188520,17.11 00:47,9-Ball,Radunovic Danilo,100006,4,Di Noia David,120781,2,Sanwald Cup
+3112,16.11.2026,4965,loser-qualification,LQ-004,188521,17.11 00:50,9-Ball,Marx Elias,130448,0,Dayyani Aryan,105191,4,Sanwald Cup
+3112,16.11.2026,4965,loser-round-1,LR1-002,188439,16.11 21:20,9-Ball,Decker Armin_,117274,0,Ntokos Dimitrios,130467,4,Sanwald Cup
+3112,16.11.2026,4965,loser-round-2,LR2-001,188470,16.11 21:50,9-Ball,Nassar Ahmad,125332,1,Miric Kosta,108312,4,Sanwald Cup
+3112,16.11.2026,4965,loser-round-2,LR2-002,188471,16.11 22:32,9-Ball,Ntokos Dimitrios,130467,2,Sevens Raven,100005,4,Sanwald Cup
+3112,16.11.2026,4965,loser-round-2,LR2-003,188472,16.11 22:13,9-Ball,Voskar Sinisa,100334,4,Reinhart Costa,118742,0,Sanwald Cup
+3112,16.11.2026,4965,loser-round-2,LR2-004,188473,16.11 22:30,9-Ball,Boos Yvonne,137015,4,Shahverdi Mazi,100053,2,Sanwald Cup
+3112,16.11.2026,4965,loser-round-2,LR2-005,188474,16.11 22:13,9-Ball,Lechenbauer J.,127493,2,Kragolnik Dennis,126369,4,Sanwald Cup
+3112,16.11.2026,4965,loser-round-2,LR2-006,188475,16.11 22:15,9-Ball,Reinhart Georg,119326,0,Wagner Dirk,137321,4,Sanwald Cup
+3112,16.11.2026,4965,loser-round-2,LR2-007,188476,16.11 21:50,9-Ball,Tran Anh,105703,2,Öscan Yusuf,136501,4,Sanwald Cup
+3112,16.11.2026,4965,loser-round-2,LR2-008,188477,16.11 22:23,9-Ball,Paun Patrick,132981,0,Ketterlin Colin,130537,4,Sanwald Cup
+3112,16.11.2026,4965,loser-round-2,LR2-009,188478,16.11 21:57,9-Ball,Uttenweiler Jörg,168288,0,Marx Lukas,136905,4,Sanwald Cup
+3112,16.11.2026,4965,loser-round-2,LR2-010,188479,16.11 21:58,9-Ball,Fernandez Martinez A.,121491,1,Merbitz Daniel,100037,4,Sanwald Cup
+3112,16.11.2026,4965,loser-round-2,LR2-011,188480,16.11 22:51,9-Ball,Fuchs Luka,120711,2,Pontuti Claudio,100464,4,Sanwald Cup
+3112,16.11.2026,4965,loser-round-2,LR2-012,188481,16.11 21:50,9-Ball,Sce Carlo,100345,0,Radunovic Danilo,100006,4,Sanwald Cup
+3112,16.11.2026,4965,loser-round-2,LR2-013,188482,16.11 22:13,9-Ball,Marx Oliver,130415,4,siljeg Leo,137320,2,Sanwald Cup
+3112,16.11.2026,4965,loser-round-2,LR2-014,188483,16.11 21:50,9-Ball,Stotoglou Dimitrios,127067,3,Mnich Denis,101467,4,Sanwald Cup
+3112,16.11.2026,4965,loser-round-2,LR2-015,188484,16.11 21:50,9-Ball,Rustempasic Adnan,136999,4,Grabovac Berislav,100393,0,Sanwald Cup
+3112,16.11.2026,4965,loser-round-2,LR2-016,188485,16.11 22:32,9-Ball,Reich Michael,108457,4,Severino Claudio,137348,0,Sanwald Cup
+3112,16.11.2026,4965,loser-round-3,LR3-001,188494,16.11 23:34,9-Ball,Miric Kosta,108312,4,Sevens Raven,100005,3,Sanwald Cup
+3112,16.11.2026,4965,loser-round-3,LR3-002,188495,16.11 22:54,9-Ball,Voskar Sinisa,100334,4,Boos Yvonne,137015,0,Sanwald Cup
+3112,16.11.2026,4965,loser-round-3,LR3-003,188496,16.11 22:37,9-Ball,Kragolnik Dennis,126369,4,Wagner Dirk,137321,0,Sanwald Cup
+3112,16.11.2026,4965,loser-round-3,LR3-004,188497,16.11 23:03,9-Ball,Öscan Yusuf,136501,2,Ketterlin Colin,130537,4,Sanwald Cup
+3112,16.11.2026,4965,loser-round-3,LR3-005,188498,16.11 22:54,9-Ball,Marx Lukas,136905,4,Merbitz Daniel,100037,3,Sanwald Cup
+3112,16.11.2026,4965,loser-round-3,LR3-006,188499,16.11 23:24,9-Ball,Pontuti Claudio,100464,2,Radunovic Danilo,100006,4,Sanwald Cup
+3112,16.11.2026,4965,loser-round-3,LR3-007,188500,16.11 22:35,9-Ball,Marx Oliver,130415,4,Mnich Denis,101467,2,Sanwald Cup
+3112,16.11.2026,4965,loser-round-3,LR3-008,188501,16.11 23:08,9-Ball,Rustempasic Adnan,136999,2,Reich Michael,108457,4,Sanwald Cup
+3112,16.11.2026,4965,loser-round-4,LR4-001,188502,17.11 00:04,9-Ball,Miric Kosta,108312,0,Zillmann Andreas,117205,4,Sanwald Cup
+3112,16.11.2026,4965,loser-round-4,LR4-002,188503,16.11 23:38,9-Ball,Voskar Sinisa,100334,3,Sannwald Petra,103183,4,Sanwald Cup
+3112,16.11.2026,4965,loser-round-4,LR4-003,188504,16.11 23:36,9-Ball,Kragolnik Dennis,126369,4,Skalistiras Anton,103647,2,Sanwald Cup
+3112,16.11.2026,4965,loser-round-4,LR4-004,188505,16.11 23:36,9-Ball,Ketterlin Colin,130537,1,Heydarpour Saeid,100314,4,Sanwald Cup
+3112,16.11.2026,4965,loser-round-4,LR4-005,188506,16.11 23:18,9-Ball,Marx Lukas,136905,1,Kolbasar Necmi,100134,4,Sanwald Cup
+3112,16.11.2026,4965,loser-round-4,LR4-006,188507,16.11 23:44,9-Ball,Radunovic Danilo,100006,4,Werner Long,106028,1,Sanwald Cup
+3112,16.11.2026,4965,loser-round-4,LR4-007,188508,16.11 22:57,9-Ball,Marx Oliver,130415,2,Marx Elias,130448,4,Sanwald Cup
+3112,16.11.2026,4965,loser-round-4,LR4-008,188509,16.11 23:41,9-Ball,Reich Michael,108457,1,Tutucu Yusa,130629,4,Sanwald Cup
+3112,16.11.2026,4965,loser-round-5,LR5-001,188514,17.11 00:38,9-Ball,Zillmann Andreas,117205,4,Sannwald Petra,103183,2,Sanwald Cup
+3112,16.11.2026,4965,loser-round-5,LR5-002,188515,17.11 00:15,9-Ball,Kragolnik Dennis,126369,4,Heydarpour Saeid,100314,1,Sanwald Cup
+3112,16.11.2026,4965,loser-round-5,LR5-003,188516,17.11 00:15,9-Ball,Kolbasar Necmi,100134,1,Radunovic Danilo,100006,4,Sanwald Cup
+3112,16.11.2026,4965,loser-round-5,LR5-004,188517,17.11 00:20,9-Ball,Marx Elias,130448,4,Tutucu Yusa,130629,2,Sanwald Cup
+3112,16.11.2026,4965,quarter-final,QF-001,188522,17.11 01:40,9-Ball,Mahmoudi Armin,119553,5,Kragolnik Dennis,126369,2,Sanwald Cup
+3112,16.11.2026,4965,quarter-final,QF-002,188523,17.11 01:39,9-Ball,Kupfer Thomas,118343,2,Kirli Tahsin,100233,5,Sanwald Cup
+3112,16.11.2026,4965,quarter-final,QF-003,188524,17.11 02:14,9-Ball,Spanoudakis Marinos,116992,5,Radunovic Danilo,100006,4,Sanwald Cup
+3112,16.11.2026,4965,quarter-final,QF-004,188525,17.11 01:39,9-Ball,Waldecker Dennis,121726,5,Dayyani Aryan,105191,2,Sanwald Cup
+3112,16.11.2026,4965,semi-final,SF-001,188526,17.11 02:03,9-Ball,Mahmoudi Armin,119553,5,Kirli Tahsin,100233,2,Sanwald Cup
+3112,16.11.2026,4965,semi-final,SF-002,188527,17.11 02:37,9-Ball,Spanoudakis Marinos,116992,0,Waldecker Dennis,121726,5,Sanwald Cup
+3112,16.11.2026,4965,winner-round-1,WR1-001,188454,16.11 22:01,9-Ball,Pontuti Claudio,100464,3,Dayyani Aryan,105191,4,Sanwald Cup
+3112,16.11.2026,4965,winner-round-1,WR1-002,188455,16.11 21:33,9-Ball,Radunovic Danilo,100006,0,Skalistiras Anton,103647,4,Sanwald Cup
+3112,16.11.2026,4965,winner-round-1,WR1-003,188456,16.11 21:28,9-Ball,Marx Lukas,136905,1,Heydarpour Saeid,100314,4,Sanwald Cup
+3112,16.11.2026,4965,winner-round-1,WR1-004,188457,16.11 21:10,9-Ball,Merbitz Daniel,100037,3,Mahmoudi Armin,119553,4,Sanwald Cup
+3112,16.11.2026,4965,winner-round-1,WR1-005,188458,16.11 21:25,9-Ball,Grabovac Berislav,100393,1,Zillmann Andreas,117205,4,Sanwald Cup
+3112,16.11.2026,4965,winner-round-1,WR1-006,188459,16.11 21:16,9-Ball,Di Noia David,120781,4,Severino Claudio,137348,1,Sanwald Cup
+3112,16.11.2026,4965,winner-round-1,WR1-007,188460,16.11 21:30,9-Ball,siljeg Leo,137320,1,Kupfer Thomas,118343,4,Sanwald Cup
+3112,16.11.2026,4965,winner-round-1,WR1-008,188461,16.11 21:25,9-Ball,Mnich Denis,101467,1,Sannwald Petra,103183,4,Sanwald Cup
+3112,16.11.2026,4965,winner-round-1,WR1-009,188462,16.11 21:45,9-Ball,Marx Elias,130448,4,Reinhart Costa,118742,0,Sanwald Cup
+3112,16.11.2026,4965,winner-round-1,WR1-010,188463,16.11 21:43,9-Ball,Spanoudakis Marinos,116992,4,Shahverdi Mazi,100053,2,Sanwald Cup
+3112,16.11.2026,4965,winner-round-1,WR1-011,188464,16.11 21:30,9-Ball,Curcio Giuseppe,100120,4,Miric Kosta,108312,2,Sanwald Cup
+3112,16.11.2026,4965,winner-round-1,WR1-012,188465,16.11 21:48,9-Ball,Sevens Raven,100005,1,Tutucu Yusa,130629,4,Sanwald Cup
+3112,16.11.2026,4965,winner-round-1,WR1-013,188466,16.11 21:16,9-Ball,Öscan Yusuf,136501,0,Kirli Tahsin,100233,4,Sanwald Cup
+3112,16.11.2026,4965,winner-round-1,WR1-014,188467,16.11 21:55,9-Ball,Kolbasar Necmi,100134,4,Ketterlin Colin,130537,3,Sanwald Cup
+3112,16.11.2026,4965,winner-round-1,WR1-015,188468,16.11 21:40,9-Ball,Kragolnik Dennis,126369,3,Waldecker Dennis,121726,4,Sanwald Cup
+3112,16.11.2026,4965,winner-round-1,WR1-016,188469,16.11 21:45,9-Ball,Werner Long,106028,4,Wagner Dirk,137321,0,Sanwald Cup
+3112,16.11.2026,4965,winner-round-2,WR2-001,188486,16.11 22:56,9-Ball,Dayyani Aryan,105191,4,Skalistiras Anton,103647,2,Sanwald Cup
+3112,16.11.2026,4965,winner-round-2,WR2-002,188487,16.11 22:10,9-Ball,Heydarpour Saeid,100314,0,Mahmoudi Armin,119553,4,Sanwald Cup
+3112,16.11.2026,4965,winner-round-2,WR2-003,188488,16.11 22:09,9-Ball,Zillmann Andreas,117205,2,Di Noia David,120781,4,Sanwald Cup
+3112,16.11.2026,4965,winner-round-2,WR2-004,188489,16.11 22:37,9-Ball,Kupfer Thomas,118343,4,Sannwald Petra,103183,1,Sanwald Cup
+3112,16.11.2026,4965,winner-round-2,WR2-005,188490,16.11 22:19,9-Ball,Marx Elias,130448,0,Spanoudakis Marinos,116992,4,Sanwald Cup
+3112,16.11.2026,4965,winner-round-2,WR2-006,188491,16.11 22:43,9-Ball,Curcio Giuseppe,100120,4,Tutucu Yusa,130629,1,Sanwald Cup
+3112,16.11.2026,4965,winner-round-2,WR2-007,188492,16.11 22:29,9-Ball,Kirli Tahsin,100233,4,Kolbasar Necmi,100134,3,Sanwald Cup
+3112,16.11.2026,4965,winner-round-2,WR2-008,188493,16.11 22:16,9-Ball,Waldecker Dennis,121726,4,Werner Long,106028,0,Sanwald Cup
+3112,16.11.2026,4965,winner-round-3,WR3-001,188510,16.11 23:26,9-Ball,Dayyani Aryan,105191,0,Mahmoudi Armin,119553,4,Sanwald Cup
+3112,16.11.2026,4965,winner-round-3,WR3-002,188511,16.11 23:14,9-Ball,Di Noia David,120781,3,Kupfer Thomas,118343,4,Sanwald Cup
+3112,16.11.2026,4965,winner-round-3,WR3-003,188512,16.11 23:50,9-Ball,Spanoudakis Marinos,116992,4,Curcio Giuseppe,100120,3,Sanwald Cup
+3112,16.11.2026,4965,winner-round-3,WR3-004,188513,16.11 23:15,9-Ball,Kirli Tahsin,100233,3,Waldecker Dennis,121726,4,Sanwald Cup
